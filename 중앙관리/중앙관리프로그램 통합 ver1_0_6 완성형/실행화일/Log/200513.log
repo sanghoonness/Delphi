@@ -1,0 +1,76 @@
+[13:14:00] Program Start!
+[13:14:00] DB Connect Error:로그인에서 요청한 데이터베이스 "parking_1.3.0"을(를) 열 수 없습니다. 로그인이 실패했습니다
+[13:15:42] Program Start!
+[13:16:14] Program Start!
+[13:16:14] frmMainqryMainTemp: Parameter 'v1' not found
+[13:18:01] Program Start!
+[13:18:17] frmMainqryMainTemp: Parameter 'v1' not found
+[13:20:04] Program Start!
+[13:20:13] 현대통신포인트조회 컬럼추가 완료
+[13:21:10] Program Start!
+[13:21:11] frmMain각 테이블에서 열 이름은 고유해야 합니다. 테이블 'parkinfo'의 열 이름 'AvailablePoint'을(를) 두 번 이상 지정했습니다
+[13:21:38] Program Start!
+[13:21:51] frmMain각 테이블에서 열 이름은 고유해야 합니다. 테이블 'parkinfo'의 열 이름 'AvailablePoint'을(를) 두 번 이상 지정했습니다
+[13:22:02] Program Start!
+[13:22:02] frmMain각 테이블에서 열 이름은 고유해야 합니다. 테이블 'parkinfo'의 열 이름 'AvailablePoint'을(를) 두 번 이상 지정했습니다
+[13:22:29] Program Start!
+[13:23:15] frmMain각 테이블에서 열 이름은 고유해야 합니다. 테이블 'parkinfo'의 열 이름 'AvailablePoint'을(를) 두 번 이상 지정했습니다
+[13:26:27] Program Start!
+[13:26:32] frmMain각 테이블에서 열 이름은 고유해야 합니다. 테이블 'parkinfo'의 열 이름 'AvailablePoint'을(를) 두 번 이상 지정했습니다
+[13:27:05] Program Start!
+[13:27:12] frmMain각 테이블에서 열 이름은 고유해야 합니다. 테이블 'parkinfo'의 열 이름 'AvailablePoint'을(를) 두 번 이상 지정했습니다
+[13:27:52] Program Start!
+[13:30:48] Program Start!
+[13:30:48] 현대통신포인트조회 컬럼추가 완료
+[13:30:48] frmMain'Visit_Point' 근처의 구문이 잘못되었습니다
+[13:32:36] Program Start!
+[13:32:37] frmMain키워드 'ADD' 근처의 구문이 잘못되었습니다
+[13:34:05] Program Start!
+[13:34:05] 현대통신포인트조회 컬럼추가 완료
+[13:41:14] Program Start!
+[13:41:14] 현대통신포인트조회 컬럼추가 완료
+[13:41:14] frmMain열 이름 'name'이(가) 잘못되었습니다
+[13:43:22] Program Start!
+[13:43:22] frmMain'nullho' 근처의 구문이 잘못되었습니다
+[13:44:20] Program Start!
+[13:44:21] 현대통신포인트조회Table 생성 컬럼추가 완료
+[13:50:05] Program Start!
+[13:50:05] frmMain열 'AvailablePoint' 정의에는 데이터 형식이 포함되어야 합니다
+[13:53:15] Program Start!
+[13:53:15] frmMain'GOALTER' 근처의 구문이 잘못되었습니다
+[13:54:29] Program Start!
+[13:54:30] frmMain'GO' 근처의 구문이 잘못되었습니다
+[13:55:27] Program Start!
+[13:55:27] frmMain'GO' 근처의 구문이 잘못되었습니다
+[13:55:58] Program Start!
+[13:57:51] Program Start!
+[13:58:25] Program Start!
+[13:59:04] Program Start!
+[13:59:05] frmMain각 테이블에서 열 이름은 고유해야 합니다. 테이블 'Visit_Point'의 열 이름 'AvailablePoint'을(를) 두 번 이상 지정했습니다
+[14:00:31] Program Start!
+[14:00:38] frmMain각 테이블에서 열 이름은 고유해야 합니다. 테이블 'Visit_Point'의 열 이름 'AvailablePoint'을(를) 두 번 이상 지정했습니다
+[14:01:22] Program Start!
+[14:10:16] Program Start!
+[14:10:17] 현대통신포인트조회Table 생성 컬럼추가 완료
+[14:10:26] Program Start!
+[14:11:33] Program Start!
+[14:11:42] 현대통신포인트조회Table 생성 컬럼추가 완료
+[14:11:53] frmMain각 테이블에서 열 이름은 고유해야 합니다. 테이블 'Visit_Point'의 열 이름 'AvailablePoint'을(를) 두 번 이상 지정했습니다
+[14:14:51] Program Start!
+[14:14:52] frmMain키워드 'DEFAULT' 근처의 구문이 잘못되었습니다
+[14:16:11] Program Start!
+[14:17:47] Program Start!
+[14:17:59] frmMain키워드 'DEFAULT' 근처의 구문이 잘못되었습니다
+[14:18:27] Program Start!
+[14:19:27] Program Start!
+[14:19:33] frmMain'smallint' 근처의 구문이 잘못되었습니다
+[14:20:29] Program Start!
+[14:20:30] 현대통신포인트조회Table 생성 컬럼추가 완료
+[14:23:42] Program Start!
+[14:24:16] Program Start!
+[14:24:21] 현대통신포인트조회Table 생성 컬럼추가 완료
+[14:34:32] Program Start!
+[14:34:32] 현대통신포인트조회 컬럼추가 완료
+[14:34:32] 현대통신포인트조회Table 생성 컬럼추가 완료
+[14:45:00] Program Start!
+[14:45:00] 현대통신포인트조회 컬럼추가 완료

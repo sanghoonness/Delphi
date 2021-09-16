@@ -1,0 +1,98 @@
+unit InOutCarList;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Data.Win.ADODB, Vcl.Grids,
+  AdvObj, BaseGrid, AdvGrid, DBAdvGrid, Vcl.StdCtrls, Vcl.ComCtrls, Vcl.Buttons,
+  sBitBtn, Vcl.ExtCtrls, Vcl.ImgList;
+
+type
+  TfrmInOutCarList = class(TForm)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    btnFind: TsBitBtn;
+    GroupBox1: TGroupBox;
+    dtFrom: TDateTimePicker;
+    Label1: TLabel;
+    dtTo: TDateTimePicker;
+    Label2: TLabel;
+    btnExit: TsBitBtn;
+    grdInOutCar: TDBAdvGrid;
+    qryInOutCar: TADOQuery;
+    dsInOutCar: TDataSource;
+    ImageList1: TImageList;
+    procedure btnFindClick(Sender: TObject);
+    procedure btnExitClick(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmInOutCarList: TfrmInOutCarList;
+
+implementation
+
+uses
+  Tables;
+
+{$R *.dfm}
+
+procedure TfrmInOutCarList.btnExitClick(Sender: TObject);
+begin
+  Close;
+end;
+
+procedure TfrmInOutCarList.btnFindClick(Sender: TObject);
+begin
+  qryInOutCar.Close;
+  qryInOutCar.SQL.Clear;
+//  qryInOutCar.SQL.Add('Select t2.UnitName, t1.ProcDate, t1.ProcTime, t1.OutDate, t1.OutTime, ');
+//  qryInOutCar.SQL.Add('dbo.GetSecondToTime(DATEDIFF(s,CONVERT(CHAR(19), t1.ProcDate+'+QuotedStr(' ')+ '+t1.ProcTime, 20),CONVERT(CHAR(19), t1.OutDate+'+QuotedStr(' ')+ '+t1.OutTime, 20))) val1, ');
+//  qryInOutCar.SQL.Add('case when t1.OutDate is null then '+QuotedStr('미출차')+' else '+QuotedStr('출차')+'end val2, ');
+//  qryInOutCar.SQL.Add('case when t1.CompName = '+QuotedStr('')+' then '+QuotedStr('')+' else (t1.CompName+'+QuotedStr('동 ')+'+t1.DeptName+'+QuotedStr('호')+') end val3 ');
+//  qryInOutCar.SQL.Add('From IOSData t1 inner join UnitInfo t2 On t1.UnitNo = t2.UnitNo ');
+//  qryInOutCar.SQL.Add('Where t1.ProcDate between :v1 and :v2 ');
+//  qryInOutCar.SQL.Add('Order by t1.ProcDate+t1.ProcTime desc');
+
+  qryInOutCar.SQL.Add('select UnitName, ProcDate, ProcTime, OutDate, OutTime, val1, val2, val3   ');
+  qryInOutCar.SQL.Add('FROM(                                                                     ');
+  qryInOutCar.SQL.Add('Select t2.UnitName, t1.ProcDate, t1.ProcTime, t1.OutDate, t1.OutTime, ');
+  qryInOutCar.SQL.Add('dbo.GetSecondToTime(DATEDIFF(s,CONVERT(CHAR(19), t1.ProcDate+'+QuotedStr(' ')+ '+t1.ProcTime, 20),CONVERT(CHAR(19), t1.OutDate+'+QuotedStr(' ')+ '+t1.OutTime, 20))) val1, ');
+  qryInOutCar.SQL.Add('case when t1.OutDate is null then '+QuotedStr('미출차')+' else '+QuotedStr('출차')+'end val2, ');
+  qryInOutCar.SQL.Add('case when t1.CompName = '+QuotedStr('')+' then '+QuotedStr('')+' else (t1.CompName+'+QuotedStr('동 ')+'+t1.DeptName+'+QuotedStr('호')+') end val3 ');
+  qryInOutCar.SQL.Add('From IOSData t1 inner join UnitInfo t2 On t1.UnitNo = t2.UnitNo ');
+  //qryInOutCar.SQL.Add('Where t1.ProcDate between :v1 and :v2 and (t1.CompName+''동''+t1.DeptName+''호'') =''121동805호''  ');
+  qryInOutCar.SQL.Add('Where t1.ProcDate between :v1 and :v2 ');
+  qryInOutCar.SQL.Add('UNION ');
+  qryInOutCar.SQL.Add('Select t2.UnitName, t1.ProcDate, t1.ProcTime, t1.OutDate, t1.OutTime, ');
+  qryInOutCar.SQL.Add('dbo.GetSecondToTime(DATEDIFF(s,CONVERT(CHAR(19), t1.ProcDate+'+QuotedStr(' ')+ '+t1.ProcTime, 20),CONVERT(CHAR(19), t1.OutDate+'+QuotedStr(' ')+ '+t1.OutTime, 20))) val1, ');
+  qryInOutCar.SQL.Add('case when t1.OutDate is null then '+QuotedStr('미출차')+' else '+QuotedStr('출차')+'end val2, ');
+  //qryInOutCar.SQL.Add('case when t1.Reserve2 = '+QuotedStr('')+' then '+QuotedStr('')+' else (t1.Reserve2+'+QuotedStr('동 ')+'+t1.Reserve3+'+QuotedStr('호')+') end val3 ');
+  qryInOutCar.SQL.Add('case when t1.Reserve1 = '+QuotedStr('')+' then '+QuotedStr('')+' else '+QuotedStr('')+' end val3 ');
+  qryInOutCar.SQL.Add('From IONData t1 inner join UnitInfo t2 On t1.UnitNo = t2.UnitNo ');
+  //qryInOutCar.SQL.Add('Where t1.ProcDate between :v3 and :v4 and (t1.Reserve2+''동''+t1.Reserve3+''호'') =''121동805호'' ');
+  qryInOutCar.SQL.Add('Where t1.ProcDate between :v3 and :v4 ');
+  qryInOutCar.SQL.Add(' )ION_IOS_DATA ');
+	qryInOutCar.SQL.Add('Order by ProcDate+ProcTime desc ');
+
+  qryInOutCar.Parameters.ParamByName('v1').Value := FormatDateTime('yyyy-mm-dd',dtFrom.Date);
+  qryInOutCar.Parameters.ParamByName('v2').Value := FormatDateTime('yyyy-mm-dd',dtTo.Date);
+  qryInOutCar.Parameters.ParamByName('v3').Value := FormatDateTime('yyyy-mm-dd',dtFrom.Date);
+  qryInOutCar.Parameters.ParamByName('v4').Value := FormatDateTime('yyyy-mm-dd',dtTo.Date);
+  qryInOutCar.Open;
+
+  grdInOutCar.AutoSize := True;
+end;
+
+procedure TfrmInOutCarList.FormShow(Sender: TObject);
+begin
+  dtFrom.Date := now;
+  dtTo.Date := now;
+end;
+
+end.

@@ -1,0 +1,80 @@
+[10:20:32] Program Start!
+[10:20:39] TfrmMain.FormShow: Access violation at address 0040B2F0 in module 'Nexpa_Host.exe'. Read of address 00000090
+[10:21:47] Program Start!
+[10:21:51] TfrmMain.FormShow: Access violation at address 0040B2F0 in module 'Nexpa_Host.exe'. Read of address 00000090
+[10:22:01] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:22:28] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+And reserve2 = :N4 
+And reserve3 = :N5 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:22:31] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+And reserve2 = :N4 
+And reserve3 = :N5 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:22:36] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+And reserve2 = :N4 
+And reserve3 = :N5 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:23:56] Program Start!
+[10:24:07] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:24:25] Program Start!
+[10:24:40] Program Start!
+[10:24:56] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+And reserve2 = :N4 
+And reserve3 = :N5 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:26:50] Program Start!
+[10:27:02] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+And reserve2 = :N4 
+And reserve3 = :N5 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:27:16] Program Start!
+[10:27:31] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+And reserve2 = :N4 
+And reserve3 = :N5 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:28:16] Program Start!
+[10:28:28] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+And reserve2 = :N4 
+And reserve3 = :N5 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:29:12] Program Start!
+[10:29:21] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+And reserve2 = :N4 
+And reserve3 = :N5 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:29:33] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:31:57] Program Start!
+[10:32:11] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+And reserve2 = :N4 
+And reserve3 = :N5 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:32:14] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+And reserve2 = :N4 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:32:17] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[17:03:03] Program Start!
+[17:03:11] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[17:06:20] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+

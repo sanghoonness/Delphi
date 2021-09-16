@@ -1,0 +1,20 @@
+[17:45:56] Program Start!
+[17:47:06] Program Start!
+[17:56:04] Program Start!
+[17:56:18] TfrmCustInfo.btnDeleteClick1: qryCustInfo: Parameter 'N1' not found
+[17:56:18] delete From custinfo Where CarNo in ('12가1233','12가1114')
+
+[18:05:13] Program Start!
+[18:05:55] Program Start!
+[18:05:56] 정기차량 백업 테이블 생성 컬럼추가 완료
+[18:06:26] TfrmCustInfo.btnDeleteClick1: 매개 변수 개체를 잘못 정의했습니다. 제공된 정보가 일치하지 않거나 완전하지 않습니다
+[18:06:26] delete From custinfo Where CarNo in ('02가1111','01가9999')
+
+[18:09:01] Program Start!
+[18:10:16] Program Start!
+[18:10:35] TfrmCustInfo.btnDeleteClick1: 제공된 값의 개수나 열 이름이 테이블 정의와 일치하지 않습니다
+[18:10:35] delete From custinfo Where CarNo in ('01가1234','02가9999')
+
+[18:37:09] Program Start!
+[18:37:58] Program Start!
+[18:38:18] TfrmCustInfo.btnDeleteClick : 정기차량정보 백업 '55너5555','42라8102'

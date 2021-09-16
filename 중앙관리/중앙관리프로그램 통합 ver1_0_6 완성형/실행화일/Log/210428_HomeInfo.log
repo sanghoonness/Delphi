@@ -1,0 +1,10 @@
+[13:55:29] EasyOnHomeInfo.pas: Line: 1587,  미들웨어 소켓생성 성공!
+[13:55:29] EasyOnHomeInfo.pas: Line: 1610,  Open IP:127.0.0.1, Port:42140
+[13:55:48] EasyOnHomeInfo.pas: Line: 1365,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,1,1,,세대포인트)
+[13:55:48] EasyOnHomeInfo.pas: Line: 1525,  Send json..
+[13:55:48] EasyOnHomeInfo.pas: Line: 256,  {"command":"sync_assign","data":{"list":[{"park_no":"1","dong":"1","ho":"1","type":"MINUTE","enable_point":"10000","used_point":"9533","acp_date":"20210401","exp_date":"20210430"}]}} [Len:182]
+[13:55:48] EasyOnHomeInfo.pas: Line: 1541,  <<< Homeinfo_proc_EasyOn(..)
+[14:11:53] EasyOnHomeInfo.pas: Line: 1365,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,1,1,,세대포인트)
+[14:11:53] EasyOnHomeInfo.pas: Line: 1525,  Send json..
+[14:11:53] EasyOnHomeInfo.pas: Line: 256,  {"command":"sync_assign","data":{"list":[{"park_no":"1","dong":"1","ho":"1","type":"MINUTE","enable_point":"10000","used_point":"9533","acp_date":"20210401","exp_date":"20210430"}]}} [Len:182]
+[14:11:53] EasyOnHomeInfo.pas: Line: 1541,  <<< Homeinfo_proc_EasyOn(..)

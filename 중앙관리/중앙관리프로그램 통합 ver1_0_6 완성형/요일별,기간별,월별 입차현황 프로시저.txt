@@ -1,0 +1,367 @@
+USE [PARKING]
+GO
+/****** Object:  StoredProcedure [dbo].[SP_DAY_IOS_ION_DATA_COUNT]    Script Date: 2020-01-22 10:05:20 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[SP_DAY_IOS_ION_DATA_COUNT]
+(
+    @NO_NUM  int,
+    @SDate VARCHAR(50),--시작일자
+    @EDate VARCHAR(50), --종료일자
+	@ParkNo VARCHAR(50), --주차장소순번
+	@ParkName VARCHAR(50) --주차장소이름
+
+)
+AS
+BEGIN
+SET NOCOUNT ON 
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+
+DECLARE @NO_NUM2 int
+DECLARE @SDate2 VARCHAR(50)
+DECLARE @EDate2 VARCHAR(50)
+DECLARE @ParkNo2 VARCHAR(50)
+DECLARE @ParkName2 VARCHAR(50)
+
+SET @NO_NUM2 = @NO_NUM
+SET @SDate2 = @SDate
+SET @EDate2 = @EDate
+SET @ParkNo2 = @ParkNo
+SET @ParkName2 = @ParkName
+
+--DECLARE @ParkName2 VARCHAR(50)
+--DECLARE @ProcDate VARCHAR(50)
+--DECLARE @Group VARCHAR(50)
+--DECLARE @Group2 VARCHAR(50)
+
+
+--IF @ParkName2 = '전체' 
+--BEGIN
+--  SET @ParkName2 =''  
+--END
+--ELSE
+--BEGIN
+--  SET @ParkName2 ='and ParkNo=@ParkNo' 
+--END
+
+--IF @NO_NUM = 1 
+--BEGIN
+--    SET @ProcDay = 'ProcDay'	
+--	SET @Group = 'DATENAME(WEEKDAY, ProcDate)'		
+--END
+--ELSE IF @NO_NUM = 2
+--BEGIN
+--    SET @ProcDate = 'ProcDate'
+--	SET @Group2 = 'ProcDate'
+--END
+--요일별 입차 현황
+IF @NO_NUM = 1 
+BEGIN	
+select ISNULL(ProcDay,'합계') as ProcDay,
+	   ISNULL(SUM(Count0),0) as '00', ISNULL(SUM(Count1),0) as '01', ISNULL(SUM(Count2),0) as '02', ISNULL(SUM(Count3),0) as '03', ISNULL(SUM(Count4),0) as '04', ISNULL(SUM(Count5),0) as '05', ISNULL(SUM(Count6),0) as '06', ISNULL(SUM(Count7),0) as '07',
+       ISNULL(SUM(Count8),0) as '08',ISNULL(SUM(Count9),0) as '09',ISNULL(SUM(Count10),0) as '10',ISNULL(SUM(Count11),0) as '11',ISNULL(SUM(Count12),0) as '12',ISNULL(SUM(Count13),0) as '13',ISNULL(SUM(Count14),0) as '14',ISNULL(SUM(Count15),0) as '15',
+	   ISNULL(SUM(Count16),0) as '16',ISNULL(SUM(Count17),0) as '17',ISNULL(SUM(Count18),0) as '18',ISNULL(SUM(Count19),0) as '19',ISNULL(SUM(Count20),0) as '20',ISNULL(SUM(Count21),0) as '21',ISNULL(SUM(Count22),0) as '22',ISNULL(SUM(Count23),0) as '23',
+	   SUM(TotalDay) as TotalDay
+FROM(	
+	  select  
+	  DATENAME(WEEKDAY, ProcDate) as ProcDay,    
+	  COUNT(case WHEN datename(hh, proctime)= 00 then 1 end) as Count0,
+	  COUNT(case WHEN datename(hh, proctime)= 01 then 1 end) as Count1,
+	  COUNT(case WHEN datename(hh, proctime)= 02 then 1 end) as Count2,
+	  COUNT(case WHEN datename(hh, proctime)= 02 then 1 end) as Count3,
+	  COUNT(case WHEN datename(hh, proctime)= 04 then 1 end) as Count4,
+	  COUNT(case WHEN datename(hh, proctime)= 05 then 1 end) as Count5,
+	  COUNT(case WHEN datename(hh, proctime)= 06 then 1 end) as Count6,
+	  COUNT(case WHEN datename(hh, proctime)= 07 then 1 end) as Count7,
+	  COUNT(case WHEN datename(hh, proctime)= 08 then 1 end) as Count8,
+	  COUNT(case WHEN datename(hh, proctime)= 09 then 1 end) as Count9,
+	  COUNT(case WHEN datename(hh, proctime)= 10 then 1 end) as Count10,
+	  COUNT(case WHEN datename(hh, proctime)= 11 then 1 end) as Count11,
+	  COUNT(case WHEN datename(hh, proctime)= 12 then 1 end) as Count12,
+	  COUNT(case WHEN datename(hh, proctime)= 13 then 1 end) as Count13,
+	  COUNT(case WHEN datename(hh, proctime)= 14 then 1 end) as Count14,
+	  COUNT(case WHEN datename(hh, proctime)= 15 then 1 end) as Count15,
+	  COUNT(case WHEN datename(hh, proctime)= 16 then 1 end) as Count16,
+	  COUNT(case WHEN datename(hh, proctime)= 17 then 1 end) as Count17,
+	  COUNT(case WHEN datename(hh, proctime)= 18 then 1 end) as Count18,
+	  COUNT(case WHEN datename(hh, proctime)= 19 then 1 end) as Count19,
+	  COUNT(case WHEN datename(hh, proctime)= 20 then 1 end) as Count20,
+	  COUNT(case WHEN datename(hh, proctime)= 21 then 1 end) as Count21,
+	  COUNT(case WHEN datename(hh, proctime)= 22 then 1 end) as Count22,
+	  COUNT(case WHEN datename(hh, proctime)= 23 then 1 end) as Count23,
+	  COUNT(*)  as TotalDay
+	  from IONData
+	  where (@ParkName<>'전체' and procdate>=@SDate2 and procdate<=@EDate2 and ParkNo=@ParkNo2) or (@ParkName='전체' and procdate>=@SDate2 and procdate<=@EDate2)
+	  Group BY DATENAME(WEEKDAY, ProcDate)	 
+	  WITH ROLLUP
+	  UNION  
+	  select    
+	  DATENAME(WEEKDAY, ProcDate) as ProcDay,  
+	  COUNT(case WHEN datename(hh, proctime)= 00 then 1 end) as Count0,
+	  COUNT(case WHEN datename(hh, proctime)= 01 then 1 end) as Count1,
+	  COUNT(case WHEN datename(hh, proctime)= 02 then 1 end) as Count2,
+	  COUNT(case WHEN datename(hh, proctime)= 02 then 1 end) as Count3,
+	  COUNT(case WHEN datename(hh, proctime)= 04 then 1 end) as Count4,
+	  COUNT(case WHEN datename(hh, proctime)= 05 then 1 end) as Count5,
+	  COUNT(case WHEN datename(hh, proctime)= 06 then 1 end) as Count6,
+	  COUNT(case WHEN datename(hh, proctime)= 07 then 1 end) as Count7,
+	  COUNT(case WHEN datename(hh, proctime)= 08 then 1 end) as Count8,
+	  COUNT(case WHEN datename(hh, proctime)= 09 then 1 end) as Count9,
+	  COUNT(case WHEN datename(hh, proctime)= 10 then 1 end) as Count10,
+	  COUNT(case WHEN datename(hh, proctime)= 11 then 1 end) as Count11,
+	  COUNT(case WHEN datename(hh, proctime)= 12 then 1 end) as Count12,
+	  COUNT(case WHEN datename(hh, proctime)= 13 then 1 end) as Count13,
+	  COUNT(case WHEN datename(hh, proctime)= 14 then 1 end) as Count14,
+	  COUNT(case WHEN datename(hh, proctime)= 15 then 1 end) as Count15,
+	  COUNT(case WHEN datename(hh, proctime)= 16 then 1 end) as Count16,
+	  COUNT(case WHEN datename(hh, proctime)= 17 then 1 end) as Count17,
+	  COUNT(case WHEN datename(hh, proctime)= 18 then 1 end) as Count18,
+	  COUNT(case WHEN datename(hh, proctime)= 19 then 1 end) as Count19,
+	  COUNT(case WHEN datename(hh, proctime)= 20 then 1 end) as Count20,
+	  COUNT(case WHEN datename(hh, proctime)= 21 then 1 end) as Count21,
+	  COUNT(case WHEN datename(hh, proctime)= 22 then 1 end) as Count22,
+	  COUNT(case WHEN datename(hh, proctime)= 23 then 1 end) as Count23,
+	  COUNT(*)  as TotalDay
+	  from IOSData	
+	  where (@ParkName2<>'전체' and procdate>=@SDate2 and procdate<=@EDate2 and ParkNo=@ParkNo2) or (@ParkName2='전체' and procdate>=@SDate2 and procdate<=@EDate2)
+	  Group BY DATENAME(WEEKDAY, ProcDate)	 
+	  WITH ROLLUP
+  )COUNT_IOS_ION_DATA
+  Group BY ProcDay  
+  order by ProcDay
+END
+--기간별 입차 현황
+ELSE IF @NO_NUM = 2
+BEGIN
+select ISNULL(ProcDate,'합계') as ProcDate,
+	   ISNULL(SUM(Count0),0) as '00', ISNULL(SUM(Count1),0) as '01', ISNULL(SUM(Count2),0) as '02', ISNULL(SUM(Count3),0) as '03', ISNULL(SUM(Count4),0) as '04', ISNULL(SUM(Count5),0) as '05', ISNULL(SUM(Count6),0) as '06', ISNULL(SUM(Count7),0) as '07',
+       ISNULL(SUM(Count8),0) as '08',ISNULL(SUM(Count9),0) as '09',ISNULL(SUM(Count10),0) as '10',ISNULL(SUM(Count11),0) as '11',ISNULL(SUM(Count12),0) as '12',ISNULL(SUM(Count13),0) as '13',ISNULL(SUM(Count14),0) as '14',ISNULL(SUM(Count15),0) as '15',
+	   ISNULL(SUM(Count16),0) as '16',ISNULL(SUM(Count17),0) as '17',ISNULL(SUM(Count18),0) as '18',ISNULL(SUM(Count19),0) as '19',ISNULL(SUM(Count20),0) as '20',ISNULL(SUM(Count21),0) as '21',ISNULL(SUM(Count22),0) as '22',ISNULL(SUM(Count23),0) as '23',
+	   SUM(TotalDay) as TotalDate
+FROM(	
+	  select  
+	  ProcDate,    
+	  COUNT(case WHEN datename(hh, proctime)= 00 then 1 end) as Count0,
+	  COUNT(case WHEN datename(hh, proctime)= 01 then 1 end) as Count1,
+	  COUNT(case WHEN datename(hh, proctime)= 02 then 1 end) as Count2,
+	  COUNT(case WHEN datename(hh, proctime)= 02 then 1 end) as Count3,
+	  COUNT(case WHEN datename(hh, proctime)= 04 then 1 end) as Count4,
+	  COUNT(case WHEN datename(hh, proctime)= 05 then 1 end) as Count5,
+	  COUNT(case WHEN datename(hh, proctime)= 06 then 1 end) as Count6,
+	  COUNT(case WHEN datename(hh, proctime)= 07 then 1 end) as Count7,
+	  COUNT(case WHEN datename(hh, proctime)= 08 then 1 end) as Count8,
+	  COUNT(case WHEN datename(hh, proctime)= 09 then 1 end) as Count9,
+	  COUNT(case WHEN datename(hh, proctime)= 10 then 1 end) as Count10,
+	  COUNT(case WHEN datename(hh, proctime)= 11 then 1 end) as Count11,
+	  COUNT(case WHEN datename(hh, proctime)= 12 then 1 end) as Count12,
+	  COUNT(case WHEN datename(hh, proctime)= 13 then 1 end) as Count13,
+	  COUNT(case WHEN datename(hh, proctime)= 14 then 1 end) as Count14,
+	  COUNT(case WHEN datename(hh, proctime)= 15 then 1 end) as Count15,
+	  COUNT(case WHEN datename(hh, proctime)= 16 then 1 end) as Count16,
+	  COUNT(case WHEN datename(hh, proctime)= 17 then 1 end) as Count17,
+	  COUNT(case WHEN datename(hh, proctime)= 18 then 1 end) as Count18,
+	  COUNT(case WHEN datename(hh, proctime)= 19 then 1 end) as Count19,
+	  COUNT(case WHEN datename(hh, proctime)= 20 then 1 end) as Count20,
+	  COUNT(case WHEN datename(hh, proctime)= 21 then 1 end) as Count21,
+	  COUNT(case WHEN datename(hh, proctime)= 22 then 1 end) as Count22,
+	  COUNT(case WHEN datename(hh, proctime)= 23 then 1 end) as Count23,
+	  COUNT(*)  as TotalDay
+	  from IONData
+	  where (@ParkName<>'전체' and procdate>=@SDate2 and procdate<=@EDate2 and ParkNo=@ParkNo2) or (@ParkName='전체' and procdate>=@SDate2 and procdate<=@EDate2)
+	  Group BY ProcDate
+	  WITH ROLLUP
+	  UNION  
+	  select    
+	  ProcDate,  
+	  COUNT(case WHEN datename(hh, proctime)= 00 then 1 end) as Count0,
+	  COUNT(case WHEN datename(hh, proctime)= 01 then 1 end) as Count1,
+	  COUNT(case WHEN datename(hh, proctime)= 02 then 1 end) as Count2,
+	  COUNT(case WHEN datename(hh, proctime)= 02 then 1 end) as Count3,
+	  COUNT(case WHEN datename(hh, proctime)= 04 then 1 end) as Count4,
+	  COUNT(case WHEN datename(hh, proctime)= 05 then 1 end) as Count5,
+	  COUNT(case WHEN datename(hh, proctime)= 06 then 1 end) as Count6,
+	  COUNT(case WHEN datename(hh, proctime)= 07 then 1 end) as Count7,
+	  COUNT(case WHEN datename(hh, proctime)= 08 then 1 end) as Count8,
+	  COUNT(case WHEN datename(hh, proctime)= 09 then 1 end) as Count9,
+	  COUNT(case WHEN datename(hh, proctime)= 10 then 1 end) as Count10,
+	  COUNT(case WHEN datename(hh, proctime)= 11 then 1 end) as Count11,
+	  COUNT(case WHEN datename(hh, proctime)= 12 then 1 end) as Count12,
+	  COUNT(case WHEN datename(hh, proctime)= 13 then 1 end) as Count13,
+	  COUNT(case WHEN datename(hh, proctime)= 14 then 1 end) as Count14,
+	  COUNT(case WHEN datename(hh, proctime)= 15 then 1 end) as Count15,
+	  COUNT(case WHEN datename(hh, proctime)= 16 then 1 end) as Count16,
+	  COUNT(case WHEN datename(hh, proctime)= 17 then 1 end) as Count17,
+	  COUNT(case WHEN datename(hh, proctime)= 18 then 1 end) as Count18,
+	  COUNT(case WHEN datename(hh, proctime)= 19 then 1 end) as Count19,
+	  COUNT(case WHEN datename(hh, proctime)= 20 then 1 end) as Count20,
+	  COUNT(case WHEN datename(hh, proctime)= 21 then 1 end) as Count21,
+	  COUNT(case WHEN datename(hh, proctime)= 22 then 1 end) as Count22,
+	  COUNT(case WHEN datename(hh, proctime)= 23 then 1 end) as Count23,
+	  COUNT(*)  as TotalDate
+	  from IOSData	 
+	  where (@ParkName<>'전체' and procdate>=@SDate2 and procdate<=@EDate2 and ParkNo=@ParkNo2) or (@ParkName='전체' and procdate>=@SDate2 and procdate<=@EDate2)
+	  Group BY ProcDate
+	  WITH ROLLUP
+  )COUNT_IOS_ION_DATA
+  Group BY ProcDate  
+  order by ProcDate
+END
+--월별 입차 현황
+ELSE IF @NO_NUM = 3
+BEGIN
+select ISNULL(ProcMonth,'합계') as ProcMonth,
+	   ISNULL(SUM(Count0),0) as '00', ISNULL(SUM(Count1),0) as '01', ISNULL(SUM(Count2),0) as '02', ISNULL(SUM(Count3),0) as '03', ISNULL(SUM(Count4),0) as '04', ISNULL(SUM(Count5),0) as '05', ISNULL(SUM(Count6),0) as '06', ISNULL(SUM(Count7),0) as '07',
+       ISNULL(SUM(Count8),0) as '08',ISNULL(SUM(Count9),0) as '09',ISNULL(SUM(Count10),0) as '10',ISNULL(SUM(Count11),0) as '11',ISNULL(SUM(Count12),0) as '12',ISNULL(SUM(Count13),0) as '13',ISNULL(SUM(Count14),0) as '14',ISNULL(SUM(Count15),0) as '15',
+	   ISNULL(SUM(Count16),0) as '16',ISNULL(SUM(Count17),0) as '17',ISNULL(SUM(Count18),0) as '18',ISNULL(SUM(Count19),0) as '19',ISNULL(SUM(Count20),0) as '20',ISNULL(SUM(Count21),0) as '21',ISNULL(SUM(Count22),0) as '22',ISNULL(SUM(Count23),0) as '23',
+	   SUM(TotalMonth) as TotalMonth
+FROM(	
+	  select  
+	  LEFT(procdate,7) as ProcMonth,    
+	  COUNT(case WHEN datename(hh, proctime)= 00 then 1 end) as Count0,
+	  COUNT(case WHEN datename(hh, proctime)= 01 then 1 end) as Count1,
+	  COUNT(case WHEN datename(hh, proctime)= 02 then 1 end) as Count2,
+	  COUNT(case WHEN datename(hh, proctime)= 02 then 1 end) as Count3,
+	  COUNT(case WHEN datename(hh, proctime)= 04 then 1 end) as Count4,
+	  COUNT(case WHEN datename(hh, proctime)= 05 then 1 end) as Count5,
+	  COUNT(case WHEN datename(hh, proctime)= 06 then 1 end) as Count6,
+	  COUNT(case WHEN datename(hh, proctime)= 07 then 1 end) as Count7,
+	  COUNT(case WHEN datename(hh, proctime)= 08 then 1 end) as Count8,
+	  COUNT(case WHEN datename(hh, proctime)= 09 then 1 end) as Count9,
+	  COUNT(case WHEN datename(hh, proctime)= 10 then 1 end) as Count10,
+	  COUNT(case WHEN datename(hh, proctime)= 11 then 1 end) as Count11,
+	  COUNT(case WHEN datename(hh, proctime)= 12 then 1 end) as Count12,
+	  COUNT(case WHEN datename(hh, proctime)= 13 then 1 end) as Count13,
+	  COUNT(case WHEN datename(hh, proctime)= 14 then 1 end) as Count14,
+	  COUNT(case WHEN datename(hh, proctime)= 15 then 1 end) as Count15,
+	  COUNT(case WHEN datename(hh, proctime)= 16 then 1 end) as Count16,
+	  COUNT(case WHEN datename(hh, proctime)= 17 then 1 end) as Count17,
+	  COUNT(case WHEN datename(hh, proctime)= 18 then 1 end) as Count18,
+	  COUNT(case WHEN datename(hh, proctime)= 19 then 1 end) as Count19,
+	  COUNT(case WHEN datename(hh, proctime)= 20 then 1 end) as Count20,
+	  COUNT(case WHEN datename(hh, proctime)= 21 then 1 end) as Count21,
+	  COUNT(case WHEN datename(hh, proctime)= 22 then 1 end) as Count22,
+	  COUNT(case WHEN datename(hh, proctime)= 23 then 1 end) as Count23,
+	  COUNT(*)  as TotalMonth
+	  from IONData
+	  where (@ParkName<>'전체' and LEFT(procdate,7)>=@SDate2 and LEFT(procdate,7)<=@EDate2 and ParkNo=@ParkNo2) or (@ParkName='전체' and LEFT(procdate,7)>=@SDate2 and LEFT(procdate,7)<=@EDate2)
+	  Group BY LEFT(procdate,7) 
+	  WITH ROLLUP
+	  UNION  
+	  select    
+	  LEFT(procdate,7) as ProcMonth,  
+	  COUNT(case WHEN datename(hh, proctime)= 00 then 1 end) as Count0,
+	  COUNT(case WHEN datename(hh, proctime)= 01 then 1 end) as Count1,
+	  COUNT(case WHEN datename(hh, proctime)= 02 then 1 end) as Count2,
+	  COUNT(case WHEN datename(hh, proctime)= 02 then 1 end) as Count3,
+	  COUNT(case WHEN datename(hh, proctime)= 04 then 1 end) as Count4,
+	  COUNT(case WHEN datename(hh, proctime)= 05 then 1 end) as Count5,
+	  COUNT(case WHEN datename(hh, proctime)= 06 then 1 end) as Count6,
+	  COUNT(case WHEN datename(hh, proctime)= 07 then 1 end) as Count7,
+	  COUNT(case WHEN datename(hh, proctime)= 08 then 1 end) as Count8,
+	  COUNT(case WHEN datename(hh, proctime)= 09 then 1 end) as Count9,
+	  COUNT(case WHEN datename(hh, proctime)= 10 then 1 end) as Count10,
+	  COUNT(case WHEN datename(hh, proctime)= 11 then 1 end) as Count11,
+	  COUNT(case WHEN datename(hh, proctime)= 12 then 1 end) as Count12,
+	  COUNT(case WHEN datename(hh, proctime)= 13 then 1 end) as Count13,
+	  COUNT(case WHEN datename(hh, proctime)= 14 then 1 end) as Count14,
+	  COUNT(case WHEN datename(hh, proctime)= 15 then 1 end) as Count15,
+	  COUNT(case WHEN datename(hh, proctime)= 16 then 1 end) as Count16,
+	  COUNT(case WHEN datename(hh, proctime)= 17 then 1 end) as Count17,
+	  COUNT(case WHEN datename(hh, proctime)= 18 then 1 end) as Count18,
+	  COUNT(case WHEN datename(hh, proctime)= 19 then 1 end) as Count19,
+	  COUNT(case WHEN datename(hh, proctime)= 20 then 1 end) as Count20,
+	  COUNT(case WHEN datename(hh, proctime)= 21 then 1 end) as Count21,
+	  COUNT(case WHEN datename(hh, proctime)= 22 then 1 end) as Count22,
+	  COUNT(case WHEN datename(hh, proctime)= 23 then 1 end) as Count23,
+	  COUNT(*)  as TotalMonth
+	  from IOSData	
+	  where (@ParkName<>'전체' and LEFT(procdate,7)>=@SDate2 and LEFT(procdate,7)<=@EDate2 and ParkNo=@ParkNo2) or (@ParkName='전체' and LEFT(procdate,7)>=@SDate2 and LEFT(procdate,7)<=@EDate2)
+	  Group BY LEFT(procdate,7) 
+	  WITH ROLLUP
+  )COUNT_IOS_ION_DATA
+  Group BY ProcMonth 
+  order by ProcMonth
+END
+
+--일별 입차 현황
+ELSE IF @NO_NUM = 4
+BEGIN
+select ISNULL(ParkName,'합계') as ParkName,
+	   ISNULL(SUM(Count0),0) as '00', ISNULL(SUM(Count1),0) as '01', ISNULL(SUM(Count2),0) as '02', ISNULL(SUM(Count3),0) as '03', ISNULL(SUM(Count4),0) as '04', ISNULL(SUM(Count5),0) as '05', ISNULL(SUM(Count6),0) as '06', ISNULL(SUM(Count7),0) as '07',
+       ISNULL(SUM(Count8),0) as '08',ISNULL(SUM(Count9),0) as '09',ISNULL(SUM(Count10),0) as '10',ISNULL(SUM(Count11),0) as '11',ISNULL(SUM(Count12),0) as '12',ISNULL(SUM(Count13),0) as '13',ISNULL(SUM(Count14),0) as '14',ISNULL(SUM(Count15),0) as '15',
+	   ISNULL(SUM(Count16),0) as '16',ISNULL(SUM(Count17),0) as '17',ISNULL(SUM(Count18),0) as '18',ISNULL(SUM(Count19),0) as '19',ISNULL(SUM(Count20),0) as '20',ISNULL(SUM(Count21),0) as '21',ISNULL(SUM(Count22),0) as '22',ISNULL(SUM(Count23),0) as '23',
+	   SUM(TotalDay) as TotalDay
+FROM(	
+	  select  
+	  B.ParkName as ParkName,	 
+	  COUNT(case WHEN datename(hh, proctime)= 00 then 1 end) as Count0,
+	  COUNT(case WHEN datename(hh, proctime)= 01 then 1 end) as Count1,
+	  COUNT(case WHEN datename(hh, proctime)= 02 then 1 end) as Count2,
+	  COUNT(case WHEN datename(hh, proctime)= 02 then 1 end) as Count3,
+	  COUNT(case WHEN datename(hh, proctime)= 04 then 1 end) as Count4,
+	  COUNT(case WHEN datename(hh, proctime)= 05 then 1 end) as Count5,
+	  COUNT(case WHEN datename(hh, proctime)= 06 then 1 end) as Count6,
+	  COUNT(case WHEN datename(hh, proctime)= 07 then 1 end) as Count7,
+	  COUNT(case WHEN datename(hh, proctime)= 08 then 1 end) as Count8,
+	  COUNT(case WHEN datename(hh, proctime)= 09 then 1 end) as Count9,
+	  COUNT(case WHEN datename(hh, proctime)= 10 then 1 end) as Count10,
+	  COUNT(case WHEN datename(hh, proctime)= 11 then 1 end) as Count11,
+	  COUNT(case WHEN datename(hh, proctime)= 12 then 1 end) as Count12,
+	  COUNT(case WHEN datename(hh, proctime)= 13 then 1 end) as Count13,
+	  COUNT(case WHEN datename(hh, proctime)= 14 then 1 end) as Count14,
+	  COUNT(case WHEN datename(hh, proctime)= 15 then 1 end) as Count15,
+	  COUNT(case WHEN datename(hh, proctime)= 16 then 1 end) as Count16,
+	  COUNT(case WHEN datename(hh, proctime)= 17 then 1 end) as Count17,
+	  COUNT(case WHEN datename(hh, proctime)= 18 then 1 end) as Count18,
+	  COUNT(case WHEN datename(hh, proctime)= 19 then 1 end) as Count19,
+	  COUNT(case WHEN datename(hh, proctime)= 20 then 1 end) as Count20,
+	  COUNT(case WHEN datename(hh, proctime)= 21 then 1 end) as Count21,
+	  COUNT(case WHEN datename(hh, proctime)= 22 then 1 end) as Count22,
+	  COUNT(case WHEN datename(hh, proctime)= 23 then 1 end) as Count23,
+	  COUNT(*)  as TotalDay
+	  from IONData	A LEFT JOIN ParkInfo B ON A.ParkNo = B.ParkNo
+	  where (@ParkName<>'전체' and procdate=@SDate and A.ParkNo=@ParkNo) or (@ParkName='전체' and procdate=@SDate)	  
+	  Group BY B.ParkName 
+	  WITH ROLLUP
+	  UNION  
+	  select   
+	  B.ParkName as ParkName, 	
+	  COUNT(case WHEN datename(hh, proctime)= 00 then 1 end) as Count0,
+	  COUNT(case WHEN datename(hh, proctime)= 01 then 1 end) as Count1,
+	  COUNT(case WHEN datename(hh, proctime)= 02 then 1 end) as Count2,
+	  COUNT(case WHEN datename(hh, proctime)= 02 then 1 end) as Count3,
+	  COUNT(case WHEN datename(hh, proctime)= 04 then 1 end) as Count4,
+	  COUNT(case WHEN datename(hh, proctime)= 05 then 1 end) as Count5,
+	  COUNT(case WHEN datename(hh, proctime)= 06 then 1 end) as Count6,
+	  COUNT(case WHEN datename(hh, proctime)= 07 then 1 end) as Count7,
+	  COUNT(case WHEN datename(hh, proctime)= 08 then 1 end) as Count8,
+	  COUNT(case WHEN datename(hh, proctime)= 09 then 1 end) as Count9,
+	  COUNT(case WHEN datename(hh, proctime)= 10 then 1 end) as Count10,
+	  COUNT(case WHEN datename(hh, proctime)= 11 then 1 end) as Count11,
+	  COUNT(case WHEN datename(hh, proctime)= 12 then 1 end) as Count12,
+	  COUNT(case WHEN datename(hh, proctime)= 13 then 1 end) as Count13,
+	  COUNT(case WHEN datename(hh, proctime)= 14 then 1 end) as Count14,
+	  COUNT(case WHEN datename(hh, proctime)= 15 then 1 end) as Count15,
+	  COUNT(case WHEN datename(hh, proctime)= 16 then 1 end) as Count16,
+	  COUNT(case WHEN datename(hh, proctime)= 17 then 1 end) as Count17,
+	  COUNT(case WHEN datename(hh, proctime)= 18 then 1 end) as Count18,
+	  COUNT(case WHEN datename(hh, proctime)= 19 then 1 end) as Count19,
+	  COUNT(case WHEN datename(hh, proctime)= 20 then 1 end) as Count20,
+	  COUNT(case WHEN datename(hh, proctime)= 21 then 1 end) as Count21,
+	  COUNT(case WHEN datename(hh, proctime)= 22 then 1 end) as Count22,
+	  COUNT(case WHEN datename(hh, proctime)= 23 then 1 end) as Count23,
+	  COUNT(*)  as TotalDay
+	  from IOSData	A LEFT JOIN ParkInfo B ON A.ParkNo = B.ParkNo 
+	  where (@ParkName<>'전체' and procdate=@SDate and A.ParkNo=@ParkNo) or (@ParkName='전체' and procdate=@SDate)
+	  Group BY B.ParkName 	 
+	  WITH ROLLUP
+  )COUNT_IOS_ION_DATA
+  Group BY ParkName   
+  order by ParkName
+END
+
+SET NOCOUNT OFF
+RETURN
+END;

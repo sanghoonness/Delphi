@@ -1,0 +1,5 @@
+[16:07:39] Program Start!
+[16:07:42] DB Connect Error:로그인에서 요청한 데이터베이스 "parking"을(를) 열 수 없습니다. 로그인이 실패했습니다
+[16:07:49] TfrmCustInfo.FormShow: 사용자 'sa'이(가) 로그인하지 못했습니다
+[16:07:56] TfrmCustInfo.dgCustomClick: qryCustInfo: Cannot perform this operation on a closed dataset
+[16:08:45] Program Start!

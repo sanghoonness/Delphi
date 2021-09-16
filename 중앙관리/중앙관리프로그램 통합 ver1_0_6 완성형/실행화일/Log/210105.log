@@ -1,0 +1,44 @@
+[09:41:13] Program Start!
+[09:41:14] 스마트빌리지 사전방문차량Table 생성 컬럼추가 완료
+[09:41:14] frmMain각 테이블에서 열 이름은 고유해야 합니다. 테이블 'PDAPatrolData'의 열 이름 'PatrolCode'을(를) 두 번 이상 지정했습니다
+[09:41:49] Program Start!
+[09:41:50] 순찰패드 Table 생성 컬럼추가 완료
+[09:41:50] frmMain키워드 'SELECT' 근처의 구문이 잘못되었습니다
+[09:42:58] Program Start!
+[09:42:58] frmMain개체 이름 'dbo.FullDispLog'이(가) 유효하지 않습니다
+[09:58:42] Program Start!
+[09:59:09] Program Start!
+[09:59:28] Program Start!
+[09:59:56] Program Start!
+[10:00:29] Program Start!
+[10:00:52] Program Start!
+[10:01:05] Program Start!
+[10:01:20] Program Start!
+[10:01:36] Program Start!
+[10:09:38] Program Start!
+[10:09:39] frmMainqryMainTemp: Parameter 'v1' not found
+[10:09:58] Program Start!
+[10:09:58] frmMainqryMainTemp: Parameter 'v1' not found
+[10:10:07] Program Start!
+[10:10:38] Program Start!
+[10:11:10] Program Start!
+[10:11:55] Program Start!
+[10:12:04] frmMain서버 보안 주체 'siview'이(가) 이미 있습니다
+[10:13:13] Program Start!
+[10:13:14] 순찰패드 로그인 생성 컬럼추가 완료
+[10:14:34] Program Start!
+[10:14:41] frmMain서버 보안 주체 'siview'이(가) 이미 있습니다
+[10:15:04] Program Start!
+[10:15:21] Program Start!
+[10:18:09] Program Start!
+[10:19:18] Program Start!
+[10:19:22] 순찰패드 로그인 생성 컬럼추가 완료
+[10:19:56] Program Start!
+[10:20:36] Program Start!
+[10:21:49] Program Start!
+[10:23:46] Program Start!
+[10:24:00] Program Start!
+[10:24:03] 순찰패드 로그인 생성 컬럼추가 완료
+[10:24:48] Program Start!
+[10:25:15] Program Start!
+[10:25:18] 순찰패드 로그인 생성 컬럼추가 완료

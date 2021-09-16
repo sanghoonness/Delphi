@@ -1,0 +1,16 @@
+[14:15:04] Program Start!
+[14:15:05] 포인트조회startdatetime 생성 컬럼추가 완료
+[14:15:05] 포인트조회 PointType 생성 컬럼추가 완료
+[14:15:05] 포인트조회PointUnit  생성 컬럼추가 완료
+[14:15:05] 스마트빌리지 사전방문차량Table 생성 컬럼추가 완료
+[14:15:06] 순찰패드 Table 생성 컬럼추가 완료
+[14:15:06] 사전방문 차량 대수 컬럼추가 완료
+[14:15:06] 사전방문 차량 등록 가능 시간  컬럼추가 완료
+[14:15:06] 사전방문 예약가능일  컬럼추가 완료
+[14:15:06] 사전방문 차량등록 횟수  컬럼추가 완료
+[14:15:06] 홈넷 포인트 타입   컬럼추가 완료
+[14:15:06] 홈넷 포인트 단위   컬럼추가 완료
+[14:15:06] 일반차량 홈넷 포인트이력 단위   컬럼추가 완료
+[14:17:06] Program Start!
+[14:19:28] TfrmIONData.btnSearchClick: qryTemp: Parameter 'N6' not found
+[14:24:03] TfrmIONData.btnSearchClick: qryTemp: Parameter 'N6' not found

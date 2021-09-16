@@ -1,0 +1,14 @@
+[14:30:08] Program Start!
+[14:30:22] select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, vCarNo as CarNo, 
+convert(CHAR(23), vstartDt, 21) as VisitStart, convert(CHAR(23), vendDt ,21) as VisitEnd  from VisitInfo_SmartVillage 
+where substring(vstartDt,1,10) >= :N4 and substring(vendDt,21,10) <= :N5 
+ and vtype = 'ADDED' 
+ order by vstartDt desc 
+
+[14:30:24] select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, vCarNo as CarNo, 
+convert(CHAR(23), vstartDt, 21) as VisitStart, convert(CHAR(23), vendDt ,21) as VisitEnd  from VisitInfo_SmartVillage 
+where substring(vstartDt,1,10) >= :N4 and substring(vendDt,21,10) <= :N5 
+ and vtype = 'ADDED' 
+ order by vstartDt desc 
+
+[14:31:15] Program Start!

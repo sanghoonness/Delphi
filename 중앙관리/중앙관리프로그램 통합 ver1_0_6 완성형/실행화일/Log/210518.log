@@ -1,0 +1,2294 @@
+[08:29:01] Program Start!
+[08:29:12] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:29:12] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:29:12] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:30:21] Program Start!
+[08:30:31] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:30:31] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:30:31] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:31:34] Program Start!
+[08:31:44] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:31:44] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:31:44] SELECT a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:32:12] Program Start!
+[08:32:19] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:32:19] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:32:19] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:33:00] Program Start!
+[08:33:08] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:33:08] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:33:08] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:34:21] Program Start!
+[08:34:30] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:34:30] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:34:30] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:34:32] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:34:32] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:34:32] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:34:32] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:34:32] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:34:32] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:34:32] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:34:32] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:34:32] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:34:32] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:34:32] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:34:32] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:34:33] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:34:33] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:34:33] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:34:33] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:34:33] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:34:33] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:34:33] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:34:33] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:34:33] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:38:48] Program Start!
+[08:39:01] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:39:01] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:39:01] 
+HAVING count(*) = 2 
+
+[08:39:30] Program Start!
+[08:39:39] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:39:39] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:39:39] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:39:40] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:39:40] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:39:40] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:39:41] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:39:41] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:39:41] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:39:41] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:39:41] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:39:41] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:39:42] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:39:42] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:39:42] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:39:42] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:39:42] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:39:42] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:39:43] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:39:43] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:39:43] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:39:44] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:39:44] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:39:46] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:39:46] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:40:27] Program Start!
+[08:40:36] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:40:36] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:40:36] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:41:12] Program Start!
+[08:41:20] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:41:20] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:41:20] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:43:12] Program Start!
+[08:43:25] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:43:25] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:43:25] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:44:09] Program Start!
+[08:44:18] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:44:18] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:44:18] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:44:20] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:44:21] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:44:22] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:44:22] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:44:25] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:44:25] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:44:26] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:44:26] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:44:26] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:44:26] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:44:27] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:44:27] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:44:27] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:44:35] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:44:35] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:44:36] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:44:36] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:44:37] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:44:37] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:44:38] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:44:42] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:44:42] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:44:42] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:44:47] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:44:47] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:44:48] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:44:48] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:44:54] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:44:54] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:44:54] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:44:59] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:44:59] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:45:01] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:45:01] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:45:02] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:45:02] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:45:05] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:45:05] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:45:06] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:45:06] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:45:08] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:45:08] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:45:09] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:45:09] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:45:12] select a.Reserve2, a.Reserve3,   
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as prkMin,                                                          
+ Case When Count(b.CompName + b.deptName) = 2 then           
+      '100000'                                             
+      When Count(b.CompName + b.deptName) = 3 then         
+      '200000'                                           
+      When Count(b.CompName + b.deptName) >= 4 then        
+      '300000'                                           
+ End as billing_amount,                                    
+      Count(b.CompName + b.deptName) as CountCar           
+from IONData a left merge join CustInfo b  ON a.Reserve2 = b.CompName and  a.Reserve3 = b.DeptName 
+where procdate >= :N1 and procdate <= :N2 and a.Reserve2 > 0 and a.Reserve3 > 0  and ParkingMin > 0  
+group by a.Reserve2, a.Reserve3, parkingmin 
+having SUM(ParkingMin) / 60 >= 100    
+order by a.Reserve2, a.Reserve3       
+
+[08:45:12] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+
+[08:45:12] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+HAVING count(*) = 2 
+
+[08:45:19] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:45:19] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:45:20] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:45:20] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:45:21] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:45:21] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:45:22] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:45:22] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+
+[08:45:23] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin                                                           
+From IONData                                                             
+Where procdate >= :v3 and procdate <= :v4 and Reserve2 > 0 and Reserve3 > 0  and ParkingMin > 0 
+And Reserve2 = :v5 
+And Reserve3 = :v6 
+
+[08:45:23] SELECT distinct a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate  
+from CustInfo a left merge join CustInfo b ON a.CompName = b.CompName and a.DeptName = b.DeptName 
+where a.CompName = :N1 
+ And a.DeptName = :N2 
+ group by a.CompName, a.DeptName, a.TelNo, a.Carno, a.IssueDate 
+

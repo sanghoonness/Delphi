@@ -1,0 +1,163 @@
+unit Parkinfo_Yo;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Data.Win.ADODB, Vcl.StdCtrls,
+  Vcl.Buttons, Vcl.Mask, AdvEdit, AdvCombo, AdvSpin, Vcl.Grids, AdvObj,
+  BaseGrid, AdvGrid, DBAdvGrid, Vcl.ExtCtrls, AdvPanel;
+
+type
+  TfrmParkInfo_yo = class(TForm)
+    AdvPanel1: TAdvPanel;
+    dbgValetParkInfo: TDBAdvGrid;
+    AdvPanel2: TAdvPanel;
+    lb1: TLabel;
+    edtParkNo: TAdvSpinEdit;
+    edtParkName: TAdvEdit;
+    edtAdmin: TAdvEdit;
+    edtRegNo: TAdvEdit;
+    edtTelephone: TAdvEdit;
+    edtReceipt: TAdvEdit;
+    edtParkAddr: TAdvEdit;
+    cmbCalcType: TAdvComboBox;
+    cmbHolidayProc: TAdvComboBox;
+    cmbAutoClosing: TAdvComboBox;
+    edtClosingTime: TAdvMaskEdit;
+    cmbReceipt: TAdvComboBox;
+    cmbZeroReceipt: TAdvComboBox;
+    cmbTax: TAdvComboBox;
+    cmbJunk: TAdvComboBox;
+    cmbRound: TAdvComboBox;
+    cmbTimeDC: TAdvComboBox;
+    cmbDCReason: TAdvComboBox;
+    cmbLostCalc: TAdvComboBox;
+    cmbSpecialTariff: TAdvComboBox;
+    cmbCommercialCar: TAdvComboBox;
+    cmbParkingDayMax: TAdvComboBox;
+    edtDayMax: TAdvSpinEdit;
+    edtTotMax: TAdvSpinEdit;
+    edtDCCntMax: TAdvSpinEdit;
+    edtLostAmt: TAdvSpinEdit;
+    cmbCurrencyType: TAdvComboBox;
+    cmbSaturdayProc: TAdvComboBox;
+    cmbOperation: TAdvComboBox;
+    chkTest: TCheckBox;
+    cmbFreeTime: TAdvComboBox;
+    edtFreeTimeS: TAdvMaskEdit;
+    edtFreeTimeE: TAdvMaskEdit;
+    edtRemainDsp: TAdvSpinEdit;
+    cmbClosingType: TAdvComboBox;
+    edtSeekDay: TAdvSpinEdit;
+    edtSaturdayMax: TAdvSpinEdit;
+    edtHolidayMax: TAdvSpinEdit;
+    btnSave: TBitBtn;
+    btnCancel: TBitBtn;
+    btnDelete: TBitBtn;
+    btnClose: TBitBtn;
+    qryParkInfo: TADOQuery;
+    qryParkInfoParkNo: TSmallintField;
+    strngfldParkInfoParkName: TStringField;
+    strngfldParkInfoParkAddr: TStringField;
+    strngfldParkInfoRegNo: TStringField;
+    strngfldParkInfoAdmin: TStringField;
+    strngfldParkInfoTelephone: TStringField;
+    strngfldParkInfoReceipt: TStringField;
+    qryParkInfoDayMax: TIntegerField;
+    qryParkInfoTotMax: TIntegerField;
+    wrdfldParkInfoCalcType: TWordField;
+    strngfldParkInfoClosingTime: TStringField;
+    wrdfldParkInfoAutoClosing: TWordField;
+    wrdfldParkInfoHolidayProc: TWordField;
+    wrdfldParkInfoSaturdayProc: TWordField;
+    wrdfldParkInfoReceiptAuto: TWordField;
+    wrdfldParkInfoReceiptZero: TWordField;
+    wrdfldParkInfoTaxType: TWordField;
+    wrdfldParkInfoJunkType: TWordField;
+    wrdfldParkInfoRoundType: TWordField;
+    wrdfldParkInfoTimeDCType: TWordField;
+    wrdfldParkInfoCurrencyType: TWordField;
+    wrdfldParkInfoDCReason: TWordField;
+    wrdfldParkInfoLostCalc: TWordField;
+    qryParkInfoLoatAmount: TIntegerField;
+    wrdfldParkInfoSpecialTariff: TWordField;
+    wrdfldParkInfoCommercialCar: TWordField;
+    wrdfldParkInfoParkingDayMax: TWordField;
+    wrdfldParkInfoDCCntMax: TWordField;
+    strngfldParkInfoVanIP: TStringField;
+    qryParkInfoVanPort: TIntegerField;
+    wrdfldParkInfoRemainDsp: TWordField;
+    strngfldParkInfoReserve1: TStringField;
+    strngfldParkInfoReserve2: TStringField;
+    strngfldParkInfoReserve3: TStringField;
+    strngfldParkInfoReserve4: TStringField;
+    strngfldParkInfoReserve5: TStringField;
+    wrdfldParkInfoClosingType: TWordField;
+    wrdfldParkInfoSeekDay: TWordField;
+    qryParkInfoSaturdayMax: TIntegerField;
+    qryParkInfoHolidayMax: TIntegerField;
+    wrdfldParkInfoTDNo: TWordField;
+    wrdfldParkInfoTDTKDate: TWordField;
+    qryParkInfoMichulKeep: TIntegerField;
+    dsParkInfo: TDataSource;
+    qryTemp: TADOQuery;
+    procedure btnCloseClick(Sender: TObject);
+    procedure btnDeleteClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmParkInfo_yo: TfrmParkInfo_yo;
+
+implementation
+uses
+  Tables, Global;
+
+{$R *.dfm}
+
+procedure TfrmParkInfo_yo.btnCloseClick(Sender: TObject);
+begin
+  qryParkInfo.Active:= False;
+  Close;
+end;
+
+procedure TfrmParkInfo_yo.btnDeleteClick(Sender: TObject);
+begin
+  try
+    if MessageDlg('선택한 주차장을 삭제할까요?', mtConfirmation, [mbYes, mbNo], 0) = mrNo then Exit;
+
+    with qryParkInfo do
+    begin
+      try
+        dmTables.ADODB.BeginTrans;
+        Close;
+        SQL.Clear;
+        SQL.Add('Delete from ParkInfo where ParkNo = :N1');
+        Parameters.ParamByName('N1').Value:= edtParkNo.Value;
+        ExecSQL;
+        dmTables.ADODB.CommitTrans;
+      except
+        on E: Exception do
+        begin
+          dmTables.ADODB.RollbackTrans;
+          ExceptLogging('TfrmParkInfo.btnDeleteClick: ' + aString(E.Message));
+          ShowMessage('삭제중 오류발생! 관리자에 문의바랍니다.');
+        end;
+      end;
+
+      Close;
+      SQL.Clear;
+      SQL.Add('Select * from ParkInfo');
+      Open;
+    end;
+    frmClear;
+  except
+    on E: Exception do ExceptLogging('TfrmParkInfo.btnDeleteClick: ' + aString(E.Message));
+  end;
+end;
+
+end.

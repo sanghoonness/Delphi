@@ -1,0 +1,81 @@
+[09:24:14] Program Start!
+[09:24:33] Program Start!
+[15:45:18] Program Start!
+[15:45:36] Program Start!
+[15:45:49] TfrmSCGroup.btnSaveClick: qryGroup: Field 'cnt' not found
+[15:46:53] Program Start!
+[15:47:38] TfrmSCGroup.btnSaveClick: qryGroup: Field 'cnt' not found
+[15:48:28] Program Start!
+[15:50:31] Program Start!
+[15:51:35] Program Start!
+[15:51:57] Select * from GGroup where ParkNo = :N1 and Reserve1 is null
+
+[15:53:34] Program Start!
+[15:54:01] TfrmSCGroup.btnSaveClick: qryGroup: Field 'cnt' not found
+[15:54:27] TfrmSCGroup.btnDeleteClick: qryGroup: Field 'cnt' not found
+[15:55:08] Program Start!
+[15:56:17] Program Start!
+[15:58:04] Program Start!
+[15:59:22] Program Start!
+[15:59:47] Program Start!
+[16:00:05] Program Start!
+[16:00:20] Program Start!
+[16:00:26] TfrmSCGroup.FormCreate: Grid index out of range
+[16:01:19] Program Start!
+[16:01:25] TfrmSCGroup.FormCreate: 잘못된 형식이거나 올바른 범위 밖에 있거나 서로 충돌하는 인수입니다
+[16:01:35] Program Start!
+[16:02:19] Program Start!
+[16:02:47] Program Start!
+[16:02:54] TfrmSCGroup.FormCreate: Grid index out of range
+[16:03:54] Program Start!
+[16:04:12] TfrmSCGroup.btnSaveClick: 활성 중인 트랜잭션이 없습니다
+[16:04:20] TfrmSCGroup.dgGroupClick: qryGroup: Cannot perform this operation on a closed dataset
+[16:04:57] TfrmSCGroup.btnSaveClick: 활성 중인 트랜잭션이 없습니다
+[16:06:14] Program Start!
+[16:08:37] Program Start!
+[16:08:50] TfrmSCGroup.btnSaveClick: qryGroup: Field 'cnt' not found
+[16:09:04] TfrmSCGroup.btnDeleteClick: qryGroup: Field 'cnt' not found
+[16:12:34] Program Start!
+[16:12:57] TfrmSCGroup.btnSaveClick: qryGroup: Field 'cnt' not found
+[16:13:25] TfrmSCGroup.btnDeleteClick: qryGroup: Field 'cnt' not found
+[16:15:06] Program Start!
+[16:15:22] TfrmSCGroup.btnSaveClick: qryGroup: Field 'cnt' not found
+[16:15:29] TfrmSCGroup.btnDeleteClick: qryGroup: Field 'cnt' not found
+[16:16:13] Program Start!
+[16:16:28] TfrmSCGroup.btnSaveClick: qryGroup: Field 'cnt' not found
+[16:16:31] TfrmSCGroup.dgGroupClick: qryGroup: Cannot perform this operation on a closed dataset
+[16:16:38] TfrmSCGroup.btnDeleteClick: qryGroup: Field 'cnt' not found
+[16:17:48] Program Start!
+[16:18:34] Program Start!
+[16:18:53] TfrmSCGroup.btnSaveClick: qryGroup: Field 'cnt' not found
+[16:19:08] Program Start!
+[16:19:51] TfrmSCGroup.btnSaveClick: qryGroup: Field 'cnt' not found
+[16:21:11] TfrmSCGroup.btnSaveClick: qryGroup: Field 'cnt' not found
+[16:21:34] Program Start!
+[16:22:03] TfrmSCGroup.btnSaveClick: qryGroup: Field 'cnt' not found
+[16:23:22] Program Start!
+[16:23:45] TfrmSCGroup.btnSaveClick: PRIMARY KEY 제약 조건 'PK_GGroup'을(를) 위반했습니다. 개체 'dbo.GGroup'에 중복 키를 삽입할 수 없습니다. 중복 키 값은 (1, 6)입니다
+[16:24:42] Program Start!
+[16:25:13] TfrmSCGroup.btnSaveClick: PRIMARY KEY 제약 조건 'PK_GGroup'을(를) 위반했습니다. 개체 'dbo.GGroup'에 중복 키를 삽입할 수 없습니다. 중복 키 값은 (1, 0)입니다
+[16:25:27] TfrmSCGroup.btnDeleteClick: qryGroup: Field 'cnt' not found
+[16:26:17] Program Start!
+[16:26:28] Program Start!
+[16:27:03] Program Start!
+[16:27:11] TfrmSCGroup.btnDeleteClick: 이 행의 키 값을 데이터 저장소에서 변경했거나 삭제했습니다. 로컬 행을 지금 삭제했습니다
+[16:27:30] Program Start!
+[16:27:36] TfrmSCGroup.btnDeleteClick: 이 행의 키 값을 데이터 저장소에서 변경했거나 삭제했습니다. 로컬 행을 지금 삭제했습니다
+[16:28:05] Program Start!
+[16:28:13] TfrmSCGroup.btnDeleteClick: 이 행의 키 값을 데이터 저장소에서 변경했거나 삭제했습니다. 로컬 행을 지금 삭제했습니다
+[16:28:30] Program Start!
+[16:28:38] TfrmSCGroup.btnDeleteClick: 이 행의 키 값을 데이터 저장소에서 변경했거나 삭제했습니다. 로컬 행을 지금 삭제했습니다
+[16:28:57] Program Start!
+[16:29:17] Program Start!
+[16:40:12] Program Start!
+[16:41:42] Program Start!
+[16:42:38] Program Start!
+[16:42:53] Program Start!
+[16:43:32] Program Start!
+[16:45:04] Program Start!
+[16:45:50] Program Start!
+[16:46:20] Program Start!
+[16:46:50] Program Start!

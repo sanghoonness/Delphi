@@ -1,0 +1,5 @@
+[10:51:12] Program Start!
+[10:56:51] Program Start!
+[10:56:57] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+

@@ -1,0 +1,674 @@
+[09:30:39] Program Start!
+[09:30:55] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[09:30:58] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate >= :N1                                                                
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[09:30:58] TfrmIOVisitStat.btnSearchClick: 문자열을 날짜 및/또는 시간으로 변환하지 못했습니다
+[09:31:00] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate >= :N1                                                                
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[09:31:00] TfrmIOVisitStat.btnSearchClick: 문자열을 날짜 및/또는 시간으로 변환하지 못했습니다
+[09:34:29] Program Start!
+[09:34:37] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[09:34:57] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[09:34:58] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[09:36:33] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[09:38:36] Program Start!
+[09:38:42] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[09:38:45] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[09:49:48] Program Start!
+[09:49:55] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[09:49:59] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[09:51:56] Program Start!
+[09:52:03] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[09:52:09] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[09:53:12] Program Start!
+[09:53:17] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[09:54:33] Program Start!
+[09:54:38] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[09:54:38] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[09:54:39] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[09:54:39] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[09:54:40] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[09:54:40] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[09:54:40] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[09:54:40] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[09:54:40] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[09:54:40] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[09:54:40] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[09:54:40] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[09:54:40] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[09:54:40] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[09:54:40] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[09:54:40] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[09:54:40] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[09:54:41] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[09:54:41] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[09:54:41] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[09:54:41] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[09:54:41] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[09:54:49] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[09:54:49] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Type mismatch for field 'prkDate', expecting: String actual: Integer
+[09:54:50] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[09:54:50] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Type mismatch for field 'prkDate', expecting: String actual: Integer
+[09:54:51] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[09:54:51] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Type mismatch for field 'prkDate', expecting: String actual: Integer
+[09:54:51] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[09:54:51] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Type mismatch for field 'prkDate', expecting: String actual: Integer
+[09:59:12] Program Start!
+[09:59:20] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[09:59:41] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[09:59:50] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 10 and DATEDIFF(dd, procdate, outdate) <= 20          
+
+[09:59:53] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:01:32] Program Start!
+[10:01:39] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:09:13] Program Start!
+[10:09:20] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:13:32] Program Start!
+[10:13:38] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:13:38] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:13:40] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:13:40] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:13:40] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:13:40] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:13:40] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:13:40] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:13:40] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:13:40] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:13:41] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:13:41] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:13:41] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:13:41] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:13:41] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:13:41] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:13:41] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:13:41] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:13:41] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:13:41] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:13:41] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:13:41] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:13:41] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:13:41] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:13:41] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:13:42] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:13:42] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:13:42] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:13:42] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:13:42] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:13:44] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:15:09] Program Start!
+[10:15:14] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:15:14] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:15:15] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:15:15] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:15:15] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:15:15] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:15:15] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:15:15] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:15:15] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:15:15] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:15:15] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:15:15] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:15:15] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:15:15] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:15:15] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:15:15] TfrmIOVisitStat.btnSearchClick: qryIONSubData: Field 'prkDate' not found
+[10:16:15] Program Start!
+[10:16:20] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:16:28] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:16:30] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2                                                             
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:16:33] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:16:34] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2                                                             
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:17:25] Program Start!
+[10:17:30] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:17:33] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:17:34] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2                                                             
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:17:44] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:17:45] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:19:21] Program Start!
+[10:19:26] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:19:29] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:19:29] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2                                                             
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:20:18] Program Start!
+[10:20:23] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:20:25] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:20:27] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:20:52] Program Start!
+[10:20:56] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:20:59] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:21:00] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:22:24] Program Start!
+[10:22:30] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:22:33] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:22:35] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:23:03] Program Start!
+[10:23:09] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:23:11] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:23:12] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:23:12] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:23:13] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:23:14] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:23:14] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:23:56] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:23:57] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:23:57] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:23:58] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:23:58] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:23:59] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:23:59] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:25:29] Program Start!
+[10:25:35] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:25:37] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:26:55] Program Start!
+[10:26:59] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:27:05] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:27:09] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:28:02] Program Start!
+[10:28:07] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[10:28:09] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:28:10] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:28:11] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:28:12] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:28:13] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:29:51] Program Start!
+[10:29:59] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[10:30:01] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[11:09:00] Program Start!
+[11:09:10] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[11:09:50] Program Start!
+[11:09:55] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[11:09:59] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[11:10:01] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[11:11:43] Program Start!
+[11:11:50] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[11:11:52] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[11:13:07] Program Start!
+[11:13:19] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[11:13:21] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[11:13:23] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[11:13:24] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[11:13:25] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[11:14:48] Program Start!
+[11:14:59] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[11:15:02] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[11:15:02] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[11:15:03] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[11:15:03] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[11:15:58] Program Start!
+[11:16:07] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+And InCarNo1 like :N3 
+And reserve2 in(101,110,1,1,1,1,1,1,1,1,1)  
+And reserve3 in(101,2004,2,3,4,5,6,7,8,9,1)  
+group by reserve2, reserve3 Order by reserve2, reserve3 
+
+[11:16:12] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[11:16:14] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[13:07:26] Program Start!
+[13:07:37] select reserve2, reserve3, count(*) as cnt, DATEDIFF(dd, procdate, outdate) as prkDate, ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin 
+from IONData where ProcDate  between :N1 and :N2                                                                 
+group by reserve2, reserve3, procdate, proctime, outdate, outtime                                 
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[13:07:38] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[13:07:39] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[13:07:39] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[13:07:40] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+
+[13:07:41] select procdate, procTime, IncarNo1, OutDate, OutTime, OutCarNo1,  
+reserve1, reserve2, reserve3, DATEDIFF(dd, procdate, outdate) as prkDate, ParkingMin, UsedPoint 
+from IONData Where Reserve2 = :v1 and Reserve3 = :v2 and ProcDate between :N1 and :N2  
+group by procdate, proctime, incarno1, outdate, outtime, OutCarNo1, Reserve1, Reserve2, Reserve3, ParkingMin, UsedPoint   
+having DATEDIFF(dd, procdate, outdate) >= 5 and DATEDIFF(dd, procdate, outdate) <= 10           
+

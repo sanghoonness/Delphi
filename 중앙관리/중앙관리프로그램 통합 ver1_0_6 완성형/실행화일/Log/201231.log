@@ -1,0 +1,4 @@
+[10:24:05] Program Start!
+[11:09:55] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+

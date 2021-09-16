@@ -1,0 +1,142 @@
+[10:14:39] Program Start!
+[10:14:55] Program Start!
+[10:23:56] Program Start!
+[10:24:50] Program Start!
+[10:25:47] Program Start!
+[10:27:11] Program Start!
+[16:58:23] Program Start!
+[17:06:46] Program Start!
+[17:07:57] Program Start!
+[17:13:39] Program Start!
+[17:15:02] Program Start!
+[17:15:25] Program Close
+[17:16:27] Program Start!
+[17:18:19] Program Start!
+[17:19:59] Program Start!
+[17:23:21] Program Start!
+[17:23:44]  사전방문 등록 횟수 추가
+[17:23:44]  사전방문 등록 횟수 추가
+[17:43:10] Program Start!
+[17:43:19]  select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, CarNo,  
+ substring((period),1,19) as VisitStart, 
+ substring((period),21,19) as VisitEnd   
+ from VisitInfo_ICon                           
+ where substring(period,1,10) >= :N4 and substring(period,21,19) <= :N5 and ISNUMERIC(period) = 0   
+order by StartDateTime desc 
+
+[17:43:20]  select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, CarNo,  
+ substring((period),1,19) as VisitStart, 
+ substring((period),21,19) as VisitEnd   
+ from VisitInfo_ICon                           
+ where substring(period,1,10) >= :N4 and substring(period,21,19) <= :N5 and ISNUMERIC(period) = 0   
+order by StartDateTime desc 
+
+[17:43:21]  select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, CarNo,  
+ substring((period),1,19) as VisitStart, 
+ substring((period),21,19) as VisitEnd   
+ from VisitInfo_ICon                           
+ where substring(period,1,10) >= :N4 and substring(period,21,19) <= :N5 and ISNUMERIC(period) = 0   
+order by StartDateTime desc 
+
+[17:43:21]  select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, CarNo,  
+ substring((period),1,19) as VisitStart, 
+ substring((period),21,19) as VisitEnd   
+ from VisitInfo_ICon                           
+ where substring(period,1,10) >= :N4 and substring(period,21,19) <= :N5 and ISNUMERIC(period) = 0   
+order by StartDateTime desc 
+
+[17:43:21]  select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, CarNo,  
+ substring((period),1,19) as VisitStart, 
+ substring((period),21,19) as VisitEnd   
+ from VisitInfo_ICon                           
+ where substring(period,1,10) >= :N4 and substring(period,21,19) <= :N5 and ISNUMERIC(period) = 0   
+order by StartDateTime desc 
+
+[17:43:21]  select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, CarNo,  
+ substring((period),1,19) as VisitStart, 
+ substring((period),21,19) as VisitEnd   
+ from VisitInfo_ICon                           
+ where substring(period,1,10) >= :N4 and substring(period,21,19) <= :N5 and ISNUMERIC(period) = 0   
+order by StartDateTime desc 
+
+[17:43:21]  select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, CarNo,  
+ substring((period),1,19) as VisitStart, 
+ substring((period),21,19) as VisitEnd   
+ from VisitInfo_ICon                           
+ where substring(period,1,10) >= :N4 and substring(period,21,19) <= :N5 and ISNUMERIC(period) = 0   
+order by StartDateTime desc 
+
+[17:43:21]  select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, CarNo,  
+ substring((period),1,19) as VisitStart, 
+ substring((period),21,19) as VisitEnd   
+ from VisitInfo_ICon                           
+ where substring(period,1,10) >= :N4 and substring(period,21,19) <= :N5 and ISNUMERIC(period) = 0   
+order by StartDateTime desc 
+
+[17:43:21]  select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, CarNo,  
+ substring((period),1,19) as VisitStart, 
+ substring((period),21,19) as VisitEnd   
+ from VisitInfo_ICon                           
+ where substring(period,1,10) >= :N4 and substring(period,21,19) <= :N5 and ISNUMERIC(period) = 0   
+order by StartDateTime desc 
+
+[17:43:21]  select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, CarNo,  
+ substring((period),1,19) as VisitStart, 
+ substring((period),21,19) as VisitEnd   
+ from VisitInfo_ICon                           
+ where substring(period,1,10) >= :N4 and substring(period,21,19) <= :N5 and ISNUMERIC(period) = 0   
+order by StartDateTime desc 
+
+[17:43:22]  select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, CarNo,  
+ substring((period),1,19) as VisitStart, 
+ substring((period),21,19) as VisitEnd   
+ from VisitInfo_ICon                           
+ where substring(period,1,10) >= :N4 and substring(period,21,19) <= :N5 and ISNUMERIC(period) = 0   
+order by StartDateTime desc 
+
+[17:43:22]  select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, CarNo,  
+ substring((period),1,19) as VisitStart, 
+ substring((period),21,19) as VisitEnd   
+ from VisitInfo_ICon                           
+ where substring(period,1,10) >= :N4 and substring(period,21,19) <= :N5 and ISNUMERIC(period) = 0   
+order by StartDateTime desc 
+
+[17:44:54] Program Start!
+[17:45:30] Program Start!
+[17:46:07] Program Start!
+[17:50:43] Program Start!
+[17:51:43] Program Start!
+[17:59:52] Program Start!
+[17:59:59]  select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, CarNo,  
+ substring((period),1,19) as VisitStart, 
+ substring((period),21,19) as VisitEnd   
+ from VisitInfo_ICon                           
+ where substring(period,1,10) >= :N4 and substring(period,21,19) <= :N5 and ISNUMERIC(period) = 0   
+order by StartDateTime desc 
+
+[18:01:18] Program Start!
+[18:02:08]  사전방문 등록 횟수 등록 오류 열 이름 'visit_insert_standard'이(가) 잘못되었습니다
+[18:03:16] Program Start!
+[18:03:30]  사전방문 등록 횟수 수정
+[18:03:30]  사전방문 등록 횟수 수정
+[18:04:35] Program Start!
+[18:12:38] Program Start!
+[18:13:39] Program Start!
+[18:14:26] Program Start!
+[18:15:55] Program Start!
+[18:18:39] Program Start!
+[18:19:22]  사전방문 등록 횟수 수정
+[18:20:04]  사전방문 등록 횟수 수정
+[18:20:04]  사전방문 등록 횟수 수정
+[18:22:15] Program Start!
+[18:23:17]  사전방문 등록 횟수 추가
+[18:24:23] Program Start!
+[18:25:22] Program Start!
+[18:27:20] Program Start!
+[18:27:38]  사전방문 등록 횟수 수정 1/1 등록횟수(기준)10 남은횟수5
+[18:28:03]  사전방문 등록 횟수 수정 1/1 등록횟수(기준)10 남은횟수10
+[18:28:08]  사전방문 등록 횟수 수정 1/1 등록횟수(기준)10 남은횟수8
+[18:31:02] Program Start!
+[18:41:44]  사전방문 등록 횟수 수정 1/1 등록횟수(기준)10 남은횟수10
+[18:42:02]  사전방문 등록 횟수 수정 2/2 등록횟수(기준)10 남은횟수10
+[18:43:39] Program Start!

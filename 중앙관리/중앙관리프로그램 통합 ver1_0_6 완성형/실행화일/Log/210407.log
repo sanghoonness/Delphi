@@ -1,0 +1,18 @@
+[17:14:21] Program Start!
+[17:14:21] DB Connect Error:로그인에서 요청한 데이터베이스 "PARKING"을(를) 열 수 없습니다. 로그인이 실패했습니다
+[17:14:53] Program Start!
+[17:15:00] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[17:16:02] Program Start!
+[17:16:08] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[17:17:31] Program Start!
+[17:17:37] Select reserve2, reserve3, count(*) as cnt , dbo.GetSecondToTime2(sum(parkingmin)) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[17:19:57] Program Start!
+[17:20:03] Select reserve2, reserve3, count(*) as cnt , ISNULL(dbo.GetSecondToTime2(sum(parkingmin)),0) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+

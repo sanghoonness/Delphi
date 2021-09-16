@@ -1,0 +1,413 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F1BDC5CF-46A4-479E-8840-99F3C938F0E5}</ProjectGuid>
+        <ProjectVersion>15.4</ProjectVersion>
+        <MainSource>Nexpa_Host.dpr</MainSource>
+        <Config Condition="'$(Config)'==''">Debug</Config>
+        <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+        <FrameworkType>VCL</FrameworkType>
+        <Base>True</Base>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+        <TargetedPlatforms>17</TargetedPlatforms>
+        <AppType>Application</AppType>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+        <Base_Win32>true</Base_Win32>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+        <Base_Win64>true</Base_Win64>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+        <Cfg_1>true</Cfg_1>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win32)'!=''">
+        <Cfg_1_Win32>true</Cfg_1_Win32>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+        <Cfg_2>true</Cfg_2>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+        <Cfg_2_Win32>true</Cfg_2_Win32>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base)'!=''">
+        <SanitizedProjectName>Nexpa_Host</SanitizedProjectName>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_Locale>1042</VerInfo_Locale>
+        <DCC_Namespace>Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Datasnap;Web;Soap;Winapi;System.Win;Data.Win;System.Bindings;$(DCC_Namespace)</DCC_Namespace>
+        <DCC_UsePackage>vclx;vcl;vclimg;dbrtl;Rave77VCL;bdertl;rtl;vclactnband;vcldb;vcldbx;vcltouch;xmlrtl;dsnap;dsnapcon;TeeUI;TeeDB;Tee;vclib;ibxpress;adortl;IndyCore;IndySystem;IndyProtocols;inet;intrawebdb_100_140;Intraweb_100_140;VclSmp;vclie;websnap;webdsnap;inetdb;inetdbbde;inetdbxpress;soaprtl;vclribbon;dbexpress;DbxCommonDriver;DataSnapIndy10ServerTransport;DataSnapProviderClient;DbxClientDriver;DataSnapServer;DBXInterBaseDriver;DBXMySQLDriver;dbxcds;DBXFirebirdDriver;DBXSybaseASEDriver;DBXSybaseASADriver;DBXOracleDriver;DBXMSSQLDriver;DBXInformixDriver;DBXDb2Driver;acnt2010_R;CPortLibD2010;tmsd2010;tmsexd2010;tmsxlsd2010;tmswizd2010;$(DCC_UsePackage)</DCC_UsePackage>
+        <DCC_DependencyCheckOutputName>..\실행화일\Nexpa_Host.exe</DCC_DependencyCheckOutputName>
+        <DCC_ImageBase>00400000</DCC_ImageBase>
+        <DCC_DcuOutput>..\DCU\</DCC_DcuOutput>
+        <DCC_Platform>x86</DCC_Platform>
+        <DCC_ExeOutput>..\실행화일\</DCC_ExeOutput>
+        <DCC_N>false</DCC_N>
+        <DCC_S>false</DCC_S>
+        <DCC_DcpOutput>..\DCU\</DCC_DcpOutput>
+        <DCC_E>false</DCC_E>
+        <DCC_F>false</DCC_F>
+        <DCC_K>false</DCC_K>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win32)'!=''">
+        <VerInfo_MinorVer>1</VerInfo_MinorVer>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.1.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <Icon_MainIcon>넥스파로고2.ico</Icon_MainIcon>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <DCC_Namespace>Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win64)'!=''">
+        <Icon_MainIcon>Nexpa_Host_Icon3.ico</Icon_MainIcon>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1)'!=''">
+        <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+        <DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+        <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+        <DCC_DebugInformation>0</DCC_DebugInformation>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.1.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_MinorVer>1</VerInfo_MinorVer>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2)'!=''">
+        <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+        <VerInfo_MinorVer>1</VerInfo_MinorVer>
+        <VerInfo_Build>6</VerInfo_Build>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.1.0.6;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.6;Comments=</VerInfo_Keys>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+    </PropertyGroup>
+    <ItemGroup>
+        <DelphiCompile Include="$(MainSource)">
+            <MainSource>MainSource</MainSource>
+        </DelphiCompile>
+        <DCCReference Include="Main.pas">
+            <Form>frmMain</Form>
+        </DCCReference>
+        <DCCReference Include="Global.pas"/>
+        <DCCReference Include="Tables.pas">
+            <Form>dmTables</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="UnitInfo.pas">
+            <Form>frmUnitInfo</Form>
+        </DCCReference>
+        <DCCReference Include="FeeItem.pas">
+            <Form>frmFeeItem</Form>
+        </DCCReference>
+        <DCCReference Include="Tariff.pas">
+            <Form>frmTariff</Form>
+        </DCCReference>
+        <DCCReference Include="DCInfo.pas">
+            <Form>frmDCInfo</Form>
+        </DCCReference>
+        <DCCReference Include="Holiday.pas">
+            <Form>frmHoliday</Form>
+        </DCCReference>
+        <DCCReference Include="Gracetime.pas">
+            <Form>frmGracetime</Form>
+        </DCCReference>
+        <DCCReference Include="Manager.pas">
+            <Form>frmManager</Form>
+        </DCCReference>
+        <DCCReference Include="WP.pas">
+            <Form>frmWP</Form>
+        </DCCReference>
+        <DCCReference Include="SCGroup.pas">
+            <Form>frmSCGroup</Form>
+        </DCCReference>
+        <DCCReference Include="CustInfo.pas">
+            <Form>frmCustInfo</Form>
+        </DCCReference>
+        <DCCReference Include="Progress.pas">
+            <Form>frmProgress</Form>
+        </DCCReference>
+        <DCCReference Include="NewSC.pas">
+            <Form>frmNewSC</Form>
+        </DCCReference>
+        <DCCReference Include="Login.pas">
+            <Form>frmLogin</Form>
+        </DCCReference>
+        <DCCReference Include="AddSC.pas">
+            <Form>frmAddSC</Form>
+        </DCCReference>
+        <DCCReference Include="NProc.pas">
+            <Form>frmNProc</Form>
+        </DCCReference>
+        <DCCReference Include="IONData.pas">
+            <Form>frmIONData</Form>
+        </DCCReference>
+        <DCCReference Include="IOSData.pas">
+            <Form>frmIOSData</Form>
+        </DCCReference>
+        <DCCReference Include="SCData.pas">
+            <Form>frmSCData</Form>
+        </DCCReference>
+        <DCCReference Include="NSCData.pas">
+            <Form>frmNSCData</Form>
+        </DCCReference>
+        <DCCReference Include="Card.pas">
+            <Form>frmCard</Form>
+        </DCCReference>
+        <DCCReference Include="CardAdd.pas">
+            <Form>frmCardAdd</Form>
+        </DCCReference>
+        <DCCReference Include="RFSCGroup.pas">
+            <Form>frmRFSCGroup</Form>
+        </DCCReference>
+        <DCCReference Include="RFSCCustInfo.pas">
+            <Form>frmRFSCCustInfo</Form>
+        </DCCReference>
+        <DCCReference Include="RFSeek.pas">
+            <Form>frmRFSeek</Form>
+        </DCCReference>
+        <DCCReference Include="NewRFSC.pas">
+            <Form>frmNewRFSC</Form>
+        </DCCReference>
+        <DCCReference Include="AddRFSC.pas">
+            <Form>frmAddRFSC</Form>
+        </DCCReference>
+        <DCCReference Include="Coupon.pas">
+            <Form>frmCoupon</Form>
+        </DCCReference>
+        <DCCReference Include="FreeIOData.pas">
+            <Form>frmFreeIOData</Form>
+        </DCCReference>
+        <DCCReference Include="CouponList.pas">
+            <Form>frmCouponList</Form>
+        </DCCReference>
+        <DCCReference Include="IOCnt.pas">
+            <Form>frmIOCnt</Form>
+        </DCCReference>
+        <DCCReference Include="Recog.pas">
+            <Form>frmRecog</Form>
+        </DCCReference>
+        <DCCReference Include="RFSCData.pas">
+            <Form>frmRFSCData</Form>
+        </DCCReference>
+        <DCCReference Include="RFIOSData.pas">
+            <Form>frmRFIOSData</Form>
+        </DCCReference>
+        <DCCReference Include="RFNSCData.pas">
+            <Form>frmRFNSCData</Form>
+        </DCCReference>
+        <DCCReference Include="DailyReport.pas">
+            <Form>frmDailyReport</Form>
+        </DCCReference>
+        <DCCReference Include="FeeDetail.pas">
+            <Form>frmFeeDetail</Form>
+        </DCCReference>
+        <DCCReference Include="Seek.pas">
+            <Form>frmSeek</Form>
+        </DCCReference>
+        <DCCReference Include="MonthlyReport.pas">
+            <Form>frmMonthlyReport</Form>
+        </DCCReference>
+        <DCCReference Include="CarNoModify.pas">
+            <Form>frmCarNoModify</Form>
+        </DCCReference>
+        <DCCReference Include="IOSCnt.pas">
+            <Form>frmIOSCnt</Form>
+        </DCCReference>
+        <DCCReference Include="Freetime.pas">
+            <Form>frmFreetime</Form>
+        </DCCReference>
+        <DCCReference Include="ParkingTime.pas">
+            <Form>frmParkingTime</Form>
+        </DCCReference>
+        <DCCReference Include="ParkInfo.pas">
+            <Form>frmParkInfo</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="NewBSC.pas">
+            <Form>frmNewBSC</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="BlackListInfo.pas">
+            <Form>frmBlackListInfo</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="IOBData.pas">
+            <Form>frmIOBData</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Custinfo_D.Pas">
+            <Form>frmCustinfo_D</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Seek2.pas">
+            <Form>frmSeek2</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Parkinfo_Yo.Pas">
+            <Form>frmParkInfo_yo</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="BlackSearch.pas">
+            <Form>frmBlackSearch</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="GroupNumEdit.pas">
+            <Form>frmGroupNumEdit</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="CarPossession.pas">
+            <Form>frmCarPossession</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="InOutCarList.pas">
+            <Form>frmInOutCarList</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Day_IOS_ION.pas">
+            <Form>Day_ION_IOS_Data</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Month_IOS_ION.pas">
+            <Form>Month_IOS_ION_Data</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Term_IOS_ION.pas">
+            <Form>Term_IOS_ION_Data</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Day2_IOS_ION.pas">
+            <Form>Day2_IOS_ION_Data</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Condition_IOS_ION.pas">
+            <Form>Condition_IOS_ION_Data</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="NomalCar_Management.pas">
+            <Form>frmNomalCar_Management</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="IOVisitStat.pas">
+            <Form>frmIOVisitStat</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="PDASearch.pas">
+            <Form>frmPDASearch</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Homenet_Point.pas">
+            <Form>frmHomenet_Point</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="IONCount.pas">
+            <Form>frmIONCount</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="JSON_LIB\XSuperJSON.pas"/>
+        <DCCReference Include="JSON_LIB\XSuperObject.pas"/>
+        <DCCReference Include="EasyOnHomeInfo.pas"/>
+        <DCCReference Include="Visit_Info.pas">
+            <Form>frmVisit_Info</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="VisitAmount.pas">
+            <Form>FrmVisitAmount</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Visitinfo_insert.pas">
+            <Form>frmVisitinfo_insert</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="CustInfo_WP.pas">
+            <Form>FrmCustInfo_WP</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <BuildConfiguration Include="Debug">
+            <Key>Cfg_2</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Base">
+            <Key>Base</Key>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Release">
+            <Key>Cfg_1</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+    </ItemGroup>
+    <Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Delphi.Personality>
+                <Source>
+                    <Source Name="MainSource">Nexpa_Host.dpr</Source>
+                </Source>
+                <Parameters>
+                    <Parameters Name="UseLauncher">False</Parameters>
+                    <Parameters Name="LoadAllSymbols">True</Parameters>
+                    <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+                </Parameters>
+                <VersionInfo>
+                    <VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+                    <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+                    <VersionInfo Name="MajorVer">1</VersionInfo>
+                    <VersionInfo Name="MinorVer">0</VersionInfo>
+                    <VersionInfo Name="Release">0</VersionInfo>
+                    <VersionInfo Name="Build">0</VersionInfo>
+                    <VersionInfo Name="Debug">False</VersionInfo>
+                    <VersionInfo Name="PreRelease">False</VersionInfo>
+                    <VersionInfo Name="Special">False</VersionInfo>
+                    <VersionInfo Name="Private">False</VersionInfo>
+                    <VersionInfo Name="DLL">False</VersionInfo>
+                    <VersionInfo Name="Locale">1042</VersionInfo>
+                    <VersionInfo Name="CodePage">949</VersionInfo>
+                </VersionInfo>
+                <VersionInfoKeys>
+                    <VersionInfoKeys Name="CompanyName"/>
+                    <VersionInfoKeys Name="FileDescription"/>
+                    <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="InternalName"/>
+                    <VersionInfoKeys Name="LegalCopyright"/>
+                    <VersionInfoKeys Name="LegalTrademarks"/>
+                    <VersionInfoKeys Name="OriginalFilename"/>
+                    <VersionInfoKeys Name="ProductName"/>
+                    <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="Comments"/>
+                </VersionInfoKeys>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\bcboffice2k200.bpl">Embarcadero C++Builder Office 2000 Servers Package</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\bcbofficexp200.bpl">Embarcadero C++Builder Office XP Servers Package</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcloffice2k200.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclofficexp200.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+                </Excluded_Packages>
+            </Delphi.Personality>
+            <ModelSupport>False</ModelSupport>
+            <Platforms>
+                <Platform value="Android">True</Platform>
+                <Platform value="Win32">True</Platform>
+                <Platform value="Win64">False</Platform>
+            </Platforms>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+    <Import Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj" Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')"/>
+</Project>

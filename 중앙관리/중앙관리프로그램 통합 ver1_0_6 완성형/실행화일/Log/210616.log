@@ -1,0 +1,171 @@
+[09:01:43] Program Start!
+[09:02:01] Select reserve2, reserve3, count(*) as cnt, 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3 
+
+[09:02:01] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin,                                                          
+UsedPoint, DATEDIFF(dd, procdate, outdate) as prkDate                    
+From IONData                                                             
+Where ProcDate + ' ' +ProcTime between :v3 and :v4
+ union 
+Select '합계', '', '', '', '', '',             
+ '', '', '',                                         
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL(SUM(parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin)%(24*60))%60,0)) +'분'      
+    when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                     
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin)%(24*60))%60,0)) +'분'    
+ END                                                                          
+ as ParkingMin,                                                               
+ Sum(UsedPoint) UsedPoint, SUM(DATEDIFF(dd, procdate, outdate)) as prkDate    
+ From IONData                                                                 
+ Where ProcDate + ' ' +ProcTime between :v7 and :v8 
+
+[09:02:51] Program Start!
+[09:02:58] Select reserve2, reserve3, count(*) as cnt, 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3 
+
+[09:02:58] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin,                                                          
+UsedPoint, DATEDIFF(dd, procdate, outdate) as prkDate                    
+From IONData                                                             
+Where ProcDate + ' ' +ProcTime between :v3 and :v4
+ union 
+Select '합계', '', '', '', '', '',             
+ '', '', '',                                         
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL(SUM(parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin)%(24*60))%60,0)) +'분'      
+    when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                     
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin)%(24*60))%60,0)) +'분'    
+ END                                                                          
+ as ParkingMin,                                                               
+ Sum(UsedPoint) UsedPoint, SUM(DATEDIFF(dd, procdate, outdate)) as prkDate    
+ From IONData                                                                 
+ Where ProcDate + ' ' +ProcTime between :v7 and :v8 
+
+[09:03:59] Program Start!
+[09:04:10] Select reserve2, reserve3, count(*) as cnt, 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3 
+
+[09:04:10] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+Reserve1, Reserve2, Reserve3,                                            
+Case when (ISNULL((parkingmin)/(24*60),0) > 0) and (ISNULL((parkingmin)%(24*60)/60,0) = 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일'         
+     when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+     when  (ISNULL((parkingmin)%(24*60)/60,0) > 0) and (ISNULL(((parkingmin)%(24*60))%60,0) = 0) then 
+     CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'                                 
+     when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                      
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin,                                                          
+UsedPoint, DATEDIFF(dd, procdate, outdate) as prkDate                    
+From IONData                                                             
+Where ProcDate + ' ' +ProcTime between :v3 and :v4
+ union 
+Select '합계', '', '', '', '', '',             
+ '', '', '',                                         
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL(SUM(parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin)%(24*60))%60,0)) +'분'      
+    when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                     
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin)%(24*60))%60,0)) +'분'    
+ END                                                                          
+ as ParkingMin,                                                               
+ Sum(UsedPoint) UsedPoint, SUM(DATEDIFF(dd, procdate, outdate)) as prkDate    
+ From IONData                                                                 
+ Where ProcDate + ' ' +ProcTime between :v7 and :v8 
+
+[09:04:16] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[13:20:52] Program Start!
+[13:21:02] TfrmSCGroup.frmClear: Cannot focus a disabled or invisible window
+[13:21:03] TfrmSCGroup.frmClear: Cannot focus a disabled or invisible window
+[13:21:09] Program Close
+[13:21:57] Program Start!
+[13:22:52] Program Start!
+[13:23:17] Program Start!
+[13:24:30] Program Start!
+[13:25:02] Program Start!

@@ -1,0 +1,36 @@
+[17:16:33] Program Start!
+[17:16:33] 사전방문 차량 등록 가능 시간  컬럼추가 완료
+[17:16:40] Program Start!
+[17:34:01] Program Start!
+[17:34:07] Program Close
+[17:34:10] Program Start!
+[17:42:59] Program Start!
+[17:43:05] Program Close
+[17:43:07] Program Start!
+[17:43:32] Program Start!
+[18:03:32] Program Start!
+[18:03:44] Program Start!
+[18:03:53] TfrmParkInfo.FormShow: qryParkInfo: Type mismatch for field 'visitinfoInsert', expecting: Integer actual: String
+[18:04:20] Program Start!
+[18:04:32] Program Start!
+[18:04:39] TfrmParkInfo.FormShow: qryParkInfo: Type mismatch for field 'visitinfoInsert', expecting: Integer actual: String
+[18:06:10] Program Start!
+[18:06:31] Program Start!
+[18:06:43] Program Start!
+[18:07:40] Program Start!
+[18:07:52] Program Start!
+[18:08:52] Program Start!
+[18:09:05] Program Close
+[18:09:15] Program Start!
+[18:10:46] Program Start!
+[18:10:56] Program Start!
+[18:43:35] Program Start!
+[18:43:50] Program Close
+[18:43:54] Program Start!
+[18:47:33] Program Start!
+[18:47:46] Program Start!
+[18:51:13] Program Start!
+[18:51:21] Program Close
+[18:51:25] Program Start!
+[18:52:13] Program Start!
+[18:52:22] Program Start!

@@ -1,0 +1,186 @@
+[09:37:32] Program Start!
+[09:37:58] Program Close
+[09:37:59] Program Close
+[09:37:59] Program Close
+[09:37:59] Program Close
+[09:37:59] Program Close
+[09:38:00] Program Close
+[09:38:01] Program Close
+[09:38:01] Program Close
+[09:38:01] Program Close
+[09:38:01] Program Close
+[09:38:01] Program Close
+[09:38:01] Program Close
+[09:38:02] Program Close
+[09:38:02] Program Close
+[09:38:03] Program Close
+[09:38:04] Program Close
+[09:38:04] Program Close
+[09:38:04] TfrmMain.UnitCtrl: Socket Error # 10060
+Connection timed out.
+[09:38:16] Program Start!
+[09:38:58] TfrmMain.UnitCtrl: Socket Error # 10060
+Connection timed out.
+[09:43:26] Program Start!
+[09:44:37] Program Start!
+[09:45:01] Program Close
+[09:45:14] TfrmMain.UnitCtrl: Socket Error # 10060
+Connection timed out.
+[09:45:26] Program Start!
+[09:57:54] Program Start!
+[09:58:28] TfrmMain.UnitCtrl: Socket Error # 10060
+Connection timed out.
+[09:59:48] Program Start!
+[10:00:10] Program Start!
+[10:01:19] Program Start!
+[10:02:55] Program Start!
+[10:03:50] Program Start!
+[10:04:57] Program Start!
+[10:06:03] Program Start!
+[10:08:41] Program Start!
+[10:10:46] Program Start!
+[10:14:09] Program Start!
+[10:14:20] 11번 차단기OPEN
+[10:15:12] Program Start!
+[10:15:20] 11번 차단기OPEN
+[10:15:25] TfrmMain.UnitCtrl: Already connected.
+[10:16:31] Program Start!
+[10:16:57] 11번 차단기CLOSE
+[10:17:06] Program Start!
+[10:17:13] 11번 차단기OPEN
+[10:17:22] TfrmMain.UnitCtrl: Already connected.
+[10:17:58] Program Start!
+[10:18:08] 11번 차단기OPEN
+[10:18:34] TfrmMain.UnitCtrl: Already connected.
+[10:20:15] Program Start!
+[10:20:25] 11번 차단기OPEN
+[10:20:29] TfrmMain.UnitCtrl: Already connected.
+[10:20:34] TfrmMain.UnitCtrl: Already connected.
+[10:21:43] Program Start!
+[10:21:55] 11번 차단기CLOSE
+[10:22:03] TfrmMain.UnitCtrl: Connection Closed Gracefully.
+[10:22:21] TfrmMain.UnitCtrl: Connection Closed Gracefully.
+[10:24:57] Program Start!
+[10:25:06] 11번 차단기OPEN
+[10:25:16] TfrmMain.UnitCtrl: Already connected.
+[10:27:31] Program Start!
+[10:27:45] 11번 차단기OPEN
+[10:27:53] TfrmMain.UnitCtrl: Already connected.
+[10:29:01] Program Start!
+[10:29:11] 11번 차단기CLOSE
+[10:29:26] TfrmMain.UnitCtrl: Connection Closed Gracefully.
+[10:30:44] Program Start!
+[10:30:52] 11번 차단기OPEN
+[10:31:00] TfrmMain.UnitCtrl: Already connected.
+[10:31:40] Program Start!
+[10:31:46] 11번 차단기OPEN
+[10:31:51] TfrmMain.UnitCtrl: Already connected.
+[10:32:09] Program Start!
+[10:32:30] 11번 차단기OPEN
+[10:33:20] Program Start!
+[10:33:47] 11번 차단기CLOSE
+[10:34:15] TfrmMain.UnitCtrl: Connection Closed Gracefully.
+[10:34:45] Program Start!
+[10:35:11] TfrmMain.UnitCtrl: Already connected.
+[10:36:22] Program Start!
+[10:36:28] 11번 차단기OPEN
+[10:38:19] Program Start!
+[10:38:27] 11번 차단기OPEN
+[10:38:57] Program Start!
+[10:39:04] 11번 차단기OPEN
+[10:39:59] Program Start!
+[10:40:07] 11번 차단기OPEN
+[10:41:32] Program Start!
+[10:42:05] 11번 차단기OPEN
+[10:44:25] Program Start!
+[10:44:34] 11번 차단기OPEN
+[10:44:40] TfrmMain.UnitCtrl: Connection Closed Gracefully.
+[10:45:00] Program Start!
+[10:45:19] 11번 차단기OPEN
+[10:46:15] Program Start!
+[10:46:30] 11번 차단기OPEN
+[10:48:25] Program Start!
+[10:48:40] TfrmMain.UnitCtrl: Connection Closed Gracefully.
+[10:49:05] Program Start!
+[10:49:13] TfrmMain.UnitCtrl: Connection Closed Gracefully.
+[10:49:33] Program Start!
+[10:50:09] Program Start!
+[10:50:20] 11번 차단기OPEN
+[10:50:26] TfrmMain.UnitCtrl: Access violation at address 009A4A3A in module 'Nexpa_Host.exe'. Read of address 00000000
+[10:51:06] Program Start!
+[10:51:33] 11번 차단기OPEN
+[10:51:48] TfrmMain.UnitCtrl: Access violation at address 00CE8BD4 in module 'Nexpa_Host.exe'. Read of address 00000000
+[10:52:07] Program Start!
+[10:52:18] 11번 차단기OPEN
+[10:52:31] TfrmMain.UnitCtrl: Already connected.
+[10:55:20] Program Start!
+[10:55:31] 11번 차단기OPEN
+[10:55:47] TfrmMain.UnitCtrl: Already connected.
+[10:57:11] Program Start!
+[10:57:22] 11번 차단기OPEN
+[10:57:44] TfrmMain.UnitCtrl: Already connected.
+[10:59:24] Program Start!
+[10:59:34] 11번 차단기OPEN
+[10:59:54] TfrmMain.UnitCtrl: Already connected.
+[11:00:27] Program Start!
+[11:00:37] 11번 차단기OPEN
+[11:00:50] TfrmMain.UnitCtrl: Already connected.
+[11:04:18] Program Start!
+[11:04:29] TfrmMain.UnitCtrl: Connection Closed Gracefully.
+[11:04:44] Program Start!
+[11:07:49] Program Start!
+[11:07:59] 11번 차단기OPEN
+[11:12:06] Program Start!
+[11:12:37] Program Start!
+[11:12:43] TfrmMain.UnitCtrl: Connection Closed Gracefully.
+[11:13:28] Program Start!
+[11:13:50] TfrmMain.UnitCtrl: Connection Closed Gracefully.
+[11:14:19] Program Start!
+[11:14:39] 11번 차단기OPEN
+[11:14:56] 11번 차단기CLOSE
+[11:15:34] Program Start!
+[11:15:50] 11번 차단기OPEN
+[11:16:05] 11번 차단기CLOSE
+[11:16:30] Program Start!
+[11:16:38] 11번 차단기OPEN
+[11:16:42] 11번 차단기CLOSE
+[11:18:00] Program Start!
+[11:18:22] 11번 차단기OPEN
+[11:18:40] TfrmMain.UnitCtrl: Already connected.
+[11:19:37] Program Start!
+[11:19:51] 11번 차단기OPEN
+[11:20:52] Program Start!
+[11:21:03] 11번 차단기OPEN
+[11:21:56] Program Start!
+[11:22:39] 11번 차단기OPEN
+[11:22:45] TfrmMain.UnitCtrl: Connection Closed Gracefully.
+[11:23:26] Program Start!
+[11:23:36] 11번 차단기OPEN
+[11:24:00] TfrmMain.UnitCtrl: Connection Closed Gracefully.
+[11:25:26] Program Start!
+[11:25:40] 11번 차단기OPEN
+[11:25:49] 11번 차단기CLOSE
+[11:27:01] Program Start!
+[11:27:07] 11번 차단기OPEN
+[11:27:12] 11번 차단기CLOSE
+[11:27:49] Program Start!
+[11:28:00] 11번 차단기OPEN
+[11:28:07] TfrmMain.UnitCtrl: Connection Closed Gracefully.
+[11:30:02] Program Start!
+[11:30:41] Program Start!
+[11:30:55] 11번 차단기OPEN
+[11:31:02] TfrmMain.UnitCtrl: Connection Closed Gracefully.
+[11:32:07] Program Start!
+[11:32:15] 11번 차단기OPEN
+[11:32:20] 11번 차단기CLOSE
+[11:35:04] Program Start!
+[11:35:11] TfrmMain.UnitCtrl: Connection Closed Gracefully.
+[11:35:16] TfrmMain.UnitCtrl: Connection Closed Gracefully.
+[11:35:41] Program Start!
+[11:35:49] 11번 차단기OPEN
+[11:35:54] 11번 차단기CLOSE
+[11:38:06] Program Start!
+[11:38:13] 11번 차단기OPEN
+[11:38:19] 11번 차단기CLOSE
+[11:38:31] 11번 차단기OPEN
+[11:38:34] 11번 차단기OPEN

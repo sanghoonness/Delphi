@@ -1,0 +1,33 @@
+[13:32:43] Program Start!
+[13:33:20] Program Start!
+[13:44:15] Program Start!
+[13:44:24]  select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, CarNo,  
+ substring((period),1,19) as VisitStart, 
+ substring((period),21,19) as VisitEnd   
+ from VisitInfo_ICon                           
+ where substring(period,1,10) >= :N4 and substring(period,21,19) <= :N5 and and ISNUMERIC(period) = 1   
+order by StartDateTime desc 
+
+[13:44:52] Program Start!
+[13:44:58]  select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, CarNo,  
+ substring((period),1,19) as VisitStart, 
+ substring((period),21,19) as VisitEnd   
+ from VisitInfo_ICon                           
+ where substring(period,1,10) >= :N4 and substring(period,21,19) <= :N5 and ISNUMERIC(period) = 1   
+order by StartDateTime desc 
+
+[13:45:30] Program Start!
+[13:45:36]  select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, CarNo,  
+ substring((period),1,19) as VisitStart, 
+ substring((period),21,19) as VisitEnd   
+ from VisitInfo_ICon                           
+ where substring(period,1,10) >= :N4 and substring(period,21,19) <= :N5 and ISNUMERIC(period) = 0   
+order by StartDateTime desc 
+
+[13:45:39]  select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, CarNo,  
+ substring((period),1,19) as VisitStart, 
+ substring((period),21,19) as VisitEnd   
+ from VisitInfo_ICon                           
+ where substring(period,1,10) >= :N4 and substring(period,21,19) <= :N5 and ISNUMERIC(period) = 0   
+order by StartDateTime desc 
+

@@ -1,0 +1,16 @@
+[16:35:58] Program Start!
+[16:52:56] Program Start!
+[16:52:59] DB Connect Error:로그인에서 요청한 데이터베이스 "PARKING"을(를) 열 수 없습니다. 로그인이 실패했습니다
+[16:54:22] Program Start!
+[16:54:23] DB Connect Error:로그인에서 요청한 데이터베이스 "PARKING"을(를) 열 수 없습니다. 로그인이 실패했습니다
+[16:54:48] Program Start!
+[16:55:16] Program Start!
+[16:57:19] Program Start!
+[16:59:12] Program Start!
+[16:59:21] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
+[17:01:58] Program Start!
+[17:02:06] Select reserve2, reserve3, count(*) as cnt , sum(parkingmin) as prkMin from IONData where ProcDate between :N1 and  :N2 
+group by reserve2, reserve3 Order by reserve2, reserve3
+
