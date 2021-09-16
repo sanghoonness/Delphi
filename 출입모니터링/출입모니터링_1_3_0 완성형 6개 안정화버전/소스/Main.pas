@@ -2683,7 +2683,7 @@ var
       sPrtData := sPrtData + BlackAutoCut;
 
     end
-    else if nDafaultPrint = 3 then   //방문증 문구 버전(힐스테이트레이크송도1차)
+    else if nDafaultPrint = 3 then   //방문증 문구 버전(힐스테이트레이크송도1차버전)
     begin
       sPrtData := '';
       //블랙마크컷 쓰면 상관없는데 블랙마크 없는곳에서 앞쪽으로 피딩
