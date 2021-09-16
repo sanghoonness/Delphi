@@ -1,7 +1,0 @@
-[12:39:21] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
-[12:39:34] csHomeInfo_iconConnect
-[12:39:34] 34루4567차량 810동 1901호 세대전송! (단지서버 IP-127.0.0.1)  127.0.0.1
-[12:39:34] ssHomeinfo_iconClientConnect : Connect
-[12:39:34] ssHomeinfo_iconClientConnect : 127.0.0.1 , 50248접속
-[12:39:34] tssServerMainClientRead : 127.0.0.1 , 50248로 부터 요청전문 수신
-[12:39:34] 요청전문 : [<?xml version="1.0" encoding="utf-8"?><imap ver = "1.0" address = "127.0.0.1" sender = "주차관리"><service type = "request" name = "car_move_info"><destination name = "homedev" id_high = "810" id_low = "1901"/><move_info> "in" </move_info><params car_num = "34루4567" loc_num = "입구"message = "Guest"/></service></imap>]
