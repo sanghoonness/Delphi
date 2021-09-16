@@ -1,0 +1,675 @@
+[14:15:24] 프로그램 시작시 단지서버(홈넷) Ping 안됨! (단지서버 IP-10.10.19.1)
+[14:17:57] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.0.1.1)
+[14:19:02] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.0.1.1)
+[14:23:40] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.0.1.1)
+[14:28:58] ssHomeinfo_iconClientConnect : Connect
+[14:28:58] ssHomeinfo_iconClientConnect : 10.0.1.1 , 56188접속
+[14:28:58] tssServerMainClientRead : 10.0.1.1 , 56188로 부터 요청전문 수신
+[14:28:58] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[14:28:58] action : sAction
+[14:28:58] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[14:28:58] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:28:58] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 56188종료
+[14:47:28] ssHomeinfo_iconClientConnect : Connect
+[14:47:28] ssHomeinfo_iconClientConnect : 10.0.1.1 , 60930접속
+[14:47:28] tssServerMainClientRead : 10.0.1.1 , 60930로 부터 요청전문 수신
+[14:47:28] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[14:47:28] action : sAction
+[14:47:28] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[14:47:28] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:47:28] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 60930종료
+[14:47:49] ssHomeinfo_iconClientConnect : Connect
+[14:47:49] ssHomeinfo_iconClientConnect : 10.0.1.1 , 32820접속
+[14:47:49] tssServerMainClientRead : 10.0.1.1 , 32820로 부터 요청전문 수신
+[14:47:49] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[14:47:49] action : sAction
+[14:47:49] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[14:47:49] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:47:49] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 32820종료
+[14:48:51] ssHomeinfo_iconClientConnect : Connect
+[14:48:51] ssHomeinfo_iconClientConnect : 10.0.1.1 , 33090접속
+[14:48:51] tssServerMainClientRead : 10.0.1.1 , 33090로 부터 요청전문 수신
+[14:48:51] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"registration"</action>
+		<params car_num="123루3333" period="2021-05-25 00:00:00/2021-05-25 23:59:59" date="null" message="null"></params>
+	</service>
+</imap>]
+[14:48:51] action : sAction
+[14:48:51] 아이콘트롤스 사전 방문 일자 2021-05-25 00:00:00/2021-05-25 23:59:59
+[14:48:51] 아이콘트롤스 사전 방문 일자 2021-05-25 00:00:00/2021-05-25 23:59:59
+[14:48:51] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:48:51] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 33090종료
+[14:48:54] ssHomeinfo_iconClientConnect : Connect
+[14:48:54] ssHomeinfo_iconClientConnect : 10.0.1.1 , 33104접속
+[14:48:54] tssServerMainClientRead : 10.0.1.1 , 33104로 부터 요청전문 수신
+[14:48:54] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[14:48:54] action : sAction
+[14:48:54] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[14:48:54] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:48:54] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 33104종료
+[14:50:34] ssHomeinfo_iconClientConnect : Connect
+[14:50:34] ssHomeinfo_iconClientConnect : 10.0.1.1 , 33494접속
+[14:50:34] tssServerMainClientRead : 10.0.1.1 , 33494로 부터 요청전문 수신
+[14:50:34] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"registration"</action>
+		<params car_num="12호3333" period="2021-05-25 00:00:00/2021-05-25 23:59:59" date="null" message="null"></params>
+	</service>
+</imap>]
+[14:50:34] action : sAction
+[14:50:34] 아이콘트롤스 사전 방문 일자 2021-05-25 00:00:00/2021-05-25 23:59:59
+[14:50:34] 아이콘트롤스 사전 방문 일자 2021-05-25 00:00:00/2021-05-25 23:59:59
+[14:50:34] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:50:34] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 33494종료
+[14:50:38] ssHomeinfo_iconClientConnect : Connect
+[14:50:38] ssHomeinfo_iconClientConnect : 10.0.1.1 , 33496접속
+[14:50:38] tssServerMainClientRead : 10.0.1.1 , 33496로 부터 요청전문 수신
+[14:50:38] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[14:50:38] action : sAction
+[14:50:38] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[14:50:38] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:50:38] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 33496종료
+[14:51:11] ssHomeinfo_iconClientConnect : Connect
+[14:51:11] ssHomeinfo_iconClientConnect : 10.0.1.1 , 33640접속
+[14:51:11] tssServerMainClientRead : 10.0.1.1 , 33640로 부터 요청전문 수신
+[14:51:11] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[14:51:11] action : sAction
+[14:51:11] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[14:51:11] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:51:11] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 33640종료
+[14:51:21] ssHomeinfo_iconClientConnect : Connect
+[14:51:21] ssHomeinfo_iconClientConnect : 10.0.1.1 , 33674접속
+[14:51:21] tssServerMainClientRead : 10.0.1.1 , 33674로 부터 요청전문 수신
+[14:51:21] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[14:51:21] action : sAction
+[14:51:21] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[14:51:21] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:51:21] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 33674종료
+[14:51:23] ssHomeinfo_iconClientConnect : Connect
+[14:51:23] ssHomeinfo_iconClientConnect : 10.0.1.1 , 33678접속
+[14:51:23] tssServerMainClientRead : 10.0.1.1 , 33678로 부터 요청전문 수신
+[14:51:23] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"delete"</action>
+		<params car_num="12호3333" period="2021-05-25 00:00:00/2021-05-25 23:59:59" date="2021-05-25 14:50:34" message="null"></params>
+	</service>
+</imap>]
+[14:51:23] action : sAction
+[14:51:23] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:51:23] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 33678종료
+[14:51:26] ssHomeinfo_iconClientConnect : Connect
+[14:51:26] ssHomeinfo_iconClientConnect : 10.0.1.1 , 33694접속
+[14:51:26] tssServerMainClientRead : 10.0.1.1 , 33694로 부터 요청전문 수신
+[14:51:26] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[14:51:26] action : sAction
+[14:51:26] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[14:51:26] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:51:26] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 33694종료
+[14:52:02] ssHomeinfo_iconClientConnect : Connect
+[14:52:02] ssHomeinfo_iconClientConnect : 10.0.1.1 , 33866접속
+[14:52:02] tssServerMainClientRead : 10.0.1.1 , 33866로 부터 요청전문 수신
+[14:52:02] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"registration"</action>
+		<params car_num="777러7891" period="2021-05-25 00:00:00/2021-05-25 23:59:59" date="null" message="null"></params>
+	</service>
+</imap>]
+[14:52:02] action : sAction
+[14:52:02] 아이콘트롤스 사전 방문 일자 2021-05-25 00:00:00/2021-05-25 23:59:59
+[14:52:02] 아이콘트롤스 사전 방문 일자 2021-05-25 00:00:00/2021-05-25 23:59:59
+[14:52:02] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:52:02] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 33866종료
+[14:52:14] ssHomeinfo_iconClientConnect : Connect
+[14:52:14] ssHomeinfo_iconClientConnect : 10.0.1.1 , 33994접속
+[14:52:14] tssServerMainClientRead : 10.0.1.1 , 33994로 부터 요청전문 수신
+[14:52:14] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[14:52:14] action : sAction
+[14:52:14] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[14:52:14] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:52:14] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 33994종료
+[14:52:22] ssHomeinfo_iconClientConnect : Connect
+[14:52:22] ssHomeinfo_iconClientConnect : 10.0.1.1 , 34042접속
+[14:52:22] tssServerMainClientRead : 10.0.1.1 , 34042로 부터 요청전문 수신
+[14:52:22] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"delete"</action>
+		<params car_num="777러7891" period="2021-05-25 00:00:00/2021-05-25 23:59:59" date="2021-05-25 14:52:02" message="null"></params>
+		<params car_num="123루3333" period="2021-05-25 00:00:00/2021-05-25 23:59:59" date="2021-05-25 14:48:51" message="null"></params>
+	</service>
+</imap>]
+[14:52:22] action : sAction
+[14:52:22] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:52:22] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 34042종료
+[14:52:25] ssHomeinfo_iconClientConnect : Connect
+[14:52:25] ssHomeinfo_iconClientConnect : 10.0.1.1 , 34056접속
+[14:52:25] tssServerMainClientRead : 10.0.1.1 , 34056로 부터 요청전문 수신
+[14:52:25] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[14:52:25] action : sAction
+[14:52:25] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[14:52:25] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:52:25] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 34056종료
+[14:53:15] ssHomeinfo_iconClientConnect : Connect
+[14:53:15] ssHomeinfo_iconClientConnect : 10.0.1.1 , 34386접속
+[14:53:15] tssServerMainClientRead : 10.0.1.1 , 34386로 부터 요청전문 수신
+[14:53:15] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[14:53:15] action : sAction
+[14:53:15] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[14:53:15] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:53:15] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 34386종료
+[14:54:25] ssHomeinfo_iconClientConnect : Connect
+[14:54:25] ssHomeinfo_iconClientConnect : 10.0.1.1 , 34726접속
+[14:54:25] tssServerMainClientRead : 10.0.1.1 , 34726로 부터 요청전문 수신
+[14:54:25] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[14:54:25] action : sAction
+[14:54:25] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[14:54:25] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:54:25] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 34726종료
+[14:54:56] ssHomeinfo_iconClientConnect : Connect
+[14:54:56] ssHomeinfo_iconClientConnect : 10.0.1.1 , 34810접속
+[14:54:56] tssServerMainClientRead : 10.0.1.1 , 34810로 부터 요청전문 수신
+[14:54:56] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"registration"</action>
+		<params car_num="111고4567" period="2021-05-28 00:00:00/2021-05-28 23:59:59" date="null" message="null"></params>
+	</service>
+</imap>]
+[14:54:56] action : sAction
+[14:54:56] 아이콘트롤스 사전 방문 일자 2021-05-28 00:00:00/2021-05-28 23:59:59
+[14:54:56] 아이콘트롤스 사전 방문 일자 2021-05-28 00:00:00/2021-05-28 23:59:59
+[14:54:56] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:54:56] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 34810종료
+[14:54:59] ssHomeinfo_iconClientConnect : Connect
+[14:54:59] ssHomeinfo_iconClientConnect : 10.0.1.1 , 34856접속
+[14:54:59] tssServerMainClientRead : 10.0.1.1 , 34856로 부터 요청전문 수신
+[14:54:59] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[14:54:59] action : sAction
+[14:54:59] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[14:54:59] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:54:59] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 34856종료
+[14:55:57] ssHomeinfo_iconClientConnect : Connect
+[14:55:57] ssHomeinfo_iconClientConnect : 10.0.1.1 , 35172접속
+[14:55:57] tssServerMainClientRead : 10.0.1.1 , 35172로 부터 요청전문 수신
+[14:55:57] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"registration"</action>
+		<params car_num="34루4567" period="2021-05-26 00:00:00/2021-05-27 23:59:59" date="null" message="null"></params>
+	</service>
+</imap>]
+[14:55:57] action : sAction
+[14:55:57] 아이콘트롤스 사전 방문 일자 2021-05-26 00:00:00/2021-05-27 23:59:59
+[14:55:57] 아이콘트롤스 사전 방문 일자 2021-05-26 00:00:00/2021-05-27 23:59:59
+[14:55:57] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:55:57] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 35172종료
+[14:56:01] ssHomeinfo_iconClientConnect : Connect
+[14:56:01] ssHomeinfo_iconClientConnect : 10.0.1.1 , 35190접속
+[14:56:01] tssServerMainClientRead : 10.0.1.1 , 35190로 부터 요청전문 수신
+[14:56:01] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[14:56:01] action : sAction
+[14:56:01] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[14:56:01] ssHomeinfo_iconClientDisconnect : DisConnect
+[14:56:01] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 35190종료
+[14:58:03] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.0.1.1)
+[15:02:33] ssHomeinfo_iconClientConnect : Connect
+[15:02:33] ssHomeinfo_iconClientConnect : 10.0.1.1 , 37142접속
+[15:02:33] tssServerMainClientRead : 10.0.1.1 , 37142로 부터 요청전문 수신
+[15:02:33] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[15:02:33] action : sAction
+[15:02:33] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[15:02:33] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:02:33] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 37142종료
+[15:02:53] ssHomeinfo_iconClientConnect : Connect
+[15:02:53] ssHomeinfo_iconClientConnect : 10.0.1.1 , 37266접속
+[15:02:53] tssServerMainClientRead : 10.0.1.1 , 37266로 부터 요청전문 수신
+[15:02:53] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"registration"</action>
+		<params car_num="77나9876" period="2021-05-25 00:00:00/2021-05-25 23:59:59" date="null" message="null"></params>
+	</service>
+</imap>]
+[15:02:53] action : sAction
+[15:02:53] 아이콘트롤스 사전 방문 일자 2021-05-25 00:00:00/2021-05-25 23:59:59
+[15:02:53] 아이콘트롤스 사전 방문 일자 2021-05-25 00:00:00/2021-05-25 23:59:59
+[15:02:53] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:02:53] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 37266종료
+[15:02:58] ssHomeinfo_iconClientConnect : Connect
+[15:02:58] ssHomeinfo_iconClientConnect : 10.0.1.1 , 37278접속
+[15:02:58] tssServerMainClientRead : 10.0.1.1 , 37278로 부터 요청전문 수신
+[15:02:58] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[15:02:58] action : sAction
+[15:02:58] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[15:02:58] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:02:58] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 37278종료
+[15:03:44] ssHomeinfo_iconClientConnect : Connect
+[15:03:44] ssHomeinfo_iconClientConnect : 10.0.1.1 , 37438접속
+[15:03:44] tssServerMainClientRead : 10.0.1.1 , 37438로 부터 요청전문 수신
+[15:03:44] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"registration"</action>
+		<params car_num="999루3456" period="2021-05-28 00:00:00/2021-05-28 23:59:59" date="null" message="null"></params>
+	</service>
+</imap>]
+[15:03:44] action : sAction
+[15:03:44] 아이콘트롤스 사전 방문 일자 2021-05-28 00:00:00/2021-05-28 23:59:59
+[15:03:44] 아이콘트롤스 사전 방문 일자 2021-05-28 00:00:00/2021-05-28 23:59:59
+[15:03:44] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:03:44] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 37438종료
+[15:03:49] ssHomeinfo_iconClientConnect : Connect
+[15:03:49] ssHomeinfo_iconClientConnect : 10.0.1.1 , 37450접속
+[15:03:49] tssServerMainClientRead : 10.0.1.1 , 37450로 부터 요청전문 수신
+[15:03:49] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[15:03:49] action : sAction
+[15:03:49] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[15:03:49] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:03:49] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 37450종료
+[15:04:06] ssHomeinfo_iconClientConnect : Connect
+[15:04:06] ssHomeinfo_iconClientConnect : 10.0.1.1 , 37484접속
+[15:04:06] tssServerMainClientRead : 10.0.1.1 , 37484로 부터 요청전문 수신
+[15:04:06] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"registration"</action>
+		<params car_num="76고7777" period="2021-05-28 00:00:00/2021-05-30 23:59:59" date="null" message="null"></params>
+	</service>
+</imap>]
+[15:04:06] action : sAction
+[15:04:06] 아이콘트롤스 사전 방문 일자 2021-05-28 00:00:00/2021-05-30 23:59:59
+[15:04:06] 아이콘트롤스 사전 방문 일자 2021-05-28 00:00:00/2021-05-30 23:59:59
+[15:04:06] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:04:06] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 37484종료
+[15:04:11] ssHomeinfo_iconClientConnect : Connect
+[15:04:11] ssHomeinfo_iconClientConnect : 10.0.1.1 , 37550접속
+[15:04:11] tssServerMainClientRead : 10.0.1.1 , 37550로 부터 요청전문 수신
+[15:04:11] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[15:04:11] action : sAction
+[15:04:11] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[15:04:11] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:04:11] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 37550종료
+[15:04:24] ssHomeinfo_iconClientConnect : Connect
+[15:04:24] ssHomeinfo_iconClientConnect : 10.0.1.1 , 37654접속
+[15:04:24] tssServerMainClientRead : 10.0.1.1 , 37654로 부터 요청전문 수신
+[15:04:24] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"registration"</action>
+		<params car_num="56두4567" period="2021-05-28 00:00:00/2021-05-30 23:59:59" date="null" message="null"></params>
+	</service>
+</imap>]
+[15:04:24] action : sAction
+[15:04:24] 아이콘트롤스 사전 방문 일자 2021-05-28 00:00:00/2021-05-30 23:59:59
+[15:04:24] 아이콘트롤스 사전 방문 일자 2021-05-28 00:00:00/2021-05-30 23:59:59
+[15:04:24] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:04:24] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 37654종료
+[15:04:30] ssHomeinfo_iconClientConnect : Connect
+[15:04:30] ssHomeinfo_iconClientConnect : 10.0.1.1 , 37678접속
+[15:04:30] tssServerMainClientRead : 10.0.1.1 , 37678로 부터 요청전문 수신
+[15:04:30] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[15:04:30] action : sAction
+[15:04:30] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[15:04:30] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:04:30] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 37678종료
+[15:05:15] ssHomeinfo_iconClientConnect : Connect
+[15:05:15] ssHomeinfo_iconClientConnect : 10.0.1.1 , 37888접속
+[15:05:15] tssServerMainClientRead : 10.0.1.1 , 37888로 부터 요청전문 수신
+[15:05:15] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"registration"</action>
+		<params car_num="654루8765" period="2021-05-25 00:00:00/2021-05-25 23:59:59" date="null" message="null"></params>
+	</service>
+</imap>]
+[15:05:15] action : sAction
+[15:05:15] 아이콘트롤스 사전 방문 일자 2021-05-25 00:00:00/2021-05-25 23:59:59
+[15:05:15] 아이콘트롤스 사전 방문 일자 2021-05-25 00:00:00/2021-05-25 23:59:59
+[15:05:15] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:05:15] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 37888종료
+[15:05:30] ssHomeinfo_iconClientConnect : Connect
+[15:05:30] ssHomeinfo_iconClientConnect : 10.0.1.1 , 37956접속
+[15:05:30] tssServerMainClientRead : 10.0.1.1 , 37956로 부터 요청전문 수신
+[15:05:30] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"registration"</action>
+		<params car_num="76아6891" period="3" date="null" message="null"></params>
+	</service>
+</imap>]
+[15:05:30] action : sAction
+[15:05:30] 아이콘트롤스 사전 방문 일자 3
+[15:05:30] 아이콘트롤스 사전 방문 일자 3
+[15:05:30] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:05:30] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 37956종료
+[15:05:36] ssHomeinfo_iconClientConnect : Connect
+[15:05:36] ssHomeinfo_iconClientConnect : 10.0.1.1 , 37984접속
+[15:05:36] tssServerMainClientRead : 10.0.1.1 , 37984로 부터 요청전문 수신
+[15:05:36] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[15:05:36] action : sAction
+[15:05:36] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[15:05:36] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:05:36] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 37984종료
+[15:06:00] ssHomeinfo_iconClientConnect : Connect
+[15:06:00] ssHomeinfo_iconClientConnect : 10.0.1.1 , 38072접속
+[15:06:00] tssServerMainClientRead : 10.0.1.1 , 38072로 부터 요청전문 수신
+[15:06:00] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"registration"</action>
+		<params car_num="18아6666" period="2021-05-28 00:00:00/2021-05-28 23:59:59" date="null" message="null"></params>
+	</service>
+</imap>]
+[15:06:00] action : sAction
+[15:06:00] 아이콘트롤스 사전 방문 일자 2021-05-28 00:00:00/2021-05-28 23:59:59
+[15:06:00] 아이콘트롤스 사전 방문 일자 2021-05-28 00:00:00/2021-05-28 23:59:59
+[15:06:00] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:06:00] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 38072종료
+[15:06:06] ssHomeinfo_iconClientConnect : Connect
+[15:06:06] ssHomeinfo_iconClientConnect : 10.0.1.1 , 38104접속
+[15:06:06] tssServerMainClientRead : 10.0.1.1 , 38104로 부터 요청전문 수신
+[15:06:06] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[15:06:06] action : sAction
+[15:06:06] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[15:06:06] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:06:06] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 38104종료
+[15:07:47] ssHomeinfo_iconClientConnect : Connect
+[15:07:47] ssHomeinfo_iconClientConnect : 10.0.1.1 , 38544접속
+[15:07:47] tssServerMainClientRead : 10.0.1.1 , 38544로 부터 요청전문 수신
+[15:07:47] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[15:07:47] action : sAction
+[15:07:47] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[15:07:47] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:07:47] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 38544종료
+[15:08:30] ssHomeinfo_iconClientConnect : Connect
+[15:08:30] ssHomeinfo_iconClientConnect : 10.0.1.1 , 38640접속
+[15:08:30] tssServerMainClientRead : 10.0.1.1 , 38640로 부터 요청전문 수신
+[15:08:30] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"registration"</action>
+		<params car_num="879두8765" period="2021-05-25 00:00:00/2021-05-25 23:59:59" date="null" message="null"></params>
+	</service>
+</imap>]
+[15:08:30] action : sAction
+[15:08:30] 아이콘트롤스 사전 방문 일자 2021-05-25 00:00:00/2021-05-25 23:59:59
+[15:08:30] 아이콘트롤스 사전 방문 일자 2021-05-25 00:00:00/2021-05-25 23:59:59
+[15:08:30] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:08:30] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 38640종료
+[15:08:34] ssHomeinfo_iconClientConnect : Connect
+[15:08:34] ssHomeinfo_iconClientConnect : 10.0.1.1 , 38694접속
+[15:08:34] tssServerMainClientRead : 10.0.1.1 , 38694로 부터 요청전문 수신
+[15:08:34] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[15:08:34] action : sAction
+[15:08:34] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[15:08:34] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:08:34] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 38694종료
+[15:08:38] ssHomeinfo_iconClientConnect : Connect
+[15:08:38] ssHomeinfo_iconClientConnect : 10.0.1.1 , 38724접속
+[15:08:38] tssServerMainClientRead : 10.0.1.1 , 38724로 부터 요청전문 수신
+[15:08:38] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[15:08:38] action : sAction
+[15:08:38] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[15:08:38] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:08:38] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 38724종료
+[15:08:58] ssHomeinfo_iconClientConnect : Connect
+[15:08:58] ssHomeinfo_iconClientConnect : 10.0.1.1 , 38834접속
+[15:08:58] tssServerMainClientRead : 10.0.1.1 , 38834로 부터 요청전문 수신
+[15:08:58] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"delete"</action>
+		<params car_num="654루8765" period="2021-05-25 00:00:00/2021-05-25 23:59:59" date="2021-05-25 15:05:15" message="null"></params>
+	</service>
+</imap>]
+[15:08:58] action : sAction
+[15:08:58] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:08:58] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 38834종료
+[15:08:59] ssHomeinfo_iconClientConnect : Connect
+[15:08:59] ssHomeinfo_iconClientConnect : 10.0.1.1 , 38848접속
+[15:08:59] tssServerMainClientRead : 10.0.1.1 , 38848로 부터 요청전문 수신
+[15:08:59] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[15:08:59] action : sAction
+[15:08:59] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[15:08:59] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:08:59] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 38848종료
+[15:12:33] ssHomeinfo_iconClientConnect : Connect
+[15:12:33] ssHomeinfo_iconClientConnect : 10.0.1.1 , 39950접속
+[15:12:33] tssServerMainClientRead : 10.0.1.1 , 39950로 부터 요청전문 수신
+[15:12:33] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[15:12:33] action : sAction
+[15:12:33] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[15:12:33] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:12:33] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 39950종료
+[15:12:37] ssHomeinfo_iconClientConnect : Connect
+[15:12:37] ssHomeinfo_iconClientConnect : 10.0.1.1 , 39952접속
+[15:12:37] tssServerMainClientRead : 10.0.1.1 , 39952로 부터 요청전문 수신
+[15:12:37] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"delete"</action>
+		<params car_num="18아6666" period="2021-05-28 00:00:00/2021-05-28 23:59:59" date="2021-05-25 15:06:00" message="null"></params>
+	</service>
+</imap>]
+[15:12:37] action : sAction
+[15:12:37] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:12:37] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 39952종료
+[15:12:38] ssHomeinfo_iconClientConnect : Connect
+[15:12:38] ssHomeinfo_iconClientConnect : 10.0.1.1 , 39960접속
+[15:12:38] tssServerMainClientRead : 10.0.1.1 , 39960로 부터 요청전문 수신
+[15:12:38] 요청전문 : [<?xml version="1.0" encoding="UTF-8"?>
+<imap ver="1.0" address="10.0.1.1" sender="valley">
+	<service type="request" name="car_guest_info">
+		<request_info name="homedev" id_high="810" id_low="1901" type="main"></request_info>
+		<action>"query"</action>
+	</service>
+</imap>]
+[15:12:38] action : sAction
+[15:12:38] ICon_VisitListProcess :  등록된 방문객 조회 시작 810 / 1901
+[15:12:38] ssHomeinfo_iconClientDisconnect : DisConnect
+[15:12:38] ssHomeinfo_iconClientDisconnect : 10.0.1.1 , 39960종료
+[15:16:38] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.0.1.1)
+[15:17:51] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.0.1.1)
+[15:18:11] 홈넷전송 LPR: 11
+[15:18:11] csHomeInfo_iconConnect
+[15:18:11] 11가1111차량 810동 1901호 세대전송! (단지서버 IP-10.0.1.1)  10.0.1.1
+[15:18:12] < 단지서버 수신(592191187): 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 46 2D 38 22 3F 3E 0A 3C 69 6D 61 70 20 76 65 72 3D 22 31 2E 30 22 20 61 64 64 72 65 73 73 3D 22 31 30 2E 30 2E 31 2E 31 22 20 73 65 6E 64 65 72 3D 22 76 61 6C 6C 65 79 22 3E 0A 09 3C 73 65 72 76 69 63 65 20 74 79 70 65 3D 22 72 65 70 6C 79 22 20 6E 61 6D 65 3D 22 63 61 72 5F 6D 6F 76 65 5F 69 6E 66 6F 22 20 72 65 73 75 6C 74 3D 22 6F 6B 22 3E 3C 2F 73 65 72 76 69 63 65 3E 0A 3C 2F 69 6D 61 70 3E 
+[15:18:12] < 단지서버에서 ok 수신
+[15:18:12] 단지서버 Disconnect
+[15:22:52] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.1.1.12)
+[15:23:05] 홈넷전송 LPR: 11
+[15:23:05] csHomeInfo_iconConnect
+[15:23:05] 11가1111차량 815동 1001호 세대전송! (단지서버 IP-10.1.1.12)  10.1.1.12
+[15:23:05] < 단지서버 수신(592484859): 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 46 2D 38 22 3F 3E 0A 3C 69 6D 61 70 20 76 65 72 3D 22 31 2E 30 22 20 61 64 64 72 65 73 73 3D 22 31 30 2E 30 2E 31 2E 31 22 20 73 65 6E 64 65 72 3D 22 76 61 6C 6C 65 79 22 3E 0A 09 3C 73 65 72 76 69 63 65 20 74 79 70 65 3D 22 72 65 70 6C 79 22 20 6E 61 6D 65 3D 22 63 61 72 5F 6D 6F 76 65 5F 69 6E 66 6F 22 20 72 65 73 75 6C 74 3D 22 6F 6B 22 3E 3C 2F 73 65 72 76 69 63 65 3E 0A 3C 2F 69 6D 61 70 3E 0D 0A 
+[15:23:05] < 단지서버에서 ok 수신
+[15:23:05] 단지서버 Disconnect
+[15:23:17] 홈넷전송 LPR: 11
+[15:23:17] csHomeInfo_iconConnect
+[15:23:17] 11가1111차량 815동 1001호 세대전송! (단지서버 IP-10.1.1.12)  10.1.1.12
+[15:23:17] < 단지서버 수신(592496718): 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 46 2D 38 22 3F 3E 0A 3C 69 6D 61 70 20 76 65 72 3D 22 31 2E 30 22 20 61 64 64 72 65 73 73 3D 22 31 30 2E 30 2E 31 2E 31 22 20 73 65 6E 64 65 72 3D 22 76 61 6C 6C 65 79 22 3E 0A 09 3C 73 65 72 76 69 63 65 20 74 79 70 65 3D 22 72 65 70 6C 79 22 20 6E 61 6D 65 3D 22 63 61 72 5F 6D 6F 76 65 5F 69 6E 66 6F 22 20 72 65 73 75 6C 74 3D 22 6F 6B 22 3E 3C 2F 73 65 72 76 69 63 65 3E 0A 3C 2F 69 6D 61 70 3E 0D 0A 
+[15:23:17] < 단지서버에서 ok 수신
+[15:23:17] 단지서버 Disconnect
+[15:23:25] 홈넷전송 LPR: 11
+[15:23:25] csHomeInfo_iconConnect
+[15:23:25] 11가1111차량 815동 1001호 세대전송! (단지서버 IP-10.1.1.12)  10.1.1.12
+[15:23:26] < 단지서버 수신(592505281): 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 46 2D 38 22 3F 3E 0A 3C 69 6D 61 70 20 76 65 72 3D 22 31 2E 30 22 20 61 64 64 72 65 73 73 3D 22 31 30 2E 30 2E 31 2E 31 22 20 73 65 6E 64 65 72 3D 22 76 61 6C 6C 65 79 22 3E 0A 09 3C 73 65 72 76 69 63 65 20 74 79 70 65 3D 22 72 65 70 6C 79 22 20 6E 61 6D 65 3D 22 63 61 72 5F 6D 6F 76 65 5F 69 6E 66 6F 22 20 72 65 73 75 6C 74 3D 22 6F 6B 22 3E 3C 2F 73 65 72 76 69 63 65 3E 0A 3C 2F 69 6D 61 70 3E 0D 0A 
+[15:23:26] < 단지서버에서 ok 수신
+[15:23:26] 단지서버 Disconnect

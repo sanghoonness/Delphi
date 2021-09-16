@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.337,D:\최신소스\출입모니터링_1_2_9_2\소스\kdOneHomeNet.pas=D:\최신소스\출입모니터링_1_2_9_2\소스\kdOneHomeInfo.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\Documents and Settings\고명균\My Documents\RAD Studio\Projects\Unit1.pas=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\세종시 컨티넨탈\부스용\소스\Main.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\Documents and Settings\고명균\My Documents\RAD Studio\Projects\Unit1.dfm=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\세종시 컨티넨탈\부스용\소스\Main.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dproj,C:\Documents and Settings\고명균\My Documents\RAD Studio\Projects\Project1.dproj=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\세종시 컨티넨탈\부스용\소스\SC_IO.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.501,D:\최신소스\출입모니터링_1_2_9_2\소스\Unit1.pas=D:\최신소스\출입모니터링_1_2_9_2\소스\kdOneHomeNet.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="DspSet.pas"/>
+    <File Path="DspSet.dfm"/>
+    <File Path="Global.pas"/>
+    <File Path="InDspSet.pas"/>
+    <File Path="InDspSet.dfm"/>
+    <File Path="Login.pas"/>
+    <File Path="Login.dfm"/>
+    <File Path="Main.pas"/>
+    <File Path="Main.dfm"/>
+    <File Path="Setup.pas"/>
+    <File Path="Setup.dfm"/>
+    <File Path="Tables.pas"/>
+    <File Path="Tables.dfm"/>
+    <File Path="UnitInfo.pas"/>
+    <File Path="UnitInfo.dfm"/>
+    <File Path="Msg.pas"/>
+    <File Path="Msg.dfm"/>
+    <File Path="Alarm.pas"/>
+    <File Path="Alarm.dfm"/>
+    <File Path="IONData.pas"/>
+    <File Path="IONData.dfm"/>
+    <File Path="kdOneHomeInfo.pas"/>
+    <File Path="AptnerThd.pas"/>
+    <File Path="mzClientSocket.pas"/>
+    <File Path="VillageThd.pas"/>
+    <File Path="LightThd.pas"/>
+    <File Path="HwlHomeNet.pas"/>
+    <File Path="IOAllData.pas"/>
+    <File Path="IOAllData.dfm"/>
+    <File Path="NomalCar_Management.pas"/>
+    <File Path="NomalCar_Management.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
