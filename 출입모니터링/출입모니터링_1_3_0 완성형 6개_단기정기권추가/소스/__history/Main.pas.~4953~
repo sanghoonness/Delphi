@@ -500,6 +500,7 @@ type
     csSubInDsp1: TClientSocket;
     aptnHttp2: TIdHTTP;
     aptnHandler2: TIdSSLIOHandlerSocketOpenSSL;
+    tmrKocomRe: TTimer;
     procedure mnuCloseClick(Sender: TObject);
     procedure FormResize(Sender: TObject);
     procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
@@ -735,6 +736,7 @@ type
       Value: Double);
     procedure sld6StateChanged(Sender: TObject; State: TAdvSmoothSliderState;
       Value: Double);
+    procedure tmrKocomReTimer(Sender: TObject);
   private
     { Private declarations }
     procedure ICMPReply(ASender: TComponent; const ReplyStatus: TReplyStatus);
@@ -790,6 +792,8 @@ type
     procedure homeinfo_proc_Home(nInOut: Byte);    //홈넷홈
 
     procedure HomeInfo_Proc_KocomSerial(nInOut: Byte);   //코콤시리얼
+
+    procedure HomeInfo_Proc_Kocom_reConnect;    //코콤 홈넷 서버 재접속
 
     procedure HomeInfo_Proc2(nInOut: Byte); //홈넷 2번째 세대 통보 용
 
@@ -9557,6 +9561,7 @@ var
 begin
   try
     isOutPlusNum := 5;
+    FillChar(MainLPRRec, SizeOf(MainLPRRec), AnsiChar($00));    //메인 LPR객체 초기화
     ZeroMemory(Pointer(outSubLprItemArr), Length(outSubLprItemArr) * SizeOf(string));
     sRecv := Socket.ReceiveText;
     if unknownRevData(sRecv) = False then
@@ -15166,7 +15171,15 @@ begin
             end
             else
             begin //2단6열
-              DspProc(2, 2, '  방문차량  ' + MG_Left(sLprCarNo1, 12), sDspIP); //문구사용
+              //DspProc(2, 2, '  방문차량  ' + MG_Left(sLprCarNo1, 12), sDspIP); //문구사용
+              if nDisplayParkingTimeUse = 1 then  //전광판 주차 사용 시간 여부 판단
+              begin
+                DspProc(2, 2, MG_Left('  주차시간  ', 12) + MG_Left(sParking, 12), sDspIP); //문구사용
+              end
+              else
+              begin
+                DspProc(2, 2, ' 방문객차량 ' + MG_Left(sLprCarNo1, 12), sDspIP); //문구사용
+              end;
               if nsubOutDSPuse = 1 then
               begin
                  DspProc(2, 2, '  방문차량  ' + MG_Left(sLprCarNo1, 12), sDspOutSubIP); //출구보조 문구사용
@@ -16147,7 +16160,7 @@ begin
               //방문차량 세대별 포인트 조회 기능 추가
               ExceptLogging('스마트빌리지 방문차량: ' + sLprCarNo1);
               nType := 2; //방문자 리스트
-              inValue := '방문객 차량';
+              inValue := '방문객차량';
               if smartVillagePoint = 1 then  //스마트빌리지(홈넷) 포인트 연동
               begin
                 if nOutLprCount = 0 then         //LPR 출구갯수
@@ -20043,6 +20056,7 @@ begin
     on E: Exception do
     begin
       HomeInfoLogging('세대통보전송시 에러: ' + aString(E.Message));
+      tmrKocomRe.Enabled := True;
     end;
   end;
 end;
@@ -20073,6 +20087,85 @@ begin
   else
   begin
     ExceptLogging('Kocom 시리얼 세대통보시 포트오픈 안됨!');
+  end;
+end;
+
+procedure TfrmMain.HomeInfo_Proc_Kocom_reConnect;
+var
+ i : Integer;
+ sTemp : aString;
+begin
+  try
+    tmrKocomRe.Enabled := false;
+    IdTC_kocom.IOHandler.InputBuffer.Clear;
+    IdTC_kocom.IOHandler.CloseGracefully;
+    IdTC_kocom.Disconnect;
+    //코콤LAN 세대통보용...
+    IdSocksInfo1.Authentication:= saUsernamePassword;
+    IdSocksInfo1.Username:= sHomeInfo_ID;
+    IdSocksInfo1.Password:= sHomeInfo_PW;
+
+    // 초기화
+    FillChar(RBind, SizeOf(RBind), AnsiChar($00));
+    FillChar(RKHeader, SizeOf(RKHeader), AnsiChar($00));
+    FillChar(RAlive, SizeOf(RAlive), AnsiChar($00));
+
+    RBind.nHomeVersion:= 0;
+    RBind.nKind:= 0;
+
+    for i:= 0 to 3 do
+      RBind.nVersion[i]:= 0;
+
+    sTemp := sHomeInfo_ID;
+
+    for i:= 1 to Length(sTemp) do
+      RKHeader.sID[i]:= sTemp[i];
+
+    sTemp := sHomeInfo_PW;
+
+    RKHeader.nHeaderKey:= nGHeaderKey;
+    RKHeader.nMsgType:= nGBind;
+    RKHeader.nMsgLength:= SizeOf(RBind);
+    RKHeader.nTown:= 0;
+    RKHeader.nDong:= 0;
+    RKHeader.nHo:= 0;
+    RKHeader.nReserved:= 0;
+
+    for i:= 1 to Length(sTemp) do
+     RKHeader.sPW[i]:= sTemp[i];
+
+    IdTC_kocom.Host:= sHomeInfo_IP;
+    IdTC_kocom.Port:= nHomeInfo_Port;
+
+    if is_Ping(sHomeInfo_IP) then
+    begin
+      tmrKocomRe.Enabled := false;
+      IdTC_kocom.Connect;
+
+       if IdTC_kocom.Connected then
+       begin
+         ExceptLogging('코콤서버와 Bind확인 - OK');
+         IdTC_kocom.IOHandler.Write(RawToBytes(RKHeader, SizeOf(RKHeader)), SizeOf(RKHeader), 0);
+         tAlive.Enabled:= True;
+         if nHomeVisit = 1 then
+           tmrRecvKocom.Enabled := True;
+       end
+       else
+       begin
+         tAlive.Enabled:= True;
+         ExceptLogging('코콤서버와 Bind안됨!');
+         btnBind.Click;
+       end;
+    end
+    else
+      ExceptLogging(sHomeInfo_IP + '로 세대통보 전송시 네트워크 에러!');
+      tmrKocomRe.Enabled := True;
+  except
+    on E: Exception do
+    begin
+     ExceptLogging('TfrmMain.btnBindClick: ' + E.Message);
+//    tAlive.Enabled:= True;  //Added Woo.YH 160427
+    end;
   end;
 end;
 
@@ -33940,6 +34033,11 @@ end;
 procedure TfrmMain.tmrIONBlackCountTimer(Sender: TObject);
 begin
   IONBlackCountClear;
+end;
+
+procedure TfrmMain.tmrKocomReTimer(Sender: TObject);
+begin
+    HomeInfo_Proc_Kocom_reConnect; //코콤 재접속
 end;
 
 procedure TfrmMain.tmrRecvKocomTimer(Sender: TObject);
