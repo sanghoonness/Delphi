@@ -12714,6 +12714,9 @@ begin
           sCarNo := FieldByName('CarNo').AsString;
           sCarType:= FieldByName('Reserve1').AsString;
 
+          nStatus := 1;
+          nAPB := 3;
+
           Result := sLprDate + '^' + sLprTime + '^' + sCarNo + '^' + sName +
             '^' + sCompName + '^' + sExpDateT + '±îÁö^';
         end;
