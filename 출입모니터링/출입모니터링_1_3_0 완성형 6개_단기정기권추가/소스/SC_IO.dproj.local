@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
+<BorlandProject >
 	<Transactions>
     <Transaction>1899-12-30 00:00:00.000.337,D:\최신소스\출입모니터링_1_2_9_2\소스\kdOneHomeInfo.pas=D:\최신소스\출입모니터링_1_2_9_2\소스\kdOneHomeNet.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.dproj,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\세종시 컨티넨탈\부스용\소스\SC_IO.dproj=C:\Documents and Settings\고명균\My Documents\RAD Studio\Projects\Project1.dproj</Transaction>
