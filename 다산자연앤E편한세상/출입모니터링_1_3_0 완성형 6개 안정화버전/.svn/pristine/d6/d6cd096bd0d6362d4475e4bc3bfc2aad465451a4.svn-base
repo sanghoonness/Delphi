@@ -1,0 +1,156 @@
+unit IONData;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, IniFiles, Vcl.Grids,
+  AdvObj, BaseGrid, AdvGrid, DBAdvGrid, Data.DB, Data.Win.ADODB, Vcl.ExtCtrls;
+
+type
+  TfrmIONData = class(TForm)
+    edtDong: TEdit;
+    Label1: TLabel;
+    edtHo: TEdit;
+    Label2: TLabel;
+    Button7: TButton;
+    edtmemo1: TEdit;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Button5: TButton;
+    Button6: TButton;
+    Button8: TButton;
+    Button9: TButton;
+    Button10: TButton;
+    Button11: TButton;
+    Panel1: TPanel;
+    qryIONData: TADOQuery;
+    qryIONDataParkNo: TSmallintField;
+    qryIONDataUnitNo: TWordField;
+    qryIONDataProcDate: TStringField;
+    qryIONDataProcTime: TStringField;
+    qryIONDataTKNo: TStringField;
+    qryIONDataTKType: TWordField;
+    qryIONDataCarTypeNo: TWordField;
+    qryIONDataInImage: TStringField;
+    qryIONDataInCarNo: TStringField;
+    qryIONDataStatus: TWordField;
+    qryIONDataOutUnitNo: TWordField;
+    qryIONDataOutDate: TStringField;
+    qryIONDataOutTime: TStringField;
+    qryIONDataOutChk: TWordField;
+    qryIONDataOutImage: TStringField;
+    qryIONDataOutCarNo: TStringField;
+    qryIONDataReserve1: TStringField;
+    qryIONDataReserve2: TStringField;
+    qryIONDataReserve3: TStringField;
+    qryIONDataReserve4: TStringField;
+    qryIONDataReserve5: TStringField;
+    qryIONDataInRecog: TWordField;
+    qryIONDataOutRecog: TWordField;
+    qryIONDataInImage2: TStringField;
+    qryIONDataInCarNo2: TStringField;
+    qryIONDataOutImage2: TStringField;
+    qryIONDataOutCarNo2: TStringField;
+    qryIONDataInRecog2: TWordField;
+    qryIONDataOutRecog2: TWordField;
+    qryIONDataInUnitName: TStringField;
+    qryIONDataOutUnitName: TStringField;
+    qryUnitInfo: TADOQuery;
+    qryUnitInfoParkNo: TSmallintField;
+    qryUnitInfoUnitNo: TSmallintField;
+    qryUnitInfoUnitName: TStringField;
+    qryUnitInfoUnitKind: TWordField;
+    qryUnitInfoMyNo: TWordField;
+    qryUnitInfoComport: TIntegerField;
+    qryUnitInfoBaudrate: TIntegerField;
+    qryUnitInfoIPNo: TStringField;
+    qryUnitInfoPortNo: TIntegerField;
+    qryUnitInfoReserve1: TStringField;
+    qryUnitInfoReserve2: TStringField;
+    qryUnitInfoReserve3: TStringField;
+    qryUnitInfoReserve4: TStringField;
+    qryUnitInfoReserve5: TStringField;
+    dsIONData: TDataSource;
+    dg1: TDBAdvGrid;
+    procedure FormShow(Sender: TObject);
+    procedure ButtonClick(Sender: TObject);
+    procedure Button7Click(Sender: TObject);
+    procedure dg1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmIONData: TfrmIONData;
+
+implementation
+uses
+  Global;
+{$R *.dfm}
+
+procedure TfrmIONData.Button7Click(Sender: TObject);
+begin
+  qryIONData.Close;
+  qryUnitInfo.Close;
+  ModalResult := mrOK;
+end;
+
+procedure TfrmIONData.ButtonClick(Sender: TObject);
+begin
+  edtMemo1.Text :=(Sender as TButton).Caption;
+end;
+
+procedure TfrmIONData.dg1Click(Sender: TObject);
+var
+  i: Byte;
+begin
+  try
+    if qryIONData.RecordCount <= 0 then
+      Exit;
+
+    with qryIONData do
+    begin
+      edtmemo1       .Text:= FieldByName('Reserve1').AsString;
+      edtDong       .Text:= FieldByName('Reserve2').AsString;
+      edtHo      .Text:= FieldByName('Reserve3').AsString;
+    end;
+  except
+    on E: Exception do ExceptLogging('TfrmIONData.dg1Click: ' + aString(E.Message));
+  end;
+end;
+
+procedure TfrmIONData.FormShow(Sender: TObject);
+var
+  iniMsg: TIniFile;
+begin
+  iniMsg := TIniFile.Create(ExtractFileDir(Application.ExeName) + '\ParkSet.ini');
+  Button1.Caption   := iniMsg.ReadString('PARKING', 'msg01', '');
+  Button2.Caption   := iniMsg.ReadString('PARKING', 'msg02', '');
+  Button3.Caption   := iniMsg.ReadString('PARKING', 'msg03', '');
+  Button4.Caption   := iniMsg.ReadString('PARKING', 'msg04', '');
+  Button5.Caption   := iniMsg.ReadString('PARKING', 'msg05', '');
+  Button6.Caption   := iniMsg.ReadString('PARKING', 'msg06', '');
+  Button8.Caption   := iniMsg.ReadString('PARKING', 'msg07', '');
+  Button9.Caption   := iniMsg.ReadString('PARKING', 'msg08', '');
+  Button10.Caption  := iniMsg.ReadString('PARKING', 'msg09', '');
+  Button11.Caption  := iniMsg.ReadString('PARKING', 'msg10', '');
+//  Label3.Caption := '입차라인 : 입차 ' + IntToStr(nMsgListCnt)+ ' 라인'  ;
+  with qryIONData do
+  begin
+    Close;
+    SQL.Clear;
+    SQL.Add('Select * from IONData where  ');
+    SQL.Add('((InCarNo1 = :N2) or (InCarNo2 = :N3)) ');
+    SQL.Add('Order By ProcDate Desc, ProcTime Desc');
+    Parameters.ParamByName('N2').Value := sNowCarNo;
+    Parameters.ParamByName('N3').Value := sNowCarNo;
+    Open;
+  end;
+end;
+
+end.
