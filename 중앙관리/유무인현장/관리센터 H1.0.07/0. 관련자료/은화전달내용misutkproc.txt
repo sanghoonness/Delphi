@@ -1,0 +1,135 @@
+CREATE TABLE [dbo].[MisuTkProc](
+	[ParkNo] [smallint] NOT NULL,
+	[UnitNo] [smallint] NOT NULL,
+	[ProcDate] [char](10) NOT NULL,
+	[ProcTime] [char](8) NOT NULL,
+	[TKNo] [varchar](50) NOT NULL,
+	[TKType] [tinyint] NOT NULL,
+	[CarType] [tinyint] NOT NULL,
+	[FeeNo] [tinyint] NOT NULL,
+	[TKParkNo] [smallint] NOT NULL,
+	[TKUnitNo] [smallint] NOT NULL,
+	[CarNo] [varchar](50) NULL,
+	[InDate] [char](10) NOT NULL,
+	[InTime] [char](8) NOT NULL,
+	[ParkingMin] [int] NOT NULL,
+	[TotFee] [int] NOT NULL,
+	[TotDC] [int] NOT NULL,
+	[RealFee] [int] NOT NULL,
+	[RecvAmt] [int] NOT NULL,
+	[Change] [int] NOT NULL,
+	[DCCnt] [tinyint] NOT NULL,
+	[MNo] [smallint] NOT NULL,
+	[Unpaid] [int] NOT NULL,
+	[ChkClosing] [tinyint] NOT NULL,
+	[CommercialTariff] [tinyint] NOT NULL,
+	[SpecialTariff] [tinyint] NOT NULL,
+	[PayType] [tinyint] NOT NULL,
+	[MisuReceiveSuccess] [int] NULL,
+	[Reserve1] [varchar](50) NULL,
+	[Reserve2] [varchar](50) NULL,
+	[Reserve3] [varchar](50) NULL,
+	[Reserve4] [varchar](50) NULL,
+	[Reserve5] [varchar](50) NULL,
+	[Remark] [varchar](50) NULL,
+ CONSTRAINT [PK_MisuTkProc] PRIMARY KEY CLUSTERED 
+(
+	[ParkNo] ASC,
+	[UnitNo] ASC,
+	[ProcDate] ASC,
+	[ProcTime] ASC,
+	[TKNo] ASC,
+	[TKType] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'미수받은여부 0이면못받음 1이면받음' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'MisuTkProc', @level2type=N'COLUMN',@level2name=N'MisuReceiveSuccess'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'받은미수금 시간 yyyy-mm-dd' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'MisuTkProc', @level2type=N'COLUMN',@level2name=N'Reserve1'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'받은미수금 hh:mm:ss' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'MisuTkProc', @level2type=N'COLUMN',@level2name=N'Reserve2'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'이름' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'MisuTkProc', @level2type=N'COLUMN',@level2name=N'Reserve3'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'전화번호' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'MisuTkProc', @level2type=N'COLUMN',@level2name=N'Reserve4'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'비고' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'MisuTkProc', @level2type=N'COLUMN',@level2name=N'Remark'
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_ParkNo]  DEFAULT ((0)) FOR [ParkNo]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_UnitNo]  DEFAULT ((0)) FOR [UnitNo]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_TKNo]  DEFAULT ('0') FOR [TKNo]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_TKType]  DEFAULT ((0)) FOR [TKType]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_CarType]  DEFAULT ((0)) FOR [CarType]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_FeeNo]  DEFAULT ((0)) FOR [FeeNo]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_TKParkNo]  DEFAULT ((0)) FOR [TKParkNo]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_TKUnitNo]  DEFAULT ((0)) FOR [TKUnitNo]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_ParkingMin]  DEFAULT ((0)) FOR [ParkingMin]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_TotFee]  DEFAULT ((0)) FOR [TotFee]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_TotDC]  DEFAULT ((0)) FOR [TotDC]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_RealFee]  DEFAULT ((0)) FOR [RealFee]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_RecvAmt]  DEFAULT ((0)) FOR [RecvAmt]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_Change]  DEFAULT ((0)) FOR [Change]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_DCCnt]  DEFAULT ((0)) FOR [DCCnt]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_MNo]  DEFAULT ((0)) FOR [MNo]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_Unpaid]  DEFAULT ((0)) FOR [Unpaid]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_ChkClosing]  DEFAULT ((0)) FOR [ChkClosing]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_CommercialTariff]  DEFAULT ((0)) FOR [CommercialTariff]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_SpecialTariff]  DEFAULT ((0)) FOR [SpecialTariff]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_PayType]  DEFAULT ((0)) FOR [PayType]
+GO
+
+ALTER TABLE [dbo].[MisuTkProc] ADD  CONSTRAINT [DF_MisuTkProc_MisuReceive]  DEFAULT ((0)) FOR [MisuReceiveSuccess]
+GO
+
+

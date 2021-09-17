@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.groupproj,C:\수현정보기술\01. 진행중\넥스파시스템\프로그램\중앙관리프로그램\소스\ProjectGroup1.groupproj=C:\Users\rh\Documents\RAD Studio\Projects\ProjectGroup1.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="D:\로컬유인\소스_기본버전\중앙관리프로그램\관리센터 H1.0.06 - 무인최신 200311\소스\Nexpa_Host.dproj"/>
+	</Default.Personality>
+</BorlandProject>

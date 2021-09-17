@@ -1,0 +1,30 @@
+[15:11:09] Program Start!
+[15:11:09] 알람 사용 안함
+[15:11:11] 1
+[15:25:02] Program Start!
+[15:25:02] 알람 사용 안함
+[15:25:03] 1
+[15:25:09] TfrmSCGroup.frmClear: Cannot focus a disabled or invisible window
+[15:25:13] TfrmSCGroup.frmClear: Cannot focus a disabled or invisible window
+[15:25:38] TfrmSCGroup.frmClear: Cannot focus a disabled or invisible window
+[15:27:16] Program Start!
+[15:27:16] 알람 사용 안함
+[15:27:18] 1
+[15:27:38] TfrmSCGroup.frmClear: Cannot focus a disabled or invisible window
+[15:28:00] Program Start!
+[15:28:00] 알람 사용 안함
+[15:28:02] 1
+[15:29:40] Program Start!
+[15:29:40] 알람 사용 안함
+[15:29:43] 1
+[15:30:18] TfrmSCGroup.btnDeleteClick: qryGroup: Field 'BujaeType2' not found
+[15:32:30] Program Start!
+[15:32:30] 알람 사용 안함
+[15:32:31] 1
+[15:32:50] Update GGroup 
+Set GroupName = :N3, APB = :N4, Status = :N5, Remark = :N6, UseMiddle = :pUseMiddle, BujaeType = :pBujaeType, 
+GroupType = :N7, HIType = :N9, UseFeeItem = :pUseFeeItem, 
+OneMonth = :N10, TwoMonth = :N11, ThreeMonth = :N12, 
+FourMonth = :N13, FiveMonth = :N14, SixMonth = :N15 
+Where ParkNo = :N1 and GroupNo = :N2
+

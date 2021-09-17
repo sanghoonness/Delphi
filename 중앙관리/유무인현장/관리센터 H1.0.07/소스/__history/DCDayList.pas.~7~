@@ -1,0 +1,58 @@
+unit DCDayList;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Data.Win.ADODB, Vcl.StdCtrls,
+  Vcl.Buttons, AdvEdit, Vcl.ComCtrls, AdvDateTimePicker, AdvCombo, Vcl.ExtCtrls,
+  Vcl.Grids, AdvObj, BaseGrid, AdvGrid, DBAdvGrid, frxClass, frxDBSet,
+  tmsAdvGridExcel, Vcl.Mask, AdvSpin;
+
+type
+  TfrmDCDayList = class(TForm)
+    dgDCDay: TDBAdvGrid;
+    Panel1: TPanel;
+    Label4: TLabel;
+    cmbStore: TAdvComboBox;
+    edtSDate: TAdvDateTimePicker;
+    edtEDate: TAdvDateTimePicker;
+    btnSearch: TBitBtn;
+    btnPrint: TBitBtn;
+    btnExcel: TBitBtn;
+    btnClose: TBitBtn;
+    dsDCDay: TDataSource;
+    qryDCDay: TADOQuery;
+    qryDCDayStoreName: TStringField;
+    qryDCDayCarNumber: TStringField;
+    qryDCDayRealDcDay: TIntegerField;
+    edtDCDay: TAdvSpinEdit;
+    SaveDialog1: TSaveDialog;
+    AdvGridExcelIO1: TAdvGridExcelIO;
+    frxReport1: TfrxReport;
+    fDCDay: TfrxDBDataset;
+    qryTemp: TADOQuery;
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmDCDayList: TfrmDCDayList;
+
+implementation
+uses
+  Global, Tables;
+{$R *.dfm}
+
+procedure TfrmDCDayList.FormShow(Sender: TObject);
+begin
+  edtSDate.Date:= Now;
+  edtEDate.Date:= Now;
+  edtSTime.Time:= StrToDateTime('00:00:00');
+  edtETime.Time:= Now;
+end;
+
+end.

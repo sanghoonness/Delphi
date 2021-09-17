@@ -1,0 +1,37 @@
+[18:10:56] Program Start!
+[18:10:56] 알람 사용 안함
+[18:10:57] 1
+[18:11:05] Select * from SpecialIONData where ProcDate >= :N1 and ProcDate <= :N2 
+Union 
+Select * from SpecialIONData where ProcDate >= :N1 and ProcDate <= :N2 
+
+[18:11:06] Select * from SpecialIONData where ProcDate >= :N1 and ProcDate <= :N2 
+Union 
+Select * from SpecialIONData where ProcDate >= :N1 and ProcDate <= :N2 
+
+[18:11:06] Select * from SpecialIONData where ProcDate >= :N1 and ProcDate <= :N2 
+Union 
+Select * from SpecialIONData where ProcDate >= :N1 and ProcDate <= :N2 
+
+[18:11:06] Select * from SpecialIONData where ProcDate >= :N1 and ProcDate <= :N2 
+Union 
+Select * from SpecialIONData where ProcDate >= :N1 and ProcDate <= :N2 
+
+[18:12:19] Program Start!
+[18:12:19] 알람 사용 안함
+[18:12:20] 1
+[18:12:25] Select * from SpecialIONData where ProcDate >= :N1 and ProcDate <= :N2 
+ Order By UnitNo, ProcDate, ProcTime
+Union 
+Select * from SpecialIONData2 where ProcDate >= :N1 and ProcDate <= :N2 
+ Order By UnitNo, ProcDate, ProcTime
+
+[18:18:03] Program Start!
+[18:18:03] 알람 사용 안함
+[18:18:04] 1
+[18:18:11] Select * from SpecialIONData where ProcDate >= :N1 and ProcDate <= :N2 
+Union 
+Select * from SpecialIONData2 where ProcDate >= :N1 and ProcDate <= :N2 
+ Order By UnitNo, ProcDate, ProcTime
+
+[18:18:13] TfrmIONData.btnSearchClick: 매개 변수 개체를 잘못 정의했습니다. 제공된 정보가 일치하지 않거나 완전하지 않습니다

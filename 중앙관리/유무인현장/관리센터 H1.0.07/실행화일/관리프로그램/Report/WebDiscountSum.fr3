@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="4.13.2" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41121.5954233565" ReportOptions.Description.Text="" ReportOptions.LastChange="42724.6550311227" ScriptLanguage="PascalScript" ScriptText.Text="procedure Memo27OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;  Memo27.Text:= &#60;sDate&#62;;                                               &#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;end.            " PropData="044C656674026003546F7002380844617461736574730101063420446174615365743D22667278444244617461736574312220446174615365744E616D653D2266727844424461746173657431220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page2" Font.Charset="129" Font.Color="0" Font.Height="-13" Font.Name="굴림체" Font.Style="0" Orientation="poLandscape" PaperWidth="297" PaperHeight="210" PaperSize="256" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle2" Height="66.03154" Left="0" Top="18.89765" Width="1046.92981">
+      <TfrxMemoView Name="Memo45" Left="0" Top="1.77953" Width="1046.92981" Height="41.57483" ShowHint="False" Color="-16777216" Font.Charset="129" Font.Color="0" Font.Height="-29" Font.Name="굴림체" Font.Style="1" Frame.Typ="15" HAlign="haCenter" LineSpacing="1" ParentFont="False" VAlign="vaCenter" Text="할 인 내 역 집 계"/>
+      <TfrxMemoView Name="Memo27" Left="0" Top="43.35436" Width="260.78757" Height="18.89765" OnBeforePrint="Memo27OnBeforePrint" ShowHint="False" VAlign="vaCenter" Text=""/>
+    </TfrxReportTitle>
+    <TfrxHeader Name="Header2" Height="49.73229811" Left="0" Top="147.40167" Width="1046.92981">
+      <TfrxMemoView Name="Memo95" Left="0" Top="0" Width="1046.92981" Height="22.67718" ShowHint="False" Color="-16777216" Font.Charset="129" Font.Color="0" Font.Height="-13" Font.Name="굴림체" Font.Style="0" Frame.Typ="15" ParentFont="False" VAlign="vaCenter" Text=" 할인내역집계"/>
+      <TfrxMemoView Name="Memo56" Left="0" Top="22.14174693" Width="1046.92981" Height="27.59055118" ShowHint="False" Color="-16777194" Font.Charset="0" Font.Color="12632256" Font.Height="-13" Font.Name="굴림체" Font.Style="0" Frame.Typ="15" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo82" Left="226.55133" Top="22.78741622" Width="226.77165354" Height="26.83464567" ShowHint="False" Font.Charset="129" Font.Color="0" Font.Height="-12" Font.Name="굴림체" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="총 할인횟수"/>
+      <TfrxMemoView Name="Memo83" Left="0" Top="22.78741622" Width="226.77165354" Height="26.83464567" ShowHint="False" Font.Charset="129" Font.Color="0" Font.Height="-12" Font.Name="굴림체" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="차량번호"/>
+      <TfrxMemoView Name="Memo2" Left="453.32313" Top="22.67718" Width="226.77165354" Height="26.83464567" ShowHint="False" Font.Charset="129" Font.Color="0" Font.Height="-12" Font.Name="굴림체" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="총 할인시간"/>
+    </TfrxHeader>
+    <TfrxPageFooter Name="PageFooter2" Height="41.57483" Left="0" Top="355.27582" Width="1046.92981">
+      <TfrxMemoView Name="Memo26" Left="7.55906" Top="3.77953000000002" Width="1028.03216" Height="18.89765" ShowHint="False" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="굴림체" Font.Style="0" HAlign="haRight" ParentFont="False" Text="Page [Page]"/>
+    </TfrxPageFooter>
+    <TfrxMasterData Name="MasterData4" Height="30.7008289" Left="0" Top="219.21274" Width="1046.92981" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" RowCount="0">
+      <TfrxMemoView Name="Memo89" Left="226.55133" Top="0.4645352" Width="226.77165354" Height="30.23622047" ShowHint="False" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="129" Font.Color="0" Font.Height="-11" Font.Name="굴림체" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset1.&#34;cnt&#34;]"/>
+      <TfrxMemoView Name="Memo90" Left="0.33859" Top="0.4645889" Width="226.77165354" Height="30.23624" ShowHint="False" DataField="CarNo" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="129" Font.Color="0" Font.Height="-11" Font.Name="굴림체" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset1.&#34;CarNo&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="453.10266" Top="0.4645352" Width="226.77165354" Height="30.23624" ShowHint="False" DataField="totalDC" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="129" Font.Color="0" Font.Height="-11" Font.Name="굴림체" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset1.&#34;totalDC&#34;]"/>
+    </TfrxMasterData>
+    <TfrxFooter Name="Footer1" Height="22.67718" Left="0" Top="272.12616" Width="1046.92981"/>
+  </TfrxReportPage>
+</TfrxReport>

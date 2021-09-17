@@ -1,0 +1,14 @@
+[09:15:17] Program Start!
+[09:15:17] 알람 사용 안함
+[09:27:18] Program Start!
+[09:27:18] 알람 사용 안함
+[09:27:23] Program Start!
+[09:27:23] 알람 사용 안함
+[09:27:34] Program Start!
+[09:27:34] 알람 사용 안함
+[09:27:34] TfrmMain.DBFieldAdd: 개체 "tblStoreDiscountPublish"이(가) 없거나 권한이 없으므로 이를 찾을 수 없습니다
+[09:27:38] Program Start!
+[09:27:38] 알람 사용 안함
+[09:27:38] TfrmMain.DBFieldAdd: 개체 "tblStoreDiscountPublish"이(가) 없거나 권한이 없으므로 이를 찾을 수 없습니다
+[09:27:44] TfrmParkInfo.FormShow: qryParkInfo: Field 'MiddleParkTime' not found
+[09:27:45] TfrmParkInfo.dgParkInfoClick: qryParkInfo: Cannot perform this operation on a closed dataset

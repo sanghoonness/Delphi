@@ -1,0 +1,4 @@
+[14:48:12] Program Start!
+[14:48:12] 알람 사용 안함
+[14:48:13] DB Connect Error:로그인에서 요청한 데이터베이스 "parking_구리노외"을(를) 열 수 없습니다. 로그인이 실패했습니다
+[14:48:16] TfrmSCGroup.FormCreate: 사용자 'sa'이(가) 로그인하지 못했습니다

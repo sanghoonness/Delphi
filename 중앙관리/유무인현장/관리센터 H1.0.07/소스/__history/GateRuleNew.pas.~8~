@@ -1,0 +1,202 @@
+unit GateRuleNew;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons, Vcl.Grids,
+  AdvObj, BaseGrid, AdvGrid, DBAdvGrid, Vcl.ExtCtrls, AdvCombo, Vcl.ComCtrls,
+  AdvDateTimePicker, Data.DB, Data.Win.ADODB;
+
+type
+  TfrmGateRuleNew = class(TForm)
+    Panel3: TPanel;
+    btnPrint: TBitBtn;
+    btnClose: TBitBtn;
+    btnSave: TBitBtn;
+    btnCancel: TBitBtn;
+    Panel2: TPanel;
+    cmbTKType: TAdvComboBox;
+    cmbFeeNo: TAdvComboBox;
+    cmbIOType: TAdvComboBox;
+    edtNormalSTime: TAdvDateTimePicker;
+    edtNormalETime: TAdvDateTimePicker;
+    edtSaturdaySTime: TAdvDateTimePicker;
+    edtSaturdayETime: TAdvDateTimePicker;
+    edtSundaySTime: TAdvDateTimePicker;
+    edtSundayETime: TAdvDateTimePicker;
+    edtSpecialSTime: TAdvDateTimePicker;
+    edtSpecialETime: TAdvDateTimePicker;
+    qryFeeItem: TADOQuery;
+    qryFeeItemParkNo: TSmallintField;
+    qryFeeItemFeeNo: TWordField;
+    qryFeeItemFeeName: TStringField;
+    qryFeeItemItemMax: TIntegerField;
+    qryFeeItemTotMax: TIntegerField;
+    qryFeeItemReserve1: TStringField;
+    qryFeeItemReserve2: TStringField;
+    qryFeeItemReserve3: TStringField;
+    qryFeeItemReserve4: TStringField;
+    qryFeeItemReserve5: TStringField;
+    qryTemp: TADOQuery;
+    SmallintField1: TSmallintField;
+    WordField1: TWordField;
+    StringField1: TStringField;
+    IntegerField1: TIntegerField;
+    IntegerField2: TIntegerField;
+    StringField2: TStringField;
+    StringField3: TStringField;
+    StringField4: TStringField;
+    StringField5: TStringField;
+    StringField6: TStringField;
+    cmbParkNo: TAdvComboBox;
+    procedure FormShow(Sender: TObject);
+    procedure btnSaveClick(Sender: TObject);
+    procedure btnCloseClick(Sender: TObject);
+    procedure btnCancelClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+  RECFeeItem = record
+    nFeeNo  : Integer;
+    sFeeName: String;
+  end;
+
+var
+  frmGateRuleNew: TfrmGateRuleNew;
+  RFeeItem : Array[1..50] of RECFeeItem;
+  nSelect: Byte = 0; //0:Add, 1:Modify
+
+implementation
+uses
+  Tables, Global;
+{$R *.dfm}
+
+procedure TfrmGateRuleNew.btnCancelClick(Sender: TObject);
+begin
+  cmbParkNo := 0;
+  cmbTKType.ItemIndex := 0;
+  cmbFeeNo.ItemIndex := 0;
+  edtNormalSTime.Time := StrToDateTime('00:00');
+  edtNormalETime.Time := StrToDateTime('00:00');
+  edtSaturdaySTime.Time := StrToDateTime('00:00');
+  edtSaturdayETime.Time := StrToDateTime('00:00');
+  edtSundaySTime.Time := StrToDateTime('00:00');
+  edtSundayETime.Time := StrToDateTime('00:00');
+  edtSpecialSTime.Time := StrToDateTime('00:00');
+  edtSpecialETime.Time := StrToDateTime('00:00');
+end;
+
+procedure TfrmGateRuleNew.btnCloseClick(Sender: TObject);
+begin
+  close;
+end;
+
+procedure TfrmGateRuleNew.btnSaveClick(Sender: TObject);
+begin
+  try
+    with qryTemp do
+    begin
+      // 등록
+      Close;
+      SQL.Clear;
+      SQL.Add('insert into GateRule(parkno, TKType, FeeNo, IoType, NormalSOpen, NormalEOpen ');
+      SQL.Add(', SatudaySOpen, SatudayEOpen, SundaySOpen, SundayEOpen, SpecialdaySOpen, SpecialdayEOpen) ');
+      SQL.Add('values(:pParkNo, :pTKType, :pFeeNo, :pIOType, :pNormalSOpen, :pNormalEOpen  ');
+      SQL.Add(' , :pSatudaySOpen, :pSatudayEOpen, :pSundaySOpen, :pSundayEOpen, :pSpecialdaySOpen. :pSpecialdayEOpen)');
+
+      Parameters.ParamByName('pParkNo').Value:= StrToInt(cmbParkNo.Text);  // 주차장번호
+      Parameters.ParamByName('pTKType').Value:= cmbTKType.ItemIndex;  // 차량종류
+      Parameters.ParamByName('pFeeNo').Value:= RFeeItem[cmbFeeNo.ItemIndex].nFeeNo;   // 요금번호
+      Parameters.ParamByName('pIOType').Value:= cmbIOType.ItemIndex;   // 입출차 구분
+      Parameters.ParamByName('pNormalSOpen').Value:= FormatDateTime('HH:NN', edtNormalSTime.Time); // 평일시작시간
+      Parameters.ParamByName('pNormalEOpen').Value:= FormatDateTime('HH:NN', edtNormalETime.Time); // 평일종료시간
+      Parameters.ParamByName('pSatudaySOpen').Value:= FormatDateTime('HH:NN', edtSaturdaySTime.Time);
+      Parameters.ParamByName('pSatudayEOpen').Value:= FormatDateTime('HH:NN', edtSaturdayETime.Time);
+      Parameters.ParamByName('pSundaySOpen').Value:= FormatDateTime('HH:NN', edtSundaySTime.Time);
+      Parameters.ParamByName('pSundayEOpen').Value:= FormatDateTime('HH:NN', edtSundayETime.Time);
+      Parameters.ParamByName('pSpecialdaySOpen').Value:= FormatDateTime('HH:NN', edtSpecialSTime.Time);
+      Parameters.ParamByName('pSpecialdayEOpen').Value:= FormatDateTime('HH:NN', edtSpecialETime.Time);
+      ExecSQL;
+    end;
+
+    ShowMessage('출입통제 추가 완료!');
+  except
+    on E: Exception do
+    begin
+      ExceptLogging('TfrmGateRuleNew.btnSaveClick: ' + aString(E.Message));
+      ShowMessage('저장 오류! 관리자에게 문의바랍니다.');
+    end;
+  end;
+end;
+
+procedure TfrmGateRuleNew.FormShow(Sender: TObject);
+var
+  i : Byte;
+begin
+  try
+
+    with dmTables.qryTemp do
+    begin
+      Close;
+      SQL.Clear;
+      SQL.Add('Select * from ParkInfo');
+      Open;
+
+      if RecordCount <= 0 then
+      begin
+        btnSave.Enabled:= False;
+        ShowMessage('주차장을 먼저 설정하여주세요!');
+        Exit;
+      end
+      else
+      begin
+        cmbParkNo.Items.Clear;
+
+        while not Eof do
+        begin
+          cmbParkNo.Items.Add(IntToStr(FieldByName('ParkNo').AsInteger));
+          Next;
+        end;
+        cmbParkNo.ItemIndex:= 0;
+      end;
+    end;
+
+    with qryFeeItem do
+    begin
+      Close;
+      SQL.Clear;
+      SQL.Add('select * from feeitem order by feeno');
+      Open;
+
+      if RecordCount > 0 then
+      begin
+
+        cmbFeeNo.Items.Add('일반요금');
+        i := 1;
+        while not Eof do
+        begin
+          cmbFeeNo.Items.Add(FieldByName('FeeName').AsString);
+          RFeeItem[i].nFeeNo := FieldByName('FeeNo').AsInteger;
+          RFeeItem[i].sFeeName:= FieldByName('FeeName').AsString;
+          i:= i+1;
+          Next;
+        end;
+      end;
+
+      cmbFeeNo.ItemIndex := 0;
+    end;
+
+    nSelect:= 0;
+  except
+    on E: Exception do
+    begin
+      ExceptLogging('TfrmGateRule.FormShow: ' + aString(E.Message));
+    end;
+  end;
+end;
+
+end.

@@ -1,0 +1,130 @@
+unit NewGateRule;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons, Vcl.ComCtrls,
+  AdvDateTimePicker, AdvCombo, Vcl.ExtCtrls, Data.DB, Data.Win.ADODB;
+
+type
+  TfrmNewGateRule = class(TForm)
+    Panel2: TPanel;
+    cmbTKType: TAdvComboBox;
+    cmbFeeNo: TAdvComboBox;
+    cmbIOType: TAdvComboBox;
+    edtNormalSTime: TAdvDateTimePicker;
+    edtNormalETime: TAdvDateTimePicker;
+    edtSaturdaySTime: TAdvDateTimePicker;
+    edtSaturdayETime: TAdvDateTimePicker;
+    edtSundaySTime: TAdvDateTimePicker;
+    edtSundayETime: TAdvDateTimePicker;
+    edtSpecialSTime: TAdvDateTimePicker;
+    edtSpecialETime: TAdvDateTimePicker;
+    cmbParkNo: TAdvComboBox;
+    btnCancel: TBitBtn;
+    btnSave: TBitBtn;
+    btnClose: TBitBtn;
+    qryTemp: TADOQuery;
+    SmallintField1: TSmallintField;
+    WordField1: TWordField;
+    StringField1: TStringField;
+    IntegerField1: TIntegerField;
+    IntegerField2: TIntegerField;
+    StringField2: TStringField;
+    StringField3: TStringField;
+    StringField4: TStringField;
+    StringField5: TStringField;
+    StringField6: TStringField;
+    qryFeeItem: TADOQuery;
+    qryFeeItemParkNo: TSmallintField;
+    qryFeeItemFeeNo: TWordField;
+    qryFeeItemFeeName: TStringField;
+    qryFeeItemItemMax: TIntegerField;
+    qryFeeItemTotMax: TIntegerField;
+    qryFeeItemReserve1: TStringField;
+    qryFeeItemReserve2: TStringField;
+    qryFeeItemReserve3: TStringField;
+    qryFeeItemReserve4: TStringField;
+    qryFeeItemReserve5: TStringField;
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmNewGateRule: TfrmNewGateRule;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmNewGateRule.FormShow(Sender: TObject);
+var
+  i : Byte;
+begin
+  try
+
+    with dmTables.qryTemp do
+    begin
+      Close;
+      SQL.Clear;
+      SQL.Add('Select * from ParkInfo');
+      Open;
+
+      if RecordCount <= 0 then
+      begin
+        btnSave.Enabled:= False;
+        ShowMessage('주차장을 먼저 설정하여주세요!');
+        Exit;
+      end
+      else
+      begin
+        cmbParkNo.Items.Clear;
+
+        while not Eof do
+        begin
+          cmbParkNo.Items.Add(IntToStr(FieldByName('ParkNo').AsInteger));
+          Next;
+        end;
+        cmbParkNo.ItemIndex:= 0;
+      end;
+    end;
+
+    with qryFeeItem do
+    begin
+      Close;
+      SQL.Clear;
+      SQL.Add('select * from feeitem order by feeno');
+      Open;
+
+      if RecordCount > 0 then
+      begin
+
+        cmbFeeNo.Items.Add('일반요금');
+        i := 1;
+        while not Eof do
+        begin
+          cmbFeeNo.Items.Add(FieldByName('FeeName').AsString);
+          RFeeItem[i].nFeeNo := FieldByName('FeeNo').AsInteger;
+          RFeeItem[i].sFeeName:= FieldByName('FeeName').AsString;
+          i:= i+1;
+          Next;
+        end;
+      end;
+
+      cmbFeeNo.ItemIndex := 0;
+    end;
+
+    nSelect:= 0;
+  except
+    on E: Exception do
+    begin
+      ExceptLogging('TfrmGateRule.FormShow: ' + aString(E.Message));
+    end;
+  end;
+end;
+
+end.

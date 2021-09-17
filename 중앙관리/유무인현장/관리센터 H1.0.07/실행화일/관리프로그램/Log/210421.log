@@ -1,0 +1,556 @@
+[08:43:38] Program Start!
+[08:43:38] 알람 사용 안함
+[08:43:40] 1
+[08:43:52] Program Start!
+[08:43:52] 알람 사용 안함
+[08:43:54] 1
+[08:44:04] Program Close
+[08:44:18] Program Start!
+[08:44:18] 알람 사용 안함
+[08:44:20] 1
+[08:44:27] TfrmParkInfo.FormShow: qryParkInfo: Field 'MiddleParkTime' not found
+[08:45:11] TfrmParkInfo.FormShow: qryParkInfo: Field 'MiddleParkTime' not found
+[10:06:57] Program Start!
+[10:06:57] 알람 사용 안함
+[10:06:59] 사전방문 차량 대수 컬럼추가 완료
+[10:06:59] 사전방문 차량 등록 가능 시간  컬럼추가 완료
+[10:06:59] 사전방문 예약가능일  컬럼추가 완료
+[10:06:59] 사전방문 차량등록 횟수  컬럼추가 완료
+[10:06:59] 홈넷 포인트 타입   컬럼추가 완료
+[10:06:59] 홈넷 포인트 단위   컬럼추가 완료
+[10:06:59] 일반차량 홈넷 포인트이력 단위   컬럼추가 완료
+[10:06:59] 휴일출입관리 단위   컬럼추가 완료
+[10:06:59] 정기차량 백업 테이블 생성 컬럼추가 완료
+[10:06:59] 1
+[10:07:03] Program Close
+[10:07:05] Program Start!
+[10:07:05] 알람 사용 안함
+[10:07:07] 1
+[10:07:12] TfrmParkInfo.FormShow: qryParkInfo: Field 'MiddleParkTime' not found
+[10:10:01] Program Start!
+[10:10:01] 알람 사용 안함
+[10:10:02] 중간층 입차 필드   컬럼추가 완료
+[10:10:02] 1
+[10:10:08] TfrmParkInfo.FormShow: qryParkInfo: Type mismatch for field 'MiddleParkTime', expecting: Integer actual: String
+[10:10:52] Program Start!
+[10:10:52] 알람 사용 안함
+[10:10:52] 중간층 입차 필드   컬럼추가 완료
+[10:10:52] 1
+[10:11:00] Program Start!
+[10:11:00] 알람 사용 안함
+[10:11:01] 1
+[10:11:32] TfrmParkInfo.btnSaveClick: 열 이름 'PointMonth'이(가) 잘못되었습니다
+[10:12:26] Program Start!
+[10:12:26] 알람 사용 안함
+[10:12:27] 1
+[10:12:37] Program Close
+[10:12:45] Program Start!
+[10:12:45] 알람 사용 안함
+[10:12:46] 1
+[10:15:09] Program Start!
+[10:15:09] 알람 사용 안함
+[10:15:11] 1
+[10:19:34] Program Start!
+[10:19:34] 알람 사용 안함
+[10:19:34] 1
+[10:19:38] Program Close
+[10:19:41] Program Start!
+[10:19:41] 알람 사용 안함
+[10:19:42] 1
+[10:19:52] TfrmParkInfo.dgParkInfoClick: qryParkInfo: Field 'PointMonth' not found
+[10:19:53] TfrmParkInfo.dgParkInfoClick: qryParkInfo: Field 'PointMonth' not found
+[10:19:53] TfrmParkInfo.dgParkInfoClick: qryParkInfo: Field 'PointMonth' not found
+[10:21:30] Program Start!
+[10:21:30] 알람 사용 안함
+[10:21:31] 1
+[10:22:48] Program Close
+[10:22:51] Program Start!
+[10:22:51] 알람 사용 안함
+[10:22:51] 휴일출입관리 단위   컬럼추가 완료
+[10:22:51] 정기차량 백업 테이블 생성 컬럼추가 완료
+[10:22:51] 설치된 주차장이 없음!
+[10:22:51] 0
+[10:23:09] TfrmParkInfo.btnSaveClick: INSERT 문에 있는 열 개수가 VALUES 절에서 지정한 값보다 적습니다. VALUES 절의 값 개수는 INSERT 문에서 지정한 열 개수와 일치해야 합니다
+[10:25:19] Program Start!
+[10:25:19] 알람 사용 안함
+[10:25:19] 설치된 주차장이 없음!
+[10:25:19] 0
+[10:26:02] TfrmParkInfo.btnSaveClick: INSERT 문에 있는 열 개수가 VALUES 절에서 지정한 값보다 적습니다. VALUES 절의 값 개수는 INSERT 문에서 지정한 열 개수와 일치해야 합니다
+[10:27:31] Program Start!
+[10:27:31] 알람 사용 안함
+[10:27:32] 설치된 주차장이 없음!
+[10:27:32] 0
+[10:27:41] TfrmParkInfo.btnSaveClick: INSERT 문에 있는 열 개수가 VALUES 절에서 지정한 값보다 적습니다. VALUES 절의 값 개수는 INSERT 문에서 지정한 열 개수와 일치해야 합니다
+[10:28:25] Program Start!
+[10:28:25] 알람 사용 안함
+[10:28:26] 설치된 주차장이 없음!
+[10:28:26] 0
+[10:28:47] TfrmParkInfo.btnSaveClick: INSERT 문에 있는 열 개수가 VALUES 절에서 지정한 값보다 적습니다. VALUES 절의 값 개수는 INSERT 문에서 지정한 열 개수와 일치해야 합니다
+[10:31:44] Program Start!
+[10:31:44] 알람 사용 안함
+[10:31:45] 설치된 주차장이 없음!
+[10:31:45] 0
+[10:32:56] Program Start!
+[10:32:56] 알람 사용 안함
+[10:32:56] 설치된 주차장이 없음!
+[10:32:56] 0
+[10:33:09] TfrmParkInfo.btnSaveClick: 'AvailablePoint' 근처의 구문이 잘못되었습니다
+[10:34:32] Program Start!
+[10:34:32] 알람 사용 안함
+[10:34:33] 설치된 주차장이 없음!
+[10:34:33] 0
+[10:35:13] Program Start!
+[10:35:13] 알람 사용 안함
+[10:35:14] 설치된 주차장이 없음!
+[10:35:14] 0
+[10:38:24] Program Start!
+[10:38:24] 알람 사용 안함
+[10:38:25] 설치된 주차장이 없음!
+[10:38:25] 0
+[10:39:52] Program Start!
+[10:39:52] 알람 사용 안함
+[10:39:52] 설치된 주차장이 없음!
+[10:39:52] 0
+[15:41:13] Program Start!
+[15:41:13] 알람 사용 안함
+[15:41:14] 1
+[15:41:40] Program Start!
+[15:41:40] 알람 사용 안함
+[15:41:41] 1
+[15:41:58] Select CONVERT(NVARCHAR(10),VisitDong) AS VisitDong, CONVERT(NVARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt , where ProcDate between :N1 and  :N2 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+And InCarNo1 like :N3 
+And reserve2 in()  
+And reserve3 in()  
+group by reserve2, reserve3 Order by reserve2, reserve3 
+
+[15:41:58] TfrmIOVisitStat.btnSearchClick: 매개 변수 개체를 잘못 정의했습니다. 제공된 정보가 일치하지 않거나 완전하지 않습니다
+[15:42:00] Select CONVERT(NVARCHAR(10),VisitDong) AS VisitDong, CONVERT(NVARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt , where ProcDate between :N1 and  :N2 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+And InCarNo1 like :N3 
+And reserve2 in()  
+And reserve3 in()  
+group by reserve2, reserve3 Order by reserve2, reserve3 
+
+[15:42:00] TfrmIOVisitStat.btnSearchClick: 매개 변수 개체를 잘못 정의했습니다. 제공된 정보가 일치하지 않거나 완전하지 않습니다
+[15:42:01] Select CONVERT(NVARCHAR(10),VisitDong) AS VisitDong, CONVERT(NVARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt , where ProcDate between :N1 and  :N2 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+And InCarNo1 like :N3 
+And reserve2 in()  
+And reserve3 in()  
+group by reserve2, reserve3 Order by reserve2, reserve3 
+
+[15:42:01] TfrmIOVisitStat.btnSearchClick: 매개 변수 개체를 잘못 정의했습니다. 제공된 정보가 일치하지 않거나 완전하지 않습니다
+[15:42:01] Select CONVERT(NVARCHAR(10),VisitDong) AS VisitDong, CONVERT(NVARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt , where ProcDate between :N1 and  :N2 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+And InCarNo1 like :N3 
+And reserve2 in()  
+And reserve3 in()  
+group by reserve2, reserve3 Order by reserve2, reserve3 
+
+[15:42:01] TfrmIOVisitStat.btnSearchClick: 매개 변수 개체를 잘못 정의했습니다. 제공된 정보가 일치하지 않거나 완전하지 않습니다
+[15:42:02] Select CONVERT(NVARCHAR(10),VisitDong) AS VisitDong, CONVERT(NVARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt , where ProcDate between :N1 and  :N2 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+And InCarNo1 like :N3 
+And reserve2 in()  
+And reserve3 in()  
+group by reserve2, reserve3 Order by reserve2, reserve3 
+
+[15:42:02] TfrmIOVisitStat.btnSearchClick: 매개 변수 개체를 잘못 정의했습니다. 제공된 정보가 일치하지 않거나 완전하지 않습니다
+[15:42:02] Select CONVERT(NVARCHAR(10),VisitDong) AS VisitDong, CONVERT(NVARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt , where ProcDate between :N1 and  :N2 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+And InCarNo1 like :N3 
+And reserve2 in()  
+And reserve3 in()  
+group by reserve2, reserve3 Order by reserve2, reserve3 
+
+[15:42:02] TfrmIOVisitStat.btnSearchClick: 매개 변수 개체를 잘못 정의했습니다. 제공된 정보가 일치하지 않거나 완전하지 않습니다
+[15:42:02] Select CONVERT(NVARCHAR(10),VisitDong) AS VisitDong, CONVERT(NVARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt , where ProcDate between :N1 and  :N2 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+And InCarNo1 like :N3 
+And reserve2 in()  
+And reserve3 in()  
+group by reserve2, reserve3 Order by reserve2, reserve3 
+
+[15:42:02] TfrmIOVisitStat.btnSearchClick: 매개 변수 개체를 잘못 정의했습니다. 제공된 정보가 일치하지 않거나 완전하지 않습니다
+[15:46:35] Program Start!
+[15:46:35] 알람 사용 안함
+[15:46:35] 1
+[15:46:56] Select CONVERT(NVARCHAR(10),VisitDong) AS VisitDong, CONVERT(NVARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt, 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+And InCarNo1 like :N3 
+And reserve2 in()  
+And reserve3 in()  
+group by reserve2, reserve3 Order by reserve2, reserve3 
+
+[15:46:56] TfrmIOVisitStat.btnSearchClick: ')' 근처의 구문이 잘못되었습니다
+[15:46:58] Select CONVERT(NVARCHAR(10),VisitDong) AS VisitDong, CONVERT(NVARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt, 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+And InCarNo1 like :N3 
+And reserve2 in()  
+And reserve3 in()  
+group by reserve2, reserve3 Order by reserve2, reserve3 
+
+[15:46:58] TfrmIOVisitStat.btnSearchClick: ')' 근처의 구문이 잘못되었습니다
+[15:49:42] Program Start!
+[15:49:42] 알람 사용 안함
+[15:49:43] 1
+[15:49:53] TfrmIOVisitStat.btnSearchClick: qryIONData: Parameter 'N3' not found
+[15:50:46] Program Start!
+[15:50:46] 알람 사용 안함
+[15:50:48] 1
+[15:51:23] TfrmIOVisitStat.btnSearchClick: qryIONData: Parameter 'N3' not found
+[15:57:27] Program Start!
+[15:57:27] 알람 사용 안함
+[15:57:28] 1
+[16:00:06] Program Start!
+[16:00:06] 알람 사용 안함
+[16:00:07] 1
+[16:00:16] Select CONVERT(VARCHAR(10),VisitDong) AS VisitDong, CONVERT(VARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt, 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+group by VisitDong, VisitHo Order by VisitDong, VisitHo 
+
+[16:00:16] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+VisitReason, CONVERT(NVARCHAR(10),VisitDong) AS VisitDong , CONVERT(NVARCHAR(10),VisitHo) AS VisitHo,  
+Case when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+    when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin,                                                          
+UsedPoint, DATEDIFF(dd, procdate, outdate) as prkDate                    
+From IONData                                                             
+Where ProcDate + ' ' +ProcTime between :v3 and :v4
+Order by ProcDate + ProcTime DESC                                        
+
+[16:03:08] Program Start!
+[16:03:08] 알람 사용 안함
+[16:03:09] 1
+[16:03:16] Select CONVERT(VARCHAR(10),VisitDong) AS VisitDong, CONVERT(VARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt, 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+And reserve2 in()  
+And reserve3 in()  
+group by VisitDong, VisitHo Order by VisitDong, VisitHo 
+
+[16:03:16] TfrmIOVisitStat.btnSearchClick: ')' 근처의 구문이 잘못되었습니다
+[16:03:17] Select CONVERT(VARCHAR(10),VisitDong) AS VisitDong, CONVERT(VARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt, 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+And reserve2 in()  
+And reserve3 in()  
+group by VisitDong, VisitHo Order by VisitDong, VisitHo 
+
+[16:03:17] TfrmIOVisitStat.btnSearchClick: ')' 근처의 구문이 잘못되었습니다
+[16:03:17] Select CONVERT(VARCHAR(10),VisitDong) AS VisitDong, CONVERT(VARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt, 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+And reserve2 in()  
+And reserve3 in()  
+group by VisitDong, VisitHo Order by VisitDong, VisitHo 
+
+[16:03:17] TfrmIOVisitStat.btnSearchClick: ')' 근처의 구문이 잘못되었습니다
+[16:03:17] Select CONVERT(VARCHAR(10),VisitDong) AS VisitDong, CONVERT(VARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt, 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+And reserve2 in()  
+And reserve3 in()  
+group by VisitDong, VisitHo Order by VisitDong, VisitHo 
+
+[16:03:17] TfrmIOVisitStat.btnSearchClick: ')' 근처의 구문이 잘못되었습니다
+[16:04:16] Program Start!
+[16:04:16] 알람 사용 안함
+[16:04:16] 1
+[16:04:23] Select CONVERT(VARCHAR(10),VisitDong) AS VisitDong, CONVERT(VARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt, 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+And VisitDong in()  
+And VisitHo in()  
+group by VisitDong, VisitHo Order by VisitDong, VisitHo 
+
+[16:04:23] TfrmIOVisitStat.btnSearchClick: ')' 근처의 구문이 잘못되었습니다
+[16:04:23] Select CONVERT(VARCHAR(10),VisitDong) AS VisitDong, CONVERT(VARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt, 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+And VisitDong in()  
+And VisitHo in()  
+group by VisitDong, VisitHo Order by VisitDong, VisitHo 
+
+[16:04:23] TfrmIOVisitStat.btnSearchClick: ')' 근처의 구문이 잘못되었습니다
+[16:04:24] Select CONVERT(VARCHAR(10),VisitDong) AS VisitDong, CONVERT(VARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt, 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+And VisitDong in()  
+And VisitHo in()  
+group by VisitDong, VisitHo Order by VisitDong, VisitHo 
+
+[16:04:24] TfrmIOVisitStat.btnSearchClick: ')' 근처의 구문이 잘못되었습니다
+[16:04:24] Select CONVERT(VARCHAR(10),VisitDong) AS VisitDong, CONVERT(VARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt, 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+And VisitDong in()  
+And VisitHo in()  
+group by VisitDong, VisitHo Order by VisitDong, VisitHo 
+
+[16:04:24] TfrmIOVisitStat.btnSearchClick: ')' 근처의 구문이 잘못되었습니다
+[16:04:55] Program Start!
+[16:04:55] 알람 사용 안함
+[16:04:55] 1
+[16:05:05] Select CONVERT(VARCHAR(10),VisitDong) AS VisitDong, CONVERT(VARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt, 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+group by VisitDong, VisitHo Order by VisitDong, VisitHo 
+
+[16:05:05] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+VisitReason, CONVERT(NVARCHAR(10),VisitDong) AS VisitDong , CONVERT(NVARCHAR(10),VisitHo) AS VisitHo,  
+Case when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+    when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin,                                                          
+UsedPoint, DATEDIFF(dd, procdate, outdate) as prkDate                    
+From IONData                                                             
+Where ProcDate + ' ' +ProcTime between :v3 and :v4
+Order by ProcDate + ProcTime DESC                                        
+
+[16:31:30] Program Start!
+[16:31:30] 알람 사용 안함
+[16:31:31] 1
+[16:31:40] Select CONVERT(VARCHAR(10),VisitDong) AS VisitDong, CONVERT(VARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt, 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+group by VisitDong, VisitHo Order by VisitDong, VisitHo 
+
+[16:31:40] Select procdate, proctime, incarno1, outdate, outtime, OutCarNo1,        
+VisitReason, CONVERT(NVARCHAR(10),VisitDong) AS VisitDong , CONVERT(NVARCHAR(10),VisitHo) AS VisitHo,  
+Case when ISNULL((parkingmin)/(24*60),0) > 0 then                        
+		  CONVERT(VARCHAR(50),ISNULL((parkingmin)/(24*60),0)) +'일' +         
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+    when  ISNULL((parkingmin)%(24*60)/60,0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))/60,0)) +'시간'+   
+		  CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'      
+	when  ISNULL(((parkingmin)%(24*60))%60,0) > 0 then                      
+	      CONVERT(VARCHAR(50),ISNULL(((parkingmin)%(24*60))%60,0)) +'분'  
+END                                                                      
+ as ParkingMin,                                                          
+UsedPoint, DATEDIFF(dd, procdate, outdate) as prkDate                    
+From IONData                                                             
+Where ProcDate + ' ' +ProcTime between :v3 and :v4
+Order by ProcDate + ProcTime DESC                                        
+
+[16:31:44] Select CONVERT(VARCHAR(10),VisitDong) AS VisitDong, CONVERT(VARCHAR(10),VisitHo) AS VisitHo, count(*) as cnt, 
+Case when ISNULL((SUM(parkingmin))/(24*60),0) > 0 then                       
+		  CONVERT(VARCHAR(50),ISNULL((SUM(parkingmin))/(24*60),0)) +'일' +       
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+ 
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'    
+   when  ISNULL((SUM(parkingmin))%(24*60)/60,0) > 0 then                         
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))/60,0)) +'시간'+    
+		  CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'       
+	when  ISNULL(((SUM(parkingmin))%(24*60))%60,0) > 0 then                       
+	      CONVERT(VARCHAR(50),ISNULL(((SUM(parkingmin))%(24*60))%60,0)) +'분'   
+   END                                                                         
+ as prkMin from IONData Where ProcDate + ' ' +ProcTime between :N1 and :N2 
+group by VisitDong, VisitHo Order by VisitDong, VisitHo 
+

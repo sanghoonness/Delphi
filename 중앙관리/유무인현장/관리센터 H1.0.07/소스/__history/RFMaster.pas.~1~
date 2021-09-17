@@ -1,0 +1,44 @@
+unit RFMaster;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, tmsAdvGridExcel, Data.DB,
+  Data.Win.ADODB, Vcl.StdCtrls, Vcl.Buttons, Vcl.ComCtrls, AdvDateTimePicker,
+  Vcl.ExtCtrls, Vcl.Grids, AdvObj, BaseGrid, AdvGrid, DBAdvGrid, sCheckBox,
+  Vcl.Mask, AdvSpin, AdvCombo, AdvEdit, ComObj;
+
+type
+  TfrmRFMaster = class(TForm)
+    StatusBar1: TStatusBar;
+    Panel1: TPanel;
+    dg1: TDBAdvGrid;
+    Panel2: TPanel;
+    Panel3: TPanel;
+    qryRFMASTER: TADOQuery;
+    dsRFMASTER: TDataSource;
+    qryRFMASTERRfData: TStringField;
+    qryRFMASTERRemark: TStringField;
+    qryRFMASTERReserve1: TStringField;
+    btnClose: TBitBtn;
+    procedure btnCloseClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmRFMaster: TfrmRFMaster;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmRFMaster.btnCloseClick(Sender: TObject);
+begin
+    Close;
+end;
+
+end.

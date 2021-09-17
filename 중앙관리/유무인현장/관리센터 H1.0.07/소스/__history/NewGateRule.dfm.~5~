@@ -1,0 +1,42 @@
+unit NewGateRule;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ComCtrls, AdvDateTimePicker,
+  Vcl.StdCtrls, AdvCombo, Vcl.ExtCtrls, Vcl.Buttons;
+
+type
+  TfrmNewGateRule = class(TForm)
+    Panel2: TPanel;
+    cmbTKType: TAdvComboBox;
+    cmbFeeNo: TAdvComboBox;
+    cmbIOType: TAdvComboBox;
+    edtNormalSTime: TAdvDateTimePicker;
+    edtNormalETime: TAdvDateTimePicker;
+    edtSaturdaySTime: TAdvDateTimePicker;
+    edtSaturdayETime: TAdvDateTimePicker;
+    edtSundaySTime: TAdvDateTimePicker;
+    edtSundayETime: TAdvDateTimePicker;
+    edtSpecialSTime: TAdvDateTimePicker;
+    edtSpecialETime: TAdvDateTimePicker;
+    cmbParkNo: TAdvComboBox;
+    Panel1: TPanel;
+    btnClose: TBitBtn;
+    btnSave: TBitBtn;
+    btnCancel: TBitBtn;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmNewGateRule: TfrmNewGateRule;
+
+implementation
+
+{$R *.dfm}
+
+end.

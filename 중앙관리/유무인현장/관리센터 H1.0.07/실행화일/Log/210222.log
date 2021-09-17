@@ -1,0 +1,19 @@
+[15:04:49] Program Start!
+[15:04:49] 알람 사용 안함
+[15:04:51] 1
+[15:05:01] Select * from SpecialIONData where ProcDate >= :N1 and ProcDate <= :N2 and 
+ Order By UnitNo, ProcDate, ProcTime
+
+[15:05:05] TfrmIONData.btnSearchClick: 키워드 'Order' 근처의 구문이 잘못되었습니다
+[15:06:47] Program Start!
+[15:06:47] 알람 사용 안함
+[15:06:48] 1
+[15:06:53] Select * from SpecialIONData where ProcDate >= :N1 and ProcDate <= :N2 and 
+ Order By UnitNo, ProcDate, ProcTime
+
+[15:07:38] Program Start!
+[15:07:38] 알람 사용 안함
+[15:07:39] 1
+[15:07:45] Select * from SpecialIONData where ProcDate >= :N1 and ProcDate <= :N2  
+ Order By UnitNo, ProcDate, ProcTime
+

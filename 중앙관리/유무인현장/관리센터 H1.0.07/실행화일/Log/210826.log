@@ -1,0 +1,65 @@
+[11:51:06] Program Start!
+[11:51:06] 알람 사용 안함
+[11:51:07] 1
+[12:29:29] Program Start!
+[12:29:29] 알람 사용 안함
+[12:29:30] 1
+[12:38:10] Program Start!
+[12:38:10] 알람 사용 안함
+[12:38:10] 1
+[12:41:38] Program Start!
+[12:41:38] 알람 사용 안함
+[12:41:39] DB Connect Error:로그인에서 요청한 데이터베이스 "parking_롯데마트선부"을(를) 열 수 없습니다. 로그인이 실패했습니다
+[12:41:53] Program Start!
+[12:41:53] 알람 사용 안함
+[12:41:54] 165
+[12:44:21] Program Start!
+[12:44:21] 알람 사용 안함
+[12:44:22] 1
+[12:44:32] Update GGroup 
+Set GroupName = :N3, APB = :N4, Status = :N5, Remark = :N6, UseMiddle = :pUseMiddle, BujaeType = :pBujaeType, 
+GroupType = :N7, HIType = :N9, UseFeeItem = :pUseFeeItem, 
+OneMonth = :N10, TwoMonth = :N11, ThreeMonth = :N12, 
+FourMonth = :N13, FiveMonth = :N14, SixMonth = :N15 
+Where ParkNo = :N1 and GroupNo = :N2
+
+[12:44:36] Update GGroup 
+Set GroupName = :N3, APB = :N4, Status = :N5, Remark = :N6, UseMiddle = :pUseMiddle, BujaeType = :pBujaeType, 
+GroupType = :N7, HIType = :N9, UseFeeItem = :pUseFeeItem, 
+OneMonth = :N10, TwoMonth = :N11, ThreeMonth = :N12, 
+FourMonth = :N13, FiveMonth = :N14, SixMonth = :N15 
+Where ParkNo = :N1 and GroupNo = :N2
+
+[12:44:41] Update GGroup 
+Set GroupName = :N3, APB = :N4, Status = :N5, Remark = :N6, UseMiddle = :pUseMiddle, BujaeType = :pBujaeType, 
+GroupType = :N7, HIType = :N9, UseFeeItem = :pUseFeeItem, 
+OneMonth = :N10, TwoMonth = :N11, ThreeMonth = :N12, 
+FourMonth = :N13, FiveMonth = :N14, SixMonth = :N15 
+Where ParkNo = :N1 and GroupNo = :N2
+
+[12:46:27] TfrmSCGroup.btnSaveClick: 데이터 형식 tinyint에 산술 오버플로 오류가 발생했습니다. 값 = -1
+[12:46:40] TfrmSCGroup.btnSaveClick: 데이터 형식 tinyint에 산술 오버플로 오류가 발생했습니다. 값 = -1
+[12:46:48] Program Start!
+[12:46:48] 알람 사용 안함
+[12:46:48] 1
+[12:47:02] TfrmSCGroup.btnSaveClick: 데이터 형식 tinyint에 산술 오버플로 오류가 발생했습니다. 값 = -1
+[12:47:18] Program Start!
+[12:47:18] 알람 사용 안함
+[12:47:19] 1
+[12:48:13] TfrmSCGroup.btnSaveClick: 데이터 형식 tinyint에 산술 오버플로 오류가 발생했습니다. 값 = -1
+[12:48:35] Program Start!
+[12:48:35] 알람 사용 안함
+[12:48:36] 1
+[12:51:38] Program Start!
+[12:51:38] 알람 사용 안함
+[12:51:39] 1
+[12:52:02] TfrmSCGroup.btnSaveClick: 데이터 형식 tinyint에 산술 오버플로 오류가 발생했습니다. 값 = -1
+[12:52:25] Program Start!
+[12:52:25] 알람 사용 안함
+[12:52:26] 1
+[12:53:30] Program Start!
+[12:53:30] 알람 사용 안함
+[12:53:31] 1
+[13:07:42] Program Start!
+[13:07:42] 알람 사용 안함
+[13:07:42] 1

@@ -1,0 +1,125 @@
+[09:30:47] Program Start!
+[09:30:47] 알람 사용 안함
+[09:30:48] 그룹별 진입차단 컬럼추가 완료
+[09:30:48] SMS기능 컬럼추가 완료
+[09:30:48] 방문객입출차제한 컬럼추가 완료
+[09:30:48] 방문객 주차시간 컬럼추가 완료
+[09:30:48] 정기권 부제 컬럼추가 완료
+[09:30:48] 정기권 별명(sAlias), 업데이트시각(dtUpd)  컬럼추가 완료
+[09:30:48] 그룹별 부제 컬럼추가 완료
+[09:30:48] 만차전광판 사용유무 컬럼추가 완료
+[09:30:48] 만차여도 정기권 통과유무 컬럼추가 완료
+[09:30:48] 현대통신사전방문차량Table 생성 컬럼추가 완료
+[09:30:48] 현대통신 방문자컬럼 컬럼추가 완료
+[09:30:48] 현대통신포인트 컬럼 추가 컬럼추가 완료
+[09:31:39] TfrmMain.DBFieldAdd2쿼리 시간 제한이 만료되었습니다
+[09:31:39] 1
+[09:37:20] 일반차량 입차 파일 확인1 File: http://192.168.0.115:9080/MSImage/2019/12/18/CH1_20191218090359_49버1192.jpg
+[09:37:20] 일반차량 입차 파일 확인2 File: http://192.168.0.115:9080/MSImage/2019/12/18/CH1_20191218090359_49버1192.jpg
+[09:37:20] HTTP 형식 입차 File: \\192.168.0.115\MSImage\2019\12\18\CH1_20191218090359_49버1192.jpg
+[09:37:47] 입차 File 없음: \\192.168.0.115\MSImage\2019\12\18\CH1_20191218090359_49버1192.jpg
+[09:37:47] 일반차량 입차 파일 확인1 File: http://192.168.0.115:9080/MSImage/2019/12/18/CH1_20191218092223_23너4068.jpg
+[09:37:47] 일반차량 입차 파일 확인2 File: http://192.168.0.115:9080/MSImage/2019/12/18/CH1_20191218092223_23너4068.jpg
+[09:37:47] HTTP 형식 입차 File: \\192.168.0.115\MSImage\2019\12\18\CH1_20191218092223_23너4068.jpg
+[09:37:47] 입차 File 없음: \\192.168.0.115\MSImage\2019\12\18\CH1_20191218092223_23너4068.jpg
+[09:37:47] 일반차량 입차 파일 확인1 File: http://192.168.0.115:9080/MSImage/2019/12/18/CH1_20191218092223_23너4068.jpg
+[09:37:47] 일반차량 입차 파일 확인2 File: http://192.168.0.115:9080/MSImage/2019/12/18/CH1_20191218092223_23너4068.jpg
+[09:37:47] HTTP 형식 입차 File: \\192.168.0.115\MSImage\2019\12\18\CH1_20191218092223_23너4068.jpg
+[09:37:47] 입차 File 없음: \\192.168.0.115\MSImage\2019\12\18\CH1_20191218092223_23너4068.jpg
+[12:37:10] Program Start!
+[12:37:10] 알람 사용 안함
+[12:38:05] TfrmMain.DBFieldAdd2쿼리 시간 제한이 만료되었습니다
+[12:38:05] 1
+[12:44:36] Program Start!
+[12:44:36] 알람 사용 안함
+[12:45:36] TfrmMain.DBFieldAdd2쿼리 시간 제한이 만료되었습니다
+[12:45:36] 1
+[12:49:54] Program Start!
+[12:49:54] 알람 사용 안함
+[12:50:23] Program Start!
+[12:50:23] 알람 사용 안함
+[12:50:45] Program Start!
+[12:50:45] 알람 사용 안함
+[12:51:11] Program Start!
+[12:51:11] 알람 사용 안함
+[12:53:19] Program Start!
+[12:53:19] 알람 사용 안함
+[12:54:23] Program Start!
+[12:54:23] 알람 사용 안함
+[12:54:32] 일반차량 삭제 컬럼 추가 컬럼추가 완료
+[12:54:38] 홈넷포인트조회 컬럼추가 완료
+[12:54:40] 홈넷포인트조회Table 생성 컬럼추가 완료
+[12:54:40] 아이콘트롤스 사전방문차량Table 생성 컬럼추가 완료
+[12:54:44] 저장 프로시저 함수 생성 컬럼추가 완료
+[12:54:44] 단기 정기차량 컬럼 추가 컬럼추가 완료
+[12:54:46] 방문차량 즐겨찾기 Table 생성  컬럼추가 완료
+[12:54:46] 지진발생 Table 생성  컬럼추가 완료
+[12:54:47] 1
+[12:55:10] Program Start!
+[12:55:10] 알람 사용 안함
+[12:55:10] 1
+[12:55:23] Program Start!
+[12:55:23] 알람 사용 안함
+[12:55:24] 1
+[12:56:20] Program Start!
+[12:56:20] 알람 사용 안함
+[12:56:20] 1
+[12:56:37] Program Start!
+[12:56:37] 알람 사용 안함
+[12:56:37] 1
+[12:57:38] Program Start!
+[12:57:38] 알람 사용 안함
+[12:57:42] 1
+[13:01:09] Program Start!
+[13:01:09] 알람 사용 안함
+[13:01:10] 1
+[13:01:15] Select * from IONData where ProcDate >= :N1 and ProcDate <= :N2 and 
+(TKType = :N3 or TKType = :N4) 
+ Order By UnitNo, ProcDate, ProcTime
+
+[13:02:47] Select * from IONData where ProcDate >= :N1 and ProcDate <= :N2 and 
+(TKType = :N3 or TKType = :N4) 
+ Order By UnitNo, ProcDate, ProcTime
+
+[13:08:51] Select * from IONData where ProcDate >= :N1 and ProcDate <= :N2 and 
+(TKType = :N3 or TKType = :N4) 
+ Order By UnitNo, ProcDate, ProcTime
+
+[13:09:19] Select * from IONData where ProcDate >= :N1 and ProcDate <= :N2 and 
+(TKType = :N3 or TKType = :N4) 
+ Order By UnitNo, ProcDate, ProcTime
+
+[13:09:50] TfrmIONData.btnSearchClick: 쿼리 시간 제한이 만료되었습니다
+[13:11:15] Select * from IONData where ProcDate >= :N1 and ProcDate <= :N2 and 
+(TKType = :N3 or TKType = :N4) 
+ Order By UnitNo, ProcDate, ProcTime
+
+[13:24:18] Program Start!
+[13:24:18] 알람 사용 안함
+[13:24:19] 1
+[13:24:46] Select * from IONData where ProcDate >= :N1 and ProcDate <= :N2 and 
+(TKType = :N3 or TKType = :N4) 
+ Order By UnitNo, ProcDate, ProcTime
+
+[13:26:23] TfrmIONData.btnExcelClick: List index out of bounds (65536)
+[13:30:01] Select * from IONData where ProcDate >= :N1 and ProcDate <= :N2 and 
+(TKType = :N3 or TKType = :N4) 
+ Order By UnitNo, ProcDate, ProcTime
+
+[13:31:01] TfrmIONData.btnExcelClick: List index out of bounds (65536)
+[13:33:38] Select * from IONData where ProcDate >= :N1 and ProcDate <= :N2 and 
+(TKType = :N3 or TKType = :N4) 
+ Order By UnitNo, ProcDate, ProcTime
+
+[13:35:26] Select * from IONData where ProcDate >= :N1 and ProcDate <= :N2 and 
+(TKType = :N3 or TKType = :N4) 
+ Order By UnitNo, ProcDate, ProcTime
+
+[13:36:34] Program Start!
+[13:36:34] 알람 사용 안함
+[13:36:34] 1
+[13:37:01] Select * from IONData where ProcDate >= :N1 and ProcDate <= :N2 and 
+(TKType = :N3 or TKType = :N4) 
+ Order By UnitNo, ProcDate, ProcTime
+
+[13:39:36] TfrmIONData.btnExcelClick: List index out of bounds (65536)

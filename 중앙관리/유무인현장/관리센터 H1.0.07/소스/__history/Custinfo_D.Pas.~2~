@@ -1,0 +1,496 @@
+unit CustInfo_D;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, AdvSpin, Mask, AdvEdit, StdCtrls, AdvCombo, ExtCtrls, AdvPanel, DB,
+  ADODB, Buttons, Grids, BaseGrid, AdvGrid, DBAdvGrid, tmsAdvGridExcel, ComObj,
+  AdvObj;
+
+type
+  TfrmCustInfo_D = class(TForm)
+    AdvPanel1: TAdvPanel;
+    AdvPanel2: TAdvPanel;
+    cmbGroupNo: TAdvComboBox;
+    edtGroupName: TAdvEdit;
+    cmbLastUseStatus: TAdvComboBox;
+    edtTKNo: TAdvEdit;
+    edtName: TAdvEdit;
+    edtTelNo: TAdvEdit;
+    edtCarNo: TAdvEdit;
+    edtCompName: TAdvEdit;
+    edtDeptName: TAdvEdit;
+    edtAddress: TAdvEdit;
+    cmbStatus: TAdvComboBox;
+    edtIssueDate: TAdvMaskEdit;
+    edtIssueAmt: TAdvSpinEdit;
+    edtExpDateF: TAdvMaskEdit;
+    edtExpDateT: TAdvMaskEdit;
+    edtLastUnitNo: TAdvEdit;
+    edtLastUseDate: TAdvMaskEdit;
+    edtLastUseTime: TAdvMaskEdit;
+    cmbWPNo: TAdvComboBox;
+    cmbAPB: TAdvComboBox;
+    edtWPName: TAdvEdit;
+    qryWP: TADOQuery;
+    cmbParkNo: TAdvComboBox;
+    btnCancel: TBitBtn;
+    btnDelete: TBitBtn;
+    btnClose: TBitBtn;
+    btnSeek: TBitBtn;
+    btnExcel: TBitBtn;
+    qryTemp: TADOQuery;
+    qryGroup: TADOQuery;
+    qryGroupParkNo: TSmallintField;
+    qryGroupGroupNo: TSmallintField;
+    qryGroupGroupName: TStringField;
+    qryGroupAPB: TWordField;
+    qryGroupStatus: TWordField;
+    qryGroupRemark: TStringField;
+    qryGroupGroupType: TWordField;
+    qryGroupUseFeeItem: TWordField;
+    qryGroupReserve1: TStringField;
+    qryGroupReserve2: TStringField;
+    qryGroupReserve3: TStringField;
+    qryGroupReserve4: TStringField;
+    qryGroupReserve5: TStringField;
+    edtCurrAmt: TAdvSpinEdit;
+    OpenDialog1: TOpenDialog;
+    SaveDialog1: TSaveDialog;
+    edtCarType: TAdvEdit;
+    cmbHIType: TAdvComboBox;
+    edtHISTime: TAdvMaskEdit;
+    edtHIETime: TAdvMaskEdit;
+    eCustInfo_D: TAdvGridExcelIO;
+    procedure FormShow(Sender: TObject);
+    procedure cmbGroupNoChange(Sender: TObject);
+    procedure cmbParkNoChange(Sender: TObject);
+    procedure btnCancelClick(Sender: TObject);
+    procedure btnCloseClick(Sender: TObject);
+    procedure btnSaveClick(Sender: TObject);
+    procedure btnDeleteClick(Sender: TObject);
+    procedure cmbWPNoChange(Sender: TObject);
+    procedure dgCustInfo_DClick(Sender: TObject);
+    procedure btnSeekClick(Sender: TObject);
+    procedure btnExcelClick(Sender: TObject);
+    procedure btnAllAddClick(Sender: TObject);
+    procedure dgCustInfo_DCanSort(Sender: TObject; ACol: Integer;
+      var DoSort: Boolean);
+  private
+    { Private declarations }
+    procedure frmClear;
+  public
+    { Public declarations }
+  end;
+
+  RECGroup = record
+    nGroupNo  : Integer;
+    sGroupName: String;
+  end;
+
+var
+  frmCustInfo_D: TfrmCustInfo_D;
+  nSelect: Byte = 0; //0:Add, 1:Modify
+  sPrvCarNo, sPrvExpDateF, sPrvExpDateT: AnsiString;
+  RGroup : Array[1..50] of RECGroup;
+  nGroupCnt: Integer;
+
+implementation
+uses
+  Global, Tables, Progress, Seek;
+
+{$R *.dfm}
+
+
+procedure TfrmCustInfo_D.btnCancelClick(Sender: TObject);
+begin
+  frmClear;
+end;
+
+procedure TfrmCustInfo_D.btnCloseClick(Sender: TObject);
+begin
+  dmTables.qryCustInfo_D.Close;
+  dmTables.qryGroup.Close;
+  dmTables.qryWP.Close;
+  dmTables.qryTemp.Close;
+  Close;
+end;
+
+procedure TfrmCustInfo_D.btnDeleteClick(Sender: TObject);
+begin
+  try
+    if MessageDlg('선택한 항목을 삭제할까요?', mtConfirmation, [mbYes, mbNo], 0) <> mrYes then Exit;
+
+    //test woo
+    with dmTables.qryCustInfo_D do
+    begin
+      try
+        Close;
+        SQL.Clear;
+        SQL.add('Insert into CustInfo_D_D select * from CustInfo_D where CarNo = :N1');
+        Parameters.ParamByName('N1').Value:= edtCarNo.Text;
+        ExecSQL;
+        ExceptLogging('TfrmCustInfo_D.btnDeleteClick : 정기차량정보 백업 ' + edtCarNo.Text);
+      except
+        on E: Exception do
+        begin
+          ExceptLogging('TfrmCustInfo_D.btnDeleteClick1: ' + aString(E.Message));
+        end;
+      end;
+    end;
+
+    with dmTables.qryCustInfo_D do
+    begin
+      try
+        dmTables.ADODB.BeginTrans;
+        Close;
+        SQL.Clear;
+        SQL.Add('Delete from CustInfo_D where ParkNo = :N1 and CarNo = :N2');
+        Parameters.ParamByName('N1').Value:= StrToInt(cmbParkNo.Text);
+        Parameters.ParamByName('N2').Value:= edtCarNo.Text;
+        ExecSQL;
+        dmTables.ADODB.CommitTrans;
+      except
+        on E: Exception do
+        begin
+          dmTables.ADODB.RollbackTrans;
+          ExceptLogging('TfrmCustInfo_D.btnDeleteClick2: ' + aString(E.Message));
+          ShowMessage('삭제중 오류발생! 관리자에 문의바랍니다.');
+        end;
+      end;
+      Close;
+      SQL.Clear;
+      SQL.Add('Select * from CustInfo_D where ParkNo = :N1 and TKType = :N2 and GroupNo = :N3');
+      SQL.Add(' Order by convert(int,DeptName)  ' );
+      Parameters.ParamByName('N1').Value:= StrToInt(cmbParkNo.Text);
+      Parameters.ParamByName('N2').Value:= 2;
+      Parameters.ParamByName('N3').Value:= StrToInt(cmbGroupNo.Text);
+      Open;
+    end;
+    frmClear;
+  except
+    on E: Exception do ExceptLogging('TfrmCustInfo_D.btnDeleteClick3: ' + aString(E.Message));
+  end;
+end;
+
+procedure TfrmCustInfo_D.btnExcelClick(Sender: TObject);
+begin
+  try
+    if savedialog1.Execute then
+    begin
+      eCustInfo_D.XLSExport(savedialog1.filename + '.xls');
+
+      ShowMessage('엑셀파일로 저장완료!');
+    end;
+  except
+    on E: Exception do ExceptLogging('TfrmCustInfo_D.btnExcelClick: ' + aString(E.Message));
+  end;
+end;
+
+
+procedure TfrmCustInfo_D.btnSeekClick(Sender: TObject);
+begin
+  NextModalDialog(TfrmSeek.Create(Self));
+end;
+
+procedure TfrmCustInfo_D.cmbGroupNoChange(Sender: TObject);
+var
+  i: Integer;
+begin
+  with dmTables.qryCustInfo_D do
+  begin
+    Close;
+    SQL.Clear;
+    SQL.Add('Select * from CustInfo_D where ParkNo = :N1 and TkType = :N2 and GroupNo = :N3');
+    SQL.Add(' Order by convert(int,DeptName) ') ;
+    Parameters.ParamByName('N1').Value:= StrToInt(cmbParkNo.Text);
+    Parameters.ParamByName('N2').Value:= 2;
+    Parameters.ParamByName('N3').Value:= StrToInt(cmbGroupNo.Text);
+    Open;
+  end;
+
+  for i:= 1 to nGroupCnt do
+    if RGroup[i].nGroupNo = StrToInt(cmbGroupNo.Text) then
+    begin
+      edtGroupName.Text:= RGroup[i].sGroupName;
+      Break;
+    end;
+end;
+
+procedure TfrmCustInfo_D.cmbWPNoChange(Sender: TObject);
+begin
+  with dmTables.qryWP do
+  begin
+    Close;
+    SQL.Clear;
+    SQL.Add('Select WPName from WP where WPNo = :N1');
+    Parameters.ParamByName('N1').Value:= StrToInt(cmbWPNo.Text);
+    Open;
+
+    if RecordCount > 0 then
+      edtWPName.Text:= FieldByName('WPName').AsString
+    else
+      edtWPName.Text:= '';
+  end;
+end;
+
+procedure TfrmCustInfo_D.dgCustInfo_DCanSort(Sender: TObject; ACol: Integer;
+  var DoSort: Boolean);
+var
+  fdName, sSort: String;
+  sSDate, sEDate, sSTime, sETime: String;
+begin
+  DoSort:= False;
+
+  if dgCustInfo_D.SortSettings.Direction = sdAscending then
+  begin
+    dgCustInfo_D.SortSettings.Direction:= sdDescending;
+    sSort:= ' Desc';
+  end
+  else
+  begin
+    dgCustInfo_D.SortSettings.Direction:= sdAscending;
+    sSort:= '';
+  end;
+
+  fdName:= qryCustInfo_D.FieldList.Fields[ACol+1].FieldName;
+
+
+
+  with qryCustInfo_D do
+  begin
+    Close;
+    SQL.Clear;
+    Close;
+    SQL.Clear;
+    SQL.Add('Select * from CustInfo_D where ParkNo = :N1 and TkType = :N2 and GroupNo = :N3');
+    Parameters.ParamByName('N1').Value:= StrToInt(cmbParkNo.Text);
+    Parameters.ParamByName('N2').Value:= 2;
+    Parameters.ParamByName('N3').Value:= StrToInt(cmbGroupNo.Text);
+    SQL.Add('Order By ' + fdName + sSort);
+
+    Open;
+
+    if RecordCount > 0 then
+    begin
+      btnExcel.Enabled:= True;
+    end
+    else
+    begin
+      btnExcel.Enabled:= False;
+    end;
+  end;
+  dgCustInfo_D.SortSettings.Column:= ACol;
+end;
+
+procedure TfrmCustInfo_D.dgCustInfo_DClick(Sender: TObject);
+var
+  i: Byte;
+begin
+  try
+    with dmTables do
+    begin
+      if qryCustInfo_D.RecordCount <= 0 then
+        Exit;
+
+      with qryCustInfo_D do
+      begin
+        edtTKNo       .Text:= FieldByName('TKNo').AsString;
+        edtName       .Text:= FieldByName('Name').AsString;
+        edtTelNo      .Text:= FieldByName('TelNo').AsString;
+        edtCarNo      .Text:= FieldByName('CarNo').AsString;
+        edtCompName   .Text:= FieldByName('CompName').AsString;
+        edtDeptName   .Text:= FieldByName('DeptName').AsString;
+        edtAddress    .Text:= FieldByName('Address').AsString;
+        edtIssueDate  .Text:= FieldByName('IssueDate').AsString;
+        edtIssueAmt   .Value:= FieldByName('IssueAmt').AsInteger;
+        cmbStatus     .ItemIndex:= StrToInt(FieldByName('Status').AsString);
+        edtExpDateF   .Text:= FieldByName('ExpDateF').AsString;
+        edtExpDateT   .Text:= FieldByName('ExpDateT').AsString;
+        cmbWPNo       .Text:= IntToStr(FieldByName('WPNo').AsInteger);
+        edtLastUnitNo .Text:= IntToStr(FieldByName('LastUnitNo').AsInteger);
+        edtLastUseDate.Text:= FieldByName('LastUseDate').AsString;
+        edtLastUseTime.Text:= FieldByName('LastUseTime').AsString;
+        cmbAPB        .ItemIndex:= FieldByName('APB').AsInteger - 1;
+        edtCurrAmt.Value:= FieldByName('CurrAmt').AsInteger;
+        sPrvCarNo:= FieldByName('CarNo').AsString;
+        sPrvExpDateF:= FieldByName('ExpDateF').AsString;
+        sPrvExpDateT:= FieldByName('ExpDateT').AsString;
+        cmbLastUseStatus.ItemIndex:= FieldByName('IOStatusNo').AsInteger - 1;
+        edtCarType.Text:= FieldByName('Reserve1').AsString;
+        cmbGroupNo.ItemIndex:= cmbGroupNo.Items.IndexOf(IntToStr(FieldByName('GroupNo').AsInteger));
+
+        for i:= 1 to nGroupCnt do
+        if RGroup[i].nGroupNo = StrToInt(cmbGroupNo.Text) then
+        begin
+          edtGroupName.Text:= RGroup[i].sGroupName;
+          Break;
+        end;
+        cmbWPNoChange(Self);
+        cmbHIType.ItemIndex:= FieldByName('HIType').AsInteger;
+        edtHISTime.Text:= FieldByName('HISTime').AsString;
+        edtHIETime.Text:= FieldByName('HIETime').AsString;
+      end;
+    end;
+    btnCancel.Enabled:= True;
+    btnDelete.Enabled:= True;
+    nSelect:= 1;
+  except
+    on E: Exception do ExceptLogging('TfrmCustInfo_D.dgCustomClick: ' + aString(E.Message));
+  end;
+end;
+
+procedure TfrmCustInfo_D.FormShow(Sender: TObject);
+var
+  i: Integer;
+begin
+  try
+    for i:= 1 to 50 do
+    begin
+      RGroup[i].nGroupNo:= 0;
+      RGroup[i].sGroupName:= '';
+    end;
+
+    with dmTables.qryTemp do
+    begin
+      Close;
+      SQL.Clear;
+      SQL.Add('Select * from ParkInfo');
+      Open;
+
+      if RecordCount <= 0 then
+      begin
+        btnSave.Enabled:= False;
+        ShowMessage('주차장을 먼저 설정하여주세요!');
+        Exit;
+      end
+      else
+      begin
+        cmbParkNo.Items.Clear;
+
+        while not Eof do
+        begin
+          cmbParkNo.Items.Add(IntToStr(FieldByName('ParkNo').AsInteger));
+          Next;
+        end;
+        cmbParkNo.ItemIndex:= 0;
+      end;
+    end;
+
+    with dmTables.qryGroup do
+    begin
+      Close;
+      SQL.Clear;
+      SQL.Add('Select * from GGroup Where ParkNo = :N1 and Reserve1 is null');
+      Parameters.ParamByName('N1').Value:= StrToInt(cmbParkNo.Text);
+      Open;
+
+      nGroupCnt:= RecordCount;
+
+      if RecordCount <= 0 then
+      begin
+        btnSave.Enabled:= False;
+        ShowMessage('정기차량그룹을 먼저 등록하여주세요!');
+        Exit;
+      end;
+      cmbGroupNo.Items.Clear;
+      cmbGroupNo.Enabled:= True;
+      edtGroupName.Visible:= True;
+      cmbGroupNo.Items.Clear;
+
+      First;
+      edtGroupName.Text:= FieldByName('GroupName').AsString;
+      i:= 1;
+
+      while not Eof do
+      begin
+        cmbGroupNo.Items.Add(IntToStr(FieldByName('GroupNo').AsInteger));
+        RGroup[i].nGroupNo  := FieldByName('GroupNo').AsInteger;
+        RGroup[i].sGroupName:= FieldByName('GroupName').AsString;
+        i:= i+1;
+        Next;
+      end;
+      cmbGroupNo.ItemIndex:= 0;
+    end;
+    cmbWPNo.Items.Clear;
+
+    with dmTables.qryWP do
+    begin
+      Close;
+      SQL.Clear;
+      SQL.Add('Select * from WP where ParkNo = :N1');
+      Parameters.ParamByName('N1').Value:= StrToInt(cmbParkNo.Text);
+      Open;
+
+      if RecordCount <= 0 then
+      begin
+        btnSave.Enabled:= False;
+        ShowMessage('환경설정에서 사용시간대를 설정하여주세요!');
+        Exit;
+      end;
+      edtWPName.Text:= FieldByName('WPName').AsString;
+
+      while not Eof do
+      begin
+        cmbWPNo.Items.Add(IntToStr(FieldByName('WPNo').AsInteger));
+        Next;
+      end;
+      cmbWPNo.ItemIndex:= 0;
+    end;
+
+    with dmTables.qryCustInfo_D do
+    begin
+      Close;
+      SQL.Clear;
+      SQL.Add('Select * from CustInfo_D where ParkNo = :N1 and TkType = :N2 and GroupNo = :N3');
+      SQL.Add(' Order by convert(int,DeptName)  ' );
+      Parameters.ParamByName('N1').Value:= StrToInt(cmbParkNo.Text);
+      Parameters.ParamByName('N2').Value:= 2;
+      Parameters.ParamByName('N3').Value:= StrToInt(cmbGroupNo.Text);
+      Open;
+    end;
+    nSelect:= 0;
+    frmClear
+  except
+    on E: Exception do ExceptLogging('TfrmCustInfo_D.FormShow: ' + aString(E.Message));
+  end;
+end;
+
+procedure TfrmCustInfo_D.frmClear;
+begin
+  try
+    edtGroupName  .Text := '';
+    edtTkNo       .Text := '';
+    edtName       .Text := '';
+    edtTelNo      .Text := '';
+    edtCarNo      .Text := '';
+    edtCompName   .Text := '';
+    edtDeptName   .Text := '';
+    edtAddress    .Text := '';
+    cmbStatus     .ItemIndex:= -1;
+    edtIssueDate  .Text := '';
+    edtIssueAmt   .Value:= 0;
+    edtExpDateF   .Text := '';
+    edtExpDateT   .Text := '';
+    edtLastUnitNo .Text := '';
+    edtLastUseDate.Text := '';
+    edtLastUseTime.Text := '';
+    edtWPName     .Text := '';
+    edtCarType    .Text := '';
+    edtCurrAmt    .Value:= 0;
+    cmbWPNo       .ItemIndex:= 0;
+    cmbAPB        .ItemIndex:= 2;
+    cmbWPNoChange(Self);
+    cmbHIType.ItemIndex:= 0;
+    edtHISTime.Text:= '';
+    edtHIETime.Text:= '';
+    btnDelete.Enabled:= False;
+    btnCancel.Enabled:= False;
+    nSelect:= 0;
+  except
+    on E: Exception do ExceptLogging('TfrmCustInfo_D.frmClear: ' + aString(E.Message));
+  end;
+end;
+
+end.
