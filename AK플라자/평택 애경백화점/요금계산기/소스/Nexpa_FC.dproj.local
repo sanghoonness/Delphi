@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main2.dfm=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main2.dfm=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\PaySelect.pas=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\PaySelect.dfm=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main2.pas=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main2.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\MainNew.dfm=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\MainNew.pas=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dproj,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Nexpa_FC.dproj=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Nexpa_FC.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dproj,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Nexpa_FC.dproj=C:\Documents and Settings\고명균\My Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main.dfm=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main.pas=C:\Documents and Settings\고명균\My Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main.dfm=C:\Documents and Settings\고명균\My Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Closing.pas"/>
+    <File Path="Closing.dfm"/>
+    <File Path="DspSet.pas"/>
+    <File Path="DspSet.dfm"/>
+    <File Path="FeeDetail.pas"/>
+    <File Path="FeeDetail.dfm"/>
+    <File Path="Global.pas"/>
+    <File Path="InDspSet.pas"/>
+    <File Path="InDspSet.dfm"/>
+    <File Path="Login.pas"/>
+    <File Path="Login.dfm"/>
+    <File Path="MainNew.pas"/>
+    <File Path="MainNew.dfm"/>
+    <File Path="PaySelect.pas"/>
+    <File Path="PaySelect.dfm"/>
+    <File Path="Progress.pas"/>
+    <File Path="Progress.dfm"/>
+    <File Path="Setup.pas"/>
+    <File Path="Setup.dfm"/>
+    <File Path="Tables.pas"/>
+    <File Path="Tables.dfm"/>
+    <File Path="UnitInfo.pas"/>
+    <File Path="UnitInfo.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

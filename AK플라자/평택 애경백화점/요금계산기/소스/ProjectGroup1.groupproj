@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{E2BDD961-16D3-4CD6-87DB-5D89AE6FAAD0}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Nexpa_FC.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\..\중앙관리프로그램\소스\Nexpa_Host.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="Nexpa_FC">
+			<MSBuild Projects="Nexpa_FC.dproj"/>
+		</Target>
+		<Target Name="Nexpa_FC:Clean">
+			<MSBuild Targets="Clean" Projects="Nexpa_FC.dproj"/>
+		</Target>
+		<Target Name="Nexpa_FC:Make">
+			<MSBuild Targets="Make" Projects="Nexpa_FC.dproj"/>
+		</Target>
+		<Target Name="Nexpa_Host">
+			<MSBuild Projects="..\..\중앙관리프로그램\소스\Nexpa_Host.dproj"/>
+		</Target>
+		<Target Name="Nexpa_Host:Clean">
+			<MSBuild Targets="Clean" Projects="..\..\중앙관리프로그램\소스\Nexpa_Host.dproj"/>
+		</Target>
+		<Target Name="Nexpa_Host:Make">
+			<MSBuild Targets="Make" Projects="..\..\중앙관리프로그램\소스\Nexpa_Host.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="Nexpa_FC;Nexpa_Host"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="Nexpa_FC:Clean;Nexpa_Host:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="Nexpa_FC:Make;Nexpa_Host:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>
