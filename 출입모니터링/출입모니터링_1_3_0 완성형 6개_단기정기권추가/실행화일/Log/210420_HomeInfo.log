@@ -1,0 +1,512 @@
+[13:15:24] 
+==========================================
+[13:15:24] Program Start! (Ver_1.3.3.51)
+[13:15:25] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:15:25] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:15:25] <스마트빌리지> 소켓객체 생성완료
+[13:15:25] 스마트빌리지 사용준비 완료
+[13:15:25] Main.pas: Line: 29224, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[13:15:25] EasyOnHomeInfo.pas: Line: 1770,  이지온 소켓생성 성공!
+[13:15:25] EasyOnHomeInfo.pas: Line: 1793,  Open IP:127.0.0.1, Port:42140
+[13:15:26] 127.0.0.1:42140 연결
+[13:16:06] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,101,101,11가1111,입차)
+[13:16:54] 
+==========================================
+[13:16:54] Program Start! (Ver_1.3.3.51)
+[13:16:55] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:16:55] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:16:55] <스마트빌리지> 소켓객체 생성완료
+[13:16:55] 스마트빌리지 사용준비 완료
+[13:16:55] Main.pas: Line: 29224, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[13:16:55] EasyOnHomeInfo.pas: Line: 1770,  이지온 소켓생성 성공!
+[13:16:55] EasyOnHomeInfo.pas: Line: 1793,  Open IP:127.0.0.1, Port:42140
+[13:16:56] 127.0.0.1:42140 연결
+[13:16:59] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,101,101,11가1111,입차)
+[13:16:59] EasyOnHomeInfo.pas: Line: 1718,  Send json..
+[13:16:59] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"101","ho":"101","car_number":"11\uAC001111","date_time":"20210420131659","kind":"a","lprid":"0","car_image":"","reg_no":"","visit_in_date_time":"","visit_out_date_time":""}} [Len:214]
+[13:16:59] EasyOnHomeInfo.pas: Line: 1724,  <<< Homeinfo_proc_EasyOn(..)
+[13:17:21] 
+==========================================
+[13:17:21] Program Start! (Ver_1.3.3.51)
+[13:17:22] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:17:22] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:17:22] <스마트빌리지> 소켓객체 생성완료
+[13:17:22] 스마트빌리지 사용준비 완료
+[13:17:22] Main.pas: Line: 29224, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[13:17:22] EasyOnHomeInfo.pas: Line: 1770,  이지온 소켓생성 성공!
+[13:17:22] EasyOnHomeInfo.pas: Line: 1793,  Open IP:127.0.0.1, Port:42140
+[13:17:23] 127.0.0.1:42140 연결
+[13:17:24] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,101,101,11가1111,입차)
+[13:17:24] EasyOnHomeInfo.pas: Line: 1718,  Send json..
+[13:17:24] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"101","ho":"101","car_number":"11\uAC001111","date_time":"20210420131724","kind":"a","lprid":"0","car_image":"","reg_no":"","visit_in_date_time":"","visit_out_date_time":""}} [Len:214]
+[13:17:24] EasyOnHomeInfo.pas: Line: 1724,  <<< Homeinfo_proc_EasyOn(..)
+[13:17:25] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,101,101,11가1111,입차)
+[13:17:25] EasyOnHomeInfo.pas: Line: 1718,  Send json..
+[13:17:25] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"101","ho":"101","car_number":"11\uAC001111","date_time":"20210420131725","kind":"a","lprid":"0","car_image":"","reg_no":"","visit_in_date_time":"","visit_out_date_time":""}} [Len:214]
+[13:17:25] EasyOnHomeInfo.pas: Line: 1724,  <<< Homeinfo_proc_EasyOn(..)
+[13:17:46] 
+==========================================
+[13:17:46] Program Start! (Ver_1.3.3.51)
+[13:17:47] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:17:47] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:17:47] <스마트빌리지> 소켓객체 생성완료
+[13:17:47] 스마트빌리지 사용준비 완료
+[13:17:47] Main.pas: Line: 29224, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[13:17:47] EasyOnHomeInfo.pas: Line: 1770,  이지온 소켓생성 성공!
+[13:17:47] EasyOnHomeInfo.pas: Line: 1793,  Open IP:127.0.0.1, Port:42140
+[13:17:48] 127.0.0.1:42140 연결
+[13:18:23] 홈넷전송가능 LPR: 71
+[13:18:23] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,1,1,60하8065,입차)
+[13:18:23] EasyOnHomeInfo.pas: Line: 1718,  Send json..
+[13:18:23] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"1","ho":"1","car_number":"60\uD5588065","date_time":"20210420131823","kind":"v","lprid":"0","car_image":"","reg_no":"","visit_in_date_time":"20210402000000","visit_out_date_time":"20211202233000"}} [Len:238]
+[13:18:23] EasyOnHomeInfo.pas: Line: 1724,  <<< Homeinfo_proc_EasyOn(..)
+[13:19:18] 
+==========================================
+[13:19:18] Program Start! (Ver_1.3.3.51)
+[13:19:18] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:19:18] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:19:18] <스마트빌리지> 소켓객체 생성완료
+[13:19:18] 스마트빌리지 사용준비 완료
+[13:19:18] Main.pas: Line: 29224, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[13:19:18] EasyOnHomeInfo.pas: Line: 1770,  이지온 소켓생성 성공!
+[13:19:18] EasyOnHomeInfo.pas: Line: 1793,  Open IP:127.0.0.1, Port:42140
+[13:19:19] 127.0.0.1:42140 연결
+[13:19:26] 홈넷전송가능 LPR: 71
+[13:19:26] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,1,1,60하8065,입차)
+[13:19:26] EasyOnHomeInfo.pas: Line: 1718,  Send json..
+[13:19:26] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"1","ho":"1","car_number":"60\uD5588065","date_time":"20210420131926","kind":"v","lprid":"0","car_image":"","reg_no":"","visit_in_date_time":"20210402000000","visit_out_date_time":"20211202233000"}} [Len:238]
+[13:19:26] EasyOnHomeInfo.pas: Line: 1724,  <<< Homeinfo_proc_EasyOn(..)
+[13:20:01] 홈넷전송가능 LPR: 73
+[13:20:01] 세대통보 출차 전송 60하8065
+[13:20:01] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,1,1,60하8065,출차)
+[13:20:01] EasyOnHomeInfo.pas: Line: 1718,  Send json..
+[13:20:01] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_outcar","data":{"dong":"1","ho":"1","car_number":"60\uD5588065","date_time":"20210420132001","kind":"v","lprid":"0","car_image":"","reg_no":"","visit_in_date_time":"20210402000000","visit_out_date_time":"20211202233000"}} [Len:239]
+[13:20:01] EasyOnHomeInfo.pas: Line: 1724,  <<< Homeinfo_proc_EasyOn(..)
+[13:20:01] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,1,1,60하8065,세대포인트)
+[13:20:01] EasyOnHomeInfo.pas: Line: 1718,  Send json..
+[13:20:01] EasyOnHomeInfo.pas: Line: 259,  {"command":"sync_assign","data":{"list":[{"park_no":"1","dong":"1","ho":"1","type":"MINUTE","enable_point":"10000","used_point":"92","acp_date":"2021-04-01","exp_date":"2021-04-30"}]}} [Len:184]
+[13:20:01] EasyOnHomeInfo.pas: Line: 1724,  <<< Homeinfo_proc_EasyOn(..)
+[13:32:03] 
+==========================================
+[13:32:03] Program Start! (Ver_1.3.3.51)
+[13:32:04] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:32:04] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:32:04] <스마트빌리지> 소켓객체 생성완료
+[13:32:04] 스마트빌리지 사용준비 완료
+[13:32:04] Main.pas: Line: 29234, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[13:32:04] EasyOnHomeInfo.pas: Line: 1770,  이지온 소켓생성 성공!
+[13:32:04] EasyOnHomeInfo.pas: Line: 1793,  Open IP:127.0.0.1, Port:42140
+[13:32:05] 127.0.0.1:42140 연결
+[13:36:51] 
+==========================================
+[13:36:51] Program Start! (Ver_1.3.3.51)
+[13:36:51] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:36:51] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:36:51] <스마트빌리지> 소켓객체 생성완료
+[13:36:51] 스마트빌리지 사용준비 완료
+[13:36:51] Main.pas: Line: 29234, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[13:36:51] EasyOnHomeInfo.pas: Line: 1770,  이지온 소켓생성 성공!
+[13:36:51] EasyOnHomeInfo.pas: Line: 1793,  Open IP:127.0.0.1, Port:42140
+[13:36:52] 127.0.0.1:42140 연결
+[13:37:07] 홈넷전송가능 LPR: 71
+[13:37:07] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,1,1,60하8065,입차)
+[13:37:07] EasyOnHomeInfo.pas: Line: 1718,  Send json..
+[13:37:07] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"1","ho":"1","car_number":"60\uD5588065","date_time":"20210420133707","kind":"v","lprid":"71","car_image":"\\\\10.22.31.1\\MSImage\\2021\\04\\20\\CH1_20210420133707_60\uD5588065.jpg","reg_no":"2021042013370733570","visit_in_date_time":"20210402000000","visit_out_date_time":"20211202233000"}} [Len:332]
+[13:37:07] EasyOnHomeInfo.pas: Line: 1724,  <<< Homeinfo_proc_EasyOn(..)
+[13:49:38] 
+==========================================
+[13:49:38] Program Start! (Ver_1.3.3.51)
+[13:49:39] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:49:39] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:49:39] <스마트빌리지> 소켓객체 생성완료
+[13:49:39] 스마트빌리지 사용준비 완료
+[13:49:39] Main.pas: Line: 29234, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[13:49:39] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[13:49:39] EasyOnHomeInfo.pas: Line: 1795,  Open IP:127.0.0.1, Port:42140
+[13:49:40] 127.0.0.1:42140 연결
+[13:49:45] 홈넷전송가능 LPR: 73
+[13:49:45] 세대통보 출차 전송 60하8065
+[13:49:45] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,1,1,60하8065,출차)
+[13:49:45] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[13:49:45] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_outcar","data":{"dong":"1","ho":"1","car_number":"60\uD5588065","date_time":"20210420134945","kind":"v","lprid":"73","car_image":"\10.22.31.1\MSImage\2021\04\20\CH1_20210420134945_60\uD5588065.jpg","reg_no":"2021042013494550170","visit_in_date_time":"20210402000000","visit_out_date_time":"20211202233000"}} [Len:325]
+[13:49:45] EasyOnHomeInfo.pas: Line: 1726,  <<< Homeinfo_proc_EasyOn(..)
+[13:49:45] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,1,1,60하8065,세대포인트)
+[13:49:45] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[13:49:45] EasyOnHomeInfo.pas: Line: 259,  {"command":"sync_assign","data":{"list":[{"park_no":"1","dong":"1","ho":"1","type":"MINUTE","enable_point":"10000","used_point":"213","acp_date":"2021-04-01","exp_date":"2021-04-30"}]}} [Len:185]
+[13:49:45] EasyOnHomeInfo.pas: Line: 1726,  <<< Homeinfo_proc_EasyOn(..)
+[13:51:09] 
+==========================================
+[13:51:09] Program Start! (Ver_1.3.3.51)
+[13:51:09] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:51:09] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:51:09] <스마트빌리지> 소켓객체 생성완료
+[13:51:10] 스마트빌리지 사용준비 완료
+[13:51:10] Main.pas: Line: 29234, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[13:51:10] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[13:51:10] EasyOnHomeInfo.pas: Line: 1795,  Open IP:127.0.0.1, Port:42140
+[13:51:11] 127.0.0.1:42140 연결
+[13:51:19] 홈넷전송가능 LPR: 71
+[13:51:19] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,1,1,60하8065,입차)
+[13:51:19] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[13:51:19] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"1","ho":"1","car_number":"60\uD5588065","date_time":"20210420135119","kind":"v","lprid":"71","car_image":"\\10.22.31.1\MSImage\2021\04\20\CH1_20210420135119_60\uD5588065.jpg","reg_no":"2021042013511922070","visit_in_date_time":"20210402000000","visit_out_date_time":"20211202233000"}} [Len:325]
+[13:51:19] EasyOnHomeInfo.pas: Line: 1726,  <<< Homeinfo_proc_EasyOn(..)
+[14:02:18] 
+==========================================
+[14:02:18] Program Start! (Ver_1.3.3.51)
+[14:02:18] 프로그램 시작시 단지서버(홈넷) Ping 안됨! (단지서버 IP-10.31.3.31)
+[14:02:18] Main.pas: Line: 29127, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:02:18] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[14:02:18] EasyOnHomeInfo.pas: Line: 1781,  이지온 소켓생성 실패!
+[14:02:18] EasyOnHomeInfo.pas: Line: 1795,  Open IP:, Port:25008
+[14:02:19] <스마트빌리지> 소켓객체 생성완료
+[14:02:19] 스마트빌리지 사용준비 완료
+[14:02:19] Main.pas: Line: 29234, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:02:42] 
+==========================================
+[14:02:42] Program Start! (Ver_1.3.3.51)
+[14:02:42] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[14:02:42] Main.pas: Line: 29127, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:02:42] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[14:02:42] EasyOnHomeInfo.pas: Line: 1781,  이지온 소켓생성 실패!
+[14:02:42] EasyOnHomeInfo.pas: Line: 1795,  Open IP:, Port:25008
+[14:02:42] <스마트빌리지> 소켓객체 생성완료
+[14:02:42] 스마트빌리지 사용준비 완료
+[14:02:42] Main.pas: Line: 29234, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:03:12] 
+==========================================
+[14:03:12] Program Start! (Ver_1.3.3.51)
+[14:03:12] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[14:03:12] Main.pas: Line: 29127, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:03:12] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[14:03:12] EasyOnHomeInfo.pas: Line: 1781,  이지온 소켓생성 실패!
+[14:03:12] EasyOnHomeInfo.pas: Line: 1795,  Open IP:, Port:25008
+[14:03:13] <스마트빌리지> 소켓객체 생성완료
+[14:03:13] 스마트빌리지 사용준비 완료
+[14:03:13] Main.pas: Line: 29234, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:05:20] 
+==========================================
+[14:05:20] Program Start! (Ver_1.3.3.51)
+[14:05:20] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[14:05:20] Main.pas: Line: 29127, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:05:20] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[14:05:20] EasyOnHomeInfo.pas: Line: 1781,  이지온 소켓생성 실패!
+[14:05:20] EasyOnHomeInfo.pas: Line: 1795,  Open IP:, Port:25008
+[14:05:21] <스마트빌리지> 소켓객체 생성완료
+[14:05:21] 스마트빌리지 사용준비 완료
+[14:05:21] Main.pas: Line: 29234, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:08:41] 
+==========================================
+[14:08:41] Program Start! (Ver_1.3.3.51)
+[14:08:42] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[14:08:42] Main.pas: Line: 29127, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:08:42] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[14:09:12] 
+==========================================
+[14:09:12] Program Start! (Ver_1.3.3.51)
+[14:09:13] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[14:09:13] Main.pas: Line: 29127, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:09:13] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[14:09:13] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[14:09:13] EasyOnHomeInfo.pas: Line: 1795,  Open IP:, Port:25008
+[14:09:13] <스마트빌리지> 소켓객체 생성완료
+[14:09:13] 스마트빌리지 사용준비 완료
+[14:09:13] Main.pas: Line: 29234, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:10:30] 
+==========================================
+[14:10:30] Program Start! (Ver_1.3.3.51)
+[14:10:31] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[14:10:31] Main.pas: Line: 29127, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:12:04] 
+==========================================
+[14:12:04] Program Start! (Ver_1.3.3.51)
+[14:12:47] 
+==========================================
+[14:12:47] Program Start! (Ver_1.3.3.51)
+[14:12:48] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[14:12:48] Main.pas: Line: 29127, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:12:48] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[14:12:48] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[14:12:48] EasyOnHomeInfo.pas: Line: 1795,  Open IP:10.22.33.1, Port:42140
+[14:12:48] <스마트빌리지> 소켓객체 생성완료
+[14:12:48] 스마트빌리지 사용준비 완료
+[14:12:48] Main.pas: Line: 29234, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:12:49]  :0 에러!
+[14:12:50] 10.22.33.1:42140 연결
+[14:13:28] 
+==========================================
+[14:13:28] Program Start! (Ver_1.3.3.51)
+[14:13:28] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[14:13:28] Main.pas: Line: 29127, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:13:28] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[14:13:28] EasyOnHomeInfo.pas: Line: 1795,  Open IP:10.22.33.1, Port:42140
+[14:13:28] <스마트빌리지> 소켓객체 생성완료
+[14:13:28] 스마트빌리지 사용준비 완료
+[14:13:28] Main.pas: Line: 29234, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:13:29] 10.22.33.1:42140 연결
+[14:13:36] 홈넷전송가능 LPR: 71
+[14:13:36] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(,25008,1,1,60하8065,입차)
+[14:13:36] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:13:36] EasyOnHomeInfo.pas: Line: 1726,  <<< Homeinfo_proc_EasyOn(..)
+[14:13:36] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(,25008,1,1,60하8065,입차)
+[14:13:36] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:13:37] EasyOnHomeInfo.pas: Line: 1726,  <<< Homeinfo_proc_EasyOn(..)
+[14:16:46] 
+==========================================
+[14:16:46] Program Start! (Ver_1.3.3.51)
+[14:16:46] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[14:16:46] Main.pas: Line: 29127, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:16:46] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[14:16:46] EasyOnHomeInfo.pas: Line: 1795,  Open IP:10.22.33.1, Port:42140
+[14:16:46] <스마트빌리지> 소켓객체 생성완료
+[14:16:46] 스마트빌리지 사용준비 완료
+[14:16:46] Main.pas: Line: 29234, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:16:47] 10.22.33.1:42140 연결
+[14:17:20] 
+==========================================
+[14:17:20] Program Start! (Ver_1.3.3.51)
+[14:17:20] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[14:17:20] Main.pas: Line: 29127, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:17:20] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[14:17:20] EasyOnHomeInfo.pas: Line: 1795,  Open IP:10.22.33.1, Port:42140
+[14:17:20] <스마트빌리지> 소켓객체 생성완료
+[14:17:20] 스마트빌리지 사용준비 완료
+[14:17:20] Main.pas: Line: 29242, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:17:22] 10.22.33.1:42140 연결
+[14:17:24] 홈넷전송가능 LPR: 71
+[14:17:24] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(,25008,1,1,60하8065,입차)
+[14:17:24] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:17:24] EasyOnHomeInfo.pas: Line: 1726,  <<< Homeinfo_proc_EasyOn(..)
+[14:17:24] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(,25008,1,1,60하8065,입차)
+[14:17:24] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:17:25] EasyOnHomeInfo.pas: Line: 1726,  <<< Homeinfo_proc_EasyOn(..)
+[14:17:41] 홈넷전송가능 LPR: 71
+[14:17:41] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(,25008,1,1,60하8065,입차)
+[14:17:41] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:17:41] EasyOnHomeInfo.pas: Line: 1726,  <<< Homeinfo_proc_EasyOn(..)
+[14:17:41] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(,25008,1,1,60하8065,입차)
+[14:17:41] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:17:41] EasyOnHomeInfo.pas: Line: 1726,  <<< Homeinfo_proc_EasyOn(..)
+[14:19:40] 
+==========================================
+[14:19:40] Program Start! (Ver_1.3.3.51)
+[14:19:41] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[14:19:41] Main.pas: Line: 29143, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:19:41] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[14:19:41] EasyOnHomeInfo.pas: Line: 1795,  Open IP:10.22.33.1, Port:42140
+[14:19:41] <스마트빌리지> 소켓객체 생성완료
+[14:19:41] 스마트빌리지 사용준비 완료
+[14:19:41] Main.pas: Line: 29258, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:19:42] 10.22.33.1:42140 연결
+[14:19:44] 홈넷전송가능 LPR: 71
+[14:19:44] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(10.22.33.1,42140,1,1,60하8065,입차)
+[14:19:44] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:19:44] EasyOnHomeInfo.pas: Line: 1726,  <<< Homeinfo_proc_EasyOn(..)
+[14:19:44] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(,25008,1,1,60하8065,입차)
+[14:19:44] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:19:45] EasyOnHomeInfo.pas: Line: 1726,  <<< Homeinfo_proc_EasyOn(..)
+[14:22:07] 
+==========================================
+[14:22:07] Program Start! (Ver_1.3.3.51)
+[14:22:07] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[14:22:07] Main.pas: Line: 29143, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:22:07] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[14:22:07] EasyOnHomeInfo.pas: Line: 1795,  Open IP:10.22.33.1, Port:42140
+[14:22:07] <스마트빌리지> 소켓객체 생성완료
+[14:22:07] 스마트빌리지 사용준비 완료
+[14:22:07] Main.pas: Line: 29258, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:22:08] 10.22.33.1:42140 연결
+[14:22:12] 홈넷전송가능 LPR: 71
+[14:22:12] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(10.22.33.1,42140,1,1,60하8065,입차)
+[14:22:12] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:22:13] EasyOnHomeInfo.pas: Line: 1726,  <<< Homeinfo_proc_EasyOn(..)
+[14:23:48] 
+==========================================
+[14:23:48] Program Start! (Ver_1.3.3.51)
+[14:23:48] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[14:23:48] Main.pas: Line: 29143, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:23:48] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[14:23:48] EasyOnHomeInfo.pas: Line: 1795,  Open IP:127.0.0.1, Port:42140
+[14:23:48] <스마트빌리지> 소켓객체 생성완료
+[14:23:48] 스마트빌리지 사용준비 완료
+[14:23:48] Main.pas: Line: 29258, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:23:50] 127.0.0.1:42140 연결
+[14:24:00] 홈넷전송가능 LPR: 71
+[14:24:00] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,1,1,60하8065,입차)
+[14:24:00] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:24:00] EasyOnHomeInfo.pas: Line: 1726,  <<< Homeinfo_proc_EasyOn(..)
+[14:24:03] 홈넷전송가능 LPR: 71
+[14:24:03] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,1,1,60하8065,입차)
+[14:24:03] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:24:04] EasyOnHomeInfo.pas: Line: 1726,  <<< Homeinfo_proc_EasyOn(..)
+[14:24:47] 
+==========================================
+[14:24:47] Program Start! (Ver_1.3.3.51)
+[14:24:50] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[14:24:50] Main.pas: Line: 29143, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:24:50] EasyOnHomeInfo.pas: Line: 1772,  이지온 소켓생성 성공!
+[14:24:50] EasyOnHomeInfo.pas: Line: 1795,  Open IP:127.0.0.1, Port:42140
+[14:24:50] <스마트빌리지> 소켓객체 생성완료
+[14:24:50] 스마트빌리지 사용준비 완료
+[14:24:50] Main.pas: Line: 29258, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:24:52] 127.0.0.1:42140 연결
+[14:24:56] 홈넷전송가능 LPR: 71
+[14:25:31] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,1,1,60하8065,입차)
+[14:28:20] 
+==========================================
+[14:28:20] Program Start! (Ver_1.3.3.51)
+[14:28:22] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[14:28:22] Main.pas: Line: 29143, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:28:22] EasyOnHomeInfo.pas: Line: 1782,  이지온 소켓생성 성공!
+[14:28:22] EasyOnHomeInfo.pas: Line: 1805,  Open IP:127.0.0.1, Port:42140
+[14:28:22] <스마트빌리지> 소켓객체 생성완료
+[14:28:22] 스마트빌리지 사용준비 완료
+[14:28:22] Main.pas: Line: 29258, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:28:23] 127.0.0.1:42140 연결
+[14:28:28] 홈넷전송가능 LPR: 71
+[14:28:33] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(127.0.0.1,42140,1,1,60하8065,입차)
+[14:28:33] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:28:33] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"1","ho":"1","car_number":"60\uD5588065","date_time":"20210420142833","kind":"v","lprid":"71","car_image":"\\10.22.31.1\MSImage\2021\04\20\CH1_20210420142829_60\uD5588065.jpg","reg_no":"2021042014282890470","visit_in_date_time":"20210402000000","visit_out_date_time":"20211202233000"}} [Len:325]
+[14:28:33] EasyOnHomeInfo.pas: Line: 1736,  <<< Homeinfo_proc_EasyOn(..)
+[14:28:51] 
+==========================================
+[14:28:51] Program Start! (Ver_1.3.3.51)
+[14:28:52] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[14:28:52] Main.pas: Line: 29143, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:28:52] EasyOnHomeInfo.pas: Line: 1782,  이지온 소켓생성 성공!
+[14:28:52] EasyOnHomeInfo.pas: Line: 1805,  Open IP:10.22.33.1, Port:42140
+[14:28:52] <스마트빌리지> 소켓객체 생성완료
+[14:28:52] 스마트빌리지 사용준비 완료
+[14:28:52] Main.pas: Line: 29258, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:28:53] 10.22.33.1:42140 연결
+[14:29:00] 홈넷전송가능 LPR: 71
+[14:29:00] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(10.22.33.1,42140,1,1,60하8065,입차)
+[14:29:00] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:29:00] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"1","ho":"1","car_number":"60\uD5588065","date_time":"20210420142900","kind":"v","lprid":"71","car_image":"\\10.22.31.1\MSImage\2021\04\20\CH1_20210420142901_60\uD5588065.jpg","reg_no":"2021042014290069770","visit_in_date_time":"20210402000000","visit_out_date_time":"20211202233000"}} [Len:325]
+[14:29:00] EasyOnHomeInfo.pas: Line: 1736,  <<< Homeinfo_proc_EasyOn(..)
+[14:29:10] 홈넷전송가능 LPR: 71
+[14:29:10] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(10.22.33.1,42140,1,1,60하8065,입차)
+[14:29:10] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:29:10] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"1","ho":"1","car_number":"60\uD5588065","date_time":"20210420142910","kind":"v","lprid":"71","car_image":"\\10.22.31.1\MSImage\2021\04\20\CH1_20210420142910_60\uD5588065.jpg","reg_no":"2021042014291025870","visit_in_date_time":"20210402000000","visit_out_date_time":"20211202233000"}} [Len:325]
+[14:29:10] EasyOnHomeInfo.pas: Line: 1736,  <<< Homeinfo_proc_EasyOn(..)
+[14:32:12] 10.22.33.1:42140 연결
+[14:32:17] 홈넷전송가능 LPR: 71
+[14:32:17] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(10.22.33.1,42140,1,1,60하8065,입차)
+[14:32:17] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:32:17] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"1","ho":"1","car_number":"60\uD5588065","date_time":"20210420143217","kind":"v","lprid":"71","car_image":"\\10.22.31.1\MSImage\2021\04\20\CH1_20210420143218_60\uD5588065.jpg","reg_no":"2021042014321771670","visit_in_date_time":"20210402000000","visit_out_date_time":"20211202233000"}} [Len:325]
+[14:32:17] EasyOnHomeInfo.pas: Line: 1736,  <<< Homeinfo_proc_EasyOn(..)
+[14:34:40] 
+==========================================
+[14:34:40] Program Start! (Ver_1.3.3.51)
+[14:34:41] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[14:34:41] Main.pas: Line: 29145, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:34:41] EasyOnHomeInfo.pas: Line: 1782,  이지온 소켓생성 성공!
+[14:34:41] EasyOnHomeInfo.pas: Line: 1805,  Open IP:10.22.33.1, Port:42140
+[14:34:41] <스마트빌리지> 소켓객체 생성완료
+[14:34:41] 스마트빌리지 사용준비 완료
+[14:34:41] Main.pas: Line: 29260, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:34:42] 10.22.33.1:42140 연결
+[14:34:44] 홈넷전송가능 LPR: 71
+[14:34:44] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(10.22.33.1,42140,1,1,60하8065,입차)
+[14:34:44] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:34:44] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"1","ho":"1","car_number":"60\uD5588065","date_time":"20210420143444","kind":"v","lprid":"71","car_image":"http://10.22.31.1:9080/MSImage/2021/04/20/CH1_20210420143445_60\uD5588065.jpg","reg_no":"2021042014344492770","visit_in_date_time":"20210402000000","visit_out_date_time":"20211202233000"}} [Len:335]
+[14:34:44] EasyOnHomeInfo.pas: Line: 1736,  <<< Homeinfo_proc_EasyOn(..)
+[14:35:00] 홈넷전송가능 LPR: 71
+[14:35:00] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(10.22.33.1,42140,1,1,60하8065,입차)
+[14:35:00] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:35:00] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"1","ho":"1","car_number":"60\uD5588065","date_time":"20210420143500","kind":"v","lprid":"71","car_image":"http://10.22.31.1:9080/MSImage/2021/04/20/CH1_20210420143501_60\uD5588065.jpg","reg_no":"2021042014350080670","visit_in_date_time":"20210402000000","visit_out_date_time":"20211202233000"}} [Len:335]
+[14:35:00] EasyOnHomeInfo.pas: Line: 1736,  <<< Homeinfo_proc_EasyOn(..)
+[14:41:10] 홈넷전송가능 LPR: 71
+[14:41:10] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(10.22.33.1,42140,1,1,60하8065,입차)
+[14:41:10] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:41:10] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"1","ho":"1","car_number":"60\uD5588065","date_time":"20210420144110","kind":"v","lprid":"71","car_image":"http://10.22.31.1:9080/MSImage/2021/04/20/CH1_20210420144111_60\uD5588065.jpg","reg_no":"2021042014411091270","visit_in_date_time":"20210402000000","visit_out_date_time":"20211202233000"}} [Len:335]
+[14:41:10] EasyOnHomeInfo.pas: Line: 1736,  <<< Homeinfo_proc_EasyOn(..)
+[14:42:54] 
+==========================================
+[14:42:54] Program Start! (Ver_1.3.3.51)
+[14:42:54] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[14:42:54] Main.pas: Line: 29145, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:42:54] EasyOnHomeInfo.pas: Line: 1782,  이지온 소켓생성 성공!
+[14:42:54] EasyOnHomeInfo.pas: Line: 1805,  Open IP:10.22.33.1, Port:42140
+[14:42:54] <스마트빌리지> 소켓객체 생성완료
+[14:42:55] 스마트빌리지 사용준비 완료
+[14:42:55] Main.pas: Line: 29260, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:42:56] 10.22.33.1:42140 연결
+[14:42:58] 홈넷전송가능 LPR: 71
+[14:42:58] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(10.22.33.1,42140,1,1,60하8065,입차)
+[14:42:58] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:42:58] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"1","ho":"1","car_number":"60\uD5588065","date_time":"20210420144258","kind":"v","lprid":"71","car_image":"http://10.22.31.1:9080/MSImage/2021/04/20/CH1_20210420144259_60\uD5588065.jpg","reg_no":"2021042014425886470","visit_in_date_time":"20210402000000","visit_out_date_time":"20211202233000"}} [Len:335]
+[14:42:58] EasyOnHomeInfo.pas: Line: 1736,  <<< Homeinfo_proc_EasyOn(..)
+[14:48:25] 10.22.33.1:42140 연결
+[14:48:28] 홈넷전송가능 LPR: 71
+[14:48:28] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(10.22.33.1,42140,1,1,60하8065,입차)
+[14:48:28] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:48:28] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"1","ho":"1","car_number":"60\uD5588065","date_time":"20210420144828","kind":"v","lprid":"71","car_image":"http://10.22.31.1:9080/MSImage/2021/04/20/CH1_20210420144828_60\uD5588065.jpg","reg_no":"202104201448287970","visit_in_date_time":"20210402000000","visit_out_date_time":"20211202233000"}} [Len:334]
+[14:48:28] EasyOnHomeInfo.pas: Line: 1736,  <<< Homeinfo_proc_EasyOn(..)
+[14:48:45] EasyOnHomeInfo.pas: Line: 1259, 미들웨어 서버수신:{
+  "command": "alert_incar",
+  "result": {
+    "status": "401",
+    "message": "Inneer Exception Error"
+  }
+}
+[14:48:45] EasyOnHomeInfo.pas: Line: 1265,  {TCP/IP Prs.command}: alert_incar
+[14:48:45] EasyOnHomeInfo.pas: Line: 1302,  입차 통보 :401 (Inneer Exception Error)
+[14:49:07] 홈넷전송가능 LPR: 71
+[14:49:07] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(10.22.33.1,42140,1,1,60하8065,입차)
+[14:49:07] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:49:07] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"1","ho":"1","car_number":"60\uD5588065","date_time":"20210420144907","kind":"v","lprid":"71","car_image":"http://10.22.31.1:9080/MSImage/2021/04/20/CH1_20210420144907_60\uD5588065.jpg","reg_no":"2021042014490716270","visit_in_date_time":"20210402000000","visit_out_date_time":"20211202233000"}} [Len:335]
+[14:49:07] EasyOnHomeInfo.pas: Line: 1736,  <<< Homeinfo_proc_EasyOn(..)
+[14:49:52] EasyOnHomeInfo.pas: Line: 1259, 미들웨어 서버수신:{
+  "command": "alert_incar",
+  "result": {
+    "status": "401",
+    "message": "Inneer Exception Error"
+  }
+}
+[14:49:52] EasyOnHomeInfo.pas: Line: 1265,  {TCP/IP Prs.command}: alert_incar
+[14:49:52] EasyOnHomeInfo.pas: Line: 1302,  입차 통보 :401 (Inneer Exception Error)
+[14:50:47] 홈넷전송가능 LPR: 73
+[14:50:47] 세대통보 출차 전송 60하8065
+[14:50:47] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(,25008,1,1,60하8065,세대포인트)
+[14:50:47] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:50:47] EasyOnHomeInfo.pas: Line: 259,  {"command":"sync_assign","data":{"list":[{"park_no":"1","dong":"1","ho":"1","type":"MINUTE","enable_point":"10000","used_point":"225","acp_date":"2021-04-01","exp_date":"2021-04-30"}]}} [Len:185]
+[14:50:47] EasyOnHomeInfo.pas: Line: 1736,  <<< Homeinfo_proc_EasyOn(..)
+[14:52:02] EasyOnHomeInfo.pas: Line: 1259, 미들웨어 서버수신:{
+  "command": "sync_assign",
+  "result": {
+    "status": "401",
+    "message": "Inneer Exception Error"
+  }
+}
+[14:52:02] EasyOnHomeInfo.pas: Line: 1265,  {TCP/IP Prs.command}: sync_assign
+[14:57:03] 
+==========================================
+[14:57:03] Program Start! (Ver_1.3.3.51)
+[14:57:03] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[14:57:03] Main.pas: Line: 29145, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:57:03] EasyOnHomeInfo.pas: Line: 1782,  이지온 소켓생성 성공!
+[14:57:03] EasyOnHomeInfo.pas: Line: 1805,  Open IP:10.22.33.1, Port:42140
+[14:57:03] <스마트빌리지> 소켓객체 생성완료
+[14:57:03] 스마트빌리지 사용준비 완료
+[14:57:03] Main.pas: Line: 29260, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:57:04] 10.22.33.1:42140 연결
+[14:57:15] 홈넷전송가능 LPR: 71
+[14:57:15] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(10.22.33.1,42140,1,1,60하8065,입차)
+[14:57:15] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:57:15] EasyOnHomeInfo.pas: Line: 259,  {"command":"alert_incar","data":{"dong":"1","ho":"1","car_number":"60\uD5588065","date_time":"20210420145715","kind":"v","lprid":"71","car_image":"http://10.22.31.1:9080/MSImage/2021/04/20/CH1_20210420145716_60\uD5588065.jpg","reg_no":"2021042014571582870","visit_in_date_time":"20210402000000","visit_out_date_time":"20211202233000"}} [Len:335]
+[14:57:15] EasyOnHomeInfo.pas: Line: 1736,  <<< Homeinfo_proc_EasyOn(..)
+[14:57:16] EasyOnHomeInfo.pas: Line: 1259, 미들웨어 서버수신:{
+  "command": "alert_incar",
+  "result": {
+    "status": "401",
+    "message": "Inneer Exception Error"
+  }
+}
+[14:57:16] EasyOnHomeInfo.pas: Line: 1265,  {TCP/IP Prs.command}: alert_incar
+[14:57:16] EasyOnHomeInfo.pas: Line: 1302,  입차 통보 :401 (Inneer Exception Error)
+[14:57:23] 홈넷전송가능 LPR: 73
+[14:57:23] 세대통보 출차 전송 60하8065
+[14:57:23] EasyOnHomeInfo.pas: Line: 1560,  >>> Homeinfo_proc_EasyOn(,25008,1,1,60하8065,세대포인트)
+[14:57:23] EasyOnHomeInfo.pas: Line: 1720,  Send json..
+[14:57:23] EasyOnHomeInfo.pas: Line: 259,  {"command":"sync_assign","data":{"list":[{"park_no":"1","dong":"1","ho":"1","type":"MINUTE","enable_point":"10000","used_point":"346","acp_date":"20210401","exp_date":"20210430"}]}} [Len:181]
+[14:57:23] EasyOnHomeInfo.pas: Line: 1736,  <<< Homeinfo_proc_EasyOn(..)

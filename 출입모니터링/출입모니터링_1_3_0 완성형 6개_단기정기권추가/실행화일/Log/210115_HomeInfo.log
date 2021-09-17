@@ -1,0 +1,27 @@
+[14:58:28] 
+==========================================
+[14:58:28] Program Start! (Ver_1.3.3.51)
+[14:58:29] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[14:59:09] 
+==========================================
+[14:59:09] Program Start! (Ver_1.3.3.51)
+[14:59:09] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[14:59:09] <스마트빌리지> 소켓객체 생성완료
+[14:59:09] 스마트빌리지 사용준비 완료
+[14:59:09] Main.pas: Line: 22194, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:59:09] EasyOnHomeInfo.pas: Line: 1731,  이지온 소켓생성 성공!
+[14:59:09] EasyOnHomeInfo.pas: Line: 1750,  Open IP:, Port:25008
+[14:59:15] 홈넷전송가능 LPR: 73
+[14:59:15] 세대통보 출차 전송 36마0674
+[14:59:15] EasyOnHomeInfo.pas: Line: 1558,  >>> Homeinfo_proc_EasyOn(,25008,1,1,36마0674,출차)
+[14:59:15] EasyOnHomeInfo.pas: Line: 1681,  Send json..
+[14:59:15] EasyOnHomeInfo.pas: Line: 1687,  <<< Homeinfo_proc_EasyOn(..)
+[14:59:42] 홈넷전송가능 LPR: 71
+[14:59:42] EasyOnHomeInfo.pas: Line: 1558,  >>> Homeinfo_proc_EasyOn(,25008,1,1,36마0674,입차)
+[14:59:42] EasyOnHomeInfo.pas: Line: 1681,  Send json..
+[14:59:43] EasyOnHomeInfo.pas: Line: 1687,  <<< Homeinfo_proc_EasyOn(..)
+[14:59:56] 홈넷전송가능 LPR: 73
+[14:59:56] 세대통보 출차 전송 36마0674
+[14:59:56] EasyOnHomeInfo.pas: Line: 1558,  >>> Homeinfo_proc_EasyOn(,25008,1,1,36마0674,출차)
+[14:59:56] EasyOnHomeInfo.pas: Line: 1681,  Send json..
+[14:59:56] EasyOnHomeInfo.pas: Line: 1687,  <<< Homeinfo_proc_EasyOn(..)

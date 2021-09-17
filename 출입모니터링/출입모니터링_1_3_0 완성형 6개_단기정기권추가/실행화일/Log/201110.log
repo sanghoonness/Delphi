@@ -1,0 +1,1146 @@
+**************************************************************
+[13:35:21] Program Start!
+[13:35:21] È¨³Ý¿¹¿ÜLPR:
+[13:35:21] [DBÀúÀå ¸ðµå]
+[13:35:21] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[13:35:22] ºñ·Î±×ÀÎ
+[13:35:22] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[13:35:22] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[13:35:22] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[13:35:22] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[13:35:22] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[13:35:16] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[13:35:16] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[13:35:16] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[13:35:16] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[13:35:16] csInLpr1 Á¢¼Ó¼º°ø
+[13:35:18] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[13:35:28] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[13:36:51] Program Close
+**************************************************************
+[13:37:04] Program Start!
+[13:37:04] È¨³Ý¿¹¿ÜLPR:
+[13:37:04] [DBÀúÀå ¸ðµå]
+[13:37:04] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[13:37:04] ºñ·Î±×ÀÎ
+[13:37:04] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[13:37:04] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[13:37:04] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[13:37:04] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[13:37:04] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[13:37:05] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[13:37:05] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[13:37:05] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[13:37:11] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[13:37:11] csInLpr1 Á¢¼Ó¼º°ø
+[13:41:25] SocketError > ErrorNo: [10049] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [ÄÁ³ØÆ® ÇÏ·Á´Â ÁÖ¼Ò°¡ Àß¸ø]
+[13:41:27] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[13:41:37] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[13:41:47] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[13:41:57] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[13:42:07] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[14:23:35] Program Close
+**************************************************************
+[14:25:48] Program Start!
+[14:25:48] È¨³Ý¿¹¿ÜLPR:
+[14:25:48] [DBÀúÀå ¸ðµå]
+[14:25:48] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[14:25:48] ºñ·Î±×ÀÎ
+[14:25:48] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:25:48] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:25:48] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[14:25:48] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:25:48] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:25:49] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:25:49] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:25:49] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[14:25:57] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[14:25:57] csInLpr1 Á¢¼Ó¼º°ø
+**************************************************************
+[14:29:29] Program Start!
+[14:29:30] È¨³Ý¿¹¿ÜLPR:
+[14:29:30] [DBÀúÀå ¸ðµå]
+[14:29:30] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[14:29:30] ºñ·Î±×ÀÎ
+[14:29:30] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:29:30] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:29:30] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[14:29:30] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:29:30] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:29:30] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:29:30] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:29:30] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[14:29:36] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[14:29:36] csInLpr1 Á¢¼Ó¼º°ø
+[14:29:52] Program Close
+**************************************************************
+[14:30:11] Program Start!
+[14:30:11] Main.pas: Line: 19889, ???è©?¿h?²Š­ ‹Ã¤Ï?ª¿–£º² C?…¬?????Ÿù???ðÍ?”œ KÁÒ»è??á¨???i
+[14:30:11] È¨³Ý¿¹¿ÜLPR:
+[14:30:11] [DBÀúÀå ¸ðµå]
+[14:30:12] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[14:30:12] ºñ·Î±×ÀÎ
+[14:30:12] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:30:12] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:30:12] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[14:30:12] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:30:13] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:30:14] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:30:14] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[14:30:17] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[14:30:17] Main.pas: Line: 19651, E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[14:30:17] Main.pas: Line: 19660, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[14:30:17] Main.pas: Line: 19668, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:30:17] csInLpr1 Á¢¼Ó¼º°ø
+**************************************************************
+[14:33:28] Program Start!
+[14:33:28] Main.pas: Line: 19890, ???è©?¿h?²Š­ ‹Ã¤Ï?ª¿–£º² C?…¬?????Ÿù???ðÍ?”œ KÁÒ»è??á¨???i
+[14:33:28] È¨³Ý¿¹¿ÜLPR:
+[14:33:28] [DBÀúÀå ¸ðµå]
+[14:33:28] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[14:33:28] ºñ·Î±×ÀÎ
+[14:33:29] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:33:29] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:33:29] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[14:33:29] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:33:29] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:33:29] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:33:29] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:33:29] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[14:33:31] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[14:33:31] Main.pas: Line: 19651, E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[14:33:31] Main.pas: Line: 19660, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[14:33:31] Main.pas: Line: 19668, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:33:32] csInLpr1 Á¢¼Ó¼º°ø
+[14:33:38] Program Close
+**************************************************************
+[14:34:23] Program Start!
+[14:34:23] Main.pas: Line: 19890, ???è©?¿h?²Š­ ‹Ã¤Ï?ª¿–£º² C?…¬?????Ÿù???ðÍ?”œ KÁÒ»è??á¨???i
+[14:34:23] È¨³Ý¿¹¿ÜLPR:
+[14:34:23] [DBÀúÀå ¸ðµå]
+[14:34:23] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[14:34:23] ºñ·Î±×ÀÎ
+[14:34:23] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:34:23] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:34:23] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[14:34:23] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:34:23] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:34:23] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:34:23] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:34:23] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[14:34:26] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[14:34:26] Main.pas: Line: 19651, E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[14:34:26] Main.pas: Line: 19660, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[14:34:26] Main.pas: Line: 19668, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:34:26] csInLpr1 Á¢¼Ó¼º°ø
+[14:34:33] Program Close
+**************************************************************
+[14:35:08] Program Start!
+[14:35:08] E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[14:35:08] È¨³Ý¿¹¿ÜLPR:
+[14:35:08] [DBÀúÀå ¸ðµå]
+[14:35:08] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[14:35:08] ºñ·Î±×ÀÎ
+[14:35:08] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:35:09] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:35:09] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[14:35:09] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:35:09] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:35:10] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:35:10] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:35:10] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[14:35:12] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[14:35:12] Main.pas: Line: 19651, E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[14:35:12] Main.pas: Line: 19660, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[14:35:12] Main.pas: Line: 19668, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:35:12] csInLpr1 Á¢¼Ó¼º°ø
+[14:35:27] Program Close
+**************************************************************
+[14:35:56] Program Start!
+[14:35:56] Main.pas: Line: 19891,
+[14:35:56] E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[14:35:57] È¨³Ý¿¹¿ÜLPR:
+[14:35:57] [DBÀúÀå ¸ðµå]
+[14:35:57] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[14:35:57] ºñ·Î±×ÀÎ
+[14:35:57] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:35:57] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:35:57] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[14:35:57] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:35:57] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:35:57] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:35:57] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:35:57] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[14:36:11] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[14:36:11] Main.pas: Line: 19651, E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[14:36:11] Main.pas: Line: 19660, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[14:36:11] Main.pas: Line: 19668, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:36:12] 10.22.30.20:2100 ¼ÒÄÏ ¿¬°á²÷±è = 10049
+[14:36:27] csInLpr1 Á¢¼Ó¼º°ø
+[14:36:34] Program Close
+**************************************************************
+[14:37:10] Program Start!
+[14:37:10] È¨³Ý¿¹¿ÜLPR:
+[14:37:10] [DBÀúÀå ¸ðµå]
+[14:37:10] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[14:37:10] ºñ·Î±×ÀÎ
+[14:37:10] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:37:10] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:37:10] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[14:37:10] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:37:10] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:37:11] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:37:11] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:37:11] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[14:37:21] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[14:37:21] Main.pas: Line: 19651, E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[14:37:21] Main.pas: Line: 19660, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[14:37:21] Main.pas: Line: 19668, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:37:22] csInLpr1 Á¢¼Ó¼º°ø
+[14:37:33] Program Close
+**************************************************************
+[14:39:56] Program Start!
+[14:39:56] È¨³Ý¿¹¿ÜLPR:
+[14:39:57] [DBÀúÀå ¸ðµå]
+[14:39:57] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[14:39:57] ºñ·Î±×ÀÎ
+[14:39:57] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:39:57] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:39:57] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[14:39:57] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:39:57] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:39:58] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:39:58] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:40:01] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[14:40:01] Main.pas: Line: 19654, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[14:40:01] Main.pas: Line: 19663, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[14:40:01] Main.pas: Line: 19671, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:40:02] csInLpr1 Á¢¼Ó¼º°ø
+[14:40:32] Program Close
+**************************************************************
+[14:45:03] Program Start!
+[14:45:03] È¨³Ý¿¹¿ÜLPR:
+[14:45:03] [DBÀúÀå ¸ðµå]
+[14:45:03] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[14:45:03] ºñ·Î±×ÀÎ
+[14:45:03] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:45:03] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:45:03] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[14:45:03] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:45:03] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:45:04] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:45:04] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:45:04] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[14:45:06] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[14:45:06] Main.pas: Line: 19654, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[14:45:06] Main.pas: Line: 19663, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[14:45:06] Main.pas: Line: 19671, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:45:06] Main.pas: Line: 19678, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[14:45:06] Main.pas: Line: 19685, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[14:45:06] Main.pas: Line: 19691, [ini]>> Home, IP(127.0.0.1),Port(5005)
+[14:45:07] csInLpr1 Á¢¼Ó¼º°ø
+[14:45:39] Program Close
+**************************************************************
+[14:59:31] Program Start!
+[14:59:31] Main.pas: Line: 19905, ???¤¥ 0
+[14:59:31] È¨³Ý¿¹¿ÜLPR:
+[14:59:31] [DBÀúÀå ¸ðµå]
+[14:59:31] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[14:59:32] ºñ·Î±×ÀÎ
+[14:59:32] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:59:32] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[14:59:32] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[14:59:32] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:59:32] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[14:59:32] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:59:32] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[14:59:32] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[14:59:47] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[14:59:47] Main.pas: Line: 19655, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[14:59:47] Main.pas: Line: 19664, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[14:59:47] Main.pas: Line: 19672, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:59:48] Main.pas: Line: 19679, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[14:59:48] Main.pas: Line: 19686, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[14:59:48] Main.pas: Line: 19692, [ini]>> Home, IP(127.0.0.1),Port(5005)
+[14:59:48] 10.22.30.20:2100 ¼ÒÄÏ ¿¬°á²÷±è = 10049
+[14:59:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[14:59:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[14:59:54] Program Close
+**************************************************************
+[15:00:54] Program Start!
+[15:00:54] 1.3.3.51
+[15:00:54] È¨³Ý¿¹¿ÜLPR:
+[15:00:54] [DBÀúÀå ¸ðµå]
+[15:00:54] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[15:00:54] ºñ·Î±×ÀÎ
+[15:00:54] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:00:54] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:00:54] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[15:00:54] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:00:54] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:00:55] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:00:55] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[15:00:57] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[15:00:57] Main.pas: Line: 19655, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[15:00:57] Main.pas: Line: 19664, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[15:00:57] Main.pas: Line: 19672, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[15:00:57] Main.pas: Line: 19679, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[15:00:57] Main.pas: Line: 19686, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[15:00:57] Main.pas: Line: 19692, [ini]>> Home, IP(127.0.0.1),Port(5005)
+[15:00:57] csInLpr1 Á¢¼Ó¼º°ø
+[15:00:59] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:01:06] Program Close
+**************************************************************
+[15:03:42] Program Start! (Ver_1.3.3.51)
+[15:03:42] È¨³Ý¿¹¿ÜLPR:
+[15:03:42] [DBÀúÀå ¸ðµå]
+[15:03:42] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[15:03:43] ºñ·Î±×ÀÎ
+[15:03:43] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:03:43] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:03:43] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[15:03:43] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:03:43] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:03:43] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:03:43] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:03:43] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[15:03:49] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[15:03:49] Main.pas: Line: 19655, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[15:03:49] Main.pas: Line: 19664, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[15:03:49] Main.pas: Line: 19672, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[15:03:50] Main.pas: Line: 19679, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[15:03:50] Main.pas: Line: 19686, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[15:03:50] Main.pas: Line: 19692, [ini]>> Home, IP(127.0.0.1),Port(5005)
+[15:03:50] csInLpr1 Á¢¼Ó¼º°ø
+[15:03:52] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:03:55] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:04:05] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:04:15] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:04:25] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:04:35] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:04:40] Program Close
+**************************************************************
+[15:05:57] 
+==========================================
+**************************************************************
+[15:05:57] Program Start! (Ver_1.3.3.51)
+[15:05:57] È¨³Ý¿¹¿ÜLPR:
+[15:05:57] [DBÀúÀå ¸ðµå]
+[15:05:57] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[15:05:58] ºñ·Î±×ÀÎ
+[15:05:58] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:05:58] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:05:58] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[15:05:58] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:05:58] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:05:59] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:05:59] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:05:59] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[15:06:33] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[15:06:33] Main.pas: Line: 19655, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[15:06:33] Main.pas: Line: 19664, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[15:06:33] Main.pas: Line: 19672, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[15:06:33] Main.pas: Line: 19679, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[15:06:33] Main.pas: Line: 19686, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[15:06:33] Main.pas: Line: 19692, [ini]>> Home, IP(127.0.0.1),Port(5005)
+[15:06:33] 10.22.30.20:2100 ¼ÒÄÏ ¿¬°á²÷±è = 10049
+[15:06:35] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:06:35] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+**************************************************************
+[15:07:01] Program Start! (Ver_1.3.3.51)
+[15:07:01] È¨³Ý¿¹¿ÜLPR:
+[15:07:01] [DBÀúÀå ¸ðµå]
+[15:07:01] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[15:07:02] ºñ·Î±×ÀÎ
+[15:07:02] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:07:02] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:07:02] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[15:07:02] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:07:02] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:07:02] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:07:02] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:07:02] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[15:07:32] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[15:07:33] Main.pas: Line: 19655, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[15:07:33] Main.pas: Line: 19664, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[15:07:33] Main.pas: Line: 19672, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[15:07:33] Main.pas: Line: 19679, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[15:07:33] Main.pas: Line: 19686, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[15:07:33] Main.pas: Line: 19692, [ini]>> Home, IP(127.0.0.1),Port(5005)
+[15:07:33] 10.22.30.20:2100 ¼ÒÄÏ ¿¬°á²÷±è = 10049
+[15:07:35] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:07:35] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:07:45] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:07:48] csInLpr1 Á¢¼Ó¼º°ø
+[15:07:55] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:08:05] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:08:15] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:08:25] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:08:35] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:08:45] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:08:55] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:09:05] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:09:15] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:09:25] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:09:35] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:09:38] Program Close
+**************************************************************
+[15:13:44] Program Start! (Ver_1.3.3.51)
+[15:13:44] È¨³Ý¿¹¿ÜLPR:
+[15:13:44] [DBÀúÀå ¸ðµå]
+[15:13:45] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[15:13:45] ºñ·Î±×ÀÎ
+[15:13:45] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:13:45] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:13:45] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[15:13:45] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:13:45] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:13:46] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:13:46] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:13:46] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[15:13:48] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[15:13:48] Main.pas: Line: 19655, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[15:13:48] Main.pas: Line: 19664, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[15:13:48] Main.pas: Line: 19672, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[15:13:48] Main.pas: Line: 19679, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[15:13:48] Main.pas: Line: 19686, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[15:13:48] Main.pas: Line: 19703, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[15:13:49] csInLpr1 Á¢¼Ó¼º°ø
+[15:13:51] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:13:58] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:14:08] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:14:09] Program Close
+**************************************************************
+[15:20:31] Program Start! (Ver_1.3.3.51)
+[15:20:31] È¨³Ý¿¹¿ÜLPR:
+[15:20:31] [DBÀúÀå ¸ðµå]
+[15:20:31] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[15:20:32] ºñ·Î±×ÀÎ
+[15:20:32] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:20:32] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:20:32] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[15:20:32] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:20:32] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:20:32] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:20:32] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:20:32] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[15:20:35] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[15:20:35] Main.pas: Line: 19655, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[15:20:35] Main.pas: Line: 19664, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[15:20:35] Main.pas: Line: 19672, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[15:20:35] Main.pas: Line: 19679, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[15:20:35] Main.pas: Line: 19686, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[15:20:35] Main.pas: Line: 19705, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[15:20:35] Main.pas: Line: 19708, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[15:20:35] Main.pas: Line: 19725, [ini]>> Â÷´Ü±âÁ¦¾î¿©ºÎ(1), Â÷´Ü±âÁ¦¾î(3)
+[15:20:36] csInLpr1 Á¢¼Ó¼º°ø
+[15:20:38] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:20:44] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:20:54] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:21:04] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:21:12] TfrmInDspSet.FormShow: Access violation at address 00FB8581 in module 'SC_IO.exe'. Read of address 00000000
+[15:21:14] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:21:24] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:21:34] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:21:44] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:21:54] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:22:04] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:22:11] [Àü±¤ÆÇ °íÁ¤¹®±¸] Access violation at address 010AB097 in module 'SC_IO.exe'. Read of address 00000000
+[15:22:15] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:22:25] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:22:35] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:22:48] TfrmInDspSet.FormShow: Access violation at address 00FB8581 in module 'SC_IO.exe'. Read of address 00000000
+[15:22:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:23:00] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:23:10] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:23:20] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:23:30] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:23:40] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:23:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:24:00] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:24:10] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:24:20] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:24:30] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:24:40] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:24:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:25:00] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:25:10] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:25:20] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:25:30] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:25:40] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:25:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:26:00] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:26:10] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:26:20] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:26:30] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:26:40] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:26:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:27:00] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:27:10] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:27:20] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:27:30] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:27:40] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:27:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:28:00] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:28:10] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:28:20] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:28:30] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:28:40] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:28:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:29:00] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:29:10] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:29:20] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:29:30] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:29:40] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:29:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:30:00] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:30:10] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:30:20] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:30:30] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:30:40] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:30:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:31:00] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:31:10] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:31:20] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:31:30] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:31:40] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:31:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:32:00] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:32:10] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:32:20] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:32:30] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:32:40] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:32:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:33:00] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:33:10] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:33:20] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:33:30] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:33:40] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:33:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:34:00] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:34:10] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:34:20] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:34:30] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:34:40] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:34:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:35:00] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:35:10] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:35:20] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:35:30] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:35:40] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:35:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:36:00] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:36:10] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:36:20] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:36:30] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:36:40] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:36:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:37:00] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:37:10] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:37:20] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:37:30] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:37:40] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:37:51] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:38:01] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:38:11] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:38:21] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:38:31] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:38:41] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:38:51] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:39:01] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:39:11] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:39:21] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:39:31] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:39:41] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:39:51] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:40:01] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:40:11] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:40:21] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:40:31] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:40:41] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:40:51] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:41:01] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:41:11] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:41:21] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:41:31] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:41:41] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:41:51] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:42:01] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:42:11] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:42:21] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:42:31] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+**************************************************************
+[15:43:00] Program Start! (Ver_1.3.3.51)
+[15:43:00] È¨³Ý¿¹¿ÜLPR:
+[15:43:00] [DBÀúÀå ¸ðµå]
+[15:43:00] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[15:43:01] ºñ·Î±×ÀÎ
+[15:43:01] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:43:01] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:43:01] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[15:43:01] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:43:01] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:43:01] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:43:01] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:43:01] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[15:43:02] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[15:43:02] Main.pas: Line: 19655, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[15:43:02] Main.pas: Line: 19664, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[15:43:02] Main.pas: Line: 19672, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[15:43:02] Main.pas: Line: 19679, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[15:43:02] Main.pas: Line: 19686, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[15:43:02] Main.pas: Line: 19705, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[15:43:02] Main.pas: Line: 19708, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[15:43:02] Main.pas: Line: 19725, [ini]>> Â÷´Ü±âÁ¦¾î¿©ºÎ(1), Â÷´Ü±âÁ¦¾î(3)
+[15:43:03] csInLpr1 Á¢¼Ó¼º°ø
+[15:43:05] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:43:13] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:43:38] InDspSet.pas: Line: 586, Access violation at address 00FB8581 in module 'SC_IO.exe'. Read of address 00000000
+[15:43:40] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:43:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+**************************************************************
+[15:46:53] Program Start! (Ver_1.3.3.51)
+[15:46:53] È¨³Ý¿¹¿ÜLPR:
+[15:46:53] [DBÀúÀå ¸ðµå]
+[15:46:53] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[15:46:53] ºñ·Î±×ÀÎ
+[15:46:54] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:46:54] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:46:54] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[15:46:54] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:46:54] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:46:55] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:46:55] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[15:46:57] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[15:46:57] Main.pas: Line: 19655, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[15:46:57] Main.pas: Line: 19664, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[15:46:57] Main.pas: Line: 19672, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[15:46:57] Main.pas: Line: 19679, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[15:46:57] Main.pas: Line: 19686, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[15:46:57] Main.pas: Line: 19705, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[15:46:57] Main.pas: Line: 19708, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[15:46:57] Main.pas: Line: 19725, [ini]>> Â÷´Ü±âÁ¦¾î¿©ºÎ(1), Â÷´Ü±âÁ¦¾î(3)
+[15:46:57] csInLpr1 Á¢¼Ó¼º°ø
+[15:46:59] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+**************************************************************
+[15:48:22] Program Start! (Ver_1.3.3.51)
+[15:48:22] È¨³Ý¿¹¿ÜLPR:
+[15:48:22] [DBÀúÀå ¸ðµå]
+[15:48:22] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[15:48:22] ºñ·Î±×ÀÎ
+[15:48:22] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:48:22] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:48:22] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[15:48:22] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:48:22] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:48:22] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:48:22] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:48:22] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[15:48:24] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[15:48:24] Main.pas: Line: 19655, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[15:48:25] Main.pas: Line: 19664, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[15:48:25] Main.pas: Line: 19672, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[15:48:25] Main.pas: Line: 19679, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[15:48:25] Main.pas: Line: 19686, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[15:48:25] Main.pas: Line: 19705, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[15:48:25] Main.pas: Line: 19708, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[15:48:25] Main.pas: Line: 19725, [ini]>> Â÷´Ü±âÁ¦¾î¿©ºÎ(1), Â÷´Ü±âÁ¦¾î(3)
+[15:48:25] csInLpr1 Á¢¼Ó¼º°ø
+[15:48:27] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:48:52] InDspSet.pas: Line: 598, Access violation at address 00FB8581 in module 'SC_IO.exe'. Read of address 00000000
+[15:48:54] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:49:01] Program Close
+**************************************************************
+[15:51:12] Program Start! (Ver_1.3.3.51)
+[15:51:12] È¨³Ý¿¹¿ÜLPR:
+[15:51:12] [DBÀúÀå ¸ðµå]
+[15:51:12] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[15:51:13] ºñ·Î±×ÀÎ
+[15:51:13] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:51:13] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[15:51:13] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[15:51:13] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:51:13] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[15:51:14] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:51:14] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[15:51:14] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[15:51:17] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[15:51:17] Main.pas: Line: 19655, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[15:51:17] Main.pas: Line: 19664, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[15:51:17] Main.pas: Line: 19672, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[15:51:17] Main.pas: Line: 19679, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[15:51:17] Main.pas: Line: 19686, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[15:51:17] Main.pas: Line: 19705, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[15:51:17] Main.pas: Line: 19708, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[15:51:17] Main.pas: Line: 19725, [ini]>> Â÷´Ü±âÁ¦¾î¿©ºÎ(1), Â÷´Ü±âÁ¦¾î(3)
+[15:51:18] csInLpr1 Á¢¼Ó¼º°ø
+[15:51:20] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:51:46] InDspSet.pas: Line: 601, Access violation at address 00FB8581 in module 'SC_IO.exe'. Read of address 00000000
+[15:51:48] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:51:58] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:52:08] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:52:18] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:52:28] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:52:38] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:52:48] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:52:58] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:53:08] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:53:18] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:53:28] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:53:38] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:53:48] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:53:58] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:54:08] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:54:18] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:54:28] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:54:38] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:54:48] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:54:58] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:55:08] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:55:18] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:55:28] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:55:38] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:55:48] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:55:58] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:56:08] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:56:18] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:56:28] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:56:38] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:56:48] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:56:58] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:57:08] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:57:18] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:57:28] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:57:38] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:57:48] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:57:58] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:58:08] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:58:18] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:58:28] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:58:38] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:58:48] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:58:58] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:59:08] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:59:18] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[15:59:28] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+**************************************************************
+[16:01:14] Program Start! (Ver_1.3.3.51)
+[16:01:14] È¨³Ý¿¹¿ÜLPR:
+[16:01:14] [DBÀúÀå ¸ðµå]
+[16:01:14] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[16:01:15] ºñ·Î±×ÀÎ
+[16:01:15] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[16:01:15] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[16:01:15] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[16:01:15] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[16:01:15] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[16:01:15] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[16:01:15] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[16:01:15] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[16:01:17] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[16:01:17] Main.pas: Line: 19655, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[16:01:17] Main.pas: Line: 19665, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[16:01:17] Main.pas: Line: 19673, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[16:01:17] Main.pas: Line: 19680, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[16:01:17] Main.pas: Line: 19687, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[16:01:17] Main.pas: Line: 19706, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[16:01:17] Main.pas: Line: 19709, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[16:01:17] Main.pas: Line: 19726, [ini]>> Â÷´Ü±âÁ¦¾î¿©ºÎ(1), Â÷´Ü±âÁ¦¾î(3)
+[16:01:17] csInLpr1 Á¢¼Ó¼º°ø
+[16:01:19] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[16:02:03] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[16:02:13] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[16:02:23] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[16:02:25] Program Close
+**************************************************************
+[16:06:33] Program Start! (Ver_1.3.3.51)
+[16:06:33] È¨³Ý¿¹¿ÜLPR:
+[16:06:33] [DBÀúÀå ¸ðµå]
+[16:06:33] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[16:06:34] ºñ·Î±×ÀÎ
+[16:06:34] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[16:06:34] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[16:06:34] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[16:06:34] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[16:06:34] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[16:06:34] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[16:06:34] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[16:06:34] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[16:06:36] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[16:06:36] Main.pas: Line: 19655, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[16:06:36] Main.pas: Line: 19665, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[16:06:36] Main.pas: Line: 19673, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[16:06:36] Main.pas: Line: 19680, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[16:06:36] Main.pas: Line: 19687, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[16:06:36] Main.pas: Line: 19706, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[16:06:36] Main.pas: Line: 19709, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[16:06:36] Main.pas: Line: 19726, [ini]>> Â÷´Ü±âÁ¦¾î¿©ºÎ(1), Â÷´Ü±âÁ¦¾î(3)
+[16:06:36] csInLpr1 Á¢¼Ó¼º°ø
+[16:06:38] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[16:06:47] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[16:06:57] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[16:07:00] Program Close
+**************************************************************
+[16:09:13] Program Start! (Ver_1.3.3.51)
+[16:09:13] È¨³Ý¿¹¿ÜLPR:
+[16:09:13] [DBÀúÀå ¸ðµå]
+[16:09:13] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[16:09:14] ºñ·Î±×ÀÎ
+[16:09:14] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[16:09:14] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[16:09:14] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[16:09:14] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[16:09:14] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[16:09:15] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[16:09:15] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[16:09:15] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[16:09:26] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[16:09:26] Main.pas: Line: 19655, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[16:09:26] Main.pas: Line: 19665, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[16:09:26] Main.pas: Line: 19673, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[16:09:26] Main.pas: Line: 19680, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[16:09:26] Main.pas: Line: 19687, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[16:09:26] Main.pas: Line: 19706, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[16:09:26] Main.pas: Line: 19709, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[16:09:26] Main.pas: Line: 19726, [ini]>> Â÷´Ü±âÁ¦¾î¿©ºÎ(1), Â÷´Ü±âÁ¦¾î(3)
+[16:09:26] csInLpr1 Á¢¼Ó¼º°ø
+[16:09:28] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[16:09:28] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[16:09:29] Program Close
+**************************************************************
+[16:29:23] Program Start! (Ver_1.3.3.51)
+[16:29:23] È¨³Ý¿¹¿ÜLPR:
+[16:29:23] [DBÀúÀå ¸ðµå]
+[16:29:24] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[16:29:24] ºñ·Î±×ÀÎ
+[16:29:24] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[16:29:24] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[16:29:24] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[16:29:24] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[16:29:24] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[16:29:24] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[16:29:25] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[16:29:25] Main.pas: Line: 19703, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[16:29:25] Main.pas: Line: 19713, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[16:29:25] Main.pas: Line: 19721, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[16:29:25] Main.pas: Line: 19728, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[16:29:26] Main.pas: Line: 19735, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[16:29:26] Main.pas: Line: 19754, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[16:29:26] Main.pas: Line: 19757, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[16:29:26] Main.pas: Line: 19774, [ini]>> Â÷´Ü±âÁ¦¾î¿©ºÎ(1), Â÷´Ü±âÁ¦¾î(3)
+[16:29:26] csInLpr1 Á¢¼Ó¼º°ø
+**************************************************************
+[16:30:59] Program Start! (Ver_1.3.3.51)
+[16:30:59] È¨³Ý¿¹¿ÜLPR:
+[16:30:59] [DBÀúÀå ¸ðµå]
+[16:30:59] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[16:30:59] ºñ·Î±×ÀÎ
+[16:30:59] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[16:30:59] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[16:30:59] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[16:30:59] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[16:30:59] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[16:31:00] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[16:31:00] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[16:31:00] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[16:31:07] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[16:31:07] Main.pas: Line: 19718, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[16:31:07] Main.pas: Line: 19728, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[16:31:07] Main.pas: Line: 19736, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[16:31:07] Main.pas: Line: 19743, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[16:31:07] Main.pas: Line: 19750, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[16:31:07] Main.pas: Line: 19769, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[16:31:07] Main.pas: Line: 19772, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[16:31:07] Main.pas: Line: 19789, [ini]>> Â÷´Ü±âÁ¦¾î¿©ºÎ(1), Â÷´Ü±âÁ¦¾î(3)
+[16:31:08] csInLpr1 Á¢¼Ó¼º°ø
+[16:31:10] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[16:31:12] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[16:31:16] Program Close
+**************************************************************
+[16:32:16] Program Start! (Ver_1.3.3.51)
+[16:32:16] È¨³Ý¿¹¿ÜLPR:
+[16:32:16] [DBÀúÀå ¸ðµå]
+[16:32:17] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[16:32:17] ºñ·Î±×ÀÎ
+[16:32:17] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[16:32:17] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[16:32:17] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[16:32:17] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[16:32:17] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[16:32:18] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[16:32:18] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[16:32:47] 73¹ø LPR¿¡ ¿¬°áµÈ ¹æ¹®Áõ(½Ã¸®¾óÅ¸ÀÔ) ¿ÀÇÂ¿¡·¯!
+[16:32:47] Main.pas: Line: 19717, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[16:32:47] Main.pas: Line: 19727, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[16:32:47] Main.pas: Line: 19735, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[16:32:47] Main.pas: Line: 19742, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[16:32:47] Main.pas: Line: 19749, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[16:32:47] Main.pas: Line: 19768, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[16:32:48] Main.pas: Line: 19771, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[16:32:48] Main.pas: Line: 19788, [ini]>> Â÷´Ü±âÁ¦¾î¿©ºÎ(1), Â÷´Ü±âÁ¦¾î(3)
+[16:32:48] 10.22.30.20:2100 ¼ÒÄÏ ¿¬°á²÷±è = 10049
+[16:32:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[16:32:50] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[16:32:51] Program Close
+**************************************************************
+[16:56:37] Program Start! (Ver_1.3.3.51)
+[16:56:37] È¨³Ý¿¹¿ÜLPR:
+[16:56:37] [DBÀúÀå ¸ðµå]
+[16:56:37] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[16:56:38] ºñ·Î±×ÀÎ
+[16:56:38] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[16:56:38] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[16:56:38] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[16:56:38] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[16:56:38] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[16:56:38] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[16:56:38] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+**************************************************************
+[16:57:44] Program Start! (Ver_1.3.3.51)
+[16:57:44] È¨³Ý¿¹¿ÜLPR:
+[16:57:44] [DBÀúÀå ¸ðµå]
+[16:57:44] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[16:57:45] ºñ·Î±×ÀÎ
+[16:57:45] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[16:57:45] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[16:57:45] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[16:57:45] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[16:57:45] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[16:57:45] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[16:57:45] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[16:57:49] Main.pas: Line: 19719, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[16:57:49] Main.pas: Line: 19729, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[16:57:49] Main.pas: Line: 19737, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[16:57:49] Main.pas: Line: 19744, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[16:57:49] Main.pas: Line: 19751, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[16:57:49] Main.pas: Line: 19770, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[16:57:49] Main.pas: Line: 19773, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[16:57:49] Main.pas: Line: 19790, [ini]>> Â÷´Ü±âÁ¦¾î¿©ºÎ(1), Â÷´Ü±âÁ¦¾î(3)
+[16:57:50] csInLpr1 Á¢¼Ó¼º°ø
+[16:57:52] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[16:57:53] Program Close
+**************************************************************
+[17:00:05] Program Start! (Ver_1.3.3.51)
+[17:00:05] È¨³Ý¿¹¿ÜLPR:
+[17:00:05] [DBÀúÀå ¸ðµå]
+[17:00:05] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[17:00:05] ºñ·Î±×ÀÎ
+[17:00:05] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[17:00:05] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[17:00:05] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[17:00:05] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[17:00:05] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[17:00:06] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[17:00:06] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[17:00:06] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[17:00:06] Main.pas: Line: 21715, ????›äƒÞ??ƒç?”c”ðžb—ž?·Þ?²œ?•‰”÷µàŠÂ????ðÍ?”œ KÁÒ»è??á¨???i?íÝ??¢Ô??¤Ï
+[17:00:06] Main.pas: Line: 19719, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[17:00:06] Main.pas: Line: 19729, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[17:00:06] Main.pas: Line: 19737, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[17:00:06] Main.pas: Line: 19744, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[17:00:06] Main.pas: Line: 19751, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[17:00:06] Main.pas: Line: 19770, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[17:00:06] Main.pas: Line: 19773, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[17:00:06] Main.pas: Line: 19790, [ini]>> Â÷´Ü±âÁ¦¾î¿©ºÎ(1), Â÷´Ü±âÁ¦¾î(3)
+[17:00:07] csInLpr1 Á¢¼Ó¼º°ø
+[17:00:09] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:00:18] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:00:24] Program Close
+**************************************************************
+[17:01:08] Program Start! (Ver_1.3.3.51)
+[17:01:08] È¨³Ý¿¹¿ÜLPR:
+[17:01:08] [DBÀúÀå ¸ðµå]
+[17:01:08] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[17:01:09] ºñ·Î±×ÀÎ
+[17:01:09] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[17:01:09] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[17:01:09] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[17:01:09] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[17:01:09] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[17:01:10] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[17:01:10] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[17:01:10] >> COM1 ½Ã¸®¾óÆ÷Æ®°¡ ½Ã½ºÅÛ¿¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.
+[17:01:10] csInLpr1 Á¢¼Ó¼º°ø
+[17:01:12] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:01:22] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:01:32] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:01:42] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:01:52] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:02:02] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:02:12] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:02:22] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:02:32] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:02:42] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:02:52] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:03:02] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:03:12] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:03:22] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:03:32] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:03:42] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:03:52] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:04:02] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:04:12] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:04:22] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:04:32] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:04:42] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:04:52] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:05:02] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:05:12] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:05:22] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:05:32] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:05:42] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:05:52] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:06:02] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:06:12] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:06:22] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:06:32] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:06:42] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:06:52] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:07:02] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:07:12] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:07:22] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:07:32] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:07:42] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:07:52] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:08:02] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:08:12] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:08:22] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:08:32] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:08:42] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:08:52] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:09:02] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:09:22] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:09:32] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:09:42] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:09:52] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:10:02] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:10:12] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:10:22] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:10:32] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:10:42] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:10:52] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:11:02] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:11:12] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:11:22] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:11:32] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:11:42] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:11:52] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:12:02] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:12:12] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:12:22] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:12:27] Main.pas: Line: 19719, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[17:12:27] Main.pas: Line: 19729, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[17:12:27] Main.pas: Line: 19737, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[17:12:27] Main.pas: Line: 19744, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[17:12:27] Main.pas: Line: 19751, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[17:12:27] Main.pas: Line: 19770, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[17:12:27] Main.pas: Line: 19773, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[17:12:27] Main.pas: Line: 19790, [ini]>> Â÷´Ü±âÁ¦¾î¿©ºÎ(1), Â÷´Ü±âÁ¦¾î(3)
+[17:12:30] Program Close
+**************************************************************
+[17:13:44] Program Start! (Ver_1.3.3.51)
+[17:13:44] È¨³Ý¿¹¿ÜLPR:
+[17:13:44] [DBÀúÀå ¸ðµå]
+[17:13:44] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[17:13:44] ºñ·Î±×ÀÎ
+[17:13:44] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[17:13:44] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[17:13:44] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[17:13:44] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[17:13:44] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[17:13:44] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[17:13:44] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[17:13:44] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[17:13:44] >>¼³Á¤µÈ COM1 ½Ã¸®¾óÆ÷Æ®°¡ ½Ã½ºÅÛ¿¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.
+[17:13:44] csInLpr1 Á¢¼Ó¼º°ø
+[17:13:46] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:13:56] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:14:01] Main.pas: Line: 19719, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[17:14:01] Main.pas: Line: 19729, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[17:14:01] Main.pas: Line: 19737, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[17:14:01] Main.pas: Line: 19744, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[17:14:01] Main.pas: Line: 19751, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[17:14:01] Main.pas: Line: 19770, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[17:14:01] Main.pas: Line: 19773, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[17:14:01] Main.pas: Line: 19790, [ini]>> Â÷´Ü±âÁ¦¾î¿©ºÎ(1), Â÷´Ü±âÁ¦¾î(3)
+[17:14:04] Program Close
+**************************************************************
+[17:16:25] Program Start! (Ver_1.3.3.51)
+[17:16:25] È¨³Ý¿¹¿ÜLPR:
+[17:16:25] [DBÀúÀå ¸ðµå]
+[17:16:25] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[17:16:26] ºñ·Î±×ÀÎ
+[17:16:26] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[17:16:26] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[17:16:26] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[17:16:26] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[17:16:26] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[17:16:27] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[17:16:27] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[17:16:27] Main.pas: Line: 21717, >>¼³Á¤µÈ COM1 ½Ã¸®¾óÆ÷Æ®°¡ ½Ã½ºÅÛ¿¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.
+[17:16:27] csInLpr1 Á¢¼Ó¼º°ø
+[17:16:29] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:16:36] Main.pas: Line: 19719, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[17:16:36] Main.pas: Line: 19729, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[17:16:36] Main.pas: Line: 19737, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[17:16:36] Main.pas: Line: 19744, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[17:16:36] Main.pas: Line: 19751, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[17:16:36] Main.pas: Line: 19770, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[17:16:36] Main.pas: Line: 19773, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[17:16:36] Main.pas: Line: 19790, [ini]>> Â÷´Ü±âÁ¦¾î¿©ºÎ(1), Â÷´Ü±âÁ¦¾î(3)
+[17:16:39] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:16:39] Program Close
+**************************************************************
+[17:21:24] Program Start! (Ver_1.3.3.51)
+[17:21:24] È¨³Ý¿¹¿ÜLPR:
+[17:21:24] [DBÀúÀå ¸ðµå]
+[17:21:24] TfrmMain.btnModeClick: À¯ÀÎ¿î¿µ
+[17:21:24] ºñ·Î±×ÀÎ
+[17:21:25] ¼³Ä¡µÈ ÀÔ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[17:21:25] ¼³Ä¡µÈ Ãâ±¸º¸Á¶ LPRÀÌ ¾øÀ½!
+[17:21:25] ¼³Ä¡µÈ Ãâ±¸ LPRÀÌ ¾øÀ½!
+[17:21:25] ¼³Ä¡µÈ ÀÔ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[17:21:25] ¼³Ä¡µÈ Ãâ±¸Àü±¤ÆÇÀÌ ¾øÀ½!
+[17:21:25] LPRÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[17:21:25] Àü±¤ÆÇÀçÁ¢¼Ó ¾²·¹µå½ÃÀÛ
+[17:21:25] Á¤±â±Ç¿¬µ¿ ¾²·¹µå½ÃÀÛ
+[17:21:25] Main.pas: Line: 21717, >> ¼³Á¤µÈ COM1 ½Ã¸®¾óÆ÷Æ®°¡ ½Ã½ºÅÛ¿¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.
+[17:21:25] csInLpr1 Á¢¼Ó¼º°ø
+[17:21:27] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:21:28] Main.pas: Line: 19719, *INI¼³Á¤Á¤º¸.È®ÀÎ>> E:\WORK\ÃâÀÔ¸ð´ÏÅÍ¸µ_1_3_0 ¿Ï¼ºÇü 6°³_´Ü±âÁ¤±â±ÇÃß°¡ (now)\½ÇÇàÈ­ÀÏ\ParkSet.ini
+[17:21:28] Main.pas: Line: 19729, [ini]>> ÀÔÂ÷LPR¼ö(1), ÃâÂ÷LPR¼ö(0)
+[17:21:28] Main.pas: Line: 19737, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[17:21:28] Main.pas: Line: 19744, [ini]>> LPRÀÌ¹ÌÁöÆú´õ(C:\LPRImage)
+[17:21:28] Main.pas: Line: 19751, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[17:21:28] Main.pas: Line: 19770, [ini]>> Home, IP(127.0.0.1),Port(5005),È¨³Ý(14),Ver(1),ID(wiju),PW(wiju1234)
+[17:21:28] Main.pas: Line: 19773, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[17:21:28] Main.pas: Line: 19790, [ini]>> Â÷´Ü±âÁ¦¾î¿©ºÎ(1), Â÷´Ü±âÁ¦¾î(3)
+[17:21:39] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:21:49] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:21:59] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:22:09] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:22:19] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:22:29] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:22:39] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:22:49] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:22:59] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:23:09] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:23:19] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:23:29] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:23:39] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:23:49] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:23:59] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:24:09] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:24:19] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:24:29] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:24:39] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:24:49] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:24:59] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:25:09] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:25:19] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:25:29] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:25:39] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:25:49] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:25:59] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:26:09] SocketError > ErrorNo: [10061] Host: [10.22.33.1] Port: [42140] Name: [] Msg: [¼­¹ö°¡ Á×¾ú°Å³ª Å¬¶óÀÌ¾ðÆ®¿¡¼­ Á¢¼ÓÈ¯°æÀÌ Àß¸øµÇ¾úÀ»¶§ ³ªÅ¸³ª´Â Çö»ó]
+[17:26:12] Program Close

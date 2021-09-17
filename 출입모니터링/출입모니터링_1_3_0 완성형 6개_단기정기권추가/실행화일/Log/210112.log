@@ -1,0 +1,396 @@
+**************************************************************
+[14:51:06] Program Start! (Ver_1.3.3.51)
+[14:51:06] 홈넷예외LPR:
+[14:51:06] [DB저장 모드]
+[14:51:06] TfrmMain.btnModeClick: 유인운영
+[14:51:06] 비로그인
+[14:51:06] 설치된 입구보조 LPR이 없음!
+[14:51:06] 설치된 출구보조 LPR이 없음!
+[14:51:06] 설치된 출구 LPR이 없음!
+[14:51:06] 설치된 입구전광판이 없음!
+[14:51:06] 설치된 출구전광판이 없음!
+[14:51:06] LPR재접속 쓰레드시작
+[14:51:06] 전광판재접속 쓰레드시작
+[14:51:06] 정기권연동 쓰레드시작
+[14:51:06] Main.pas: Line: 20617, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[14:51:06] Main.pas: Line: 20627, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[14:51:06] Main.pas: Line: 20635, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:51:06] Main.pas: Line: 20642, [ini]>> LPR이미지폴더(C:\LPRImage)
+[14:51:06] Main.pas: Line: 20649, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[14:51:06] Main.pas: Line: 20668, [ini]>> Home, IP(127.0.0.1),Port(29500),홈넷(1),Ver(1),ID(wiju),PW(wiju1234)
+[14:51:06] Main.pas: Line: 20671, [ini]>> HomeNET, IP(),Port(25008)
+[14:51:06] Main.pas: Line: 20688, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[14:51:07] csInLpr1 접속성공
+[14:51:13] Program Close
+**************************************************************
+[14:51:26] Program Start! (Ver_1.3.3.51)
+[14:51:26] 홈넷예외LPR:
+[14:51:26] [DB저장 모드]
+[14:51:26] TfrmMain.btnModeClick: 유인운영
+[14:51:27] 비로그인
+[14:51:27] 설치된 입구보조 LPR이 없음!
+[14:51:27] 설치된 출구보조 LPR이 없음!
+[14:51:27] 설치된 출구 LPR이 없음!
+[14:51:27] 설치된 입구전광판이 없음!
+[14:51:27] 설치된 출구전광판이 없음!
+[14:51:29] Main.pas: Line: 22650, Could not bind socket. Address and port are already in use.
+[14:51:29] 정기권연동 쓰레드시작
+[14:51:29] Main.pas: Line: 20617, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[14:51:29] Main.pas: Line: 20627, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[14:51:29] Main.pas: Line: 20635, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:51:29] Main.pas: Line: 20642, [ini]>> LPR이미지폴더(C:\LPRImage)
+[14:51:29] Main.pas: Line: 20649, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[14:51:29] Main.pas: Line: 20668, [ini]>> Home, IP(127.0.0.1),Port(29500),홈넷(1),Ver(1),ID(wiju),PW(wiju1234)
+[14:51:29] Main.pas: Line: 20671, [ini]>> HomeNET, IP(),Port(25008)
+[14:51:29] Main.pas: Line: 20688, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[14:51:30] csInLpr1 접속성공
+[14:51:38] Program Close
+**************************************************************
+[14:52:10] Program Start! (Ver_1.3.3.51)
+[14:52:10] 홈넷예외LPR:
+[14:52:10] [DB저장 모드]
+[14:52:11] TfrmMain.btnModeClick: 유인운영
+[14:52:11] 비로그인
+[14:52:11] 설치된 입구보조 LPR이 없음!
+[14:52:11] 설치된 출구보조 LPR이 없음!
+[14:52:11] 설치된 출구 LPR이 없음!
+[14:52:11] 설치된 입구전광판이 없음!
+[14:52:11] 설치된 출구전광판이 없음!
+[14:52:15] Main.pas: Line: 22650, Could not bind socket. Address and port are already in use.
+[14:52:15] 정기권연동 쓰레드시작
+[14:52:15] Main.pas: Line: 20617, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[14:52:15] Main.pas: Line: 20627, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[14:52:15] Main.pas: Line: 20635, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:52:15] Main.pas: Line: 20642, [ini]>> LPR이미지폴더(C:\LPRImage)
+[14:52:15] Main.pas: Line: 20649, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[14:52:15] Main.pas: Line: 20668, [ini]>> Home, IP(127.0.0.1),Port(29500),홈넷(1),Ver(1),ID(wiju),PW(wiju1234)
+[14:52:15] Main.pas: Line: 20671, [ini]>> HomeNET, IP(),Port(25008)
+[14:52:15] Main.pas: Line: 20688, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[14:52:16] csInLpr1 접속성공
+[14:52:18] Program Close
+**************************************************************
+[14:54:54] Program Start! (Ver_1.3.3.51)
+[14:54:54] 홈넷예외LPR:
+[14:54:54] [DB저장 모드]
+[14:54:54] TfrmMain.btnModeClick: 유인운영
+[14:54:55] 비로그인
+[14:54:55] 설치된 입구보조 LPR이 없음!
+[14:54:55] 설치된 출구보조 LPR이 없음!
+[14:54:55] 설치된 출구 LPR이 없음!
+[14:54:55] 설치된 입구전광판이 없음!
+[14:54:55] 설치된 출구전광판이 없음!
+[14:54:55] csInLpr1 접속성공
+[14:54:55] LPR재접속 쓰레드시작
+[14:54:56] 전광판재접속 쓰레드시작
+[14:54:56] 정기권연동 쓰레드시작
+[14:54:56] Main.pas: Line: 20617, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[14:54:56] Main.pas: Line: 20627, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[14:54:56] Main.pas: Line: 20635, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:54:56] Main.pas: Line: 20642, [ini]>> LPR이미지폴더(C:\LPRImage)
+[14:54:56] Main.pas: Line: 20649, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[14:54:56] Main.pas: Line: 20668, [ini]>> Home, IP(127.0.0.1),Port(29500),홈넷(1),Ver(1),ID(wiju),PW(wiju1234)
+[14:54:56] Main.pas: Line: 20671, [ini]>> HomeNET, IP(),Port(25008)
+[14:54:56] Main.pas: Line: 20688, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[14:55:13] Program Close
+**************************************************************
+[14:55:34] Program Start! (Ver_1.3.3.51)
+[14:55:34] 홈넷예외LPR:
+[14:55:34] [DB저장 모드]
+[14:55:34] TfrmMain.btnModeClick: 유인운영
+[14:55:35] 비로그인
+[14:55:35] 설치된 입구보조 LPR이 없음!
+[14:55:35] 설치된 출구보조 LPR이 없음!
+[14:55:35] 설치된 출구 LPR이 없음!
+[14:55:35] 설치된 입구전광판이 없음!
+[14:55:35] 설치된 출구전광판이 없음!
+[14:55:35] csInLpr1 접속성공
+[14:55:36] LPR재접속 쓰레드시작
+[14:55:36] 전광판재접속 쓰레드시작
+[14:55:36] 정기권연동 쓰레드시작
+[14:55:36] Main.pas: Line: 20617, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[14:55:36] Main.pas: Line: 20627, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[14:55:36] Main.pas: Line: 20635, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:55:36] Main.pas: Line: 20642, [ini]>> LPR이미지폴더(C:\LPRImage)
+[14:55:36] Main.pas: Line: 20649, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[14:55:36] Main.pas: Line: 20668, [ini]>> Home, IP(127.0.0.1),Port(29500),홈넷(1),Ver(1),ID(wiju),PW(wiju1234)
+[14:55:36] Main.pas: Line: 20671, [ini]>> HomeNET, IP(),Port(25008)
+[14:55:36] Main.pas: Line: 20688, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[14:56:03] Program Close
+**************************************************************
+[14:56:13] Program Start! (Ver_1.3.3.51)
+[14:56:14] 홈넷예외LPR:
+[14:56:14] [DB저장 모드]
+[14:56:14] TfrmMain.btnModeClick: 유인운영
+[14:56:14] 비로그인
+[14:56:14] 설치된 입구보조 LPR이 없음!
+[14:56:14] 설치된 출구보조 LPR이 없음!
+[14:56:14] 설치된 출구 LPR이 없음!
+[14:56:14] 설치된 입구전광판이 없음!
+[14:56:14] 설치된 출구전광판이 없음!
+[14:56:15] csInLpr1 접속성공
+[14:56:19] Main.pas: Line: 22650, Socket Error # 10061
+Connection refused.
+[14:56:20] 정기권연동 쓰레드시작
+[14:56:20] Main.pas: Line: 20617, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[14:56:20] Main.pas: Line: 20627, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[14:56:20] Main.pas: Line: 20635, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:56:20] Main.pas: Line: 20642, [ini]>> LPR이미지폴더(C:\LPRImage)
+[14:56:20] Main.pas: Line: 20649, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[14:56:20] Main.pas: Line: 20668, [ini]>> Home, IP(127.0.0.1),Port(29500),홈넷(1),Ver(1),ID(wiju),PW(wiju1234)
+[14:56:20] Main.pas: Line: 20671, [ini]>> HomeNET, IP(),Port(25008)
+[14:56:20] Main.pas: Line: 20688, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[14:57:07] Program Close
+**************************************************************
+[14:57:51] Program Start! (Ver_1.3.3.51)
+[14:57:51] 홈넷예외LPR:
+[14:57:51] [DB저장 모드]
+[14:57:51] TfrmMain.btnModeClick: 유인운영
+[14:57:52] 비로그인
+[14:57:52] 설치된 입구보조 LPR이 없음!
+[14:57:52] 설치된 출구보조 LPR이 없음!
+[14:57:52] 설치된 출구 LPR이 없음!
+[14:57:52] 설치된 입구전광판이 없음!
+[14:57:52] 설치된 출구전광판이 없음!
+[14:57:53] LPR재접속 쓰레드시작
+[14:57:53] 전광판재접속 쓰레드시작
+[14:57:53] 정기권연동 쓰레드시작
+[14:57:53] Main.pas: Line: 20617, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[14:57:53] Main.pas: Line: 20627, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[14:57:53] Main.pas: Line: 20635, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:57:53] Main.pas: Line: 20642, [ini]>> LPR이미지폴더(C:\LPRImage)
+[14:57:53] Main.pas: Line: 20649, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[14:57:53] Main.pas: Line: 20668, [ini]>> Home, IP(127.0.0.1),Port(29500),홈넷(1),Ver(1),ID(wiju),PW(wiju1234)
+[14:57:53] Main.pas: Line: 20671, [ini]>> HomeNET, IP(),Port(25008)
+[14:57:53] Main.pas: Line: 20688, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[14:57:54] csInLpr1 접속성공
+[14:57:59] idTSExecute IP : 127.0.0.1, Port : 52715
+[14:57:59] idTSExecute recv: 00000000Type=PARKING&Dong=1301&Ho=301&Inout=VISIT_POINT
+[14:57:59] HD_RequestProcess : Start
+[14:57:59] HD_RequestProcess : 전문 양식 오류
+[14:57:59] HD_RequestProcess : End
+[14:57:59] idTSExecute send: 00000078Type=PARKING&Dong=1301&Ho=301&CarNo=&DateTime=&DateTimeEnd=&InOut=&Return=fail
+**************************************************************
+[14:58:29] Program Start! (Ver_1.3.3.51)
+[14:58:29] 홈넷예외LPR:
+[14:58:29] [DB저장 모드]
+[14:58:29] TfrmMain.btnModeClick: 유인운영
+[14:58:30] 비로그인
+[14:58:30] 설치된 입구보조 LPR이 없음!
+[14:58:30] 설치된 출구보조 LPR이 없음!
+[14:58:30] 설치된 출구 LPR이 없음!
+[14:58:30] 설치된 입구전광판이 없음!
+[14:58:30] 설치된 출구전광판이 없음!
+[14:58:30] LPR재접속 쓰레드시작
+[14:58:30] 전광판재접속 쓰레드시작
+[14:58:30] 정기권연동 쓰레드시작
+[14:58:30] Main.pas: Line: 20617, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[14:58:30] Main.pas: Line: 20627, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[14:58:30] Main.pas: Line: 20635, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:58:30] Main.pas: Line: 20642, [ini]>> LPR이미지폴더(C:\LPRImage)
+[14:58:30] Main.pas: Line: 20649, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[14:58:30] Main.pas: Line: 20668, [ini]>> Home, IP(127.0.0.1),Port(29500),홈넷(1),Ver(1),ID(wiju),PW(wiju1234)
+[14:58:30] Main.pas: Line: 20671, [ini]>> HomeNET, IP(),Port(25008)
+[14:58:30] Main.pas: Line: 20688, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[14:58:31] csInLpr1 접속성공
+[14:58:38] idTSExecute IP : 127.0.0.1, Port : 52725
+[14:58:38] idTSExecute recv: 00000000Type=PARKING&Dong=1301&Ho=301&Inout=VISIT_POINT
+[14:58:38] HD_RequestProcess : Start
+[14:58:38] HD_RequestProcess : 전문 양식 오류
+[14:58:38] HD_RequestProcess : End
+[14:58:38] idTSExecute send: 00000078Type=PARKING&Dong=1301&Ho=301&CarNo=&DateTime=&DateTimeEnd=&InOut=&Return=fail
+**************************************************************
+[14:59:20] Program Start! (Ver_1.3.3.51)
+[14:59:20] 홈넷예외LPR:
+[14:59:20] [DB저장 모드]
+[14:59:20] TfrmMain.btnModeClick: 유인운영
+[14:59:21] 비로그인
+[14:59:21] 설치된 입구보조 LPR이 없음!
+[14:59:21] 설치된 출구보조 LPR이 없음!
+[14:59:21] 설치된 출구 LPR이 없음!
+[14:59:21] 설치된 입구전광판이 없음!
+[14:59:21] 설치된 출구전광판이 없음!
+[14:59:21] LPR재접속 쓰레드시작
+[14:59:21] 전광판재접속 쓰레드시작
+[14:59:21] 정기권연동 쓰레드시작
+[14:59:21] Main.pas: Line: 20617, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[14:59:21] Main.pas: Line: 20627, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[14:59:21] Main.pas: Line: 20635, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:59:21] Main.pas: Line: 20642, [ini]>> LPR이미지폴더(C:\LPRImage)
+[14:59:21] Main.pas: Line: 20649, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[14:59:21] Main.pas: Line: 20668, [ini]>> Home, IP(127.0.0.1),Port(29500),홈넷(1),Ver(1),ID(wiju),PW(wiju1234)
+[14:59:21] Main.pas: Line: 20671, [ini]>> HomeNET, IP(),Port(25008)
+[14:59:21] Main.pas: Line: 20688, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[14:59:22] csInLpr1 접속성공
+[14:59:27] idTSExecute IP : 127.0.0.1, Port : 52741
+[14:59:27] idTSExecute recv: 00000000Type=PARKING&Dong=1&Ho=1&Inout=VISIT_POINT
+[14:59:27] HD_RequestProcess : Start
+[14:59:27] HD_RequestProcess : 전문 양식 오류
+[14:59:27] HD_RequestProcess : End
+[14:59:27] idTSExecute send: 00000073Type=PARKING&Dong=1&Ho=1&CarNo=&DateTime=&DateTimeEnd=&InOut=&Return=fail
+**************************************************************
+[14:59:44] Program Start! (Ver_1.3.3.51)
+[14:59:44] 홈넷예외LPR:
+[14:59:44] [DB저장 모드]
+[14:59:44] TfrmMain.btnModeClick: 유인운영
+[14:59:44] 비로그인
+[14:59:45] 설치된 입구보조 LPR이 없음!
+[14:59:45] 설치된 출구보조 LPR이 없음!
+[14:59:45] 설치된 출구 LPR이 없음!
+[14:59:45] 설치된 입구전광판이 없음!
+[14:59:45] 설치된 출구전광판이 없음!
+[14:59:45] LPR재접속 쓰레드시작
+[14:59:45] 전광판재접속 쓰레드시작
+[14:59:45] 정기권연동 쓰레드시작
+[14:59:45] Main.pas: Line: 20617, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[14:59:45] Main.pas: Line: 20627, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[14:59:45] Main.pas: Line: 20635, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[14:59:45] Main.pas: Line: 20642, [ini]>> LPR이미지폴더(C:\LPRImage)
+[14:59:45] Main.pas: Line: 20649, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[14:59:45] Main.pas: Line: 20668, [ini]>> Home, IP(127.0.0.1),Port(29500),홈넷(1),Ver(1),ID(wiju),PW(wiju1234)
+[14:59:45] Main.pas: Line: 20671, [ini]>> HomeNET, IP(),Port(25008)
+[14:59:45] Main.pas: Line: 20688, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[14:59:46] csInLpr1 접속성공
+[14:59:51] idTSExecute IP : 127.0.0.1, Port : 52753
+[14:59:51] idTSExecute recv: 00000000Type=PARKING&Dong=1&Ho=1&Inout=VISIT_POINT
+[14:59:51] HD_RequestProcess : Start
+**************************************************************
+[15:00:26] Program Start! (Ver_1.3.3.51)
+[15:00:26] 홈넷예외LPR:
+[15:00:26] [DB저장 모드]
+[15:00:26] TfrmMain.btnModeClick: 유인운영
+[15:00:27] 비로그인
+[15:00:27] 설치된 입구보조 LPR이 없음!
+[15:00:27] 설치된 출구보조 LPR이 없음!
+[15:00:27] 설치된 출구 LPR이 없음!
+[15:00:27] 설치된 입구전광판이 없음!
+[15:00:27] 설치된 출구전광판이 없음!
+[15:00:28] 전광판재접속 쓰레드시작
+[15:00:28] 정기권연동 쓰레드시작
+[15:00:28] Main.pas: Line: 20617, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[15:00:28] Main.pas: Line: 20627, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[15:00:28] Main.pas: Line: 20635, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[15:00:28] Main.pas: Line: 20642, [ini]>> LPR이미지폴더(C:\LPRImage)
+[15:00:28] Main.pas: Line: 20649, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[15:00:28] Main.pas: Line: 20668, [ini]>> Home, IP(127.0.0.1),Port(29500),홈넷(1),Ver(1),ID(wiju),PW(wiju1234)
+[15:00:28] Main.pas: Line: 20671, [ini]>> HomeNET, IP(),Port(25008)
+[15:00:28] Main.pas: Line: 20688, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[15:00:29] csInLpr1 접속성공
+[15:00:36] idTSExecute IP : 127.0.0.1, Port : 52766
+[15:00:36] idTSExecute recv: 00000000Type=PARKING&Dong=1&Ho=1&Inout=VISIT_POINT
+[15:00:36] HD_RequestProcess : Start
+**************************************************************
+[15:01:11] Program Start! (Ver_1.3.3.51)
+[15:01:11] 홈넷예외LPR:
+[15:01:11] [DB저장 모드]
+[15:01:11] TfrmMain.btnModeClick: 유인운영
+[15:01:11] 비로그인
+[15:01:12] 설치된 입구보조 LPR이 없음!
+[15:01:12] 설치된 출구보조 LPR이 없음!
+[15:01:12] 설치된 출구 LPR이 없음!
+[15:01:12] 설치된 입구전광판이 없음!
+[15:01:12] 설치된 출구전광판이 없음!
+[15:01:12] LPR재접속 쓰레드시작
+[15:01:12] 정기권연동 쓰레드시작
+[15:01:12] Main.pas: Line: 20617, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[15:01:12] Main.pas: Line: 20627, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[15:01:12] Main.pas: Line: 20635, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[15:01:12] Main.pas: Line: 20642, [ini]>> LPR이미지폴더(C:\LPRImage)
+[15:01:12] Main.pas: Line: 20649, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[15:01:12] Main.pas: Line: 20668, [ini]>> Home, IP(127.0.0.1),Port(29500),홈넷(1),Ver(1),ID(wiju),PW(wiju1234)
+[15:01:12] Main.pas: Line: 20671, [ini]>> HomeNET, IP(),Port(25008)
+[15:01:12] Main.pas: Line: 20688, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[15:01:13] csInLpr1 접속성공
+[15:01:19] idTSExecute IP : 127.0.0.1, Port : 52777
+[15:01:19] idTSExecute recv: 00000000Type=PARKING&Dong=1&Ho=1&Inout=VISIT_POINT
+[15:01:19] HD_RequestProcess : Start
+**************************************************************
+[15:01:57] Program Start! (Ver_1.3.3.51)
+[15:01:57] 홈넷예외LPR:
+[15:01:57] [DB저장 모드]
+[15:01:57] TfrmMain.btnModeClick: 유인운영
+[15:01:58] 비로그인
+[15:01:58] 설치된 입구보조 LPR이 없음!
+[15:01:58] 설치된 출구보조 LPR이 없음!
+[15:01:58] 설치된 출구 LPR이 없음!
+[15:01:58] 설치된 입구전광판이 없음!
+[15:01:58] 설치된 출구전광판이 없음!
+[15:01:58] LPR재접속 쓰레드시작
+[15:01:59] 정기권연동 쓰레드시작
+[15:01:59] Main.pas: Line: 20617, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[15:01:59] Main.pas: Line: 20627, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[15:01:59] Main.pas: Line: 20635, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[15:01:59] Main.pas: Line: 20642, [ini]>> LPR이미지폴더(C:\LPRImage)
+[15:01:59] Main.pas: Line: 20649, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[15:01:59] Main.pas: Line: 20668, [ini]>> Home, IP(127.0.0.1),Port(29500),홈넷(1),Ver(1),ID(wiju),PW(wiju1234)
+[15:01:59] Main.pas: Line: 20671, [ini]>> HomeNET, IP(),Port(25008)
+[15:01:59] Main.pas: Line: 20688, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[15:02:00] csInLpr1 접속성공
+[15:02:05] idTSExecute IP : 127.0.0.1, Port : 52789
+[15:02:05] idTSExecute recv: 00000000Type=PARKING&Dong=1&Ho=1&Inout=VISIT_POINT
+[15:02:05] HD_RequestProcess : Start
+[15:02:20] HD_RequestProcess : 전문 양식 오류
+[15:02:20] HD_RequestProcess : End
+[15:02:20] idTSExecute send: 00000073Type=PARKING&Dong=1&Ho=1&CarNo=&DateTime=&DateTimeEnd=&InOut=&Return=fail
+[15:02:33] idTSExecute IP : 127.0.0.1, Port : 52789
+[15:02:33] idTSExecute recv: 00000000Type=PARKING&Dong=1&Ho=1&Inout=VISIT_POINT
+[15:02:33] HD_RequestProcess : Start
+**************************************************************
+[15:07:52] Program Start! (Ver_1.3.3.51)
+[15:07:52] 홈넷예외LPR:
+[15:07:52] [DB저장 모드]
+[15:07:52] TfrmMain.btnModeClick: 유인운영
+[15:07:53] 비로그인
+[15:07:53] 설치된 입구보조 LPR이 없음!
+[15:07:53] 설치된 출구보조 LPR이 없음!
+[15:07:53] 설치된 출구 LPR이 없음!
+[15:07:53] 설치된 입구전광판이 없음!
+[15:07:53] 설치된 출구전광판이 없음!
+[15:07:53] LPR재접속 쓰레드시작
+[15:07:53] 전광판재접속 쓰레드시작
+[15:07:54] 정기권연동 쓰레드시작
+[15:07:54] Main.pas: Line: 20617, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[15:07:54] Main.pas: Line: 20627, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[15:07:54] Main.pas: Line: 20635, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[15:07:54] Main.pas: Line: 20642, [ini]>> LPR이미지폴더(C:\LPRImage)
+[15:07:54] Main.pas: Line: 20649, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[15:07:54] Main.pas: Line: 20668, [ini]>> Home, IP(127.0.0.1),Port(29500),홈넷(1),Ver(1),ID(wiju),PW(wiju1234)
+[15:07:54] Main.pas: Line: 20671, [ini]>> HomeNET, IP(),Port(25008)
+[15:07:54] Main.pas: Line: 20688, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[15:07:54] csInLpr1 접속성공
+[15:08:05] idTSExecute IP : 127.0.0.1, Port : 52810
+[15:08:05] idTSExecute recv: 00000000Type=PARKING&Dong=1&Ho=1&InOut=VISIT_POINT
+[15:08:05] HD_RequestProcess : Start
+[15:08:22] HD_VisitPointProcess : Start
+[15:08:35] HD_VisitPointProcess : End
+[15:08:35] 방문자 차량 포인트 : 
+[15:08:35] HD_RequestProcess : End
+[15:08:35] idTSExecute send: 00000093Type=PARKING&Dong=1&Ho=1&AvailablePoint=10000&UsedPoint=0&Unit=원&InOut=VISIT_POINT&Return=ok
+**************************************************************
+[15:14:20] Program Start! (Ver_1.3.3.51)
+[15:14:20] 홈넷예외LPR:
+[15:14:20] [DB저장 모드]
+[15:14:20] TfrmMain.btnModeClick: 유인운영
+[15:14:20] 비로그인
+[15:14:21] 설치된 입구보조 LPR이 없음!
+[15:14:21] 설치된 출구보조 LPR이 없음!
+[15:14:21] 설치된 출구 LPR이 없음!
+[15:14:21] 설치된 입구전광판이 없음!
+[15:14:21] 설치된 출구전광판이 없음!
+[15:14:21] LPR재접속 쓰레드시작
+[15:14:21] 전광판재접속 쓰레드시작
+[15:14:21] 정기권연동 쓰레드시작
+[15:14:21] Main.pas: Line: 20619, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[15:14:21] Main.pas: Line: 20629, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[15:14:21] Main.pas: Line: 20637, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[15:14:21] Main.pas: Line: 20644, [ini]>> LPR이미지폴더(C:\LPRImage)
+[15:14:21] Main.pas: Line: 20651, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[15:14:21] Main.pas: Line: 20670, [ini]>> Home, IP(127.0.0.1),Port(29500),홈넷(1),Ver(1),ID(wiju),PW(wiju1234)
+[15:14:21] Main.pas: Line: 20673, [ini]>> HomeNET, IP(),Port(25008)
+[15:14:21] Main.pas: Line: 20690, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[15:14:22] csInLpr1 접속성공
+[15:14:40] idTSExecute IP : 127.0.0.1, Port : 52837
+[15:14:40] idTSExecute recv: 00000000Type=PARKING&Dong=1301&Ho=301&Inout=VISIT_POINT
+[15:14:40] HD_RequestProcess : Start
+[15:14:43] HD_RequestProcess : 전문 양식 오류
+[15:14:43] HD_RequestProcess : End
+[15:14:43] idTSExecute send: 00000078Type=PARKING&Dong=1301&Ho=301&CarNo=&DateTime=&DateTimeEnd=&InOut=&Return=fail

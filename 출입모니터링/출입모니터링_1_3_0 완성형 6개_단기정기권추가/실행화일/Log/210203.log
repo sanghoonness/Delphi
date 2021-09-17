@@ -1,0 +1,2233 @@
+**************************************************************
+[13:23:14] Program Start! (Ver_1.3.3.51)
+[13:23:14] 홈넷예외LPR:
+[13:23:14] [DB저장 모드]
+[13:23:14] TfrmMain.btnModeClick: 유인운영
+[13:23:15] 비로그인
+[13:23:15] 설치된 입구보조 LPR이 없음!
+[13:23:15] 설치된 출구보조 LPR이 없음!
+[13:23:15] 설치된 입구전광판이 없음!
+[13:23:15] 설치된 출구전광판이 없음!
+[13:23:15] csInLpr1 접속성공
+[13:23:15] csOutLpr1 접속성공
+[13:23:15] 코콤서버와 Bind확인 - OK
+[13:23:16] 방문자 관련 전문이 아님
+[13:23:17] Main.pas: Line: 29028, Socket Error # 10061
+Connection refused.
+[13:23:17] 정기권연동 쓰레드시작
+[13:23:17] Main.pas: Line: 26885, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[13:23:17] Main.pas: Line: 26895, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[13:23:17] Main.pas: Line: 26903, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[13:23:17] Main.pas: Line: 26910, [ini]>> LPR이미지폴더(C:\LPRImage)
+[13:23:17] Main.pas: Line: 26917, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[13:23:17] Main.pas: Line: 26929, [ini]>> Home, IP(222.108.131.118),Port(15010),홈넷(2),Ver(1),ID(wiju),PW(wiju1234)
+[13:23:17] Main.pas: Line: 26932, [ini]>> HomeNET, IP(127.0.0.1),Port(9000)
+[13:23:17] Main.pas: Line: 26949, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[13:23:49] Program Close
+[13:23:49] TfrmMain.tmrRecvKocomTimer: Connection Closed Gracefully.
+[13:23:50] 코콤서버와 Bind확인 - OK
+**************************************************************
+[13:23:59] Program Start! (Ver_1.3.3.51)
+[13:23:59] 홈넷예외LPR:
+[13:23:59] [DB저장 모드]
+[13:23:59] TfrmMain.btnModeClick: 유인운영
+[13:23:59] 비로그인
+[13:23:59] 설치된 입구보조 LPR이 없음!
+[13:23:59] 설치된 출구보조 LPR이 없음!
+[13:23:59] 설치된 입구전광판이 없음!
+[13:23:59] 설치된 출구전광판이 없음!
+[13:24:00] csInLpr1 접속성공
+[13:24:00] csOutLpr1 접속성공
+[13:24:00] 코콤서버와 Bind확인 - OK
+[13:24:01] 방문자 관련 전문이 아님
+[13:24:02] Main.pas: Line: 29028, Socket Error # 10061
+Connection refused.
+[13:24:02] 정기권연동 쓰레드시작
+[13:24:02] Main.pas: Line: 26885, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[13:24:02] Main.pas: Line: 26895, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[13:24:02] Main.pas: Line: 26903, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[13:24:02] Main.pas: Line: 26910, [ini]>> LPR이미지폴더(C:\LPRImage)
+[13:24:02] Main.pas: Line: 26917, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[13:24:02] Main.pas: Line: 26929, [ini]>> Home, IP(222.108.131.117),Port(15010),홈넷(2),Ver(1),ID(wiju),PW(wiju1234)
+[13:24:02] Main.pas: Line: 26932, [ini]>> HomeNET, IP(127.0.0.1),Port(9000)
+[13:24:02] Main.pas: Line: 26949, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[13:24:13] Program Close
+[13:24:13] TfrmMain.tmrRecvKocomTimer: Connection Closed Gracefully.
+[13:24:13] 코콤서버와 Bind확인 - OK
+**************************************************************
+[13:25:20] Program Start! (Ver_1.3.3.51)
+[13:25:20] 홈넷예외LPR:
+[13:25:20] [DB저장 모드]
+[13:25:20] TfrmMain.btnModeClick: 유인운영
+[13:25:21] 비로그인
+[13:25:21] 설치된 입구보조 LPR이 없음!
+[13:25:21] 설치된 출구보조 LPR이 없음!
+[13:25:21] 설치된 입구전광판이 없음!
+[13:25:21] 설치된 출구전광판이 없음!
+[13:25:21] csInLpr1 접속성공
+[13:25:21] csOutLpr1 접속성공
+[13:25:21] 코콤서버와 Bind확인 - OK
+[13:25:22] 방문자 관련 전문이 아님
+[13:25:23] Main.pas: Line: 29028, Socket Error # 10061
+Connection refused.
+[13:25:23] 정기권연동 쓰레드시작
+[13:25:23] Main.pas: Line: 26885, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[13:25:23] Main.pas: Line: 26895, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[13:25:23] Main.pas: Line: 26903, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[13:25:23] Main.pas: Line: 26910, [ini]>> LPR이미지폴더(C:\LPRImage)
+[13:25:23] Main.pas: Line: 26917, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[13:25:23] Main.pas: Line: 26929, [ini]>> Home, IP(222.108.131.117),Port(15010),홈넷(2),Ver(1),ID(wiju),PW(wiju1234)
+[13:25:23] Main.pas: Line: 26932, [ini]>> HomeNET, IP(127.0.0.1),Port(9000)
+[13:25:23] Main.pas: Line: 26949, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[13:25:31] Program Close
+[13:25:31] TfrmMain.tmrRecvKocomTimer: Connection Closed Gracefully.
+[13:25:31] 코콤서버와 Bind확인 - OK
+**************************************************************
+[13:25:40] Program Start! (Ver_1.3.3.51)
+[13:25:40] 홈넷예외LPR:
+[13:25:40] [DB저장 모드]
+[13:25:40] TfrmMain.btnModeClick: 유인운영
+[13:25:40] 비로그인
+[13:25:40] 설치된 입구보조 LPR이 없음!
+[13:25:40] 설치된 출구보조 LPR이 없음!
+[13:25:40] 설치된 입구전광판이 없음!
+[13:25:40] 설치된 출구전광판이 없음!
+[13:25:41] csInLpr1 접속성공
+[13:25:41] csOutLpr1 접속성공
+[13:25:41] 코콤서버와 Bind확인 - OK
+[13:25:42] 방문자 관련 전문이 아님
+[13:25:43] Main.pas: Line: 29028, Socket Error # 10061
+Connection refused.
+[13:25:43] 정기권연동 쓰레드시작
+[13:25:43] Main.pas: Line: 26885, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[13:25:43] Main.pas: Line: 26895, [ini]>> 입차LPR수(1), 출차LPR수(1)
+[13:25:43] Main.pas: Line: 26903, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[13:25:43] Main.pas: Line: 26910, [ini]>> LPR이미지폴더(C:\LPRImage)
+[13:25:43] Main.pas: Line: 26917, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[13:25:43] Main.pas: Line: 26929, [ini]>> Home, IP(222.108.131.117),Port(15010),홈넷(2),Ver(1),ID(wiju),PW(wiju1234)
+[13:25:43] Main.pas: Line: 26932, [ini]>> HomeNET, IP(127.0.0.1),Port(9000)
+[13:25:43] Main.pas: Line: 26949, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[13:26:41] tAliveTimer : 1분마다 연결 체크
+[13:26:41] Alive시 코콤서버와 연결확인 - OK
+[13:26:41] 방문자 관련 전문이 아님
+[13:27:41] tAliveTimer : 1분마다 연결 체크
+[13:27:41] Alive시 코콤서버와 연결확인 - OK
+[13:27:41] 방문자 관련 전문이 아님
+[13:28:41] tAliveTimer : 1분마다 연결 체크
+[13:28:41] Alive시 코콤서버와 연결확인 - OK
+[13:28:41] 방문자 관련 전문이 아님
+[13:29:41] tAliveTimer : 1분마다 연결 체크
+[13:29:41] Alive시 코콤서버와 연결확인 - OK
+[13:29:41] 방문자 관련 전문이 아님
+[13:30:41] tAliveTimer : 1분마다 연결 체크
+[13:30:41] Alive시 코콤서버와 연결확인 - OK
+[13:30:41] 방문자 관련 전문이 아님
+[13:31:41] tAliveTimer : 1분마다 연결 체크
+[13:31:41] Alive시 코콤서버와 연결확인 - OK
+[13:31:41] 방문자 관련 전문이 아님
+[13:32:17] Program Close
+[13:32:17] TfrmMain.tmrRecvKocomTimer: Connection Closed Gracefully.
+[13:32:17] 코콤서버와 Bind확인 - OK
+**************************************************************
+[13:32:19] Program Start! (Ver_1.3.3.51)
+[13:32:19] 홈넷예외LPR:
+[13:32:19] [DB저장 모드]
+[13:32:19] TfrmMain.btnModeClick: 유인운영
+[13:32:20] 비로그인
+[13:32:20] 설치된 입구보조 LPR이 없음!
+[13:32:20] 설치된 출구보조 LPR이 없음!
+[13:32:20] 설치된 입구전광판이 없음!
+[13:32:20] 설치된 출구전광판이 없음!
+[13:32:20] csInLpr1 접속성공
+[13:32:20] csOutLpr1 접속성공
+[13:32:20] 코콤서버와 Bind확인 - OK
+[13:32:20] LPR재접속 쓰레드시작
+[13:32:20] 전광판재접속 쓰레드시작
+[13:32:20] 정기권연동 쓰레드시작
+[13:32:20] Main.pas: Line: 26885, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[13:32:20] Main.pas: Line: 26895, [ini]>> 입차LPR수(1), 출차LPR수(1)
+[13:32:20] Main.pas: Line: 26903, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[13:32:20] Main.pas: Line: 26910, [ini]>> LPR이미지폴더(C:\LPRImage)
+[13:32:20] Main.pas: Line: 26917, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[13:32:20] Main.pas: Line: 26929, [ini]>> Home, IP(222.108.131.117),Port(15010),홈넷(2),Ver(1),ID(wiju),PW(wiju1234)
+[13:32:20] Main.pas: Line: 26932, [ini]>> HomeNET, IP(),Port(25008)
+[13:32:20] Main.pas: Line: 26949, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[13:32:21] 방문자 관련 전문이 아님
+[13:32:24] Program Close
+[13:32:24] TfrmMain.tmrRecvKocomTimer: Connection Closed Gracefully.
+[13:32:24] 코콤서버와 Bind확인 - OK
+**************************************************************
+[13:32:32] Program Start! (Ver_1.3.3.51)
+[13:32:32] 홈넷예외LPR:
+[13:32:32] [DB저장 모드]
+[13:32:32] TfrmMain.btnModeClick: 유인운영
+[13:32:32] 비로그인
+[13:32:32] 설치된 입구보조 LPR이 없음!
+[13:32:32] 설치된 출구보조 LPR이 없음!
+[13:32:32] 설치된 입구전광판이 없음!
+[13:32:32] 설치된 출구전광판이 없음!
+[13:32:32] 코콤서버와 Bind확인 - OK
+[13:32:33] LPR재접속 쓰레드시작
+[13:32:33] 전광판재접속 쓰레드시작
+[13:32:33] 정기권연동 쓰레드시작
+[13:32:33] Main.pas: Line: 26885, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[13:32:33] Main.pas: Line: 26895, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[13:32:33] Main.pas: Line: 26903, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[13:32:33] Main.pas: Line: 26910, [ini]>> LPR이미지폴더(C:\LPRImage)
+[13:32:33] Main.pas: Line: 26917, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[13:32:33] Main.pas: Line: 26929, [ini]>> Home, IP(222.108.131.117),Port(15010),홈넷(2),Ver(1),ID(wiju),PW(wiju1234)
+[13:32:33] Main.pas: Line: 26932, [ini]>> HomeNET, IP(),Port(25008)
+[13:32:33] Main.pas: Line: 26949, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[13:32:33] csOutLpr1 접속성공
+[13:32:33] csInLpr1 접속성공
+[13:32:34] 방문자 관련 전문이 아님
+[13:33:33] tAliveTimer : 1분마다 연결 체크
+[13:33:33] Alive시 코콤서버와 연결확인 - OK
+[13:33:33] 방문자 관련 전문이 아님
+[13:34:33] tAliveTimer : 1분마다 연결 체크
+[13:34:33] Alive시 코콤서버와 연결확인 - OK
+[13:34:33] 방문자 관련 전문이 아님
+[13:35:33] tAliveTimer : 1분마다 연결 체크
+[13:35:33] Alive시 코콤서버와 연결확인 - OK
+[13:35:33] 방문자 관련 전문이 아님
+[13:36:33] tAliveTimer : 1분마다 연결 체크
+[13:36:33] Alive시 코콤서버와 연결확인 - OK
+[13:36:33] 방문자 관련 전문이 아님
+[13:37:33] tAliveTimer : 1분마다 연결 체크
+[13:37:33] Alive시 코콤서버와 연결확인 - OK
+[13:37:33] 방문자 관련 전문이 아님
+[13:38:33] tAliveTimer : 1분마다 연결 체크
+[13:38:33] Alive시 코콤서버와 연결확인 - OK
+[13:38:33] 방문자 관련 전문이 아님
+[13:39:33] tAliveTimer : 1분마다 연결 체크
+[13:39:33] Alive시 코콤서버와 연결확인 - OK
+[13:39:33] 방문자 관련 전문이 아님
+[13:40:33] tAliveTimer : 1분마다 연결 체크
+[13:40:33] Alive시 코콤서버와 연결확인 - OK
+[13:40:33] 방문자 관련 전문이 아님
+[13:41:33] tAliveTimer : 1분마다 연결 체크
+[13:41:33] Alive시 코콤서버와 연결확인 - OK
+[13:41:33] 방문자 관련 전문이 아님
+[13:42:32] tAliveTimer : 1분마다 연결 체크
+[13:42:33] Alive시 코콤서버와 연결확인 - OK
+[13:42:33] 방문자 관련 전문이 아님
+[13:43:33] tAliveTimer : 1분마다 연결 체크
+[13:43:33] Alive시 코콤서버와 연결확인 - OK
+[13:43:33] 방문자 관련 전문이 아님
+[13:44:33] tAliveTimer : 1분마다 연결 체크
+[13:44:33] Alive시 코콤서버와 연결확인 - OK
+[13:44:33] 방문자 관련 전문이 아님
+[13:45:33] tAliveTimer : 1분마다 연결 체크
+[13:45:33] Alive시 코콤서버와 연결확인 - OK
+[13:45:33] 방문자 관련 전문이 아님
+[13:46:33] tAliveTimer : 1분마다 연결 체크
+[13:46:33] Alive시 코콤서버와 연결확인 - OK
+[13:46:33] 방문자 관련 전문이 아님
+[13:47:33] tAliveTimer : 1분마다 연결 체크
+[13:47:33] Alive시 코콤서버와 연결확인 - OK
+[13:47:33] 방문자 관련 전문이 아님
+[13:48:33] tAliveTimer : 1분마다 연결 체크
+[13:48:33] Alive시 코콤서버와 연결확인 - OK
+[13:48:33] 방문자 관련 전문이 아님
+[13:49:33] tAliveTimer : 1분마다 연결 체크
+[13:49:33] Alive시 코콤서버와 연결확인 - OK
+[13:49:33] 방문자 관련 전문이 아님
+[13:50:33] tAliveTimer : 1분마다 연결 체크
+[13:50:33] Alive시 코콤서버와 연결확인 - OK
+[13:50:33] 방문자 관련 전문이 아님
+[13:51:33] tAliveTimer : 1분마다 연결 체크
+[13:51:33] Alive시 코콤서버와 연결확인 - OK
+[13:51:33] 방문자 관련 전문이 아님
+[13:52:33] tAliveTimer : 1분마다 연결 체크
+[13:52:33] Alive시 코콤서버와 연결확인 - OK
+[13:52:33] 방문자 관련 전문이 아님
+[13:53:33] tAliveTimer : 1분마다 연결 체크
+[13:53:33] Alive시 코콤서버와 연결확인 - OK
+[13:53:33] 방문자 관련 전문이 아님
+[13:54:33] tAliveTimer : 1분마다 연결 체크
+[13:54:33] Alive시 코콤서버와 연결확인 - OK
+[13:54:33] 방문자 관련 전문이 아님
+[13:55:33] tAliveTimer : 1분마다 연결 체크
+[13:55:33] Alive시 코콤서버와 연결확인 - OK
+[13:55:33] 방문자 관련 전문이 아님
+[13:56:33] tAliveTimer : 1분마다 연결 체크
+[13:56:33] Alive시 코콤서버와 연결확인 - OK
+[13:56:33] 방문자 관련 전문이 아님
+[13:56:49] Program Close
+[13:56:49] TfrmMain.tmrRecvKocomTimer: Connection Closed Gracefully.
+[13:56:49] 코콤서버와 Bind확인 - OK
+**************************************************************
+[13:57:02] Program Start! (Ver_1.3.3.51)
+[13:57:02] 홈넷예외LPR:
+[13:57:02] [DB저장 모드]
+[13:57:02] TfrmMain.btnModeClick: 유인운영
+[13:57:02] 비로그인
+[13:57:02] 설치된 입구보조 LPR이 없음!
+[13:57:02] 설치된 출구보조 LPR이 없음!
+[13:57:02] 설치된 입구전광판이 없음!
+[13:57:02] 설치된 출구전광판이 없음!
+[13:57:03] csInLpr1 접속성공
+[13:57:03] csOutLpr1 접속성공
+[13:57:03] 코콤서버와 Bind확인 - OK
+[13:57:03] LPR재접속 쓰레드시작
+[13:57:03] 전광판재접속 쓰레드시작
+[13:57:03] 정기권연동 쓰레드시작
+[13:57:03] Main.pas: Line: 26885, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[13:57:03] Main.pas: Line: 26895, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[13:57:03] Main.pas: Line: 26903, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[13:57:03] Main.pas: Line: 26910, [ini]>> LPR이미지폴더(C:\LPRImage)
+[13:57:03] Main.pas: Line: 26917, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[13:57:03] Main.pas: Line: 26929, [ini]>> Home, IP(222.108.131.118),Port(15010),홈넷(2),Ver(1),ID(wiju),PW(wiju1234)
+[13:57:03] Main.pas: Line: 26932, [ini]>> HomeNET, IP(),Port(25008)
+[13:57:03] Main.pas: Line: 26949, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[13:57:04] 방문자 관련 전문이 아님
+[13:57:47] VisitAddProcess : Start
+[13:57:47] VisitAddProcess : 저장완료
+[13:57:47] VisitAddProcess : End
+[13:57:48] 방문자 관련 전문이 아님
+[13:58:03] tAliveTimer : 1분마다 연결 체크
+[13:58:03] Alive시 코콤서버와 연결확인 - OK
+[13:58:03] 방문자 관련 전문이 아님
+[13:59:03] tAliveTimer : 1분마다 연결 체크
+[13:59:03] Alive시 코콤서버와 연결확인 - OK
+[13:59:03] 방문자 관련 전문이 아님
+[14:00:03] tAliveTimer : 1분마다 연결 체크
+[14:00:03] Alive시 코콤서버와 연결확인 - OK
+[14:00:03] 방문자 관련 전문이 아님
+[14:01:03] tAliveTimer : 1분마다 연결 체크
+[14:01:03] Alive시 코콤서버와 연결확인 - OK
+[14:01:03] 방문자 관련 전문이 아님
+[14:02:03] tAliveTimer : 1분마다 연결 체크
+[14:02:03] Alive시 코콤서버와 연결확인 - OK
+[14:02:03] 방문자 관련 전문이 아님
+[14:03:03] tAliveTimer : 1분마다 연결 체크
+[14:03:03] Alive시 코콤서버와 연결확인 - OK
+[14:03:03] 방문자 관련 전문이 아님
+[14:03:36] VisitListProcess : Start
+[14:03:36] VisitListProcess : End
+[14:03:37] 방문자 관련 전문이 아님
+[14:04:03] tAliveTimer : 1분마다 연결 체크
+[14:04:03] Alive시 코콤서버와 연결확인 - OK
+[14:04:03] 방문자 관련 전문이 아님
+[14:05:03] tAliveTimer : 1분마다 연결 체크
+[14:05:03] Alive시 코콤서버와 연결확인 - OK
+[14:05:03] 방문자 관련 전문이 아님
+[14:06:03] tAliveTimer : 1분마다 연결 체크
+[14:06:03] Alive시 코콤서버와 연결확인 - OK
+[14:06:03] 방문자 관련 전문이 아님
+[14:07:03] tAliveTimer : 1분마다 연결 체크
+[14:07:03] Alive시 코콤서버와 연결확인 - OK
+[14:07:03] 방문자 관련 전문이 아님
+[14:07:14] VisitAddProcess : Start
+[14:07:14] VisitAddProcess : 저장완료
+[14:07:14] VisitAddProcess : End
+[14:07:15] 방문자 관련 전문이 아님
+[14:07:28] VisitListProcess : Start
+[14:07:28] VisitListProcess : End
+[14:07:29] 방문자 관련 전문이 아님
+[14:08:03] tAliveTimer : 1분마다 연결 체크
+[14:08:03] Alive시 코콤서버와 연결확인 - OK
+[14:08:03] 방문자 관련 전문이 아님
+[14:08:24] VisitAddProcess : Start
+[14:08:24] VisitAddProcess : 저장완료
+[14:08:24] VisitAddProcess : End
+[14:08:25] 방문자 관련 전문이 아님
+[14:08:36] VisitListProcess : Start
+[14:08:36] VisitListProcess : End
+[14:08:37] 방문자 관련 전문이 아님
+[14:08:52] VisitPointProcess : Start
+[14:08:52] VisitPointProcess : End
+[14:08:53] 방문자 관련 전문이 아님
+[14:09:03] tAliveTimer : 1분마다 연결 체크
+[14:09:03] Alive시 코콤서버와 연결확인 - OK
+[14:09:03] 방문자 관련 전문이 아님
+[14:10:03] tAliveTimer : 1분마다 연결 체크
+[14:10:03] Alive시 코콤서버와 연결확인 - OK
+[14:10:03] 방문자 관련 전문이 아님
+[14:11:03] tAliveTimer : 1분마다 연결 체크
+[14:11:03] Alive시 코콤서버와 연결확인 - OK
+[14:11:03] 방문자 관련 전문이 아님
+[14:11:46] VisitListProcess : Start
+[14:11:46] VisitListProcess : End
+[14:11:47] 방문자 관련 전문이 아님
+[14:12:03] tAliveTimer : 1분마다 연결 체크
+[14:12:03] Alive시 코콤서버와 연결확인 - OK
+[14:12:03] 방문자 관련 전문이 아님
+[14:13:03] tAliveTimer : 1분마다 연결 체크
+[14:13:03] Alive시 코콤서버와 연결확인 - OK
+[14:13:03] 방문자 관련 전문이 아님
+[14:14:03] tAliveTimer : 1분마다 연결 체크
+[14:14:03] Alive시 코콤서버와 연결확인 - OK
+[14:14:03] 방문자 관련 전문이 아님
+[14:15:03] tAliveTimer : 1분마다 연결 체크
+[14:15:03] Alive시 코콤서버와 연결확인 - OK
+[14:15:03] 방문자 관련 전문이 아님
+[14:16:03] tAliveTimer : 1분마다 연결 체크
+[14:16:03] Alive시 코콤서버와 연결확인 - OK
+[14:16:03] 방문자 관련 전문이 아님
+[14:17:03] tAliveTimer : 1분마다 연결 체크
+[14:17:03] Alive시 코콤서버와 연결확인 - OK
+[14:17:03] 방문자 관련 전문이 아님
+[14:18:03] tAliveTimer : 1분마다 연결 체크
+[14:18:03] Alive시 코콤서버와 연결확인 - OK
+[14:18:03] 방문자 관련 전문이 아님
+[14:19:03] tAliveTimer : 1분마다 연결 체크
+[14:19:03] Alive시 코콤서버와 연결확인 - OK
+[14:19:03] 방문자 관련 전문이 아님
+[14:20:03] tAliveTimer : 1분마다 연결 체크
+[14:20:03] Alive시 코콤서버와 연결확인 - OK
+[14:20:03] 방문자 관련 전문이 아님
+[14:21:03] tAliveTimer : 1분마다 연결 체크
+[14:21:03] Alive시 코콤서버와 연결확인 - OK
+[14:21:03] 방문자 관련 전문이 아님
+[14:22:03] tAliveTimer : 1분마다 연결 체크
+[14:22:03] Alive시 코콤서버와 연결확인 - OK
+[14:22:03] 방문자 관련 전문이 아님
+[14:23:03] tAliveTimer : 1분마다 연결 체크
+[14:23:03] Alive시 코콤서버와 연결확인 - OK
+[14:23:03] 방문자 관련 전문이 아님
+[14:24:03] tAliveTimer : 1분마다 연결 체크
+[14:24:03] Alive시 코콤서버와 연결확인 - OK
+[14:24:03] 방문자 관련 전문이 아님
+[14:25:03] tAliveTimer : 1분마다 연결 체크
+[14:25:03] Alive시 코콤서버와 연결확인 - OK
+[14:25:03] 방문자 관련 전문이 아님
+[14:26:03] tAliveTimer : 1분마다 연결 체크
+[14:26:03] Alive시 코콤서버와 연결확인 - OK
+[14:26:03] 방문자 관련 전문이 아님
+[14:27:03] tAliveTimer : 1분마다 연결 체크
+[14:27:03] Alive시 코콤서버와 연결확인 - OK
+[14:27:03] 방문자 관련 전문이 아님
+[14:28:03] tAliveTimer : 1분마다 연결 체크
+[14:28:03] Alive시 코콤서버와 연결확인 - OK
+[14:28:03] 방문자 관련 전문이 아님
+[14:29:03] tAliveTimer : 1분마다 연결 체크
+[14:29:03] Alive시 코콤서버와 연결확인 - OK
+[14:29:03] 방문자 관련 전문이 아님
+[14:30:03] tAliveTimer : 1분마다 연결 체크
+[14:30:03] Alive시 코콤서버와 연결확인 - OK
+[14:30:03] 방문자 관련 전문이 아님
+[14:31:03] tAliveTimer : 1분마다 연결 체크
+[14:31:03] Alive시 코콤서버와 연결확인 - OK
+[14:31:03] 방문자 관련 전문이 아님
+[14:32:03] tAliveTimer : 1분마다 연결 체크
+[14:32:03] Alive시 코콤서버와 연결확인 - OK
+[14:32:03] 방문자 관련 전문이 아님
+[14:33:03] tAliveTimer : 1분마다 연결 체크
+[14:33:03] Alive시 코콤서버와 연결확인 - OK
+[14:33:03] 방문자 관련 전문이 아님
+[14:34:03] tAliveTimer : 1분마다 연결 체크
+[14:34:03] Alive시 코콤서버와 연결확인 - OK
+[14:34:03] 방문자 관련 전문이 아님
+[14:35:03] tAliveTimer : 1분마다 연결 체크
+[14:35:03] Alive시 코콤서버와 연결확인 - OK
+[14:35:03] 방문자 관련 전문이 아님
+[14:36:03] tAliveTimer : 1분마다 연결 체크
+[14:36:03] Alive시 코콤서버와 연결확인 - OK
+[14:36:03] 방문자 관련 전문이 아님
+[14:37:03] tAliveTimer : 1분마다 연결 체크
+[14:37:03] Alive시 코콤서버와 연결확인 - OK
+[14:37:03] 방문자 관련 전문이 아님
+[14:38:03] tAliveTimer : 1분마다 연결 체크
+[14:38:03] Alive시 코콤서버와 연결확인 - OK
+[14:38:03] 방문자 관련 전문이 아님
+[14:39:03] tAliveTimer : 1분마다 연결 체크
+[14:39:03] Alive시 코콤서버와 연결확인 - OK
+[14:39:03] 방문자 관련 전문이 아님
+[14:40:03] tAliveTimer : 1분마다 연결 체크
+[14:40:03] Alive시 코콤서버와 연결확인 - OK
+[14:40:03] 방문자 관련 전문이 아님
+[14:40:19] Program Close
+[14:40:19] TfrmMain.tmrRecvKocomTimer: Connection Closed Gracefully.
+[14:40:19] 코콤서버와 Bind확인 - OK
+[14:40:20] Program Close
+**************************************************************
+[16:26:49] Program Start! (Ver_1.3.3.51)
+[16:26:49] 홈넷예외LPR:
+[16:26:49] [DB저장 모드]
+[16:26:49] TfrmMain.btnModeClick: 유인운영
+[16:26:49] 비로그인
+[16:26:49] 설치된 입구보조 LPR이 없음!
+[16:26:49] 설치된 출구보조 LPR이 없음!
+[16:26:49] 설치된 입구전광판이 없음!
+[16:26:49] 설치된 출구전광판이 없음!
+[16:26:49] csInLpr1 접속성공
+[16:26:49] csOutLpr1 접속성공
+[16:26:49] 코콤서버와 Bind확인 - OK
+[16:26:49] LPR재접속 쓰레드시작
+[16:26:49] 전광판재접속 쓰레드시작
+[16:26:49] 정기권연동 쓰레드시작
+[16:26:50] Main.pas: Line: 26885, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[16:26:50] Main.pas: Line: 26895, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[16:26:50] Main.pas: Line: 26903, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[16:26:50] Main.pas: Line: 26910, [ini]>> LPR이미지폴더(C:\LPRImage)
+[16:26:50] Main.pas: Line: 26917, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[16:26:50] Main.pas: Line: 26929, [ini]>> Home, IP(222.108.131.118),Port(15010),홈넷(2),Ver(1),ID(wiju),PW(wiju1234)
+[16:26:50] Main.pas: Line: 26932, [ini]>> HomeNET, IP(),Port(25008)
+[16:26:50] Main.pas: Line: 26949, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[16:26:50] 방문자 관련 전문이 아님
+[16:27:49] tAliveTimer : 1분마다 연결 체크
+[16:27:49] Alive시 코콤서버와 연결확인 - OK
+[16:27:49] 방문자 관련 전문이 아님
+[16:28:34] VisitListProcess : Start
+[16:28:34] VisitListProcess : End
+[16:28:35] 방문자 관련 전문이 아님
+[16:28:41] VisitListProcess : Start
+[16:28:41] VisitListProcess : End
+[16:28:42] 방문자 관련 전문이 아님
+[16:28:49] tAliveTimer : 1분마다 연결 체크
+[16:28:49] Alive시 코콤서버와 연결확인 - OK
+[16:28:49] 방문자 관련 전문이 아님
+[16:29:49] tAliveTimer : 1분마다 연결 체크
+[16:29:49] Alive시 코콤서버와 연결확인 - OK
+[16:29:49] 방문자 관련 전문이 아님
+[16:30:49] tAliveTimer : 1분마다 연결 체크
+[16:30:49] Alive시 코콤서버와 연결확인 - OK
+[16:30:49] 방문자 관련 전문이 아님
+[16:31:49] tAliveTimer : 1분마다 연결 체크
+[16:31:49] Alive시 코콤서버와 연결확인 - OK
+[16:31:49] 방문자 관련 전문이 아님
+[16:32:49] tAliveTimer : 1분마다 연결 체크
+[16:32:49] Alive시 코콤서버와 연결확인 - OK
+[16:32:49] 방문자 관련 전문이 아님
+[16:33:49] tAliveTimer : 1분마다 연결 체크
+[16:33:49] Alive시 코콤서버와 연결확인 - OK
+[16:33:49] 방문자 관련 전문이 아님
+[16:34:49] tAliveTimer : 1분마다 연결 체크
+[16:34:49] Alive시 코콤서버와 연결확인 - OK
+[16:34:49] 방문자 관련 전문이 아님
+[16:35:49] tAliveTimer : 1분마다 연결 체크
+[16:35:49] Alive시 코콤서버와 연결확인 - OK
+[16:35:49] 방문자 관련 전문이 아님
+[16:36:49] tAliveTimer : 1분마다 연결 체크
+[16:36:49] Alive시 코콤서버와 연결확인 - OK
+[16:36:49] 방문자 관련 전문이 아님
+[16:37:04] Program Close
+[16:37:04] TfrmMain.tmrRecvKocomTimer: Connection Closed Gracefully.
+[16:37:04] 코콤서버와 Bind확인 - OK
+**************************************************************
+[16:37:07] Program Start! (Ver_1.3.3.51)
+[16:37:07] 홈넷예외LPR:
+[16:37:07] [DB저장 모드]
+[16:37:07] TfrmMain.btnModeClick: 유인운영
+[16:37:07] 비로그인
+[16:37:07] 설치된 입구보조 LPR이 없음!
+[16:37:07] 설치된 출구보조 LPR이 없음!
+[16:37:07] 설치된 입구전광판이 없음!
+[16:37:07] 설치된 출구전광판이 없음!
+[16:37:07] csInLpr1 접속성공
+[16:37:07] csOutLpr1 접속성공
+[16:37:07] 코콤서버와 Bind확인 - OK
+[16:37:08] LPR재접속 쓰레드시작
+[16:37:08] 전광판재접속 쓰레드시작
+[16:37:08] 정기권연동 쓰레드시작
+[16:37:08] Main.pas: Line: 26885, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[16:37:08] Main.pas: Line: 26895, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[16:37:08] Main.pas: Line: 26903, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[16:37:08] Main.pas: Line: 26910, [ini]>> LPR이미지폴더(C:\LPRImage)
+[16:37:08] Main.pas: Line: 26917, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[16:37:08] Main.pas: Line: 26929, [ini]>> Home, IP(222.108.131.118),Port(15010),홈넷(2),Ver(1),ID(wiju),PW(wiju1234)
+[16:37:08] Main.pas: Line: 26932, [ini]>> HomeNET, IP(),Port(25008)
+[16:37:08] Main.pas: Line: 26949, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[16:37:08] 방문자 관련 전문이 아님
+[16:38:08] tAliveTimer : 1분마다 연결 체크
+[16:38:08] Alive시 코콤서버와 연결확인 - OK
+[16:38:08] 방문자 관련 전문이 아님
+[16:39:07] tAliveTimer : 1분마다 연결 체크
+[16:39:07] Alive시 코콤서버와 연결확인 - OK
+[16:39:07] 방문자 관련 전문이 아님
+[16:40:07] tAliveTimer : 1분마다 연결 체크
+[16:40:07] Alive시 코콤서버와 연결확인 - OK
+[16:40:07] 방문자 관련 전문이 아님
+[16:40:23] TfrmMain.tmrRecvKocomTimer: Connection Closed Gracefully.
+[16:40:25] TfrmMain.btnBindClick: Socket Error # 10061
+Connection refused.
+[16:40:26] TfrmMain.tmrRecvKocomTimer: Connection Closed Gracefully.
+[16:40:28] 코콤서버와 Bind확인 - OK
+[16:41:07] tAliveTimer : 1분마다 연결 체크
+[16:41:07] Alive시 코콤서버와 연결확인 - OK
+[16:41:29] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:29] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:30] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:30] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:31] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:31] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:32] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:32] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:33] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:33] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:34] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:34] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:35] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:35] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:36] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:36] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:37] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:37] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:38] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:38] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:39] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:39] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:40] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:40] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:41] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:41] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:42] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:42] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:43] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:43] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:44] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:44] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:45] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:45] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:46] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:46] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:47] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:47] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:48] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:48] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:49] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:49] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:50] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:50] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:51] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:51] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:52] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:52] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:53] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:53] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:54] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:54] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:55] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:55] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:56] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:56] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:57] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:57] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:58] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:58] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:41:59] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:41:59] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:00] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:00] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:01] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:01] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:02] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:02] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:03] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:03] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:04] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:04] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:05] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:05] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:06] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:06] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:07] tAliveTimer : 1분마다 연결 체크
+[16:42:07] TfrmMain.tAliveTimer_1: Socket Error # 10054
+Connection reset by peer.
+[16:42:07] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:07] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:07] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:08] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:08] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:09] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:09] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:11] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:11] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:12] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:12] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:13] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:13] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:14] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:14] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:15] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:15] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:16] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:16] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:17] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:17] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:18] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:18] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:19] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:19] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:20] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:20] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:21] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:21] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:22] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:22] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:23] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:23] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:24] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:24] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:25] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:25] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:26] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:26] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:27] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:27] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:28] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:28] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:29] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:29] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:30] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:30] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:31] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:31] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:32] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:32] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:33] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:33] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:34] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:34] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:35] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:35] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:36] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:36] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:37] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:37] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:38] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:38] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:39] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:39] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:40] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:40] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:41] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:41] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:42] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:42] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:43] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:43] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:44] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:44] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:45] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:45] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:46] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:46] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:47] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:47] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:48] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:48] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:49] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:49] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:50] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:50] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:51] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:51] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:52] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:52] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:53] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:53] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:54] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:54] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:55] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:55] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:56] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:56] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:57] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:57] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:58] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:58] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:42:59] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:42:59] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:00] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:00] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:01] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:01] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:02] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:02] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:03] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:03] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:04] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:04] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:05] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:05] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:06] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:06] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:07] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:07] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:07] tAliveTimer : 1분마다 연결 체크
+[16:43:07] TfrmMain.tAliveTimer_1: Socket Error # 10054
+Connection reset by peer.
+[16:43:07] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:08] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:08] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:09] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:09] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:10] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:10] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:11] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:11] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:13] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:13] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:14] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:14] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:15] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:15] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:16] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:16] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:17] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:17] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:18] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:18] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:19] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:19] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:20] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:20] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:21] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:21] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:22] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:22] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:23] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:23] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:24] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:24] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:25] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:25] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:26] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:26] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:27] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:27] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:28] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:28] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:29] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:29] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:30] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:30] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:31] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:31] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:32] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:32] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:33] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:33] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:34] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:34] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:35] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:35] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:36] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:36] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:37] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:37] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:38] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:38] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:39] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:39] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:40] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:40] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:41] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:41] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:42] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:42] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:43] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:43] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:44] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:44] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:45] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:45] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:46] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:46] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:47] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:47] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:48] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:48] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:49] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:49] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:50] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:50] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:51] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:51] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:52] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:52] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:53] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:53] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:54] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:54] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:55] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:55] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:56] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:56] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:57] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:57] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:58] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:58] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:43:59] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:43:59] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:00] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:01] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:02] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:02] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:03] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:03] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:04] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:04] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:05] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:05] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:06] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:06] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:07] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:07] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:07] tAliveTimer : 1분마다 연결 체크
+[16:44:07] TfrmMain.tAliveTimer_1: Socket Error # 10054
+Connection reset by peer.
+[16:44:07] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:08] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:08] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:09] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:09] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:10] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:10] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:11] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:11] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:12] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:12] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:13] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:13] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:14] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:14] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:15] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:15] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:16] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:16] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:17] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:17] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:18] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:18] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:19] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:19] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:20] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:20] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:21] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:21] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:22] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:22] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:23] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:23] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:24] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:24] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:25] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:25] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:26] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:26] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:27] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:27] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:28] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:28] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:29] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:29] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:30] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:30] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:31] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:31] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:32] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:32] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:33] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:33] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:34] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:34] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:35] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:35] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:37] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:37] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:38] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:38] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:39] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:39] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:40] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:40] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:41] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:41] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:42] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:42] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:43] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:43] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:44] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:44] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:45] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:45] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:46] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:46] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:47] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:47] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:48] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:48] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:49] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:49] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:50] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:50] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:51] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:51] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:52] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:52] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:53] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:53] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:54] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:54] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:55] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:55] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:56] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:56] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:57] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:57] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:58] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:58] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:44:59] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:44:59] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:00] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:00] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:01] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:01] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:02] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:02] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:03] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:03] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:04] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:04] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:05] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:05] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:06] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:06] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:07] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:07] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:07] tAliveTimer : 1분마다 연결 체크
+[16:45:07] TfrmMain.tAliveTimer_1: Socket Error # 10054
+Connection reset by peer.
+[16:45:07] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:08] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:08] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:09] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:09] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:10] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:10] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:11] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:11] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:12] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:12] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:13] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:13] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:14] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:14] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:15] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:15] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:16] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:16] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:17] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:17] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:18] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:18] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:19] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:19] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:20] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:20] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:21] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:21] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:22] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:22] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:23] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:23] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:24] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:25] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:26] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:26] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:27] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:27] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:28] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:28] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:29] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:29] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:30] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:30] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:31] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:31] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:32] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:32] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:33] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:33] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:34] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:34] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:35] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:35] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:36] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:36] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:37] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:37] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:38] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:38] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:39] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:39] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:40] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:40] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:41] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:41] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:42] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:42] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:43] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:43] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:44] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:44] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:45] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:45] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:46] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:46] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:47] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:47] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:48] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:48] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:49] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:49] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:50] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:50] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:51] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:51] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:52] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:52] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:53] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:53] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:54] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:54] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:55] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:55] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:56] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:56] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:57] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:57] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:58] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:58] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:45:59] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:45:59] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:00] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:00] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:01] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:01] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:02] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:02] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:03] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:03] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:04] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:04] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:05] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:05] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:06] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:06] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:07] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:07] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:07] tAliveTimer : 1분마다 연결 체크
+[16:46:07] TfrmMain.tAliveTimer_1: Socket Error # 10054
+Connection reset by peer.
+[16:46:07] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:08] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:08] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:09] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:09] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:10] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:10] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:11] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:11] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:12] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:12] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:13] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:14] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:15] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:15] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:16] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:16] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:17] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:17] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:18] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:18] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:19] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:19] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:20] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:20] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:21] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:21] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:22] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:22] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:23] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:23] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:24] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:24] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:25] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:25] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:26] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:26] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:27] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:27] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:28] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:28] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:29] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:29] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:30] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:30] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:31] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:31] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:32] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:32] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:33] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:33] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:34] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:34] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:35] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:35] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:36] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:36] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:37] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:37] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:38] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:38] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:39] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:39] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:40] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:40] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:41] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:41] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:42] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:42] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:43] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:43] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:44] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:44] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:45] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:45] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:46] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:46] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:47] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:47] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:48] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:48] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:49] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:49] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:50] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:50] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:51] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:51] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:52] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:52] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:53] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:53] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:54] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:54] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:55] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:55] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:56] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:56] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:57] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:57] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:58] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:58] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:46:59] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:46:59] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:00] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:00] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:02] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:02] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:03] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:03] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:04] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:04] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:05] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:05] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:06] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:06] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:07] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:07] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:07] tAliveTimer : 1분마다 연결 체크
+[16:47:07] TfrmMain.tAliveTimer_1: Socket Error # 10054
+Connection reset by peer.
+[16:47:07] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:08] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:08] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:09] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:09] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:10] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:10] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:11] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:11] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:12] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:12] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:13] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:13] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:14] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:14] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:15] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:15] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:16] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:16] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:17] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:17] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:18] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:18] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:19] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:19] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:20] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:20] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:21] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:21] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:22] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:22] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:23] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:23] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:24] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:24] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:25] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:25] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:26] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:26] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:27] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:27] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:28] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:28] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:29] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:29] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:30] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:30] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:31] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:31] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:32] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:32] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:33] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:33] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:34] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:34] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:35] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:35] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:36] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:36] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:37] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:37] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:38] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:38] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:39] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:39] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:40] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:40] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:41] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:41] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:42] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:42] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:43] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:43] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:44] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:45] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:46] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:46] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:47] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:47] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:48] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:48] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:49] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:49] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:50] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:50] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:51] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:51] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:52] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:52] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:53] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:53] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:54] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:54] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:55] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:55] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:56] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:56] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:57] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:57] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:58] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:58] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:47:59] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:47:59] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:48:00] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:48:00] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:48:01] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:48:01] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:48:02] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:48:02] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:48:03] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:48:03] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:48:04] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:48:04] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:48:05] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:48:05] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:48:06] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:48:06] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:48:07] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:48:07] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:48:07] tAliveTimer : 1분마다 연결 체크
+[16:48:07] TfrmMain.tAliveTimer_1: Socket Error # 10054
+Connection reset by peer.
+[16:48:07] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:48:08] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:48:08] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:48:09] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:48:09] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:48:10] TfrmMain.tmrRecvKocomTimer: Socket Error # 10054
+Connection reset by peer.
+[16:48:10] TfrmMain.btnBindClick: Socket Error # 10054
+Connection reset by peer.
+[16:48:11] Program Close
+[16:48:11] 종료중 오류Socket Error # 10054
+Connection reset by peer.
+**************************************************************
+[16:48:14] Program Start! (Ver_1.3.3.51)
+[16:48:14] 홈넷예외LPR:
+[16:48:14] [DB저장 모드]
+[16:48:14] TfrmMain.btnModeClick: 유인운영
+[16:48:14] 비로그인
+[16:48:14] 설치된 입구보조 LPR이 없음!
+[16:48:14] 설치된 출구보조 LPR이 없음!
+[16:48:15] 설치된 입구전광판이 없음!
+[16:48:15] 설치된 출구전광판이 없음!
+[16:48:15] csInLpr1 접속성공
+[16:48:15] csOutLpr1 접속성공
+[16:48:15] 코콤서버와 Bind확인 - OK
+[16:48:15] LPR재접속 쓰레드시작
+[16:48:15] 전광판재접속 쓰레드시작
+[16:48:15] 정기권연동 쓰레드시작
+[16:48:15] Main.pas: Line: 26885, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[16:48:15] Main.pas: Line: 26895, [ini]>> 입차LPR수(1), 출차LPR수(0)
+[16:48:15] Main.pas: Line: 26903, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[16:48:15] Main.pas: Line: 26910, [ini]>> LPR이미지폴더(C:\LPRImage)
+[16:48:15] Main.pas: Line: 26917, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[16:48:15] Main.pas: Line: 26929, [ini]>> Home, IP(222.108.131.118),Port(15010),홈넷(2),Ver(1),ID(wiju),PW(wiju1234)
+[16:48:15] Main.pas: Line: 26932, [ini]>> HomeNET, IP(),Port(25008)
+[16:48:15] Main.pas: Line: 26949, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[16:48:16] 방문자 관련 전문이 아님
+[16:48:19] VisitListProcess : Start
+[16:48:20] VisitListProcess : End
+[16:48:21] 방문자 관련 전문이 아님
+[16:48:49] VisitDelProcess : Start
+[16:48:49] VisitAddProcess : 삭제완료
+[16:48:49] VisitDelProcess : End
+[16:48:50] 방문자 관련 전문이 아님
+[16:49:03] VisitListProcess : Start
+[16:49:03] VisitListProcess : End
+[16:49:04] 방문자 관련 전문이 아님
+[16:49:15] tAliveTimer : 1분마다 연결 체크
+[16:49:15] Alive시 코콤서버와 연결확인 - OK
+[16:49:15] 방문자 관련 전문이 아님
+[16:49:16] VisitDelProcess : Start
+[16:49:16] VisitAddProcess : 삭제완료
+[16:49:16] VisitDelProcess : End
+[16:49:17] 방문자 관련 전문이 아님
+[16:49:29] VisitListProcess : Start
+[16:49:29] VisitListProcess : End
+[16:49:30] 방문자 관련 전문이 아님
+[16:49:49] VisitAddProcess : Start
+[16:49:49] VisitAddProcess : 저장완료
+[16:49:49] VisitAddProcess : End
+[16:49:50] 방문자 관련 전문이 아님
+[16:50:01] VisitListProcess : Start
+[16:50:01] VisitListProcess : End
+[16:50:02] 방문자 관련 전문이 아님
+[16:50:08] VisitDelProcess : Start
+[16:50:08] VisitAddProcess : 삭제완료
+[16:50:08] VisitDelProcess : End
+[16:50:09] 방문자 관련 전문이 아님
+[16:50:15] tAliveTimer : 1분마다 연결 체크
+[16:50:15] Alive시 코콤서버와 연결확인 - OK
+[16:50:15] 방문자 관련 전문이 아님
+[16:50:36] VisitPointProcess : Start
+[16:50:36] VisitPointProcess : End
+[16:50:37] 방문자 관련 전문이 아님
+[16:51:15] tAliveTimer : 1분마다 연결 체크
+[16:51:15] Alive시 코콤서버와 연결확인 - OK
+[16:51:15] 방문자 관련 전문이 아님
+[16:52:15] tAliveTimer : 1분마다 연결 체크
+[16:52:15] Alive시 코콤서버와 연결확인 - OK
+[16:52:15] 방문자 관련 전문이 아님
+[16:52:41] Program Close
+[16:52:41] TfrmMain.tmrRecvKocomTimer: Connection Closed Gracefully.
+[16:52:41] 코콤서버와 Bind확인 - OK

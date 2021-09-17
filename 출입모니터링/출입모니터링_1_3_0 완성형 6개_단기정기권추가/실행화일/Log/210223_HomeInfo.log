@@ -1,0 +1,81 @@
+[13:51:45] 
+==========================================
+[13:51:45] Program Start! (Ver_1.3.3.51)
+[13:51:46] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:51:46] Main.pas: Line: 28378, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[13:51:46] EasyOnHomeInfo.pas: Line: 1731,  이지온 소켓생성 성공!
+[13:51:46] EasyOnHomeInfo.pas: Line: 1750,  Open IP:127.0.0.1, Port:42140
+[13:51:46] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:51:47] 127.0.0.1:42140 연결
+[13:53:04] 
+==========================================
+[13:53:04] Program Start! (Ver_1.3.3.51)
+[13:53:05] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:53:05] Main.pas: Line: 28378, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[13:53:05] EasyOnHomeInfo.pas: Line: 1731,  이지온 소켓생성 성공!
+[13:53:05] EasyOnHomeInfo.pas: Line: 1750,  Open IP:127.0.0.1, Port:42140
+[13:53:05] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:53:06] 127.0.0.1:42140 연결
+[13:53:40] 
+==========================================
+[13:53:40] Program Start! (Ver_1.3.3.51)
+[13:53:41] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:53:41] Main.pas: Line: 28379, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[13:53:41] EasyOnHomeInfo.pas: Line: 1731,  이지온 소켓생성 성공!
+[13:53:41] EasyOnHomeInfo.pas: Line: 1750,  Open IP:127.0.0.1, Port:42140
+[13:53:41] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:53:42] 127.0.0.1:42140 연결
+[13:55:03] 
+==========================================
+[13:55:03] Program Start! (Ver_1.3.3.51)
+[13:55:04] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:55:04] Main.pas: Line: 28380, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[13:55:04] EasyOnHomeInfo.pas: Line: 1731,  이지온 소켓생성 성공!
+[13:55:04] EasyOnHomeInfo.pas: Line: 1750,  Open IP:127.0.0.1, Port:42140
+[13:55:04] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:55:05] 127.0.0.1:42140 연결
+[13:55:45] 
+==========================================
+[13:55:45] Program Start! (Ver_1.3.3.51)
+[13:55:46] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:55:46] Main.pas: Line: 28379, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[13:55:46] EasyOnHomeInfo.pas: Line: 1731,  이지온 소켓생성 성공!
+[13:55:46] EasyOnHomeInfo.pas: Line: 1750,  Open IP:127.0.0.1, Port:42140
+[13:55:46] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:55:48] 127.0.0.1:42140 연결
+[13:58:33] 
+==========================================
+[13:58:33] Program Start! (Ver_1.3.3.51)
+[13:58:34] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:58:34] Main.pas: Line: 28377, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[13:58:34] EasyOnHomeInfo.pas: Line: 1731,  이지온 소켓생성 성공!
+[13:58:34] EasyOnHomeInfo.pas: Line: 1750,  Open IP:127.0.0.1, Port:42140
+[13:58:34] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[13:58:35] 127.0.0.1:42140 연결
+[14:09:28] 
+==========================================
+[14:09:28] Program Start! (Ver_1.3.3.51)
+[14:09:29] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[14:09:29] Main.pas: Line: 28381, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:09:29] EasyOnHomeInfo.pas: Line: 1731,  이지온 소켓생성 성공!
+[14:09:29] EasyOnHomeInfo.pas: Line: 1750,  Open IP:127.0.0.1, Port:42140
+[14:09:29] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[14:09:30] 127.0.0.1:42140 연결
+[14:16:04] 
+==========================================
+[14:16:04] Program Start! (Ver_1.3.3.51)
+[14:16:05] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[14:16:05] Main.pas: Line: 28380, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:16:05] EasyOnHomeInfo.pas: Line: 1731,  이지온 소켓생성 성공!
+[14:16:05] EasyOnHomeInfo.pas: Line: 1750,  Open IP:127.0.0.1, Port:42140
+[14:16:05] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[14:16:07] 127.0.0.1:42140 연결
+[14:19:44] 
+==========================================
+[14:19:44] Program Start! (Ver_1.3.3.51)
+[14:19:45] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[14:19:45] Main.pas: Line: 28377, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[14:19:45] EasyOnHomeInfo.pas: Line: 1731,  이지온 소켓생성 성공!
+[14:19:45] EasyOnHomeInfo.pas: Line: 1750,  Open IP:127.0.0.1, Port:42140
+[14:19:45] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[14:19:46] 127.0.0.1:42140 연결

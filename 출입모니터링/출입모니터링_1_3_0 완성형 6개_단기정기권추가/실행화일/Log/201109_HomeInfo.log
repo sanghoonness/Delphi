@@ -1,0 +1,25 @@
+[08:31:42] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[08:31:42] Main.pas: Line: 20812, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[08:31:42] EasyOnHomeInfo.pas: Line: 1729,  이지온 소켓생성 성공!
+[08:31:42] EasyOnHomeInfo.pas: Line: 1748,  Open IP:10.22.33.1, Port:42140
+[08:31:42] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[08:32:40] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[08:32:40] Main.pas: Line: 20812, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[08:32:40] EasyOnHomeInfo.pas: Line: 1729,  이지온 소켓생성 성공!
+[08:32:40] EasyOnHomeInfo.pas: Line: 1748,  Open IP:10.22.33.1, Port:42140
+[08:32:40] 단지서버(홈넷) Ping 정상! (단지서버 IP-10.22.33.1)
+[08:32:57] 홈넷전송가능 LPR: 71
+[08:32:57] EasyOnHomeInfo.pas: Line: 1557,  >>> Homeinfo_proc_EasyOn(10.22.33.1,42140,811,8001,99가9999,입차)
+[08:32:57] EasyOnHomeInfo.pas: Line: 1679,  Send json..
+[08:32:57] EasyOnHomeInfo.pas: Line: 265,  TCP/IP(10.22.33.1,42140) 서버가 연결되지 않았습니다.
+[08:32:57] EasyOnHomeInfo.pas: Line: 1685,  <<< Homeinfo_proc_EasyOn(..)
+[17:35:33] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:35:33] Main.pas: Line: 21028, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[17:35:33] EasyOnHomeInfo.pas: Line: 1728,  이지온 소켓생성 성공!
+[17:35:33] EasyOnHomeInfo.pas: Line: 1747,  Open IP:10.22.33.1, Port:42140
+[17:35:33] 2번째 홈넷서버 Ping 실패!
+[17:36:22] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:36:22] Main.pas: Line: 21028, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[17:36:22] EasyOnHomeInfo.pas: Line: 1728,  이지온 소켓생성 성공!
+[17:36:22] EasyOnHomeInfo.pas: Line: 1747,  Open IP:10.22.33.1, Port:42140
+[17:36:23] 2번째 홈넷서버 Ping 실패!

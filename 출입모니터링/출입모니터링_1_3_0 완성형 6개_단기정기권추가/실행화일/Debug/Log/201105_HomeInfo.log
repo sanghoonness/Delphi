@@ -1,0 +1,18 @@
+[10:57:12] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[10:57:12] Main.pas: Line: 20684, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[10:59:03] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[10:59:03] Main.pas: Line: 20684, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[11:00:50] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[11:00:50] Main.pas: Line: 20684, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[11:02:37] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[11:02:37] Main.pas: Line: 20684, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[11:04:46] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[11:05:13] Main.pas: Line: 20684, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[11:05:58] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[11:06:21] Main.pas: Line: 20684, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[11:08:25] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[11:08:37] Main.pas: Line: 20684, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[11:08:37] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[11:12:06] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[11:12:06] Main.pas: Line: 20684, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[11:12:06] EasyOnHomeInfo.pas: Line: 1665,  이지온 소켓생성 성공!

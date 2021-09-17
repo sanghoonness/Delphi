@@ -1,0 +1,220 @@
+[10:10:14] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[10:10:14] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[10:10:15] 127.0.0.1:42140 연결
+[10:11:10] 미들웨어 서버수신:{"command":"visit_list","data":{"dong":"123","ho":"456","page":"1","count":"10"}}
+[10:11:32] {"command":"visit_list","data":{"page":"1","list_count":"2","remain_page":"1","list":[{"reg_no":"0275232796/0187761187","car_number":"66육6666/55너5555","term":"1/0","visit_flag":"N/N"}]},"result":{"status":"200","message":"ok"}}
+[10:11:32] 서버수신:{"command":"visit_list","data":{"dong":"123","ho":"456","page":"1","count":"10"}}
+[10:12:37] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[10:12:37] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[10:12:38] 127.0.0.1:42140 연결
+[10:13:00] 미들웨어 서버수신:{"command":"visit_list","data":{"dong":"123","ho":"456","page":"1","count":"10"}}
+[10:13:13] {"command":"visit_list","data":{"page":"1","list_count":"2","remain_page":"1","list":[{"reg_no":"0275232796/0187761187","car_number":"66육6666/55너5555","term":"2/1","visit_flag":"N/N"}]},"result":{"status":"200","message":"ok"}}
+[10:13:13] 서버수신:{"command":"visit_list","data":{"dong":"123","ho":"456","page":"1","count":"10"}}
+[17:38:02] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:38:02] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:38:12] 127.0.0.1:42140 연결
+[17:39:00] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:39:00] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:39:01] 127.0.0.1:42140 연결
+[17:39:03] 미들웨어 서버수신:{"command":"visit_list","data":{"dong":"123","ho":"456","page":"1","count":"10"}}
+[17:39:03] {"command":"visit_list","data":{"page":"1","list_count":"2","remain_page":"1","list":[{"reg_no":"0275232796/0187761187","car_number":"66육6666/55너5555","term":"2/1","visit_flag":"N/N"}]},"result":{"status":"200","message":"ok"}}
+[17:39:03] 서버수신:{"command":"visit_list","data":{"dong":"123","ho":"456","page":"1","count":"10"}}
+[17:41:22] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"all/family/visitor","page":"1","count":"10"}}
+[17:42:05] {"command":"incar_list","data":{"page":"1","list_count":"0","remain_page":"1","list":[{"type":"all/family/visitor"}]},"result":{"status":"204","message":"정기차량 정보가 없습니다."}}
+[17:42:05] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"all/family/visitor","page":"1","count":"10"}}
+[17:42:40] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[17:42:56] {"command":"incar_list","data":{"page":"1","list_count":"0","remain_page":"1","list":[{"car_number":"55너5555/66육6666","type":"family"}]},"result":{"status":"204","message":"정기차량 정보가 없습니다."}}
+[17:42:56] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[17:43:13] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[17:46:37] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:46:37] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:46:38] 127.0.0.1:42140 연결
+[17:47:30] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:47:30] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:47:31] 127.0.0.1:42140 연결
+[17:47:34] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[17:48:56] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:48:56] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:48:57] 127.0.0.1:42140 연결
+[17:49:15] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[17:49:51] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:49:51] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:49:52] 127.0.0.1:42140 연결
+[17:49:57] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[17:50:17] {"command":"incar_list","data":{"page":"1","list_count":"2","remain_page":"1","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[17:50:17] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[17:53:58] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:53:58] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:53:59] 127.0.0.1:42140 연결
+[17:54:06] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[17:54:54] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:54:54] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:54:55] 127.0.0.1:42140 연결
+[17:55:04] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[17:55:05] {"command":"incar_list","data":{"page":"1","list_count":"2","remain_page":"1","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[17:55:05] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[17:55:58] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:55:58] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:55:59] 127.0.0.1:42140 연결
+[17:56:00] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"2"}}
+[17:56:02] {"command":"incar_list","data":{"page":"1","list_count":"2","remain_page":"0","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[17:56:02] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"2"}}
+[17:56:20] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[17:56:45] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:56:45] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:56:46] 127.0.0.1:42140 연결
+[17:56:59] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"2"}}
+[17:57:37] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:57:37] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:57:38] 127.0.0.1:42140 연결
+[17:57:47] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"3"}}
+[17:58:11] {"command":"incar_list","data":{"page":"1","list_count":"2","remain_page":"0","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[17:58:11] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"3"}}
+[18:02:48] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:02:48] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:02:49] 127.0.0.1:42140 연결
+[18:02:54] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[18:02:58] {"command":"incar_list","data":{"page":"1","list_count":"2","remain_page":"0","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:02:58] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[18:04:06] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:04:06] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:04:07] 127.0.0.1:42140 연결
+[18:04:07] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"10"}}
+[18:04:08] {"command":"incar_list","data":{"page":"1","list_count":"2","remain_page":"0","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:04:08] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"10"}}
+[18:04:29] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:04:29] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:04:30] 127.0.0.1:42140 연결
+[18:04:39] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"10"}}
+[18:05:20] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:05:20] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:05:20] 127.0.0.1:42140 연결
+[18:05:21] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"20"}}
+[18:05:23] {"command":"incar_list","data":{"page":"1","list_count":"2","remain_page":"0","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:05:23] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"20"}}
+[18:05:43] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"20"}}
+[18:06:42] {"command":"incar_list","data":{"page":"1","list_count":"2","remain_page":"0","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:06:42] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"20"}}
+[18:09:40] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:09:40] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:09:41] 127.0.0.1:42140 연결
+[18:09:47] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[18:09:49] {"command":"incar_list","data":{"page":"1","list_count":"2","remain_page":"1","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:09:49] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[18:11:18] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:11:18] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:11:19] 127.0.0.1:42140 연결
+[18:11:24] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[18:12:37] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:12:37] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:12:38] 127.0.0.1:42140 연결
+[18:12:41] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[18:13:05] {"command":"incar_list","data":{"page":"0","list_count":"2","remain_page":"0","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:13:05] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[18:13:08] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"3"}}
+[18:13:18] {"command":"incar_list","data":{"page":"0","list_count":"2","remain_page":"0","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:13:18] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"3"}}
+[18:13:47] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:13:47] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:13:47] 127.0.0.1:42140 연결
+[18:13:58] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"3"}}
+[18:14:00] {"command":"incar_list","data":{"page":"1","list_count":"2","remain_page":"0","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:14:00] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"3"}}
+[18:14:40] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"20"}}
+[18:14:42] {"command":"incar_list","data":{"page":"1","list_count":"2","remain_page":"0","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:14:42] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"20"}}
+[18:15:38] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:15:38] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:15:39] 127.0.0.1:42140 연결
+[18:15:49] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"20"}}
+[18:15:50] {"command":"incar_list","data":{"page":"0","list_count":"2","remain_page":"2","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:15:50] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"20"}}
+[18:16:13] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"20"}}
+[18:16:51] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:16:51] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:16:52] 127.0.0.1:42140 연결
+[18:17:08] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"20"}}
+[18:17:10] {"command":"incar_list","data":{"page":"1","list_count":"2","remain_page":"1","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:17:10] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"20"}}
+[18:17:35] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"10"}}
+[18:17:36] {"command":"incar_list","data":{"page":"1","list_count":"2","remain_page":"1","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:17:36] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"10"}}
+[18:17:47] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"3","count":"10"}}
+[18:17:48] {"command":"incar_list","data":{"page":"1","list_count":"2","remain_page":"1","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:17:48] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"3","count":"10"}}
+[18:18:03] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"3","count":"10"}}
+[18:18:39] {"command":"incar_list","data":{"page":"1","list_count":"2","remain_page":"1","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:18:39] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"3","count":"10"}}
+[18:19:20] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:19:20] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:19:21] 127.0.0.1:42140 연결
+[18:19:31] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"3","count":"10"}}
+[18:20:04] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:20:04] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:20:05] 127.0.0.1:42140 연결
+[18:20:18] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"3","count":"10"}}
+[18:20:37] {"command":"incar_list","data":{"page":"1","list_count":"3","remain_page":"2","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:20:37] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"3","count":"10"}}
+[18:21:53] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:21:53] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:21:53] 127.0.0.1:42140 연결
+[18:22:10] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"3","count":"10"}}
+[18:22:12] {"command":"incar_list","data":{"page":"1","list_count":"4","remain_page":"3","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:22:13] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"3","count":"10"}}
+[18:24:07] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:24:07] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:24:08] 127.0.0.1:42140 연결
+[18:24:19] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"10"}}
+[18:24:20] {"command":"incar_list","data":{"page":"1","list_count":"4","remain_page":"4","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:24:20] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"10"}}
+[18:26:07] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:26:07] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:26:08] 127.0.0.1:42140 연결
+[18:26:17] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"10"}}
+[18:26:19] {"command":"incar_list","data":{"page":"1","list_count":"4","remain_page":"2","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:26:19] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"10"}}
+[18:26:55] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:26:55] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:26:56] 127.0.0.1:42140 연결
+[18:27:14] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"3","count":"10"}}
+[18:27:19] {"command":"incar_list","data":{"page":"1","list_count":"4","remain_page":"2","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:27:19] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"3","count":"10"}}
+[18:27:40] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:27:40] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:27:41] 127.0.0.1:42140 연결
+[18:27:44] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"10"}}
+[18:27:45] {"command":"incar_list","data":{"page":"1","list_count":"4","remain_page":"1","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:27:45] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"2","count":"10"}}
+[18:28:04] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:28:04] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:28:05] 127.0.0.1:42140 연결
+[18:28:13] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"6","count":"10"}}
+[18:28:14] {"command":"incar_list","data":{"page":"1","list_count":"2","remain_page":"5","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:28:14] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"6","count":"10"}}
+[18:28:39] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"4","count":"30"}}
+[18:28:41] {"command":"incar_list","data":{"page":"1","list_count":"2","remain_page":"3","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:28:41] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"4","count":"30"}}
+[18:29:29] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:29:29] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:29:30] 127.0.0.1:42140 연결
+[18:29:39] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"4","count":"10"}}
+[18:29:41] {"command":"incar_list","data":{"page":"2","list_count":"11","remain_page":"2","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:29:41] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"4","count":"10"}}
+[18:32:58] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:32:58] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:32:59] 127.0.0.1:42140 연결
+[18:33:13] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"3","count":"10"}}
+[18:33:39] {"command":"incar_list","data":{"page":"2","list_count":"11","remain_page":"1","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:33:39] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"3","count":"10"}}
+[18:35:19] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:35:19] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:35:20] 127.0.0.1:42140 연결
+[18:35:24] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[18:35:25] {"command":"incar_list","data":{"page":"1","list_count":"9","remain_page":"0","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:35:25] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[18:52:02] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:52:02] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[18:52:03] 127.0.0.1:42140 연결
+[18:52:06] 미들웨어 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}
+[18:52:06] {"command":"incar_list","data":{"page":"2","list_count":"11","remain_page":"-1","list":[{"car_number":"55너5555/66육6666","type":"family","date_time":"20201015182039/20201015182100"}]},"result":{"status":"200","message":"ok"}}
+[18:52:06] 서버수신:{"command":"incar_list","data":{"dong":"123","ho":"456","type":"family","page":"1","count":"10"}}

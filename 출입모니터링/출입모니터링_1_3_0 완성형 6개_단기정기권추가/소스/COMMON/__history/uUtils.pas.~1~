@@ -1,0 +1,1647 @@
+unit uUtils;
+
+interface
+uses
+   System.SysUtils
+  ,uFrameContext
+  ,System.IniFiles
+  ,Winapi.Messages
+  ,Winapi.TlHelp32
+  ,DateUtils
+  ,FMX.Dialogs
+  {$IFDEF MSWINDOWS}
+    ,winapi.shellapi
+    ,Winapi.Windows
+  {$ENDIF}
+  {$IFDEF POSIX}
+    ,Posix.Stdlib
+  {$ENDIF POSIX}
+  ,uSkinFireMonkeyLabel
+  ,uSkinLabelType
+  ,uSkinMultiColorLabelType
+  ,uSkinFireMonkeyMultiColorLabel
+  ,System.strUtils
+  ,System.Types
+  ,System.UITypes
+  ,System.Classes
+  ,System.Variants
+
+  ,Winsoft.FireMonkey.FComPort
+  ,uDefines
+  //,uCpuUsage
+  ;
+
+function fGetCpuAvg(): string;
+procedure KillProcess(hWindowHandle: HWND);
+function ExecuteFile( const filename ,
+                            Params ,
+                            DefaultDir : string;
+                            ShowCmd    : integer ): THandle;
+function KillTask(ExeFileName: string): Integer;
+function GetFmtFileVersion( const FileName: String = '';
+                            const Fmt     : String = '%d.%d.%d.%d' ): String;
+function StrToByte(const Value: AnsiString): TBytes;
+function ByteToStr(const Value: TBytes): AnsiString;
+function Hex2Dec(const S: string): Longint;
+function HexStrToByte(const Value: AnsiString): TBytes;
+function fDuplicateRun( sFile: String ) : Boolean;
+function IfThen(c: boolean; a, b: string): string;
+
+procedure GetSvrConInfoOnINI();
+function ExistsTheProcess( exeFileName: string ): Boolean;
+procedure InitWorkStep();
+
+//{Start} 현금(지폐,동전) 매진처리..
+procedure StartWorkStep();
+//{End} 현금(지폐,동전) 매진처리..
+
+function GetMonthFirstDay( ADateTime: TDateTime ):TDateTime;
+function GetCurrentMonth( Month: TDateTime ):String;
+
+function  Set2359( dtOrigin: TDateTime ): TDateTime;
+procedure GetTheYYYYMM( var nYEAR: Integer; var nMONTH: Integer; var nDAY: Integer; dtThe: TDateTime );
+
+procedure GetTheHHMM( var nHOUR: Integer; var nMIN: Integer; dtThe: TDateTime );
+procedure GetTheAdd1Hour( var nHOUR: Integer; var nMIN: Integer; dtThe: TDateTime );
+
+function GetAmPmHour( nHOUR: Integer ): string;
+function GetCommaPriceEx( nPrice: Integer ): string;
+function GetCommaPrice( nPrice: Integer ): string;
+function GetnPricewithComma( sPrice: string ): Integer;
+function GetsPriceWithComma( sPrice: string ): string;  // 금액에 콤마(,)처리
+
+procedure SetSkinFMXMultiColorLabel( var lbl: TSkinFMXMultiColorLabel; sKEY: string; sVALUE: string );
+
+function ModifyPhoneNumWithDASI( vTelNo: string): string;
+procedure SetWorkStep( nVALUE: Integer );
+
+function GetDigit( sVALUE: string ): string;
+function GetRemainDateTimeFromNow( dtTo: TDateTime; stREMAIN : ST_REMAIN_TIME ): string;
+function GetRemainDateTimeFromNowEx( dtTo: TDateTime; stREMAIN : ST_REMAIN_TIME ): string;
+
+function TimeLeft( StartTime, EndTime, dtThe: TDateTime ): Boolean;
+function GetTodayWeek(): string;
+function ReplaceNameAsStar( sName: string ): string;
+function GetHHMMSS( dtThe: TDateTime ): string;
+function GetHHMM( dtThe: TDateTime ): string;
+function GetYYYYMMDD(): string;
+function GetYYYYMMDDEx(): string;
+function GetMMDD( sThe: string ): string;
+function GetMMDDEx( dtThe: TDateTime ): string;
+
+function GetYoursTICKETSInfo( stTickets: ST_SET_TICKETS; var sVALUE: string ): string; overload;
+function GetYoursTICKETSInfo( stTickets: ST_SET_TICKETS; I: Integer ): string; overload;
+
+function GetCaptionByUnit( nUNIT, nVALUE: Integer ): string;
+function GetCaptionWithPriceByUnit( nUNIT, nVALUE, nPRICE: Integer ): string;
+
+function GetIdFromPhoneNum( sVALUE: string ): string;
+function GetPwFromPhoneNum( sVALUE: string ): string;
+
+function GetTodysRD(): string;
+function GetRD( dtThe: TDateTime ): string;
+function GetToday(): string;
+function GetTheHoursUntil( dtUntil: TTime; var nMin: Integer ): Integer;
+function GetTomorrowTheTime( dtUntil: TTime ): TDateTime;
+function GetUnitAsString( nUnit: Integer ): string;
+function GetServiceAsString( nService: Integer ): string;
+
+function IntToKorNum( AValue: Int64 ): string;
+function GetEnumBysProduct( sProduct: string ): TStep02;
+function GetTodayDtFrom( tTheTime: TTime ): TDateTime;
+
+function Init_Set_Sms_buf(): ST_SEND_SMS;
+function Init_Get_Sms_buf(): ST_SET_SEND_SMS;
+
+function Get_DateTime( nYear, nMonth, nDay: Integer; sHHMMSS: string ): TDateTime;
+procedure SetBasicTime( nHour, nMin: Integer );
+
+procedure ClearPictureDictionary();
+function AddPictureDictionary( sKey: string; obj: ST_PIC_SUCH ): Integer;
+function GetPictureDictionary( sKey: string ): ST_PIC_SUCH;
+
+function GetLen( sVALUE: AnsiString ): Integer; overload;
+function GetLen( sVALUE: String ): Integer; overload;
+
+var
+  g_hWnd : THandle;
+
+implementation
+
+uses
+   uDM
+  ,uCPUInfo
+  ;
+
+function GetLen( sVALUE: AnsiString ): Integer;
+begin
+  Result := Length( sVALUE );
+end;
+
+function GetLen( sVALUE: String ): Integer;
+begin
+  Result := Length( sVALUE );
+end;
+
+procedure ClearPictureDictionary();
+var
+  sKey: string;
+begin
+  sKey := '';
+  for sKey in g_dic_pic_such.Keys do
+  begin
+    if( Assigned( g_dic_pic_such.Items[sKey].iPIC ) )then
+    begin
+      g_dic_pic_such.Items[sKey].iPIC.Free;
+    end;
+    g_dic_pic_such.Remove(sKey);
+  end;
+  g_dic_pic_such.Clear;
+end;
+
+function AddPictureDictionary( sKey: string; obj: ST_PIC_SUCH ): Integer;
+begin
+  g_dic_pic_such.Add( sKey, obj );
+end;
+
+function GetPictureDictionary( sKey: string ): ST_PIC_SUCH;
+begin
+  FillChar( Result, SizeOf(ST_PIC_SUCH), #0 );
+
+  if( g_dic_pic_such.Count > 0 )then
+  begin
+    try
+      try
+        if( sKey <> '' )then
+        begin
+          Result := g_dic_pic_such.Items[ sKey ];
+        end;
+      except
+        on E : Exception do
+        begin
+          ;
+        end;
+      end;
+    finally
+      ;
+    end;
+  end;
+end;
+
+procedure SetBasicTime( nHour, nMin: Integer );
+var
+  sTemp: string;
+  nTemp: Integer;
+begin
+  FillChar( g_start_room_time, SizeOf( ST_START_ROOM_TIME ), 0 );
+
+  g_start_room_time.nHour := nHour;
+  g_start_room_time.nMin  := nMin ;
+
+  g_start_room_time.nOrigin := (g_start_room_time.nHour * 100) + g_start_room_time.nMin;
+  g_start_room_time.sTemp := Format( '%.2d:%.2d', [g_start_room_time.nHour, g_start_room_time.nMin] );
+  //lbl_the_value.Text := sTemp;
+
+  g_start_room_time.nTemp := g_start_room_time.nMin div 10;
+
+  //lbHOUR.Properties.Items[ g_start_room_time.nHour ].Selected := True;
+  //lbMIN .Properties.Items[ g_start_room_time.nTemp ].Selected := True;
+
+  g_start_room_time.nSHour := g_start_room_time.nHour;
+  g_start_room_time.nSMin  := g_start_room_time.nMin;
+
+end;
+
+function Get_DateTime( nYear, nMonth, nDay: Integer; sHHMMSS: string ): TDateTime;
+var
+ sDT: string;
+begin
+  sDT := Format( '%.4d-%.2d-%.2d %s', [nYEAR, nMONTH, nDAY, sHHMMSS] );
+  Result := StrToDateTime( sDT );
+end;
+
+function Init_Set_Sms_buf(): ST_SEND_SMS;
+begin
+  FillChar( g_set_send_sms, SizeOf( ST_SEND_SMS ), 0 );
+  Result := g_set_send_sms;
+end;
+
+function Init_Get_Sms_buf(): ST_SET_SEND_SMS;
+begin
+  FillChar( g_get_send_sms, SizeOf( ST_SET_SEND_SMS ), 0 );
+  Result := g_get_send_sms;
+end;
+
+function GetEnumBysProduct( sProduct: string ): TStep02;
+begin
+       if( sProduct = '회원제' )then
+  begin
+    Result := pt02_1회원제;
+  end
+  else if( sProduct = '시간제' )then
+  begin
+    Result := pt02_2시간제;
+  end
+  else if( sProduct = '금액제' )then
+  begin
+    Result := pt02_3금액제;
+  end
+  else if( sProduct = '지정석' )then
+  begin
+    Result := pt02_4지정석;
+  end
+  else if( sProduct = '주중주간제' )then
+  begin
+    Result := pt02_5주중_주간제;
+  end
+  else if( sProduct = '주중야간제' )then
+  begin
+    Result := pt02_6주중_야간제;
+  end
+  else if( sProduct = '주말주간제' )then
+  begin
+    Result := pt02_7주말_주간제;
+  end
+  else if( sProduct = '주말야간제' )then
+  begin
+    Result := pt02_8주말_야간제;
+  end;
+end;
+
+function GetServiceAsString( nService: Integer ): string;
+var
+  nDigit: Integer;
+begin
+  if( nService >= 10000 )then
+  begin
+    nDigit := nService div 10000;
+    Result := IntToStr( nDigit );
+  end
+  else
+  begin
+    Result := IntToStr( nService );
+  end;
+end;
+
+function IntToKorNum( AValue: Int64 ): string;
+const
+  NumberChar  : array[0..9] of Ansistring = ('영','일','이','삼','사','오','육','칠','팔','구');
+  LevelChar   : array[0..3] of Ansistring = ('','십','백','천');
+  DecimalChar : array[0..5] of Ansistring = ('','만','억','조','경','현');
+var
+  n1, n2, n3: Integer;
+  vStr: string;
+  vDecimal: Boolean;
+  i, vLevel: Integer;
+begin
+  Result   := '';
+  vStr     := IntToStr( AValue );
+  vDecimal := False;
+
+  for I := 0 to Length(vStr) do
+  begin
+    vLevel := Length( vStr ) - i;
+    if( vStr[i] <> '0' )then
+    begin
+      vDecimal := True;
+      if vLevel mod 4 = 0 then
+      begin
+        n1 := Integer( vStr[i] );
+        n2 := vLevel div 4;
+        Result   := Result + NumberChar[n1] + Decimalchar[n2];
+        vDecimal := False;
+      end
+      else
+      begin
+        n1 := Integer( vStr[i] );
+        n2 := vLevel mod 4;
+        Result := Result + NumberChar[n1] + Decimalchar[n2];
+      end;
+    end
+    else if( vLevel mod 4 = 0) and vDecimal then
+    begin
+      Result   := Result + DecimalChar[ vLevel div 4 ];
+      vDecimal := False;
+    end;
+  end;
+end;
+
+function GetUnitAsString( nUnit: Integer ): string;
+begin
+  case nUnit of
+    0: Result := '미설정';
+    1: Result := '분';
+    2: Result := '시간';
+    3: Result := '날짜';
+    4: Result := '주';
+    5: Result := '년';
+    6: Result := '원';//'만원';
+  end;
+end;
+
+function GetTodayDtFrom( tTheTime: TTime ): TDateTime;
+var
+  nYear, nMonth, nDay : Integer;   // 오늘
+begin
+  GetTheYYYYMM( nYear, nMonth, nDay, Now );
+  Result := EncodeDate( nYear, nMonth, nDay) +Frac( tTheTime );
+end;
+
+function GetTomorrowTheTime( dtUntil: TTime ): TDateTime;
+var
+  nYear2, nMonth2, nDay2 : Integer;   // 내일
+  dtNow,
+  dtTomorrow: TDateTime;
+begin
+  dtTomorrow := IncDay( Now );
+  GetTheYYYYMM( nYear2, nMonth2, nDay2, dtTomorrow );
+
+  Result := EncodeDate( nYear2, nMonth2, nDay2) +Frac( dtUntil );
+end;
+
+function GetTheHoursUntil( dtUntil: TTime; var nMin: Integer ): Integer;
+var
+  nTemp,
+  nYear1, nMonth1, nDay1 {, nHour1, nMin1}: Integer;   // 오늘(현재)
+  nYear2, nMonth2, nDay2 {, nHour2, nMin2}: Integer;   // 내일
+  dtNow,
+  dtTomorrow,
+  dt1, dt2, dt : TDateTime;
+begin
+  dtNow := Now();
+  GetTheYYYYMM( nYear1, nMonth1, nDay1, dtNow );
+  dtTomorrow := IncDay( dtNow );
+  GetTheYYYYMM( nYear2, nMonth2, nDay2, dtTomorrow );
+
+  dt1 := dtNow;
+  dt2 := EncodeDate(nYear2, nMonth2, nDay2) +Frac( dtUntil );
+
+  nTemp  := MinutesBetween( dt1, dt2 );
+  Result := nTemp div 60;
+  nMin   := nTemp mod 60;
+end;
+
+function GetToday(): string;
+begin
+  Result := FormatDateTime('DD',Now);
+end;
+
+function GetTodysRD(): string;
+begin
+  Result := FormatDateTime('YYYYMMDD',Now);
+end;
+
+function GetRD( dtThe: TDateTime ): string;
+begin
+  Result := FormatDateTime('YYYYMMDD',dtThe);
+end;
+
+
+function GetIdFromPhoneNum( sVALUE: string ): string;
+var
+  nLen: Integer;
+begin
+  Result := '';
+  nLen   := Length( sVALUE );
+  if( nLen > 8 )then
+  begin
+    Result := Copy( sVALUE, nLen-7, nLen-7 );
+  end;
+end;
+
+function GetPwFromPhoneNum( sVALUE: string ): string;
+var
+  nLen: Integer;
+begin
+  Result := '';
+  nLen   := Length( sVALUE );
+  if( nLen > 8 )then
+  begin
+    Result := Copy( sVALUE, nLen-3, nLen-1 );
+  end;
+end;
+
+function GetCaptionWithPriceByUnit( nUNIT, nVALUE, nPRICE: Integer ): string;
+var
+  nTemp,
+  nTemp2: Integer;
+begin
+  Result := '';
+  case nUNIT of
+    {분}1: begin Result := Format('%d분 (%s)'   , [ nVALUE, GetCommaPrice(nPRICE) +'원' ] ); end;
+    {시}2: begin Result := Format('%d시간 (%s)' , [ nVALUE, GetCommaPrice(nPRICE) +'원' ] ); end;
+    {일}3: begin Result := Format('%d일 (%s)'   , [ nVALUE, GetCommaPrice(nPRICE) +'원' ] ); end;
+    {주}4: begin Result := Format('%d주 (%s)'   , [ nVALUE, GetCommaPrice(nPRICE) +'원' ] ); end;
+    {년}5: begin Result := Format('%d년 (%s)'   , [ nVALUE, GetCommaPrice(nPRICE) +'원' ] ); end;
+  //{원}6: begin Result := Format('%d원 (%s)'   , [ nVALUE, GetCommaPrice(nPRICE) +'원' ] ); end;
+    {원}6:
+    begin
+      Result := GetCommaPrice( nVALUE )+ '원';
+      {
+      if( nVALUE > 10000 )then
+      begin
+        nTemp  := nVALUE div 10000;
+        nTemp2 := nVALUE mod 10000;
+        if( nTemp2 = 0 )then
+        begin
+          Result := Format('%d만원 (%s)'  , [ nTemp, GetCommaPrice(nPRICE) ] );
+        end
+        else
+        begin
+          Result := Format('%d원 (%s)'  , [ nVALUE, GetCommaPrice(nPRICE) ] );
+        end;
+      end
+      else
+      begin
+        Result := Format('%d원 (%s)'  , [ nVALUE, GetCommaPrice(nPRICE) ] );
+      end;
+      }
+    end;
+  end;
+end;
+
+function GetCaptionByUnit( nUNIT, nVALUE: Integer ): string;
+var
+  nTemp,
+  nTemp2: Integer;
+begin
+  Result := '';
+  case nUNIT of
+    {분}1:
+    begin
+      //Result := Format('%d분'  , [ nVALUE ] );
+      if( nVALUE >= 60 )then
+      begin
+        nTemp  := nVALUE div 60;
+        nTemp2 := nVALUE mod 60;
+        Result := Format('%d시간 %.2d분', [ nTemp, nTemp2 ] );
+      end
+      else
+      begin
+        Result := Format('0시간 %.2d분', [ nTemp ] );
+      end;
+    end;
+    {시}2: begin Result := Format('%d시간', [ nVALUE ] ); end;
+    {일}3: begin Result := Format('%d일'  , [ nVALUE ] ); end;
+    {주}4: begin Result := Format('%d주'  , [ nVALUE ] ); end;
+    {년}5: begin Result := Format('%d년'  , [ nVALUE ] ); end;
+    {원}6:
+    begin
+      Result := GetCommaPrice( nVALUE ) + '원';
+      {
+      if( nVALUE >= 10000 )then
+      begin
+        nTemp  := nVALUE div 10000;
+        nTemp2 := nVALUE mod 10000;
+        if( nTemp2 = 0 )then
+        begin
+          Result := Format('%d만원'  , [ nTemp ] );
+        end
+        else
+        begin
+          Result := Format('%d원'  , [ nVALUE ] );
+        end;
+      end
+      else
+      begin
+        Result := Format('%d원'  , [ nVALUE ] );
+      end;
+      }
+    end;
+
+  end;
+end;
+
+function GetYoursTICKETSInfo( stTickets: ST_SET_TICKETS; I: Integer ): string;
+var
+  sTEMP: string;
+begin
+  Result := '';
+
+  if( stTickets.DATA[I].sMETHOD = '회원제' )then
+  begin
+    g_work_step.sSelectedTICKET := '회원제';
+    sTEMP := GetRemainDateTimeFromNowEx( stTickets.DATA[I].dtED,
+                                         stTickets.DATA[I].stREMAIN );
+    Result := Format( '(%s:%sD)', [stTickets.DATA[I].sMETHOD, sTEMP] );
+  end
+  else if( stTickets.DATA[I].sMETHOD = '금액제' )then
+  begin
+    g_work_step.sSelectedTICKET := '금액제';
+    sTEMP := GetCommaPriceEx( stTickets.DATA[I].nMEMBERFEE );
+    Result := Format( '(%s:￦%s)', [stTickets.DATA[I].sMETHOD, sTEMP] );
+  end
+  else if( stTickets.DATA[I].sMETHOD = '시간제' )then
+  begin
+    g_work_step.sSelectedTICKET := '시간제';
+    sTEMP := IntToStr( stTickets.DATA[I].nTMR  ); //+ '시간'; //+
+           //IntToStr( stTickets.DATA[0].nTMR2 ) + '분';
+    Result := Format( '(%s:%sH)', [stTickets.DATA[I].sMETHOD, sTEMP] );
+  end
+  else if( stTickets.DATA[I].sMETHOD = '주중주간제' )then
+  begin
+    g_work_step.sSelectedTICKET := '주중주간제';
+    sTEMP := GetRemainDateTimeFromNowEx( stTickets.DATA[I].dtED,
+                                         stTickets.DATA[I].stREMAIN );
+    Result := Format( '(%s:%sD)', [stTickets.DATA[I].sMETHOD, sTEMP] );
+  end
+  else if( stTickets.DATA[I].sMETHOD = '주중야간제' )then
+  begin
+    g_work_step.sSelectedTICKET := '주중야간제';
+    sTEMP := GetRemainDateTimeFromNowEx( stTickets.DATA[I].dtED,
+                                         stTickets.DATA[I].stREMAIN );
+    Result := Format( '(%s:%sD)', [stTickets.DATA[I].sMETHOD, sTEMP] );
+  end
+  else if( stTickets.DATA[I].sMETHOD = '주말주간제' )then
+  begin
+    g_work_step.sSelectedTICKET := '주말주간제';
+    sTEMP := GetRemainDateTimeFromNowEx( stTickets.DATA[I].dtED,
+                                         stTickets.DATA[I].stREMAIN );
+    Result := Format( '(%s:%sD)', [stTickets.DATA[I].sMETHOD, sTEMP] );
+  end
+  else if( stTickets.DATA[I].sMETHOD = '주말야간제' )then
+  begin
+    g_work_step.sSelectedTICKET := '주말야간제';
+    sTEMP := GetRemainDateTimeFromNowEx( stTickets.DATA[I].dtED,
+                                         stTickets.DATA[I].stREMAIN );
+    Result := Format( '(%s:%sD)', [stTickets.DATA[I].sMETHOD, sTEMP] );
+  end;
+
+end;
+
+function GetYoursTICKETSInfo( stTickets: ST_SET_TICKETS; var sVALUE: string ): string;
+var
+  I: Integer;
+  sMESG,
+  sMESG2,
+  sTEMP2,
+  sTEMP: string;
+begin
+  Result := '';
+  if( stTickets.nCOUNT > 0 )then
+  begin
+    sMESG  := '';
+    sMESG2 := '';
+    for I := 0 to stTickets.nCOUNT-1 do
+    begin
+
+      if( stTickets.DATA[I].sMETHOD = '회원제' )then
+      begin
+        sTEMP := GetRemainDateTimeFromNowEx( stTickets.DATA[I].dtED,
+                                             stTickets.DATA[I].stREMAIN );
+
+        if( I < 4 ) then sMESG  := sMESG  + Format( '(%s:%s일)', [stTickets.DATA[I].sMETHOD, sTEMP] )
+        else             sMESG2 := sMESG2 + Format( '(%s:%s일)', [stTickets.DATA[I].sMETHOD, sTEMP] );
+      end
+      else if( stTickets.DATA[I].sMETHOD = '금액제' )then
+      begin
+        sTEMP := GetCommaPrice( stTickets.DATA[I].nMEMBERFEE );
+        if( I < 4 ) then sMESG  := sMESG  + Format( '(%s:￦%s)', [stTickets.DATA[I].sMETHOD, sTEMP] )
+        else             sMESG2 := sMESG2 + Format( '(%s:￦%s)', [stTickets.DATA[I].sMETHOD, sTEMP] );
+      end
+      else if( stTickets.DATA[I].sMETHOD = '시간제' )then
+      begin
+        sTEMP  := IntToStr( stTickets.DATA[I].nTMR  ); //+ '시간'; //+
+        sTEMP2 := IntToStr( stTickets.DATA[I].nTMR2 ); //+ '분';
+        if( I < 4 ) then sMESG  := sMESG  + Format( '(%s:%s시간 %s분)', [stTickets.DATA[I].sMETHOD, sTEMP, sTEMP2] )
+        else             sMESG2 := sMESG2 + Format( '(%s:%s시간 %s분)', [stTickets.DATA[I].sMETHOD, sTEMP, sTEMP2] );
+      end
+      else if( stTickets.DATA[I].sMETHOD = '주중주간제' )then
+      begin
+        sTEMP := GetRemainDateTimeFromNowEx( stTickets.DATA[I].dtED,
+                                           stTickets.DATA[I].stREMAIN );
+        if( I < 4 ) then sMESG  := sMESG  + Format( '(%s:%s일)', [stTickets.DATA[I].sMETHOD, sTEMP] )
+        else             sMESG2 := sMESG2 + Format( '(%s:%s일)', [stTickets.DATA[I].sMETHOD, sTEMP] );
+      end
+      else if( stTickets.DATA[I].sMETHOD = '주중야간제' )then
+      begin
+        sTEMP := GetRemainDateTimeFromNowEx( stTickets.DATA[I].dtED,
+                                           stTickets.DATA[I].stREMAIN );
+        if( I < 4 ) then sMESG  := sMESG  + Format( '(%s:%s일)', [stTickets.DATA[I].sMETHOD, sTEMP] )
+        else             sMESG2 := sMESG2 + Format( '(%s:%s일)', [stTickets.DATA[I].sMETHOD, sTEMP] );
+      end
+      else if( stTickets.DATA[I].sMETHOD = '주말주간제' )then
+      begin
+        sTEMP := GetRemainDateTimeFromNowEx( stTickets.DATA[I].dtED,
+                                           stTickets.DATA[I].stREMAIN );
+        if( I < 4 ) then sMESG  := sMESG  + Format( '(%s:%s일)', [stTickets.DATA[I].sMETHOD, sTEMP] )
+        else             sMESG2 := sMESG2 + Format( '(%s:%s일)', [stTickets.DATA[I].sMETHOD, sTEMP] );
+      end
+      else if( stTickets.DATA[I].sMETHOD = '주말야간제' )then
+      begin
+        sTEMP := GetRemainDateTimeFromNowEx( stTickets.DATA[I].dtED,
+                                           stTickets.DATA[I].stREMAIN );
+        if( I < 4 ) then sMESG  := sMESG  + Format( '(%s:%s일)', [stTickets.DATA[I].sMETHOD, sTEMP] )
+        else             sMESG2 := sMESG2 + Format( '(%s:%s일)', [stTickets.DATA[I].sMETHOD, sTEMP] );
+      end;
+    end;
+
+    sVALUE := sMESG2;
+    Result := sMESG;
+  end;
+end;
+
+function GetHHMMSS( dtThe: TDateTime ): string;
+begin
+  Result := FormatDateTime( 'hh:mm:ss', dtThe );
+end;
+
+function GetHHMM( dtThe: TDateTime ): string;
+begin
+  Result := FormatDateTime( 'hh:mm', dtThe );
+end;
+
+function GetYYYYMMDD(): string;
+begin
+  Result := FormatDateTime( 'yyyy-mm-dd', Now );
+end;
+
+function GetYYYYMMDDEx(): string;
+var
+  sTemp: string;
+begin
+  sTemp  := FormatDateTime( 'yyyy-mm-dd', Now );
+  Result := StringReplace( sTemp,'-','',[rfReplaceAll]);
+end;
+
+function GetMMDDEx( dtThe: TDateTime ): string;
+var
+  sTemp: string;
+begin
+  sTemp  := FormatDateTime( 'mm-dd', dtThe );
+  sTemp  := StringReplace( sTemp,'-','/',[rfReplaceAll]);
+  Result := sTemp;
+end;
+
+function GetMMDD( sThe: string ): string;
+var
+  sTemp: string;
+  myDate: TDate;
+begin
+  myDate := EncodeDate(
+    StrToInt(Copy(sThe, 1, 4)),
+    StrToInt(Copy(sThe, 5, 2)),
+    StrToInt(Copy(sThe, 7, 2))
+  );
+  sTemp  := FormatDateTime( 'mm-dd', myDate );
+  sTemp  := StringReplace( sTemp,'-','/',[rfReplaceAll]);
+  Result := sTemp;
+end;
+
+function ReplaceNameAsStar( sName: string ): string;
+begin
+  if( Length(sName) > 1 )then
+  begin
+    sName := sName.Remove( 1, 1   );
+    sName := sName.Insert( 1, '*' );
+  end;
+  Result := sName;
+end;
+
+function TimeLeft( StartTime, EndTime, dtThe: TDateTime ): Boolean;
+const
+  ms = 1/24/60/60/1000;
+var
+  nYear1, nMonth1, nDay1 {, nHour1, nMin1}: Integer;   // 오늘(현재)
+  nYear2, nMonth2, nDay2 {, nHour2, nMin2}: Integer;   // 내일
+  dtNow,
+  dtTomorrow,
+  dt1, dt2, dt : TDateTime;
+begin
+
+  dtNow := Now();
+  GetTheYYYYMM( nYear1, nMonth1, nDay1, dtNow );
+  dtTomorrow := IncDay( dtNow );
+  GetTheYYYYMM( nYear2, nMonth2, nDay2, dtTomorrow );
+
+  if Frac(EndTime) - Frac(StartTime) > ms then
+  begin
+    dt1 := EncodeDate(nYear1, nMonth1, nDay1) + Frac(StartTime );
+    dt2 := EncodeDate(nYear1, nMonth1, nDay1) + Frac(EndTime   );
+
+    dt :=  dtThe; //EncodeDate(nYear1, nMonth1, nDay1) +Frac(ATime);
+  end
+  else
+  begin
+    dt1 := EncodeDate(nYear1, nMonth1, nDay1) +Frac(StartTime );
+    dt2 := EncodeDate(nYear2, nMonth2, nDay2) +Frac(EndTime   );
+
+    dt := dtThe; //EncodeDate(2000, 1, 1) +Frac(ATime);
+  end;
+
+  Result := (dt -dt1 > ms) and (dt2 -dt > ms);
+  {
+  if result.AnyTimeLeft then begin
+    DecodeTime(dt2 -dt, result.H, result.M, result.S, result.MS);
+    result.H := result.H +(Trunc(dt2 -dt) *24);
+  end;
+  }
+end;
+
+function GetRemainDateTimeFromNowEx( dtTo: TDateTime; stREMAIN : ST_REMAIN_TIME ): string;
+var
+  m: Integer;
+begin
+  Result := '';
+  m := MinutesBetween( dtTo, Now() );
+  //Result := Format( '%d일 ', [DaysBetween( dtTo, Now() )] );
+
+  stREMAIN.nHour  := m div 60;
+  stREMAIN.nDay   := stREMAIN.nHour div 24;
+  stREMAIN.nHour  := stREMAIN.nHour - (stREMAIN.nDay * 24);
+  stREMAIN.nMin   := m mod 60;
+
+  Result := Result + Format('%d',[stREMAIN.nDay+1]);  // ++김태현.비에이블.기간-1일처리적용
+
+end;
+
+function GetRemainDateTimeFromNow( dtTo: TDateTime; stREMAIN : ST_REMAIN_TIME ): string;
+var
+  m: Integer;
+begin
+  Result := '';
+  m := MinutesBetween( dtTo, Now() );
+  //Result := Format( '%d일 ', [DaysBetween( dtTo, Now() )] );
+
+  stREMAIN.nHour  := m div 60;
+  stREMAIN.nDay   := stREMAIN.nHour div 24;
+  stREMAIN.nHour  := stREMAIN.nHour - (stREMAIN.nDay * 24);
+  stREMAIN.nMin   := m mod 60;
+
+  Result := Result + Format('%d일 %d시간 %d분',[stREMAIN.nDay+1,stREMAIN.nHour,stREMAIN.nMin]); // ++김태현.비에이블.기간-1일처리적용
+
+end;
+
+function GetDigit( sVALUE: string ): string;
+var
+  sTemp: string;
+begin
+  Result := '';
+  sTemp  := StringReplace( sVALUE ,'-','', [rfReplaceAll] );
+  Result := sTemp;
+end;
+
+function ModifyPhoneNumWithDASI( vTelNo: string ):string;
+var
+  tTellNo: string;
+  FLocal, FSeoul: Boolean;
+begin
+  tTellNo := StringReplace( vTelNo, '-', '', [rfReplaceAll, rfIgnoreCase] );
+
+  if( Length( tTellNo ) <= 0 )then
+  begin
+    Result := '';
+    Exit;
+  end;
+
+  // Edit MaxLength:13
+  if( Length( tTellNo ) > 12 )then
+  begin
+    Result := Copy( vTelNo, 1, 13 );
+    Exit;
+  end;
+
+  FLocal := False;
+  FSeoul := False;
+
+  if( tTellNo[1] = '0' )then
+  begin
+    FLocal := True;
+  end;
+
+  if( (FLocal = True) and (tTellNo[2] = '2') )then
+  begin
+    FSeoul := True;
+  end;
+
+  if( FLocal )then
+  begin
+    // 서울(02로시작)
+    if( FSeoul )then
+    begin
+      case Length( tTellNo ) of
+         3: tTellNo := Copy( tTellNo, 1, 2) + '-' + Copy( tTellNo, 3, 1);
+         6: tTellNo := Copy( tTellNo, 1, 2) + '-' + Copy( tTellNo, 3, 3) + '-' + Copy( tTellNo, 6, 1);
+         9: tTellNo := Copy( tTellNo, 1, 2) + '-' + Copy( tTellNo, 3, 3) + '-' + Copy( tTellNo, 6, 4);
+        10: tTellNo := Copy( tTellNo, 1, 2) + '-' + Copy( tTellNo, 3, 4) + '-' + Copy( tTellNo, 7, 4);
+        else
+        begin
+          tTellNo := vTelNo;
+        end;
+      end;
+    end
+    else  // 서울을 제외한 전화번호
+    begin
+      case Length( tTellNo ) of
+         4: tTellNo := Copy( tTellNo, 1, 3) + '-' + Copy( tTellNo, 4, 1);
+         5: tTellNo := Copy( tTellNo, 1, 3) + '-' + Copy( tTellNo, 4, 3) + '-' + Copy( tTellNo, 7, 1);
+        10: tTellNo := Copy( tTellNo, 1, 3) + '-' + Copy( tTellNo, 4, 3) + '-' + Copy( tTellNo, 7, 4);
+        11: tTellNo := Copy( tTellNo, 1, 3) + '-' + Copy( tTellNo, 4, 4) + '-' + Copy( tTellNo, 8, 4);
+        else
+        begin
+          tTellNo := vTelNo;
+        end;
+      end;
+    end;
+  end
+  else
+  begin
+    case Length( tTellNo ) of
+       4: tTellNo := Copy( tTellNo, 1, 3) + '-' + Copy( tTellNo, 4, 1);
+       8: tTellNo := Copy( tTellNo, 1, 4) + '-' + Copy( tTellNo, 5, 4);
+      else
+      begin
+        tTellNo := vTelNo;
+      end;
+    end;
+  end;
+
+  Result := tTellNo;
+
+end;
+
+procedure SetWorkStep( nVALUE: Integer );
+begin
+  // -1, -2: C02_NO_INFO
+  // 1:      C01_CARD_TOUCH
+  // 2:      C03_REG_PHONE
+  g_work_step.nCurStep := nVALUE;
+end;
+
+procedure SetSkinFMXMultiColorLabel( var lbl: TSkinFMXMultiColorLabel; sKEY: string; sVALUE: string );
+begin
+  lbl.Prop.ColorTextCollection.ItemByName[ sKEY ].Text := sVALUE;
+end;
+
+
+function GetAmPmHour( nHOUR: Integer ): string;
+begin
+       if( nHOUR = 12 )then Result := Format( '낮 %d시', [nHOUR] )
+  else if( nHOUR > 12 )then Result := Format( '오후 %d시', [nHOUR] )
+  else if( nHOUR < 12 )then Result := Format( '오전 %d시', [nHOUR] );
+end;
+
+function GetCommaPriceEx( nPrice: Integer ): string;
+begin
+  Result := FormatFloat('##,###,##0', nPrice);
+end;
+
+function GetCommaPrice( nPrice: Integer ): string;
+//var
+  //fTemp: Double;
+begin
+  //fTemp := nPrice / 10000;
+  Result := FormatFloat('##,###,##0', nPrice); //Format('%0.1f',[fTemp]); //FormatFloat('##,###,##0', nPrice);
+end;
+
+function GetnPriceWithComma( sPrice: string ): Integer;
+var
+  sTemp: string;
+begin
+  //Result := 0;
+  sTemp  :=  StringReplace( sPrice ,',','', [rfReplaceAll] );
+  Result := StrToIntDef( sTemp,0);
+end;
+
+function GetsPriceWithComma( sPrice: string ): string;
+begin
+  Result := '';
+  Result :=  StringReplace( sPrice ,',','', [rfReplaceAll] );
+end;
+
+function fGetCpuAvg(): string;
+var
+  //nCount,
+  //i : integer;
+  //cpu_usage_sum : double;
+  cpu_usage_avg : double;
+begin
+  Result := '';
+  cpu_usage_avg := GetCPUUsage();
+  Result := Format( 'CPU avg - %5.2f%%', [cpu_usage_avg*100] );
+end;
+
+function GetCurrentMonth( Month: TDateTime ):String;
+begin
+  Result := FormatDateTime( 'YYYY년MM월', Month );
+end;
+
+procedure GetTheAdd1Hour( var nHOUR: Integer; var nMIN: Integer; dtThe: TDateTime );
+var
+  Year, Month, Day : Word;
+  Hour, Minute, Second, MillSecond : Word;
+  dtTemp: TDateTime;
+begin
+  //Next month
+  DateUtils.DecodeDateTime( dtThe ,
+                            Year   ,
+                            Month  ,
+                            Day    ,
+                            Hour   ,
+                            Minute ,
+                            Second ,
+                            MillSecond );
+
+  dtTemp := IncHour( dtThe, 1 );
+
+  DateUtils.DecodeDateTime( dtTemp ,
+                            Year   ,
+                            Month  ,
+                            Day    ,
+                            Hour   ,
+                            Minute ,
+                            Second ,
+                            MillSecond );
+
+  nHOUR  := Hour;
+  nMIN   := 0;
+end;
+
+function GetTodayWeek(): string;
+  const days: array[1..7] of string = ('일','월','화','수','목','금','토');
+begin
+  Result :=  days[DayOfWeek(Now)];
+end;
+
+procedure GetTheHHMM( var nHOUR: Integer; var nMIN: Integer; dtThe: TDateTime );
+var
+  Year, Month, Day : Word;
+  Hour, Minute, Second, MillSecond : Word;
+begin
+  //Next month
+  DateUtils.DecodeDateTime( dtThe ,
+                            Year   ,
+                            Month  ,
+                            Day    ,
+                            Hour   ,
+                            Minute ,
+                            Second ,
+                            MillSecond );
+  nHOUR := Hour;
+  nMIN  := Minute;
+end;
+
+function  Set2359( dtOrigin: TDateTime ): TDateTime;
+var
+  Year, Month, Day : Word;
+  Hour, Minute, Second, MillSecond : Word;
+begin
+  DateUtils.DecodeDateTime( dtOrigin ,
+                            Year   ,
+                            Month  ,
+                            Day    ,
+                            Hour   ,
+                            Minute ,
+                            Second ,
+                            MillSecond );
+
+  Result := DateUtils.EncodeDateTime( Year  ,
+                                      Month ,
+                                      Day   ,
+                                      23    ,
+                                      59    ,
+                                      59    ,
+                                      0 );
+end;
+
+procedure GetTheYYYYMM( var nYEAR: Integer; var nMONTH: Integer; var nDAY: Integer; dtThe: TDateTime );
+var
+  Year, Month, Day : Word;
+  Hour, Minute, Second, MillSecond : Word;
+begin
+  //Next month
+  DateUtils.DecodeDateTime( dtThe ,
+                            Year   ,
+                            Month  ,
+                            Day    ,
+                            Hour   ,
+                            Minute ,
+                            Second ,
+                            MillSecond );
+  nYEAR  := Year;
+  nMONTH := Month;
+  nDAY   := Day;
+end;
+
+//Get the first day of the month
+function GetMonthFirstDay( ADateTime: TDateTime ):TDateTime;
+var
+  Year,Month,Day:Word;
+  Hour,Minute,Second,MillSecond:Word;
+begin
+  //Load the calendar of the current month
+  DateUtils.DecodeDateTime( ADateTime ,
+                            Year   ,
+                            Month  ,
+                            Day    ,
+                            Hour   ,
+                            Minute ,
+                            Second ,
+                            MillSecond );
+  Hour   := 0;
+  Day    := 1;
+  Result := DateUtils.EncodeDateTime( Year  ,
+                                      Month ,
+                                      Day   ,
+                                      0     ,
+                                      0     ,
+                                      0     ,
+                                      0 );
+end;
+
+// BeAble 각 업무별 스텝의 메모리정보를 초기화 한다..
+procedure InitWorkStep();
+var
+  sOldCashERROR : string;
+  bOldCashERROR : Boolean;
+begin
+  // 현금 업무중 에러발생 감지확인시,
+  // 거스름돈 매진을 바로 알리기위해 메모리 한다..
+  bOldCashERROR := g_work_step.bCashERROR;
+  sOldCashERROR := g_work_step.sCashERROR;
+
+  FillChar( g_work_step, SizeOf( ST_WORK_STEP), 0 );
+  g_work_step.bStartWORK := False;
+
+  g_work_step.bCashERROR := bOldCashERROR;
+  g_work_step.sCashERROR := sOldCashERROR;
+end;
+
+//{Start} 현금(지폐,동전) 매진처리..
+procedure StartWorkStep();
+begin
+  g_work_step.bStartWORK := True;
+end;
+//{End} 현금(지폐,동전) 매진처리..
+
+// https://niceit.tistory.com/202
+// 프로그램 실행 파일명을 이용한 실행여부 판단..
+function ExistsTheProcess( exeFileName: string ): Boolean;
+var
+  ContinueLoop: BOOL;
+  FSnapshotHandle: THandle;
+  FProcessEntry32: TProcessEntry32;
+begin
+  FSnapshotHandle := CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
+  FProcessEntry32.dwSize := SizeOf(FProcessEntry32);
+  ContinueLoop := Process32First(FSnapshotHandle, FProcessEntry32);
+  Result := False;
+  while Integer(ContinueLoop) <> 0 do
+  begin
+    if ((UpperCase(ExtractFileName(FProcessEntry32.szExeFile)) =
+      UpperCase(ExeFileName)) or (UpperCase(FProcessEntry32.szExeFile) =
+      UpperCase(ExeFileName))) then
+    begin
+      Result := True;
+    end;
+    ContinueLoop := Process32Next(FSnapshotHandle, FProcessEntry32);
+  end;
+  CloseHandle(FSnapshotHandle);
+end;
+
+procedure GetSvrConInfoOnINI();
+var
+  sTemp: string;
+  pFile: TIniFile;
+begin
+  try
+    sTemp := ExtractFilePath(ParamStr(0)) + 'BeAble9200.ini';
+
+    //--ShowMessage( sTemp );
+
+    pFile := TIniFile.Create( sTemp );
+
+    g_Conn.sCHECK_NO_CHANGE_CASH := Trim( pFile.ReadString(  'OPERATION', 'sCHECK_NO_CHANGE_CASH' , '1' ) );
+    g_Conn.sSET_BILLVALI_50000   := Trim( pFile.ReadString(  'OPERATION', 'sSET_BILLVALI_50000'   , '0' ) );
+    g_Conn.nWARN_PICTURE_MODE    :=       pFile.ReadInteger( 'OPERATION', 'nWARN_PICTURE_MODE'    ,  1    );
+
+    g_Conn.sKisTestMode          := Trim( pFile.ReadString( 'KIS',           'sTestMode' , '' ) );
+
+    g_Conn.nNormalScreenTimeout  := pFile.ReadInteger( 'KIOSK', 'nNORMAL_SCREEN_TIMEOUT'  , 40  );
+    g_Conn.nPopupScreenTimeout   := pFile.ReadInteger( 'KIOSK', 'nPOPUP_SCREEN_TIMEOUT'   , 5   );
+
+    g_Conn.sIPAddr               := Trim( pFile.ReadString( 'SERVER',        'sIPAddr'   , '' ) );
+    g_Conn.sPort                 := Trim( pFile.ReadString( 'SERVER',        'sPort'     , '' ) );
+    g_Conn.sDBName               := Trim( pFile.ReadString( 'SERVER',        'sDBName'   , '' ) );
+    g_Conn.sUserName             := Trim( pFile.ReadString( 'SERVER',        'sUserName' , '' ) );
+    g_Conn.sPassword             := Trim( pFile.ReadString( 'SERVER',        'sPassword' , '' ) );
+
+    g_Conn.sDemonIP              := Trim( pFile.ReadString( 'DEMON' ,        'sIPAddr'   , '' ) );
+    g_Conn.sDemonPort            := Trim( pFile.ReadString( 'DEMON' ,        'sPort'     , '' ) );
+
+    //g_Conn.sPrintPort            := Trim( pFile.ReadString( 'PRINT',         'sPort'     , '' ) );
+    //g_Conn.sPrintUse             := Trim( pFile.ReadString( 'PRINT',         'sUse'      , '' ) );
+
+    g_Conn.sBillValiPort         := Trim( pFile.ReadString( 'BILLVALI',      'sPort'     , '' ) );
+    g_Conn.sBillValiUse          := Trim( pFile.ReadString( 'BILLVALI',      'sUse'      , '' ) );
+
+    g_Conn.sBillDispPort500      := Trim( pFile.ReadString( 'BILLDISP500',   'sPort'     , '' ) );
+    g_Conn.sBillDispUse500       := Trim( pFile.ReadString( 'BILLDISP500',   'sUse'      , '' ) );
+
+    g_Conn.sBillDispPort1000     := Trim( pFile.ReadString( 'BILLDISP1000',  'sPort'     , '' ) );
+    g_Conn.sBillDispUse1000      := Trim( pFile.ReadString( 'BILLDISP1000',  'sUse'      , '' ) );
+
+    g_Conn.sBillDispPort10000    := Trim( pFile.ReadString( 'BILLDISP10000', 'sPort'     , '' ) );
+    g_Conn.sBillDispUse10000     := Trim( pFile.ReadString( 'BILLDISP10000', 'sUse'      , '' ) );
+
+    //g_Conn.sKisTestMode          := Trim( pFile.ReadString( 'KIS',           'sTestMode' , '' ) );
+
+    g_Conn.sTtRfReaderPort       := Trim( pFile.ReadString( 'TTRFREADER',    'sPort'     , '' ) );
+    g_Conn.sTtRfReaderUse        := Trim( pFile.ReadString( 'TTRFREADER',    'sUse'      , '' ) );
+
+    g_Conn.sWetekRfReaderPort    := Trim( pFile.ReadString( 'WetekRFREADER', 'sPort'     , '' ) ); // Wetek RF리더기 (2020-06-03)
+    g_Conn.sWetekRfReaderUse     := Trim( pFile.ReadString( 'WetekRFREADER', 'sUse'      , '' ) ); // Wetek RF리더기 (2020-06-03)
+
+    g_Conn.sCaDiPort             := Trim( pFile.ReadString( 'CARDDISP',      'sPort'     , '' ) ); // 카드방출기연동 (2020-01-28)
+    g_Conn.sCaDiUse              := Trim( pFile.ReadString( 'CARDDISP',      'sUse'      , '' ) ); // 카드방출기연동 (2020-01-28)
+
+    g_Conn.sCaRtnPort            := Trim( pFile.ReadString( 'CARDRETURN',    'sPort'     , '' ) ); // 카드회수기연동 (2020-01-28)
+    g_Conn.sCaRtnUse             := Trim( pFile.ReadString( 'CARDRETURN',    'sUse'      , '' ) ); // 카드회수기연동 (2020-01-28)
+
+    g_Conn.nKIOSK                :=       pFile.ReadInteger('STORE', 'nKIOSK'               , 1        ); // 구동키오스크_번호 (2020-01-20)
+    g_Conn.sLOCKER_INIT_PASSWORD := Trim( pFile.ReadString( 'STORE', 'sLOCKER_INIT_PASSWORD', '0000' ) ); // 사물함_초기_비밀번호 (2020-02-10)
+    g_Conn.sSMS_TEST_MOBILE      := Trim( pFile.ReadString( 'STORE', 'sSMS_TEST_MOBILE'     , ''     ) ); // SMS 테스트 전화번호 설정여부 (2020-02-11)
+    g_Conn.sSMS_STORE_ID         := Trim( pFile.ReadString( 'STORE', 'sSMS_STORE_ID'        , ''     ) ); // SMS 지점ID (2020-02-11)
+
+    g_Conn.nCardPRICE            := pFile.ReadInteger( 'STORE', 'nCardPRICE',          0 ); // 회원카드판매금액 (2020-01-29)
+    g_Conn.nCreditAddPRICE       := pFile.ReadInteger( 'STORE', 'nCreditAddPRICE',     0 ); // 회원카드판매시 신용결제 추가금액 (2020-01-31)
+    g_Conn.nFRC                  := pFile.ReadInteger( 'STORE', 'nFRC',                0 ); // 프랜차이즈_코드 (2019-12-10)
+    g_Conn.nLTD                  := pFile.ReadInteger( 'STORE', 'nLTD',                0 ); // 지점_코드 (2019-12-10)
+    g_Conn.nShowReservHOUR       := pFile.ReadInteger( 'STORE', 'nShowReservHOUR',     6 ); // 스터디룸.예약정보.보기.시간 (2020-01-19)
+    g_Conn.nTimeTicketSaveBase   := pFile.ReadInteger( 'STORE', 'nTimeTicketSaveBase', 0 ); // 시간제.퇴실시 시간저장.기준 (2020-02-05)
+
+    g_Conn.nPeriodSet2359        := pFile.ReadInteger( 'STORE', 'nPeriodSet2359',      1 ); // 기간상품 종료시간 설정 (0:미설정,1:설정[기본값])
+
+    g_Conn.nSavePointMODE        := pFile.ReadInteger( 'STORE', 'nSavePointMODE'     , 0 ); // 현금결제시 포인트 적립 (0:적립없음) (1:현금결제시) (2:현금 결제 후 현금영수증 발급 않할때)
+    g_Conn.nSavePointPERCENT     := pFile.ReadInteger( 'STORE', 'nSavePointPERCENT'  , 0 ); // 현금결제시 포인트 적립 퍼센트(%)
+
+    g_Conn.nSEAT_EXIT_BEFORE_xx_MIN   := pFile.ReadInteger( 'STORE', 'nSEAT_EXIT_BEFORE_xx_MIN'   , 10   ); // 자유석, 단체석 종료전 xx분 안내SMS
+    g_Conn.nLOCKER_EXIT_BEFORE_xx_DAY := pFile.ReadInteger( 'STORE', 'nSEAT_EXIT_BEFORE_xx_DAY'   , 3    ); // 사물함 종료전 xx일 안내SMS
+    g_Conn.nPERIOD_EXIT_BEFORE_xx_DAY := pFile.ReadInteger( 'STORE', 'nPERIOD_EXIT_BEFORE_xx_DAY' , 3    ); // 기간권 종료전 xx일 안내SMS
+    g_Conn.nTIME_EXIT_BEFORE_xx_HOUR  := pFile.ReadInteger( 'STORE', 'nTIME_EXIT_BEFORE_xx_HOUR'  , 5    ); // 시간제 잔여시간 xx시간전 안내SMS
+    g_Conn.nFEE_EXIT_BEFORE_xx_WON    := pFile.ReadInteger( 'STORE', 'nFEE_EXIT_BEFORE_xx_WON'    , 5000 ); // 금액제 잔여금액 xx원전 안내SMS
+
+    g_Conn.nNoServiceSMS              := pFile.ReadInteger( 'STORE', 'nNoServiceSMS',     0 ); // 1로 설정되면 SMS 서비스가 종료됩니다. (설치때 활용)
+    g_Conn.nCampusExtend              := pFile.ReadInteger( 'STORE', 'nCampusExtend',     0 ); // 자유석 연장 제한 옵션 (0:제한없음, 1: 횟수제한, 3:종료1시간이내연장가능)
+    g_Conn.nHideParentsPhone          := pFile.ReadInteger( 'STORE', 'nHideParentsPhone', 0 ); // 전화번호 등록화면에서 부모님 전화번호 입력란 Hide / Show 기능  [0:Show, 1:Hide]
+
+    g_Conn.sUSE_DB               := Trim( pFile.ReadString( 'DB'  , 'sUSE'      , '' ) );
+    g_Conn.sDbURL_DB             := Trim( pFile.ReadString( 'DB'  , 'sDbURL'    , '' ) );
+    g_Conn.sDbPORT_DB            := Trim( pFile.ReadString( 'DB'  , 'sDbPORT'   , '' ) );
+    g_Conn.sUsername_DB          := Trim( pFile.ReadString( 'DB'  , 'sUsername' , '' ) );
+    g_Conn.sPassword_DB          := Trim( pFile.ReadString( 'DB'  , 'sPassword' , '' ) );
+    g_Conn.sDatabase_DB          := Trim( pFile.ReadString( 'DB'  , 'sDatabase' , '' ) );
+
+    g_Conn.sUSE_SMS              := Trim( pFile.ReadString( 'SMS' , 'sUSE'      , '' ) );
+    g_Conn.sDbURL_SMS            := Trim( pFile.ReadString( 'SMS' , 'sDbURL'    , '' ) );
+    g_Conn.sDbPORT_SMS           := Trim( pFile.ReadString( 'SMS' , 'sDbPORT'   , '' ) );
+    g_Conn.sUsername_SMS         := Trim( pFile.ReadString( 'SMS' , 'sUsername' , '' ) );
+    g_Conn.sPassword_SMS         := Trim( pFile.ReadString( 'SMS' , 'sPassword' , '' ) );
+    g_Conn.sDatabase_SMS         := Trim( pFile.ReadString( 'SMS' , 'sDatabase' , '' ) );
+
+    g_Conn.nMAIN_BTN_01          := pFile.ReadInteger( 'MAIN_SCREEN_BUTTON_S', 'nMAIN_BTN_01', 1 );
+    g_Conn.nMAIN_BTN_02          := pFile.ReadInteger( 'MAIN_SCREEN_BUTTON_S', 'nMAIN_BTN_02', 1 );
+    g_Conn.nMAIN_BTN_03          := pFile.ReadInteger( 'MAIN_SCREEN_BUTTON_S', 'nMAIN_BTN_03', 1 );
+    g_Conn.nMAIN_BTN_04          := pFile.ReadInteger( 'MAIN_SCREEN_BUTTON_S', 'nMAIN_BTN_04', 1 );
+    g_Conn.nMAIN_BTN_05          := pFile.ReadInteger( 'MAIN_SCREEN_BUTTON_S', 'nMAIN_BTN_05', 1 );
+    g_Conn.nMAIN_BTN_06          := pFile.ReadInteger( 'MAIN_SCREEN_BUTTON_S', 'nMAIN_BTN_06', 1 );
+    g_Conn.nMAIN_BTN_07          := pFile.ReadInteger( 'MAIN_SCREEN_BUTTON_S', 'nMAIN_BTN_07', 1 );
+    g_Conn.nMAIN_BTN_08          := pFile.ReadInteger( 'MAIN_SCREEN_BUTTON_S', 'nMAIN_BTN_08', 1 );
+    g_Conn.nMAIN_BTN_09          := pFile.ReadInteger( 'MAIN_SCREEN_BUTTON_S', 'nMAIN_BTN_09', 1 );
+
+    g_Conn.nCardSALE             := pFile.ReadInteger( 'CARD_SALE_RETURN',     'nCardSALE',    1 ); // 카드발권.회수기 카드판매시 신용카드적용여부..
+
+    g_Conn.nMEMBERSHIP_BTN_01 := pFile.ReadInteger( 'MEMBERSHIP_SALE_SCREEN_BUTTON_S', 'nMEMBERSHIP_BTN_01', 1 );
+    g_Conn.nMEMBERSHIP_BTN_02 := pFile.ReadInteger( 'MEMBERSHIP_SALE_SCREEN_BUTTON_S', 'nMEMBERSHIP_BTN_02', 1 );
+    g_Conn.nMEMBERSHIP_BTN_03 := pFile.ReadInteger( 'MEMBERSHIP_SALE_SCREEN_BUTTON_S', 'nMEMBERSHIP_BTN_03', 1 );
+    g_Conn.nMEMBERSHIP_BTN_04 := pFile.ReadInteger( 'MEMBERSHIP_SALE_SCREEN_BUTTON_S', 'nMEMBERSHIP_BTN_04', 1 );
+    g_Conn.nMEMBERSHIP_BTN_05 := pFile.ReadInteger( 'MEMBERSHIP_SALE_SCREEN_BUTTON_S', 'nMEMBERSHIP_BTN_05', 1 );
+
+    pFile.Free;
+
+  except
+    on E: Exception do
+    begin
+      Assert( False, E.message);
+    end;
+  end;
+
+end;
+
+function IfThen(c: boolean; a, b: string): string;
+begin
+  if c then
+    Result := a
+  else
+    Result := b;
+end;
+
+procedure KillProcess(hWindowHandle: HWND);
+var
+  hprocessID: INTEGER;
+  processHandle: THandle;
+  DWResult: DWORD;
+begin
+  try
+    SendMessageTimeout( hWindowHandle ,
+                        WM_CLOSE ,
+                        0, 0,
+                        SMTO_ABORTIFHUNG or SMTO_NORMAL ,
+                        5000 ,
+                        DWResult );
+
+    if isWindow( hWindowHandle ) then
+    begin
+      // PostMessage(hWindowHandle, WM_QUIT, 0, 0);
+
+      { Get the process identifier for the window}
+      GetWindowThreadProcessID( hWindowHandle, @hprocessID );
+
+      if( hprocessID <> 0 )then
+      begin
+        { Get the process handle }
+        processHandle := OpenProcess( PROCESS_TERMINATE or PROCESS_QUERY_INFORMATION,
+                                      False,
+                                      hprocessID );
+        if( processHandle <> 0 )then
+        begin
+          { Terminate the process }
+          TerminateProcess( processHandle, 0 );
+          CloseHandle( ProcessHandle );
+        end;
+      end;
+
+    end;
+  except
+    on E: Exception do
+    begin
+      Assert(False, E.message);
+    end;
+  end;
+end;
+
+function ExecuteFile( const filename ,
+                            Params ,
+                            DefaultDir : string;
+                            ShowCmd    : integer ): THandle;
+begin
+  try
+    {$IFDEF MSWINDOWS}
+      result := ShellExecute( 0, 'Open',
+                              PChar(filename),
+                              PChar(Params),
+                              PChar(DefaultDir),
+                              ShowCmd );
+    {$ENDIF}
+    {$IFDEF MACOS}
+      _system(PAnsiChar('open ' + AnsiString(filename)));
+    {$ENDIF}
+  except
+    on E: Exception do
+    begin
+      Assert(False, E.message);
+    end;
+  end;
+end;
+
+function KillTask(ExeFileName: string): Integer;
+const
+  PROCESS_TERMINATE = $0001;
+var
+  ContinueLoop: BOOL;
+  FSnapshotHandle: THandle;
+  hWnd         : THandle;
+  FProcessEntry32: TProcessEntry32;
+  //copyData       : TCopyDataStruct;
+  //clsName  : Array[0..511] of char;
+  //Text : Array[0..511] of char;
+  Loop_cnt       : integer;
+
+  function CheckProcess(ExeFileName: string) : Boolean;
+  var
+    hSnapShot: THandle;
+    uProcess: TProcessEntry32;
+    //FindBool : Boolean ;
+  begin
+    try
+        Result := False ;
+        Try
+          hSnapShot := CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
+          if (hSnapShot = INVALID_HANDLE_VALUE) then exit;
+
+          uProcess.dwSize := SizeOf(uProcess);
+
+          if (Process32First(hSnapShot, uProcess)) then
+          begin
+            repeat
+              if ( uProcess.th32ProcessID > 0 ) then
+              begin
+                if ( UpperCase( uProcess.szExeFile ) = UpperCase( ExeFileName ) ) or
+                 ( UpperCase( ExtractFileName(uProcess.szExeFile) ) = UpperCase( ExeFileName ) )
+                  then
+                begin
+                  Result := True ;
+                  break;
+                end;
+              end;
+            until not (Process32Next(hSnapShot, uProcess));
+          end;
+          CloseHandle(hSnapShot);
+        Finally
+        End;
+    except
+      on E: Exception do
+      begin
+        Assert(False, E.message);
+      end;
+    end;
+  end;
+
+  function GetProcessModule(dwPID: dword; ProcessName: string): boolean;
+  var
+    hModuleSnap: THandle;
+    ModEntry: TModuleEntry32;
+  begin
+    try
+      result := false;
+      hModuleSnap := CreateToolhelp32Snapshot(TH32CS_SNAPMODULE, dwPID);
+      if hModuleSnap = THandle(-1) then exit;
+      ModEntry.dwSize := sizeof(TModuleEntry32);
+      if Module32First(hModuleSnap, ModEntry) then
+      begin
+        repeat
+          if LowerCase( ModEntry.szModule ) = LowerCase( ProcessName ) then
+          begin
+            CloseHandle(hModuleSnap);
+            result := true;
+            exit;
+          end;
+        until not Module32Next(hModuleSnap, ModEntry);
+      end;
+      CloseHandle(hModuleSnap);
+    except
+      on E: Exception do
+      begin
+        Assert(False, E.message);
+      end;
+    end;
+  end;
+
+  function KillProcess2(ProcessName: string): integer;
+  var
+    hProcessSnap: THandle;
+    ProcEntry: TProcessEntry32;
+    bCurrent: boolean;
+    hProcess: THandle;
+    nCode: DWORD; //프로세스 종료 상태
+  begin
+    try
+      result := 0;
+      hProcessSnap := CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
+      if hProcessSnap = THandle(-1) then exit;
+      ProcEntry.dwSize := sizeof(TProcessEntry32);
+      if Process32First(hProcessSnap, ProcEntry) then
+      begin
+        repeat
+          bCurrent := GetProcessModule(ProcEntry.th32ProcessID, ProcessName);
+          if bCurrent then
+          begin
+            hProcess := OpenProcess(PROCESS_ALL_ACCESS, TRUE, ProcEntry.th32ProcessID);
+            if hProcess <> 0 then
+            begin
+              if TerminateProcess(hProcess, 0) then
+              begin
+                GetExitCodeProcess(hProcess, nCode);
+              end;
+              CloseHandle(hProcess);
+              Inc(result);
+              if result >= 2 then
+              begin
+                // 무한에서 빠저 나올려고함..
+                break;
+              end;
+            end;
+          end;
+        //다음 프로세스의 정보를 구하여 있으면 루프를 돈다.
+        until not Process32Next(hProcessSnap, ProcEntry);
+      end;
+      CloseHandle(hProcessSnap);
+    except
+      on E: Exception do
+      begin
+        Assert(False, E.message);
+      end;
+    end;
+  end;
+
+begin
+  try
+    Result := 0;
+
+    if CheckProcess( ExeFileName )  then
+    begin
+       try
+           with TIniFile.Create( ExtractFilePath( ParamStr(0) ) + 'SOLO_HANDLE.ini' ) do
+           begin
+              hWnd := ReadInteger('PRG_P',ExeFileName, 0 );
+              WriteInteger('PRG_P',ExeFileName, 0 );
+              Free;
+              if hWnd > 0 then
+              begin
+                 postMessage( hWnd, WM_USER + 1004, 0, 0 );
+                 Sleep(100);
+                 postMessage(hWnd, WM_QUIT,0,0); //
+                 Sleep(100);
+                 if CheckProcess( ExeFileName )  then
+                 begin
+                     postMessage( hWnd, WM_USER + 1004, 0, 0 );
+                     postMessage(hWnd, WM_QUIT,0,0);
+                 end
+                 else exit;
+
+              end;
+           end;
+       except
+       end;
+    end
+    else exit;
+
+   Sleep(100);
+
+    if CheckProcess( ExeFileName )  then
+      try  ShellExecute(0, 'Open', PWideChar('TASKKILL.exe') , PWideChar(' /F /IM '+ ExeFileName +' /t ') , nil, SW_HIDE );  except end;
+
+    KillProcess2(ExeFileName);
+    Loop_cnt := 0;
+    while CheckProcess(ExeFileName) do
+    begin
+      inc(Loop_cnt);
+      FSnapshotHandle := CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
+      FProcessEntry32.dwSize := SizeOf(FProcessEntry32);
+      ContinueLoop := Process32First(FSnapshotHandle, FProcessEntry32);
+
+      while Integer(ContinueLoop) <> 0 do
+      begin
+        if ((UpperCase(ExtractFileName(FProcessEntry32.szExeFile)) =
+          UpperCase(ExeFileName)) or (UpperCase(FProcessEntry32.szExeFile) =
+          UpperCase(ExeFileName))) then
+          Result := Integer(TerminateProcess(
+                            OpenProcess(PROCESS_TERMINATE,
+                                        True,
+                                        FProcessEntry32.th32ProcessID),
+                                        0));
+        ContinueLoop := Process32Next(FSnapshotHandle, FProcessEntry32);
+      end;
+      CloseHandle(FSnapshotHandle);
+
+      Sleep(100);
+      if Loop_cnt >= 2 then exit;
+    end;
+  except
+    on E: Exception do
+    begin
+      Assert(False, E.message);
+    end;
+  end;
+end;
+
+// http://www.martinstoeckli.ch/delphi/delphi.html#AppVersion
+function GetFmtFileVersion( const FileName: String = '';
+                            const Fmt     : String = '%d.%d.%d.%d' ): String;
+var
+  sFileName   : String;
+  iBufferSize : DWORD;
+  iDummy      : DWORD;
+  pBuffer     : Pointer;
+  pFileInfo   : Pointer;
+  iVer        : array[1..4] of Word;
+
+begin
+
+  // Set default value..
+  Result    := '';
+
+  // Get filename of exe/dll if no filename is specified..
+  sFileName := FileName;
+
+  if (sFileName = '') then
+  begin
+    // Prepare buffer for path and terminating #0
+    SetLength(sFileName, MAX_PATH + 1);
+    SetLength(sFileName, GetModuleFileName(hInstance, PChar(sFileName), MAX_PATH + 1));
+  end;
+
+  // Get size of version info (0 if no version info exists)
+  iBufferSize := GetFileVersionInfoSize( PChar(sFileName), iDummy );
+
+  if (iBufferSize > 0) then
+  begin
+    GetMem(pBuffer, iBufferSize);
+    try
+      // Get fixed file info (language independent)
+      GetFileVersionInfo(PChar(sFileName), 0, iBufferSize, pBuffer);
+      VerQueryValue(pBuffer, '\', pFileInfo, iDummy);
+
+      // Read version blocks
+      iVer[1] := HiWord(PVSFixedFileInfo(pFileInfo)^.dwFileVersionMS);
+      iVer[2] := LoWord(PVSFixedFileInfo(pFileInfo)^.dwFileVersionMS);
+      iVer[3] := HiWord(PVSFixedFileInfo(pFileInfo)^.dwFileVersionLS);
+      iVer[4] := LoWord(PVSFixedFileInfo(pFileInfo)^.dwFileVersionLS);
+
+    finally
+      FreeMem(pBuffer);
+    end;
+    // format result string
+    Result := Format(Fmt, [iVer[1], iVer[2], iVer[3], iVer[4]]);
+  end;
+end;
+
+function StrToByte(const Value: AnsiString): TBytes;
+var
+  I: Integer;
+begin
+  SetLength( Result, Length(Value));
+  for I:= 0 to Length(Value)-1 do
+    Result[I] := Ord(Value[I+1])-48;
+end;
+
+function Hex2Dec(const S: string): Longint;
+var
+  HexStr: string;
+begin
+  if Pos('$', S) = 0 then
+    HexStr := '$' + S
+  else
+    HexStr := S;
+  Result := StrToIntDef(HexStr, 0);
+end;
+
+function fDuplicateRun( sFile: String ) : Boolean;
+begin
+
+  Result := False;
+  g_hWnd := CreateFileMapping( $FFFFFFFF,
+                               nil,
+                               PAGE_READWRITE,
+                               0,
+                               1024,
+                               PChar( sFile ) );
+
+  if( g_hWnd = 0 )then
+  begin
+    Result := True;
+  end;
+
+  if( GetLastError() = ERROR_ALREADY_EXISTS )then
+  Begin
+    CloseHandle( g_hWnd );
+    Result := True;
+  End;
+
+end;
+
+function HexStrToByte(const Value: AnsiString): TBytes;
+var
+  btTemp: Byte;
+  asTemp: Ansistring;
+  L, I: Integer;
+begin
+  L := Length( Value ) div 2;
+  SetLength( Result, L);
+  for I:= 0 to L-1 do
+  begin
+    if ( i = 0 )then
+      asTemp := MidStr( Value, I*2, 2 )
+    else
+      asTemp := MidStr( Value, I*2, 3 );
+    btTemp := Hex2Dec( asTemp );
+    Result[I] := btTemp;
+  end
+end;
+
+function ByteToStr(const Value: TBytes): AnsiString;
+var
+  I:Integer;
+  S: AnsiString;
+  Letra: AnsiChar;
+begin
+  S:='';
+  for I := Length(Value)-1 Downto 0 do
+  begin
+    Letra := AnsiChar( Value[i]+48);
+    S := Letra + S;
+  end;
+  Result:=S;
+end;
+
+Initialization
+Begin
+  ;
+End;
+
+Finalization
+begin
+  ;
+end;
+
+end.

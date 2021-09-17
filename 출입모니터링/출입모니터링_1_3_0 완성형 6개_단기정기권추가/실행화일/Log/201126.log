@@ -1,0 +1,45 @@
+**************************************************************
+[10:34:37] Program Start! (Ver_1.3.3.51)
+[10:34:37] 홈넷예외LPR:
+[10:34:37] [DB저장 모드]
+[10:34:37] TfrmMain.btnModeClick: 유인운영
+[10:34:37] 비로그인
+[10:34:38] 설치된 입구보조 LPR이 없음!
+[10:34:38] 설치된 출구보조 LPR이 없음!
+[10:34:38] 설치된 입구전광판이 없음!
+[10:34:38] 설치된 출구전광판이 없음!
+[10:34:38] LPR재접속 쓰레드시작
+[10:34:38] 전광판재접속 쓰레드시작
+[10:34:38] 정기권연동 쓰레드시작
+[10:34:38] Main.pas: Line: 19733, *INI설정정보.확인>> D:\Delphi\소스\출입모니터링_1.3.0(최신)\출입모니터링 최신버전 20201105\출입모니터링_1_3_0 완성형 6개_단기정기권추가(2020-11-10)\실행화일\ParkSet.ini
+[10:34:38] Main.pas: Line: 19743, [ini]>> 입차LPR수(1), 출차LPR수(1)
+[10:34:38] Main.pas: Line: 19751, [ini]>> DB, IP(10.22.30.20,42130), ID(sa), PW(nexpa1234), Name(PARKING_1.3.0)
+[10:34:38] Main.pas: Line: 19758, [ini]>> LPR이미지폴더(C:\LPRImage)
+[10:34:38] Main.pas: Line: 19765, [ini]>> Host, IP(127.0.0.1),Port(10000)
+[10:34:38] Main.pas: Line: 19784, [ini]>> Home, IP(127.0.0.1),Port(29500),홈넷(1),Ver(1),ID(wiju),PW(wiju1234)
+[10:34:38] Main.pas: Line: 19787, [ini]>> HomeNET, IP(10.22.33.1),Port(42140)
+[10:34:38] Main.pas: Line: 19804, [ini]>> 차단기제어여부(1), 차단기제어(3)
+[10:34:39] csInLpr1 접속성공
+[10:34:39] csOutLpr1 접속성공
+[10:34:41] fullDsp1: 10061
+[10:34:43] fullDsp1: 10061
+[10:34:47] 파싱성공: CH1#11너1004#N#\2020\11\26\CH1_20201126103447_11너1004.jpg
+[10:34:47] LPR전문: CH1#11너1004#N#\2020\11\26\CH1_20201126103447_11너1004.jpg
+[10:34:47] LPR Check: 11너1004,http://10.22.31.1:9080/MSImage/2020/11/26/CH1_20201126103447_11너1004.jpg,1,,,0, 2020-11-26 10:34:47
+[10:34:47] File: \\10.22.31.1\MSImage\2020\11\26\CH1_20201126103447_11너1004.jpg
+[10:34:47] NormalProc: 일반차량 처리 시작 : 11너1004, 
+[10:34:47] 방문차량 입차: 11너1004 - \\10.22.31.1\MSImage\2020\11\26\CH1_20201126103447_11너1004.jpg
+[10:34:47] 사전예약방문 차량
+[10:34:47] idTSExecute IP : 127.0.0.1, Port : 57441
+[10:34:47] idTSExecute recv: 00000077Type=PARKING&Dong=811&Ho=8001&CarNo=1004&DateTime=202011261034&InOut=VISIT_IN
+
+[10:34:47] HD_RequestProcess : Start
+[10:34:47] HD_RequestProcess : 전문 양식 오류
+[10:34:47] HD_RequestProcess : End
+[10:34:47] idTSExecute send: 00000104Type=PARKING&Dong=811&Ho=8001&CarNo=1004&DateTime=202011261034&DateTimeEnd=&InOut=VISIT_IN
+&Return=fail
+[10:34:47] IdTS_HyunDaiDisconnect
+[10:34:47] IdTS_HyunDaiException
+[10:35:00] fullDspSub1: 10060
+[10:35:02] fullDspSub1: 10060
+[10:35:02] Program Close

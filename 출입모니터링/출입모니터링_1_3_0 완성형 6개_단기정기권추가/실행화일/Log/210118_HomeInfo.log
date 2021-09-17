@@ -1,0 +1,9 @@
+[10:13:12] 
+==========================================
+[10:13:12] Program Start! (Ver_1.3.3.51)
+[10:13:13] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[10:13:13] <스마트빌리지> 소켓객체 생성완료
+[10:13:13] 스마트빌리지 사용준비 완료
+[10:13:13] Main.pas: Line: 22194, 호출>> EasyOnHome.HomeInfo_Proc_EasyOnConn(..) by 데몬 내부통신
+[10:13:13] EasyOnHomeInfo.pas: Line: 1731,  이지온 소켓생성 성공!
+[10:13:13] EasyOnHomeInfo.pas: Line: 1750,  Open IP:, Port:25008

@@ -1,0 +1,1383 @@
+[15:39:45] 
+==========================================
+[15:39:45] Program Start! (Ver_1.3.3.51)
+[15:39:46] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[15:40:24] 
+==========================================
+[15:40:24] Program Start! (Ver_1.3.3.51)
+[15:40:25] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[15:41:44] 
+==========================================
+[15:41:44] Program Start! (Ver_1.3.3.51)
+[15:41:45] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[15:42:49] tGetVisitTimer: 방문자 정보 획득 시작
+[15:43:15] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 1601 / 61더4688
+[15:44:06] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3503 / 05모7487
+[15:44:24] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 106 / 2002 / 29노6669
+[15:44:34] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 10보8414
+[15:44:45] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2202 / 152조2762
+[15:44:53] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2302 / 43우0772
+[15:45:03] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 2104 / 68부6388
+[15:45:13] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1302 / 45로4180
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 701 / 20소6722
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3302 / 60다6419
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1503 / 26수9673
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 503 / 26수9274
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2104 / 36두1035
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2104 / 166허6792
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 1601 / 35무0734
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3503 / 10버6782
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 69오3830
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 3002 / 20저3031
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 401 / 06다6438
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 56주7102
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 501 / 19버8466
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 2803 / 36러1944
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 701 / 26루7479
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3504 / 02누5881
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 804 / 20소7126
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 25수4886
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 902 / 238거3147
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3301 / 52다3416
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1904 / 15무0844
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3102 / 07더9660
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 33로8037
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1803 / 20도0826
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1202 / 24마9654
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 2402 / 39너8251
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 06나7394
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 224로1839
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3404 / 60구0688
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1403 / 09주7747
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1403 / 09주7063
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 81우3789
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 1504 / 13조7015
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 701 / 57라5189
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2704 / 15로2368
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 401 / 06다6438
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3503 / 05모7487
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2404 / 387거3130
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 57조5683
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 36러1944
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 39호5111
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3503 / 10버6782
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 56주7102
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7063
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7747
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3404 / 60구0688
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 501 / 19버8466
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 166허6792
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3504 / 02누5881
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 69오3830
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2104 / 36두1035
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 1504 / 13조7015
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 33로9087
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3302 / 60다6419
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1202 / 24마9654
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2104 / 06우1017
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 314루4185
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 106 / 2002 / 29노6669
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 3002 / 162버6201
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 503 / 26수9274
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 701 / 26루7479
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 2104 / 68부6388
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 804 / 20소7126
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3102 / 07더9660
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1803 / 20도0826
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2202 / 152조2762
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 10보8414
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2302 / 43우0772
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1803 / 20도0826
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 2104 / 68부6388
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 701 / 20소6722
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 03거5241
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 36서0245
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 40머7091
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[15:45:19] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1394
+[15:47:31] 
+==========================================
+[15:47:31] Program Start! (Ver_1.3.3.51)
+[15:47:32] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[15:48:32] tGetVisitTimer: 방문자 정보 획득 시작
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3503 / 05모7487
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 106 / 2002 / 29노6669
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 10보8414
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2202 / 152조2762
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2302 / 43우0772
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 2104 / 68부6388
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1302 / 45로4180
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 701 / 20소6722
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3302 / 60다6419
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1503 / 26수9673
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 503 / 26수9274
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2104 / 36두1035
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2104 / 166허6792
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 1601 / 35무0734
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3503 / 10버6782
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 69오3830
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 3002 / 20저3031
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 401 / 06다6438
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 56주7102
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 501 / 19버8466
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 2803 / 36러1944
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 701 / 26루7479
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3504 / 02누5881
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 804 / 20소7126
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 25수4886
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 902 / 238거3147
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3301 / 52다3416
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1904 / 15무0844
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3102 / 07더9660
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 33로8037
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1803 / 20도0826
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1202 / 24마9654
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 2402 / 39너8251
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 06나7394
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 224로1839
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3404 / 60구0688
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1403 / 09주7747
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1403 / 09주7063
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 81우3789
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 1504 / 13조7015
+[15:48:32] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 701 / 57라5189
+[15:49:43] 
+==========================================
+[15:49:43] Program Start! (Ver_1.3.3.51)
+[15:49:44] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[15:50:44] tGetVisitTimer: 방문자 정보 획득 시작
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3503 / 05모7487
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 106 / 2002 / 29노6669
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 10보8414
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2202 / 152조2762
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2302 / 43우0772
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 2104 / 68부6388
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1302 / 45로4180
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 701 / 20소6722
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3302 / 60다6419
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1503 / 26수9673
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 503 / 26수9274
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2104 / 36두1035
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2104 / 166허6792
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 1601 / 35무0734
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3503 / 10버6782
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 69오3830
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 3002 / 20저3031
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 401 / 06다6438
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 56주7102
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 501 / 19버8466
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 2803 / 36러1944
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 701 / 26루7479
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3504 / 02누5881
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 804 / 20소7126
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 25수4886
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 902 / 238거3147
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3301 / 52다3416
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1904 / 15무0844
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3102 / 07더9660
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 33로8037
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1803 / 20도0826
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1202 / 24마9654
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 2402 / 39너8251
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 06나7394
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 224로1839
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3404 / 60구0688
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1403 / 09주7747
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1403 / 09주7063
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 81우3789
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 1504 / 13조7015
+[15:50:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 701 / 57라5189
+[16:02:37] 
+==========================================
+[16:02:37] Program Start! (Ver_1.3.3.51)
+[16:02:38] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[16:03:38] tGetVisitTimer: 방문자 정보 획득 시작
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 106 / 2002 / 29노6669
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 10보8414
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2202 / 152조2762
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2302 / 43우0772
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 2104 / 68부6388
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1302 / 45로4180
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 701 / 20소6722
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3302 / 60다6419
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1503 / 26수9673
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 503 / 26수9274
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2104 / 36두1035
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2104 / 166허6792
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 1601 / 35무0734
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3503 / 10버6782
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 69오3830
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 3002 / 20저3031
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 401 / 06다6438
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 56주7102
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 501 / 19버8466
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 2803 / 36러1944
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 701 / 26루7479
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3504 / 02누5881
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 804 / 20소7126
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 25수4886
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 902 / 238거3147
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3301 / 52다3416
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1904 / 15무0844
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3102 / 07더9660
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 33로8037
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1803 / 20도0826
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1202 / 24마9654
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 2402 / 39너8251
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 06나7394
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 224로1839
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3404 / 60구0688
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1403 / 09주7747
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1403 / 09주7063
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 81우3789
+[16:03:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 1504 / 13조7015
+[16:04:24] TfrmMain.tGetVisitTimer: error 잘못된 형식이거나 올바른 범위 밖에 있거나 서로 충돌하는 인수입니다
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 401 / 06다6438
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3503 / 05모7487
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2404 / 387거3130
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 57조5683
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 36러1944
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 39호5111
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3503 / 10버6782
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 56주7102
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7063
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7747
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3404 / 60구0688
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 501 / 19버8466
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 166허6792
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3504 / 02누5881
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 69오3830
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2104 / 36두1035
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 1504 / 13조7015
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 33로9087
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3302 / 60다6419
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1202 / 24마9654
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 314루4185
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 106 / 2002 / 29노6669
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 3002 / 162버6201
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 503 / 26수9274
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 701 / 26루7479
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 2104 / 68부6388
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 804 / 20소7126
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3102 / 07더9660
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1803 / 20도0826
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2202 / 152조2762
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 10보8414
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2302 / 43우0772
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1803 / 20도0826
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 2104 / 68부6388
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 701 / 20소6722
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 03거5241
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 36서0245
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 40머7091
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:04:24] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1394
+[16:06:42] 
+==========================================
+[16:06:42] Program Start! (Ver_1.3.3.51)
+[16:06:43] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[16:07:43] tGetVisitTimer: 방문자 정보 획득 시작
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 106 / 2002 / 29노6669
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 10보8414
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2202 / 152조2762
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2302 / 43우0772
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 2104 / 68부6388
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1302 / 45로4180
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 701 / 20소6722
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3302 / 60다6419
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1503 / 26수9673
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 503 / 26수9274
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2104 / 36두1035
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2104 / 166허6792
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 1601 / 35무0734
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3503 / 10버6782
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 69오3830
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 3002 / 20저3031
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 401 / 06다6438
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 56주7102
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 501 / 19버8466
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 2803 / 36러1944
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 701 / 26루7479
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3504 / 02누5881
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 804 / 20소7126
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 25수4886
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 902 / 238거3147
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3301 / 52다3416
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1904 / 15무0844
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3102 / 07더9660
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 33로8037
+[16:07:43] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1803 / 20도0826
+[16:07:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1202 / 24마9654
+[16:07:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 2402 / 39너8251
+[16:07:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 06나7394
+[16:07:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 224로1839
+[16:07:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3404 / 60구0688
+[16:07:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1403 / 09주7747
+[16:07:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1403 / 09주7063
+[16:07:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 81우3789
+[16:07:44] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 1504 / 13조7015
+[16:15:30] 
+==========================================
+[16:15:30] Program Start! (Ver_1.3.3.51)
+[16:15:31] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[16:16:31] tGetVisitTimer: 방문자 정보 획득 시작
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 106 / 2002 / 29노6669
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 10보8414
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2202 / 152조2762
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2302 / 43우0772
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 2104 / 68부6388
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1302 / 45로4180
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 701 / 20소6722
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3302 / 60다6419
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1503 / 26수9673
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 503 / 26수9274
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2104 / 36두1035
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2104 / 166허6792
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 1601 / 35무0734
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3503 / 10버6782
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 69오3830
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 3002 / 20저3031
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 401 / 06다6438
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 56주7102
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 501 / 19버8466
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 2803 / 36러1944
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 701 / 26루7479
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3504 / 02누5881
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 804 / 20소7126
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 25수4886
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 902 / 238거3147
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3301 / 52다3416
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1904 / 15무0844
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3102 / 07더9660
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 33로8037
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1803 / 20도0826
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1202 / 24마9654
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 2402 / 39너8251
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 06나7394
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 224로1839
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3404 / 60구0688
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1403 / 09주7747
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1403 / 09주7063
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 81우3789
+[16:16:31] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 1504 / 13조7015
+[16:18:21] 
+==========================================
+[16:18:21] Program Start! (Ver_1.3.3.51)
+[16:18:22] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[16:19:22] tGetVisitTimer: 방문자 정보 획득 시작
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 10보8414
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2202 / 152조2762
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2302 / 43우0772
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 2104 / 68부6388
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1302 / 45로4180
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 701 / 20소6722
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3302 / 60다6419
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1503 / 26수9673
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 503 / 26수9274
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2104 / 36두1035
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2104 / 166허6792
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 1601 / 35무0734
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3503 / 10버6782
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 69오3830
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 3002 / 20저3031
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 401 / 06다6438
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 56주7102
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 501 / 19버8466
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 2803 / 36러1944
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 701 / 26루7479
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3504 / 02누5881
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 804 / 20소7126
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 25수4886
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 902 / 238거3147
+[16:19:22] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3301 / 52다3416
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1904 / 15무0844
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3102 / 07더9660
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 33로8037
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1803 / 20도0826
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1202 / 24마9654
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 2402 / 39너8251
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 06나7394
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 224로1839
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3404 / 60구0688
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1403 / 09주7747
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1403 / 09주7063
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 81우3789
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 401 / 06다6438
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3503 / 05모7487
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2404 / 387거3130
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 57조5683
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 36러1944
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 39호5111
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3503 / 10버6782
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 56주7102
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7063
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7747
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3404 / 60구0688
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 501 / 19버8466
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 166허6792
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3504 / 02누5881
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 69오3830
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2104 / 36두1035
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 1504 / 13조7015
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 33로9087
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3302 / 60다6419
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1202 / 24마9654
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 314루4185
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 106 / 2002 / 29노6669
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 3002 / 162버6201
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 701 / 26루7479
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 2104 / 68부6388
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 804 / 20소7126
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3102 / 07더9660
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1803 / 20도0826
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2202 / 152조2762
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 10보8414
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2302 / 43우0772
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1803 / 20도0826
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 2104 / 68부6388
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 701 / 20소6722
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 03거5241
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 36서0245
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 40머7091
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:19:23] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1394
+[16:24:54] 
+==========================================
+[16:24:54] Program Start! (Ver_1.3.3.51)
+[16:24:55] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[16:25:55] tGetVisitTimer: 방문자 정보 획득 시작
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2202 / 152조2762
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2302 / 43우0772
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 2104 / 68부6388
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1302 / 45로4180
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 701 / 20소6722
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3302 / 60다6419
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1503 / 26수9673
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 503 / 26수9274
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2104 / 36두1035
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2104 / 166허6792
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 1601 / 35무0734
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3503 / 10버6782
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 69오3830
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 3002 / 20저3031
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 401 / 06다6438
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 56주7102
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 501 / 19버8466
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 2803 / 36러1944
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 701 / 26루7479
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3504 / 02누5881
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 804 / 20소7126
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 25수4886
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 902 / 238거3147
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3301 / 52다3416
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1904 / 15무0844
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3102 / 07더9660
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 33로8037
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1803 / 20도0826
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1202 / 24마9654
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 2402 / 39너8251
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 06나7394
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 224로1839
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3404 / 60구0688
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1403 / 09주7747
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1403 / 09주7063
+[16:25:55] 계영정보통신 사전방문 SEQ: 6228
+[16:25:55] 계영정보통신 사전방문 SEQ: 6233
+[16:25:55] 계영정보통신 사전방문 SEQ: 6235
+[16:25:55] 계영정보통신 사전방문 SEQ: 6236
+[16:25:55] 계영정보통신 사전방문 SEQ: 6237
+[16:25:55] 계영정보통신 사전방문 SEQ: 6239
+[16:25:55] 계영정보통신 사전방문 SEQ: 6240
+[16:25:55] 계영정보통신 사전방문 SEQ: 6242
+[16:25:55] 계영정보통신 사전방문 SEQ: 6244
+[16:25:55] 계영정보통신 사전방문 SEQ: 6246
+[16:25:55] 계영정보통신 사전방문 SEQ: 6247
+[16:25:55] 계영정보통신 사전방문 SEQ: 6248
+[16:25:55] 계영정보통신 사전방문 SEQ: 6249
+[16:25:55] 계영정보통신 사전방문 SEQ: 6250
+[16:25:55] 계영정보통신 사전방문 SEQ: 6251
+[16:25:55] 계영정보통신 사전방문 SEQ: 6253
+[16:25:55] 계영정보통신 사전방문 SEQ: 6254
+[16:25:55] 계영정보통신 사전방문 SEQ: 6255
+[16:25:55] 계영정보통신 사전방문 SEQ: 6257
+[16:25:55] 계영정보통신 사전방문 SEQ: 6258
+[16:25:55] 계영정보통신 사전방문 SEQ: 6259
+[16:25:55] 계영정보통신 사전방문 SEQ: 6262
+[16:25:55] 계영정보통신 사전방문 SEQ: 6263
+[16:25:55] 계영정보통신 사전방문 SEQ: 6264
+[16:25:55] 계영정보통신 사전방문 SEQ: 6265
+[16:25:55] 계영정보통신 사전방문 SEQ: 6268
+[16:25:55] 계영정보통신 사전방문 SEQ: 6269
+[16:25:55] 계영정보통신 사전방문 SEQ: 6272
+[16:25:55] 계영정보통신 사전방문 SEQ: 6273
+[16:25:55] 계영정보통신 사전방문 SEQ: 6274
+[16:25:55] 계영정보통신 사전방문 SEQ: 6276
+[16:25:55] 계영정보통신 사전방문 SEQ: 6277
+[16:25:55] 계영정보통신 사전방문 SEQ: 6278
+[16:25:55] 계영정보통신 사전방문 SEQ: 6279
+[16:25:55] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 401 / 06다6438
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3503 / 05모7487
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2404 / 387거3130
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 57조5683
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 36러1944
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 39호5111
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3503 / 10버6782
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 56주7102
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7063
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7747
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3404 / 60구0688
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 501 / 19버8466
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 166허6792
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3504 / 02누5881
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 69오3830
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2104 / 36두1035
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 1504 / 13조7015
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 33로9087
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3302 / 60다6419
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1202 / 24마9654
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 314루4185
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 106 / 2002 / 29노6669
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 3002 / 162버6201
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 701 / 26루7479
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 804 / 20소7126
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3102 / 07더9660
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1803 / 20도0826
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2202 / 152조2762
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 10보8414
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2302 / 43우0772
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:25:55] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1803 / 20도0826
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 2104 / 68부6388
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 701 / 20소6722
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 03거5241
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 36서0245
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 40머7091
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:25:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1394
+[16:26:56] tGetVisitTimer: 방문자 정보 획득 시작
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2302 / 43우0772
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 2104 / 68부6388
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1302 / 45로4180
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 701 / 20소6722
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3302 / 60다6419
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1503 / 26수9673
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 503 / 26수9274
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2104 / 36두1035
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2104 / 166허6792
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 1601 / 35무0734
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3503 / 10버6782
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 69오3830
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 3002 / 20저3031
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 401 / 06다6438
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 56주7102
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 501 / 19버8466
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 2803 / 36러1944
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 701 / 26루7479
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3504 / 02누5881
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 804 / 20소7126
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 25수4886
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 902 / 238거3147
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3301 / 52다3416
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1904 / 15무0844
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3102 / 07더9660
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 33로8037
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1803 / 20도0826
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1202 / 24마9654
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 2402 / 39너8251
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 06나7394
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 224로1839
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3404 / 60구0688
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1403 / 09주7747
+[16:26:56] 계영정보통신 사전방문 SEQ: 6233
+[16:26:56] 계영정보통신 사전방문 SEQ: 6235
+[16:26:56] 계영정보통신 사전방문 SEQ: 6236
+[16:26:56] 계영정보통신 사전방문 SEQ: 6237
+[16:26:56] 계영정보통신 사전방문 SEQ: 6239
+[16:26:56] 계영정보통신 사전방문 SEQ: 6240
+[16:26:56] 계영정보통신 사전방문 SEQ: 6242
+[16:26:56] 계영정보통신 사전방문 SEQ: 6244
+[16:26:56] 계영정보통신 사전방문 SEQ: 6246
+[16:26:56] 계영정보통신 사전방문 SEQ: 6247
+[16:26:56] 계영정보통신 사전방문 SEQ: 6248
+[16:26:56] 계영정보통신 사전방문 SEQ: 6249
+[16:26:56] 계영정보통신 사전방문 SEQ: 6250
+[16:26:56] 계영정보통신 사전방문 SEQ: 6251
+[16:26:56] 계영정보통신 사전방문 SEQ: 6253
+[16:26:56] 계영정보통신 사전방문 SEQ: 6254
+[16:26:56] 계영정보통신 사전방문 SEQ: 6255
+[16:26:56] 계영정보통신 사전방문 SEQ: 6257
+[16:26:56] 계영정보통신 사전방문 SEQ: 6258
+[16:26:56] 계영정보통신 사전방문 SEQ: 6259
+[16:26:56] 계영정보통신 사전방문 SEQ: 6262
+[16:26:56] 계영정보통신 사전방문 SEQ: 6263
+[16:26:56] 계영정보통신 사전방문 SEQ: 6264
+[16:26:56] 계영정보통신 사전방문 SEQ: 6265
+[16:26:56] 계영정보통신 사전방문 SEQ: 6268
+[16:26:56] 계영정보통신 사전방문 SEQ: 6269
+[16:26:56] 계영정보통신 사전방문 SEQ: 6272
+[16:26:56] 계영정보통신 사전방문 SEQ: 6273
+[16:26:56] 계영정보통신 사전방문 SEQ: 6274
+[16:26:56] 계영정보통신 사전방문 SEQ: 6276
+[16:26:56] 계영정보통신 사전방문 SEQ: 6277
+[16:26:56] 계영정보통신 사전방문 SEQ: 6278
+[16:26:56] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 401 / 06다6438
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3503 / 05모7487
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2404 / 387거3130
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 57조5683
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 36러1944
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 39호5111
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3503 / 10버6782
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 56주7102
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7063
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7747
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3404 / 60구0688
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 501 / 19버8466
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 166허6792
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3504 / 02누5881
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 69오3830
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2104 / 36두1035
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 1504 / 13조7015
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 33로9087
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3302 / 60다6419
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1202 / 24마9654
+[16:26:56] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 314루4185
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 106 / 2002 / 29노6669
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 3002 / 162버6201
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 701 / 26루7479
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 804 / 20소7126
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1803 / 20도0826
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2202 / 152조2762
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 10보8414
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2302 / 43우0772
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1803 / 20도0826
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 2104 / 68부6388
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 701 / 20소6722
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 03거5241
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 36서0245
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 40머7091
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:26:57] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1394
+[16:27:57] tGetVisitTimer: 방문자 정보 획득 시작
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 2104 / 68부6388
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1302 / 45로4180
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 701 / 20소6722
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3302 / 60다6419
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1503 / 26수9673
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 503 / 26수9274
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2104 / 36두1035
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2104 / 166허6792
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 1601 / 35무0734
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3503 / 10버6782
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 69오3830
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 3002 / 20저3031
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 401 / 06다6438
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 56주7102
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 501 / 19버8466
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 2803 / 36러1944
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 701 / 26루7479
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3504 / 02누5881
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 804 / 20소7126
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 25수4886
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 902 / 238거3147
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3301 / 52다3416
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1904 / 15무0844
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3102 / 07더9660
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 33로8037
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1803 / 20도0826
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1202 / 24마9654
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 2402 / 39너8251
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 06나7394
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 224로1839
+[16:27:57] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3404 / 60구0688
+[16:27:57] 계영정보통신 사전방문 SEQ: 6235
+[16:27:57] 계영정보통신 사전방문 SEQ: 6236
+[16:27:57] 계영정보통신 사전방문 SEQ: 6237
+[16:27:57] 계영정보통신 사전방문 SEQ: 6239
+[16:27:58] 계영정보통신 사전방문 SEQ: 6240
+[16:27:58] 계영정보통신 사전방문 SEQ: 6242
+[16:27:58] 계영정보통신 사전방문 SEQ: 6244
+[16:27:58] 계영정보통신 사전방문 SEQ: 6246
+[16:27:58] 계영정보통신 사전방문 SEQ: 6247
+[16:27:58] 계영정보통신 사전방문 SEQ: 6248
+[16:27:58] 계영정보통신 사전방문 SEQ: 6249
+[16:27:58] 계영정보통신 사전방문 SEQ: 6250
+[16:27:58] 계영정보통신 사전방문 SEQ: 6251
+[16:27:58] 계영정보통신 사전방문 SEQ: 6253
+[16:27:58] 계영정보통신 사전방문 SEQ: 6254
+[16:27:58] 계영정보통신 사전방문 SEQ: 6255
+[16:27:58] 계영정보통신 사전방문 SEQ: 6257
+[16:27:58] 계영정보통신 사전방문 SEQ: 6258
+[16:27:58] 계영정보통신 사전방문 SEQ: 6259
+[16:27:58] 계영정보통신 사전방문 SEQ: 6262
+[16:27:58] 계영정보통신 사전방문 SEQ: 6263
+[16:27:58] 계영정보통신 사전방문 SEQ: 6264
+[16:27:58] 계영정보통신 사전방문 SEQ: 6265
+[16:27:58] 계영정보통신 사전방문 SEQ: 6268
+[16:27:58] 계영정보통신 사전방문 SEQ: 6269
+[16:27:58] 계영정보통신 사전방문 SEQ: 6272
+[16:27:58] 계영정보통신 사전방문 SEQ: 6273
+[16:27:58] 계영정보통신 사전방문 SEQ: 6274
+[16:27:58] 계영정보통신 사전방문 SEQ: 6276
+[16:27:58] 계영정보통신 사전방문 SEQ: 6277
+[16:27:58] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+or resv_seq = :N3
+
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 401 / 06다6438
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3503 / 05모7487
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2404 / 387거3130
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 57조5683
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 36러1944
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 39호5111
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3503 / 10버6782
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 56주7102
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7063
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7747
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3404 / 60구0688
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 501 / 19버8466
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 166허6792
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3504 / 02누5881
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 69오3830
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2104 / 36두1035
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 1504 / 13조7015
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 33로9087
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3302 / 60다6419
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1202 / 24마9654
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 314루4185
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 106 / 2002 / 29노6669
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 3002 / 162버6201
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 701 / 26루7479
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 804 / 20소7126
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2202 / 152조2762
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 10보8414
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2302 / 43우0772
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1803 / 20도0826
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 2104 / 68부6388
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 701 / 20소6722
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 03거5241
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 36서0245
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 40머7091
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:27:58] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1394
+[16:55:16] 
+==========================================
+[16:55:16] Program Start! (Ver_1.3.3.51)
+[16:55:17] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[16:56:17] tGetVisitTimer: 방문자 정보 획득 시작
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1302 / 45로4180
+[16:56:17] TfrmMain.tGetVisitTimer: error qryGetVisit: Cannot perform this operation on a closed dataset
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 401 / 06다6438
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3503 / 05모7487
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2404 / 387거3130
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 57조5683
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 36러1944
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 39호5111
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3503 / 10버6782
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 56주7102
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7063
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7747
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3404 / 60구0688
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 501 / 19버8466
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 166허6792
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3504 / 02누5881
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 69오3830
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2104 / 36두1035
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 1504 / 13조7015
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 33로9087
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3302 / 60다6419
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1202 / 24마9654
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 314루4185
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 106 / 2002 / 29노6669
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 3002 / 162버6201
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 701 / 26루7479
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 804 / 20소7126
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2202 / 152조2762
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 10보8414
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2302 / 43우0772
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1803 / 20도0826
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 2104 / 68부6388
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 701 / 20소6722
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 03거5241
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 36서0245
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 40머7091
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[16:56:17] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1394
+[16:58:52] 
+==========================================
+[16:58:52] Program Start! (Ver_1.3.3.51)
+[16:58:53] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:00:38] 
+==========================================
+[17:00:38] Program Start! (Ver_1.3.3.51)
+[17:00:38] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:01:38] tGetVisitTimer: 방문자 정보 획득 시작
+[17:01:38] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1302 / 45로4180
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 701 / 20소6722
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3302 / 60다6419
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1503 / 26수9673
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 503 / 26수9274
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2104 / 36두1035
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2104 / 166허6792
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 1601 / 35무0734
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3503 / 10버6782
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 69오3830
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 3002 / 20저3031
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 401 / 06다6438
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 56주7102
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 501 / 19버8466
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 2803 / 36러1944
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 701 / 26루7479
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3504 / 02누5881
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 804 / 20소7126
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 25수4886
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 902 / 238거3147
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3301 / 52다3416
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1904 / 15무0844
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3102 / 07더9660
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 33로8037
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1803 / 20도0826
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1202 / 24마9654
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 2402 / 39너8251
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 06나7394
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 224로1839
+[17:01:39] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+or resv_seq = :N3 
+
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 401 / 06다6438
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3503 / 05모7487
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2404 / 387거3130
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 57조5683
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 36러1944
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 39호5111
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3503 / 10버6782
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 56주7102
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7063
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7747
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3404 / 60구0688
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 501 / 19버8466
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 166허6792
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3504 / 02누5881
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 69오3830
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2104 / 36두1035
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 1504 / 13조7015
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 33로9087
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3302 / 60다6419
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1202 / 24마9654
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 314루4185
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 106 / 2002 / 29노6669
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 3002 / 162버6201
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 701 / 26루7479
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 804 / 20소7126
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2202 / 152조2762
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 10보8414
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2302 / 43우0772
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1803 / 20도0826
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 2104 / 68부6388
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 701 / 20소6722
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 03거5241
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 36서0245
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 40머7091
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[17:01:39] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1394
+[17:15:00] 
+==========================================
+[17:15:00] Program Start! (Ver_1.3.3.51)
+[17:15:00] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:19:35] 
+==========================================
+[17:19:35] Program Start! (Ver_1.3.3.51)
+[17:19:36] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:20:36] tGetVisitTimer: 방문자 정보 획득 시작
+[17:20:36] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 701 / 20소6722
+[17:54:26] 
+==========================================
+[17:54:26] Program Start! (Ver_1.3.3.51)
+[17:54:27] 단지서버(홈넷) Ping 정상! (단지서버 IP-127.0.0.1)
+[17:55:27] tGetVisitTimer: 방문자 정보 획득 시작
+[17:55:27] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 701 / 20소6722
+[17:55:27] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:27] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3302 / 60다6419
+[17:55:27] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:27] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 1503 / 26수9673
+[17:55:27] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:27] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 503 / 26수9274
+[17:55:27] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:27] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2104 / 36두1035
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 2104 / 166허6792
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 1601 / 35무0734
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3503 / 10버6782
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 69오3830
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 3002 / 20저3031
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 401 / 06다6438
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1103 / 56주7102
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 107 / 501 / 19버8466
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 2803 / 36러1944
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 701 / 26루7479
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3504 / 02누5881
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 104 / 804 / 20소7126
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 3104 / 25수4886
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 902 / 238거3147
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3301 / 52다3416
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1904 / 15무0844
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 3102 / 07더9660
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 108 / 1004 / 33로8037
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1803 / 20도0826
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 105 / 1202 / 24마9654
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 102 / 2402 / 39너8251
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 기록(동/호/차번) : 103 / 2503 / 06나7394
+[17:55:28] Update rs_visitorcar_resv set cm_date = :N1, tr_flag = 1 where resv_seq = :N2 
+
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 401 / 06다6438
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3503 / 05모7487
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2404 / 387거3130
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 57조5683
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 2803 / 36러1944
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 39호5111
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3503 / 10버6782
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 56주7102
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7063
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1403 / 09주7747
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3404 / 60구0688
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 501 / 19버8466
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2104 / 166허6792
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3504 / 02누5881
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 69오3830
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2104 / 36두1035
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 1504 / 13조7015
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 1004 / 33로9087
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 3302 / 60다6419
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1202 / 24마9654
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 314루4185
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 106 / 2002 / 29노6669
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 3002 / 162버6201
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 108 / 701 / 26루7479
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 804 / 20소7126
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2202 / 152조2762
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 107 / 1601 / 35무0734
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1103 / 10보8414
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 2302 / 43우0772
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1702 / 39하3578
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1302 / 45로4180
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 1803 / 20도0826
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 104 / 2104 / 68부6388
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 701 / 20소6722
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 03거5241
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 3104 / 36서0245
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 1601 / 64무1317
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 15로2368
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 803 / 46저6638
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2704 / 40머7091
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1839
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 105 / 803 / 151조4286
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 102 / 2402 / 39너8251
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 06나7394
+[17:55:28] TfrmMain.tGetVisitTimer 방문자 삭제(동/호/차번) : 103 / 2503 / 224로1394
