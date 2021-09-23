@@ -15247,6 +15247,7 @@ begin
       begin
         sOrgFile := FieldByName('InImage1').AsString;
         nOrgUnitNo := FieldByName('UnitNo').AsInteger;
+        btnMOK2.Enabled := True;
       end;
     end;
 
@@ -15268,6 +15269,7 @@ begin
       begin
         sOrgFile := FieldByName('InImage1').AsString;
         nOrgUnitNo := FieldByName('UnitNo').AsInteger;
+        btnMOK2.Enabled := false;
       end;
     end;
 
@@ -15353,7 +15355,7 @@ begin
       grdGeustInfo.Col := 1;
       grdGeustInfo.SetFocus;
     end;
-     btnMOK2.Enabled := True;
+     //btnMOK2.Enabled := True;
   end;
 
 end;
@@ -15397,6 +15399,7 @@ begin
       begin
         sOrgFile := FieldByName('OutImage1').AsString;
         nOrgUnitNo := FieldByName('UnitNo').AsInteger;
+        btnMOK2.Enabled := True;
       end;
     end;
 
@@ -15420,6 +15423,7 @@ begin
         begin
           sOrgFile := FieldByName('OutImage1').AsString;
           nOrgUnitNo := FieldByName('UnitNo').AsInteger;
+          btnMOK2.Enabled := false;
         end;
       end;
     end;
@@ -15512,7 +15516,7 @@ begin
       grdGeustInfo.Col := 1;
       grdGeustInfo.SetFocus;
     end;
-    btnMOK2.Enabled := false;
+    //btnMOK2.Enabled := false;
   end;
 
 end;
