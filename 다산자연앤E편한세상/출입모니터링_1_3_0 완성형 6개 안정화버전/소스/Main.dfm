@@ -5579,6 +5579,7 @@ object frmMain: TfrmMain
       Font.Style = [fsBold]
       ParentFont = False
       TabOrder = 7
+      Visible = False
       OnClick = Button2Click
     end
   end

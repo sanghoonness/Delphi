@@ -2850,7 +2850,8 @@ begin
             frmIONData := TfrmIONData.Create(nil);
             frmIONData.isAPT := nApt;
             visitClt := visitQue.Dequeue;
-            if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+            //if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+            if visitClt.LPRRecgNo <> 1 then
             begin
               frmIONData.edtCarNo.LabelCaption := visitClt.LprName + ' - ';
               frmIONData.edtCarNo.Visible := True;
@@ -2861,6 +2862,7 @@ begin
             begin
               frmIONData.edtCarNo.Visible := False;
               frmIONData.btn_search.Visible := False;
+
             end;
 
             frmIONData.recvClt := visitClt;
@@ -2876,7 +2878,8 @@ begin
                  inValue := '사유 미작성'
               end;
 
-              if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+              //if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+              if visitClt.LPRRecgNo <> 1 then
               begin
                  MakePrtStr(visitClt.LprDate, visitClt.LprTime, Trim(frmIONData.edtCarNo.Text));
               end
@@ -2963,7 +2966,8 @@ begin
                 end
                 else  //자동출력
                 begin
-                  if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+                  //if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+                  if visitClt.LPRRecgNo <> 1 then
                   begin
                     visitClt.LprCarNo := Trim(frmIONData.edtCarNo.Text);
                     ExceptLogging('방문증 수정된 차량번호 : '+visitClt.LprCarNo);
@@ -3000,7 +3004,8 @@ begin
                   ExecSQL;
 
                   if nVisitation = 1 then
-                    if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+                    //if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+                    if visitClt.LPRRecgNo <> 1 then
                     begin
                         NGridData('1' + Trim(frmIONData.edtCarNo.Text) + '^' + visitClt.LprDate + ' ' + visitClt.LprTime + '^'+ inValue+'^'+visitClt.LprName,inDong,inHo);
                         ExceptLogging('방문증내용 수정된 차량 업데이트완료:'+visitClt.TkNo+ ' '+inDong+'/'+inHo+' '+Trim(frmIONData.edtCarNo.Text));
@@ -3036,7 +3041,8 @@ begin
                 end
                 else  //자동 방문증 출력
                 begin
-                  if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+                  //if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+                  if visitClt.LPRRecgNo <> 1 then
                   begin
                     aptnThd.aptnInfo.exeTag := 1;
                     aptnThd.aptnInfo.aptner_Aptcode := AptnerCode;
@@ -9418,6 +9424,7 @@ begin
         try
           if nBlack = 1 then
           begin
+            pnlBlack.Visible := False;
             //블랙리스트 차량 확인
             with dmTables.qryIOBData do
             begin
@@ -9686,6 +9693,7 @@ begin
                         visitClt.LprDate := sLprDate;
                         visitClt.LprNo := nLprNo;
                         visitClt.TkNo := sTKNo;
+                        visitClt.LPRRecgNo := nNowLprRecog1;
                         visitQue.Enqueue(visitClt);
                         Break;
                       end;
@@ -9699,6 +9707,7 @@ begin
                         visitClt.LprDate := sLprDate;
                         visitClt.LprNo := nLprNo;
                         visitClt.TkNo := sTKNo;
+                        visitClt.LPRRecgNo := nNowLprRecog1;
                         visitQue.Enqueue(visitClt);
                         Break;
                       end;
@@ -9792,6 +9801,7 @@ begin
 
                   //출입제한차량 입차LPR 차단
                   dataIdx := blContests;
+                  lblVipTitle.Caption  := '블랙리스트 입출 정보';
                   grdBlData.ColCount := 2;
                   grdBlData.RowCount := dataIdx;
                   grdBlData.ColWidths[0] := 170;
@@ -12646,6 +12656,8 @@ var
   visitClt: TmzClientSocket; //방문증 기간만료시 변수
   nChk, nSTime, nETime, sParking, sParking2 : String; //정기차량 시간대별 출입통제
   nDay, nHour, nMin, nDay2, nHour2, nMin2 : Integer;
+  sLineOutCnt : string;
+  sAllotmentTime, sUseTime, sRemainTime : Integer;
   //방문증 관련
   function GetNameFromUnitInfo(nLprNo: Integer): string;
   begin
@@ -13073,6 +13085,7 @@ begin
             sGroupName := FieldByName('GroupName').AsString;
             nGroupType := FieldByName('GroupType').AsInteger;
             nUseFeeItem := FieldByName('UseFeeItem').AsInteger;    // 적용할 요금종류 번호
+            nWP := FieldByName('WP').AsInteger;            // 정기차량 시간대별 주차시간 번호
             if GroupBlockLPR = 1 then begin
               try
                 blockLprStrs.Clear;
@@ -14358,6 +14371,7 @@ begin
 
                               //주간지정차량 정기차량 중 해당 요일에 대한 주차시간 초과시
                               //해당 세대별 누적 시간 차감
+                              pnlBlack.Visible := False;
                               Close;
                               SQL.Clear;
                               SQL.Add('Select * from WP where WPNo = :N1');
@@ -14462,8 +14476,9 @@ begin
                                     if nMin2 > 0 then
                                       sParking2 := sParking2 + IntToStr(nMin2) + '분';
 
-                                    grdBlData.Cells[0,0] := '차량번호';
-                                    grdBlData.Cells[1,0] := sCarNo;
+                                    lblVipTitle.Caption  := '주차시간 초과된 정기차량';
+                                    grdBlData.Cells[0,0] := '차량번호/ 동/ 호';
+                                    grdBlData.Cells[1,0] := sCarNo+'/'+sCompName+'/'+sDeptName;
                                     grdBlData.Cells[0,1] := '입차시간';
                                     grdBlData.Cells[1,1] := sSCInDate+' '+sSCInTime;
                                     grdBlData.Cells[0,2] := '출차시간';
@@ -14481,6 +14496,37 @@ begin
                                     grdBlData.ColumnSize.Stretch := true;
                                     grdBlData.autosize := true;
                                     pnlBlack.Visible := True;
+
+                                    //세대별 초과된 정기차량 주차 시간 차감
+                                    ExceptLogging(sCarNo+' '+sCompName+'/'+sDeptName + '세대별 주차시간(분) 조회');
+                                    Close;
+                                    SQL.Clear;
+                                    SQL.Add(' select * from CustInfo_WP ');
+                                    SQL.Add(' where dong = :N1 and ho = :N2');
+                                    Parameters.ParamByName('N1').Value := sCompName;
+                                    Parameters.ParamByName('N2').Value := sDeptName;
+                                    Open;
+
+                                    if recordcount > 0 then
+                                    begin
+                                      sAllotmentTime := FieldbyName('AllotmentTime').AsInteger;
+                                      sUseTime := FieldbyName('UseTime').AsInteger;
+                                      sRemainTime := FieldbyName('RemainTime').AsInteger;
+                                      ExceptLogging(sCarNo+' '+sCompName+'/'+sDeptName + '세대별 주차시간(분)- 할당시간: '+ Inttostr(sAllotmentTime)+'(분) 사용시간: '+Inttostr(sUseTime)+'(분) 남은시간: '+Inttostr(sRemainTime)+'(분)');
+
+                                      Close;
+                                      SQL.Clear;
+                                      SQL.Add('Update CustInfo_WP Set AllotmentTime = :N1, UseTime = :N2, RemainTime = :N3, UpdateTime = :N4 ');
+                                      SQL.Add('where dong = :N5 and ho = :N6 ');
+                                      Parameters.ParamByName('N1').Value := sAllotmentTime;
+                                      Parameters.ParamByName('N2').Value := sUseTime + nOverParkingMin;
+                                      Parameters.ParamByName('N3').Value := sAllotmentTime - nOverParkingMin;
+                                      Parameters.ParamByName('N4').Value := FormatDateTime('yyyy-mm-dd hh:mm:ss',Now);
+                                      Parameters.ParamByName('N5').Value := sCompName;
+                                      Parameters.ParamByName('N6').Value := sDeptName;
+                                      ExecSQL;
+                                      ExceptLogging(sCarNo+' '+sCompName+'/'+sDeptName + '세대별 주차시간차감(분)- 할당시간: '+ Inttostr(sAllotmentTime)+'(분) 사용시간: '+Inttostr(sUseTime + nOverParkingMin)+'(분) 남은시간: '+Inttostr(sAllotmentTime - nOverParkingMin)+'(분)');
+                                    end;
                                  end
                                  else
                                  begin

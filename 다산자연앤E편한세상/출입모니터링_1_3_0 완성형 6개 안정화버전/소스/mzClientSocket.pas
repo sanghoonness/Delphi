@@ -20,6 +20,7 @@ type
     FLprOutSubNo: Integer;
     FLprOutSubDsp: String;
     FTkNo: AnsiString;
+    FLPRRecgNo: Integer;
 //    FNListCnt: Integer;
 
   protected
@@ -35,6 +36,7 @@ type
     property LprOutSubNo: Integer read FLprOutSubNo write FLprOutSubNo;
     property LprOutSubDsp: String read FLprOutSubDsp write FLprOutSubDsp;
     property TkNo: AnsiString read FTkNo write FTkNo;
+    property LPRRecgNo: Integer read FLPRRecgNo write FLPRRecgNo;
 //    property NListCnt: Integer read FNListCnt write FNListCnt;
 
   public
