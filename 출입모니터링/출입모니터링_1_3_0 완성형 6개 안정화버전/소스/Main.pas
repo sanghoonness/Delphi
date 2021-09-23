@@ -2908,7 +2908,8 @@ begin
             frmIONData := TfrmIONData.Create(nil);
             frmIONData.isAPT := nApt;
             visitClt := visitQue.Dequeue;
-            if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+            //if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+            if visitClt.LPRRecgNo <> 1 then
             begin
               frmIONData.edtCarNo.LabelCaption := visitClt.LprName + ' - ';
               frmIONData.edtCarNo.Visible := True;
@@ -2919,7 +2920,7 @@ begin
             begin
               frmIONData.edtCarNo.Visible := False;
               frmIONData.btn_search.Visible := False;
-              frmIONData.edtCarNo.Text := visitClt.LprCarNo;
+              //frmIONData.edtCarNo.Text := visitClt.LprCarNo;
             end;
 
             frmIONData.recvClt := visitClt;
@@ -2935,7 +2936,8 @@ begin
                  inValue := '사유 미작성'
               end;
 
-              if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+              //if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+              if visitClt.LPRRecgNo <> 1 then
               begin
                  MakePrtStr(visitClt.LprDate, visitClt.LprTime, Trim(frmIONData.edtCarNo.Text));
               end
@@ -3022,7 +3024,8 @@ begin
                 end
                 else  //자동출력
                 begin
-                  if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+                  //if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+                  if visitClt.LPRRecgNo <> 1 then
                   begin
                     visitClt.LprCarNo := Trim(frmIONData.edtCarNo.Text);
                     ExceptLogging('방문증 수정된 차량번호 : '+visitClt.LprCarNo);
@@ -3059,7 +3062,8 @@ begin
                   ExecSQL;
 
                   if nVisitation = 1 then
-                    if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+                    //if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+                    if visitClt.LPRRecgNo <> 1 then
                     begin
                         NGridData('1' + Trim(frmIONData.edtCarNo.Text) + '^' + visitClt.LprDate + ' ' + visitClt.LprTime + '^'+ inValue+'^'+visitClt.LprName,inDong,inHo);
                         ExceptLogging('방문증내용 수정된 차량 업데이트완료:'+visitClt.TkNo+ ' '+inDong+'/'+inHo+' '+Trim(frmIONData.edtCarNo.Text));
@@ -3094,7 +3098,8 @@ begin
                 end
                 else  //자동 방문증 출력
                 begin
-                  if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+                  //if nNowLprRecog1 <> 1 then   //정인식이 아닌 경우 차량 번호 수정
+                  if visitClt.LPRRecgNo <> 1 then
                   begin
                     aptnThd.aptnInfo.exeTag := 1;
                     aptnThd.aptnInfo.aptner_Aptcode := AptnerCode;
@@ -9719,14 +9724,6 @@ begin
           end;
         end;
 
-
-
-
-
-
-
-
-
         {$ENDREGION}
 
         {$REGION '방문증'}
@@ -9752,6 +9749,7 @@ begin
                         visitClt.LprDate := sLprDate;
                         visitClt.LprNo := nLprNo;
                         visitClt.TkNo := sTKNo;
+                        visitClt.LPRRecgNo := nNowLprRecog1;
                         visitQue.Enqueue(visitClt);
                         Break;
                       end;
@@ -9765,6 +9763,7 @@ begin
                         visitClt.LprDate := sLprDate;
                         visitClt.LprNo := nLprNo;
                         visitClt.TkNo := sTKNo;
+                        visitClt.LPRRecgNo := nNowLprRecog1;
                         visitQue.Enqueue(visitClt);
                         Break;
                       end;
@@ -14869,6 +14868,7 @@ begin
                             visitClt.LprDate := sLprDate;
                             visitClt.LprNo := nLprNo;
                             visitClt.TkNo := sTKNo;
+                            visitClt.LPRRecgNo := nNowLprRecog1;
                             visitQue.Enqueue(visitClt);
                             Break;
                           end;
@@ -14883,6 +14883,7 @@ begin
                             visitClt.LprDate := sLprDate;
                             visitClt.LprNo := nLprNo;
                             visitClt.TkNo := sTKNo;
+                            visitClt.LPRRecgNo := nNowLprRecog1;
                             visitQue.Enqueue(visitClt);
                             Break;
                           end;
