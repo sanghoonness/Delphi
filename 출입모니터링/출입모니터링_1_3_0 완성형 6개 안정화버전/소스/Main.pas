@@ -2919,6 +2919,7 @@ begin
             begin
               frmIONData.edtCarNo.Visible := False;
               frmIONData.btn_search.Visible := False;
+              frmIONData.edtCarNo.Text := visitClt.LprCarNo;
             end;
 
             frmIONData.recvClt := visitClt;
@@ -3065,10 +3066,9 @@ begin
                     end
                     else
                     begin
-                      NGridData('1' + visitClt.LprCarNo + '^' + visitClt.LprDate + ' ' + visitClt.LprTime + '^'+ inValue+'^'+visitClt.LprName,inDong,inHo);
-                      ExceptLogging('방문증내용 업데이트완료:'+visitClt.TkNo+ ' '+inDong+'/'+inHo+' '+visitClt.LprCarNo);
+                        NGridData('1' + visitClt.LprCarNo + '^' + visitClt.LprDate + ' ' + visitClt.LprTime + '^'+ inValue+'^'+visitClt.LprName,inDong,inHo);
+                        ExceptLogging('방문증내용 업데이트완료:'+visitClt.TkNo+ ' '+inDong+'/'+inHo+' '+visitClt.LprCarNo);
                     end;
-
                 end;
               end;
             end;
