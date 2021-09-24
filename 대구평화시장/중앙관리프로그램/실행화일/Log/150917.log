@@ -1,0 +1,70 @@
+[10:11:10] Program Start!
+[10:11:17] Program Close
+[10:13:00] Program Start!
+[10:14:08] Program Start!
+[10:14:20] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[10:14:25] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[10:16:10] 발렛차량 입차 파일 확인: 
+[10:16:10] IP 형식, 발렛차량 입차 파일 확인: 
+[10:16:10] File 없음: 
+[10:16:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\09\13\CH101_20150913101644_24너5167.jpg
+[10:16:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\09\13\CH101_20150913101644_24너5167.jpg
+[10:16:47] Program Start!
+[10:16:54] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[10:16:59] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[10:22:30] Program Start!
+[10:27:29] jasmine_car 파일 없음
+[10:32:29] jasmine_car 파일 없음
+[10:33:47] Program Close
+[10:33:49] Program Start!
+[10:36:55] Program Start!
+[10:37:08] Program Close
+[10:37:19] Program Start!
+[10:42:24] jasmine_car 파일 없음
+[10:46:21] Program Close
+[10:48:05] Program Start!
+[10:48:41] Program Close
+[10:56:52] Program Start!
+[10:56:56] TfrmMonthlyReport.btnSearchClick: qryTemp: Field 'COLUMN12' not found
+[10:57:05] Program Close
+[10:57:08] Program Start!
+[10:57:23] Program Start!
+[10:57:40] Program Start!
+[10:58:39] Program Start!
+[10:58:46] TfrmMonthlyReport.btnSearchClick: qryTKProcClosingM: Field 'COLUMN11' not found
+[10:59:32] Program Start!
+[11:02:05] Program Close
+[11:04:18] Program Start!
+[11:04:45] Program Close
+[11:05:00] Program Start!
+[11:05:27] Program Start!
+[11:05:57] Program Start!
+[11:06:05] Program Close
+[11:09:28] Program Start!
+[11:09:31] Program Close
+[11:10:30] Program Start!
+[11:10:33] Program Close
+[11:13:12] Program Start!
+[11:15:08] Program Start!
+[11:16:09] Program Start!
+[11:17:50] Program Close
+[11:21:34] Program Start!
+[11:22:30] Program Close
+[11:23:06] Program Start!
+[11:23:33] Program Close
+[11:23:46] Program Start!
+[11:28:46] jasmine_car 파일 없음
+[11:33:46] jasmine_car 파일 없음
+[11:38:46] jasmine_car 파일 없음

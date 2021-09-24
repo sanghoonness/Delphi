@@ -1,0 +1,124 @@
+unit Tables;
+
+interface
+
+uses
+  SysUtils, Classes, DB, ADODB;
+
+type
+  TdmTables = class(TDataModule)
+    ADODB: TADOConnection;
+    qryCustInfo: TADOQuery;
+    qryCustInfoParkNo: TSmallintField;
+    qryCustInfoTKType: TWordField;
+    qryCustInfoGroupNo: TSmallintField;
+    qryCustInfoTKNo: TStringField;
+    qryCustInfoName: TStringField;
+    qryCustInfoTelNo: TStringField;
+    qryCustInfoCarNo: TStringField;
+    qryCustInfoCompName: TStringField;
+    qryCustInfoDeptName: TStringField;
+    qryCustInfoAddress: TStringField;
+    qryCustInfoIssueDate: TStringField;
+    qryCustInfoIssueAmt: TIntegerField;
+    qryCustInfoStatus: TWordField;
+    qryCustInfoExpDateF: TStringField;
+    qryCustInfoExpDateT: TStringField;
+    qryCustInfoWPNo: TWordField;
+    qryCustInfoLastParkNo: TSmallintField;
+    qryCustInfoLastUnitNo: TSmallintField;
+    qryCustInfoLastUseDate: TStringField;
+    qryCustInfoLastUseTime: TStringField;
+    qryCustInfoIOStatusNo: TWordField;
+    qryCustInfoCurrAmt: TIntegerField;
+    qryCustInfoAPB: TWordField;
+    qryCustInfoCarType: TWordField;
+    qryCustInfoMarkNo: TStringField;
+    qryCustInfoReserve1: TStringField;
+    qryCustInfoReserve2: TStringField;
+    qryCustInfoReserve3: TStringField;
+    qryCustInfoReserve4: TStringField;
+    qryCustInfoReserve5: TStringField;
+    dsCustInfo: TDataSource;
+    qryTemp: TADOQuery;
+    qryWP: TADOQuery;
+    qryGroup: TADOQuery;
+    qryGroupParkNo: TSmallintField;
+    qryGroupGroupNo: TSmallintField;
+    qryGroupGroupName: TStringField;
+    qryGroupAPB: TWordField;
+    qryGroupStatus: TWordField;
+    qryGroupRemark: TStringField;
+    qryGroupGroupType: TWordField;
+    qryGroupUseFeeItem: TWordField;
+    qryGroupReserve1: TStringField;
+    qryGroupReserve2: TStringField;
+    qryGroupReserve3: TStringField;
+    qryGroupReserve4: TStringField;
+    qryGroupReserve5: TStringField;
+    qryAddField: TADOQuery;
+    qryCustInfoJumCode: TSmallintField;
+    qryCustInfoJasmineDCTime: TSmallintField;
+    qryCustInfoValetChk: TWordField;
+    qryCustInfoDatachk: TWordField;
+    qryCustInfoUDate: TStringField;
+    qryCustInfoUTime: TStringField;
+    procedure qryCustInfoStatusGetText(Sender: TField; var Text: string;
+      DisplayText: Boolean);
+    procedure qryCustInfoIOStatusNoGetText(Sender: TField; var Text: string;
+      DisplayText: Boolean);
+    procedure qryCustInfoWPNoGetText(Sender: TField; var Text: string;
+      DisplayText: Boolean);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  dmTables: TdmTables;
+
+implementation
+
+{$R *.dfm}
+
+
+
+procedure TdmTables.qryCustInfoIOStatusNoGetText(Sender: TField;
+  var Text: string; DisplayText: Boolean);
+begin
+  if qryCustInfoIOStatusNo.Value = 1 then
+    Text:= '주차장'
+  else if qryCustInfoStatus.Value = 2 then
+    Text:= '외부'
+  else if qryCustInfoStatus.Value = 3 then
+    Text:= '기간만료(입차)'
+  else if qryCustInfoStatus.Value = 4 then
+    Text:= '기간만료(출차)';
+end;
+
+procedure TdmTables.qryCustInfoStatusGetText(Sender: TField; var Text: string;
+  DisplayText: Boolean);
+begin
+  if qryCustInfoStatus.Value = 0 then
+    Text:= '발매'
+  else if qryCustInfoStatus.Value = 1 then
+    Text:= '사용중'
+  else if qryCustInfoStatus.Value = 2 then
+    Text:= '기간만료'
+  else if qryCustInfoStatus.Value = 3 then
+    Text:= '전체봉쇄'
+  else if qryCustInfoStatus.Value = 4 then
+    Text:= '입차봉쇄'
+  else if qryCustInfoStatus.Value = 4 then
+    Text:= '출차봉쇄';
+end;
+
+procedure TdmTables.qryCustInfoWPNoGetText(Sender: TField; var Text: string;
+  DisplayText: Boolean);
+begin
+  if qryCustInfoWPNo.Value = 1 then
+    Text := '종일사용';
+end;
+
+end.

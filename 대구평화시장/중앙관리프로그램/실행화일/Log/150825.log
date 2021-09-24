@@ -1,0 +1,1278 @@
+[09:30:18] Program Start!
+[09:30:26] Program Start!
+[09:31:28] Program Start!
+[09:31:32] TfrmIOVData.btnSearchClick: qryTemp: Parameter 'N3' not found
+[09:31:37] TfrmIOVData.btnSearchClick: qryTemp: Parameter 'N3' not found
+[09:32:05] Program Start!
+[09:32:19] TfrmIOVData.btnSearchClick: qryIOVData: Type mismatch for field 'Location', expecting: Word actual: String
+[09:32:37] Program Start!
+[09:32:53] TfrmIOVData.btnSearchClick: qryIOVData: Type mismatch for field 'Location', expecting: Word actual: String
+[09:33:14] Program Start!
+[09:33:21] Program Start!
+[09:34:39] Program Start!
+[09:34:47] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:34:47] TfrmIOVData.btnSearchClick: qryTemp: Parameter 'N3' not found
+[09:36:38] Program Start!
+[09:36:42] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:36:42] TfrmIOVData.btnSearchClick: 열 이름 'ValetStatus'이(가) 잘못되었습니다
+[09:36:44] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:36:44] TfrmIOVData.btnSearchClick: 열 이름 'ValetStatus'이(가) 잘못되었습니다
+[09:36:44] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:36:44] TfrmIOVData.btnSearchClick: 열 이름 'ValetStatus'이(가) 잘못되었습니다
+[09:36:44] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:36:44] TfrmIOVData.btnSearchClick: 열 이름 'ValetStatus'이(가) 잘못되었습니다
+[09:37:52] Program Start!
+[09:38:00] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:38:18] TfrmIOVData.btnSearchClick: 열 이름 'ValetStatus'이(가) 잘못되었습니다
+[09:38:39] Program Start!
+[09:38:42] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:38:44] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:38:45] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:39:56] Program Start!
+[09:40:01] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:40:18] Program Start!
+[09:40:23] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:42:14] Program Start!
+[09:42:24] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:42:47] Program Start!
+[09:42:53] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[09:43:01] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:02] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:02] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:03] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:03] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:03] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:04] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:04] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:04] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:04] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:04] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:04] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:05] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:05] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:05] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:05] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:05] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:05] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:05] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:05] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:05] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:05] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:05] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:05] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:05] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:05] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:05] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:06] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:07] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:07] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:07] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:08] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:08] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:08] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:08] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:08] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:08] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:08] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:08] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:08] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:08] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:08] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:08] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:08] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:08] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:08] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:08] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:09] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:09] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:09] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:09] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'InRecog1' not found
+[09:43:13] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:43:18] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:43:31] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ and ((InCarNo like '%3717%') 
+ Order By ProcDate, ProcTime
+
+[09:43:31] TfrmIOVData.btnSearchClick: 키워드 'Order' 근처의 구문이 잘못되었습니다
+[09:43:39] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:47:37] Program Start!
+[09:47:44] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[09:47:58] TfrmIOVData.DBAdvGrid1Click: qryIOVData: Field 'OutDate' not found
+[09:48:39] Program Start!
+[09:48:48] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[09:49:24] Program Start!
+[09:49:31] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[09:49:39] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102014_40소9108.jpg
+[09:49:41] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102014_40소9108.jpg
+[09:49:46] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102014_40소9108.jpg
+[09:49:46] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102014_40소9108.jpg
+[09:49:48] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101238_53라5849.jpg
+[09:49:48] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101238_53라5849.jpg
+[09:49:48] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101238_53라5849.jpg
+[09:49:48] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101238_53라5849.jpg
+[09:49:49] 발렛차량 입차 파일 확인: 
+[09:49:49] IP 형식, 발렛차량 입차 파일 확인: 
+[09:49:49] File 없음: 
+[09:49:50] 발렛차량 입차 파일 확인: 
+[09:49:50] IP 형식, 발렛차량 입차 파일 확인: 
+[09:49:50] File 없음: 
+[09:52:42] Program Start!
+[09:52:48] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[09:52:49] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101458_14서3826.jpg
+[09:52:49] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101458_14서3826.jpg
+[09:52:49] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101458_14서3826.jpg
+[09:52:49] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101458_14서3826.jpg
+[09:52:50] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101238_53라5849.jpg
+[09:52:50] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101238_53라5849.jpg
+[09:52:50] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101238_53라5849.jpg
+[09:52:50] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101238_53라5849.jpg
+[09:52:51] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102107_51서9765.jpg
+[09:52:51] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102107_51서9765.jpg
+[09:52:51] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102107_51서9765.jpg
+[09:52:51] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102107_51서9765.jpg
+[09:52:52] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101458_14서3826.jpg
+[09:52:52] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101458_14서3826.jpg
+[09:52:52] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101458_14서3826.jpg
+[09:52:52] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101458_14서3826.jpg
+[09:52:54] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824100001_67가1133.jpg
+[09:52:54] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824100001_67가1133.jpg
+[09:52:54] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824100001_67가1133.jpg
+[09:52:54] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824100001_67가1133.jpg
+[09:52:55] 발렛차량 입차 파일 확인: 
+[09:52:55] IP 형식, 발렛차량 입차 파일 확인: 
+[09:52:55] File 없음: 
+[09:52:55] 발렛차량 입차 파일 확인: 
+[09:52:55] IP 형식, 발렛차량 입차 파일 확인: 
+[09:52:55] File 없음: 
+[09:52:55] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101820_49고7959.jpg
+[09:52:55] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101820_49고7959.jpg
+[09:52:55] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101820_49고7959.jpg
+[09:52:55] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101820_49고7959.jpg
+[09:52:56] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102014_40소9108.jpg
+[09:52:56] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102014_40소9108.jpg
+[09:52:56] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102014_40소9108.jpg
+[09:52:56] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102014_40소9108.jpg
+[09:52:56] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102107_51서9765.jpg
+[09:52:56] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102107_51서9765.jpg
+[09:52:56] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102107_51서9765.jpg
+[09:52:56] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102107_51서9765.jpg
+[09:52:57] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103535_61루8406.jpg
+[09:52:57] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103535_61루8406.jpg
+[09:52:57] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104400_57서7605.jpg
+[09:52:57] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104400_57서7605.jpg
+[09:52:58] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105756_69루4888.jpg
+[09:52:58] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105756_69루4888.jpg
+[09:52:58] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105748_42도2238.jpg
+[09:52:58] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105748_42도2238.jpg
+[09:52:58] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105748_42도2238.jpg
+[09:52:58] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105748_42도2238.jpg
+[09:52:58] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105516_48조5039.jpg
+[09:52:58] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105516_48조5039.jpg
+[09:52:58] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105516_48조5039.jpg
+[09:52:58] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105516_48조5039.jpg
+[09:52:59] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105000_경기33루8993.jpg
+[09:52:59] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105000_경기33루8993.jpg
+[09:52:59] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105000_경기33루8993.jpg
+[09:52:59] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105000_경기33루8993.jpg
+[09:52:59] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105748_42도2238.jpg
+[09:52:59] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105748_42도2238.jpg
+[09:52:59] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105748_42도2238.jpg
+[09:52:59] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105748_42도2238.jpg
+[09:53:00] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824111138_49무6268.jpg
+[09:53:00] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824111138_49무6268.jpg
+[09:53:00] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824113856_47로4935.jpg
+[09:53:00] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824113856_47로4935.jpg
+[09:53:00] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115121_54더6202.jpg
+[09:53:00] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115121_54더6202.jpg
+[09:53:00] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120344_26부4215.jpg
+[09:53:00] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120344_26부4215.jpg
+[09:53:01] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122333_66구9143.jpg
+[09:53:01] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122333_66구9143.jpg
+[09:53:01] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824123648_31우8757.jpg
+[09:53:01] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824123648_31우8757.jpg
+[09:53:01] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824125534_02오5040.jpg
+[09:53:01] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824125534_02오5040.jpg
+[09:53:01] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824132046_64조7866.jpg
+[09:53:01] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824132046_64조7866.jpg
+[09:53:01] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824134511_23나2382.jpg
+[09:53:01] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824134511_23나2382.jpg
+[09:53:02] 발렛차량 입차 파일 확인: 
+[09:53:02] IP 형식, 발렛차량 입차 파일 확인: 
+[09:53:02] File 없음: 
+[09:53:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824143242_24나2404.jpg
+[09:53:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824143242_24나2404.jpg
+[09:53:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824145427_36루7560.jpg
+[09:53:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824145427_36루7560.jpg
+[09:53:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152416_15누3717.jpg
+[09:53:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152416_15누3717.jpg
+[09:53:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824151855_63보3165.jpg
+[09:53:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824151855_63보3165.jpg
+[09:53:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824151855_63보3165.jpg
+[09:53:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824151855_63보3165.jpg
+[09:53:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150929_49머6556.jpg
+[09:53:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150929_49머6556.jpg
+[09:53:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150929_49머6556.jpg
+[09:53:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150929_49머6556.jpg
+[09:53:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150832_50거9869.jpg
+[09:53:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150832_50거9869.jpg
+[09:53:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150832_50거9869.jpg
+[09:53:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150832_50거9869.jpg
+[09:53:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150724_36머5044.jpg
+[09:53:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150724_36머5044.jpg
+[09:53:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150724_36머5044.jpg
+[09:53:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150724_36머5044.jpg
+[09:53:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150604_59너7386.jpg
+[09:53:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150604_59너7386.jpg
+[09:53:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150604_59너7386.jpg
+[09:53:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150604_59너7386.jpg
+[09:53:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824151855_63보3165.jpg
+[09:53:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824151855_63보3165.jpg
+[09:53:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824151855_63보3165.jpg
+[09:53:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824151855_63보3165.jpg
+[09:53:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152416_15누3717.jpg
+[09:53:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152416_15누3717.jpg
+[09:53:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152416_15누3717.jpg
+[09:53:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152416_15누3717.jpg
+[09:53:06] 발렛차량 입차 파일 확인: 
+[09:53:06] IP 형식, 발렛차량 입차 파일 확인: 
+[09:53:06] File 없음: 
+[09:53:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161732_32우7543.jpg
+[09:53:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161732_32우7543.jpg
+[09:53:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161606_47로4675.jpg
+[09:53:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161606_47로4675.jpg
+[09:53:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161606_47로4675.jpg
+[09:53:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161606_47로4675.jpg
+[09:53:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161449_54더6306.jpg
+[09:53:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161449_54더6306.jpg
+[09:53:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161449_54더6306.jpg
+[09:53:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161449_54더6306.jpg
+[09:53:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161443_33호2056.jpg
+[09:53:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161443_33호2056.jpg
+[09:53:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161443_33호2056.jpg
+[09:53:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161443_33호2056.jpg
+[09:53:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161347_68가8116.jpg
+[09:53:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161347_68가8116.jpg
+[09:53:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161347_68가8116.jpg
+[09:53:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161347_68가8116.jpg
+[09:53:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824160320_37루2329.jpg
+[09:53:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824160320_37루2329.jpg
+[09:53:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824160320_37루2329.jpg
+[09:53:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824160320_37루2329.jpg
+[09:53:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824160301_11오4915.jpg
+[09:53:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824160301_11오4915.jpg
+[09:53:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824160301_11오4915.jpg
+[09:53:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824160301_11오4915.jpg
+[09:53:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824155523_42두8693.jpg
+[09:53:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824155523_42두8693.jpg
+[09:53:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824155523_42두8693.jpg
+[09:53:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824155523_42두8693.jpg
+[09:53:14] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:53:14] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114033_22구8673.jpg
+[09:53:14] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114033_22구8673.jpg
+[09:53:15] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114033_22구8673.jpg
+[09:53:15] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114033_22구8673.jpg
+[09:53:17] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:53:21] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:53:24] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:53:26] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:53:29] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:53:34] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ Order By ProcDate, ProcTime
+
+[09:53:44] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetStatus = :pValetStatus
+ and ((InCarNo like '%6146%') 
+ Order By ProcDate, ProcTime
+
+[09:53:44] TfrmIOVData.btnSearchClick: 키워드 'Order' 근처의 구문이 잘못되었습니다
+[09:53:53] Program Start!
+[09:54:20] Program Start!
+[09:54:30] Program Start!
+[09:54:38] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ and InCarNo like '%6146%'
+ Order By ProcDate, ProcTime
+
+[09:54:39] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824172133_43오6146.jpg
+[09:54:39] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824172133_43오6146.jpg
+[09:54:45] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ and InCarNo like '%6146%'
+ Order By ProcDate, ProcTime
+
+[09:54:46] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824172133_43오6146.jpg
+[09:54:46] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824172133_43오6146.jpg
+[09:54:51] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[09:54:51] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102014_40소9108.jpg
+[09:54:51] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102014_40소9108.jpg
+[09:54:51] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102014_40소9108.jpg
+[09:54:51] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102014_40소9108.jpg
+[09:54:51] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101512_22모2763.jpg
+[09:54:51] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101512_22모2763.jpg
+[09:54:51] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101512_22모2763.jpg
+[09:54:51] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101512_22모2763.jpg
+[09:54:52] 발렛차량 입차 파일 확인: 
+[09:54:52] IP 형식, 발렛차량 입차 파일 확인: 
+[09:54:52] File 없음: 
+[09:54:52] 발렛차량 입차 파일 확인: 
+[09:54:52] IP 형식, 발렛차량 입차 파일 확인: 
+[09:54:52] File 없음: 
+[09:54:52] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[09:55:01] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824100001_67가1133.jpg
+[09:55:01] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824100001_67가1133.jpg
+[09:55:02] 발렛차량 입차 파일 확인: 
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: 
+[09:55:02] File 없음: 
+[09:55:02] 발렛차량 입차 파일 확인: 
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: 
+[09:55:02] File 없음: 
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101238_53라5849.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101238_53라5849.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101458_14서3826.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101458_14서3826.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101512_22모2763.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101512_22모2763.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101806_12두3510.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101806_12두3510.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101820_49고7959.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101820_49고7959.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102014_40소9108.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102014_40소9108.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102017_54너4548.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102017_54너4548.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102107_51서9765.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102107_51서9765.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102217_26모2728.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102217_26모2728.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102228_28마6385.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102228_28마6385.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102530_13두8819.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102530_13두8819.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102737_68오4667.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102737_68오4667.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102830_38노1680.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102830_38노1680.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102931_59마1465.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102931_59마1465.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103126_57오2429.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103126_57오2429.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103214_57저5979.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103214_57저5979.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103247_63보3968.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103247_63보3968.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103342_22고9050.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103342_22고9050.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103432_38고9102.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103432_38고9102.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103439_54두1169.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103439_54두1169.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103535_61루8406.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103535_61루8406.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103608_59어8118.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103608_59어8118.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103617_61누7988.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103617_61누7988.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103658_64어2768.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103658_64어2768.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103703_56루5416.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103703_56루5416.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103746_58너5830.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103746_58너5830.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103800_22머6619.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103800_22머6619.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103858_30우7808.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103858_30우7808.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103928_35더8938.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103928_35더8938.jpg
+[09:55:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104108_59로5760.jpg
+[09:55:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104108_59로5760.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104223_60수6086.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104223_60수6086.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104339_62구4053.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104339_62구4053.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104355_46너7980.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104355_46너7980.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104400_57서7605.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104400_57서7605.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104432_62어1480.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104432_62어1480.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104446_21모4941.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104446_21모4941.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104555_46소2380.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104555_46소2380.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104736_25나0624.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104736_25나0624.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105000_경기33루8993.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105000_경기33루8993.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105213_49저6921.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105213_49저6921.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105219_57모4786.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105219_57모4786.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105440_경기68고4331.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105440_경기68고4331.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105516_48조5039.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105516_48조5039.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105722_33주2065.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105722_33주2065.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105729_42도2960.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105729_42도2960.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105748_42도2238.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105748_42도2238.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105756_69루4888.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105756_69루4888.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110002_11조5900.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110002_11조5900.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110048_50무5394.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110048_50무5394.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110054_29부7844.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110054_29부7844.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110135_39머8158.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110135_39머8158.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110254_40조8306.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110254_40조8306.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110319_18고4235.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110319_18고4235.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110326_19라7480.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110326_19라7480.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110345_66무9918.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110345_66무9918.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110400_33오2465.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110400_33오2465.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110406_경기33도3816.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110406_경기33도3816.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110640_64구8667.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110640_64구8667.jpg
+[09:55:03] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110841_45어8678.jpg
+[09:55:03] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824110841_45어8678.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824111138_49무6268.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824111138_49무6268.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824111337_12노9885.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824111337_12노9885.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824111341_24노8700.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824111341_24노8700.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824111448_39보2080.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824111448_39보2080.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824111543_62두8371.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824111543_62두8371.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824111712_46구7737.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824111712_46구7737.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824112021_54더8630.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824112021_54더8630.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824112756_68도1033.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824112756_68도1033.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824112933_34두8850.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824112933_34두8850.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824113159_41루5921.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824113159_41루5921.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824113644_03수9488.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824113644_03수9488.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824113655_38도4226.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824113655_38도4226.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824113740_04조8639.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824113740_04조8639.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824113856_47로4935.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824113856_47로4935.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114033_22구8673.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114033_22구8673.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114036_28더8262.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114036_28더8262.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114146_17구7127.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114146_17구7127.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114202_66다8981.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114202_66다8981.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114219_56가5010.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114219_56가5010.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114254_06주9054.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114254_06주9054.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114538_61누7106.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114538_61누7106.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114544_16주7449.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114544_16주7449.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114617_69주6407.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114617_69주6407.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114910_09마5569.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824114910_09마5569.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115059_35더9282.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115059_35더9282.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115116_경기65너9888.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115116_경기65너9888.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115121_54더6202.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115121_54더6202.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115223_48두9776.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115223_48두9776.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115231_19모8373.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115231_19모8373.jpg
+[09:55:04] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115414_57보9803.jpg
+[09:55:04] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115414_57보9803.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115421_36라6012.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115421_36라6012.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115425_34머4692.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115425_34머4692.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115729_18고4235.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115729_18고4235.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115735_08보1717.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115735_08보1717.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115743_14거2556.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115743_14거2556.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115908_37두5531.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824115908_37두5531.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120014_28거9946.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120014_28거9946.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120207_31루7370.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120207_31루7370.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120318_26모2843.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120318_26모2843.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120344_26부4215.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120344_26부4215.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120347_52주8447.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120347_52주8447.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120545_11도1019.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120545_11도1019.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120621_07마9398.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120621_07마9398.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120644_64로2654.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120644_64로2654.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120810_45더2571.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120810_45더2571.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120821_47로4095.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120821_47로4095.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120916_22구1985.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824120916_22구1985.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824121057_16가4268.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824121057_16가4268.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824121130_46오8148.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824121130_46오8148.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824121133_62나8100.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824121133_62나8100.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824121832_36루5890.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824121832_36루5890.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824121848_61라8515.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824121848_61라8515.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122333_66구9143.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122333_66구9143.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122421_35호7698.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122421_35호7698.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122645_35무5889.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122645_35무5889.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122703_62구7739.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122703_62구7739.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122706_15다1691.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122706_15다1691.jpg
+[09:55:05] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122800_66구9155.jpg
+[09:55:05] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122800_66구9155.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122838_63로8692.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122838_63로8692.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122842_40부8661.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824122842_40부8661.jpg
+[09:55:06] 발렛차량 입차 파일 확인: 
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: 
+[09:55:06] File 없음: 
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824123106_16두1861.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824123106_16두1861.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824123311_11가2318.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824123311_11가2318.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824123449_69마4583.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824123449_69마4583.jpg
+[09:55:06] 발렛차량 입차 파일 확인: 
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: 
+[09:55:06] File 없음: 
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824123648_31우8757.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824123648_31우8757.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824123730_33서8914.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824123730_33서8914.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824123840_31두2249.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824123840_31두2249.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824123911_63우4226.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824123911_63우4226.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824124430_18마9907.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824124430_18마9907.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824124501_60소5637.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824124501_60소5637.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824124522_37우1892.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824124522_37우1892.jpg
+[09:55:06] 발렛차량 입차 파일 확인: 
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: 
+[09:55:06] File 없음: 
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824124635_06저5306.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824124635_06저5306.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824124806_21오4940.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824124806_21오4940.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824124822_47저7942.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824124822_47저7942.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824124859_19노6289.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824124859_19노6289.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824125350_27구4520.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824125350_27구4520.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824125534_02오5040.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824125534_02오5040.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824125554_52머4289.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824125554_52머4289.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824125636_28수4159.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824125636_28수4159.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824125639_43거1901.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824125639_43거1901.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824125930_07주3066.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824125930_07주3066.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824130018_34우9247.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824130018_34우9247.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824130103_62다5050.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824130103_62다5050.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824130716_63부7902.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824130716_63부7902.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824131330_60저2840.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824131330_60저2840.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824131459_51러9697.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824131459_51러9697.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824131551_47두8452.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824131551_47두8452.jpg
+[09:55:06] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824131619_48두5369.jpg
+[09:55:06] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824131619_48두5369.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824132034_13거6915.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824132034_13거6915.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824132046_64조7866.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824132046_64조7866.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824132053_53마1497.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824132053_53마1497.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824132107_55라8854.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824132107_55라8854.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824132319_37마2718.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824132319_37마2718.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824132538_26노8134.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824132538_26노8134.jpg
+[09:55:07] 발렛차량 입차 파일 확인: 
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: 
+[09:55:07] File 없음: 
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824133105_08머4414.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824133105_08머4414.jpg
+[09:55:07] 발렛차량 입차 파일 확인: 
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: 
+[09:55:07] File 없음: 
+[09:55:07] 발렛차량 입차 파일 확인: 
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: 
+[09:55:07] File 없음: 
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824133657_46보3922.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824133657_46보3922.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824133805_06구9707.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824133805_06구9707.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824133808_55노3401.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824133808_55노3401.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824134423_75루5105.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824134423_75루5105.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824134511_23나2382.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824134511_23나2382.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824134830_40조3200.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824134830_40조3200.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824135101_43러1551.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824135101_43러1551.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824135107_47저7000.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824135107_47저7000.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824135319_02보9334.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824135319_02보9334.jpg
+[09:55:07] 발렛차량 입차 파일 확인: 
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: 
+[09:55:07] File 없음: 
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824135420_09부3995.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824135420_09부3995.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824135610_38오2169.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824135610_38오2169.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824135626_26러1287.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824135626_26러1287.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824135631_50루3822.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824135631_50루3822.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824140148_15호2700.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824140148_15호2700.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824140321_15도7904.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824140321_15도7904.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824140424_59보2423.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824140424_59보2423.jpg
+[09:55:07] 발렛차량 입차 파일 확인: 
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: 
+[09:55:07] File 없음: 
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824140656_15거6721.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824140656_15거6721.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824141008_25노8856.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824141008_25노8856.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824141014_37주4772.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824141014_37주4772.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824141317_36마3326.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824141317_36마3326.jpg
+[09:55:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824141542_13나4027.jpg
+[09:55:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824141542_13나4027.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824141713_55로1633.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824141713_55로1633.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824141956_12모5783.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824141956_12모5783.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824142058_51버8774.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824142058_51버8774.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824142129_64너8799.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824142129_64너8799.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824142410_68조5300.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824142410_68조5300.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824142624_19라7722.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824142624_19라7722.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824143006_14주1417.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824143006_14주1417.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824143242_24나2404.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824143242_24나2404.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824143329_36무3865.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824143329_36무3865.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824143546_58모8996.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824143546_58모8996.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824143710_17루3341.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824143710_17루3341.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824144120_54구9903.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824144120_54구9903.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824144206_64로7383.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824144206_64로7383.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824144625_47라3318.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824144625_47라3318.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824144659_26우1794.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824144659_26우1794.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824144749_13나8788.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824144749_13나8788.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824144835_62소1569.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824144835_62소1569.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824144949_54보4319.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824144949_54보4319.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824145238_68구9650.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824145238_68구9650.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824145244_60도8649.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824145244_60도8649.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824145427_36루7560.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824145427_36루7560.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824145715_15무2776.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824145715_15무2776.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150416_50우4605.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150416_50우4605.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150604_59너7386.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150604_59너7386.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150635_38고9991.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150635_38고9991.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150724_36머5044.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150724_36머5044.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150832_50거9869.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150832_50거9869.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150922_25보8739.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150922_25보8739.jpg
+[09:55:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150929_49머6556.jpg
+[09:55:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824150929_49머6556.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824151622_51우1660.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824151622_51우1660.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824151855_63보3165.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824151855_63보3165.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152011_31어6540.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152011_31어6540.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152045_16부7229.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152045_16부7229.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152416_15누3717.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152416_15누3717.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152503_41노9317.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152503_41노9317.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152507_27두3386.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152507_27두3386.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152820_29무1866.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824152820_29무1866.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824153000_59로2388.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824153000_59로2388.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824153014_39거7243.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824153014_39거7243.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824153152_67너9000.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824153152_67너9000.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824153600_69거7322.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824153600_69거7322.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824153812_46오8619.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824153812_46오8619.jpg
+[09:55:09] 발렛차량 입차 파일 확인: 
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: 
+[09:55:09] File 없음: 
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824154401_16조6849.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824154401_16조6849.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824154943_46오8064.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824154943_46오8064.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824154947_58모3839.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824154947_58모3839.jpg
+[09:55:09] 발렛차량 입차 파일 확인: 
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: 
+[09:55:09] File 없음: 
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824155437_70나1813.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824155437_70나1813.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824155506_57어5142.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824155506_57어5142.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824155523_42두8693.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824155523_42두8693.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824155713_04조9689.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824155713_04조9689.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824160144_35오4115.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824160144_35오4115.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824160301_11오4915.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824160301_11오4915.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824160320_37루2329.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824160320_37루2329.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824160909_10수9119.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824160909_10수9119.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161347_68가8116.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161347_68가8116.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161443_33호2056.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161443_33호2056.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161449_54더6306.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161449_54더6306.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161606_47로4675.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161606_47로4675.jpg
+[09:55:09] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161732_32우7543.jpg
+[09:55:09] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824161732_32우7543.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824162343_16나5506.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824162343_16나5506.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824162645_51고4854.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824162645_51고4854.jpg
+[09:55:10] 발렛차량 입차 파일 확인: 
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: 
+[09:55:10] File 없음: 
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824163146_27구5529.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824163146_27구5529.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824163313_60도8649.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824163313_60도8649.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824164049_22더3753.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824164049_22더3753.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824164425_67너8702.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824164425_67너8702.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824164852_41머3683.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824164852_41머3683.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824165157_47거5770.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824165157_47거5770.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824165355_35호5718.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824165355_35호5718.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824165942_26보2008.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824165942_26보2008.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824170102_36버2354.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824170102_36버2354.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824170212_26부6234.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824170212_26부6234.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824170358_66소9381.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824170358_66소9381.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824170741_64호8427.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824170741_64호8427.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824171305_13오4126.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824171305_13오4126.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824171857_57보9427.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824171857_57보9427.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824171902_57소4348.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824171902_57소4348.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824172123_07러3929.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824172123_07러3929.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824172133_43오6146.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824172133_43오6146.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824172420_55수1379.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824172420_55수1379.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824172715_63고2502.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824172715_63고2502.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824172743_13보6399.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824172743_13보6399.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824173148_59로2746.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824173148_59로2746.jpg
+[09:55:10] 발렛차량 입차 파일 확인: 
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: 
+[09:55:10] File 없음: 
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824174604_37모3338.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824174604_37모3338.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824174827_61고5067.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824174827_61고5067.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824175023_11조5900.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824175023_11조5900.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824175338_33구7093.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824175338_33구7093.jpg
+[09:55:10] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824180908_24루2283.jpg
+[09:55:10] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824180908_24루2283.jpg
+[09:55:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824180927_11서3741.jpg
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824180927_11서3741.jpg
+[09:55:11] 발렛차량 입차 파일 확인: 
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: 
+[09:55:11] File 없음: 
+[09:55:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824181223_18고4235.jpg
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824181223_18고4235.jpg
+[09:55:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824181652_45오2349.jpg
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824181652_45오2349.jpg
+[09:55:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824182105_36소5834.jpg
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824182105_36소5834.jpg
+[09:55:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824182759_03더6152.jpg
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824182759_03더6152.jpg
+[09:55:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824183127_37두8765.jpg
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824183127_37두8765.jpg
+[09:55:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824184158_35러1671.jpg
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824184158_35러1671.jpg
+[09:55:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824184314_31두2103.jpg
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824184314_31두2103.jpg
+[09:55:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824184638_28나7966.jpg
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824184638_28나7966.jpg
+[09:55:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824185123_32마4503.jpg
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824185123_32마4503.jpg
+[09:55:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824185144_52두6481.jpg
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824185144_52두6481.jpg
+[09:55:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824185227_49주8394.jpg
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824185227_49주8394.jpg
+[09:55:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824185421_15서8596.jpg
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824185421_15서8596.jpg
+[09:55:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824190015_33서1865.jpg
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824190015_33서1865.jpg
+[09:55:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824190354_56무5935.jpg
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824190354_56무5935.jpg
+[09:55:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824191448_54머2200.jpg
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824191448_54머2200.jpg
+[09:55:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824194541_43러1551.jpg
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824194541_43러1551.jpg
+[09:55:11] 발렛차량 입차 파일 확인: 
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: 
+[09:55:11] File 없음: 
+[09:55:11] 발렛차량 입차 파일 확인: 
+[09:55:11] IP 형식, 발렛차량 입차 파일 확인: 
+[09:55:11] File 없음: 
+[09:55:28] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101512_22모2763.jpg
+[09:55:28] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101512_22모2763.jpg
+[09:55:28] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101512_22모2763.jpg
+[09:55:28] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824101512_22모2763.jpg
+[09:55:29] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103535_61루8406.jpg
+[09:55:29] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103535_61루8406.jpg
+[09:55:30] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104400_57서7605.jpg
+[09:55:30] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104400_57서7605.jpg
+[09:55:30] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104400_57서7605.jpg
+[09:55:30] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104400_57서7605.jpg
+[09:55:44] Program Close
+[09:57:33] Program Start!
+[10:01:59] Program Start!
+[10:02:05] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime, ValetStatus
+
+[10:02:07] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103535_61루8406.jpg
+[10:02:07] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824103535_61루8406.jpg
+[10:02:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104400_57서7605.jpg
+[10:02:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824104400_57서7605.jpg
+[10:02:08] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105756_69루4888.jpg
+[10:02:08] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105756_69루4888.jpg
+[10:02:11] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105722_33주2065.jpg
+[10:02:11] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105722_33주2065.jpg
+[10:02:12] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105722_33주2065.jpg
+[10:02:12] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824105722_33주2065.jpg
+[10:02:27] Program Start!
+[10:02:33] Program Start!
+[10:02:40] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[10:02:40] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102017_54너4548.jpg
+[10:02:40] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102017_54너4548.jpg
+[10:02:40] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102017_54너4548.jpg
+[10:02:40] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824102017_54너4548.jpg
+[10:03:53] Program Start!
+[10:06:44] Program Start!
+[10:06:49] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[10:06:51] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[10:06:51] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[10:06:51] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[10:06:51] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[10:06:52] 발렛차량 입차 파일 확인: 
+[10:06:52] IP 형식, 발렛차량 입차 파일 확인: 
+[10:06:52] File 없음: 
+[10:06:52] 발렛차량 입차 파일 확인: 
+[10:06:52] IP 형식, 발렛차량 입차 파일 확인: 
+[10:06:52] File 없음: 
+[10:06:52] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[10:06:52] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[10:06:52] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[10:06:52] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[10:06:57] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetChk = :ValetChk
+ Order By ProcDate, ProcTime
+
+[10:07:14] Program Start!
+[10:07:20] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[10:07:21] 발렛차량 입차 파일 확인: 
+[10:07:21] IP 형식, 발렛차량 입차 파일 확인: 
+[10:07:21] File 없음: 
+[10:07:21] 발렛차량 입차 파일 확인: 
+[10:07:21] IP 형식, 발렛차량 입차 파일 확인: 
+[10:07:21] File 없음: 
+[10:07:24] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetChk = :ValetChk
+ Order By ProcDate, ProcTime
+
+[10:07:26] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetChk = :ValetChk
+ Order By ProcDate, ProcTime
+
+[10:07:28] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+And ValetChk = :ValetChk
+ and CardNo like '%1%'
+ Order By ProcDate, ProcTime
+
+[10:07:41] Program Start!
+[10:07:50] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ and CardNo like '1'
+ Order By ProcDate, ProcTime
+
+[10:07:52] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824121832_36루5890.jpg
+[10:07:52] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824121832_36루5890.jpg
+[10:07:52] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824121832_36루5890.jpg
+[10:07:52] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\24\CH1_20150824121832_36루5890.jpg
+[10:25:33] Program Start!
+[10:25:38] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[10:25:39] 발렛차량 입차 파일 확인: 
+[10:25:39] IP 형식, 발렛차량 입차 파일 확인: 
+[10:25:39] File 없음: 
+[10:25:42] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825102222_68오4667.jpg
+[10:25:42] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825102222_68오4667.jpg
+[10:25:42] 발렛차량 입차 파일 확인: 
+[10:25:42] IP 형식, 발렛차량 입차 파일 확인: 
+[10:25:42] File 없음: 
+[10:25:43] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825102222_68오4667.jpg
+[10:25:43] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825102222_68오4667.jpg
+[10:25:43] 발렛차량 입차 파일 확인: 
+[10:25:43] IP 형식, 발렛차량 입차 파일 확인: 
+[10:25:43] File 없음: 
+[10:25:49] 발렛차량 입차 파일 확인: 
+[10:25:49] IP 형식, 발렛차량 입차 파일 확인: 
+[10:25:49] File 없음: 
+[10:25:49] 발렛차량 입차 파일 확인: 
+[10:25:49] IP 형식, 발렛차량 입차 파일 확인: 
+[10:25:49] File 없음: 
+[10:27:53] Program Start!
+[10:27:57] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[10:27:59] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[10:27:59] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[10:27:59] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[10:27:59] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[10:28:00] 발렛차량 입차 파일 확인: 
+[10:28:00] IP 형식, 발렛차량 입차 파일 확인: 
+[10:28:00] File 없음: 
+[10:28:00] 발렛차량 입차 파일 확인: 
+[10:28:00] IP 형식, 발렛차량 입차 파일 확인: 
+[10:28:00] File 없음: 
+[10:28:23] Program Start!
+[10:28:29] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[11:23:53] Program Start!
+[11:24:00] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[11:24:00] 발렛차량 입차 파일 확인: 
+[11:24:00] IP 형식, 발렛차량 입차 파일 확인: 
+[11:24:00] File 없음: 
+[11:24:01] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[11:24:01] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[11:24:01] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[11:24:01] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[11:24:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100906_28고9933.jpg
+[11:24:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100906_28고9933.jpg
+[11:24:02] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100906_28고9933.jpg
+[11:24:02] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100906_28고9933.jpg
+[11:24:44] Program Start!
+[11:24:50] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[11:24:50] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101600_11노2115.jpg
+[11:24:50] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101600_11노2115.jpg
+[11:24:50] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101600_11노2115.jpg
+[11:24:50] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101600_11노2115.jpg
+[11:24:51] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100906_28고9933.jpg
+[11:24:51] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100906_28고9933.jpg
+[11:24:51] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100906_28고9933.jpg
+[11:24:51] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100906_28고9933.jpg
+[11:24:51] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[11:24:51] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[11:24:51] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[11:24:51] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100059_63도9404.jpg
+[11:24:51] 발렛차량 입차 파일 확인: 
+[11:24:51] IP 형식, 발렛차량 입차 파일 확인: 
+[11:24:51] File 없음: 
+[11:24:51] 발렛차량 입차 파일 확인: 
+[11:24:51] IP 형식, 발렛차량 입차 파일 확인: 
+[11:24:51] File 없음: 
+[11:24:51] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101851_35구4914.jpg
+[11:24:51] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101851_35구4914.jpg
+[11:24:51] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101851_35구4914.jpg
+[11:24:51] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101851_35구4914.jpg
+[11:24:52] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100648_65허3359.jpg
+[11:24:52] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100648_65허3359.jpg
+[11:24:52] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100648_65허3359.jpg
+[11:24:52] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100648_65허3359.jpg
+[11:24:52] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100648_65허3359.jpg
+[11:24:52] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100648_65허3359.jpg
+[11:24:53] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100800_40소9623.jpg
+[11:24:53] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100800_40소9623.jpg
+[11:24:53] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100800_40소9623.jpg
+[11:24:53] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100800_40소9623.jpg
+[11:24:54] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100906_28고9933.jpg
+[11:24:54] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100906_28고9933.jpg
+[11:24:54] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100906_28고9933.jpg
+[11:24:54] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825100906_28고9933.jpg
+[11:24:54] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101122_21모3611.jpg
+[11:24:54] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101122_21모3611.jpg
+[11:24:55] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101122_21모3611.jpg
+[11:24:55] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101122_21모3611.jpg
+[11:24:55] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101122_21모3611.jpg
+[11:24:55] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101122_21모3611.jpg
+[11:24:55] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101307_26로2150.jpg
+[11:24:55] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101307_26로2150.jpg
+[11:24:55] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101307_26로2150.jpg
+[11:24:55] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101307_26로2150.jpg
+[11:24:56] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101600_11노2115.jpg
+[11:24:56] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101600_11노2115.jpg
+[11:24:56] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101600_11노2115.jpg
+[11:24:56] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101600_11노2115.jpg
+[11:24:56] 발렛차량 입차 파일 확인: 
+[11:24:56] IP 형식, 발렛차량 입차 파일 확인: 
+[11:24:56] File 없음: 
+[11:24:56] 발렛차량 입차 파일 확인: 
+[11:24:56] IP 형식, 발렛차량 입차 파일 확인: 
+[11:24:56] File 없음: 
+[11:24:57] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101307_26로2150.jpg
+[11:24:57] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101307_26로2150.jpg
+[11:24:57] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101307_26로2150.jpg
+[11:24:57] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101307_26로2150.jpg
+[11:24:58] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101600_11노2115.jpg
+[11:24:58] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101600_11노2115.jpg
+[11:24:58] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101600_11노2115.jpg
+[11:24:58] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\08\25\CH1_20150825101600_11노2115.jpg
+[13:31:09] Program Start!
+[14:40:16] Program Start!
+[14:40:16] TfrmMain.FormShow: Access violation at address 0040B368 in module 'Nexpa_Host.exe'. Read of address 00000090
+[14:40:18] Program Close
+[14:40:24] Program Start!
+[14:40:25] TfrmMain.FormShow: Access violation at address 0040B368 in module 'Nexpa_Host.exe'. Read of address 00000090
+[17:30:02] Program Start!
+[17:30:02] TfrmMain.FormShow: Access violation at address 0040B368 in module 'Nexpa_Host.exe'. Read of address 00000090
+[17:30:06] Program Close
+[17:30:09] Program Start!
+[17:30:10] TfrmMain.FormShow: Access violation at address 0040B368 in module 'Nexpa_Host.exe'. Read of address 00000090
+[17:30:23] Program Close
+[17:30:25] Program Start!

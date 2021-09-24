@@ -1,0 +1,13 @@
+[15:22:13] Program Start!
+[15:22:31] ValDataProc SQL: Select * from ValDataProc 
+where ((ProcDate + ProcTime) between :N1 and :N2)
+ Order By ProcDate, ProcTime
+
+[15:22:36] 발렛차량 입차 파일 확인: 
+[15:22:36] IP 형식, 발렛차량 입차 파일 확인: 
+[15:22:36] File 없음: 
+[15:22:40] 발렛차량 입차 파일 확인: 
+[15:22:40] IP 형식, 발렛차량 입차 파일 확인: 
+[15:22:40] File 없음: 
+[15:22:41] 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\09\13\CH1_20150913102613_38루2652.jpg
+[15:22:41] IP 형식, 발렛차량 입차 파일 확인: \\172.16.21.83\MSImage\2015\09\13\CH1_20150913102613_38루2652.jpg

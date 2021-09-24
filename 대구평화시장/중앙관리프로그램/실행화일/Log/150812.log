@@ -1,0 +1,14 @@
+[19:34:03] Program Start!
+[19:34:03] TfrmMain.FormShow: Access violation at address 0040B368 in module 'Nexpa_Host.exe'. Read of address 00000090
+[19:34:39] Program Start!
+[19:35:02] TfrmMain.FormShow: Access violation at address 0040B368 in module 'Nexpa_Host.exe'. Read of address 00000090
+[19:35:03] Program Close
+[19:35:16] Program Start!
+[19:35:42] TfrmMain.FormShow: Access violation at address 0040B368 in module 'Nexpa_Host.exe'. Read of address 00000090
+[19:36:12] Program Start!
+[19:36:45] TfrmMain.FormShow: Access violation at address 0040B368 in module 'Nexpa_Host.exe'. Read of address 00000090
+[19:39:56] Program Start!
+[19:41:02] Program Start!
+[19:42:48] Program Start!
+[20:25:01] Program Start!
+[20:25:09] Program Close

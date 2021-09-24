@@ -1,0 +1,36 @@
+[10:46:39] Program Start!
+[10:50:24] Program Start!
+[10:50:34] TfrmNProc.btnSearchClick: qryTKProc: Field 'reserve2' not found
+[10:51:05] TfrmNProc.btnSearchClick: qryTKProc: Field 'reserve2' not found
+[10:51:09] TfrmNProc.btnSearchClick: qryTKProc: Field 'reserve2' not found
+[10:51:36] Program Close
+[10:51:38] Program Start!
+[10:51:54] TfrmNProc.btnSearchClick: qryTKProc: Field 'reserve2' not found
+[10:52:22] Program Start!
+[10:52:56] TfrmNProc.btnSearchClick: 데이터 형식 varchar 및 ntext이(가) not equal to 연산자에서 호환되지 않습니다
+[10:52:59] TfrmNProc.btnSearchClick: 데이터 형식 varchar 및 ntext이(가) not equal to 연산자에서 호환되지 않습니다
+[10:54:12] Program Start!
+[10:54:26] TfrmNProc.btnSearchClick: 데이터 형식 varchar 및 ntext이(가) not equal to 연산자에서 호환되지 않습니다
+[10:55:37] Program Start!
+[10:56:48] Program Start!
+[11:01:48] jasmine_car 파일 없음
+[11:03:34] Program Close
+[11:17:24] Program Start!
+[11:17:49] Program Close
+[11:22:15] Program Start!
+[11:22:52] Program Close
+[11:26:20] Program Start!
+[11:31:20] jasmine_car 파일 없음
+[11:35:32] Program Start!
+[11:36:14] Program Close
+[11:36:17] Program Start!
+[11:38:34] Program Start!
+[11:38:40] Program Start!
+[11:38:55] Program Close
+[11:39:25] Program Start!
+[11:40:37] Program Close
+[13:15:33] Program Start!
+[13:20:33] jasmine_car 파일 없음
+[13:25:33] jasmine_car 파일 없음
+[13:30:33] jasmine_car 파일 없음
+[13:33:06] Program Close

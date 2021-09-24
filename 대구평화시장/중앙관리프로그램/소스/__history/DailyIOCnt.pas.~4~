@@ -1,0 +1,352 @@
+unit DailyIOCnt;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Grids, BaseGrid, AdvGrid, StdCtrls, Buttons, ComCtrls,
+  AdvDateTimePicker, ExtCtrls, tmsAdvGridExcel, DB, ADODB, AdvObj, Vcl.Mask,
+  AdvEdit;
+
+type
+  TfrmDailyIOCnt = class(TForm)
+   sgCount: TAdvStringGrid;
+    Panel1: TPanel;
+    Bevel2: TBevel;
+    Label7: TLabel;
+    Label8: TLabel;
+    btnSearch: TBitBtn;
+    btnExcel: TBitBtn;
+    btnClose: TBitBtn;
+    qryCount: TADOQuery;
+    SaveDialog1: TSaveDialog;
+    eCount: TAdvGridExcelIO;
+    sb1: TStatusBar;
+    qryTemp: TADOQuery;
+    edtSDate: TAdvMaskEdit;
+    edtEDate: TAdvMaskEdit;
+    procedure btnExcelClick(Sender: TObject);
+    procedure btnCloseClick(Sender: TObject);
+    procedure btnSearchClick(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmDailyIOCnt: TfrmDailyIOCnt;
+  nTotLpr, nInLpr, nOutLpr: Byte;     // nInLpr: 총입구LPR 개수
+  RLpr: Array [1..50] of Word;
+implementation
+uses
+  Global, Tables;
+
+{$R *.dfm}
+
+
+procedure TfrmDailyIOCnt.btnCloseClick(Sender: TObject);
+begin
+     Close;
+end;
+
+procedure TfrmDailyIOCnt.btnExcelClick(Sender: TObject);
+begin
+  try
+    if savedialog1.Execute then
+    begin
+      eCount.XLSExport(savedialog1.filename + '.xls');
+      ShowMessage('엑셀파일로 저장완료!');
+    end;
+  except
+    on E: Exception do ExceptLogging('TfrmIOCnt.btnExcelClick: ' + E.Message);
+  end;
+end;
+
+// 일자별 조회
+procedure TfrmDailyIOCnt.btnSearchClick(Sender: TObject);
+var
+  i, j, k: Byte;
+  nSum, nTotIn, nTotOut, nTot, nTotIos, nTotIon, nUnitNo: Cardinal;
+  ssTime, sETime: String;
+  nIosIn: Array [1..31] of Integer;        // 정기차량 일자별 출입내역 카운트 변수
+  nIonIn: Array [1..31] of Integer;        // 일반차량 일자별 출입내역 카운트 변수
+  nIn: Array [1..31] of Integer;           // 정기+일반차량 일자별 출입내역 카운트 변수
+  nIosOut: Array [1..31] of Integer;       // 정기차량 일자별 출차내역 카운트 변수
+  nIonOut: Array [1..31] of Integer;       // 일반차량 일자별 출차내역 카운트 변수
+  nOut: Array [1..31] of Integer;          // 정기+일반차량 일자별 출차내역 카운트 변수
+  nIon: Array [1..31] of Integer;          // 유료건수 카운트 변수
+  nIos: Array [1..31] of Integer;          // 무료건수 카운트 변수
+begin
+  nTotIn:= 0;           // 총입차건수
+  nTotOut:= 0;          // 총출차건수
+  nTot:= 0;             // 총건수(유료+무료)
+
+  // 입차LPR 개수만큼 반복하여 일반차량+정기차량 출입내역 카운트
+  for i:= 1 to nInLpr do
+  begin
+    nUnitNo:= RLpr[i];
+
+    with qryTemp do
+    begin
+      // 일반차량 일자별 출입내역
+      for j:= 1 to 31 do
+      begin
+        Close;
+        SQL.Clear;
+        SQL.Add('Select Count(*) nIn from IONData where SUBSTRING(ProcDate, 1, 7) >= :ProcDate1 and SUBSTRING(ProcDate, 1, 7) <= :ProcDate2 ');
+        SQL.Add('and UnitNo = :UnitNo and SUBSTRING(ProcDate,9,2) = :ProcDate3 ');
+        Parameters.ParamByName('ProcDate1').Value:= edtSDate.Text;
+        Parameters.ParamByName('ProcDate2').Value:= edtEDate.Text;
+        Parameters.ParamByName('UnitNo').Value:= nUnitNo;
+        Parameters.ParamByName('ProcDate3').Value:= MG_InsZero(IntToStr(j), 2);
+        Open;
+
+        // 조회한 카운트가 0보다 크면
+        if FieldByName('nIn').AsInteger > 0 then
+          nIonIn[j]:= FieldByName('nIn').AsInteger
+        else
+          nIonIn[j]:= 0;
+      end;
+
+      // 정기차량 일자별 출입내역
+      for j:= 1 to 31 do
+      begin
+        Close;
+        SQL.Clear;
+        SQL.Add('Select Count(*) nIn from IOSData where ProcDate >= :ProcDate1 and ProcDate <= :ProcDate2');
+        SQL.Add('and UnitNo = :UnitNo and InIOStatusNo = 1 and TKType = 2 ');
+        SQL.Add('and SUBSTRING(ProcDate,9,2) = :ProcDate3');
+        Parameters.ParamByName('ProcDate1').Value:= edtSDate.Text;
+        Parameters.ParamByName('ProcDate2').Value:= edtEDate.Text;
+        Parameters.ParamByName('UnitNo').Value:= nUnitNo;
+        Parameters.ParamByName('ProcDate3').Value:= MG_InsZero(IntToStr(j-1), 2);
+        Open;
+
+        // 조회한 카운트가 0보다 크면
+        if FieldByName('nIn').AsInteger > 0 then
+          nIosIn[j]:= FieldByName('nIn').AsInteger
+        else
+          nIosIn[j]:= 0;
+
+      end;
+
+      // 일반차량 + 정기차량 시간대별 출입내역
+      for j := 1 to 31 do
+      begin
+        nIn[j] := nIonIn[j] + nIosIn[j];
+
+        if nIn[j] > 0 then
+          sgCount.Cells[i, j]:= FormatFloat('#,##0', nIn[j])
+        else
+          sgCount.Cells[i, j]:= '0';
+
+        nTotIn:= nTotIn + nIn[j];      // 총입차건수
+        sgCount.Alignments[i, j]:= taRightJustify;
+
+      if nTotIn > 0 then
+        sgCount.Cells[i, 32]:= FormatFloat('#,##0', nTotIn)
+      else
+        sgCount.Cells[i, 32]:= '0';
+
+      sgCount.Alignments[i, 32]:= taRightJustify;
+      end;
+    end;
+  end;
+
+  // 출구 LPR개수만큼 반복하여 일반차량+정기차량 출차내역 카운트
+  for i:= nInLpr+1 to nTotLpr do
+  begin
+    nUnitNo:= RLpr[i];
+
+    with qryTemp do
+    begin
+      // 일반차량 일자별 출차내역
+      for j:= 1 to 31 do
+      begin
+        Close;
+        SQL.Clear;
+        SQL.Add('Select Count(*) nOut from IONData ');
+        SQL.Add('where SUBSTRING(OutDate, 1, 7) >= :OutDate1 and SUBSTRING(OutDate, 1, 7) <= :OutDate2');
+        SQL.Add('and OutUnitNo = :OutUnitNo and OutChk > 0 and ((TKType = 1) or (TKType = 9))');
+        SQL.Add('and SUBSTRING(OutDate,9,2) = :OutDate3' );
+        Parameters.ParamByName('OutDate1').Value:= edtSDate.Text;
+        Parameters.ParamByName('OutDate2').Value:= edtEDate.Text;
+        Parameters.ParamByName('OutUnitNo').Value:= nUnitNo;
+        Parameters.ParamByName('OutDate3').Value:= MG_InsZero(IntToStr(j), 2);
+        Open;
+
+        // 조회한 카운트가 0보다 크면
+        if FieldByName('nOut').AsInteger > 0 then
+          nIonOut[j]:= FieldByName('nOut').AsInteger
+        else
+          nIonOut[j]:= 0;
+      end;
+
+      // 정기차량 일자별 출차내역
+      for j:= 1 to 31 do
+      begin
+        Close;
+        SQL.Clear;
+        SQL.Add('Select Count(*) nOut from IOSData ');
+        SQL.Add('where SUBSTRING(OutDate, 1, 7) >= :OutDate1 and SUBSTRING(OutDate, 1, 7) <= :OutDate2 ');
+        SQL.Add('and OutUnitNo = :OutUnitNo and OutIOStatusNo = 2 and TKType = 2 ');
+        SQL.Add('and SUBSTRING(OutDate,9,2) = :OutDate3');
+        Parameters.ParamByName('OutDate1').Value:= edtSDate.Text;
+        Parameters.ParamByName('OutDate2').Value:= edtEDate.Text;
+        Parameters.ParamByName('OutUnitNo').Value:= nUnitNo;
+        Parameters.ParamByName('OutDate3').Value:= MG_InsZero(IntToStr(j), 2);
+        Open;
+
+        // 조회한 카운트가 0보다 크면
+        if FieldByName('nOut').AsInteger > 0 then
+          nIosOut[j]:= FieldByName('nOut').AsInteger
+        else
+          nIosOut[j]:= 0;
+      end;
+
+      // 일반차량 + 정기차량 일자별 출차내역
+      for j := 1 to 31 do
+      begin
+        nOut[j] := nIonOut[j] + nIosOut[j];
+
+        if nOut[j] > 0 then
+          sgCount.Cells[i, j]:= FormatFloat('#,##0', nOut[j])
+        else
+          sgCount.Cells[i, j]:= '0';
+
+        nTotOut:= nTotOut + nOut[j];      // 총출차건수
+        sgCount.Alignments[i, j]:= taRightJustify;
+
+      if nTotOut > 0 then
+        sgCount.Cells[i, 32]:= FormatFloat('#,##0', nTotOut)
+      else
+        sgCount.Cells[i, 32]:= '0';
+
+      sgCount.Alignments[i, 32]:= taRightJustify;
+      end;
+    end;
+  end;
+
+  with qryTemp do
+  begin
+    for j := 1 to 31 do
+    begin
+      // 유료건수(일반차량)
+      Close;
+      SQL.Clear;
+      SQL.Add('Select Count(*) nCnt from IONData ');
+      SQL.Add('where SUBSTRING(OutDate, 1, 7) >= :OutDate1 and SUBSTRING(OutDate, 1, 7) <= :OutDate2 ');
+      SQL.Add('and OutUnitNo = :OutUnitNo and (TKType = 1 or TKType = 9)');
+      SQL.Add('and SUBSTRING(OutDate,9,2) = :OutDate3');
+      Parameters.ParamByName('OutDate1').Value:= edtSDate.Text;
+      Parameters.ParamByName('OutDate2').Value:= edtEDate.Text;
+      Parameters.ParamByName('OutDate3').Value:= MG_InsZero(IntToStr(j), 2);
+      Parameters.ParamByName('OutUnitNo').Value:= nUnitNo;
+      Open;
+
+      // 유료건수 0보다 크면
+      if FieldByName('nCnt').AsInteger > 0 then
+      begin
+        nIon[j]:= FieldByName('nCnt').AsInteger;
+        sgCount.Cells[8, j]:= FormatFloat('#,##0', FieldByName('nCnt').AsInteger);
+      end
+      else
+      begin
+        nIon[j]:= 0;
+        sgCount.Cells[8, j]:= '0';
+      end;
+
+      nTotIon:= nTotIon + nIon[j];         // 총유료건수
+      sgCount.Alignments[8, j]:= taRightJustify;
+    end;
+
+    if nTotIon > 0 then
+      sgCount.Cells[8, 32]:= FormatFloat('#,##0', nTotIon)
+    else
+      sgCount.Cells[8, 32]:= '0';
+
+    sgCount.Alignments[8, 32]:= taRightJustify;
+  end;
+
+  with qryTemp do
+  begin
+    for j := 1 to 31 do
+    begin
+      // 무료건수(정기차량)
+      Close;
+      SQL.Clear;
+      SQL.Add('Select Count(*) nCnt from IOSData ');
+      SQL.Add('where SUBSTRING(OutDate, 1, 7) >= :OutDate1 and SUBSTRING(OutDate, 1, 7) <= :OutDate2 ');
+      SQL.Add('and OutUnitNo = :OutUnitNo and TKType = 2 and OutIOStatusNo = 2');
+      SQL.Add('and SUBSTRING(OutDate,9,2) = :OutDate3');
+      Parameters.ParamByName('OutDate1').Value:= edtSDate.Text;
+      Parameters.ParamByName('OutDate2').Value:= edtEDate.Text;
+      Parameters.ParamByName('OutDate3').Value:= MG_InsZero(IntToStr(j), 2);
+      Parameters.ParamByName('OutUnitNo').Value:= nUnitNo;
+      Open;
+
+      // 무료건수가 0보다 크면
+      if FieldByName('nCnt').AsInteger > 0 then
+      begin
+        nIos[j]:= FieldByName('nCnt').AsInteger;
+        sgCount.Cells[9, j]:= FormatFloat('#,##0', FieldByName('nCnt').AsInteger);
+      end
+      else
+      begin
+        nIos[j]:= 0;
+        sgCount.Cells[9, j]:= '0';
+      end;
+
+      nTotIos:= nTotIos + FieldByName('nCnt').AsInteger;       // 총무료건수
+      sgCount.Alignments[9, j]:= taRightJustify;
+    end;
+
+    if nTotIos > 0 then
+      sgCount.Cells[9, 32]:= FormatFloat('#,##0', nTotIos)
+    else
+      sgCount.Cells[9, 32]:= '0';
+
+    sgCount.Alignments[9, 32]:= taRightJustify;
+  end;
+
+  with qryTemp do
+  begin
+    for j := 1 to 31 do
+    begin
+      sgCount.Cells[7, j]:= FormatFloat('#,##0', nIon[j] + nIos[j]);
+      sgCount.Alignments[7, j]:= taRightJustify;
+
+      nTot:= nTot + nIon[j] + nIos[j];         // 총건수
+    end;
+
+    if nTot > 0 then
+      sgCount.Cells[7, 32]:= FormatFloat('#,##0', nTot)
+    else
+      sgcount.Cells[7, 32]:= '0';
+
+    sgCount.Alignments[7, 32]:= taRightJustify;
+  end;
+
+  sgCount.Cells[0, 0]:= edtSDate.Text + ' ~ ' + edtEDate.Text;
+  sb1.SimpleText:= ' 총할인건수: ' + IntToStr(nTotIn);
+  btnExcel.Enabled:= True;
+end;
+
+procedure TfrmDailyIOCnt.FormShow(Sender: TObject);
+var
+  i, j: Byte;
+begin
+  with sgCount do
+  begin
+    for i:= 0 to 32 do
+      Alignments[0, i]:= taCenter;
+  end;
+
+  sgCount.ColWidths[1] := 150;
+
+  edtSDate.Text:= FormatDateTime('YYYY-MM', Now);
+  edtEDate.Text:= FormatDateTime('YYYY-MM', Now);
+end;
+end.

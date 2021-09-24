@@ -1,0 +1,22 @@
+[13:55:00] Program Start!
+[14:06:49] Program Start!
+[14:06:52] Program Close
+[14:06:57] Program Start!
+[14:07:10] Program Close
+[14:07:23] Program Start!
+[14:07:30] sCardNo.btnAllAddClick: PRIMARY KEY 제약 조건 'PK_ValetCard'을(를) 위반했습니다. 개체 'dbo.ValetCard'에 중복 키를 삽입할 수 없습니다. 중복 키 값은 (1, 7)입니다
+[14:10:25] Program Start!
+[14:11:02] Program Start!
+[14:11:34] Program Start!
+[14:12:11] Program Start!
+[14:12:14] TfrmValetCard.dgCardInfoClick: qryValetCard: Field 'Location' not found
+[14:12:14] TfrmValetCard.dgCardInfoClick: qryValetCard: Field 'Location' not found
+[14:12:15] TfrmValetCard.dgCardInfoClick: qryValetCard: Field 'Location' not found
+[14:12:15] TfrmValetCard.dgCardInfoClick: qryValetCard: Field 'Location' not found
+[14:12:15] TfrmValetCard.dgCardInfoClick: qryValetCard: Field 'Location' not found
+[14:12:15] TfrmValetCard.dgCardInfoClick: qryValetCard: Field 'Location' not found
+[14:12:15] TfrmValetCard.dgCardInfoClick: qryValetCard: Field 'Location' not found
+[14:12:15] TfrmValetCard.dgCardInfoClick: qryValetCard: Field 'Location' not found
+[14:12:15] TfrmValetCard.dgCardInfoClick: qryValetCard: Field 'Location' not found
+[14:12:15] TfrmValetCard.dgCardInfoClick: qryValetCard: Field 'Location' not found
+[14:12:26] Program Start!
