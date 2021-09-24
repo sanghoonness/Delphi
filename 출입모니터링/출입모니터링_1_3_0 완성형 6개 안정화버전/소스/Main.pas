@@ -26873,6 +26873,12 @@ begin
           // 1  | 2  | 3  | 4  | 5
           // 6  | 7  | 8  | 9  | 0
           isBujae := StrToInt(sShortCarNo) mod 5; //차량번호 끝자리 mod 5 후 1을 더하면 요일값과 동일해짐
+
+          if isBujae = 0 then
+          begin
+             isBujae := 5;
+          end;
+
           if (isBujae + 1) = nWeek then //월 2 화 3 수 4 목 5 금 6
           begin
             Result := False;
