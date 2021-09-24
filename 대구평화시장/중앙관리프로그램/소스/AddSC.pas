@@ -508,10 +508,12 @@ begin
         Close;
         SQL.Clear;
         SQL.Add('Select * from CustInfo '
-              + ' Where TKType = :N1 and CarNo = :N2 '
+              //+ ' Where TKType = :N1 and CarNo = :N2 '
+              + ' Where TKType = :N1 and CarNo like '+MG_MakeStr('%' + Trim(edtSeek.Text) + '%')
               + ' Order by CarNo');
         Parameters.ParamByName('N1').Value:= 2;
-        Parameters.ParamByName('N2').Value:= MG_StrTrim(edtSeek.Text, ' ');
+        //Parameters.ParamByName('N2').Value:= MG_StrTrim(edtSeek.Text, ' ');
+        //Parameters.ParamByName('N2').Value := MG_MakeStr('%' + Trim(edtSeek.Text) + '%');
         Open;
 
         if RecordCount > 0 then
