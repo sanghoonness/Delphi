@@ -1,0 +1,2947 @@
+[14:45:58] Program Start!
+[14:46:01] 근무시작: 근무자
+[14:46:02] Ping 시간 체크1-1749098
+[14:46:02] Ping 시간 체크2-1749098
+[14:46:02] Ping 시간 체크1-1749208
+[14:46:02] Ping 시간 체크2-1749208
+[14:46:08] 설치된 입구전광판이 없음!
+[14:46:08] 설치된 출구전광판이 없음!
+[14:46:08] 30분  101
+[14:46:08] 1시간  102
+[14:46:08] 2시간  103
+[14:46:08] 무료  104
+[14:46:08] 2시간50%  105
+[14:46:08] 30%  106
+[14:46:09] ApprVer    : [A1]
+[14:46:09] SvcType    : [DN]
+[14:46:09] TrdType    : [T1]
+[14:46:09] SndType    : [R]
+[14:46:09] TermID     : [0710000001]
+[14:46:09] TrdDate    : [20170614144624]
+[14:46:09] TrdNo      : [0000000001]
+[14:46:09] MchData    : [                    ]
+[14:46:09] AnsCode    : [0000]
+[14:46:09] Serial     : [1000000007          ]
+[14:46:09] Message    : [테스트 버전 입니다.                     ]
+[14:46:09] SftVer     : [07201]
+[14:46:09] ShpNm      : [한국신용카드결제(주)                    ]
+[14:46:09] BsnNo      : [2148631917]
+[14:46:09] PreNm      : [소재광              ]
+[14:46:09] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[14:46:09] ShpTel     : [0234153600     ]
+[14:46:10] InLpr1_SocketError: 10061
+[14:46:12] OutLpr1_SocketError: 10061
+[14:46:17] Program Close
+[14:46:44] Program Start!
+[14:46:50] 근무시작: 근무자
+[14:46:50] Ping 시간 체크1-1797942
+[14:46:50] Ping 시간 체크2-1797942
+[14:46:50] Ping 시간 체크1-1797958
+[14:46:50] Ping 시간 체크2-1797958
+[14:46:50] 설치된 입구전광판이 없음!
+[14:46:50] 설치된 출구전광판이 없음!
+[14:46:50] 30분  101
+[14:46:50] 1시간  102
+[14:46:50] 2시간  103
+[14:46:50] 무료  104
+[14:46:50] 2시간50%  105
+[14:46:50] 30%  106
+[14:47:29] Program Start!
+[14:47:31] 근무시작: 근무자
+[14:47:31] Ping 시간 체크1-1839579
+[14:47:31] Ping 시간 체크2-1839579
+[14:47:31] Ping 시간 체크1-1839626
+[14:47:31] Ping 시간 체크2-1839641
+[14:47:33] 설치된 입구전광판이 없음!
+[14:47:33] 설치된 출구전광판이 없음!
+[14:47:33] 30분  101
+[14:47:33] 1시간  102
+[14:47:33] 2시간  103
+[14:47:33] 무료  104
+[14:47:33] 2시간50%  105
+[14:47:33] 30%  106
+[14:47:34] ApprVer    : [A1]
+[14:47:34] SvcType    : [DN]
+[14:47:34] TrdType    : [T1]
+[14:47:34] SndType    : [R]
+[14:47:34] TermID     : [0710000001]
+[14:47:34] TrdDate    : [20170614144750]
+[14:47:34] TrdNo      : [0000000001]
+[14:47:34] MchData    : [                    ]
+[14:47:34] AnsCode    : [0000]
+[14:47:34] Serial     : [1000000007          ]
+[14:47:34] Message    : [테스트 버전 입니다.                     ]
+[14:47:34] SftVer     : [07201]
+[14:47:34] ShpNm      : [한국신용카드결제(주)                    ]
+[14:47:34] BsnNo      : [2148631917]
+[14:47:34] PreNm      : [소재광              ]
+[14:47:34] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[14:47:34] ShpTel     : [0234153600     ]
+[14:47:34] LPR 11 Recv: 127.0.0.1
+[14:47:34] LPR 12 Recv: 127.0.0.1
+[14:47:35] LPR 12 Recv: LPR_N
+[14:47:35] LPR 11 Recv: LPR_N
+[14:47:38] LPR 11 Recv: LPR_N
+[14:47:38] LPR 12 Recv: LPR_N
+[14:47:43] ApprVer    : [  ]
+[14:47:43] SvcType    : [  ]
+[14:47:43] TrdType    : [  ]
+[14:47:43] SndType    : [ ]
+[14:47:43] TermID     : [          ]
+[14:47:43] TrdDate    : [              ]
+[14:47:43] TrdNo      : [          ]
+[14:47:43] MchData    : [                    ]
+[14:47:43] AnsCode    : [9999]
+[14:47:43] TradeNo    : [            ]
+[14:47:43] AuNo       : [            ]
+[14:47:43] TradeDate  : [              ]
+[14:47:43] Message    : [포트 연결 실패                  ]
+[14:47:43] Bin        : [                                        ]
+[14:47:43] CardKind   : [            ]
+[14:47:43] OrdCd      : [    ]
+[14:47:43] OrdNm      : [            ]
+[14:47:43] InpCd      : [    ]
+[14:47:43] InpNm      : [        ]
+[14:47:43] MchNo      : [                ]
+[14:47:43] PtCardCd   : [  ]
+[14:47:43] PtCardNm   : [        ]
+[14:47:43] JukPoint   : [         ]
+[14:47:43] GayPoint   : [         ]
+[14:47:43] NujPoint   : [         ]
+[14:47:43] SaleRate   : [         ]
+[14:47:43] PtAuNo     : [                    ]
+[14:47:43] PtMchNo    : [               ]
+[14:47:43] PtAnswerCd : [    ]
+[14:47:43] PtMessage  : [                                                ]
+[14:47:43] DDCYN      : [ ]
+[14:47:43] EDIYN      : [ ]
+[14:47:43] CardType   : [ ]
+[14:47:43] TrdKey     : [            ]
+[14:47:43] KeyRenewal : [  ]
+[14:47:43] 
+[14:47:43] LPR 11 Recv: LPR_N
+[14:47:43] LPR 12 Recv: LPR_N
+[14:47:49] LPR 11 Recv: LPR_N
+[14:47:49] LPR 12 Recv: LPR_N
+[14:47:54] Program Close
+[14:48:28] Program Start!
+[14:48:30] 근무시작: 근무자
+[14:48:30] Ping 시간 체크1-1899561
+[14:48:30] Ping 시간 체크2-1899592
+[14:48:30] Ping 시간 체크1-1899655
+[14:48:30] Ping 시간 체크2-1899655
+[14:48:30] 설치된 입구전광판이 없음!
+[14:48:30] 설치된 출구전광판이 없음!
+[14:48:30] 30분  101
+[14:48:30] 1시간  102
+[14:48:30] 2시간  103
+[14:48:30] 무료  104
+[14:48:30] 2시간50%  105
+[14:48:30] 30%  106
+[14:48:31] ApprVer    : [A1]
+[14:48:31] SvcType    : [DN]
+[14:48:31] TrdType    : [T1]
+[14:48:31] SndType    : [R]
+[14:48:31] TermID     : [0710000001]
+[14:48:31] TrdDate    : [20170614144848]
+[14:48:31] TrdNo      : [0000000001]
+[14:48:31] MchData    : [                    ]
+[14:48:31] AnsCode    : [0000]
+[14:48:31] Serial     : [1000000007          ]
+[14:48:31] Message    : [테스트 버전 입니다.                     ]
+[14:48:31] SftVer     : [07201]
+[14:48:31] ShpNm      : [한국신용카드결제(주)                    ]
+[14:48:31] BsnNo      : [2148631917]
+[14:48:31] PreNm      : [소재광              ]
+[14:48:31] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[14:48:31] ShpTel     : [0234153600     ]
+[14:48:31] LPR 11 Recv: 127.0.0.1
+[14:48:31] LPR 12 Recv: 127.0.0.1
+[14:48:32] LPR 12 Recv: LPR_N
+[14:48:32] LPR 11 Recv: LPR_N
+[14:48:36] LPR 11 Recv: LPR_N
+[14:48:36] LPR 12 Recv: LPR_N
+[14:48:41] LPR 12 Recv: LPR_N
+[14:48:41] LPR 11 Recv: LPR_N
+[14:48:48] LPR 12 Recv: LPR_N
+[14:48:48] LPR 11 Recv: LPR_N
+[14:48:49] ApprVer    : [  ]
+[14:48:49] SvcType    : [  ]
+[14:48:49] TrdType    : [  ]
+[14:48:49] SndType    : [ ]
+[14:48:49] TermID     : [          ]
+[14:48:49] TrdDate    : [              ]
+[14:48:49] TrdNo      : [          ]
+[14:48:49] MchData    : [                    ]
+[14:48:49] AnsCode    : [9999]
+[14:48:49] TradeNo    : [            ]
+[14:48:49] AuNo       : [            ]
+[14:48:49] TradeDate  : [              ]
+[14:48:49] Message    : [포트 연결 실패                  ]
+[14:48:49] Bin        : [                                        ]
+[14:48:49] CardKind   : [            ]
+[14:48:49] OrdCd      : [    ]
+[14:48:49] OrdNm      : [            ]
+[14:48:49] InpCd      : [    ]
+[14:48:49] InpNm      : [        ]
+[14:48:49] MchNo      : [                ]
+[14:48:49] PtCardCd   : [  ]
+[14:48:49] PtCardNm   : [        ]
+[14:48:49] JukPoint   : [         ]
+[14:48:49] GayPoint   : [         ]
+[14:48:49] NujPoint   : [         ]
+[14:48:49] SaleRate   : [         ]
+[14:48:49] PtAuNo     : [                    ]
+[14:48:49] PtMchNo    : [               ]
+[14:48:49] PtAnswerCd : [    ]
+[14:48:49] PtMessage  : [                                                ]
+[14:48:49] DDCYN      : [ ]
+[14:48:49] EDIYN      : [ ]
+[14:48:49] CardType   : [ ]
+[14:48:49] TrdKey     : [            ]
+[14:48:49] KeyRenewal : [  ]
+[14:48:49] 
+[14:49:49] Program Start!
+[14:49:50] 근무시작: 근무자
+[14:49:50] Ping 시간 체크1-1980853
+[14:49:50] Ping 시간 체크2-1980853
+[14:49:50] Ping 시간 체크1-1980885
+[14:49:50] Ping 시간 체크2-1980885
+[14:49:50] 설치된 입구전광판이 없음!
+[14:49:50] 설치된 출구전광판이 없음!
+[14:49:50] 30분  101
+[14:49:50] 1시간  102
+[14:49:50] 2시간  103
+[14:49:50] 무료  104
+[14:49:50] 2시간50%  105
+[14:49:50] 30%  106
+[14:49:51] ApprVer    : [A1]
+[14:49:51] SvcType    : [DN]
+[14:49:51] TrdType    : [T1]
+[14:49:51] SndType    : [R]
+[14:49:51] TermID     : [0710000001]
+[14:49:51] TrdDate    : [20170614145009]
+[14:49:51] TrdNo      : [0000000001]
+[14:49:51] MchData    : [                    ]
+[14:49:51] AnsCode    : [0000]
+[14:49:51] Serial     : [1000000007          ]
+[14:49:51] Message    : [테스트 버전 입니다.                     ]
+[14:49:51] SftVer     : [07201]
+[14:49:51] ShpNm      : [한국신용카드결제(주)                    ]
+[14:49:51] BsnNo      : [2148631917]
+[14:49:51] PreNm      : [소재광              ]
+[14:49:51] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[14:49:51] ShpTel     : [0234153600     ]
+[14:49:51] LPR 11 Recv: 127.0.0.1
+[14:49:51] LPR 12 Recv: 127.0.0.1
+[14:49:52] LPR 12 Recv: LPR_N
+[14:49:52] LPR 11 Recv: LPR_N
+[14:49:54] LPR 12 Recv: LPR_N
+[14:49:54] LPR 11 Recv: LPR_N
+[14:50:01] LPR 11 Recv: LPR_N
+[14:50:01] LPR 12 Recv: LPR_N
+[14:52:04] Program Start!
+[14:52:06] 근무시작: 근무자
+[14:52:06] Ping 시간 체크1-2117027
+[14:52:06] Ping 시간 체크2-2117027
+[14:52:06] Ping 시간 체크1-2117058
+[14:52:06] Ping 시간 체크2-2117058
+[14:52:06] 설치된 입구전광판이 없음!
+[14:52:06] 설치된 출구전광판이 없음!
+[14:52:06] 30분  101
+[14:52:06] 1시간  102
+[14:52:06] 2시간  103
+[14:52:06] 무료  104
+[14:52:06] 2시간50%  105
+[14:52:06] 30%  106
+[14:52:07] ApprVer    : [A1]
+[14:52:07] SvcType    : [DN]
+[14:52:07] TrdType    : [T1]
+[14:52:07] SndType    : [R]
+[14:52:07] TermID     : [0710000001]
+[14:52:07] TrdDate    : [20170614145225]
+[14:52:07] TrdNo      : [0000000001]
+[14:52:07] MchData    : [                    ]
+[14:52:07] AnsCode    : [0000]
+[14:52:07] Serial     : [1000000007          ]
+[14:52:07] Message    : [테스트 버전 입니다.                     ]
+[14:52:07] SftVer     : [07201]
+[14:52:07] ShpNm      : [한국신용카드결제(주)                    ]
+[14:52:07] BsnNo      : [2148631917]
+[14:52:07] PreNm      : [소재광              ]
+[14:52:07] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[14:52:07] ShpTel     : [0234153600     ]
+[14:52:07] LPR 11 Recv: 127.0.0.1
+[14:52:07] LPR 12 Recv: 127.0.0.1
+[14:52:08] LPR 12 Recv: LPR_N
+[14:52:08] LPR 11 Recv: LPR_N
+[14:52:12] LPR 11 Recv: LPR_N
+[14:52:12] LPR 12 Recv: LPR_N
+[14:52:18] ApprVer    : [  ]
+[14:52:18] SvcType    : [  ]
+[14:52:18] TrdType    : [  ]
+[14:52:18] SndType    : [ ]
+[14:52:18] TermID     : [          ]
+[14:52:18] TrdDate    : [              ]
+[14:52:18] TrdNo      : [          ]
+[14:52:18] MchData    : [                    ]
+[14:52:18] AnsCode    : [9999]
+[14:52:18] TradeNo    : [            ]
+[14:52:18] AuNo       : [            ]
+[14:52:18] TradeDate  : [              ]
+[14:52:18] Message    : [포트 연결 실패                  ]
+[14:52:18] Bin        : [                                        ]
+[14:52:18] CardKind   : [            ]
+[14:52:18] OrdCd      : [    ]
+[14:52:18] OrdNm      : [            ]
+[14:52:18] InpCd      : [    ]
+[14:52:18] InpNm      : [        ]
+[14:52:18] MchNo      : [                ]
+[14:52:18] PtCardCd   : [  ]
+[14:52:18] PtCardNm   : [        ]
+[14:52:18] JukPoint   : [         ]
+[14:52:18] GayPoint   : [         ]
+[14:52:18] NujPoint   : [         ]
+[14:52:18] SaleRate   : [         ]
+[14:52:18] PtAuNo     : [                    ]
+[14:52:18] PtMchNo    : [               ]
+[14:52:18] PtAnswerCd : [    ]
+[14:52:18] PtMessage  : [                                                ]
+[14:52:18] DDCYN      : [ ]
+[14:52:18] EDIYN      : [ ]
+[14:52:18] CardType   : [ ]
+[14:52:18] TrdKey     : [            ]
+[14:52:18] KeyRenewal : [  ]
+[14:52:18] 
+[14:56:03] Program Start!
+[14:56:05] 근무시작: 근무자
+[14:56:05] Ping 시간 체크1-2357315
+[14:56:05] Ping 시간 체크2-2357331
+[14:56:06] Ping 시간 체크1-2357409
+[14:56:06] Ping 시간 체크2-2357424
+[14:56:06] 설치된 입구전광판이 없음!
+[14:56:06] 설치된 출구전광판이 없음!
+[14:56:06] 30분  101
+[14:56:06] 1시간  102
+[14:56:06] 2시간  103
+[14:56:06] 무료  104
+[14:56:06] 2시간50%  105
+[14:56:06] 30%  106
+[14:56:26] Program Start!
+[14:56:29] 근무시작: 근무자
+[14:56:29] Ping 시간 체크1-2380715
+[14:56:29] Ping 시간 체크2-2380731
+[14:56:29] Ping 시간 체크1-2380762
+[14:56:29] Ping 시간 체크2-2380762
+[14:56:29] 설치된 입구전광판이 없음!
+[14:56:29] 설치된 출구전광판이 없음!
+[14:56:29] 30분  101
+[14:56:29] 1시간  102
+[14:56:29] 2시간  103
+[14:56:29] 무료  104
+[14:56:29] 2시간50%  105
+[14:56:29] 30%  106
+[14:56:30] ApprVer    : [A1]
+[14:56:30] SvcType    : [DN]
+[14:56:30] TrdType    : [T1]
+[14:56:30] SndType    : [R]
+[14:56:30] TermID     : [0710000001]
+[14:56:30] TrdDate    : [20170614145649]
+[14:56:30] TrdNo      : [0000000001]
+[14:56:30] MchData    : [                    ]
+[14:56:30] AnsCode    : [0000]
+[14:56:30] Serial     : [1000000007          ]
+[14:56:30] Message    : [테스트 버전 입니다.                     ]
+[14:56:30] SftVer     : [07201]
+[14:56:30] ShpNm      : [한국신용카드결제(주)                    ]
+[14:56:30] BsnNo      : [2148631917]
+[14:56:30] PreNm      : [소재광              ]
+[14:56:30] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[14:56:30] ShpTel     : [0234153600     ]
+[14:56:30] LPR 11 Recv: 127.0.0.1
+[14:56:30] LPR 12 Recv: 127.0.0.1
+[14:56:31] LPR 12 Recv: LPR_N
+[14:56:31] LPR 11 Recv: LPR_N
+[14:56:39] LPR 11 Recv: LPR_N
+[14:56:39] LPR 12 Recv: LPR_N
+[14:56:45] LPR 11 Recv: LPR_N
+[14:56:45] LPR 12 Recv: LPR_N
+[14:56:56] ApprVer    : [  ]
+[14:56:56] SvcType    : [  ]
+[14:56:56] TrdType    : [  ]
+[14:56:56] SndType    : [ ]
+[14:56:56] TermID     : [          ]
+[14:56:56] TrdDate    : [              ]
+[14:56:56] TrdNo      : [          ]
+[14:56:56] MchData    : [                    ]
+[14:56:56] AnsCode    : [9999]
+[14:56:56] TradeNo    : [            ]
+[14:56:56] AuNo       : [            ]
+[14:56:56] TradeDate  : [              ]
+[14:56:56] Message    : [포트 연결 실패                  ]
+[14:56:56] Bin        : [                                        ]
+[14:56:56] CardKind   : [            ]
+[14:56:56] OrdCd      : [    ]
+[14:56:56] OrdNm      : [            ]
+[14:56:56] InpCd      : [    ]
+[14:56:56] InpNm      : [        ]
+[14:56:56] MchNo      : [                ]
+[14:56:56] PtCardCd   : [  ]
+[14:56:56] PtCardNm   : [        ]
+[14:56:56] JukPoint   : [         ]
+[14:56:56] GayPoint   : [         ]
+[14:56:56] NujPoint   : [         ]
+[14:56:56] SaleRate   : [         ]
+[14:56:56] PtAuNo     : [                    ]
+[14:56:56] PtMchNo    : [               ]
+[14:56:56] PtAnswerCd : [    ]
+[14:56:56] PtMessage  : [                                                ]
+[14:56:56] DDCYN      : [ ]
+[14:56:56] EDIYN      : [ ]
+[14:56:56] CardType   : [ ]
+[14:56:56] TrdKey     : [            ]
+[14:56:56] KeyRenewal : [  ]
+[14:56:56] 
+[14:58:39] Program Start!
+[14:58:41] 근무시작: 근무자
+[14:58:41] Ping 시간 체크1-2513347
+[14:58:41] Ping 시간 체크2-2513363
+[14:58:41] Ping 시간 체크1-2513394
+[14:58:41] Ping 시간 체크2-2513394
+[14:58:41] 설치된 입구전광판이 없음!
+[14:58:41] 설치된 출구전광판이 없음!
+[14:58:41] 30분  101
+[14:58:41] 1시간  102
+[14:58:41] 2시간  103
+[14:58:41] 무료  104
+[14:58:41] 2시간50%  105
+[14:58:41] 30%  106
+[14:58:42] ApprVer    : [A1]
+[14:58:42] SvcType    : [DN]
+[14:58:42] TrdType    : [T1]
+[14:58:42] SndType    : [R]
+[14:58:42] TermID     : [0710000001]
+[14:58:42] TrdDate    : [20170614145902]
+[14:58:42] TrdNo      : [0000000001]
+[14:58:42] MchData    : [                    ]
+[14:58:42] AnsCode    : [0000]
+[14:58:42] Serial     : [1000000007          ]
+[14:58:42] Message    : [테스트 버전 입니다.                     ]
+[14:58:42] SftVer     : [07201]
+[14:58:42] ShpNm      : [한국신용카드결제(주)                    ]
+[14:58:42] BsnNo      : [2148631917]
+[14:58:42] PreNm      : [소재광              ]
+[14:58:42] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[14:58:42] ShpTel     : [0234153600     ]
+[14:58:42] LPR 11 Recv: 127.0.0.1
+[14:58:42] LPR 12 Recv: 127.0.0.1
+[14:58:43] LPR 11 Recv: LPR_N
+[14:58:43] LPR 12 Recv: LPR_N
+[14:58:48] LPR 11 Recv: LPR_N
+[14:58:48] LPR 12 Recv: LPR_N
+[14:58:54] LPR 11 Recv: LPR_N
+[14:58:54] LPR 12 Recv: LPR_N
+[14:59:22] Program Start!
+[14:59:25] 근무시작: 근무자
+[14:59:25] Ping 시간 체크1-2557667
+[14:59:25] Ping 시간 체크2-2557667
+[14:59:25] Ping 시간 체크1-2557698
+[14:59:25] Ping 시간 체크2-2557698
+[14:59:25] 설치된 입구전광판이 없음!
+[14:59:25] 설치된 출구전광판이 없음!
+[14:59:25] 30분  101
+[14:59:25] 1시간  102
+[14:59:25] 2시간  103
+[14:59:25] 무료  104
+[14:59:25] 2시간50%  105
+[14:59:25] 30%  106
+[14:59:26] ApprVer    : [A1]
+[14:59:26] SvcType    : [DN]
+[14:59:26] TrdType    : [T1]
+[14:59:26] SndType    : [R]
+[14:59:26] TermID     : [0710000001]
+[14:59:26] TrdDate    : [20170614145946]
+[14:59:26] TrdNo      : [0000000001]
+[14:59:26] MchData    : [                    ]
+[14:59:26] AnsCode    : [0000]
+[14:59:26] Serial     : [1000000007          ]
+[14:59:26] Message    : [테스트 버전 입니다.                     ]
+[14:59:26] SftVer     : [07201]
+[14:59:26] ShpNm      : [한국신용카드결제(주)                    ]
+[14:59:26] BsnNo      : [2148631917]
+[14:59:26] PreNm      : [소재광              ]
+[14:59:26] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[14:59:26] ShpTel     : [0234153600     ]
+[14:59:26] LPR 11 Recv: 127.0.0.1
+[14:59:26] LPR 12 Recv: 127.0.0.1
+[14:59:27] LPR 11 Recv: LPR_N
+[14:59:27] LPR 12 Recv: LPR_N
+[14:59:31] LPR 12 Recv: LPR_N
+[14:59:31] LPR 11 Recv: LPR_N
+[15:00:13] Program Start!
+[15:00:17] 근무시작: 근무자
+[15:00:17] Ping 시간 체크1-2611113
+[15:00:17] Ping 시간 체크2-2611113
+[15:00:17] Ping 시간 체크1-2611144
+[15:00:17] Ping 시간 체크2-2611144
+[15:00:17] 설치된 입구전광판이 없음!
+[15:00:17] 설치된 출구전광판이 없음!
+[15:00:17] 30분  101
+[15:00:17] 1시간  102
+[15:00:17] 2시간  103
+[15:00:17] 무료  104
+[15:00:17] 2시간50%  105
+[15:00:17] 30%  106
+[15:00:20] ApprVer    : [A1]
+[15:00:20] SvcType    : [DN]
+[15:00:20] TrdType    : [T1]
+[15:00:20] SndType    : [R]
+[15:00:20] TermID     : [0710000001]
+[15:00:20] TrdDate    : [20170614150041]
+[15:00:20] TrdNo      : [0000000001]
+[15:00:20] MchData    : [                    ]
+[15:00:20] AnsCode    : [0000]
+[15:00:20] Serial     : [1000000007          ]
+[15:00:20] Message    : [테스트 버전 입니다.                     ]
+[15:00:20] SftVer     : [07201]
+[15:00:20] ShpNm      : [한국신용카드결제(주)                    ]
+[15:00:20] BsnNo      : [2148631917]
+[15:00:20] PreNm      : [소재광              ]
+[15:00:20] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[15:00:20] ShpTel     : [0234153600     ]
+[15:00:20] LPR 11 Recv: 127.0.0.1
+[15:00:20] LPR 12 Recv: 127.0.0.1
+[15:00:21] LPR 11 Recv: LPR_N
+[15:00:21] LPR 12 Recv: LPR_N
+[15:00:23] LPR 11 Recv: LPR_N
+[15:00:23] LPR 12 Recv: LPR_N
+[15:00:28] LPR 11 Recv: LPR_N
+[15:00:28] LPR 12 Recv: LPR_N
+[15:00:51] ApprVer    : [A1]
+[15:00:51] SvcType    : [TF]
+[15:00:51] TrdType    : [F1]
+[15:00:51] SndType    : [R]
+[15:00:51] TermID     : [0710000001]
+[15:00:51] TrdDate    : [20170614150111]
+[15:00:51] TrdNo      : [0000000001]
+[15:00:51] MchData    : [                    ]
+[15:00:51] AnsCode    : [0000]
+[15:00:51] TradeNo    : [            ]
+[15:00:51] AuNo       : [91302881    ]
+[15:00:51] TradeDate  : [20170614150111]
+[15:00:51] Message    : [테스트 버전 입니다.             ]
+[15:00:51] Bin        : [518831                                  ]
+[15:00:51] CardKind   : [삼성카드    ]
+[15:00:51] OrdCd      : [1104]
+[15:00:51] OrdNm      : [삼성카드    ]
+[15:00:51] InpCd      : [1104]
+[15:00:51] InpNm      : [삼성카드]
+[15:00:51] MchNo      : [65965927        ]
+[15:00:51] PtCardCd   : [  ]
+[15:00:51] PtCardNm   : [        ]
+[15:00:51] JukPoint   : [         ]
+[15:00:51] GayPoint   : [         ]
+[15:00:51] NujPoint   : [         ]
+[15:00:51] SaleRate   : [         ]
+[15:00:51] PtAuNo     : [                    ]
+[15:00:51] PtMchNo    : [               ]
+[15:00:51] PtAnswerCd : [    ]
+[15:00:51] PtMessage  : [                                                ]
+[15:00:51] DDCYN      : [1]
+[15:00:51] EDIYN      : [0]
+[15:00:51] CardType   : [1]
+[15:00:51] TrdKey     : [000001118527]
+[15:00:51] KeyRenewal : [  ]
+[15:00:51] 
+[15:01:04] LPR 11 Recv: LPR_NLPR_NLPR_NLPR_NLPR_NLPR_N
+[15:01:04] LPR Check: , http://127.0.0.1:9080/MSImageLPR_NLPR_NLPR_NLPR_NLPR_NLPR_N, 3,,,0, NLPR-_N-LP R_:NL:PR
+[15:01:04] File: \\127.0.0.1\MSImageLPR_NLPR_NLPR_NLPR_NLPR_NLPR_N
+[15:01:05] csInLpr1Read: qryInLpr1Proc: Cannot perform this operation on a closed dataset
+[15:01:05] LPR 12 Recv: LPR_NLPR_NLPR_NLPR_NLPR_NLPR_NLPR_N
+[15:01:05] LPR Check: ,http://127.0.0.1:9080/MSImageLPR_NLPR_NLPR_NLPR_NLPR_NLPR_NLPR_N,3,,,0, NLPR-_N-LP R_:NL:PR
+[15:01:05] File: \\127.0.0.1\MSImageLPR_NLPR_NLPR_NLPR_NLPR_NLPR_NLPR_N
+[15:01:06] csOutLpr1Read: qryOutLpr1Proc: Cannot perform this operation on a closed dataset
+[15:01:06] LPR 11 Recv: LPR_N
+[15:01:10] LPR 12 Recv: LPR_N
+[15:01:10] LPR 11 Recv: LPR_N
+[15:01:15] LPR 11 Recv: LPR_N
+[15:01:15] LPR 12 Recv: LPR_N
+[15:01:21] LPR 12 Recv: LPR_N
+[15:01:21] LPR 11 Recv: LPR_N
+[15:01:26] LPR 11 Recv: LPR_N
+[15:01:26] LPR 12 Recv: LPR_N
+[15:01:31] LPR 12 Recv: LPR_N
+[15:01:31] LPR 11 Recv: LPR_N
+[15:01:36] Program Close
+[15:05:46] Program Start!
+[15:05:47] 근무시작: 근무자
+[15:05:47] Ping 시간 체크1-2941414
+[15:05:47] Ping 시간 체크2-2941414
+[15:05:47] Ping 시간 체크1-2941430
+[15:05:47] Ping 시간 체크2-2941430
+[15:05:47] 설치된 입구전광판이 없음!
+[15:05:47] 설치된 출구전광판이 없음!
+[15:05:47] 30분  101
+[15:05:47] 1시간  102
+[15:05:47] 2시간  103
+[15:05:47] 무료  104
+[15:05:47] 2시간50%  105
+[15:05:47] 30%  106
+[15:05:49] ApprVer    : [A1]
+[15:05:49] SvcType    : [DN]
+[15:05:49] TrdType    : [T1]
+[15:05:49] SndType    : [R]
+[15:05:49] TermID     : [0710000001]
+[15:05:49] TrdDate    : [20170614150610]
+[15:05:49] TrdNo      : [0000000001]
+[15:05:49] MchData    : [                    ]
+[15:05:49] AnsCode    : [0000]
+[15:05:49] Serial     : [1000000007          ]
+[15:05:49] Message    : [테스트 버전 입니다.                     ]
+[15:05:49] SftVer     : [07201]
+[15:05:49] ShpNm      : [한국신용카드결제(주)                    ]
+[15:05:49] BsnNo      : [2148631917]
+[15:05:49] PreNm      : [소재광              ]
+[15:05:49] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[15:05:49] ShpTel     : [0234153600     ]
+[15:05:49] LPR 11 Recv: 127.0.0.1
+[15:05:49] LPR 12 Recv: 127.0.0.1
+[15:05:50] LPR 12 Recv: LPR_N
+[15:05:50] LPR 11 Recv: LPR_N
+[15:05:51] LPR 12 Recv: LPR_N
+[15:05:51] LPR 11 Recv: LPR_N
+[15:06:07] ApprVer    : [A1]
+[15:06:07] SvcType    : [TF]
+[15:06:07] TrdType    : [F1]
+[15:06:07] SndType    : [R]
+[15:06:07] TermID     : [0710000001]
+[15:06:07] TrdDate    : [20170614150627]
+[15:06:07] TrdNo      : [0000000001]
+[15:06:07] MchData    : [                    ]
+[15:06:07] AnsCode    : [0000]
+[15:06:07] TradeNo    : [            ]
+[15:06:07] AuNo       : [92931638    ]
+[15:06:07] TradeDate  : [20170614150627]
+[15:06:07] Message    : [테스트 버전 입니다.             ]
+[15:06:07] Bin        : [518831                                  ]
+[15:06:07] CardKind   : [삼성카드    ]
+[15:06:07] OrdCd      : [1104]
+[15:06:07] OrdNm      : [삼성카드    ]
+[15:06:07] InpCd      : [1104]
+[15:06:07] InpNm      : [삼성카드]
+[15:06:07] MchNo      : [65965927        ]
+[15:06:07] PtCardCd   : [  ]
+[15:06:07] PtCardNm   : [        ]
+[15:06:07] JukPoint   : [         ]
+[15:06:07] GayPoint   : [         ]
+[15:06:07] NujPoint   : [         ]
+[15:06:07] SaleRate   : [         ]
+[15:06:07] PtAuNo     : [                    ]
+[15:06:07] PtMchNo    : [               ]
+[15:06:07] PtAnswerCd : [    ]
+[15:06:07] PtMessage  : [                                                ]
+[15:06:07] DDCYN      : [1]
+[15:06:07] EDIYN      : [0]
+[15:06:07] CardType   : [1]
+[15:06:07] TrdKey     : [000001134701]
+[15:06:07] KeyRenewal : [  ]
+[15:06:07] 
+[15:06:07] Ping 시간 체크1-2961117
+[15:06:07] Ping 시간 체크2-2961132
+[15:06:07] 출구차단기 Open
+[15:06:07] LPR 11 Recv: LPR_NLPR_NLPR_N
+[15:06:07] LPR 12 Recv: LPR_NLPR_NLPR_N
+[15:06:12] LPR 11 Recv: LPR_N
+[15:06:12] LPR 12 Recv: LPR_N
+[15:06:18] LPR 12 Recv: LPR_N
+[15:06:18] LPR 11 Recv: LPR_N
+[15:06:23] LPR 11 Recv: LPR_N
+[15:06:23] LPR 12 Recv: LPR_N
+[15:06:28] LPR 11 Recv: LPR_N
+[15:06:28] LPR 12 Recv: LPR_N
+[15:06:33] LPR 11 Recv: LPR_N
+[15:06:33] LPR 12 Recv: LPR_N
+[15:06:39] LPR 12 Recv: LPR_N
+[15:06:39] LPR 11 Recv: LPR_N
+[15:06:44] LPR 11 Recv: LPR_N
+[15:06:44] LPR 12 Recv: LPR_N
+[15:06:50] LPR 11 Recv: LPR_N
+[15:06:50] LPR 12 Recv: LPR_N
+[15:06:55] LPR 11 Recv: LPR_N
+[15:06:55] LPR 12 Recv: LPR_N
+[15:07:00] LPR 12 Recv: LPR_N
+[15:07:00] LPR 11 Recv: LPR_N
+[15:07:05] LPR 12 Recv: LPR_N
+[15:07:05] LPR 11 Recv: LPR_N
+[15:07:11] LPR 11 Recv: LPR_N
+[15:07:11] LPR 12 Recv: LPR_N
+[15:07:16] LPR 11 Recv: LPR_N
+[15:07:16] LPR 12 Recv: LPR_N
+[15:07:21] LPR 11 Recv: LPR_N
+[15:07:21] LPR 12 Recv: LPR_N
+[15:07:27] LPR 12 Recv: LPR_N
+[15:07:27] LPR 11 Recv: LPR_N
+[15:07:32] LPR 11 Recv: LPR_N
+[15:07:32] LPR 12 Recv: LPR_N
+[15:07:37] LPR 11 Recv: LPR_N
+[15:07:37] LPR 12 Recv: LPR_N
+[15:07:43] LPR 11 Recv: LPR_N
+[15:07:43] LPR 12 Recv: LPR_N
+[15:07:48] LPR 11 Recv: LPR_N
+[15:07:48] LPR 12 Recv: LPR_N
+[15:07:53] LPR 11 Recv: LPR_N
+[15:07:53] LPR 12 Recv: LPR_N
+[15:07:59] LPR 11 Recv: LPR_N
+[15:07:59] LPR 12 Recv: LPR_N
+[15:08:04] LPR 11 Recv: LPR_N
+[15:08:04] LPR 12 Recv: LPR_N
+[15:08:09] LPR 12 Recv: LPR_N
+[15:08:09] LPR 11 Recv: LPR_N
+[15:08:15] LPR 12 Recv: LPR_N
+[15:08:15] LPR 11 Recv: LPR_N
+[15:08:20] LPR 12 Recv: LPR_N
+[15:08:20] LPR 11 Recv: LPR_N
+[15:08:25] LPR 11 Recv: LPR_N
+[15:08:25] LPR 12 Recv: LPR_N
+[15:08:30] LPR 12 Recv: LPR_N
+[15:08:30] LPR 11 Recv: LPR_N
+[15:08:36] LPR 12 Recv: LPR_N
+[15:08:36] LPR 11 Recv: LPR_N
+[15:08:41] LPR 12 Recv: LPR_N
+[15:08:41] LPR 11 Recv: LPR_N
+[15:08:47] LPR 12 Recv: LPR_N
+[15:08:47] LPR 11 Recv: LPR_N
+[15:08:52] LPR 11 Recv: LPR_N
+[15:08:52] LPR 12 Recv: LPR_N
+[15:08:57] LPR 11 Recv: LPR_N
+[15:08:57] LPR 12 Recv: LPR_N
+[15:09:02] LPR 11 Recv: LPR_N
+[15:09:02] LPR 12 Recv: LPR_N
+[15:09:08] LPR 12 Recv: LPR_N
+[15:09:08] LPR 11 Recv: LPR_N
+[15:09:13] LPR 11 Recv: LPR_N
+[15:09:13] LPR 12 Recv: LPR_N
+[15:09:18] LPR 12 Recv: LPR_N
+[15:09:18] LPR 11 Recv: LPR_N
+[15:09:24] LPR 12 Recv: LPR_N
+[15:09:24] LPR 11 Recv: LPR_N
+[15:09:29] LPR 12 Recv: LPR_N
+[15:09:29] LPR 11 Recv: LPR_N
+[15:09:34] LPR 12 Recv: LPR_N
+[15:09:34] LPR 11 Recv: LPR_N
+[15:09:40] LPR 12 Recv: LPR_N
+[15:09:40] LPR 11 Recv: LPR_N
+[15:09:45] LPR 11 Recv: LPR_N
+[15:09:45] LPR 12 Recv: LPR_N
+[15:09:50] LPR 11 Recv: LPR_N
+[15:09:50] LPR 12 Recv: LPR_N
+[15:09:56] LPR 11 Recv: LPR_N
+[15:09:56] LPR 12 Recv: LPR_N
+[15:10:01] LPR 11 Recv: LPR_N
+[15:10:01] LPR 12 Recv: LPR_N
+[15:10:07] LPR 12 Recv: LPR_N
+[15:10:07] LPR 11 Recv: LPR_N
+[15:10:12] LPR 12 Recv: LPR_N
+[15:10:12] LPR 11 Recv: LPR_N
+[15:10:17] LPR 11 Recv: LPR_N
+[15:10:17] LPR 12 Recv: LPR_N
+[15:10:22] LPR 12 Recv: LPR_N
+[15:10:22] LPR 11 Recv: LPR_N
+[15:10:27] LPR 12 Recv: LPR_N
+[15:10:27] LPR 11 Recv: LPR_N
+[15:10:33] LPR 11 Recv: LPR_N
+[15:10:33] LPR 12 Recv: LPR_N
+[15:10:38] LPR 12 Recv: LPR_N
+[15:10:38] LPR 11 Recv: LPR_N
+[15:10:44] LPR 12 Recv: LPR_N
+[15:10:44] LPR 11 Recv: LPR_N
+[15:10:49] LPR 11 Recv: LPR_N
+[15:10:49] LPR 12 Recv: LPR_N
+[15:10:54] LPR 12 Recv: LPR_N
+[15:10:54] LPR 11 Recv: LPR_N
+[15:10:59] LPR 12 Recv: LPR_N
+[15:10:59] LPR 11 Recv: LPR_N
+[15:11:05] LPR 12 Recv: LPR_N
+[15:11:05] LPR 11 Recv: LPR_N
+[15:11:10] LPR 12 Recv: LPR_N
+[15:11:10] LPR 11 Recv: LPR_N
+[15:11:15] LPR 11 Recv: LPR_N
+[15:11:15] LPR 12 Recv: LPR_N
+[15:11:21] LPR 12 Recv: LPR_N
+[15:11:21] LPR 11 Recv: LPR_N
+[15:11:26] LPR 11 Recv: LPR_N
+[15:11:26] LPR 12 Recv: LPR_N
+[15:11:31] LPR 12 Recv: LPR_N
+[15:11:31] LPR 11 Recv: LPR_N
+[15:11:36] LPR 11 Recv: LPR_N
+[15:11:36] LPR 12 Recv: LPR_N
+[15:11:42] LPR 12 Recv: LPR_N
+[15:11:42] LPR 11 Recv: LPR_N
+[15:11:47] LPR 11 Recv: LPR_N
+[15:11:47] LPR 12 Recv: LPR_N
+[15:11:53] LPR 11 Recv: LPR_N
+[15:11:53] LPR 12 Recv: LPR_N
+[15:11:58] LPR 12 Recv: LPR_N
+[15:11:58] LPR 11 Recv: LPR_N
+[15:12:03] LPR 11 Recv: LPR_N
+[15:12:03] LPR 12 Recv: LPR_N
+[15:12:08] LPR 11 Recv: LPR_N
+[15:12:08] LPR 12 Recv: LPR_N
+[15:12:14] LPR 12 Recv: LPR_N
+[15:12:14] LPR 11 Recv: LPR_N
+[15:12:19] LPR 12 Recv: LPR_N
+[15:12:19] LPR 11 Recv: LPR_N
+[15:12:24] LPR 12 Recv: LPR_N
+[15:12:24] LPR 11 Recv: LPR_N
+[15:12:30] LPR 12 Recv: LPR_N
+[15:12:30] LPR 11 Recv: LPR_N
+[15:12:35] LPR 11 Recv: LPR_N
+[15:12:35] LPR 12 Recv: LPR_N
+[15:12:40] LPR 12 Recv: LPR_N
+[15:12:40] LPR 11 Recv: LPR_N
+[15:12:46] LPR 11 Recv: LPR_N
+[15:12:46] LPR 12 Recv: LPR_N
+[15:12:51] LPR 12 Recv: LPR_N
+[15:12:51] LPR 11 Recv: LPR_N
+[15:12:56] LPR 12 Recv: LPR_N
+[15:12:56] LPR 11 Recv: LPR_N
+[15:13:02] LPR 12 Recv: LPR_N
+[15:13:02] LPR 11 Recv: LPR_N
+[15:13:07] LPR 11 Recv: LPR_N
+[15:13:07] LPR 12 Recv: LPR_N
+[15:13:12] LPR 11 Recv: LPR_N
+[15:13:12] LPR 12 Recv: LPR_N
+[15:13:18] LPR 12 Recv: LPR_N
+[15:13:18] LPR 11 Recv: LPR_N
+[15:13:23] LPR 12 Recv: LPR_N
+[15:13:23] LPR 11 Recv: LPR_N
+[15:13:28] LPR 11 Recv: LPR_N
+[15:13:28] LPR 12 Recv: LPR_N
+[15:13:33] LPR 12 Recv: LPR_N
+[15:13:33] LPR 11 Recv: LPR_N
+[15:13:39] LPR 12 Recv: LPR_N
+[15:13:39] LPR 11 Recv: LPR_N
+[15:13:44] LPR 11 Recv: LPR_N
+[15:13:44] LPR 12 Recv: LPR_N
+[15:13:50] LPR 11 Recv: LPR_N
+[15:13:50] LPR 12 Recv: LPR_N
+[15:13:55] LPR 11 Recv: LPR_N
+[15:13:55] LPR 12 Recv: LPR_N
+[15:14:00] LPR 12 Recv: LPR_N
+[15:14:00] LPR 11 Recv: LPR_N
+[15:14:05] LPR 12 Recv: LPR_N
+[15:14:05] LPR 11 Recv: LPR_N
+[15:14:11] LPR 12 Recv: LPR_N
+[15:14:11] LPR 11 Recv: LPR_N
+[15:14:16] LPR 11 Recv: LPR_N
+[15:14:16] LPR 12 Recv: LPR_N
+[15:14:21] LPR 12 Recv: LPR_N
+[15:14:21] LPR 11 Recv: LPR_N
+[15:14:27] LPR 12 Recv: LPR_N
+[15:14:27] LPR 11 Recv: LPR_N
+[15:14:32] LPR 11 Recv: LPR_N
+[15:14:32] LPR 12 Recv: LPR_N
+[15:14:37] LPR 11 Recv: LPR_N
+[15:14:37] LPR 12 Recv: LPR_N
+[15:14:43] LPR 12 Recv: LPR_N
+[15:14:43] LPR 11 Recv: LPR_N
+[15:14:48] LPR 11 Recv: LPR_N
+[15:14:48] LPR 12 Recv: LPR_N
+[15:14:53] LPR 11 Recv: LPR_N
+[15:14:53] LPR 12 Recv: LPR_N
+[15:14:59] LPR 11 Recv: LPR_N
+[15:14:59] LPR 12 Recv: LPR_N
+[15:15:04] LPR 11 Recv: LPR_N
+[15:15:04] LPR 12 Recv: LPR_N
+[15:15:09] LPR 11 Recv: LPR_N
+[15:15:09] LPR 12 Recv: LPR_N
+[15:15:15] LPR 11 Recv: LPR_N
+[15:15:15] LPR 12 Recv: LPR_N
+[15:15:20] LPR 12 Recv: LPR_N
+[15:15:20] LPR 11 Recv: LPR_N
+[15:15:25] LPR 12 Recv: LPR_N
+[15:15:25] LPR 11 Recv: LPR_N
+[15:15:30] LPR 12 Recv: LPR_N
+[15:15:30] LPR 11 Recv: LPR_N
+[15:15:36] LPR 11 Recv: LPR_N
+[15:15:36] LPR 12 Recv: LPR_N
+[15:15:41] LPR 11 Recv: LPR_N
+[15:15:41] LPR 12 Recv: LPR_N
+[15:15:47] LPR 11 Recv: LPR_N
+[15:15:47] LPR 12 Recv: LPR_N
+[15:15:52] LPR 12 Recv: LPR_N
+[15:15:52] LPR 11 Recv: LPR_N
+[15:15:57] LPR 11 Recv: LPR_N
+[15:15:57] LPR 12 Recv: LPR_N
+[15:16:02] LPR 11 Recv: LPR_N
+[15:16:02] LPR 12 Recv: LPR_N
+[15:16:07] LPR 12 Recv: LPR_N
+[15:16:07] LPR 11 Recv: LPR_N
+[15:16:13] LPR 11 Recv: LPR_N
+[15:16:13] LPR 12 Recv: LPR_N
+[15:16:18] LPR 11 Recv: LPR_N
+[15:16:18] LPR 12 Recv: LPR_N
+[15:16:24] LPR 12 Recv: LPR_N
+[15:16:24] LPR 11 Recv: LPR_N
+[15:16:29] LPR 12 Recv: LPR_N
+[15:16:29] LPR 11 Recv: LPR_N
+[15:16:34] LPR 12 Recv: LPR_N
+[15:16:34] LPR 11 Recv: LPR_N
+[15:16:39] LPR 11 Recv: LPR_N
+[15:16:39] LPR 12 Recv: LPR_N
+[15:16:45] LPR 12 Recv: LPR_N
+[15:16:45] LPR 11 Recv: LPR_N
+[15:16:50] LPR 12 Recv: LPR_N
+[15:16:50] LPR 11 Recv: LPR_N
+[15:16:56] LPR 12 Recv: LPR_N
+[15:16:56] LPR 11 Recv: LPR_N
+[15:17:01] LPR 11 Recv: LPR_N
+[15:17:01] LPR 12 Recv: LPR_N
+[15:17:06] LPR 12 Recv: LPR_N
+[15:17:06] LPR 11 Recv: LPR_N
+[15:17:12] LPR 11 Recv: LPR_N
+[15:17:12] LPR 12 Recv: LPR_N
+[15:17:17] LPR 12 Recv: LPR_N
+[15:17:17] LPR 11 Recv: LPR_N
+[15:17:22] LPR 12 Recv: LPR_N
+[15:17:22] LPR 11 Recv: LPR_N
+[15:17:27] LPR 11 Recv: LPR_N
+[15:17:27] LPR 12 Recv: LPR_N
+[15:17:33] LPR 12 Recv: LPR_N
+[15:17:33] LPR 11 Recv: LPR_N
+[15:17:38] LPR 11 Recv: LPR_N
+[15:17:38] LPR 12 Recv: LPR_N
+[15:17:44] LPR 12 Recv: LPR_N
+[15:17:44] LPR 11 Recv: LPR_N
+[15:17:49] LPR 11 Recv: LPR_N
+[15:17:49] LPR 12 Recv: LPR_N
+[15:17:54] LPR 12 Recv: LPR_N
+[15:17:54] LPR 11 Recv: LPR_N
+[15:17:59] LPR 12 Recv: LPR_N
+[15:17:59] LPR 11 Recv: LPR_N
+[15:18:04] LPR 11 Recv: LPR_N
+[15:18:04] LPR 12 Recv: LPR_N
+[15:18:10] LPR 12 Recv: LPR_N
+[15:18:10] LPR 11 Recv: LPR_N
+[15:18:15] LPR 12 Recv: LPR_N
+[15:18:15] LPR 11 Recv: LPR_N
+[15:18:21] LPR 11 Recv: LPR_N
+[15:18:21] LPR 12 Recv: LPR_N
+[15:18:26] LPR 12 Recv: LPR_N
+[15:18:26] LPR 11 Recv: LPR_N
+[15:18:31] LPR 12 Recv: LPR_N
+[15:18:31] LPR 11 Recv: LPR_N
+[15:18:36] LPR 11 Recv: LPR_N
+[15:18:36] LPR 12 Recv: LPR_N
+[15:18:42] LPR 11 Recv: LPR_N
+[15:18:42] LPR 12 Recv: LPR_N
+[15:18:47] LPR 11 Recv: LPR_N
+[15:18:47] LPR 12 Recv: LPR_N
+[15:18:53] LPR 11 Recv: LPR_N
+[15:18:53] LPR 12 Recv: LPR_N
+[15:18:58] LPR 11 Recv: LPR_N
+[15:18:58] LPR 12 Recv: LPR_N
+[15:19:03] LPR 11 Recv: LPR_N
+[15:19:03] LPR 12 Recv: LPR_N
+[15:19:08] LPR 11 Recv: LPR_N
+[15:19:08] LPR 12 Recv: LPR_N
+[15:19:13] LPR 12 Recv: LPR_N
+[15:19:13] LPR 11 Recv: LPR_N
+[15:19:19] LPR 11 Recv: LPR_N
+[15:19:19] LPR 12 Recv: LPR_N
+[15:19:24] LPR 12 Recv: LPR_N
+[15:19:24] LPR 11 Recv: LPR_N
+[15:19:30] LPR 12 Recv: LPR_N
+[15:19:30] LPR 11 Recv: LPR_N
+[15:19:35] LPR 12 Recv: LPR_N
+[15:19:35] LPR 11 Recv: LPR_N
+[15:19:40] LPR 12 Recv: LPR_N
+[15:19:40] LPR 11 Recv: LPR_N
+[15:19:46] LPR 12 Recv: LPR_N
+[15:19:46] LPR 11 Recv: LPR_N
+[15:19:51] LPR 11 Recv: LPR_N
+[15:19:51] LPR 12 Recv: LPR_N
+[15:19:56] LPR 11 Recv: LPR_N
+[15:19:56] LPR 12 Recv: LPR_N
+[15:20:01] LPR 11 Recv: LPR_N
+[15:20:01] LPR 12 Recv: LPR_N
+[15:20:07] LPR 11 Recv: LPR_N
+[15:20:07] LPR 12 Recv: LPR_N
+[15:20:12] LPR 11 Recv: LPR_N
+[15:20:12] LPR 12 Recv: LPR_N
+[15:20:18] LPR 12 Recv: LPR_N
+[15:20:18] LPR 11 Recv: LPR_N
+[15:20:23] LPR 12 Recv: LPR_N
+[15:20:23] LPR 11 Recv: LPR_N
+[15:20:28] LPR 12 Recv: LPR_N
+[15:20:28] LPR 11 Recv: LPR_N
+[15:20:33] LPR 12 Recv: LPR_N
+[15:20:33] LPR 11 Recv: LPR_N
+[15:20:39] LPR 12 Recv: LPR_N
+[15:20:39] LPR 11 Recv: LPR_N
+[15:20:44] LPR 12 Recv: LPR_N
+[15:20:44] LPR 11 Recv: LPR_N
+[15:20:50] LPR 12 Recv: LPR_N
+[15:20:50] LPR 11 Recv: LPR_N
+[15:20:55] LPR 11 Recv: LPR_N
+[15:20:55] LPR 12 Recv: LPR_N
+[15:21:00] LPR 11 Recv: LPR_N
+[15:21:00] LPR 12 Recv: LPR_N
+[15:21:05] LPR 11 Recv: LPR_N
+[15:21:05] LPR 12 Recv: LPR_N
+[15:21:10] LPR 12 Recv: LPR_N
+[15:21:10] LPR 11 Recv: LPR_N
+[15:21:16] LPR 11 Recv: LPR_N
+[15:21:16] LPR 12 Recv: LPR_N
+[15:21:21] LPR 11 Recv: LPR_N
+[15:21:21] LPR 12 Recv: LPR_N
+[15:21:27] LPR 11 Recv: LPR_N
+[15:21:27] LPR 12 Recv: LPR_N
+[15:21:32] LPR 12 Recv: LPR_N
+[15:21:32] LPR 11 Recv: LPR_N
+[15:21:37] LPR 12 Recv: LPR_N
+[15:21:37] LPR 11 Recv: LPR_N
+[15:21:42] LPR 11 Recv: LPR_N
+[15:21:42] LPR 12 Recv: LPR_N
+[15:21:48] LPR 11 Recv: LPR_N
+[15:21:48] LPR 12 Recv: LPR_N
+[15:21:53] LPR 12 Recv: LPR_N
+[15:21:53] LPR 11 Recv: LPR_N
+[15:21:58] LPR 12 Recv: LPR_N
+[15:21:58] LPR 11 Recv: LPR_N
+[15:22:04] LPR 12 Recv: LPR_N
+[15:22:04] LPR 11 Recv: LPR_N
+[15:22:09] LPR 12 Recv: LPR_N
+[15:22:09] LPR 11 Recv: LPR_N
+[15:22:15] LPR 11 Recv: LPR_N
+[15:22:15] LPR 12 Recv: LPR_N
+[15:22:20] LPR 11 Recv: LPR_N
+[15:22:20] LPR 12 Recv: LPR_N
+[15:22:25] LPR 12 Recv: LPR_N
+[15:22:25] LPR 11 Recv: LPR_N
+[15:22:30] LPR 12 Recv: LPR_N
+[15:22:30] LPR 11 Recv: LPR_N
+[15:22:36] LPR 12 Recv: LPR_N
+[15:22:36] LPR 11 Recv: LPR_N
+[15:22:41] LPR 11 Recv: LPR_N
+[15:22:41] LPR 12 Recv: LPR_N
+[15:22:47] LPR 12 Recv: LPR_N
+[15:22:47] LPR 11 Recv: LPR_N
+[15:22:52] LPR 11 Recv: LPR_N
+[15:22:52] LPR 12 Recv: LPR_N
+[15:22:57] LPR 12 Recv: LPR_N
+[15:22:57] LPR 11 Recv: LPR_N
+[15:23:02] LPR 11 Recv: LPR_N
+[15:23:02] LPR 12 Recv: LPR_N
+[15:23:07] LPR 11 Recv: LPR_N
+[15:23:07] LPR 12 Recv: LPR_N
+[15:23:13] LPR 11 Recv: LPR_N
+[15:23:13] LPR 12 Recv: LPR_N
+[15:23:18] LPR 11 Recv: LPR_N
+[15:23:18] LPR 12 Recv: LPR_N
+[15:23:24] LPR 11 Recv: LPR_N
+[15:23:24] LPR 12 Recv: LPR_N
+[15:23:29] LPR 11 Recv: LPR_N
+[15:23:29] LPR 12 Recv: LPR_N
+[15:23:34] LPR 12 Recv: LPR_N
+[15:23:34] LPR 11 Recv: LPR_N
+[15:23:39] LPR 11 Recv: LPR_N
+[15:23:39] LPR 12 Recv: LPR_N
+[15:23:45] LPR 11 Recv: LPR_N
+[15:23:45] LPR 12 Recv: LPR_N
+[15:23:50] LPR 11 Recv: LPR_N
+[15:23:50] LPR 12 Recv: LPR_N
+[15:23:55] LPR 12 Recv: LPR_N
+[15:23:55] LPR 11 Recv: LPR_N
+[15:24:01] LPR 12 Recv: LPR_N
+[15:24:01] LPR 11 Recv: LPR_N
+[15:24:06] LPR 11 Recv: LPR_N
+[15:24:06] LPR 12 Recv: LPR_N
+[15:24:12] LPR 11 Recv: LPR_N
+[15:24:12] LPR 12 Recv: LPR_N
+[15:24:16] LPR 12 Recv: LPR_N
+[15:24:16] LPR 11 Recv: LPR_N
+[15:24:22] LPR 12 Recv: LPR_N
+[15:24:22] LPR 11 Recv: LPR_N
+[15:24:27] LPR 11 Recv: LPR_N
+[15:24:27] LPR 12 Recv: LPR_N
+[15:24:33] LPR 12 Recv: LPR_N
+[15:24:33] LPR 11 Recv: LPR_N
+[15:24:38] LPR 12 Recv: LPR_N
+[15:24:38] LPR 11 Recv: LPR_N
+[15:24:43] LPR 12 Recv: LPR_N
+[15:24:43] LPR 11 Recv: LPR_N
+[15:24:48] LPR 12 Recv: LPR_N
+[15:24:48] LPR 11 Recv: LPR_N
+[15:24:54] LPR 12 Recv: LPR_N
+[15:24:54] LPR 11 Recv: LPR_N
+[15:24:59] LPR 12 Recv: LPR_N
+[15:24:59] LPR 11 Recv: LPR_N
+[15:24:59] Program Close
+[15:44:45] Program Start!
+[15:44:53] 근무시작: 근무자
+[15:44:54] Ping 시간 체크1-5289541
+[15:44:54] Ping 시간 체크2-5289635
+[15:44:54] Ping 시간 체크1-5289681
+[15:44:54] Ping 시간 체크2-5289681
+[15:44:54] 설치된 입구전광판이 없음!
+[15:44:55] 설치된 출구전광판이 없음!
+[15:44:55] 30분  101
+[15:44:55] 1시간  102
+[15:44:55] 2시간  103
+[15:44:55] 무료  104
+[15:44:55] 2시간50%  105
+[15:44:55] 30%  106
+[15:45:39] Program Start!
+[15:45:40] 근무시작: 근무자
+[15:45:40] Ping 시간 체크1-5336451
+[15:45:40] Ping 시간 체크2-5336451
+[15:45:40] Ping 시간 체크1-5336451
+[15:45:40] Ping 시간 체크2-5336451
+[15:45:40] 설치된 입구전광판이 없음!
+[15:45:40] 설치된 출구전광판이 없음!
+[15:45:40] 30분  101
+[15:45:40] 1시간  102
+[15:45:40] 2시간  103
+[15:45:40] 무료  104
+[15:45:40] 2시간50%  105
+[15:45:40] 30%  106
+[15:45:41] ApprVer    : [A1]
+[15:45:41] SvcType    : [DN]
+[15:45:41] TrdType    : [T1]
+[15:45:41] SndType    : [R]
+[15:45:41] TermID     : [0710000001]
+[15:45:41] TrdDate    : [20170614154605]
+[15:45:41] TrdNo      : [0000000001]
+[15:45:41] MchData    : [                    ]
+[15:45:41] AnsCode    : [0000]
+[15:45:41] Serial     : [1000000007          ]
+[15:45:41] Message    : [테스트 버전 입니다.                     ]
+[15:45:41] SftVer     : [07201]
+[15:45:41] ShpNm      : [한국신용카드결제(주)                    ]
+[15:45:41] BsnNo      : [2148631917]
+[15:45:41] PreNm      : [소재광              ]
+[15:45:41] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[15:45:41] ShpTel     : [0234153600     ]
+[15:45:41] LPR 12 Recv: 127.0.0.1
+[15:45:41] LPR 11 Recv: 127.0.0.1
+[15:45:42] LPR 11 Recv: LPR_N
+[15:45:42] LPR 12 Recv: LPR_N
+[15:45:47] LPR 12 Recv: LPR_N
+[15:45:47] LPR 11 Recv: LPR_N
+[15:45:51] Program Close
+[15:45:57] Program Start!
+[15:45:59] 근무시작: 근무자
+[15:45:59] Ping 시간 체크1-5355607
+[15:45:59] Ping 시간 체크2-5355607
+[15:45:59] Ping 시간 체크1-5355623
+[15:45:59] Ping 시간 체크2-5355623
+[15:45:59] 설치된 입구전광판이 없음!
+[15:45:59] 설치된 출구전광판이 없음!
+[15:45:59] 30분  101
+[15:45:59] 1시간  102
+[15:45:59] 2시간  103
+[15:45:59] 무료  104
+[15:45:59] 2시간50%  105
+[15:45:59] 30%  106
+[15:46:00] ApprVer    : [A1]
+[15:46:00] SvcType    : [DN]
+[15:46:00] TrdType    : [T1]
+[15:46:00] SndType    : [R]
+[15:46:00] TermID     : [0710000001]
+[15:46:00] TrdDate    : [20170614154624]
+[15:46:00] TrdNo      : [0000000001]
+[15:46:00] MchData    : [                    ]
+[15:46:00] AnsCode    : [0000]
+[15:46:00] Serial     : [1000000007          ]
+[15:46:00] Message    : [테스트 버전 입니다.                     ]
+[15:46:00] SftVer     : [07201]
+[15:46:00] ShpNm      : [한국신용카드결제(주)                    ]
+[15:46:00] BsnNo      : [2148631917]
+[15:46:00] PreNm      : [소재광              ]
+[15:46:00] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[15:46:00] ShpTel     : [0234153600     ]
+[15:46:00] LPR 11 Recv: 127.0.0.1
+[15:46:00] LPR 12 Recv: 127.0.0.1
+[15:46:01] LPR 12 Recv: LPR_N
+[15:46:02] LPR 12 Recv: LPR_N
+[15:46:02] LPR 11 Recv: LPR_N
+[15:46:07] Program Close
+[15:46:42] Program Start!
+[15:46:43] 근무시작: 근무자
+[15:46:44] Ping 시간 체크1-5400848
+[15:46:44] Ping 시간 체크2-5400848
+[15:46:44] Ping 시간 체크1-5400957
+[15:46:44] Ping 시간 체크2-5400957
+[15:46:44] 설치된 입구전광판이 없음!
+[15:46:44] 설치된 출구전광판이 없음!
+[15:46:44] 30분  101
+[15:46:44] 1시간  102
+[15:46:44] 2시간  103
+[15:46:44] 무료  104
+[15:46:44] 2시간50%  105
+[15:46:44] 30%  106
+[15:47:13] Program Start!
+[15:47:14] 근무시작: 근무자
+[15:47:15] Ping 시간 체크1-5432594
+[15:47:15] Ping 시간 체크2-5432594
+[15:47:15] Ping 시간 체크1-5432625
+[15:47:15] Ping 시간 체크2-5432625
+[15:47:15] 설치된 입구전광판이 없음!
+[15:47:15] 설치된 출구전광판이 없음!
+[15:47:15] 30분  101
+[15:47:15] 1시간  102
+[15:47:15] 2시간  103
+[15:47:15] 무료  104
+[15:47:15] 2시간50%  105
+[15:47:15] 30%  106
+[15:47:15] ApprVer    : [A1]
+[15:47:15] SvcType    : [DN]
+[15:47:15] TrdType    : [T1]
+[15:47:15] SndType    : [R]
+[15:47:15] TermID     : [0710000001]
+[15:47:15] TrdDate    : [20170614154741]
+[15:47:15] TrdNo      : [0000000001]
+[15:47:15] MchData    : [                    ]
+[15:47:15] AnsCode    : [0000]
+[15:47:15] Serial     : [1000000007          ]
+[15:47:15] Message    : [테스트 버전 입니다.                     ]
+[15:47:15] SftVer     : [07201]
+[15:47:15] ShpNm      : [한국신용카드결제(주)                    ]
+[15:47:15] BsnNo      : [2148631917]
+[15:47:15] PreNm      : [소재광              ]
+[15:47:15] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[15:47:15] ShpTel     : [0234153600     ]
+[15:47:15] LPR 11 Recv: 127.0.0.1
+[15:47:15] LPR 12 Recv: 127.0.0.1
+[15:47:16] LPR 12 Recv: LPR_N
+[15:47:16] LPR 11 Recv: LPR_N
+[15:47:20] LPR 11 Recv: LPR_N
+[15:47:20] LPR 12 Recv: LPR_N
+[15:47:26] LPR 12 Recv: LPR_N
+[15:47:26] LPR 11 Recv: LPR_N
+[15:47:31] LPR 11 Recv: LPR_N
+[15:47:31] LPR 12 Recv: LPR_N
+[15:47:58] ApprVer    : [A1]
+[15:47:58] SvcType    : [TF]
+[15:47:58] TrdType    : [F1]
+[15:47:58] SndType    : [R]
+[15:47:58] TermID     : [0710000001]
+[15:47:58] TrdDate    : [20170614154822]
+[15:47:58] TrdNo      : [0000000001]
+[15:47:58] MchData    : [                    ]
+[15:47:58] AnsCode    : [0000]
+[15:47:58] TradeNo    : [            ]
+[15:47:58] AuNo       : [21438160    ]
+[15:47:58] TradeDate  : [20170614154822]
+[15:47:58] Message    : [테스트 버전 입니다.             ]
+[15:47:58] Bin        : [518831                                  ]
+[15:47:58] CardKind   : [삼성카드    ]
+[15:47:58] OrdCd      : [1104]
+[15:47:58] OrdNm      : [삼성카드    ]
+[15:47:58] InpCd      : [1104]
+[15:47:58] InpNm      : [삼성카드]
+[15:47:58] MchNo      : [65965927        ]
+[15:47:58] PtCardCd   : [  ]
+[15:47:58] PtCardNm   : [        ]
+[15:47:58] JukPoint   : [         ]
+[15:47:58] GayPoint   : [         ]
+[15:47:58] NujPoint   : [         ]
+[15:47:58] SaleRate   : [         ]
+[15:47:58] PtAuNo     : [                    ]
+[15:47:58] PtMchNo    : [               ]
+[15:47:58] PtAnswerCd : [    ]
+[15:47:58] PtMessage  : [                                                ]
+[15:47:58] DDCYN      : [1]
+[15:47:58] EDIYN      : [0]
+[15:47:58] CardType   : [1]
+[15:47:58] TrdKey     : [000001260433]
+[15:47:58] KeyRenewal : [  ]
+[15:47:58] 
+[15:47:59] Ping 시간 체크1-5476836
+[15:47:59] Ping 시간 체크2-5476836
+[15:47:59] 출구차단기 Open
+[15:47:59] LPR 11 Recv: LPR_NLPR_NLPR_NLPR_NLPR_N
+[15:47:59] LPR Check: , http://127.0.0.1:9080/MSImageLPR_NLPR_NLPR_NLPR_NLPR_N, 3,,,0, NLPR-_N-LP R_:NL:PR
+[15:47:59] File: \\127.0.0.1\MSImageLPR_NLPR_NLPR_NLPR_NLPR_N
+[15:48:05] csInLpr1Read: qryInLpr1Proc: Cannot perform this operation on a closed dataset
+[15:48:05] LPR 12 Recv: LPR_NLPR_NLPR_NLPR_NLPR_NLPR_N
+[15:48:05] LPR Check: ,http://127.0.0.1:9080/MSImageLPR_NLPR_NLPR_NLPR_NLPR_NLPR_N,3,,,0, NLPR-_N-LP R_:NL:PR
+[15:48:05] File: \\127.0.0.1\MSImageLPR_NLPR_NLPR_NLPR_NLPR_NLPR_N
+[15:48:06] csOutLpr1Read: qryOutLpr1Proc: Cannot perform this operation on a closed dataset
+[15:48:06] LPR 11 Recv: LPR_N
+[15:48:08] LPR 12 Recv: LPR_N
+[15:48:08] LPR 11 Recv: LPR_N
+[15:48:10] Program Close
+[15:48:22] Program Start!
+[15:48:23] 근무시작: 근무자
+[15:48:23] Ping 시간 체크1-5502046
+[15:48:23] Ping 시간 체크2-5502061
+[15:48:23] Ping 시간 체크1-5502061
+[15:48:23] Ping 시간 체크2-5502061
+[15:48:23] 설치된 입구전광판이 없음!
+[15:48:23] 설치된 출구전광판이 없음!
+[15:48:23] 30분  101
+[15:48:23] 1시간  102
+[15:48:23] 2시간  103
+[15:48:23] 무료  104
+[15:48:23] 2시간50%  105
+[15:48:23] 30%  106
+[15:48:24] ApprVer    : [A1]
+[15:48:24] SvcType    : [DN]
+[15:48:24] TrdType    : [T1]
+[15:48:24] SndType    : [R]
+[15:48:24] TermID     : [0710000001]
+[15:48:24] TrdDate    : [20170614154850]
+[15:48:24] TrdNo      : [0000000001]
+[15:48:24] MchData    : [                    ]
+[15:48:24] AnsCode    : [0000]
+[15:48:24] Serial     : [1000000007          ]
+[15:48:24] Message    : [테스트 버전 입니다.                     ]
+[15:48:24] SftVer     : [07201]
+[15:48:24] ShpNm      : [한국신용카드결제(주)                    ]
+[15:48:24] BsnNo      : [2148631917]
+[15:48:24] PreNm      : [소재광              ]
+[15:48:24] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[15:48:24] ShpTel     : [0234153600     ]
+[15:48:24] LPR 11 Recv: 127.0.0.1
+[15:48:24] LPR 12 Recv: 127.0.0.1
+[15:48:26] LPR 11 Recv: LPR_N
+[15:48:26] LPR 12 Recv: LPR_N
+[15:48:29] LPR 11 Recv: LPR_N
+[15:48:29] LPR 12 Recv: LPR_N
+[15:48:41] ApprVer    : [A1]
+[15:48:41] SvcType    : [TF]
+[15:48:41] TrdType    : [F1]
+[15:48:41] SndType    : [R]
+[15:48:41] TermID     : [0710000001]
+[15:48:41] TrdDate    : [20170614154906]
+[15:48:41] TrdNo      : [0000000001]
+[15:48:41] MchData    : [                    ]
+[15:48:41] AnsCode    : [0000]
+[15:48:41] TradeNo    : [            ]
+[15:48:41] AuNo       : [09658280    ]
+[15:48:41] TradeDate  : [20170614154906]
+[15:48:41] Message    : [테스트 버전 입니다.             ]
+[15:48:41] Bin        : [518831                                  ]
+[15:48:41] CardKind   : [삼성카드    ]
+[15:48:41] OrdCd      : [1104]
+[15:48:41] OrdNm      : [삼성카드    ]
+[15:48:41] InpCd      : [1104]
+[15:48:41] InpNm      : [삼성카드]
+[15:48:41] MchNo      : [65965927        ]
+[15:48:41] PtCardCd   : [  ]
+[15:48:41] PtCardNm   : [        ]
+[15:48:41] JukPoint   : [         ]
+[15:48:41] GayPoint   : [         ]
+[15:48:41] NujPoint   : [         ]
+[15:48:41] SaleRate   : [         ]
+[15:48:41] PtAuNo     : [                    ]
+[15:48:41] PtMchNo    : [               ]
+[15:48:41] PtAnswerCd : [    ]
+[15:48:41] PtMessage  : [                                                ]
+[15:48:41] DDCYN      : [1]
+[15:48:41] EDIYN      : [0]
+[15:48:41] CardType   : [1]
+[15:48:41] TrdKey     : [000001262625]
+[15:48:41] KeyRenewal : [  ]
+[15:48:41] 
+[15:48:41] Ping 시간 체크1-5519814
+[15:48:41] Ping 시간 체크2-5519814
+[15:48:41] 출구차단기 Open
+[15:48:41] LPR 11 Recv: LPR_NLPR_N
+[15:48:41] LPR 12 Recv: LPR_NLPR_N
+[15:48:45] LPR 11 Recv: LPR_N
+[15:48:45] LPR 12 Recv: LPR_N
+[15:48:50] LPR 12 Recv: LPR_N
+[15:48:50] LPR 11 Recv: LPR_N
+[15:48:52] Program Close
+[15:53:48] Program Start!
+[15:53:49] 근무시작: 근무자
+[15:53:50] Ping 시간 체크1-5828727
+[15:53:50] Ping 시간 체크2-5828727
+[15:53:50] Ping 시간 체크1-5828727
+[15:53:50] Ping 시간 체크2-5828727
+[15:53:50] 설치된 입구전광판이 없음!
+[15:53:50] 설치된 출구전광판이 없음!
+[15:53:50] 30분  101
+[15:53:50] 1시간  102
+[15:53:50] 2시간  103
+[15:53:50] 무료  104
+[15:53:50] 2시간50%  105
+[15:53:50] 30%  106
+[15:54:21] Program Start!
+[15:54:22] 근무시작: 근무자
+[15:54:22] Ping 시간 체크1-5861784
+[15:54:22] Ping 시간 체크2-5861784
+[15:54:22] Ping 시간 체크1-5861784
+[15:54:22] Ping 시간 체크2-5861784
+[15:54:22] 설치된 입구전광판이 없음!
+[15:54:22] 설치된 출구전광판이 없음!
+[15:54:22] 30분  101
+[15:54:22] 1시간  102
+[15:54:22] 2시간  103
+[15:54:22] 무료  104
+[15:54:22] 2시간50%  105
+[15:54:22] 30%  106
+[15:54:23] ApprVer    : [A1]
+[15:54:23] SvcType    : [DN]
+[15:54:23] TrdType    : [T1]
+[15:54:23] SndType    : [R]
+[15:54:23] TermID     : [0710000001]
+[15:54:23] TrdDate    : [20170614155450]
+[15:54:23] TrdNo      : [0000000001]
+[15:54:23] MchData    : [                    ]
+[15:54:23] AnsCode    : [0000]
+[15:54:23] Serial     : [1000000007          ]
+[15:54:23] Message    : [테스트 버전 입니다.                     ]
+[15:54:23] SftVer     : [07201]
+[15:54:23] ShpNm      : [한국신용카드결제(주)                    ]
+[15:54:23] BsnNo      : [2148631917]
+[15:54:23] PreNm      : [소재광              ]
+[15:54:23] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[15:54:23] ShpTel     : [0234153600     ]
+[15:54:23] LPR 11 Recv: 127.0.0.1
+[15:54:23] LPR 12 Recv: 127.0.0.1
+[15:54:24] LPR 11 Recv: LPR_N
+[15:54:24] LPR 12 Recv: LPR_N
+[15:54:29] LPR 11 Recv: LPR_N
+[15:54:29] LPR 12 Recv: LPR_N
+[15:55:01] Program Start!
+[15:55:04] 근무시작: 근무자
+[15:55:04] Ping 시간 체크1-5904403
+[15:55:04] Ping 시간 체크2-5904403
+[15:55:04] Ping 시간 체크1-5904419
+[15:55:04] Ping 시간 체크2-5904419
+[15:55:04] 설치된 입구전광판이 없음!
+[15:55:04] 설치된 출구전광판이 없음!
+[15:55:04] 30분  101
+[15:55:04] 1시간  102
+[15:55:04] 2시간  103
+[15:55:04] 무료  104
+[15:55:04] 2시간50%  105
+[15:55:04] 30%  106
+[15:55:05] ApprVer    : [A1]
+[15:55:05] SvcType    : [DN]
+[15:55:05] TrdType    : [T1]
+[15:55:05] SndType    : [R]
+[15:55:05] TermID     : [0710000001]
+[15:55:05] TrdDate    : [20170614155533]
+[15:55:05] TrdNo      : [0000000001]
+[15:55:05] MchData    : [                    ]
+[15:55:05] AnsCode    : [0000]
+[15:55:05] Serial     : [1000000007          ]
+[15:55:05] Message    : [테스트 버전 입니다.                     ]
+[15:55:05] SftVer     : [07201]
+[15:55:05] ShpNm      : [한국신용카드결제(주)                    ]
+[15:55:05] BsnNo      : [2148631917]
+[15:55:05] PreNm      : [소재광              ]
+[15:55:05] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[15:55:05] ShpTel     : [0234153600     ]
+[15:55:05] LPR 11 Recv: 127.0.0.1
+[15:55:05] LPR 12 Recv: 127.0.0.1
+[15:55:06] LPR 12 Recv: LPR_N
+[15:55:06] LPR 11 Recv: LPR_N
+[15:55:47] Program Start!
+[15:55:48] 근무시작: 근무자
+[15:55:48] Ping 시간 체크1-5949519
+[15:55:48] Ping 시간 체크2-5949519
+[15:55:48] Ping 시간 체크1-5949550
+[15:55:48] Ping 시간 체크2-5949550
+[15:55:48] 설치된 입구전광판이 없음!
+[15:55:48] 설치된 출구전광판이 없음!
+[15:55:48] 30분  101
+[15:55:48] 1시간  102
+[15:55:48] 2시간  103
+[15:55:48] 무료  104
+[15:55:48] 2시간50%  105
+[15:55:48] 30%  106
+[15:55:49] ApprVer    : [A1]
+[15:55:49] SvcType    : [DN]
+[15:55:49] TrdType    : [T1]
+[15:55:49] SndType    : [R]
+[15:55:49] TermID     : [0710000001]
+[15:55:49] TrdDate    : [20170614155618]
+[15:55:49] TrdNo      : [0000000001]
+[15:55:49] MchData    : [                    ]
+[15:55:49] AnsCode    : [0000]
+[15:55:49] Serial     : [1000000007          ]
+[15:55:49] Message    : [테스트 버전 입니다.                     ]
+[15:55:49] SftVer     : [07201]
+[15:55:49] ShpNm      : [한국신용카드결제(주)                    ]
+[15:55:49] BsnNo      : [2148631917]
+[15:55:49] PreNm      : [소재광              ]
+[15:55:49] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[15:55:49] ShpTel     : [0234153600     ]
+[15:55:49] LPR 11 Recv: 127.0.0.1
+[15:55:49] LPR 12 Recv: 127.0.0.1
+[15:55:51] LPR 11 Recv: LPR_N
+[15:55:51] LPR 12 Recv: LPR_N
+[15:55:55] LPR 11 Recv: LPR_N
+[15:55:55] LPR 12 Recv: LPR_N
+[15:55:58] LPR 12 Recv: LPR_N
+[15:55:58] LPR 11 Recv: LPR_N
+[15:56:27] Program Start!
+[15:56:28] 근무시작: 근무자
+[15:56:29] Ping 시간 체크1-5990282
+[15:56:29] Ping 시간 체크2-5990282
+[15:56:29] Ping 시간 체크1-5990375
+[15:56:29] Ping 시간 체크2-5990516
+[15:56:29] 설치된 입구전광판이 없음!
+[15:56:29] 설치된 출구전광판이 없음!
+[15:56:29] 30분  101
+[15:56:29] 1시간  102
+[15:56:29] 2시간  103
+[15:56:29] 무료  104
+[15:56:29] 2시간50%  105
+[15:56:29] 30%  106
+[15:56:32] ApprVer    : [A1]
+[15:56:32] SvcType    : [DN]
+[15:56:32] TrdType    : [T1]
+[15:56:32] SndType    : [R]
+[15:56:32] TermID     : [0710000001]
+[15:56:32] TrdDate    : [20170614155702]
+[15:56:32] TrdNo      : [0000000001]
+[15:56:32] MchData    : [                    ]
+[15:56:32] AnsCode    : [0000]
+[15:56:32] Serial     : [1000000007          ]
+[15:56:32] Message    : [테스트 버전 입니다.                     ]
+[15:56:32] SftVer     : [07201]
+[15:56:32] ShpNm      : [한국신용카드결제(주)                    ]
+[15:56:32] BsnNo      : [2148631917]
+[15:56:32] PreNm      : [소재광              ]
+[15:56:32] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[15:56:32] ShpTel     : [0234153600     ]
+[15:56:32] LPR 11 Recv: 127.0.0.1
+[15:56:32] LPR 12 Recv: 127.0.0.1
+[15:56:34] LPR 11 Recv: LPR_N
+[15:56:34] LPR 12 Recv: LPR_N
+[15:56:35] LPR 11 Recv: LPR_N
+[15:56:35] LPR 12 Recv: LPR_N
+[15:56:41] LPR 12 Recv: LPR_N
+[15:56:41] LPR 11 Recv: LPR_N
+[15:56:55] ApprVer    : [A1]
+[15:56:55] SvcType    : [TF]
+[15:56:55] TrdType    : [F1]
+[15:56:55] SndType    : [R]
+[15:56:55] TermID     : [0710000001]
+[15:56:55] TrdDate    : [20170614155723]
+[15:56:55] TrdNo      : [0000000001]
+[15:56:55] MchData    : [                    ]
+[15:56:55] AnsCode    : [0000]
+[15:56:55] TradeNo    : [            ]
+[15:56:55] AuNo       : [57351857    ]
+[15:56:55] TradeDate  : [20170614155723]
+[15:56:55] Message    : [테스트 버전 입니다.             ]
+[15:56:56] Bin        : [518831                                  ]
+[15:56:56] CardKind   : [삼성카드    ]
+[15:56:56] OrdCd      : [1104]
+[15:56:56] OrdNm      : [삼성카드    ]
+[15:56:56] InpCd      : [1104]
+[15:56:56] InpNm      : [삼성카드]
+[15:56:56] MchNo      : [65965927        ]
+[15:56:56] PtCardCd   : [  ]
+[15:56:56] PtCardNm   : [        ]
+[15:56:56] JukPoint   : [         ]
+[15:56:56] GayPoint   : [         ]
+[15:56:56] NujPoint   : [         ]
+[15:56:56] SaleRate   : [         ]
+[15:56:56] PtAuNo     : [                    ]
+[15:56:56] PtMchNo    : [               ]
+[15:56:56] PtAnswerCd : [    ]
+[15:56:56] PtMessage  : [                                                ]
+[15:56:56] DDCYN      : [1]
+[15:56:56] EDIYN      : [0]
+[15:56:56] CardType   : [1]
+[15:56:56] TrdKey     : [000001287875]
+[15:56:56] KeyRenewal : [  ]
+[15:56:56] 
+[15:56:56] Ping 시간 체크1-6017254
+[15:56:56] Ping 시간 체크2-6017254
+[15:56:56] 출구차단기 Open
+[15:56:56] LPR 12 Recv: LPR_NLPR_N
+[15:56:56] LPR 11 Recv: LPR_NLPR_N
+[15:56:56] LPR 11 Recv: LPR_N
+[15:56:56] LPR 12 Recv: LPR_N
+[15:57:01] LPR 11 Recv: LPR_N
+[15:57:01] LPR 12 Recv: LPR_N
+[15:57:06] LPR 12 Recv: LPR_N
+[15:57:06] LPR 11 Recv: LPR_N
+[15:57:12] LPR 12 Recv: LPR_N
+[15:57:12] LPR 11 Recv: LPR_N
+[15:57:17] LPR 12 Recv: LPR_N
+[15:57:17] LPR 11 Recv: LPR_N
+[15:57:43] Program Start!
+[15:57:44] 근무시작: 근무자
+[15:57:45] Ping 시간 체크1-6066520
+[15:57:45] Ping 시간 체크2-6066520
+[15:57:45] Ping 시간 체크1-6066520
+[15:57:45] Ping 시간 체크2-6066535
+[15:57:45] 설치된 입구전광판이 없음!
+[15:57:45] 설치된 출구전광판이 없음!
+[15:57:45] 30분  101
+[15:57:45] 1시간  102
+[15:57:45] 2시간  103
+[15:57:45] 무료  104
+[15:57:45] 2시간50%  105
+[15:57:45] 30%  106
+[15:57:45] ApprVer    : [A1]
+[15:57:45] SvcType    : [DN]
+[15:57:45] TrdType    : [T1]
+[15:57:45] SndType    : [R]
+[15:57:45] TermID     : [0710000001]
+[15:57:45] TrdDate    : [20170614155815]
+[15:57:45] TrdNo      : [0000000001]
+[15:57:45] MchData    : [                    ]
+[15:57:45] AnsCode    : [0000]
+[15:57:45] Serial     : [1000000007          ]
+[15:57:45] Message    : [테스트 버전 입니다.                     ]
+[15:57:45] SftVer     : [07201]
+[15:57:45] ShpNm      : [한국신용카드결제(주)                    ]
+[15:57:45] BsnNo      : [2148631917]
+[15:57:45] PreNm      : [소재광              ]
+[15:57:45] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[15:57:45] ShpTel     : [0234153600     ]
+[15:57:45] LPR 11 Recv: 127.0.0.1
+[15:57:45] LPR 12 Recv: 127.0.0.1
+[15:57:47] LPR 11 Recv: LPR_N
+[15:57:47] LPR 12 Recv: LPR_N
+[15:57:49] LPR 11 Recv: LPR_N
+[15:57:49] LPR 12 Recv: LPR_N
+[15:57:54] LPR 11 Recv: LPR_N
+[15:57:54] LPR 12 Recv: LPR_N
+[15:57:54] Program Close
+[15:58:35] Program Start!
+[15:58:37] 근무시작: 근무자
+[15:58:37] Ping 시간 체크1-6119373
+[15:58:37] Ping 시간 체크2-6119373
+[15:58:37] Ping 시간 체크1-6119373
+[15:58:37] Ping 시간 체크2-6119373
+[15:58:37] 설치된 입구전광판이 없음!
+[15:58:37] 설치된 출구전광판이 없음!
+[15:58:37] 30분  101
+[15:58:37] 1시간  102
+[15:58:37] 2시간  103
+[15:58:37] 무료  104
+[15:58:37] 2시간50%  105
+[15:58:37] 30%  106
+[15:58:38] ApprVer    : [A1]
+[15:58:38] SvcType    : [DN]
+[15:58:38] TrdType    : [T1]
+[15:58:38] SndType    : [R]
+[15:58:38] TermID     : [0710000001]
+[15:58:38] TrdDate    : [20170614155908]
+[15:58:38] TrdNo      : [0000000001]
+[15:58:38] MchData    : [                    ]
+[15:58:38] AnsCode    : [0000]
+[15:58:38] Serial     : [1000000007          ]
+[15:58:38] Message    : [테스트 버전 입니다.                     ]
+[15:58:38] SftVer     : [07201]
+[15:58:38] ShpNm      : [한국신용카드결제(주)                    ]
+[15:58:38] BsnNo      : [2148631917]
+[15:58:38] PreNm      : [소재광              ]
+[15:58:38] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[15:58:38] ShpTel     : [0234153600     ]
+[15:58:38] LPR 11 Recv: 127.0.0.1
+[15:58:38] LPR 12 Recv: 127.0.0.1
+[15:58:39] LPR 12 Recv: LPR_N
+[15:58:39] LPR 11 Recv: LPR_N
+[15:58:42] LPR 12 Recv: LPR_N
+[15:58:42] LPR 11 Recv: LPR_N
+[15:58:47] LPR 12 Recv: LPR_N
+[15:58:47] LPR 11 Recv: LPR_N
+[15:58:52] LPR 11 Recv: LPR_N
+[15:58:52] LPR 12 Recv: LPR_N
+[15:58:57] LPR 12 Recv: LPR_N
+[15:58:57] LPR 11 Recv: LPR_N
+[15:59:02] LPR 11 Recv: LPR_N
+[15:59:02] LPR 12 Recv: LPR_N
+[15:59:08] LPR 12 Recv: LPR_N
+[15:59:08] LPR 11 Recv: LPR_N
+[15:59:19] ApprVer    : [A1]
+[15:59:19] SvcType    : [TF]
+[15:59:19] TrdType    : [F2]
+[15:59:19] SndType    : [R]
+[15:59:19] TermID     : [0710000001]
+[15:59:19] TrdDate    : [20170614155948]
+[15:59:19] TrdNo      : [0000000001]
+[15:59:19] MchData    : [                    ]
+[15:59:19] AnsCode    : [0000]
+[15:59:19] TradeNo    : [            ]
+[15:59:19] AuNo       : [57351857    ]
+[15:59:19] TradeDate  : [20170614155948]
+[15:59:19] Message    : [테스트 버전 입니다.             ]
+[15:59:19] Bin        : [518831                                  ]
+[15:59:19] CardKind   : [삼성카드    ]
+[15:59:19] OrdCd      : [1104]
+[15:59:19] OrdNm      : [삼성카드    ]
+[15:59:19] InpCd      : [1104]
+[15:59:19] InpNm      : [삼성카드]
+[15:59:19] MchNo      : [65965927        ]
+[15:59:19] PtCardCd   : [  ]
+[15:59:19] PtCardNm   : [        ]
+[15:59:19] JukPoint   : [         ]
+[15:59:19] GayPoint   : [         ]
+[15:59:19] NujPoint   : [         ]
+[15:59:19] SaleRate   : [         ]
+[15:59:19] PtAuNo     : [                    ]
+[15:59:19] PtMchNo    : [               ]
+[15:59:19] PtAnswerCd : [    ]
+[15:59:19] PtMessage  : [                                                ]
+[15:59:19] DDCYN      : [1]
+[15:59:19] EDIYN      : [0]
+[15:59:19] CardType   : [1]
+[15:59:19] TrdKey     : [000001295115]
+[15:59:19] KeyRenewal : [  ]
+[15:59:19] 
+[15:59:19] LPR 12 Recv: LPR_NLPR_N
+[15:59:19] LPR 11 Recv: LPR_NLPR_N
+[15:59:24] LPR 11 Recv: LPR_N
+[15:59:24] LPR 12 Recv: LPR_N
+[15:59:29] LPR 11 Recv: LPR_N
+[15:59:29] LPR 12 Recv: LPR_N
+[15:59:34] LPR 11 Recv: LPR_N
+[15:59:34] LPR 12 Recv: LPR_N
+[15:59:40] LPR 12 Recv: LPR_N
+[15:59:40] LPR 11 Recv: LPR_N
+[15:59:45] LPR 12 Recv: LPR_N
+[15:59:45] LPR 11 Recv: LPR_N
+[15:59:50] LPR 11 Recv: LPR_N
+[15:59:50] LPR 12 Recv: LPR_N
+[15:59:56] LPR 12 Recv: LPR_N
+[15:59:56] LPR 11 Recv: LPR_N
+[16:00:01] LPR 11 Recv: LPR_N
+[16:00:01] LPR 12 Recv: LPR_N
+[16:00:06] LPR 12 Recv: LPR_N
+[16:00:06] LPR 11 Recv: LPR_N
+[16:00:11] LPR 12 Recv: LPR_N
+[16:00:11] LPR 11 Recv: LPR_N
+[16:00:17] LPR 11 Recv: LPR_N
+[16:00:17] LPR 12 Recv: LPR_N
+[16:00:22] LPR 11 Recv: LPR_N
+[16:00:22] LPR 12 Recv: LPR_N
+[16:00:28] LPR 11 Recv: LPR_N
+[16:00:28] LPR 12 Recv: LPR_N
+[16:00:42] ApprVer    : [A1]
+[16:00:42] SvcType    : [TF]
+[16:00:42] TrdType    : [F2]
+[16:00:42] SndType    : [R]
+[16:00:42] TermID     : [0710000001]
+[16:00:42] TrdDate    : [20170614160111]
+[16:00:42] TrdNo      : [0000000001]
+[16:00:42] MchData    : [                    ]
+[16:00:42] AnsCode    : [0000]
+[16:00:42] TradeNo    : [            ]
+[16:00:42] AuNo       : [92931638    ]
+[16:00:42] TradeDate  : [20170614160111]
+[16:00:42] Message    : [테스트 버전 입니다.             ]
+[16:00:42] Bin        : [518831                                  ]
+[16:00:42] CardKind   : [삼성카드    ]
+[16:00:42] OrdCd      : [1104]
+[16:00:42] OrdNm      : [삼성카드    ]
+[16:00:42] InpCd      : [1104]
+[16:00:42] InpNm      : [삼성카드]
+[16:00:42] MchNo      : [65965927        ]
+[16:00:42] PtCardCd   : [  ]
+[16:00:42] PtCardNm   : [        ]
+[16:00:42] JukPoint   : [         ]
+[16:00:42] GayPoint   : [         ]
+[16:00:42] NujPoint   : [         ]
+[16:00:42] SaleRate   : [         ]
+[16:00:42] PtAuNo     : [                    ]
+[16:00:42] PtMchNo    : [               ]
+[16:00:42] PtAnswerCd : [    ]
+[16:00:42] PtMessage  : [                                                ]
+[16:00:42] DDCYN      : [1]
+[16:00:42] EDIYN      : [0]
+[16:00:42] CardType   : [1]
+[16:00:42] TrdKey     : [000001299303]
+[16:00:42] KeyRenewal : [  ]
+[16:00:42] 
+[16:00:42] LPR 12 Recv: LPR_NLPR_N
+[16:00:42] LPR 11 Recv: LPR_NLPR_N
+[16:00:44] LPR 12 Recv: LPR_N
+[16:00:44] LPR 11 Recv: LPR_N
+[16:00:49] LPR 12 Recv: LPR_N
+[16:00:49] LPR 11 Recv: LPR_N
+[16:00:54] LPR 11 Recv: LPR_N
+[16:00:54] LPR 12 Recv: LPR_N
+[16:00:56] Program Close
+[16:01:04] Program Start!
+[16:01:06] 근무시작: 근무자
+[16:01:06] Ping 시간 체크1-6268681
+[16:01:06] Ping 시간 체크2-6268681
+[16:01:06] Ping 시간 체크1-6268728
+[16:01:06] Ping 시간 체크2-6268728
+[16:01:06] 설치된 입구전광판이 없음!
+[16:01:06] 설치된 출구전광판이 없음!
+[16:01:06] 30분  101
+[16:01:06] 1시간  102
+[16:01:06] 2시간  103
+[16:01:06] 무료  104
+[16:01:06] 2시간50%  105
+[16:01:06] 30%  106
+[16:01:36] Program Start!
+[16:01:37] 근무시작: 근무자
+[16:01:37] Ping 시간 체크1-6300147
+[16:01:37] Ping 시간 체크2-6300162
+[16:01:37] Ping 시간 체크1-6300162
+[16:01:37] Ping 시간 체크2-6300162
+[16:01:37] 설치된 입구전광판이 없음!
+[16:01:37] 설치된 출구전광판이 없음!
+[16:01:37] 30분  101
+[16:01:37] 1시간  102
+[16:01:37] 2시간  103
+[16:01:37] 무료  104
+[16:01:37] 2시간50%  105
+[16:01:37] 30%  106
+[16:01:38] ApprVer    : [A1]
+[16:01:38] SvcType    : [DN]
+[16:01:38] TrdType    : [T1]
+[16:01:38] SndType    : [R]
+[16:01:38] TermID     : [0710000001]
+[16:01:38] TrdDate    : [20170614160208]
+[16:01:38] TrdNo      : [0000000001]
+[16:01:38] MchData    : [                    ]
+[16:01:38] AnsCode    : [0000]
+[16:01:38] Serial     : [1000000007          ]
+[16:01:38] Message    : [테스트 버전 입니다.                     ]
+[16:01:38] SftVer     : [07201]
+[16:01:38] ShpNm      : [한국신용카드결제(주)                    ]
+[16:01:38] BsnNo      : [2148631917]
+[16:01:38] PreNm      : [소재광              ]
+[16:01:38] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[16:01:38] ShpTel     : [0234153600     ]
+[16:01:38] LPR 12 Recv: 127.0.0.1
+[16:01:38] LPR 11 Recv: 127.0.0.1
+[16:01:39] LPR 11 Recv: LPR_N
+[16:01:39] LPR 12 Recv: LPR_N
+[16:01:41] LPR 12 Recv: LPR_N
+[16:01:41] LPR 11 Recv: LPR_N
+[16:01:58] Program Start!
+[16:02:00] 근무시작: 근무자
+[16:02:00] Ping 시간 체크1-6323438
+[16:02:00] Ping 시간 체크2-6323438
+[16:02:00] Ping 시간 체크1-6323438
+[16:02:00] Ping 시간 체크2-6323438
+[16:02:00] 설치된 입구전광판이 없음!
+[16:02:00] 설치된 출구전광판이 없음!
+[16:02:00] 30분  101
+[16:02:00] 1시간  102
+[16:02:00] 2시간  103
+[16:02:00] 무료  104
+[16:02:00] 2시간50%  105
+[16:02:00] 30%  106
+[16:02:00] ApprVer    : [A1]
+[16:02:00] SvcType    : [DN]
+[16:02:00] TrdType    : [T1]
+[16:02:00] SndType    : [R]
+[16:02:00] TermID     : [0710000001]
+[16:02:00] TrdDate    : [20170614160232]
+[16:02:00] TrdNo      : [0000000001]
+[16:02:00] MchData    : [                    ]
+[16:02:00] AnsCode    : [0000]
+[16:02:00] Serial     : [1000000007          ]
+[16:02:00] Message    : [테스트 버전 입니다.                     ]
+[16:02:00] SftVer     : [07201]
+[16:02:00] ShpNm      : [한국신용카드결제(주)                    ]
+[16:02:00] BsnNo      : [2148631917]
+[16:02:00] PreNm      : [소재광              ]
+[16:02:00] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[16:02:00] ShpTel     : [0234153600     ]
+[16:02:00] LPR 11 Recv: 127.0.0.1
+[16:02:00] LPR 12 Recv: 127.0.0.1
+[16:02:02] LPR 12 Recv: LPR_N
+[16:02:02] LPR 11 Recv: LPR_N
+[16:02:07] LPR 11 Recv: LPR_N
+[16:02:07] LPR 12 Recv: LPR_N
+[16:02:21] ApprVer    : [A1]
+[16:02:21] SvcType    : [TF]
+[16:02:21] TrdType    : [F1]
+[16:02:21] SndType    : [R]
+[16:02:21] TermID     : [0710000001]
+[16:02:21] TrdDate    : [20170614160251]
+[16:02:21] TrdNo      : [0000000001]
+[16:02:21] MchData    : [                    ]
+[16:02:21] AnsCode    : [0000]
+[16:02:21] TradeNo    : [            ]
+[16:02:21] AuNo       : [59876073    ]
+[16:02:21] TradeDate  : [20170614160251]
+[16:02:21] Message    : [테스트 버전 입니다.             ]
+[16:02:21] Bin        : [518831                                  ]
+[16:02:21] CardKind   : [삼성카드    ]
+[16:02:21] OrdCd      : [1104]
+[16:02:21] OrdNm      : [삼성카드    ]
+[16:02:21] InpCd      : [1104]
+[16:02:21] InpNm      : [삼성카드]
+[16:02:21] MchNo      : [65965927        ]
+[16:02:21] PtCardCd   : [  ]
+[16:02:21] PtCardNm   : [        ]
+[16:02:21] JukPoint   : [         ]
+[16:02:21] GayPoint   : [         ]
+[16:02:21] NujPoint   : [         ]
+[16:02:21] SaleRate   : [         ]
+[16:02:21] PtAuNo     : [                    ]
+[16:02:21] PtMchNo    : [               ]
+[16:02:21] PtAnswerCd : [    ]
+[16:02:21] PtMessage  : [                                                ]
+[16:02:21] DDCYN      : [1]
+[16:02:21] EDIYN      : [0]
+[16:02:21] CardType   : [1]
+[16:02:21] TrdKey     : [000001304383]
+[16:02:21] KeyRenewal : [  ]
+[16:02:21] 
+[16:02:21] Ping 시간 체크1-6344841
+[16:02:21] Ping 시간 체크2-6344841
+[16:02:21] 출구차단기 Open
+[16:02:21] LPR 11 Recv: LPR_NLPR_N
+[16:02:21] LPR 12 Recv: LPR_NLPR_N
+[16:02:23] LPR 11 Recv: LPR_N
+[16:02:23] LPR 12 Recv: LPR_N
+[16:02:28] LPR 12 Recv: LPR_N
+[16:02:28] LPR 11 Recv: LPR_N
+[16:02:34] LPR 12 Recv: LPR_N
+[16:02:34] LPR 11 Recv: LPR_N
+[16:02:39] LPR 12 Recv: LPR_N
+[16:02:39] LPR 11 Recv: LPR_N
+[16:02:44] LPR 12 Recv: LPR_N
+[16:02:44] LPR 11 Recv: LPR_N
+[16:02:54] ApprVer    : [A1]
+[16:02:54] SvcType    : [TF]
+[16:02:54] TrdType    : [F2]
+[16:02:54] SndType    : [R]
+[16:02:54] TermID     : [0710000001]
+[16:02:54] TrdDate    : [20170614160325]
+[16:02:54] TrdNo      : [0000000001]
+[16:02:54] MchData    : [                    ]
+[16:02:54] AnsCode    : [0000]
+[16:02:54] TradeNo    : [            ]
+[16:02:54] AuNo       : [59876073    ]
+[16:02:54] TradeDate  : [20170614160325]
+[16:02:54] Message    : [테스트 버전 입니다.             ]
+[16:02:54] Bin        : [518831                                  ]
+[16:02:54] CardKind   : [삼성카드    ]
+[16:02:54] OrdCd      : [1104]
+[16:02:54] OrdNm      : [삼성카드    ]
+[16:02:54] InpCd      : [1104]
+[16:02:54] InpNm      : [삼성카드]
+[16:02:54] MchNo      : [65965927        ]
+[16:02:54] PtCardCd   : [  ]
+[16:02:54] PtCardNm   : [        ]
+[16:02:54] JukPoint   : [         ]
+[16:02:54] GayPoint   : [         ]
+[16:02:54] NujPoint   : [         ]
+[16:02:54] SaleRate   : [         ]
+[16:02:54] PtAuNo     : [                    ]
+[16:02:54] PtMchNo    : [               ]
+[16:02:54] PtAnswerCd : [    ]
+[16:02:54] PtMessage  : [                                                ]
+[16:02:54] DDCYN      : [1]
+[16:02:54] EDIYN      : [0]
+[16:02:54] CardType   : [1]
+[16:02:54] TrdKey     : [000001306001]
+[16:02:54] KeyRenewal : [  ]
+[16:02:54] 
+[16:02:54] LPR 12 Recv: LPR_N
+[16:02:54] LPR 11 Recv: LPR_N
+[16:02:55] LPR 11 Recv: LPR_N
+[16:02:55] LPR 12 Recv: LPR_N
+[16:03:00] LPR 11 Recv: LPR_N
+[16:03:00] LPR 12 Recv: LPR_N
+[16:03:02] Program Close
+[16:03:30] Program Start!
+[16:03:33] 근무시작: 근무자
+[16:03:33] Ping 시간 체크1-6416835
+[16:03:33] Ping 시간 체크2-6416835
+[16:03:33] Ping 시간 체크1-6416867
+[16:03:33] Ping 시간 체크2-6416867
+[16:03:33] 설치된 입구전광판이 없음!
+[16:03:33] 설치된 출구전광판이 없음!
+[16:03:33] 30분  101
+[16:03:33] 1시간  102
+[16:03:33] 2시간  103
+[16:03:33] 무료  104
+[16:03:33] 2시간50%  105
+[16:03:33] 30%  106
+[16:05:23] Program Start!
+[16:05:25] 근무시작: 근무자
+[16:05:25] Ping 시간 체크1-6529733
+[16:05:26] Ping 시간 체크2-6529749
+[16:05:26] Ping 시간 체크1-6529780
+[16:05:26] Ping 시간 체크2-6529780
+[16:05:26] 설치된 입구전광판이 없음!
+[16:05:26] 설치된 출구전광판이 없음!
+[16:05:26] 30분  101
+[16:05:26] 1시간  102
+[16:05:26] 2시간  103
+[16:05:26] 무료  104
+[16:05:26] 2시간50%  105
+[16:05:26] 30%  106
+[16:05:34] ApprVer    : [A1]
+[16:05:34] SvcType    : [DN]
+[16:05:34] TrdType    : [T1]
+[16:05:34] SndType    : [R]
+[16:05:34] TermID     : [0710000001]
+[16:05:34] TrdDate    : [20170614160606]
+[16:05:34] TrdNo      : [0000000001]
+[16:05:34] MchData    : [                    ]
+[16:05:34] AnsCode    : [0000]
+[16:05:34] Serial     : [1000000007          ]
+[16:05:34] Message    : [테스트 버전 입니다.                     ]
+[16:05:34] SftVer     : [07201]
+[16:05:34] ShpNm      : [한국신용카드결제(주)                    ]
+[16:05:34] BsnNo      : [2148631917]
+[16:05:34] PreNm      : [소재광              ]
+[16:05:34] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[16:05:34] ShpTel     : [0234153600     ]
+[16:05:34] LPR 11 Recv: 127.0.0.1
+[16:05:34] LPR 12 Recv: 127.0.0.1
+[16:05:36] LPR 11 Recv: LPR_N
+[16:05:36] LPR 12 Recv: LPR_N
+[16:05:40] LPR 11 Recv: LPR_N
+[16:05:40] LPR 12 Recv: LPR_N
+[16:05:56] ApprVer    : [A1]
+[16:05:56] SvcType    : [TF]
+[16:05:56] TrdType    : [F1]
+[16:05:56] SndType    : [R]
+[16:05:56] TermID     : [0710000001]
+[16:05:56] TrdDate    : [20170614160626]
+[16:05:56] TrdNo      : [0000000001]
+[16:05:56] MchData    : [                    ]
+[16:05:56] AnsCode    : [0000]
+[16:05:56] TradeNo    : [            ]
+[16:05:56] AuNo       : [95978090    ]
+[16:05:56] TradeDate  : [20170614160626]
+[16:05:56] Message    : [테스트 버전 입니다.             ]
+[16:05:56] Bin        : [518831                                  ]
+[16:05:56] CardKind   : [삼성카드    ]
+[16:05:56] OrdCd      : [1104]
+[16:05:56] OrdNm      : [삼성카드    ]
+[16:05:56] InpCd      : [1104]
+[16:05:56] InpNm      : [삼성카드]
+[16:05:56] MchNo      : [65965927        ]
+[16:05:56] PtCardCd   : [  ]
+[16:05:56] PtCardNm   : [        ]
+[16:05:56] JukPoint   : [         ]
+[16:05:56] GayPoint   : [         ]
+[16:05:56] NujPoint   : [         ]
+[16:05:56] SaleRate   : [         ]
+[16:05:56] PtAuNo     : [                    ]
+[16:05:56] PtMchNo    : [               ]
+[16:05:56] PtAnswerCd : [    ]
+[16:05:56] PtMessage  : [                                                ]
+[16:05:56] DDCYN      : [1]
+[16:05:56] EDIYN      : [0]
+[16:05:56] CardType   : [1]
+[16:05:56] TrdKey     : [000001314579]
+[16:05:56] KeyRenewal : [  ]
+[16:05:56] 
+[16:05:56] Ping 시간 체크1-6559888
+[16:05:56] Ping 시간 체크2-6559888
+[16:05:56] 출구차단기 Open
+[16:05:56] LPR 11 Recv: LPR_NLPR_NLPR_N
+[16:05:56] LPR 12 Recv: LPR_NLPR_NLPR_N
+[16:06:00] LPR 11 Recv: LPR_N
+[16:06:00] LPR 12 Recv: LPR_N
+[16:06:06] LPR 11 Recv: LPR_N
+[16:06:06] LPR 12 Recv: LPR_N
+[16:06:11] LPR 11 Recv: LPR_N
+[16:06:11] LPR 12 Recv: LPR_N
+[16:06:16] LPR 11 Recv: LPR_N
+[16:06:16] LPR 12 Recv: LPR_N
+[16:06:21] LPR 11 Recv: LPR_N
+[16:06:21] LPR 12 Recv: LPR_N
+[16:06:32] ApprVer    : [A1]
+[16:06:32] SvcType    : [TF]
+[16:06:32] TrdType    : [F2]
+[16:06:32] SndType    : [R]
+[16:06:32] TermID     : [0710000001]
+[16:06:32] TrdDate    : [20170614160703]
+[16:06:32] TrdNo      : [0000000001]
+[16:06:32] MchData    : [                    ]
+[16:06:32] AnsCode    : [0000]
+[16:06:32] TradeNo    : [            ]
+[16:06:32] AuNo       : [95978090    ]
+[16:06:32] TradeDate  : [20170614160703]
+[16:06:32] Message    : [테스트 버전 입니다.             ]
+[16:06:32] Bin        : [518831                                  ]
+[16:06:32] CardKind   : [삼성카드    ]
+[16:06:32] OrdCd      : [1104]
+[16:06:32] OrdNm      : [삼성카드    ]
+[16:06:32] InpCd      : [1104]
+[16:06:32] InpNm      : [삼성카드]
+[16:06:32] MchNo      : [65965927        ]
+[16:06:32] PtCardCd   : [  ]
+[16:06:32] PtCardNm   : [        ]
+[16:06:32] JukPoint   : [         ]
+[16:06:32] GayPoint   : [         ]
+[16:06:32] NujPoint   : [         ]
+[16:06:32] SaleRate   : [         ]
+[16:06:32] PtAuNo     : [                    ]
+[16:06:32] PtMchNo    : [               ]
+[16:06:32] PtAnswerCd : [    ]
+[16:06:32] PtMessage  : [                                                ]
+[16:06:32] DDCYN      : [1]
+[16:06:32] EDIYN      : [0]
+[16:06:32] CardType   : [1]
+[16:06:32] TrdKey     : [000001316379]
+[16:06:32] KeyRenewal : [  ]
+[16:06:32] 
+[16:06:32] LPR 12 Recv: LPR_N
+[16:06:32] LPR 11 Recv: LPR_N
+[16:06:32] LPR 11 Recv: LPR_N
+[16:06:32] LPR 12 Recv: LPR_N
+[16:06:37] LPR 12 Recv: LPR_N
+[16:06:37] LPR 11 Recv: LPR_N
+[16:06:37] Program Close
+[16:06:45] Program Start!
+[16:06:49] 근무시작: 근무자
+[16:06:49] Ping 시간 체크1-6614005
+[16:06:49] Ping 시간 체크2-6614005
+[16:06:49] Ping 시간 체크1-6614036
+[16:06:49] Ping 시간 체크2-6614036
+[16:06:49] 설치된 입구전광판이 없음!
+[16:06:49] 설치된 출구전광판이 없음!
+[16:06:49] 30분  101
+[16:06:49] 1시간  102
+[16:06:49] 2시간  103
+[16:06:49] 무료  104
+[16:06:49] 2시간50%  105
+[16:06:49] 30%  106
+[16:07:39] Program Start!
+[16:07:42] 근무시작: 근무자
+[16:07:42] Ping 시간 체크1-6666624
+[16:07:42] Ping 시간 체크2-6666671
+[16:07:42] Ping 시간 체크1-6666718
+[16:07:42] Ping 시간 체크2-6666718
+[16:07:42] 설치된 입구전광판이 없음!
+[16:07:42] 설치된 출구전광판이 없음!
+[16:07:42] 30분  101
+[16:07:42] 1시간  102
+[16:07:42] 2시간  103
+[16:07:42] 무료  104
+[16:07:42] 2시간50%  105
+[16:07:42] 30%  106
+[16:07:49] ApprVer    : [A1]
+[16:07:50] SvcType    : [DN]
+[16:07:50] TrdType    : [T1]
+[16:07:50] SndType    : [R]
+[16:07:50] TermID     : [0710000001]
+[16:07:51] TrdDate    : [20170614160819]
+[16:07:51] TrdNo      : [0000000001]
+[16:07:51] MchData    : [                    ]
+[16:07:51] AnsCode    : [0000]
+[16:07:51] Serial     : [1000000007          ]
+[16:07:52] Message    : [테스트 버전 입니다.                     ]
+[16:07:52] SftVer     : [07201]
+[16:07:52] ShpNm      : [한국신용카드결제(주)                    ]
+[16:07:52] BsnNo      : [2148631917]
+[16:07:52] PreNm      : [소재광              ]
+[16:07:53] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[16:07:53] ShpTel     : [0234153600     ]
+[16:07:58] LPR 11 Recv: 127.0.0.1
+[16:07:58] LPR 12 Recv: 127.0.0.1
+[16:08:00] LPR 11 Recv: LPR_N
+[16:08:00] LPR 12 Recv: LPR_N
+[16:08:02] LPR 12 Recv: LPR_N
+[16:08:02] LPR 11 Recv: LPR_N
+[16:08:09] LPR 12 Recv: LPR_N
+[16:08:09] LPR 11 Recv: LPR_N
+[16:08:22] ApprVer    : [A1]
+[16:08:22] SvcType    : [TF]
+[16:08:22] TrdType    : [F1]
+[16:08:22] SndType    : [R]
+[16:08:22] TermID     : [0710000001]
+[16:08:22] TrdDate    : [20170614160853]
+[16:08:22] TrdNo      : [0000000001]
+[16:08:22] MchData    : [                    ]
+[16:08:22] AnsCode    : [0000]
+[16:08:22] TradeNo    : [            ]
+[16:08:22] AuNo       : [48733186    ]
+[16:08:22] TradeDate  : [20170614160853]
+[16:08:22] Message    : [테스트 버전 입니다.             ]
+[16:08:22] Bin        : [518831                                  ]
+[16:08:22] CardKind   : [삼성카드    ]
+[16:08:22] OrdCd      : [1104]
+[16:08:22] OrdNm      : [삼성카드    ]
+[16:08:22] InpCd      : [1104]
+[16:08:22] InpNm      : [삼성카드]
+[16:08:22] MchNo      : [65965927        ]
+[16:08:22] PtCardCd   : [  ]
+[16:08:22] PtCardNm   : [        ]
+[16:08:22] JukPoint   : [         ]
+[16:08:22] GayPoint   : [         ]
+[16:08:22] NujPoint   : [         ]
+[16:08:22] SaleRate   : [         ]
+[16:08:22] PtAuNo     : [                    ]
+[16:08:22] PtMchNo    : [               ]
+[16:08:22] PtAnswerCd : [    ]
+[16:08:22] PtMessage  : [                                                ]
+[16:08:22] DDCYN      : [1]
+[16:08:22] EDIYN      : [0]
+[16:08:22] CardType   : [1]
+[16:08:22] TrdKey     : [000001321657]
+[16:08:22] KeyRenewal : [  ]
+[16:08:22] 
+[16:08:22] Ping 시간 체크1-6706498
+[16:08:22] Ping 시간 체크2-6706498
+[16:08:22] 출구차단기 Open
+[16:08:22] LPR 11 Recv: LPR_NLPR_N
+[16:08:22] LPR 12 Recv: LPR_NLPR_N
+[16:08:23] LPR 12 Recv: LPR_N
+[16:08:23] LPR 11 Recv: LPR_N
+[16:08:28] LPR 11 Recv: LPR_N
+[16:08:28] LPR 12 Recv: LPR_N
+[16:08:33] LPR 11 Recv: LPR_N
+[16:08:33] LPR 12 Recv: LPR_N
+[16:08:39] LPR 12 Recv: LPR_N
+[16:08:39] LPR 11 Recv: LPR_N
+[16:08:44] LPR 11 Recv: LPR_N
+[16:08:44] LPR 12 Recv: LPR_N
+[16:08:56] ApprVer    : [A1]
+[16:08:56] SvcType    : [TF]
+[16:08:56] TrdType    : [F2]
+[16:08:56] SndType    : [R]
+[16:08:56] TermID     : [0710000001]
+[16:08:56] TrdDate    : [20170614160928]
+[16:08:56] TrdNo      : [0000000001]
+[16:08:56] MchData    : [                    ]
+[16:08:56] AnsCode    : [0000]
+[16:08:56] TradeNo    : [            ]
+[16:08:56] AuNo       : [48733186    ]
+[16:08:56] TradeDate  : [20170614160928]
+[16:08:56] Message    : [테스트 버전 입니다.             ]
+[16:08:56] Bin        : [518831                                  ]
+[16:08:56] CardKind   : [삼성카드    ]
+[16:08:56] OrdCd      : [1104]
+[16:08:56] OrdNm      : [삼성카드    ]
+[16:08:56] InpCd      : [1104]
+[16:08:56] InpNm      : [삼성카드]
+[16:08:56] MchNo      : [65965927        ]
+[16:08:56] PtCardCd   : [  ]
+[16:08:56] PtCardNm   : [        ]
+[16:08:56] JukPoint   : [         ]
+[16:08:56] GayPoint   : [         ]
+[16:08:56] NujPoint   : [         ]
+[16:08:56] SaleRate   : [         ]
+[16:08:56] PtAuNo     : [                    ]
+[16:08:56] PtMchNo    : [               ]
+[16:08:56] PtAnswerCd : [    ]
+[16:08:56] PtMessage  : [                                                ]
+[16:08:56] DDCYN      : [1]
+[16:08:56] EDIYN      : [0]
+[16:08:56] CardType   : [1]
+[16:08:56] TrdKey     : [000001323203]
+[16:08:56] KeyRenewal : [  ]
+[16:08:56] 
+[16:08:56] LPR 12 Recv: LPR_NLPR_N
+[16:08:56] LPR 11 Recv: LPR_NLPR_N
+[16:09:00] LPR 12 Recv: LPR_N
+[16:09:00] LPR 11 Recv: LPR_N
+[16:09:03] Program Close
+[16:09:12] Program Start!
+[16:09:14] 근무시작: 근무자
+[16:09:14] Ping 시간 체크1-6759320
+[16:09:14] Ping 시간 체크2-6759320
+[16:09:14] Ping 시간 체크1-6759367
+[16:09:14] Ping 시간 체크2-6759367
+[16:09:14] 설치된 입구전광판이 없음!
+[16:09:14] 설치된 출구전광판이 없음!
+[16:09:14] 30분  101
+[16:09:14] 1시간  102
+[16:09:14] 2시간  103
+[16:09:14] 무료  104
+[16:09:14] 2시간50%  105
+[16:09:14] 30%  106
+[16:09:36] ApprVer    : [A1]
+[16:09:37] SvcType    : [DN]
+[16:09:37] TrdType    : [T1]
+[16:09:37] SndType    : [R]
+[16:09:37] TermID     : [0710000001]
+[16:09:38] TrdDate    : [20170614160953]
+[16:09:38] TrdNo      : [0000000001]
+[16:09:39] MchData    : [                    ]
+[16:09:39] AnsCode    : [0000]
+[16:09:40] Serial     : [1000000007          ]
+[16:09:40] Message    : [테스트 버전 입니다.                     ]
+[16:09:40] SftVer     : [07201]
+[16:09:40] ShpNm      : [한국신용카드결제(주)                    ]
+[16:09:41] BsnNo      : [2148631917]
+[16:09:41] PreNm      : [소재광              ]
+[16:09:41] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[16:09:44] ShpTel     : [0234153600     ]
+[16:09:50] LPR 11 Recv: 127.0.0.1
+[16:09:50] LPR 12 Recv: 127.0.0.1
+[16:09:51] LPR 12 Recv: LPR_N
+[16:09:51] LPR 11 Recv: LPR_N
+[16:09:52] LPR 11 Recv: LPR_N
+[16:09:52] LPR 12 Recv: LPR_N
+[16:09:58] LPR 11 Recv: LPR_N
+[16:09:58] LPR 12 Recv: LPR_N
+[16:10:03] LPR 11 Recv: LPR_N
+[16:10:03] LPR 12 Recv: LPR_N
+[16:10:17] ApprVer    : [A1]
+[16:10:17] SvcType    : [TF]
+[16:10:17] TrdType    : [F1]
+[16:10:17] SndType    : [R]
+[16:10:17] TermID     : [0710000001]
+[16:10:17] TrdDate    : [20170614161049]
+[16:10:17] TrdNo      : [0000000001]
+[16:10:17] MchData    : [                    ]
+[16:10:17] AnsCode    : [0000]
+[16:10:17] TradeNo    : [            ]
+[16:10:17] AuNo       : [10624985    ]
+[16:10:17] TradeDate  : [20170614161049]
+[16:10:17] Message    : [테스트 버전 입니다.             ]
+[16:10:17] Bin        : [518831                                  ]
+[16:10:18] CardKind   : [삼성카드    ]
+[16:10:18] OrdCd      : [1104]
+[16:10:18] OrdNm      : [삼성카드    ]
+[16:10:18] InpCd      : [1104]
+[16:10:18] InpNm      : [삼성카드]
+[16:10:18] MchNo      : [65965927        ]
+[16:10:18] PtCardCd   : [  ]
+[16:10:18] PtCardNm   : [        ]
+[16:10:18] JukPoint   : [         ]
+[16:10:18] GayPoint   : [         ]
+[16:10:18] NujPoint   : [         ]
+[16:10:18] SaleRate   : [         ]
+[16:10:18] PtAuNo     : [                    ]
+[16:10:18] PtMchNo    : [               ]
+[16:10:18] PtAnswerCd : [    ]
+[16:10:18] PtMessage  : [                                                ]
+[16:10:18] DDCYN      : [1]
+[16:10:18] EDIYN      : [0]
+[16:10:18] CardType   : [1]
+[16:10:18] TrdKey     : [000001327015]
+[16:10:18] KeyRenewal : [  ]
+[16:10:18] 
+[16:10:18] Ping 시간 체크1-6822906
+[16:10:18] Ping 시간 체크2-6822906
+[16:10:18] 출구차단기 Open
+[16:10:18] LPR 11 Recv: LPR_NLPR_N
+[16:10:18] LPR 12 Recv: LPR_NLPR_N
+[16:10:19] LPR 11 Recv: LPR_N
+[16:10:19] LPR 12 Recv: LPR_N
+[16:10:24] LPR 11 Recv: LPR_N
+[16:10:24] LPR 12 Recv: LPR_N
+[16:10:38] Program Start!
+[16:10:41] 근무시작: 근무자
+[16:10:41] Ping 시간 체크1-6846057
+[16:10:41] Ping 시간 체크2-6846057
+[16:10:41] Ping 시간 체크1-6846072
+[16:10:41] Ping 시간 체크2-6846072
+[16:10:41] 설치된 입구전광판이 없음!
+[16:10:41] 설치된 출구전광판이 없음!
+[16:10:41] 30분  101
+[16:10:41] 1시간  102
+[16:10:41] 2시간  103
+[16:10:41] 무료  104
+[16:10:41] 2시간50%  105
+[16:10:41] 30%  106
+[16:10:41] ApprVer    : [A1]
+[16:10:41] SvcType    : [DN]
+[16:10:41] TrdType    : [T1]
+[16:10:41] SndType    : [R]
+[16:10:41] TermID     : [0710000001]
+[16:10:41] TrdDate    : [20170614161114]
+[16:10:41] TrdNo      : [0000000001]
+[16:10:41] MchData    : [                    ]
+[16:10:41] AnsCode    : [0000]
+[16:10:41] Serial     : [1000000007          ]
+[16:10:41] Message    : [테스트 버전 입니다.                     ]
+[16:10:41] SftVer     : [07201]
+[16:10:41] ShpNm      : [한국신용카드결제(주)                    ]
+[16:10:41] BsnNo      : [2148631917]
+[16:10:41] PreNm      : [소재광              ]
+[16:10:41] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[16:10:41] ShpTel     : [0234153600     ]
+[16:10:41] LPR 11 Recv: 127.0.0.1
+[16:10:41] LPR 12 Recv: 127.0.0.1
+[16:10:42] LPR 12 Recv: LPR_N
+[16:10:42] LPR 11 Recv: LPR_N
+[16:10:45] LPR 11 Recv: LPR_N
+[16:10:45] LPR 12 Recv: LPR_N
+[16:10:51] LPR 11 Recv: LPR_N
+[16:10:51] LPR 12 Recv: LPR_N
+[16:10:56] LPR 12 Recv: LPR_N
+[16:10:56] LPR 11 Recv: LPR_N
+[16:11:01] LPR 12 Recv: LPR_N
+[16:11:01] LPR 11 Recv: LPR_N
+[16:11:13] ApprVer    : [A1]
+[16:11:13] SvcType    : [TF]
+[16:11:13] TrdType    : [F2]
+[16:11:13] SndType    : [R]
+[16:11:13] TermID     : [0710000001]
+[16:11:13] TrdDate    : [20170614161145]
+[16:11:13] TrdNo      : [0000000001]
+[16:11:13] MchData    : [                    ]
+[16:11:13] AnsCode    : [0000]
+[16:11:13] TradeNo    : [            ]
+[16:11:13] AuNo       : [10624985    ]
+[16:11:13] TradeDate  : [20170614161145]
+[16:11:13] Message    : [테스트 버전 입니다.             ]
+[16:11:13] Bin        : [518831                                  ]
+[16:11:13] CardKind   : [삼성카드    ]
+[16:11:13] OrdCd      : [1104]
+[16:11:13] OrdNm      : [삼성카드    ]
+[16:11:13] InpCd      : [1104]
+[16:11:13] InpNm      : [삼성카드]
+[16:11:13] MchNo      : [65965927        ]
+[16:11:13] PtCardCd   : [  ]
+[16:11:13] PtCardNm   : [        ]
+[16:11:13] JukPoint   : [         ]
+[16:11:13] GayPoint   : [         ]
+[16:11:13] NujPoint   : [         ]
+[16:11:13] SaleRate   : [         ]
+[16:11:13] PtAuNo     : [                    ]
+[16:11:13] PtMchNo    : [               ]
+[16:11:13] PtAnswerCd : [    ]
+[16:11:13] PtMessage  : [                                                ]
+[16:11:13] DDCYN      : [1]
+[16:11:13] EDIYN      : [0]
+[16:11:13] CardType   : [1]
+[16:11:13] TrdKey     : [000001329613]
+[16:11:13] KeyRenewal : [  ]
+[16:11:13] 
+[16:11:13] LPR 11 Recv: LPR_NLPR_N
+[16:11:13] LPR 12 Recv: LPR_NLPR_N
+[16:11:17] LPR 12 Recv: LPR_N
+[16:11:17] LPR 11 Recv: LPR_N
+[16:11:23] LPR 11 Recv: LPR_N
+[16:11:23] LPR 12 Recv: LPR_N
+[16:11:23] Program Close
+[16:11:29] Program Start!
+[16:11:30] 근무시작: 근무자
+[16:11:30] Ping 시간 체크1-6896726
+[16:11:30] Ping 시간 체크2-6896726
+[16:11:30] Ping 시간 체크1-6896726
+[16:11:30] Ping 시간 체크2-6896726
+[16:11:30] 설치된 입구전광판이 없음!
+[16:11:30] 설치된 출구전광판이 없음!
+[16:11:30] 30분  101
+[16:11:30] 1시간  102
+[16:11:30] 2시간  103
+[16:11:30] 무료  104
+[16:11:30] 2시간50%  105
+[16:11:30] 30%  106
+[16:11:31] ApprVer    : [A1]
+[16:11:31] SvcType    : [DN]
+[16:11:31] TrdType    : [T1]
+[16:11:31] SndType    : [R]
+[16:11:31] TermID     : [0710000001]
+[16:11:31] TrdDate    : [20170614161205]
+[16:11:31] TrdNo      : [0000000001]
+[16:11:31] MchData    : [                    ]
+[16:11:31] AnsCode    : [0000]
+[16:11:31] Serial     : [1000000007          ]
+[16:11:31] Message    : [테스트 버전 입니다.                     ]
+[16:11:31] SftVer     : [07201]
+[16:11:31] ShpNm      : [한국신용카드결제(주)                    ]
+[16:11:31] BsnNo      : [2148631917]
+[16:11:31] PreNm      : [소재광              ]
+[16:11:31] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[16:11:31] ShpTel     : [0234153600     ]
+[16:11:31] LPR 11 Recv: 127.0.0.1
+[16:11:31] LPR 12 Recv: 127.0.0.1
+[16:11:32] LPR 12 Recv: LPR_N
+[16:11:32] LPR 11 Recv: LPR_N
+[16:11:37] LPR 11 Recv: LPR_N
+[16:11:37] LPR 12 Recv: LPR_N
+[16:11:43] LPR 11 Recv: LPR_N
+[16:11:43] LPR 12 Recv: LPR_N
+[16:11:44] Program Close
+[16:11:46] Program Start!
+[16:11:48] 근무시작: 근무자
+[16:11:48] Ping 시간 체크1-6914635
+[16:11:48] Ping 시간 체크2-6914635
+[16:11:48] Ping 시간 체크1-6914650
+[16:11:48] Ping 시간 체크2-6914650
+[16:11:48] 설치된 입구전광판이 없음!
+[16:11:48] 설치된 출구전광판이 없음!
+[16:11:48] 30분  101
+[16:11:48] 1시간  102
+[16:11:48] 2시간  103
+[16:11:48] 무료  104
+[16:11:48] 2시간50%  105
+[16:11:48] 30%  106
+[16:13:18] 승인요구 Timeout
+[16:13:18] LPR 12 Recv: 127.0.0.1
+[16:13:18] LPR 11 Recv: 127.0.0.1
+[16:13:19] LPR 11 Recv: LPR_N
+[16:13:19] LPR 12 Recv: LPR_N
+[16:13:23] LPR 12 Recv: LPR_N
+[16:13:23] LPR 11 Recv: LPR_N
+[16:13:29] LPR 11 Recv: LPR_N
+[16:13:29] LPR 12 Recv: LPR_N
+[16:13:34] LPR 12 Recv: LPR_N
+[16:13:34] LPR 11 Recv: LPR_N
+[16:13:40] LPR 11 Recv: LPR_N
+[16:13:40] LPR 12 Recv: LPR_N
+[16:13:45] LPR 12 Recv: LPR_N
+[16:13:45] LPR 11 Recv: LPR_N
+[16:13:50] LPR 11 Recv: LPR_N
+[16:13:50] LPR 12 Recv: LPR_N
+[16:13:55] LPR 12 Recv: LPR_N
+[16:13:55] LPR 11 Recv: LPR_N
+[16:14:01] LPR 11 Recv: LPR_N
+[16:14:01] LPR 12 Recv: LPR_N
+[16:14:06] LPR 11 Recv: LPR_N
+[16:14:06] LPR 12 Recv: LPR_N
+[16:14:12] LPR 11 Recv: LPR_N
+[16:14:12] LPR 12 Recv: LPR_N
+[16:14:17] LPR 11 Recv: LPR_N
+[16:14:17] LPR 12 Recv: LPR_N
+[16:14:22] LPR 11 Recv: LPR_N
+[16:14:22] LPR 12 Recv: LPR_N
+[16:14:27] LPR 12 Recv: LPR_N
+[16:14:27] LPR 11 Recv: LPR_N
+[16:14:32] LPR 12 Recv: LPR_N
+[16:14:32] LPR 11 Recv: LPR_N
+[16:14:38] LPR 11 Recv: LPR_N
+[16:14:38] LPR 12 Recv: LPR_N
+[16:14:43] LPR 11 Recv: LPR_N
+[16:14:43] LPR 12 Recv: LPR_N
+[16:14:49] LPR 12 Recv: LPR_N
+[16:14:49] LPR 11 Recv: LPR_N
+[16:14:54] LPR 12 Recv: LPR_N
+[16:14:54] LPR 11 Recv: LPR_N
+[16:15:00] LPR 12 Recv: LPR_N
+[16:15:00] LPR 11 Recv: LPR_N
+[16:15:05] LPR 11 Recv: LPR_N
+[16:15:05] LPR 12 Recv: LPR_N
+[16:15:10] LPR 11 Recv: LPR_N
+[16:15:10] LPR 12 Recv: LPR_N
+[16:15:15] LPR 12 Recv: LPR_N
+[16:15:15] LPR 11 Recv: LPR_N
+[16:15:20] LPR 12 Recv: LPR_N
+[16:15:20] LPR 11 Recv: LPR_N
+[16:15:26] LPR 12 Recv: LPR_N
+[16:15:26] LPR 11 Recv: LPR_N
+[16:15:31] LPR 11 Recv: LPR_N
+[16:15:31] LPR 12 Recv: LPR_N
+[16:15:37] LPR 11 Recv: LPR_N
+[16:15:37] LPR 12 Recv: LPR_N
+[16:15:42] LPR 12 Recv: LPR_N
+[16:15:42] LPR 11 Recv: LPR_N
+[16:15:47] LPR 12 Recv: LPR_N
+[16:15:47] LPR 11 Recv: LPR_N
+[16:15:52] LPR 12 Recv: LPR_N
+[16:15:52] LPR 11 Recv: LPR_N
+[16:15:58] LPR 12 Recv: LPR_N
+[16:15:58] LPR 11 Recv: LPR_N
+[16:16:03] LPR 12 Recv: LPR_N
+[16:16:03] LPR 11 Recv: LPR_N
+[16:16:09] LPR 11 Recv: LPR_N
+[16:16:09] LPR 12 Recv: LPR_N
+[16:16:14] LPR 11 Recv: LPR_N
+[16:16:14] LPR 12 Recv: LPR_N
+[16:16:19] LPR 11 Recv: LPR_N
+[16:16:19] LPR 12 Recv: LPR_N
+[16:16:25] LPR 11 Recv: LPR_N
+[16:16:25] LPR 12 Recv: LPR_N
+[16:16:30] LPR 12 Recv: LPR_N
+[16:16:30] LPR 11 Recv: LPR_N
+[16:16:35] LPR 12 Recv: LPR_N
+[16:16:35] LPR 11 Recv: LPR_N
+[16:16:37] Program Close
+[16:16:44] Program Start!
+[16:16:46] 근무시작: 근무자
+[16:16:47] Ping 시간 체크1-7213236
+[16:16:47] Ping 시간 체크2-7213236
+[16:16:47] Ping 시간 체크1-7213236
+[16:16:47] Ping 시간 체크2-7213252
+[16:16:47] 설치된 입구전광판이 없음!
+[16:16:47] 설치된 출구전광판이 없음!
+[16:16:47] 30분  101
+[16:16:47] 1시간  102
+[16:16:47] 2시간  103
+[16:16:47] 무료  104
+[16:16:47] 2시간50%  105
+[16:16:47] 30%  106
+[16:16:50] ApprVer    : [A1]
+[16:16:50] SvcType    : [DN]
+[16:16:50] TrdType    : [T1]
+[16:16:50] SndType    : [R]
+[16:16:50] TermID     : [0710000001]
+[16:16:50] TrdDate    : [20170614161724]
+[16:16:50] TrdNo      : [0000000001]
+[16:16:50] MchData    : [                    ]
+[16:16:50] AnsCode    : [0000]
+[16:16:50] Serial     : [1000000007          ]
+[16:16:50] Message    : [테스트 버전 입니다.                     ]
+[16:16:50] SftVer     : [07201]
+[16:16:50] ShpNm      : [한국신용카드결제(주)                    ]
+[16:16:50] BsnNo      : [2148631917]
+[16:16:50] PreNm      : [소재광              ]
+[16:16:50] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[16:16:50] ShpTel     : [0234153600     ]
+[16:16:50] LPR 11 Recv: 127.0.0.1
+[16:16:50] LPR 12 Recv: 127.0.0.1
+[16:16:51] LPR 11 Recv: LPR_N
+[16:16:51] LPR 12 Recv: LPR_N
+[16:16:56] LPR 12 Recv: LPR_N
+[16:16:56] LPR 11 Recv: LPR_N
+[16:17:01] LPR 11 Recv: LPR_N
+[16:17:01] LPR 12 Recv: LPR_N
+[16:17:07] LPR 12 Recv: LPR_N
+[16:17:07] LPR 11 Recv: LPR_N
+[16:17:12] LPR 11 Recv: LPR_N
+[16:17:12] LPR 12 Recv: LPR_N
+[16:17:17] LPR 11 Recv: LPR_N
+[16:17:17] LPR 12 Recv: LPR_N
+[16:17:23] LPR 12 Recv: LPR_N
+[16:17:23] LPR 11 Recv: LPR_N
+[16:17:35] ApprVer    : [A1]
+[16:17:35] SvcType    : [TF]
+[16:17:35] TrdType    : [F1]
+[16:17:35] SndType    : [R]
+[16:17:35] TermID     : [0710000001]
+[16:17:35] TrdDate    : [20170614161808]
+[16:17:35] TrdNo      : [0000000001]
+[16:17:35] MchData    : [                    ]
+[16:17:35] AnsCode    : [0000]
+[16:17:35] TradeNo    : [            ]
+[16:17:35] AuNo       : [77625671    ]
+[16:17:35] TradeDate  : [20170614161808]
+[16:17:35] Message    : [테스트 버전 입니다.             ]
+[16:17:35] Bin        : [518831                                  ]
+[16:17:35] CardKind   : [삼성카드    ]
+[16:17:35] OrdCd      : [1104]
+[16:17:35] OrdNm      : [삼성카드    ]
+[16:17:35] InpCd      : [1104]
+[16:17:35] InpNm      : [삼성카드]
+[16:17:35] MchNo      : [65965927        ]
+[16:17:35] PtCardCd   : [  ]
+[16:17:35] PtCardNm   : [        ]
+[16:17:35] JukPoint   : [         ]
+[16:17:35] GayPoint   : [         ]
+[16:17:35] NujPoint   : [         ]
+[16:17:35] SaleRate   : [         ]
+[16:17:35] PtAuNo     : [                    ]
+[16:17:35] PtMchNo    : [               ]
+[16:17:35] PtAnswerCd : [    ]
+[16:17:35] PtMessage  : [                                                ]
+[16:17:35] DDCYN      : [1]
+[16:17:35] EDIYN      : [0]
+[16:17:35] CardType   : [1]
+[16:17:35] TrdKey     : [000001347547]
+[16:17:35] KeyRenewal : [  ]
+[16:17:35] 
+[16:17:35] Ping 시간 체크1-7261721
+[16:17:35] Ping 시간 체크2-7261721
+[16:17:35] 출구차단기 Open
+[16:17:35] LPR 12 Recv: LPR_NLPR_N
+[16:17:35] LPR 11 Recv: LPR_NLPR_N
+[16:17:39] LPR 12 Recv: LPR_N
+[16:17:39] LPR 11 Recv: LPR_N
+[16:17:44] LPR 12 Recv: LPR_N
+[16:17:44] LPR 11 Recv: LPR_N
+[16:17:49] LPR 12 Recv: LPR_N
+[16:17:49] LPR 11 Recv: LPR_N
+[16:17:55] LPR 11 Recv: LPR_N
+[16:17:55] LPR 12 Recv: LPR_N
+[16:18:00] LPR 11 Recv: LPR_N
+[16:18:00] LPR 12 Recv: LPR_N
+[16:18:09] ApprVer    : [A1]
+[16:18:09] SvcType    : [TF]
+[16:18:09] TrdType    : [F2]
+[16:18:09] SndType    : [R]
+[16:18:09] TermID     : [0710000001]
+[16:18:09] TrdDate    : [20170614161843]
+[16:18:09] TrdNo      : [0000000001]
+[16:18:09] MchData    : [                    ]
+[16:18:09] AnsCode    : [0000]
+[16:18:09] TradeNo    : [            ]
+[16:18:09] AuNo       : [77625671    ]
+[16:18:09] TradeDate  : [20170614161843]
+[16:18:09] Message    : [테스트 버전 입니다.             ]
+[16:18:09] Bin        : [518831                                  ]
+[16:18:09] CardKind   : [삼성카드    ]
+[16:18:09] OrdCd      : [1104]
+[16:18:09] OrdNm      : [삼성카드    ]
+[16:18:09] InpCd      : [1104]
+[16:18:09] InpNm      : [삼성카드]
+[16:18:09] MchNo      : [65965927        ]
+[16:18:09] PtCardCd   : [  ]
+[16:18:09] PtCardNm   : [        ]
+[16:18:09] JukPoint   : [         ]
+[16:18:09] GayPoint   : [         ]
+[16:18:09] NujPoint   : [         ]
+[16:18:09] SaleRate   : [         ]
+[16:18:09] PtAuNo     : [                    ]
+[16:18:09] PtMchNo    : [               ]
+[16:18:09] PtAnswerCd : [    ]
+[16:18:09] PtMessage  : [                                                ]
+[16:18:09] DDCYN      : [1]
+[16:18:09] EDIYN      : [0]
+[16:18:09] CardType   : [1]
+[16:18:09] TrdKey     : [000001349233]
+[16:18:09] KeyRenewal : [  ]
+[16:18:09] 
+[16:18:09] LPR 11 Recv: LPR_N
+[16:18:09] LPR 12 Recv: LPR_N
+[16:18:11] LPR 11 Recv: LPR_N
+[16:18:11] LPR 12 Recv: LPR_N
+[16:18:16] Program Close
+[16:18:23] Program Start!
+[16:18:25] 근무시작: 근무자
+[16:18:25] Ping 시간 체크1-7311969
+[16:18:25] Ping 시간 체크2-7311969
+[16:18:25] Ping 시간 체크1-7311985
+[16:18:25] Ping 시간 체크2-7311985
+[16:18:25] 설치된 입구전광판이 없음!
+[16:18:25] 설치된 출구전광판이 없음!
+[16:18:25] 30분  101
+[16:18:25] 1시간  102
+[16:18:25] 2시간  103
+[16:18:25] 무료  104
+[16:18:25] 2시간50%  105
+[16:18:25] 30%  106
+[16:18:48] 승인요구 에러
+[16:18:48] LPR 11 Recv: 127.0.0.1
+[16:18:48] LPR 12 Recv: 127.0.0.1
+[16:18:50] LPR 12 Recv: LPR_N
+[16:18:50] LPR 11 Recv: LPR_N
+[16:18:51] Program Close
+[16:18:58] Program Start!
+[16:18:59] 근무시작: 근무자
+[16:18:59] Ping 시간 체크1-7346726
+[16:18:59] Ping 시간 체크2-7346726
+[16:18:59] Ping 시간 체크1-7346726
+[16:18:59] Ping 시간 체크2-7346742
+[16:18:59] 설치된 입구전광판이 없음!
+[16:18:59] 설치된 출구전광판이 없음!
+[16:18:59] 30분  101
+[16:18:59] 1시간  102
+[16:18:59] 2시간  103
+[16:18:59] 무료  104
+[16:18:59] 2시간50%  105
+[16:18:59] 30%  106
+[16:19:02] ApprVer    : [A1]
+[16:19:02] SvcType    : [DN]
+[16:19:02] TrdType    : [T1]
+[16:19:02] SndType    : [R]
+[16:19:02] TermID     : [0710000001]
+[16:19:02] TrdDate    : [20170614161938]
+[16:19:02] TrdNo      : [0000000001]
+[16:19:02] MchData    : [                    ]
+[16:19:02] AnsCode    : [0000]
+[16:19:02] Serial     : [1000000007          ]
+[16:19:02] Message    : [테스트 버전 입니다.                     ]
+[16:19:02] SftVer     : [07201]
+[16:19:02] ShpNm      : [한국신용카드결제(주)                    ]
+[16:19:02] BsnNo      : [2148631917]
+[16:19:02] PreNm      : [소재광              ]
+[16:19:02] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[16:19:02] ShpTel     : [0234153600     ]
+[16:19:02] LPR 11 Recv: 127.0.0.1
+[16:19:02] LPR 12 Recv: 127.0.0.1
+[16:19:03] LPR 11 Recv: LPR_N
+[16:19:03] LPR 12 Recv: LPR_N
+[16:19:36] LPR 11 Recv: LPR_NLPR_NLPR_NLPR_NLPR_NLPR_N
+[16:19:36] LPR Check: , http://127.0.0.1:9080/MSImageLPR_NLPR_NLPR_NLPR_NLPR_NLPR_N, 3,,,0, NLPR-_N-LP R_:NL:PR
+[16:19:36] File: \\127.0.0.1\MSImageLPR_NLPR_NLPR_NLPR_NLPR_NLPR_N
+[16:19:36] csInLpr1Read: qryInLpr1Proc: Cannot perform this operation on a closed dataset
+[16:19:36] LPR 12 Recv: LPR_NLPR_NLPR_NLPR_NLPR_NLPR_N
+[16:19:36] LPR Check: ,http://127.0.0.1:9080/MSImageLPR_NLPR_NLPR_NLPR_NLPR_NLPR_N,3,,,0, NLPR-_N-LP R_:NL:PR
+[16:19:36] File: \\127.0.0.1\MSImageLPR_NLPR_NLPR_NLPR_NLPR_NLPR_N
+[16:19:36] csOutLpr1Read: qryOutLpr1Proc: Cannot perform this operation on a closed dataset
+[16:19:40] LPR 11 Recv: LPR_N
+[16:19:40] LPR 12 Recv: LPR_N
+[16:19:51] ApprVer    : [A1]
+[16:19:51] SvcType    : [TF]
+[16:19:51] TrdType    : [F1]
+[16:19:51] SndType    : [R]
+[16:19:51] TermID     : [0710000001]
+[16:19:51] TrdDate    : [20170614162025]
+[16:19:51] TrdNo      : [0000000001]
+[16:19:51] MchData    : [                    ]
+[16:19:51] AnsCode    : [0000]
+[16:19:51] TradeNo    : [            ]
+[16:19:51] AuNo       : [39474837    ]
+[16:19:51] TradeDate  : [20170614162025]
+[16:19:51] Message    : [테스트 버전 입니다.             ]
+[16:19:51] Bin        : [518831                                  ]
+[16:19:51] CardKind   : [삼성카드    ]
+[16:19:51] OrdCd      : [1104]
+[16:19:51] OrdNm      : [삼성카드    ]
+[16:19:51] InpCd      : [1104]
+[16:19:51] InpNm      : [삼성카드]
+[16:19:51] MchNo      : [65965927        ]
+[16:19:51] PtCardCd   : [  ]
+[16:19:51] PtCardNm   : [        ]
+[16:19:51] JukPoint   : [         ]
+[16:19:51] GayPoint   : [         ]
+[16:19:51] NujPoint   : [         ]
+[16:19:51] SaleRate   : [         ]
+[16:19:51] PtAuNo     : [                    ]
+[16:19:51] PtMchNo    : [               ]
+[16:19:51] PtAnswerCd : [    ]
+[16:19:51] PtMessage  : [                                                ]
+[16:19:51] DDCYN      : [1]
+[16:19:51] EDIYN      : [0]
+[16:19:51] CardType   : [1]
+[16:19:51] TrdKey     : [000001354229]
+[16:19:51] KeyRenewal : [  ]
+[16:19:51] 
+[16:19:51] Ping 시간 체크1-7399018
+[16:19:51] Ping 시간 체크2-7399018
+[16:19:51] 출구차단기 Open
+[16:19:51] LPR 12 Recv: LPR_NLPR_N
+[16:19:51] LPR 11 Recv: LPR_NLPR_N
+[16:19:56] LPR 11 Recv: LPR_N
+[16:19:56] LPR 12 Recv: LPR_N
+[16:20:01] LPR 11 Recv: LPR_N
+[16:20:01] LPR 12 Recv: LPR_N
+[16:20:07] LPR 11 Recv: LPR_N
+[16:20:07] LPR 12 Recv: LPR_N
+[16:20:12] LPR 11 Recv: LPR_N
+[16:20:12] LPR 12 Recv: LPR_N
+[16:20:17] LPR 11 Recv: LPR_N
+[16:20:17] LPR 12 Recv: LPR_N
+[16:20:28] ApprVer    : [A1]
+[16:20:28] SvcType    : [TF]
+[16:20:28] TrdType    : [F2]
+[16:20:28] SndType    : [R]
+[16:20:28] TermID     : [0710000001]
+[16:20:28] TrdDate    : [20170614162102]
+[16:20:28] TrdNo      : [0000000001]
+[16:20:28] MchData    : [                    ]
+[16:20:28] AnsCode    : [0000]
+[16:20:28] TradeNo    : [            ]
+[16:20:28] AuNo       : [39474837    ]
+[16:20:28] TradeDate  : [20170614162102]
+[16:20:28] Message    : [테스트 버전 입니다.             ]
+[16:20:28] Bin        : [518831                                  ]
+[16:20:28] CardKind   : [삼성카드    ]
+[16:20:28] OrdCd      : [1104]
+[16:20:28] OrdNm      : [삼성카드    ]
+[16:20:28] InpCd      : [1104]
+[16:20:28] InpNm      : [삼성카드]
+[16:20:28] MchNo      : [65965927        ]
+[16:20:28] PtCardCd   : [  ]
+[16:20:28] PtCardNm   : [        ]
+[16:20:28] JukPoint   : [         ]
+[16:20:28] GayPoint   : [         ]
+[16:20:28] NujPoint   : [         ]
+[16:20:28] SaleRate   : [         ]
+[16:20:28] PtAuNo     : [                    ]
+[16:20:28] PtMchNo    : [               ]
+[16:20:28] PtAnswerCd : [    ]
+[16:20:28] PtMessage  : [                                                ]
+[16:20:28] DDCYN      : [1]
+[16:20:28] EDIYN      : [0]
+[16:20:28] CardType   : [1]
+[16:20:28] TrdKey     : [000001356107]
+[16:20:28] KeyRenewal : [  ]
+[16:20:28] 
+[16:20:28] LPR 11 Recv: LPR_NLPR_N
+[16:20:28] LPR 12 Recv: LPR_NLPR_N
+[16:20:33] LPR 11 Recv: LPR_N
+[16:20:33] LPR 12 Recv: LPR_N
+[16:20:35] Program Close
+[16:20:41] Program Start!
+[16:20:44] 근무시작: 근무자
+[16:20:44] Ping 시간 체크1-7451528
+[16:20:44] Ping 시간 체크2-7451528
+[16:20:44] Ping 시간 체크1-7451590
+[16:20:44] Ping 시간 체크2-7451590
+[16:20:44] 설치된 입구전광판이 없음!
+[16:20:44] 설치된 출구전광판이 없음!
+[16:20:44] 30분  101
+[16:20:44] 1시간  102
+[16:20:44] 2시간  103
+[16:20:44] 무료  104
+[16:20:44] 2시간50%  105
+[16:20:44] 30%  106
+[16:20:58] ApprVer    : [A1]
+[16:20:59] SvcType    : [DN]
+[16:20:59] TrdType    : [T1]
+[16:20:59] SndType    : [R]
+[16:20:59] TermID     : [0710000001]
+[16:21:00] TrdDate    : [20170614162129]
+[16:21:00] TrdNo      : [0000000001]
+[16:21:00] MchData    : [                    ]
+[16:21:00] AnsCode    : [0000]
+[16:21:01] Serial     : [1000000007          ]
+[16:21:01] Message    : [테스트 버전 입니다.                     ]
+[16:21:01] SftVer     : [07201]
+[16:21:01] ShpNm      : [한국신용카드결제(주)                    ]
+[16:21:01] BsnNo      : [2148631917]
+[16:21:02] PreNm      : [소재광              ]
+[16:21:02] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[16:21:02] ShpTel     : [0234153600     ]
+[16:21:04] LPR 11 Recv: 127.0.0.1
+[16:21:04] LPR 12 Recv: 127.0.0.1
+[16:21:05] LPR 11 Recv: LPR_N
+[16:21:05] LPR 12 Recv: LPR_N
+[16:21:06] LPR 11 Recv: LPR_N
+[16:21:06] LPR 12 Recv: LPR_N
+[16:21:08] Program Close
+[16:21:13] Program Start!
+[16:21:15] 근무시작: 근무자
+[16:21:15] Ping 시간 체크1-7482977
+[16:21:15] Ping 시간 체크2-7482977
+[16:21:15] Ping 시간 체크1-7483024
+[16:21:15] Ping 시간 체크2-7483024
+[16:21:15] 설치된 입구전광판이 없음!
+[16:21:15] 설치된 출구전광판이 없음!
+[16:21:15] 30분  101
+[16:21:15] 1시간  102
+[16:21:15] 2시간  103
+[16:21:15] 무료  104
+[16:21:15] 2시간50%  105
+[16:21:15] 30%  106
+[16:22:39] Program Start!
+[16:22:42] 근무시작: 근무자
+[16:22:42] Ping 시간 체크1-7570728
+[16:22:42] Ping 시간 체크2-7570744
+[16:22:42] Ping 시간 체크1-7570775
+[16:22:42] Ping 시간 체크2-7570790
+[16:22:42] 설치된 입구전광판이 없음!
+[16:22:42] 설치된 출구전광판이 없음!
+[16:22:42] 30분  101
+[16:22:42] 1시간  102
+[16:22:42] 2시간  103
+[16:22:42] 무료  104
+[16:22:42] 2시간50%  105
+[16:22:42] 30%  106
+[16:22:53] ApprVer    : [A1]
+[16:22:53] SvcType    : [DN]
+[16:22:53] TrdType    : [T1]
+[16:22:53] SndType    : [R]
+[16:22:53] TermID     : [0710000001]
+[16:22:53] TrdDate    : [20170614162328]
+[16:22:53] TrdNo      : [0000000001]
+[16:22:53] MchData    : [                    ]
+[16:22:53] AnsCode    : [0000]
+[16:22:53] Serial     : [1000000007          ]
+[16:22:53] Message    : [테스트 버전 입니다.                     ]
+[16:22:53] SftVer     : [07201]
+[16:22:53] ShpNm      : [한국신용카드결제(주)                    ]
+[16:22:53] BsnNo      : [2148631917]
+[16:22:53] PreNm      : [소재광              ]
+[16:22:53] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[16:22:53] ShpTel     : [0234153600     ]
+[16:22:53] LPR 11 Recv: 127.0.0.1
+[16:22:53] LPR 12 Recv: 127.0.0.1
+[16:22:54] LPR 11 Recv: LPR_N
+[16:22:54] LPR 12 Recv: LPR_N
+[16:22:56] LPR 12 Recv: LPR_N
+[16:22:56] LPR 11 Recv: LPR_N
+[16:22:56] Program Close
+[16:23:02] Program Start!
+[16:23:04] 근무시작: 근무자
+[16:23:04] Ping 시간 체크1-7593348
+[16:23:04] Ping 시간 체크2-7593348
+[16:23:04] Ping 시간 체크1-7593379
+[16:23:04] Ping 시간 체크2-7593379
+[16:23:04] 설치된 입구전광판이 없음!
+[16:23:04] 설치된 출구전광판이 없음!
+[16:23:04] 30분  101
+[16:23:04] 1시간  102
+[16:23:04] 2시간  103
+[16:23:04] 무료  104
+[16:23:04] 2시간50%  105
+[16:23:04] 30%  106

@@ -1,0 +1,233 @@
+[21:30:04] Program Start!
+[21:30:10] 근무시작: 근무자
+[21:30:10] 영수증프린터 포트오픈 에러: ie_BadId - Specified comport doesn't exist
+[21:30:10] Ping 시간 체크1-2342885
+[21:30:10] Ping 시간 체크2-2342885
+[21:30:10] Ping 시간 체크1-2342885
+[21:30:10] Ping 시간 체크2-2342901
+[21:30:10] 설치된 입구전광판이 없음!
+[21:30:10] 설치된 출구전광판이 없음!
+[21:30:10] 30분  101
+[21:30:10] 1시간  102
+[21:30:10] 2시간  103
+[21:30:10] 무료  104
+[21:30:10] 2시간50%  105
+[21:30:10] 30%  106
+[21:30:13] ApprVer    : [A1]
+[21:30:13] SvcType    : [DN]
+[21:30:13] TrdType    : [T1]
+[21:30:13] SndType    : [R]
+[21:30:13] TermID     : [0710000001]
+[21:30:13] TrdDate    : [20170621213026]
+[21:30:13] TrdNo      : [0000000001]
+[21:30:13] MchData    : [                    ]
+[21:30:13] AnsCode    : [0000]
+[21:30:13] Serial     : [1000000007          ]
+[21:30:13] Message    : [테스트 버전 입니다.                     ]
+[21:30:13] SftVer     : [07201]
+[21:30:13] ShpNm      : [한국신용카드결제(주)                    ]
+[21:30:13] BsnNo      : [2148631917]
+[21:30:13] PreNm      : [소재광              ]
+[21:30:13] ShpAdr     : [서울특별시 강남구 삼성동  159-1 트레이드타워 9    ]
+[21:30:13] ShpTel     : [0234153600     ]
+[21:30:14] InLpr1_SocketError: 10061
+[21:30:14] OutLpr1_SocketError: 10061
+[21:31:10] Ping 시간 체크1-2402899
+[21:31:10] Ping 시간 체크2-2402914
+[21:31:10] Ping 시간 체크1-2402914
+[21:31:10] Ping 시간 체크2-2402914
+[21:31:10] LPR 12 Recv: 127.0.0.1
+[21:31:10] LPR 11 Recv: 127.0.0.1
+[21:31:11] LPR 12 Recv: LPR_N
+[21:31:11] LPR 11 Recv: LPR_N
+[21:31:13] LPR 12 Recv: LPR_N
+[21:31:13] LPR 11 Recv: LPR_N
+[21:31:18] LPR 12 Recv: LPR_N
+[21:31:20] LPR 11 Recv: LPR_N
+[21:31:23] LPR 12 Recv: LPR_N
+[21:31:25] LPR 11 Recv: LPR_N
+[21:31:28] LPR 12 Recv: LPR_N
+[21:31:30] LPR 11 Recv: CH1#경기46로8862#O#\2017\06\21\CH1_20170621213129_경기46로8862.jpg
+[21:31:30] LPR Check: 경기46로8862, http://127.0.0.1:9080/MSImage/2017/06/21/CH1_20170621213129_경기46로8862.jpg, 1,,,0, 2017-06-21 21:31:29
+[21:31:30] File: \\127.0.0.1\MSImage\2017\06\21\CH1_20170621213129_경기46로8862.jpg
+[21:31:30] 일반차량: 경기46로8862, 
+[21:31:30] Ping 시간 체크1-2423163
+[21:31:30] Ping 시간 체크2-2423163
+[21:31:30] 입구차단기 Open
+[21:31:30] 일반차량입차: 경기46로8862, 
+[21:31:30] LPR 11 Recv: LPR_N
+[21:31:34] LPR 12 Recv: LPR_N
+[21:31:35] LPR 11 Recv: LPR_N
+[21:31:39] LPR 12 Recv: LPR_N
+[21:31:41] LPR 11 Recv: LPR_N
+[21:31:44] LPR 12 Recv: LPR_N
+[21:31:46] LPR 11 Recv: LPR_N
+[21:31:50] LPR 12 Recv: LPR_N
+[21:31:51] LPR 11 Recv: LPR_N
+[21:31:55] LPR 12 Recv: LPR_N
+[21:31:56] LPR 11 Recv: LPR_N
+[21:32:00] LPR 12 Recv: LPR_N
+[21:32:02] LPR 11 Recv: LPR_N
+[21:32:05] LPR 12 Recv: LPR_N
+[21:32:07] LPR 11 Recv: LPR_N
+[21:32:11] LPR 12 Recv: LPR_N
+[21:32:13] LPR 11 Recv: LPR_N
+[21:32:16] LPR 12 Recv: LPR_N
+[21:32:18] LPR 11 Recv: LPR_N
+[21:32:21] LPR 12 Recv: LPR_N
+[21:32:23] LPR 11 Recv: LPR_N
+[21:32:27] LPR 12 Recv: LPR_N
+[21:32:28] LPR 11 Recv: LPR_N
+[21:32:32] LPR 12 Recv: LPR_N
+[21:32:33] LPR 11 Recv: LPR_N
+[21:32:37] LPR 12 Recv: LPR_N
+[21:32:39] LPR 11 Recv: LPR_N
+[21:32:42] LPR 12 Recv: LPR_N
+[21:32:44] LPR 11 Recv: LPR_N
+[21:32:48] LPR 12 Recv: LPR_N
+[21:32:49] LPR 11 Recv: LPR_N
+[21:32:53] LPR 12 Recv: LPR_N
+[21:32:54] LPR 11 Recv: LPR_N
+[21:32:59] LPR 12 Recv: LPR_N
+[21:33:00] LPR 11 Recv: LPR_N
+[21:33:04] LPR 12 Recv: LPR_N
+[21:33:05] LPR 11 Recv: LPR_N
+[21:33:09] LPR 12 Recv: LPR_N
+[21:33:11] LPR 11 Recv: LPR_N
+[21:33:14] LPR 12 Recv: LPR_N
+[21:33:16] LPR 11 Recv: LPR_N
+[21:33:19] LPR 12 Recv: LPR_N
+[21:33:21] LPR 11 Recv: LPR_N
+[21:33:25] LPR 12 Recv: LPR_N
+[21:33:26] LPR 11 Recv: LPR_N
+[21:33:30] LPR 12 Recv: LPR_N
+[21:33:31] LPR 11 Recv: LPR_N
+[21:33:35] LPR 12 Recv: LPR_N
+[21:33:37] LPR 11 Recv: LPR_N
+[21:33:40] LPR 12 Recv: LPR_N
+[21:33:42] LPR 11 Recv: LPR_N
+[21:33:46] LPR 12 Recv: LPR_N
+[21:33:47] LPR 11 Recv: LPR_N
+[21:33:51] LPR 12 Recv: LPR_N
+[21:33:53] LPR 11 Recv: LPR_N
+[21:33:57] LPR 12 Recv: LPR_N
+[21:33:59] LPR 11 Recv: LPR_N
+[21:34:02] LPR 12 Recv: LPR_N
+[21:34:05] LPR 11 Recv: LPR_N
+[21:34:07] LPR 12 Recv: LPR_N
+[21:34:09] LPR 11 Recv: LPR_N
+[21:34:12] LPR 12 Recv: LPR_N
+[21:34:14] LPR 11 Recv: LPR_N
+[21:34:17] LPR 12 Recv: LPR_N
+[21:34:19] LPR 11 Recv: LPR_N
+[21:34:23] LPR 12 Recv: LPR_N
+[21:34:24] LPR 11 Recv: LPR_N
+[21:34:28] LPR 12 Recv: LPR_N
+[21:34:29] LPR 11 Recv: LPR_N
+[21:34:33] LPR 12 Recv: LPR_N
+[21:34:35] LPR 11 Recv: LPR_N
+[21:34:38] LPR 12 Recv: LPR_N
+[21:34:40] LPR 11 Recv: LPR_N
+[21:34:44] LPR 12 Recv: LPR_N
+[21:34:45] LPR 11 Recv: LPR_N
+[21:34:49] LPR 12 Recv: LPR_N
+[21:34:51] LPR 11 Recv: LPR_N
+[21:34:55] LPR 12 Recv: LPR_N
+[21:34:56] LPR 11 Recv: LPR_N
+[21:35:00] LPR 12 Recv: LPR_N
+[21:35:01] LPR 11 Recv: LPR_N
+[21:35:05] LPR 12 Recv: LPR_N
+[21:35:07] LPR 11 Recv: LPR_N
+[21:35:10] LPR 12 Recv: LPR_N
+[21:35:12] LPR 11 Recv: LPR_N
+[21:35:15] LPR 12 Recv: LPR_N
+[21:35:17] LPR 11 Recv: LPR_N
+[21:35:21] LPR 12 Recv: LPR_N
+[21:35:22] LPR 11 Recv: LPR_N
+[21:35:26] LPR 12 Recv: LPR_N
+[21:35:27] LPR 11 Recv: LPR_N
+[21:35:31] LPR 12 Recv: LPR_N
+[21:35:33] LPR 11 Recv: LPR_N
+[21:35:36] LPR 12 Recv: LPR_N
+[21:35:38] LPR 11 Recv: LPR_N
+[21:35:42] LPR 12 Recv: LPR_N
+[21:35:44] LPR 11 Recv: LPR_N
+[21:35:47] LPR 12 Recv: LPR_N
+[21:35:49] LPR 11 Recv: LPR_N
+[21:35:53] LPR 12 Recv: LPR_N
+[21:35:54] LPR 11 Recv: LPR_N
+[21:35:58] LPR 12 Recv: LPR_N
+[21:35:59] LPR 11 Recv: LPR_N
+[21:36:04] LPR 12 Recv: LPR_N
+[21:36:05] LPR 11 Recv: LPR_N
+[21:36:09] LPR 12 Recv: LPR_N
+[21:36:10] LPR 11 Recv: LPR_N
+[21:36:14] LPR 12 Recv: LPR_N
+[21:36:15] LPR 11 Recv: LPR_N
+[21:36:19] LPR 12 Recv: LPR_N
+[21:36:20] LPR 11 Recv: LPR_N
+[21:36:24] LPR 12 Recv: LPR_N
+[21:36:25] LPR 11 Recv: LPR_N
+[21:36:30] LPR 12 Recv: LPR_N
+[21:36:31] LPR 11 Recv: LPR_N
+[21:36:35] LPR 12 Recv: LPR_N
+[21:36:36] LPR 11 Recv: LPR_N
+[21:36:40] LPR 12 Recv: LPR_N
+[21:36:42] LPR 11 Recv: LPR_N
+[21:36:45] LPR 12 Recv: LPR_N
+[21:36:47] LPR 11 Recv: LPR_N
+[21:36:51] LPR 12 Recv: LPR_N
+[21:36:52] LPR 11 Recv: LPR_N
+[21:36:56] LPR 12 Recv: LPR_N
+[21:36:57] LPR 11 Recv: LPR_N
+[21:37:02] LPR 12 Recv: LPR_N
+[21:37:03] LPR 11 Recv: LPR_N
+[21:37:07] LPR 12 Recv: LPR_N
+[21:37:08] LPR 11 Recv: LPR_N
+[21:37:12] LPR 12 Recv: LPR_N
+[21:37:13] LPR 11 Recv: LPR_N
+[21:37:17] LPR 12 Recv: LPR_N
+[21:37:18] LPR 11 Recv: LPR_N
+[21:37:22] LPR 12 Recv: LPR_N
+[21:37:23] LPR 11 Recv: LPR_N
+[21:37:28] LPR 12 Recv: LPR_N
+[21:37:29] LPR 11 Recv: LPR_N
+[21:37:33] LPR 12 Recv: LPR_N
+[21:37:34] LPR 11 Recv: LPR_N
+[21:37:38] LPR 12 Recv: LPR_N
+[21:37:40] LPR 11 Recv: LPR_N
+[21:37:44] LPR 12 Recv: LPR_N
+[21:37:45] LPR 11 Recv: LPR_N
+[21:37:49] LPR 12 Recv: LPR_N
+[21:37:50] LPR 11 Recv: LPR_N
+[21:37:54] LPR 12 Recv: LPR_N
+[21:37:55] LPR 11 Recv: LPR_N
+[21:38:00] LPR 12 Recv: LPR_N
+[21:38:01] LPR 11 Recv: LPR_N
+[21:38:05] LPR 12 Recv: LPR_N
+[21:38:06] LPR 11 Recv: LPR_N
+[21:38:10] LPR 12 Recv: LPR_N
+[21:38:11] LPR 11 Recv: LPR_N
+[21:38:15] LPR 12 Recv: LPR_N
+[21:38:16] LPR 11 Recv: LPR_N
+[21:38:20] LPR 12 Recv: LPR_N
+[21:38:21] LPR 11 Recv: LPR_N
+[21:38:26] LPR 12 Recv: LPR_N
+[21:38:27] LPR 11 Recv: LPR_N
+[21:38:31] LPR 12 Recv: LPR_N
+[21:38:32] LPR 11 Recv: LPR_N
+[21:38:37] LPR 12 Recv: LPR_N
+[21:38:38] LPR 11 Recv: LPR_N
+[21:38:42] LPR 12 Recv: LPR_N
+[21:38:43] LPR 11 Recv: LPR_N
+[21:38:47] LPR 12 Recv: LPR_N
+[21:38:48] LPR 11 Recv: LPR_N
+[21:38:52] LPR 12 Recv: LPR_N
+[21:38:53] LPR 11 Recv: LPR_N
+[21:38:58] LPR 12 Recv: LPR_N
+[21:38:59] LPR 11 Recv: LPR_N
+[21:39:03] LPR 12 Recv: LPR_N
+[21:39:04] LPR 11 Recv: LPR_N
+[21:39:08] LPR 12 Recv: LPR_N
+[21:39:09] LPR 11 Recv: LPR_N
+[21:39:11] Program Close

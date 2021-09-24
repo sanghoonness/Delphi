@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.947,D:\프로\Delphi\0. 2017유인요금\대구평화시장\요금계산기\소스\Koces.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.dfm=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main2.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.dfm=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\MainNew.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dproj,C:\Documents and Settings\고명균\My Documents\RAD Studio\Projects\Project1.dproj=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Nexpa_FC.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.297,=D:\프로\Delphi\0. 2017유인요금\경주임시공영주차장\요금계산기\소스\KocesLib.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.983,=D:\프로\Delphi\0. 2017유인요금\경주임시공영주차장\요금계산기\소스\Cancel_Coces.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.dfm=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\PaySelect.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main2.dfm=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main2.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.240,D:\프로\Delphi\0. 2017유인요금\대구평화시장\요금계산기\소스\Cancel_Coces.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.237,=D:\프로\Delphi\0. 2017유인요금\경주임시공영주차장\요금계산기\소스\Credit_Coces.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.241,D:\프로\Delphi\0. 2017유인요금\대구평화시장\요금계산기\소스\Credit_Coces.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\Documents and Settings\고명균\My Documents\RAD Studio\Projects\Unit1.pas=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.186,=D:\프로\Delphi\0. 2017유인요금\경주임시공영주차장\요금계산기\소스\CashSelect.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dproj,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Nexpa_FC.dproj=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Nexpa_FC.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.099,D:\프로\Delphi\0. 2017유인요금\대구평화시장\요금계산기\소스\KocesLib.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.259,=D:\프로\Delphi\0. 2017유인요금\경주임시공영주차장\요금계산기\소스\Koces.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.pas=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.pas=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\MainNew.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.pas=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\PaySelect.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\Documents and Settings\고명균\My Documents\RAD Studio\Projects\Unit1.dfm=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main.dfm=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.034,=D:\프로\Delphi\0. 2017유인요금\경주임시공영주차장\요금계산기\소스\Cash_Coces.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.945,=D:\프로\Delphi\2016년_유인요금\E마트\요금계산기\소스\ClosingPrint.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.061,=D:\프로\Delphi\2016년_유인요금\E마트\요금계산기\소스\ReceiptPrt.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.240,D:\프로\Delphi\0. 2017유인요금\대구평화시장\요금계산기\소스\Cash_Coces.pas=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Tables.pas"/>
+    <File Path="Tables.dfm"/>
+    <File Path="Global.pas"/>
+    <File Path="Login.pas"/>
+    <File Path="Login.dfm"/>
+    <File Path="Progress.pas"/>
+    <File Path="Progress.dfm"/>
+    <File Path="Setup.pas"/>
+    <File Path="Setup.dfm"/>
+    <File Path="UnitInfo.pas"/>
+    <File Path="UnitInfo.dfm"/>
+    <File Path="Closing.pas"/>
+    <File Path="Closing.dfm"/>
+    <File Path="FeeDetail.pas"/>
+    <File Path="FeeDetail.dfm"/>
+    <File Path="InDspSet.pas"/>
+    <File Path="InDspSet.dfm"/>
+    <File Path="DspSet.pas"/>
+    <File Path="DspSet.dfm"/>
+    <File Path="MainNew.pas"/>
+    <File Path="MainNew.dfm"/>
+    <File Path="PaySelect.pas"/>
+    <File Path="PaySelect.dfm"/>
+    <File Path="ClosingPrint.pas"/>
+    <File Path="ClosingPrint.dfm"/>
+    <File Path="ReceiptPrt.pas"/>
+    <File Path="ReceiptPrt.dfm"/>
+    <File Path="CashSelect.pas"/>
+    <File Path="CashSelect.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

@@ -1,0 +1,1010 @@
+[13:58:50] Program Start!
+[13:59:05] Program Close
+[15:10:11] Program Start!
+[15:10:13] 근무시작: 배은화
+[15:10:13] 설치된 영수증프린터가 없음!
+[15:10:13] 설치된 입구 LPR이 없음!
+[15:10:13] 설치된 출구 LPR이 없음!
+[15:10:13] 설치된 입구전광판이 없음!
+[15:10:13] 설치된 출구전광판이 없음!
+[15:10:25] Program Close
+[15:10:29] Program Start!
+[15:10:37] 근무시작: 시스템관리자
+[15:10:37] 설치된 영수증프린터가 없음!
+[15:10:37] 설치된 입구 LPR이 없음!
+[15:10:37] 설치된 출구 LPR이 없음!
+[15:10:37] 설치된 입구전광판이 없음!
+[15:10:37] 설치된 출구전광판이 없음!
+[15:14:42] Program Close
+[15:14:44] Program Start!
+[15:28:42] Program Close
+[15:28:45] Program Start!
+[15:28:49] 근무시작: 배은화
+[15:28:49] 영수증프린터 포트오픈 에러: ie_BadId - Specified comport doesn't exist
+[15:28:49] Ping 시간 체크1-688551234
+[15:28:49] Ping 시간 체크2-688551250
+[15:28:49] Ping 시간 체크1-688551250
+[15:28:49] Ping 시간 체크2-688551265
+[15:28:49] Ping 시간 체크1-688551281
+[15:28:49] Ping 시간 체크2-688551296
+[15:28:49] Ping 시간 체크1-688551296
+[15:28:49] Ping 시간 체크2-688551312
+[15:28:49] LPR11 Recv: 172.16.83.1
+[15:28:49] LPR12 Recv: 172.16.83.1
+[15:28:50] LPR11 Recv: LPR_N
+[15:28:50] LPR12 Recv: LPR_N
+[15:28:53] LPR12 Recv: LPR_N
+[15:28:55] LPR11 Recv: LPR_N
+[15:28:58] LPR12 Recv: LPR_N
+[15:29:00] LPR11 Recv: LPR_N
+[15:29:04] LPR12 Recv: LPR_N
+[15:29:06] LPR11 Recv: LPR_N
+[15:29:09] LPR12 Recv: LPR_N
+[15:29:10] Ping 시간 체크1-688572265
+[15:29:10] Ping 시간 체크2-688572265
+[15:29:11] LPR11 Recv: LPR_N
+[15:29:14] LPR12 Recv: LPR_N
+[15:29:16] LPR11 Recv: LPR_N
+[15:29:20] LPR12 Recv: LPR_N
+[15:29:22] LPR11 Recv: LPR_N
+[15:29:25] LPR12 Recv: LPR_N
+[15:29:26] Ping 시간 체크1-688588609
+[15:29:26] Ping 시간 체크2-688588609
+[15:29:27] LPR11 Recv: LPR_N
+[15:29:30] LPR12 Recv: LPR_N
+[15:29:32] LPR11 Recv: LPR_N
+[15:29:35] LPR12 Recv: LPR_N
+[15:29:36] Program Close
+[15:31:20] Program Start!
+[15:31:22] 근무시작: 배은화
+[15:31:22] 영수증프린터 포트오픈 에러: ie_BadId - Specified comport doesn't exist
+[15:31:22] Ping 시간 체크1-688704187
+[15:31:22] Ping 시간 체크2-688704203
+[15:31:22] Ping 시간 체크1-688704218
+[15:31:22] Ping 시간 체크2-688704218
+[15:31:22] Ping 시간 체크1-688704234
+[15:31:22] Ping 시간 체크2-688704234
+[15:31:22] Ping 시간 체크1-688704250
+[15:31:22] Ping 시간 체크2-688704265
+[15:31:22] LPR11 Recv: 172.16.83.1LPR_N
+[15:31:22] LPR Check: ,http://172.16.66.33:9080/MSImage172.16.83.1LPR_N,3,,,0, N   -  -     :  :  
+[15:31:22] 이미지저장폴더 생성실패: C:\LPRImage\N   \  \  \11
+[15:31:22] File: \\172.16.66.33\MSImage172.16.83.1LPR_N
+[15:31:22] csInLpr1Read: qryInLpr1Proc: Cannot perform this operation on a closed dataset
+[15:31:22] LPR12 Recv: 172.16.83.1
+[15:31:23] LPR11 Recv: LPR_N
+[15:31:24] LPR12 Recv: LPR_N
+[15:31:26] LPR12 Recv: LPR_N
+[15:31:26] Ping 시간 체크1-688708046
+[15:31:26] Ping 시간 체크2-688708062
+[15:31:28] LPR11 Recv: LPR_N
+[15:31:30] Ping 시간 체크1-688712250
+[15:31:30] Ping 시간 체크2-688712265
+[15:31:31] LPR12 Recv: LPR_N
+[15:31:33] LPR11 Recv: LPR_N
+[15:31:33] Ping 시간 체크1-688715046
+[15:31:33] Ping 시간 체크2-688715062
+[15:31:36] LPR12 Recv: LPR_N
+[15:31:37] Ping 시간 체크1-688719218
+[15:31:37] Ping 시간 체크2-688719234
+[15:31:38] LPR11 Recv: LPR_N
+[15:31:40] Ping 시간 체크1-688721781
+[15:31:40] Ping 시간 체크2-688721796
+[15:31:41] LPR12 Recv: LPR_N
+[15:31:43] LPR11 Recv: LPR_N
+[15:31:45] Ping 시간 체크1-688727546
+[15:31:45] Ping 시간 체크2-688727546
+[15:31:47] LPR12 Recv: LPR_N
+[15:31:49] LPR11 Recv: LPR_N
+[15:31:50] Ping 시간 체크1-688732015
+[15:31:50] Ping 시간 체크2-688732015
+[15:31:51] Ping 시간 체크1-688733578
+[15:31:51] Ping 시간 체크2-688733593
+[15:31:52] LPR12 Recv: LPR_N
+[15:31:54] LPR11 Recv: LPR_N
+[15:31:57] LPR12 Recv: LPR_N
+[15:31:59] LPR11 Recv: LPR_N
+[15:32:02] LPR12 Recv: LPR_N
+[15:32:04] LPR11 Recv: LPR_N
+[15:32:08] LPR12 Recv: LPR_N
+[15:32:09] LPR11 Recv: LPR_N
+[15:32:13] LPR12 Recv: LPR_N
+[15:32:15] LPR11 Recv: LPR_N
+[15:32:18] LPR12 Recv: LPR_N
+[15:32:20] LPR11 Recv: LPR_N
+[15:32:23] LPR12 Recv: LPR_N
+[15:32:25] LPR11 Recv: LPR_N
+[15:32:28] LPR12 Recv: LPR_N
+[15:32:30] LPR11 Recv: LPR_N
+[15:32:34] LPR12 Recv: LPR_N
+[15:32:36] LPR11 Recv: LPR_N
+[15:32:39] LPR12 Recv: LPR_N
+[15:32:41] LPR11 Recv: LPR_N
+[15:32:44] LPR12 Recv: LPR_N
+[15:32:46] LPR11 Recv: LPR_N
+[15:32:49] LPR12 Recv: LPR_N
+[15:32:51] LPR11 Recv: LPR_N
+[15:32:55] LPR12 Recv: LPR_N
+[15:32:57] LPR11 Recv: LPR_N
+[15:33:00] LPR12 Recv: LPR_N
+[15:33:02] LPR11 Recv: LPR_N
+[15:33:05] LPR12 Recv: LPR_N
+[15:33:07] LPR11 Recv: LPR_N
+[15:33:10] LPR12 Recv: LPR_N
+[15:33:13] LPR11 Recv: LPR_N
+[15:33:16] LPR12 Recv: LPR_N
+[15:33:18] LPR11 Recv: LPR_N
+[15:33:21] LPR12 Recv: LPR_N
+[15:33:23] LPR11 Recv: LPR_N
+[15:33:26] LPR12 Recv: LPR_N
+[15:33:28] LPR11 Recv: LPR_N
+[15:33:32] LPR12 Recv: LPR_N
+[15:33:34] LPR11 Recv: LPR_N
+[15:33:37] LPR12 Recv: LPR_N
+[15:33:39] LPR11 Recv: LPR_N
+[15:33:42] LPR12 Recv: LPR_N
+[15:33:44] LPR11 Recv: LPR_N
+[15:33:47] LPR12 Recv: LPR_N
+[15:33:49] LPR11 Recv: LPR_N
+[15:33:53] LPR12 Recv: LPR_N
+[15:33:55] LPR11 Recv: LPR_N
+[15:33:58] LPR12 Recv: LPR_N
+[15:34:00] LPR11 Recv: LPR_N
+[15:34:03] Program Close
+[16:11:53] Program Start!
+[16:11:55] 근무시작: 배은화
+[16:11:55] 영수증프린터 포트오픈 에러: ie_BadId - Specified comport doesn't exist
+[16:11:55] Ping 시간 체크1-691137000
+[16:11:55] Ping 시간 체크2-691137015
+[16:11:55] Ping 시간 체크1-691137015
+[16:11:55] Ping 시간 체크2-691137031
+[16:11:55] Ping 시간 체크1-691137046
+[16:11:55] Ping 시간 체크2-691137062
+[16:11:55] Ping 시간 체크1-691137062
+[16:11:55] Ping 시간 체크2-691137078
+[16:11:55] LPR11 Recv: 172.16.83.1
+[16:11:55] LPR12 Recv: 172.16.83.1
+[16:11:56] LPR11 Recv: LPR_N
+[16:11:57] LPR12 Recv: LPR_N
+[16:11:58] LPR11 Recv: LPR_N
+[16:11:59] Ping 시간 체크1-691141640
+[16:11:59] Ping 시간 체크2-691141640
+[16:12:00] Ping 시간 체크1-691141828
+[16:12:00] Ping 시간 체크2-691141828
+[16:12:00] 출구차단기 Open
+[16:12:00] Ping 시간 체크1-691141828
+[16:12:00] Ping 시간 체크2-691141843
+[16:12:02] LPR12 Recv: LPR_N
+[16:12:03] LPR11 Recv: LPR_N
+[16:12:04] Ping 시간 체크1-691145828
+[16:12:04] Ping 시간 체크2-691145828
+[16:12:07] LPR12 Recv: LPR_N
+[16:12:08] LPR11 Recv: LPR_N
+[16:12:11] Ping 시간 체크1-691153265
+[16:12:11] Ping 시간 체크2-691153281
+[16:12:13] LPR12 Recv: LPR_N
+[16:12:13] Ping 시간 체크1-691155468
+[16:12:13] Ping 시간 체크2-691155468
+[16:12:14] LPR11 Recv: LPR_N
+[16:12:14] Ping 시간 체크1-691156359
+[16:12:14] Ping 시간 체크2-691156359
+[16:12:16] Ping 시간 체크1-691157921
+[16:12:16] Ping 시간 체크2-691157921
+[16:12:16] OutDsp1SocketError: 10060
+[16:12:18] LPR12 Recv: LPR_N
+[16:12:18] Ping 시간 체크1-691160125
+[16:12:18] Ping 시간 체크2-691160140
+[16:12:19] Ping 시간 체크1-691160953
+[16:12:19] Ping 시간 체크2-691160953
+[16:12:19] LPR11 Recv: LPR_N
+[16:12:20] Ping 시간 체크1-691161921
+[16:12:20] Ping 시간 체크2-691161921
+[16:12:20] Ping 시간 체크1-691162625
+[16:12:20] Ping 시간 체크2-691162625
+[16:12:22] Ping 시간 체크1-691163750
+[16:12:22] Ping 시간 체크2-691163750
+[16:12:23] LPR12 Recv: LPR_N
+[16:12:24] LPR11 Recv: LPR_N
+[16:12:26] Ping 시간 체크1-691168312
+[16:12:26] Ping 시간 체크2-691168312
+[16:12:28] LPR12 Recv: LPR_N
+[16:12:29] LPR12 Recv: CH1#31로6819#N#\2014\09\13\CH1_20140913161153_31로6819.jpg
+[16:12:29] LPR Check: 31로6819,http://172.16.66.34:9080/MSImage/2014/09/13/CH1_20140913161153_31로6819.jpg,1,,,0, 2014-09-13 16:11:53
+[16:12:29] File: \\172.16.66.34\MSImage\2014\09\13\CH1_20140913161153_31로6819.jpg
+[16:12:29] 일반차량: 31로6819, 
+[16:12:29] In Image File: 66.33\MSImage\2014\09\05\CH1_20140905093920_31로6819.jpg
+[16:12:29] Ping 시간 체크1-691171140
+[16:12:29] Ping 시간 체크2-691171156
+[16:12:29] 입차 이미지 File 없음: 66.33\MSImage\2014\09\05\CH1_20140905093920_31로6819.jpg
+[16:12:29] Out Image File: \\172.16.66.34\MSImage\2014\09\13\CH1_20140913161153_31로6819.jpg
+[16:12:29] Ping 시간 체크1-691171171
+[16:12:29] Ping 시간 체크2-691171171
+[16:12:29] Ping 시간 체크1-691171562
+[16:12:29] Ping 시간 체크2-691171562
+[16:12:29] 일반차량출차: 31로6819, 
+[16:12:29] LPR11 Recv: LPR_N
+[16:12:34] LPR12 Recv: LPR_N
+[16:12:34] LPR11 Recv: LPR_N
+[16:12:39] LPR12 Recv: LPR_N
+[16:12:40] LPR11 Recv: LPR_N
+[16:12:44] LPR12 Recv: LPR_N
+[16:12:45] LPR11 Recv: LPR_N
+[16:12:49] LPR12 Recv: LPR_N
+[16:12:50] Program Close
+[16:53:31] Program Start!
+[16:53:33] 근무시작: 배은화
+[16:53:33] 영수증프린터 포트오픈 에러: ie_BadId - Specified comport doesn't exist
+[16:53:33] Ping 시간 체크1-693634859
+[16:53:33] Ping 시간 체크2-693634875
+[16:53:33] Ping 시간 체크1-693634875
+[16:53:33] Ping 시간 체크2-693634890
+[16:53:33] Ping 시간 체크1-693634890
+[16:53:33] Ping 시간 체크2-693634906
+[16:53:33] Ping 시간 체크1-693634906
+[16:53:33] Ping 시간 체크2-693634921
+[16:53:33] LPR11 Recv: 172.16.83.1
+[16:53:33] LPR12 Recv: 172.16.83.1
+[16:53:34] LPR12 Recv: LPR_N
+[16:53:34] LPR11 Recv: LPR_R
+[16:53:34] 시간동기화 전송
+[16:53:36] LPR12 Recv: LPR_N
+[16:53:37] Program Close
+[16:54:12] Program Start!
+[16:54:14] 근무시작: 배은화
+[16:54:14] 영수증프린터 포트오픈 에러: ie_BadId - Specified comport doesn't exist
+[16:54:14] Ping 시간 체크1-693676093
+[16:54:14] Ping 시간 체크2-693676109
+[16:54:14] Ping 시간 체크1-693676109
+[16:54:14] Ping 시간 체크2-693676109
+[16:54:14] Ping 시간 체크1-693676125
+[16:54:14] Ping 시간 체크2-693676125
+[16:54:14] Ping 시간 체크1-693676125
+[16:54:14] Ping 시간 체크2-693676140
+[16:54:14] LPR12 Recv: 172.16.83.1
+[16:54:14] LPR11 Recv: 172.16.83.1
+[16:54:15] LPR11 Recv: LPR_R
+[16:54:15] 시간동기화 전송
+[16:54:15] LPR12 Recv: LPR_N
+[16:54:17] LPR12 Recv: LPR_N
+[16:54:18] Ping 시간 체크1-693680406
+[16:54:18] Ping 시간 체크2-693680421
+[16:54:23] LPR12 Recv: LPR_N
+[16:54:28] LPR12 Recv: LPR_N
+[16:54:29] Program Close
+[16:54:35] Program Start!
+[16:54:36] 근무시작: 배은화
+[16:54:36] 영수증프린터 포트오픈 에러: ie_BadId - Specified comport doesn't exist
+[16:54:36] Ping 시간 체크1-693698671
+[16:54:36] Ping 시간 체크2-693698687
+[16:54:36] Ping 시간 체크1-693698687
+[16:54:36] Ping 시간 체크2-693698687
+[16:54:36] Ping 시간 체크1-693698703
+[16:54:36] Ping 시간 체크2-693698703
+[16:54:36] Ping 시간 체크1-693698703
+[16:54:36] Ping 시간 체크2-693698718
+[16:54:37] LPR11 Recv: 172.16.83.1
+[16:54:37] LPR12 Recv: 172.16.83.1
+[16:54:37] LPR11 Recv: LPR_R
+[16:54:37] 시간동기화 전송
+[16:54:37] LPR12 Recv: LPR_N
+[16:54:38] LPR12 Recv: LPR_N
+[16:54:41] Ping 시간 체크1-693703500
+[16:54:41] Ping 시간 체크2-693703515
+[16:54:44] LPR12 Recv: LPR_N
+[16:54:45] Ping 시간 체크1-693707484
+[16:54:45] Ping 시간 체크2-693707484
+[16:54:47] Ping 시간 체크1-693709703
+[16:54:47] Ping 시간 체크2-693709703
+[16:54:49] Ping 시간 체크1-693711140
+[16:54:49] Ping 시간 체크2-693711156
+[16:54:49] LPR12 Recv: LPR_N
+[16:54:50] Ping 시간 체크1-693711921
+[16:54:50] Ping 시간 체크2-693711921
+[16:54:50] Ping 시간 체크1-693712687
+[16:54:50] Ping 시간 체크2-693712687
+[16:54:51] Ping 시간 체크1-693713140
+[16:54:51] Ping 시간 체크2-693713156
+[16:54:55] LPR12 Recv: LPR_N
+[16:55:00] LPR12 Recv: LPR_N
+[16:55:05] LPR12 Recv: LPR_N
+[16:55:10] LPR12 Recv: LPR_N
+[16:55:15] LPR12 Recv: LPR_N
+[16:55:21] LPR12 Recv: LPR_N
+[16:55:26] LPR12 Recv: LPR_N
+[16:55:31] LPR12 Recv: LPR_N
+[16:55:36] LPR12 Recv: LPR_N
+[16:55:37] Ping 시간 체크1-693759609
+[16:55:37] Ping 시간 체크2-693759609
+[16:55:37] 11번 LPR OK 전송
+[16:55:38] Program Close
+[16:55:57] Program Start!
+[16:56:00] Program Close
+[16:56:09] Program Start!
+[16:56:12] 근무시작: 배은화
+[16:56:15] 영수증프린터 포트오픈 에러: ie_BadId - Specified comport doesn't exist
+[16:56:15] Ping 시간 체크1-693797531
+[16:56:15] Ping 시간 체크2-693797546
+[16:56:15] Ping 시간 체크1-693797625
+[16:56:15] Ping 시간 체크2-693797625
+[16:56:15] Ping 시간 체크1-693797625
+[16:56:15] Ping 시간 체크2-693797640
+[16:56:15] Ping 시간 체크1-693797640
+[16:56:15] Ping 시간 체크2-693797640
+[16:56:16] LPR11 Recv: 172.16.83.1
+[16:56:16] LPR12 Recv: 172.16.83.1
+[16:56:16] LPR12 Recv: LPR_N
+[16:56:17] LPR11 Recv: LPR_R
+[16:56:17] 시간동기화 전송
+[16:56:18] LPR12 Recv: LPR_N
+[16:56:23] LPR12 Recv: LPR_N
+[16:56:25] Ping 시간 체크1-693807421
+[16:56:25] Ping 시간 체크2-693807421
+[16:57:38] Program Start!
+[16:57:41] 근무시작: 배은화
+[16:57:41] 영수증프린터 포트오픈 에러: ie_BadId - Specified comport doesn't exist
+[16:57:41] Ping 시간 체크1-693882796
+[16:57:41] Ping 시간 체크2-693882812
+[16:57:41] Ping 시간 체크1-693882812
+[16:57:41] Ping 시간 체크2-693882812
+[16:57:41] Ping 시간 체크1-693882828
+[16:57:41] Ping 시간 체크2-693882828
+[16:57:41] Ping 시간 체크1-693882828
+[16:57:41] Ping 시간 체크2-693882843
+[16:57:41] LPR12 Recv: 172.16.83.1
+[16:57:41] LPR11 Recv: 172.16.83.1
+[16:57:42] LPR11 Recv: LPR_R
+[16:57:42] 시간동기화 전송
+[16:57:42] LPR12 Recv: LPR_N
+[16:57:48] LPR12 Recv: LPR_N
+[16:57:53] LPR12 Recv: LPR_N
+[16:57:58] LPR12 Recv: LPR_N
+[16:58:03] LPR12 Recv: LPR_N
+[16:58:08] LPR12 Recv: LPR_N
+[16:58:14] LPR12 Recv: LPR_N
+[16:58:19] LPR12 Recv: LPR_N
+[16:58:24] LPR12 Recv: LPR_N
+[16:58:30] LPR12 Recv: LPR_N
+[16:58:35] LPR12 Recv: LPR_N
+[16:58:40] LPR12 Recv: LPR_N
+[16:58:42] Ping 시간 체크1-693944375
+[16:58:42] Ping 시간 체크2-693944390
+[16:58:42] 11번 LPR OK 전송
+[16:58:46] LPR12 Recv: LPR_N
+[16:58:51] LPR12 Recv: LPR_N
+[16:58:56] LPR12 Recv: LPR_N
+[16:59:01] LPR12 Recv: LPR_N
+[16:59:06] LPR12 Recv: LPR_N
+[16:59:12] LPR12 Recv: LPR_N
+[16:59:17] LPR12 Recv: LPR_N
+[16:59:22] LPR12 Recv: LPR_N
+[16:59:27] LPR12 Recv: LPR_N
+[16:59:33] LPR12 Recv: LPR_N
+[16:59:38] LPR12 Recv: LPR_N
+[16:59:42] Ping 시간 체크1-694004375
+[16:59:42] Ping 시간 체크2-694004375
+[16:59:42] 11번 LPR OK 전송
+[16:59:44] LPR12 Recv: LPR_N
+[16:59:49] LPR12 Recv: LPR_N
+[16:59:54] LPR12 Recv: LPR_N
+[16:59:59] LPR12 Recv: LPR_N
+[17:00:04] LPR12 Recv: LPR_N
+[17:00:10] LPR12 Recv: LPR_N
+[17:00:15] LPR12 Recv: LPR_N
+[17:00:20] LPR12 Recv: LPR_N
+[17:00:25] LPR12 Recv: LPR_N
+[17:00:31] LPR12 Recv: LPR_N
+[17:00:36] LPR12 Recv: LPR_N
+[17:00:41] LPR12 Recv: LPR_N
+[17:00:42] Ping 시간 체크1-694064375
+[17:00:42] Ping 시간 체크2-694064375
+[17:00:42] 11번 LPR OK 전송
+[17:00:46] LPR12 Recv: LPR_N
+[17:00:47] Ping 시간 체크1-694069421
+[17:00:47] Ping 시간 체크2-694069421
+[17:00:50] Ping 시간 체크1-694072218
+[17:00:50] Ping 시간 체크2-694072234
+[17:00:51] Ping 시간 체크1-694072953
+[17:00:51] Ping 시간 체크2-694072953
+[17:00:51] 출구차단기 Open
+[17:00:51] Ping 시간 체크1-694072953
+[17:00:51] Ping 시간 체크2-694072968
+[17:00:52] LPR12 Recv: LPR_N
+[17:00:57] LPR12 Recv: LPR_N
+[17:01:02] LPR12 Recv: LPR_N
+[17:01:07] LPR12 Recv: LPR_N
+[17:01:09] Ping 시간 체크1-694091718
+[17:01:09] Ping 시간 체크2-694091718
+[17:01:12] LPR12 Recv: LPR_N
+[17:01:15] Ping 시간 체크1-694097593
+[17:01:15] Ping 시간 체크2-694097593
+[17:01:18] LPR12 Recv: LPR_N
+[17:01:23] LPR12 Recv: LPR_N
+[17:01:24] Ping 시간 체크1-694106484
+[17:01:24] Ping 시간 체크2-694106500
+[17:01:28] LPR12 Recv: LPR_N
+[17:01:32] Ping 시간 체크1-694114578
+[17:01:32] Ping 시간 체크2-694114578
+[17:01:33] Ping 시간 체크1-694115453
+[17:01:33] Ping 시간 체크2-694115468
+[17:01:33] 출구차단기 Open
+[17:01:34] LPR12 Recv: LPR_N
+[17:01:39] LPR12 Recv: LPR_N
+[17:01:42] Ping 시간 체크1-694124375
+[17:01:42] Ping 시간 체크2-694124375
+[17:01:42] 11번 LPR OK 전송
+[17:01:44] LPR12 Recv: LPR_N
+[17:01:50] LPR12 Recv: LPR_N
+[17:01:55] LPR12 Recv: LPR_N
+[17:02:00] LPR12 Recv: LPR_N
+[17:02:05] LPR12 Recv: LPR_N
+[17:02:10] LPR12 Recv: LPR_N
+[17:02:16] LPR12 Recv: LPR_N
+[17:02:21] LPR12 Recv: LPR_N
+[17:02:26] LPR12 Recv: LPR_N
+[17:02:31] LPR12 Recv: LPR_N
+[17:02:37] LPR12 Recv: LPR_N
+[17:02:42] LPR12 Recv: LPR_N
+[17:02:42] Ping 시간 체크1-694184375
+[17:02:42] Ping 시간 체크2-694184375
+[17:02:42] 11번 LPR OK 전송
+[17:02:47] LPR12 Recv: LPR_N
+[17:02:52] LPR12 Recv: LPR_N
+[17:02:57] LPR12 Recv: LPR_N
+[17:03:03] LPR12 Recv: LPR_N
+[17:03:08] LPR12 Recv: LPR_N
+[17:03:13] LPR12 Recv: LPR_N
+[17:03:18] LPR12 Recv: LPR_N
+[17:03:24] LPR12 Recv: LPR_N
+[17:03:29] LPR12 Recv: LPR_N
+[17:03:35] LPR12 Recv: LPR_N
+[17:03:40] LPR12 Recv: LPR_N
+[17:03:42] Ping 시간 체크1-694244375
+[17:03:42] Ping 시간 체크2-694244375
+[17:03:42] 11번 LPR OK 전송
+[17:03:45] LPR12 Recv: LPR_N
+[17:03:50] LPR12 Recv: LPR_N
+[17:03:55] LPR12 Recv: LPR_N
+[17:04:01] LPR12 Recv: LPR_N
+[17:04:06] LPR12 Recv: LPR_N
+[17:04:11] LPR12 Recv: LPR_N
+[17:04:16] LPR12 Recv: LPR_N
+[17:04:22] LPR12 Recv: LPR_N
+[17:04:27] LPR12 Recv: LPR_N
+[17:04:32] LPR12 Recv: LPR_N
+[17:04:37] LPR12 Recv: LPR_N
+[17:04:42] Ping 시간 체크1-694304375
+[17:04:42] Ping 시간 체크2-694304375
+[17:04:42] 11번 LPR OK 전송
+[17:04:43] LPR12 Recv: LPR_N
+[17:04:48] LPR12 Recv: LPR_N
+[17:04:53] LPR12 Recv: LPR_N
+[17:04:58] LPR12 Recv: LPR_N
+[17:05:03] LPR12 Recv: LPR_N
+[17:05:09] LPR12 Recv: LPR_N
+[17:05:14] LPR12 Recv: LPR_N
+[17:05:20] LPR12 Recv: LPR_N
+[17:05:25] LPR12 Recv: LPR_N
+[17:05:30] LPR12 Recv: LPR_N
+[17:05:35] LPR12 Recv: LPR_N
+[17:05:41] LPR12 Recv: LPR_N
+[17:05:42] Ping 시간 체크1-694364375
+[17:05:42] Ping 시간 체크2-694364390
+[17:05:42] 11번 LPR OK 전송
+[17:05:46] LPR12 Recv: LPR_N
+[17:05:51] LPR12 Recv: LPR_N
+[17:05:56] LPR12 Recv: LPR_N
+[17:06:01] LPR12 Recv: LPR_N
+[17:06:07] LPR12 Recv: LPR_N
+[17:06:12] LPR12 Recv: LPR_N
+[17:06:17] LPR12 Recv: LPR_N
+[17:06:22] LPR12 Recv: LPR_N
+[17:06:28] LPR12 Recv: LPR_N
+[17:06:33] LPR12 Recv: LPR_N
+[17:06:38] LPR12 Recv: LPR_N
+[17:06:42] Ping 시간 체크1-694424375
+[17:06:42] Ping 시간 체크2-694424375
+[17:06:42] 11번 LPR OK 전송
+[17:06:43] LPR12 Recv: LPR_N
+[17:06:48] LPR12 Recv: LPR_N
+[17:06:54] LPR12 Recv: LPR_N
+[17:06:59] LPR12 Recv: LPR_N
+[17:07:04] LPR12 Recv: LPR_N
+[17:07:09] LPR12 Recv: LPR_N
+[17:07:15] LPR12 Recv: LPR_N
+[17:07:20] LPR12 Recv: LPR_N
+[17:07:26] LPR12 Recv: LPR_N
+[17:07:31] LPR12 Recv: LPR_N
+[17:07:36] LPR12 Recv: LPR_N
+[17:07:41] LPR12 Recv: LPR_N
+[17:07:42] Ping 시간 체크1-694484375
+[17:07:42] Ping 시간 체크2-694484375
+[17:07:42] 11번 LPR OK 전송
+[17:07:46] LPR12 Recv: LPR_N
+[17:07:52] LPR12 Recv: LPR_N
+[17:07:57] LPR12 Recv: LPR_N
+[17:08:02] LPR12 Recv: LPR_N
+[17:08:07] LPR12 Recv: LPR_N
+[17:08:13] LPR12 Recv: LPR_N
+[17:08:18] LPR12 Recv: LPR_N
+[17:08:23] LPR12 Recv: LPR_N
+[17:08:28] LPR12 Recv: LPR_N
+[17:08:34] LPR12 Recv: LPR_N
+[17:08:39] LPR12 Recv: LPR_N
+[17:08:42] Ping 시간 체크1-694544375
+[17:08:42] Ping 시간 체크2-694544375
+[17:08:42] 11번 LPR OK 전송
+[17:08:44] LPR12 Recv: LPR_N
+[17:08:49] LPR12 Recv: LPR_N
+[17:08:54] LPR12 Recv: LPR_N
+[17:09:00] LPR12 Recv: LPR_N
+[17:09:05] LPR12 Recv: LPR_N
+[17:09:10] LPR12 Recv: LPR_N
+[17:09:16] LPR12 Recv: LPR_N
+[17:09:21] LPR12 Recv: LPR_N
+[17:09:26] LPR12 Recv: LPR_N
+[17:09:32] LPR12 Recv: LPR_N
+[17:09:37] LPR12 Recv: LPR_N
+[17:09:42] LPR12 Recv: LPR_N
+[17:09:42] Ping 시간 체크1-694604375
+[17:09:42] Ping 시간 체크2-694604375
+[17:09:42] 11번 LPR OK 전송
+[17:09:47] LPR12 Recv: LPR_N
+[17:09:52] LPR12 Recv: LPR_N
+[17:09:58] LPR12 Recv: LPR_N
+[17:10:03] LPR12 Recv: LPR_N
+[17:10:08] LPR12 Recv: LPR_N
+[17:10:13] LPR12 Recv: LPR_N
+[17:10:19] LPR12 Recv: LPR_N
+[17:10:24] LPR12 Recv: LPR_N
+[17:10:29] LPR12 Recv: LPR_N
+[17:10:34] LPR12 Recv: LPR_N
+[17:10:39] LPR12 Recv: LPR_N
+[17:10:42] Ping 시간 체크1-694664375
+[17:10:42] Ping 시간 체크2-694664375
+[17:10:42] 11번 LPR OK 전송
+[17:10:45] LPR12 Recv: LPR_N
+[17:10:50] LPR12 Recv: LPR_N
+[17:10:55] LPR12 Recv: LPR_N
+[17:11:00] LPR12 Recv: LPR_N
+[17:11:06] LPR12 Recv: LPR_N
+[17:11:11] LPR12 Recv: LPR_N
+[17:11:17] LPR12 Recv: LPR_N
+[17:11:22] LPR12 Recv: LPR_N
+[17:11:27] LPR12 Recv: LPR_N
+[17:11:32] LPR12 Recv: LPR_N
+[17:11:37] LPR12 Recv: LPR_N
+[17:11:42] Ping 시간 체크1-694724375
+[17:11:42] Ping 시간 체크2-694724375
+[17:11:42] 11번 LPR OK 전송
+[17:11:43] LPR12 Recv: LPR_N
+[17:11:48] LPR12 Recv: LPR_N
+[17:11:53] LPR12 Recv: LPR_N
+[17:11:58] LPR12 Recv: LPR_N
+[17:12:03] Ping 시간 체크1-694745328
+[17:12:03] Ping 시간 체크2-694745328
+[17:12:04] LPR12 Recv: LPR_N
+[17:12:09] LPR12 Recv: LPR_N
+[17:12:14] LPR12 Recv: LPR_N
+[17:12:19] LPR12 Recv: LPR_N
+[17:12:25] LPR12 Recv: LPR_N
+[17:12:30] LPR12 Recv: LPR_N
+[17:12:35] LPR12 Recv: LPR_N
+[17:12:40] LPR12 Recv: LPR_N
+[17:12:42] Ping 시간 체크1-694784375
+[17:12:42] Ping 시간 체크2-694784390
+[17:12:42] 11번 LPR OK 전송
+[17:12:45] LPR12 Recv: LPR_N
+[17:12:51] LPR12 Recv: LPR_N
+[17:12:56] LPR12 Recv: LPR_N
+[17:13:01] LPR12 Recv: LPR_N
+[17:13:06] LPR12 Recv: LPR_N
+[17:13:12] LPR12 Recv: LPR_N
+[17:13:17] LPR12 Recv: LPR_N
+[17:13:23] LPR12 Recv: LPR_N
+[17:13:28] LPR12 Recv: LPR_N
+[17:13:33] LPR12 Recv: LPR_N
+[17:13:38] LPR12 Recv: LPR_N
+[17:13:42] Ping 시간 체크1-694844375
+[17:13:42] Ping 시간 체크2-694844390
+[17:13:42] 11번 LPR OK 전송
+[17:13:43] LPR12 Recv: LPR_N
+[17:13:49] LPR12 Recv: LPR_N
+[17:13:54] LPR12 Recv: LPR_N
+[17:13:59] LPR12 Recv: LPR_N
+[17:14:04] LPR12 Recv: LPR_N
+[17:14:10] LPR12 Recv: LPR_N
+[17:14:15] LPR12 Recv: LPR_N
+[17:14:20] LPR12 Recv: LPR_N
+[17:14:25] LPR12 Recv: LPR_N
+[17:14:30] LPR12 Recv: LPR_N
+[17:14:36] LPR12 Recv: LPR_N
+[17:14:41] LPR12 Recv: LPR_N
+[17:14:42] Ping 시간 체크1-694904375
+[17:14:42] Ping 시간 체크2-694904390
+[17:14:42] 11번 LPR OK 전송
+[17:14:46] LPR12 Recv: LPR_N
+[17:14:51] LPR12 Recv: LPR_N
+[17:14:54] Program Close
+[17:15:01] Program Start!
+[17:15:04] 근무시작: 배은화
+[17:15:04] 영수증프린터 포트오픈 에러: ie_BadId - Specified comport doesn't exist
+[17:15:04] Ping 시간 체크1-694926437
+[17:15:04] Ping 시간 체크2-694926453
+[17:15:04] Ping 시간 체크1-694926453
+[17:15:04] Ping 시간 체크2-694926453
+[17:15:04] Ping 시간 체크1-694926468
+[17:15:04] Ping 시간 체크2-694926468
+[17:15:04] Ping 시간 체크1-694926468
+[17:15:04] Ping 시간 체크2-694926484
+[17:15:04] LPR12 Recv: 172.16.83.1
+[17:15:04] LPR11 Recv: 172.16.83.1
+[17:15:05] LPR11 Recv: LPR_R
+[17:15:05] 시간동기화 전송
+[17:15:06] LPR12 Recv: LPR_N
+[17:15:07] LPR12 Recv: LPR_N
+[17:15:12] LPR12 Recv: LPR_N
+[17:15:18] LPR12 Recv: LPR_N
+[17:15:23] LPR12 Recv: LPR_N
+[17:15:28] LPR12 Recv: LPR_N
+[17:15:34] LPR12 Recv: LPR_N
+[17:15:39] LPR12 Recv: LPR_N
+[17:15:44] LPR12 Recv: LPR_N
+[17:15:49] LPR12 Recv: LPR_N
+[17:15:55] LPR12 Recv: LPR_N
+[17:16:00] LPR12 Recv: LPR_N
+[17:16:05] LPR12 Recv: LPR_N
+[17:16:05] Ping 시간 체크1-694987687
+[17:16:05] Ping 시간 체크2-694987703
+[17:16:05] 11번 LPR OK 전송
+[17:16:10] LPR12 Recv: LPR_N
+[17:16:16] LPR12 Recv: LPR_N
+[17:16:21] LPR12 Recv: LPR_N
+[17:16:26] LPR12 Recv: LPR_N
+[17:16:31] LPR12 Recv: LPR_N
+[17:16:36] LPR12 Recv: LPR_N
+[17:16:42] LPR12 Recv: LPR_N
+[17:16:47] LPR12 Recv: LPR_N
+[17:16:52] LPR12 Recv: LPR_N
+[17:16:57] LPR12 Recv: LPR_N
+[17:17:03] LPR12 Recv: LPR_N
+[17:17:05] Ping 시간 체크1-695047687
+[17:17:05] Ping 시간 체크2-695047703
+[17:17:05] 11번 LPR OK 전송
+[17:17:08] LPR12 Recv: LPR_N
+[17:17:13] LPR12 Recv: LPR_N
+[17:17:19] LPR12 Recv: LPR_N
+[17:17:24] LPR12 Recv: LPR_N
+[17:17:29] LPR12 Recv: LPR_N
+[17:17:34] LPR12 Recv: LPR_N
+[17:17:40] LPR12 Recv: LPR_N
+[17:17:45] LPR12 Recv: LPR_N
+[17:17:50] LPR12 Recv: LPR_N
+[17:17:55] LPR12 Recv: LPR_N
+[17:18:01] LPR12 Recv: LPR_N
+[17:18:05] Ping 시간 체크1-695107687
+[17:18:05] Ping 시간 체크2-695107687
+[17:18:05] 11번 LPR OK 전송
+[17:18:06] LPR12 Recv: LPR_N
+[17:18:11] LPR12 Recv: LPR_N
+[17:18:16] LPR12 Recv: LPR_N
+[17:18:21] LPR12 Recv: LPR_N
+[17:18:27] LPR12 Recv: LPR_N
+[17:18:32] LPR12 Recv: LPR_N
+[17:18:37] LPR12 Recv: LPR_N
+[17:18:42] LPR12 Recv: LPR_N
+[17:18:48] LPR12 Recv: LPR_N
+[17:18:53] LPR12 Recv: LPR_N
+[17:18:58] LPR12 Recv: LPR_N
+[17:19:03] LPR12 Recv: LPR_N
+[17:19:05] Ping 시간 체크1-695167687
+[17:19:05] Ping 시간 체크2-695167703
+[17:19:05] 11번 LPR OK 전송
+[17:19:09] LPR12 Recv: LPR_N
+[17:19:14] LPR12 Recv: LPR_N
+[17:19:19] LPR12 Recv: LPR_N
+[17:19:25] LPR12 Recv: LPR_N
+[17:19:30] LPR12 Recv: LPR_N
+[17:19:33] Ping 시간 체크1-695195109
+[17:19:33] Ping 시간 체크2-695195125
+[17:19:35] LPR12 Recv: LPR_N
+[17:19:40] LPR12 Recv: LPR_N
+[17:19:46] LPR12 Recv: LPR_N
+[17:19:47] Ping 시간 체크1-695209703
+[17:19:47] Ping 시간 체크2-695209718
+[17:19:47] Ping 시간 체크1-695209718
+[17:19:47] Ping 시간 체크2-695209734
+[17:19:47] 출구차단기 Open
+[17:19:47] Ping 시간 체크1-695209734
+[17:19:47] Ping 시간 체크2-695209734
+[17:19:51] LPR12 Recv: LPR_N
+[17:19:56] LPR12 Recv: LPR_N
+[17:20:01] LPR12 Recv: LPR_N
+[17:20:05] Ping 시간 체크1-695227687
+[17:20:05] Ping 시간 체크2-695227703
+[17:20:05] 11번 LPR OK 전송
+[17:20:07] LPR12 Recv: LPR_N
+[17:20:12] LPR12 Recv: LPR_N
+[17:20:17] LPR12 Recv: LPR_N
+[17:20:22] LPR12 Recv: LPR_N
+[17:20:27] LPR12 Recv: LPR_N
+[17:20:33] LPR12 Recv: LPR_N
+[17:20:38] LPR12 Recv: LPR_N
+[17:20:43] LPR12 Recv: LPR_N
+[17:20:48] LPR12 Recv: LPR_N
+[17:20:54] LPR12 Recv: LPR_N
+[17:20:59] LPR12 Recv: LPR_N
+[17:21:04] LPR12 Recv: LPR_N
+[17:21:05] Ping 시간 체크1-695287687
+[17:21:05] Ping 시간 체크2-695287703
+[17:21:05] 11번 LPR OK 전송
+[17:21:09] LPR12 Recv: LPR_N
+[17:21:14] LPR12 Recv: LPR_N
+[17:21:20] LPR12 Recv: LPR_N
+[17:21:25] LPR12 Recv: LPR_N
+[17:21:31] LPR12 Recv: LPR_N
+[17:21:36] LPR12 Recv: LPR_N
+[17:21:41] LPR12 Recv: LPR_N
+[17:21:46] LPR12 Recv: LPR_N
+[17:21:52] LPR12 Recv: LPR_N
+[17:21:57] LPR12 Recv: LPR_N
+[17:22:02] LPR12 Recv: LPR_N
+[17:22:05] Ping 시간 체크1-695347687
+[17:22:05] Ping 시간 체크2-695347703
+[17:22:05] 11번 LPR OK 전송
+[17:22:07] LPR12 Recv: LPR_N
+[17:22:12] LPR12 Recv: LPR_N
+[17:22:18] LPR12 Recv: LPR_N
+[17:22:23] LPR12 Recv: LPR_N
+[17:22:28] LPR12 Recv: LPR_N
+[17:22:33] LPR12 Recv: LPR_N
+[17:22:39] LPR12 Recv: LPR_N
+[17:22:44] LPR12 Recv: LPR_N
+[17:22:49] LPR12 Recv: LPR_N
+[17:22:54] LPR12 Recv: LPR_N
+[17:23:00] LPR12 Recv: LPR_N
+[17:23:05] LPR12 Recv: LPR_N
+[17:23:05] Ping 시간 체크1-695407687
+[17:23:05] Ping 시간 체크2-695407687
+[17:23:05] 11번 LPR OK 전송
+[17:23:10] LPR12 Recv: LPR_N
+[17:23:16] LPR12 Recv: LPR_N
+[17:23:21] LPR12 Recv: LPR_N
+[17:23:26] LPR12 Recv: LPR_N
+[17:23:31] LPR12 Recv: LPR_N
+[17:23:37] LPR12 Recv: LPR_N
+[17:23:42] LPR12 Recv: LPR_N
+[17:23:47] LPR12 Recv: LPR_N
+[17:23:52] LPR12 Recv: LPR_N
+[17:23:58] LPR12 Recv: LPR_N
+[17:24:03] LPR12 Recv: LPR_N
+[17:24:05] Ping 시간 체크1-695467687
+[17:24:05] Ping 시간 체크2-695467703
+[17:24:05] 11번 LPR OK 전송
+[17:24:08] LPR12 Recv: LPR_N
+[17:24:13] LPR12 Recv: LPR_N
+[17:24:18] LPR12 Recv: LPR_N
+[17:24:24] LPR12 Recv: LPR_N
+[17:24:29] LPR12 Recv: LPR_N
+[17:24:34] LPR12 Recv: LPR_N
+[17:24:39] LPR12 Recv: LPR_N
+[17:24:45] LPR12 Recv: LPR_N
+[17:24:45] Program Close
+[17:24:52] Program Start!
+[17:24:54] 근무시작: 배은화
+[17:24:56] 영수증프린터 포트오픈 에러: ie_BadId - Specified comport doesn't exist
+[17:24:56] Ping 시간 체크1-695518187
+[17:24:56] Ping 시간 체크2-695518187
+[17:24:56] Ping 시간 체크1-695518250
+[17:24:56] Ping 시간 체크2-695518250
+[17:24:56] Ping 시간 체크1-695518265
+[17:24:56] Ping 시간 체크2-695518281
+[17:24:56] Ping 시간 체크1-695518281
+[17:24:56] Ping 시간 체크2-695518281
+[17:24:56] LPR12 Recv: 172.16.83.1
+[17:24:56] LPR11 Recv: 172.16.83.1
+[17:24:57] LPR12 Recv: LPR_N
+[17:24:58] LPR11 Recv: LPR_R
+[17:24:58] 시간동기화 전송
+[17:25:35] Ping 시간 체크1-695557625
+[17:25:35] Ping 시간 체크2-695557640
+[17:42:33] Program Start!
+[17:44:43] 근무시작: 배은화
+[17:44:43] 영수증프린터 포트오픈 에러: ie_BadId - Specified comport doesn't exist
+[17:44:43] Ping 시간 체크1-696704875
+[17:44:43] Ping 시간 체크2-696704890
+[17:44:43] Ping 시간 체크1-696704890
+[17:44:43] Ping 시간 체크2-696704906
+[17:44:43] Ping 시간 체크1-696704906
+[17:44:43] Ping 시간 체크2-696704921
+[17:44:43] Ping 시간 체크1-696704937
+[17:44:43] Ping 시간 체크2-696704937
+[17:44:43] LPR11 Recv: 172.16.83.1
+[17:44:43] LPR12 Recv: 172.16.83.1
+[17:44:44] LPR11 Recv: LPR_R
+[17:44:44] 시간동기화 전송
+[17:44:45] LPR12 Recv: LPR_N
+[17:44:47] LPR12 Recv: LPR_N
+[17:44:52] LPR12 Recv: LPR_N
+[17:44:58] LPR12 Recv: LPR_N
+[17:45:03] LPR12 Recv: LPR_N
+[17:45:08] LPR12 Recv: LPR_N
+[17:45:13] LPR12 Recv: LPR_N
+[17:45:18] LPR12 Recv: LPR_N
+[17:45:24] LPR12 Recv: LPR_N
+[17:45:29] LPR12 Recv: LPR_N
+[17:45:34] LPR12 Recv: LPR_N
+[17:45:39] LPR12 Recv: LPR_N
+[17:45:44] Ping 시간 체크1-696766062
+[17:45:44] Ping 시간 체크2-696766062
+[17:45:44] 11번 LPR OK 전송
+[17:45:45] LPR12 Recv: LPR_N
+[17:45:50] LPR12 Recv: LPR_N
+[17:45:55] LPR12 Recv: LPR_N
+[17:46:00] LPR12 Recv: LPR_N
+[17:46:06] LPR12 Recv: LPR_N
+[17:46:11] LPR12 Recv: LPR_N
+[17:46:16] LPR12 Recv: LPR_N
+[17:46:21] LPR12 Recv: LPR_N
+[17:46:26] LPR12 Recv: LPR_N
+[17:46:32] LPR12 Recv: LPR_N
+[17:46:37] LPR12 Recv: LPR_N
+[17:46:42] LPR12 Recv: LPR_N
+[17:46:44] Ping 시간 체크1-696826062
+[17:46:44] Ping 시간 체크2-696826078
+[17:46:44] 11번 LPR OK 전송
+[17:46:48] LPR12 Recv: LPR_N
+[17:46:53] LPR12 Recv: LPR_N
+[17:46:58] LPR12 Recv: LPR_N
+[17:47:04] LPR12 Recv: LPR_N
+[17:47:09] LPR12 Recv: LPR_N
+[17:47:14] LPR12 Recv: LPR_N
+[17:47:19] LPR12 Recv: LPR_N
+[17:47:24] LPR12 Recv: LPR_N
+[17:47:30] LPR12 Recv: LPR_N
+[17:47:35] LPR12 Recv: LPR_N
+[17:47:40] LPR12 Recv: LPR_N
+[17:47:44] Ping 시간 체크1-696886062
+[17:47:44] Ping 시간 체크2-696886078
+[17:47:44] 11번 LPR OK 전송
+[17:47:45] LPR12 Recv: LPR_N
+[17:47:51] LPR12 Recv: LPR_N
+[17:47:56] LPR12 Recv: LPR_N
+[17:48:01] LPR12 Recv: LPR_N
+[17:48:06] LPR12 Recv: LPR_N
+[17:48:11] LPR12 Recv: LPR_N
+[17:48:17] LPR12 Recv: LPR_N
+[17:48:22] LPR12 Recv: LPR_N
+[17:48:27] LPR12 Recv: LPR_N
+[17:48:32] LPR12 Recv: LPR_N
+[17:48:38] LPR12 Recv: LPR_N
+[17:48:43] LPR12 Recv: LPR_N
+[17:48:44] Ping 시간 체크1-696946062
+[17:48:44] Ping 시간 체크2-696946078
+[17:48:44] 11번 LPR OK 전송
+[17:48:49] LPR12 Recv: LPR_N
+[17:48:54] LPR12 Recv: LPR_N
+[17:48:59] LPR12 Recv: LPR_N
+[17:49:04] LPR12 Recv: LPR_N
+[17:49:09] LPR12 Recv: LPR_N
+[17:49:15] LPR12 Recv: LPR_N
+[17:49:20] LPR12 Recv: LPR_N
+[17:49:25] LPR12 Recv: LPR_N
+[17:49:30] LPR12 Recv: LPR_N
+[17:49:36] LPR12 Recv: LPR_N
+[17:49:41] LPR12 Recv: LPR_N
+[17:49:44] Ping 시간 체크1-697006062
+[17:49:44] Ping 시간 체크2-697006078
+[17:49:44] 11번 LPR OK 전송
+[17:49:46] LPR12 Recv: LPR_N
+[17:49:51] LPR12 Recv: LPR_N
+[17:49:57] LPR12 Recv: LPR_N
+[17:50:02] LPR12 Recv: LPR_N
+[17:50:07] LPR12 Recv: LPR_N
+[17:50:12] LPR12 Recv: LPR_N
+[17:50:17] LPR12 Recv: LPR_N
+[17:50:23] LPR12 Recv: LPR_N
+[17:50:28] LPR12 Recv: LPR_N
+[17:50:33] LPR12 Recv: LPR_N
+[17:50:38] LPR12 Recv: LPR_N
+[17:50:44] Ping 시간 체크1-697066062
+[17:50:44] Ping 시간 체크2-697066062
+[17:50:44] 11번 LPR OK 전송
+[17:50:44] LPR12 Recv: LPR_N
+[17:50:49] LPR12 Recv: LPR_N
+[17:50:55] LPR12 Recv: LPR_N
+[17:51:00] LPR12 Recv: LPR_N
+[17:51:05] LPR12 Recv: LPR_N
+[17:51:10] LPR12 Recv: LPR_N
+[17:51:11] Program Close
+[17:51:18] Program Start!
+[17:51:20] 근무시작: 배은화
+[17:51:22] 영수증프린터 포트오픈 에러: ie_BadId - Specified comport doesn't exist
+[17:51:22] Ping 시간 체크1-697104187
+[17:51:22] Ping 시간 체크2-697104203
+[17:51:22] Ping 시간 체크1-697104250
+[17:51:22] Ping 시간 체크2-697104265
+[17:51:22] Ping 시간 체크1-697104265
+[17:51:22] Ping 시간 체크2-697104281
+[17:51:22] Ping 시간 체크1-697104281
+[17:51:22] Ping 시간 체크2-697104296
+[17:51:22] LPR12 Recv: 172.16.83.1
+[17:51:22] LPR11 Recv: 172.16.83.1
+[17:51:24] LPR12 Recv: LPR_N
+[17:51:24] LPR11 Recv: LPR_R
+[17:51:24] 시간동기화 전송
+[17:51:26] LPR12 Recv: LPR_N
+[17:51:27] Ping 시간 체크1-697109078
+[17:51:27] Ping 시간 체크2-697109078
+[17:51:31] LPR12 Recv: LPR_N
+[17:51:34] Program Close
+[17:51:45] Program Start!
+[17:51:47] 근무시작: 배은화
+[17:51:49] 영수증프린터 포트오픈 에러: ie_BadId - Specified comport doesn't exist
+[17:51:49] Ping 시간 체크1-697131000
+[17:51:49] Ping 시간 체크2-697131000
+[17:51:49] Ping 시간 체크1-697131078
+[17:51:49] Ping 시간 체크2-697131078
+[17:51:49] Ping 시간 체크1-697131078
+[17:51:49] Ping 시간 체크2-697131093
+[17:51:49] Ping 시간 체크1-697131093
+[17:51:49] Ping 시간 체크2-697131109
+[17:51:49] LPR11 Recv: 172.16.83.1
+[17:51:49] LPR12 Recv: 172.16.83.1
+[17:51:50] LPR12 Recv: LPR_N
+[17:51:50] LPR11 Recv: LPR_R
+[17:51:50] 시간동기화 전송
+[17:51:52] LPR12 Recv: LPR_N
+[17:51:57] LPR12 Recv: LPR_N
+[17:51:58] Ping 시간 체크1-697139765
+[17:51:58] Ping 시간 체크2-697139765
+[17:52:02] LPR12 Recv: LPR_N
+[17:52:08] LPR12 Recv: LPR_N
+[17:52:13] LPR12 Recv: LPR_N
+[17:52:18] LPR12 Recv: LPR_N
+[17:52:23] LPR12 Recv: LPR_N
+[17:52:27] Program Close
+[17:52:30] Program Start!
+[17:52:33] Program Close
+[17:52:39] Program Start!
+[17:52:41] 근무시작: 배은화
+[17:52:43] 영수증프린터 포트오픈 에러: ie_BadId - Specified comport doesn't exist
+[17:52:43] Ping 시간 체크1-697184953
+[17:52:43] Ping 시간 체크2-697184953
+[17:52:43] Ping 시간 체크1-697185015
+[17:52:43] Ping 시간 체크2-697185031
+[17:52:43] Ping 시간 체크1-697185031
+[17:52:43] Ping 시간 체크2-697185031
+[17:52:43] Ping 시간 체크1-697185046
+[17:52:43] Ping 시간 체크2-697185046
+[17:52:43] LPR12 Recv: 172.16.83.1
+[17:52:43] LPR11 Recv: 172.16.83.1
+[17:52:44] LPR11 Recv: LPR_R
+[17:52:44] 시간동기화 전송
+[17:52:45] LPR12 Recv: LPR_N
+[17:52:45] Ping 시간 체크1-697187703
+[17:52:45] Ping 시간 체크2-697187703
+[17:52:50] LPR12 Recv: LPR_N
+[17:52:51] Program Close
+[17:53:16] Program Start!
+[17:53:18] 근무시작: 배은화
+[17:53:20] 영수증프린터 포트오픈 에러: ie_BadId - Specified comport doesn't exist
+[17:53:20] Ping 시간 체크1-697221859
+[17:53:20] Ping 시간 체크2-697221875
+[17:53:20] Ping 시간 체크1-697221937
+[17:53:20] Ping 시간 체크2-697221937
+[17:53:20] Ping 시간 체크1-697221937
+[17:53:20] Ping 시간 체크2-697221953
+[17:53:20] Ping 시간 체크1-697221953
+[17:53:20] Ping 시간 체크2-697221953
+[17:53:20] LPR11 Recv: 172.16.83.1
+[17:53:20] LPR12 Recv: 172.16.83.1
+[17:53:21] LPR12 Recv: LPR_N
+[17:53:21] LPR11 Recv: LPR_R
+[17:53:21] 시간동기화 전송
+[17:53:26] Ping 시간 체크1-697228406
+[17:53:26] Ping 시간 체크2-697228406
+[17:53:27] LPR12 Recv: LPR_N
+[17:53:32] LPR12 Recv: LPR_N
+[17:53:37] LPR12 Recv: LPR_N
+[17:53:42] LPR12 Recv: LPR_N
+[17:53:45] Program Close
