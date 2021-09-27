@@ -501,6 +501,7 @@ type
     aptnHttp2: TIdHTTP;
     aptnHandler2: TIdSSLIOHandlerSocketOpenSSL;
     tmrKocomRe: TTimer;
+    csHomeInfo_QDIS: TClientSocket;
     procedure mnuCloseClick(Sender: TObject);
     procedure FormResize(Sender: TObject);
     procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
@@ -737,6 +738,10 @@ type
     procedure sld6StateChanged(Sender: TObject; State: TAdvSmoothSliderState;
       Value: Double);
     procedure tmrKocomReTimer(Sender: TObject);
+    procedure csHomeInfo_QDISConnect(Sender: TObject; Socket: TCustomWinSocket);
+    procedure csHomeInfo_QDISDisconnect(Sender: TObject;
+      Socket: TCustomWinSocket);
+    procedure csHomeInfo_QDISRead(Sender: TObject; Socket: TCustomWinSocket);
   private
     { Private declarations }
     procedure ICMPReply(ASender: TComponent; const ReplyStatus: TReplyStatus);
@@ -788,6 +793,7 @@ type
     procedure homeinfo_proc_Commax2(nInOut: Byte);  //코맥스
     procedure HomeInfo_Proc_cham(nInOut: Byte);    //참슬테크
     procedure HomeInfo_Proc_woorinets(nInOut: Byte); //우리네스
+    procedure HomeInfo_Proc_QDis(nInOut: Byte); //큐디스(주차유도)
 
     procedure homeinfo_proc_Home(nInOut: Byte);    //홈넷홈
 
@@ -16897,14 +16903,19 @@ begin
         end;
       end;
         {$ENDREGION}
-        {$REGION '이미지 로드 및 우리시스(CCTV)연동)'}
-        //우리시스 (CCTV)연동
+        {$REGION '이미지 로드 및 홈넷 연동)'}
+      //우리시스 (CCTV)연동
       if nHomeinfo_Comp_SEC = 16 then
       begin
         nChannelNo := nListCnt;
           //HomeInfoLogging(inttostr(nChannelNo));
         HomeInfo_Proc2(1);
+      end
+      else if nHomeinfo_Comp_SEC = 17 then  //큐디스
+      begin
+        HomeInfo_Proc2(3);
       end;
+
       try
         //이미지 로드부분 로직 맨뒤로 이동
         if FileExists(Trim(sLprFile1)) then
@@ -19050,7 +19061,7 @@ begin
       end;
     end;
   end
-  else if nInOut = 1 then
+  else //if nInOut = 1 then
   begin
     //2번째 홈넷 입차 세대 알림
     if nHomeinfo_Comp_SEC = 16 then   //우리시스(CCTV)연동)
@@ -19058,9 +19069,13 @@ begin
         //HomeInfoLogging(IntToStr(nChannelNo));
       HomeInfo_Proc_woorinets(nChannelNo);
     end
-    else if nHomeinfo_Comp_SEC = 15 then   //참슬테크
+    else if nHomeinfo_Comp_SEC = 15 then   //참슬테크(주차유도)
     begin
       HomeInfo_Proc_Cham(nInOut);
+    end
+    else if nHomeinfo_Comp_SEC = 17 then   //큐디스(주차유도)
+    begin
+      HomeInfo_Proc_QDis(nInOut);
     end;
 
     if (nHomeinfo_Comp_SEC = 14) then   //미들웨어 세대 통보
@@ -20166,6 +20181,124 @@ begin
      ExceptLogging('TfrmMain.btnBindClick: ' + E.Message);
 //    tAlive.Enabled:= True;  //Added Woo.YH 160427
     end;
+  end;
+end;
+
+procedure TfrmMain.HomeInfo_Proc_QDis(nInOut: Byte);
+var
+  sSend: aString;
+  sShortCarNo, sSendLength: aString;
+  nSendLength: Integer;
+  i: Byte;
+begin
+  try
+    HomeInfoLogging('큐디스 차량번호: ' + sHomeInfo_CarNo + ' 동: ' + sHomeInfo_Dong + ' 호: ' + sHomeInfo_Ho);
+
+    if Length(sHomeInfo_CarNo) >= 4 then
+    begin
+      sShortCarNo := Copy(sHomeInfo_CarNo, Length(sHomeInfo_CarNo) - 3, 4);
+
+      if not MG_NumberCheck(sShortCarNo) then
+        sShortCarNo := '0000';
+    end
+    else
+      sShortCarNo := '0000';
+
+    if not MG_NumberCheck(sHomeInfo_Dong) then
+      sHomeInfo_Dong := '000';
+
+    if not MG_NumberCheck(sHomeInfo_Ho) then
+      sHomeInfo_Ho := '000';
+
+    if nHomeVisit = 1 then //방문자 사용시
+    begin
+      if nInOut = 3 then //방문객 입차
+      begin
+        sSend := '$version=3.0$cmd=30$copy=1-10$dongho=' + sezVilleDong + '&' + sezVilleHo + '$target=parking#mode=1#dongho=' + sHomeInfo_Dong + '&' + sHomeInfo_Ho + '#inout=0#time=' + FormatDateTime('YYYYMMDDHHNNSS', Now) + '#carno=' + sHomeInfo_CarNo;
+        sSend := sSend + '#type=' + '1';
+      end
+      else if nInOut = 1 then               //입주민 입차
+      begin
+        sSend := '$version=3.0$cmd=30$copy=1-10$dongho=' + sezVilleDong + '&' + sezVilleHo + '$target=parking#mode=0#dongho=' + sHomeInfo_Dong + '&' + sHomeInfo_Ho + '#inout=0#time=' + FormatDateTime('YYYYMMDDHHNNSS', Now) + '#carno=' + sHomeInfo_CarNo;
+        sSend := sSend + '#type=' + '0';
+      end
+      else if nInOut = 2 then               //입주민 출차
+      begin
+        sSend := '$version=3.0$cmd=30$copy=1-10$dongho=' + sezVilleDong + '&' + sezVilleHo + '$target=parking#mode=0#dongho=' + sHomeInfo_Dong + '&' + sHomeInfo_Ho + '#inout=1#time=' + FormatDateTime('YYYYMMDDHHNNSS', Now) + '#carno=' + sHomeInfo_CarNo;
+        sSend := sSend + '#type=' + '0';
+      end;
+    end
+    else
+    begin
+      sSend := '$version=2.0$dongho=' + sezVilleDong + '&' + sezVilleHo + '$cmd=30$target=parking#mode=0#dongho=' + sHomeInfo_Dong + '&' + sHomeInfo_Ho + '#inout=0#time=' + FormatDateTime('YYYYMMDDHHNNSS', Now) + '#carno=' + sShortCarNo;
+    end;
+
+    sSendLength := MG_InsZero(IntToStr(Length(sSend) + 14), 4);
+    nSendLength := StrToInt(sSendLength);
+    sSend := '<start=' + sSendLength + '&0>' + sSend;
+
+    try
+      if MG_StrStrTrim(sHomeInfo_IP2, ' ', '.') <> '' then
+      begin
+        if is_Ping(sHomeInfo_IP2) then
+        begin
+          if csHomeInfo_QDIS.Socket.Connected then
+          begin
+            try
+              if csHomeInfo_QDIS.Socket.SendText(sSend) = nSendLength then
+              begin
+                HomeInfoLogging('큐디스 입차통보: ' + sSend);
+              end
+              else
+              begin
+                HomeInfoLogging('큐디스 입차통보 에러: ' + sSend);
+              end;
+            except
+              on E: Exception do
+                HomeInfoLogging('큐디스 입차통보 에러: ' + sSend);
+            end;
+          end
+          else
+          begin
+            csHomeInfo_QDIS.Close;
+
+            if is_Ping(sHomeInfo_IP2) then
+            begin
+              csHomeInfo_QDIS.Open;
+
+              try
+                if csHomeInfo_QDIS.Socket.Connected then
+                begin
+                  if csHomeInfo_QDIS.Socket.SendText(sSend) = nSendLength then
+                  begin
+                    HomeInfoLogging('큐디스 입차통보(2): ' + sSend);
+                  end
+                  else
+                  begin
+                    HomeInfoLogging('큐디스 입차통보 에러(2): ' + sSend);
+                  end;
+                end;
+              except
+                on E: Exception do
+                  HomeInfoLogging('큐디스 입차통보 에러: ' + sSend);
+              end;
+            end
+            else
+              HomeInfoLogging('큐디스 단지서버로 입차통보 전송 시도시 Ping 안됨(2)!');
+          end;
+        end
+        else
+        begin
+          HomeInfoLogging('큐디스 단지서버로 입차통보 전송 시도시 Ping 안됨!');
+        end;
+      end;
+    except
+      on E: Exception do
+        HomeInfoLogging('큐디스 입차통보 에러(3): ' + sSend);
+    end;
+  except
+    on E: Exception do
+      HomeInfoLogging('큐디스 세대통보전송시 에러: ' + aString(E.Message));
   end;
 end;
 
@@ -27297,6 +27430,274 @@ begin
   end;
 end;
 
+procedure TfrmMain.csHomeInfo_QDISConnect(Sender: TObject;
+  Socket: TCustomWinSocket);
+begin
+  HomeInfoLogging('큐디스 단지서버 Connect');
+end;
+
+procedure TfrmMain.csHomeInfo_QDISDisconnect(Sender: TObject;
+  Socket: TCustomWinSocket);
+begin
+   HomeInfoLogging('큐디스 단지서버 Disconnect');
+end;
+
+procedure TfrmMain.csHomeInfo_QDISRead(Sender: TObject;
+  Socket: TCustomWinSocket);
+var
+  sSend, sSendLength, sTemp, sRHStart, sRHVersion, sRHCopy, sRHCmd, sRHDongho, sRHTarget,   //방문자 전문 파싱용
+sRBMode, sRBParam, sRBDongho, sRBtotal, sRBinout, sRBtime, sRBno, sRBCarno, sRBErr, sDelData, sSendData, sMyIP: aString;
+  ntemp1, ntemp2, nRoop, nInsertResult, nDelResult: Integer;
+  saDelCarNo: array[1..10] of string;
+  nSendLength: Integer;
+begin
+  try
+    //이지빌
+    sHomeInfo_Temp := Socket.ReceiveText;
+
+    if sHomeInfo_Temp = '' then
+      Exit;
+
+    HomeInfoLogging('< 큐디스 수신(' + IntToStr(GetTickCount) + '): ' + sHomeInfo_Temp);
+
+    sMyIP := My_LocalIP;
+
+    if nHomeVisit = 1 then //방문자
+    begin
+      ntemp1 := Pos('<start=', sHomeInfo_Temp) + 7;
+      ntemp2 := Pos('>', Copy(sHomeInfo_Temp, Pos('<start=', sHomeInfo_Temp) + 7, length(sHomeInfo_Temp) - ntemp1));
+      sRHStart := Copy(sHomeInfo_Temp, ntemp1, ntemp2 - 1);
+
+      ntemp1 := Pos('$version=', sHomeInfo_Temp) + 9;
+      ntemp2 := Pos('$', Copy(sHomeInfo_Temp, Pos('$version=', sHomeInfo_Temp) + 9, length(sHomeInfo_Temp) - ntemp1));
+      sRHVersion := Copy(sHomeInfo_Temp, ntemp1, ntemp2 - 1);
+
+      ntemp1 := Pos('$copy=', sHomeInfo_Temp) + 6;
+      ntemp2 := Pos('$', Copy(sHomeInfo_Temp, Pos('$copy=', sHomeInfo_Temp) + 6, length(sHomeInfo_Temp) - ntemp1));
+      sRHCopy := Copy(sHomeInfo_Temp, ntemp1, ntemp2 - 1);
+
+      ntemp1 := Pos('$cmd=', sHomeInfo_Temp) + 5;
+      ntemp2 := Pos('$', Copy(sHomeInfo_Temp, Pos('$cmd=', sHomeInfo_Temp) + 5, length(sHomeInfo_Temp) - ntemp1));
+      sRHCmd := Copy(sHomeInfo_Temp, ntemp1, ntemp2 - 1);
+
+      ntemp1 := Pos('$dongho=', sHomeInfo_Temp) + 8;
+      ntemp2 := Pos('$', Copy(sHomeInfo_Temp, Pos('$dongho=', sHomeInfo_Temp) + 8, length(sHomeInfo_Temp) - ntemp1));
+      sRHDongho := Copy(sHomeInfo_Temp, ntemp1, ntemp2 - 1);
+
+      if pos('#', sHomeInfo_Temp) > 0 then
+      begin
+        ntemp1 := Pos('$target=', sHomeInfo_Temp) + 8;
+        ntemp2 := Pos('#', Copy(sHomeInfo_Temp, Pos('$target=', sHomeInfo_Temp) + 8, length(sHomeInfo_Temp) - ntemp1));
+        sRHTarget := Copy(sHomeInfo_Temp, ntemp1, ntemp2 - 1);
+
+        ntemp1 := Pos('#mode=', sHomeInfo_Temp) + 6;
+        if ntemp1 = 6 then  //단지 서버 상태 정보 조회 응답
+        begin
+          HomeInfoLogging('큐디스 단지서버 상태정보 조회 응답 수신');
+          exit;
+        end;
+        ntemp2 := Pos('#', Copy(sHomeInfo_Temp, Pos('#mode=', sHomeInfo_Temp) + 6, length(sHomeInfo_Temp) - ntemp1));
+//        sRBMode := Copy(sHomeInfo_Temp, ntemp1, nTemp2-1);
+        sRBMode := Copy(sHomeInfo_Temp, ntemp1, 1);
+
+        ntemp1 := Pos('#dongho=', sHomeInfo_Temp) + 8;
+        ntemp2 := Pos('#', Copy(sHomeInfo_Temp, Pos('#dongho=', sHomeInfo_Temp) + 8, length(sHomeInfo_Temp) - ntemp1));
+        sRBDongho := Copy(sHomeInfo_Temp, ntemp1, ntemp2 - 1);
+
+        if sRBMode = '0' then     //입주민 통보 응답
+        begin
+          if sRHCmd = '31' then    //입주민 통보 응답
+          begin
+            HomeInfoLogging('큐디스 입주민 세대통보 정상 전송 응답수신 동&호 : ' + sRHDongho);
+            Exit;
+          end;
+        end
+        else if sRBMode = '1' then //주차 예약 or 리스트 조회 or  방문자 통보응답
+        begin
+          if sRHCmd = '31' then    //방문차 통보 응답
+          begin
+            HomeInfoLogging('큐디스 방문자 세대통보 정상 전송 응답수신 동&호 : ' + sRBDongho);
+            Exit;
+          end;
+        end;
+
+        //sSend 전송부
+        if csHomeInfo_QDIS.Socket.Connected then
+        begin
+          if csHomeInfo_QDIS.Socket.SendText(sSend) = strToInt(sSendLength) then
+          begin
+            HomeInfoLogging('>큐디스 단지서버 상태요청에 대한 응답: ' + sSend);
+          end
+          else
+          begin
+            HomeInfoLogging('>큐디스 단지서버 상태요청에 대한 응답시 에러: ' + sSend);
+          end;
+        end
+        else
+        begin
+          if MG_StrStrTrim(sHomeInfo_IP2, ' ', '.') <> '' then
+          begin
+            if is_Ping(sHomeInfo_IP2) then
+            begin
+              try
+                csHomeInfo_QDIS.Close;
+                csHomeInfo_QDIS.Open;
+
+                if csHomeInfo_QDIS.Socket.Connected then
+                begin
+                  if csHomeInfo_QDIS.Socket.SendText(sSend) = StrToInt(sSendLength) then
+                  begin
+                    HomeInfoLogging('> 큐디스 단지서버 상태요청에 대한 응답(2): ' + sSend);
+                  end
+                  else
+                  begin
+                    HomeInfoLogging('> 큐디스 단지서버 상태요청에 대한 응답시 에러(2): ' + sSend);
+                  end;
+                end
+                else
+                  HomeInfoLogging('> 큐디스 단지서버 상태요청에 대한 응답시 네트워크 에러');
+              except
+                on E: Exception do
+                  HomeInfoLogging('큐디스 상태요청에 대한 응답시 에러: ' + aString(E.Message));
+              end;
+            end
+            else
+              HomeInfoLogging('큐디스 단지서버로 상태요청에 대한 응답전송 시도시 Ping 안됨!');
+          end;
+        end;
+      end
+      else                            //상태조회 요청 수신
+      begin
+        ntemp1 := Pos('$target=', sHomeInfo_Temp) + 8;
+        sRHTarget := Copy(sHomeInfo_Temp, ntemp1, length(sHomeInfo_Temp) - ntemp1 + 1);
+
+        sSend := '$version=' + sRHVersion + '$cmd=11$copy=' + sRHCopy + '$target=' + sRHTarget + '#dongho=' +//                sezvilleDong + '&' + sezvilleho + '#ip=' + sHomeInfo_IP + '#status=0';
+          sezvilleDong + '&' + sezvilleho + '#ip=' + sMyIP + '#status=0';
+        sSendLength := MG_InsZero(IntToStr(Length(sSend) + 14), 4);
+        sSend := '<start=' + sSendLength + '&0>' + sSend;
+
+        if csHomeInfo_QDIS.Socket.Connected then
+        begin
+          if csHomeInfo_QDIS.Socket.SendText(sSend) = StrToInt(sSendLength) then
+          begin
+            HomeInfoLogging('>큐디스 단지서버 상태요청에 대한 응답: ' + sSend);
+          end
+          else
+          begin
+            HomeInfoLogging('>큐디스 단지서버 상태요청에 대한 응답시 에러: ' + sSend);
+          end;
+        end
+        else
+        begin
+          if MG_StrStrTrim(sHomeInfo_IP2, ' ', '.') <> '' then
+          begin
+            if is_Ping(sHomeInfo_IP2) then
+            begin
+              try
+                csHomeInfo_QDIS.Close;
+                csHomeInfo_QDIS.Open;
+
+                if csHomeInfo_QDIS.Socket.Connected then
+                begin
+                  if csHomeInfo_QDIS.Socket.SendText(sSend) = StrToInt(sSendLength) then
+                  begin
+                    HomeInfoLogging('>큐디스 단지서버 상태요청에 대한 응답(2): ' + sSend);
+                  end
+                  else
+                  begin
+                    HomeInfoLogging('>큐디스 단지서버 상태요청에 대한 응답시 에러(2): ' + sSend);
+                  end;
+                end
+                else
+                  HomeInfoLogging('>큐디스 단지서버 상태요청에 대한 응답시 네트워크 에러');
+              except
+                on E: Exception do
+                  HomeInfoLogging('큐디스 상태요청에 대한 응답시 에러: ' + aString(E.Message));
+              end;
+            end
+            else
+              HomeInfoLogging('큐디스 단지서버로 상태요청에 대한 응답전송 시도시 Ping 안됨!');
+          end;
+        end;
+      end;
+      sHomeInfo_Temp := '';
+    end
+    else if nHomeVisit = 0 then         //방문자 사용안함
+    begin
+      if (Pos('$cmd=10', sHomeInfo_Temp) > 0) then
+      begin
+
+        //홈서버에서의 상태요청에 대한 응답...
+        sSend := Copy(sHomeInfo_Temp, 15, Length(sHomeInfo_Temp) - 14) + '#dongho=' + sezvilleDong + '&' + sezvilleho + '#ip=' + sHomeInfo_IP + '#status=0';
+        sTemp := Copy(sSend, 1, Pos('cmd', sSend) - 1) + 'cmd=11$' + Copy(sSend, Pos('target', sSend), Length(sSend) - (Pos('target', sSend) - 1));
+        sSend := sTemp;
+        sSendLength := MG_InsZero(IntToStr(Length(sSend) + 14), 4);
+        nSendLength := StrToInt(sSendLength);
+        sSend := '<start=' + sSendLength + '&0>' + sSend;
+
+        if csHomeInfo_QDIS.Socket.Connected then
+        begin
+          if csHomeInfo_QDIS.Socket.SendText(sSend) = nSendLength then
+          begin
+            HomeInfoLogging('>큐디스 단지서버 상태요청에 대한 응답: ' + sSend);
+          end
+          else
+          begin
+            HomeInfoLogging('>큐디스 단지서버 상태요청에 대한 응답시 에러: ' + sSend);
+          end;
+        end
+        else
+        begin
+          if MG_StrStrTrim(sHomeInfo_IP2, ' ', '.') <> '' then
+          begin
+            if is_Ping(sHomeInfo_IP2) then
+            begin
+              try
+                csHomeInfo_QDIS.Close;
+                csHomeInfo_QDIS.Open;
+
+                if csHomeInfo_QDIS.Socket.Connected then
+                begin
+                  if csHomeInfo_QDIS.Socket.SendText(sSend) = nSendLength then
+                  begin
+                    HomeInfoLogging('>큐디스 단지서버 상태요청에 대한 응답(2): ' + sSend);
+                  end
+                  else
+                  begin
+                    HomeInfoLogging('>큐디스 단지서버 상태요청에 대한 응답시 에러(2): ' + sSend);
+                  end;
+                end
+                else
+                  HomeInfoLogging('>큐디스 단지서버 상태요청에 대한 응답시 네트워크 에러');
+              except
+                on E: Exception do
+                  HomeInfoLogging('큐디스 상태요청에 대한 응답시 에러: ' + aString(E.Message));
+              end;
+            end
+            else
+              HomeInfoLogging('큐디스 단지서버로 상태요청에 대한 응답전송 시도시 Ping 안됨!');
+          end;
+        end;
+      end;
+      sHomeInfo_Temp := '';
+    end;
+
+  except
+    on E: EIdSocketError do
+    begin
+      if E.LastError <> 10054 then
+        HomeInfoLogging('TfrmMain.csQDISRead: ' + E.Message);
+      Exit;
+    end;
+
+    on E: EIdConnClosedGracefully do
+      Exit;
+
+    on E: Exception do
+      HomeInfoLogging('TfrmMain.csQDISRead: ' + E.Message);
+  end;
+end;
+
 procedure TfrmMain.csInDsp1Connect(Sender: TObject; Socket: TCustomWinSocket);
 begin
   csInDsp1.Open;
@@ -30201,6 +30602,8 @@ begin
     nHomeInfo_Port := iSetup.ReadInteger('PARKING', 'HomeInfo Port', 25008);
     sezVilleDong := iSetup.ReadString('PARKING', 'ezVilleDong', '100');
     sezVilleHo := iSetup.ReadString('PARKING', 'ezVilleHo', '900');
+    sezVilleDong2 := iSetup.ReadString('PARKING', 'ezVilleDong2', '100');
+    sezVilleHo2 := iSetup.ReadString('PARKING', 'ezVilleHo2', '112');
     bMiIn := iSetup.ReadBool('PARKING', 'MI_IN', False);
     bMI_IN_INOPEN := iSetup.ReadBool('PARKING', 'MI_IN_INOPEN', False);  //미인식 입차 오픈
     nVisitBarOpenUse := iSetup.ReadInteger('PARKING', '방문차량차단기', 0);
@@ -31433,7 +31836,7 @@ begin
 
           idUC_ubiz.Active := True;
         end
-        else if nHomeInfo_Comp = 6 then       //이지빌
+        else if nHomeInfo_Comp = 6 then       //이지빌(자이S&D)
         begin
           if MG_StrStrTrim(sHomeInfo_IP, ' ', '.') <> '' then
           begin
@@ -31550,6 +31953,26 @@ begin
           IdTc_Cham.Host := sHomeInfo_IP;
           IdTc_Cham.Port := nHomeInfo_Port;
           //IdTc_Cham.Connect;
+        end
+        else if nHomeInfo_Comp = 17 then       //큐디스(주차유도)
+        begin
+          if MG_StrStrTrim(sHomeInfo_IP, ' ', '.') <> '' then
+          begin
+            if is_Ping(sHomeInfo_IP) then
+            begin
+              HomeInfoLogging('큐디스 단지서버로 최초 접속 suceess (단지서버 IP-' + sHomeInfo_IP + ')');
+
+              //이지빌...
+              csHomeInfo_QDIS.Address := sHomeInfo_IP;
+              csHomeInfo_QDIS.Port := nHomeInfo_Port;
+              csHomeInfo_QDIS.Open;
+
+              sHomeInfo_IP2   := sHomeInfo_IP;
+              nHomeInfo_Port2 := nHomeInfo_Port;
+            end
+            else
+              HomeInfoLogging('큐디스 단지서버로 최초 접속시도시 Ping 안됨! (단지서버 IP-' + sHomeInfo_IP + ')');
+          end;
         end;
       end;
 
@@ -31578,6 +32001,23 @@ begin
             IdTc_Cham.Host := sHomeInfo_IP2;
             IdTc_Cham.Port := nHomeInfo_Port2;
             //IdTc_Cham.Connect;
+          end
+          else if nHomeInfo_Comp_SEC = 17 then       //큐디스
+          begin
+            if MG_StrStrTrim(sHomeInfo_IP2, ' ', '.') <> '' then
+            begin
+              if is_Ping(sHomeInfo_IP2) then
+              begin
+                HomeInfoLogging('큐디스 단지서버로 최초 접속 suceess (단지서버 IP-' + sHomeInfo_IP2 + ')');
+
+                //이지빌...
+                csHomeInfo_QDIS.Address := sHomeInfo_IP2;
+                csHomeInfo_QDIS.Port := nHomeInfo_Port2;
+                csHomeInfo_QDIS.Open;
+              end
+              else
+                HomeInfoLogging('큐디스 단지서버로 최초 접속시도시 Ping 안됨! (단지서버 IP-' + sHomeInfo_IP2 + ')');
+            end;
           end
           else //미들웨어(첫번째 홈넷으로 연동 가능)
           begin
@@ -33720,6 +34160,68 @@ begin
       end
       else
         HomeInfoLogging('단지서버로 상태조회 전송 시도시 Ping 안됨!');
+    end;
+
+    //큐디스 서버 연결 전송
+    if nHomeVisit = 1 then
+    begin
+      sSend := '$version=3.0$cmd=10$copy=1-10$dongho=' + sezVilleDong2 + '&' + sezVilleHo2 + '$target=server';
+    end
+    else
+    begin
+      sSend := '$version=2.0$dongho=' + sezVilleDong2 + '&' + sezVilleHo2 + '$cmd=10$target=server';
+    end;
+
+    sSendLength := MG_InsZero(IntToStr(Length(sSend) + 14), 4);
+    nSendLength := StrToInt(sSendLength);
+    sSend := '<start=' + sSendLength + '&0>' + sSend;
+
+    if MG_StrStrTrim(sHomeInfo_IP2, ' ', '.') <> '' then
+    begin
+      if is_Ping(sHomeInfo_IP2) then
+      begin
+        if csHomeInfo_QDIS.Socket.Connected then
+        begin
+          try
+            if csHomeInfo_QDIS.Socket.SendText(sSend) = nSendLength then
+            begin
+              HomeInfoLogging('>큐디스 단지서버 상태조회 전송: ' + sSend);
+            end
+            else
+            begin
+              HomeInfoLogging('>큐디스 단지서버 상태조회 전송시 에러: ' + sSend);
+            end;
+          except
+            on E: Exception do
+              HomeInfoLogging('큐디스 단지서버 상태조회 전송시 에러: ' + aString(E.Message));
+          end;
+        end
+        else
+        begin
+          csHomeInfo_QDIS.Open;
+
+          if csHomeInfo_QDIS.Socket.Connected then
+          begin
+            try
+              if csHomeInfo_QDIS.Socket.SendText(sSend) = nSendLength then
+              begin
+                HomeInfoLogging('>큐디스 단지서버 상태조회 전송(2): ' + sSend);
+              end
+              else
+              begin
+                HomeInfoLogging('>큐디스 단지서버 상태조회 전송시 에러(2): ' + sSend);
+              end;
+            except
+              on E: Exception do
+                HomeInfoLogging('큐디스 단지서버 상태조회 전송시 에러: ' + aString(E.Message));
+            end;
+          end
+          else
+            HomeInfoLogging('큐디스 단지서버로 상태조회 전송시 네트워크 끊김!');
+        end;
+      end
+      else
+        HomeInfoLogging('큐디스 단지서버로 상태조회 전송 시도시 Ping 안됨!');
     end;
   except
     on E: Exception do

@@ -1812,7 +1812,7 @@ var
   nGPark_Info: Cardinal = 285212782;
 
   //이지빌용 동,호 저장 변수...
-  sezVilleDong, sezVilleHo, sHomeInfo_CarNo, sHomeInfo_CardNo, sHomeInfo_Dong, sHomeInfo_Ho,
+  sezVilleDong, sezVilleHo, sezVilleDong2, sezVilleHo2, sHomeInfo_CarNo, sHomeInfo_CardNo, sHomeInfo_Dong, sHomeInfo_Ho,
   sHomeInfo_ShortCarNo, sHomeInfo_Data,sHomeInfo_Type: aString;
 
   bMiIn : Boolean = False;

@@ -40735,8 +40735,8 @@ object frmMain: TfrmMain
     Enabled = False
     Interval = 120000
     OnTimer = tVisitDelTimer
-    Left = 282
-    Top = 210
+    Left = 394
+    Top = 266
   end
   object ssHomeinfo_icon: TServerSocket
     Active = False
@@ -41237,5 +41237,15 @@ object frmMain: TfrmMain
     OnTimer = tmrKocomReTimer
     Left = 349
     Top = 328
+  end
+  object csHomeInfo_QDIS: TClientSocket
+    Active = False
+    ClientType = ctNonBlocking
+    Port = 0
+    OnConnect = csHomeInfo_QDISConnect
+    OnDisconnect = csHomeInfo_QDISDisconnect
+    OnRead = csHomeInfo_QDISRead
+    Left = 288
+    Top = 200
   end
 end
