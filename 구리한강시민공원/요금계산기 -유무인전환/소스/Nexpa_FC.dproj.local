@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.865,=D:\프로그램\Delphi\0. 2017유인요금\구리한강시민공원\요금계산기 -유무인전환_최종\소스\KocesLib.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.603,D:\프로\Delphi\구리한강시민공원\요금계산기 -유무인전환\소스\CashReceipt.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main2.dfm=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.766,=D:\프로그램\Delphi\0. 2017유인요금\구리한강시민공원\요금계산기 -유무인전환_최종\소스\Cash_Coces.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.670,=D:\프로\Delphi\부천대학교\요금계산기\소스\Credit.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.844,=D:\프로그램\Delphi\0. 2017유인요금\구리한강시민공원\요금계산기 -유무인전환_최종\소스\Koces.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main2.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main2.pas=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.824,=D:\프로그램\Delphi\0. 2017유인요금\구리한강시민공원\요금계산기 -유무인전환_최종\소스\Credit_Coces.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main2.dfm=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.855,=D:\프로\Delphi\부천대학교\요금계산기\소스\CashSelect.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\MainNew.dfm=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\MainNew.pas=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.038,D:\프로\Delphi\구리한강시민공원\요금계산기 -유무인전환\소스\Credit.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main.dfm=C:\Documents and Settings\고명균\My Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.986,=D:\프로\Delphi\부천대학교\요금계산기\소스\CashReceipt.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dproj,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Nexpa_FC.dproj=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Nexpa_FC.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dproj,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Nexpa_FC.dproj=C:\Documents and Settings\고명균\My Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\PaySelect.pas=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.704,=D:\프로그램\Delphi\0. 2017유인요금\구리한강시민공원\요금계산기 -유무인전환_최종\소스\Cancel_Coces.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main.dfm=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dfm,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\PaySelect.dfm=C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\수현정보기술\01. 프로그램 소스\01. 진행중\넥스파시스템\프로그램\요금계산기\소스\Main.pas=C:\Documents and Settings\고명균\My Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,355 @@
+unit CashReceipt;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, AdvEdit, StdCtrls, ExtCtrls, sButton, DB, ADODB;
+
+type
+  TfrmCashReceipt = class(TForm)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    btnCard: TRadioButton;
+    btnNo: TRadioButton;
+    Panel3: TPanel;
+    lbVan: TLabel;
+    edtCredit: TEdit;
+    Panel4: TPanel;
+    edtResCode2: TAdvEdit;
+    edtAuthNo: TAdvEdit;
+    edtAuthDate: TAdvEdit;
+    edtBusinessNo: TAdvEdit;
+    edtResMsg2: TAdvEdit;
+    edtResult2: TAdvEdit;
+    btnCredit: TsButton;
+    qryVan: TADOQuery;
+    procedure FormShow(Sender: TObject);
+    procedure btnCardClick(Sender: TObject);
+    procedure btnNoClick(Sender: TObject);
+    procedure edtCreditKeyPress(Sender: TObject; var Key: Char);
+    procedure btnCreditClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCashReceipt: TfrmCashReceipt;
+
+implementation
+uses
+  Global, Tables;
+
+{$R *.dfm}
+
+procedure TfrmCashReceipt.btnCardClick(Sender: TObject);
+begin
+  lbVan.Caption:= '현금영수증 카드를 읽혀주세요!';
+  edtCredit.SetFocus;
+end;
+
+procedure TfrmCashReceipt.FormShow(Sender: TObject);
+begin
+  lbVan.Caption:= '현금영수증 카드를 읽혀주세요!';
+  edtCredit.SetFocus;
+end;
+
+procedure TfrmCashReceipt.btnCreditClick(Sender: TObject);
+begin
+  Close;
+end;
+
+procedure TfrmCashReceipt.btnNoClick(Sender: TObject);
+begin
+  lbVan.Caption:= '번호입력 후 엔터키를 눌러주세요!';
+  edtCredit.SetFocus;
+end;
+
+procedure TfrmCashReceipt.edtCreditKeyPress(Sender: TObject; var Key: Char);
+var
+  sSeqNo, sCardData, sInputType, sTotAmt, sServiceAmt, sTaxAmt, sTranType: aString;
+  cPrintFlag: Array[0..1] of AnsiChar;
+  cResCode: Array[0..4] of AnsiChar;
+  cAuthNo: Array[0..12] of AnsiChar;
+  cAuthDate: Array[0..6] of AnsiChar;
+  cBusinessNo: Array[0..10] of AnsiChar;
+  cResMsg: Array[0..32] of AnsiChar;
+  cBroadMsg: Array[0..112] of AnsiChar;
+  sPrintFlag, sResCode, sAuthNo, sAuthDate, sBusinessNo, sResMsg, sBroadMsg: String;
+  nResult: Integer;
+  sPosResult: aString;
+  //sParkName, sParkAddr, sRegNo, sAdmin, sTelephone: String;
+  sLocalPrt: aString;
+begin
+  if Key = #13 then
+  begin
+    if (edtCredit.Text = '') then
+    begin
+      if btnCard.Checked then
+        ShowMessage('신용카드를 다시 읽혀주세요!')
+      else
+        ShowMessage('번호를 다시 입력하여주세요!');
+
+      edtCredit.SetFocus;
+      edtCredit.SelectAll;
+      Exit;
+    end
+    else
+    begin
+      sCardData:= aString(edtCredit.Text);
+
+      if btnCard.Checked then
+        sInputType:= 'S'
+      else
+      begin
+        sInputType:= 'K';
+        sCardData:= MG_StrTrim(sCardData, '-');
+      end;
+
+      sTranType:= '00';
+      sTotAmt:= IntToStr(nProcYogum);
+      sServiceAmt:= '';
+      sTaxAmt:= '';
+      sPrvSeqDate:= iSetup.ReadString('PARKING', 'SeqDate', '');
+
+      if sPrvSeqDate = FormatDateTime('YYYYMMDD', Now) then
+        nSeqNo:= iSetup.ReadInteger('PARKING', 'SeqNo', 0)
+      else
+      begin
+        iSetup.WriteString('PARKING', 'SeqDate', FormatDateTime('YYYYMMDD', Now));
+        nSeqNo:= 0;
+      end;
+      Inc(nSeqNo);
+      sSeqNo:= IntToStr(nSeqNo);
+
+      nResult:= FDIK_CashReceiptAuth(PAnsiChar(sTermNo), PAnsiChar(sSeqNo), PAnsiChar(sPosInit), PAnsiChar(sTempInfo),
+                                     PAnsiChar(sCardData), PAnsiChar(sInputType), PAnsiChar(sTranType), PAnsiChar(sTotAmt),
+                                     PAnsiChar(sServiceAmt), PAnsiChar(sTaxAmt),
+                                     @cPrintFlag, @cResCode, @cAuthNo, @cAuthDate, @cBusinessNo, @cResMsg, @cBroadMsg);
+
+      sPosResult:= IntToSTr(nResult) + LF + CR;
+      sPrintFlag:= cPrintFlag;   sResCode:= cResCode;   sAuthNo:= cAuthNo;   sAuthDate:= cAuthDate;
+      sBusinessNo:= cBusinessNo;   sResMsg:= cResMsg;
+      edtResCode2.Text:= IntToSTr(nResult);
+      edtResult2.Text:= sResCode;
+      edtAuthNo.Text:= sAuthNo;
+      edtAuthDate.Text:= sAuthDate;
+      edtBusinessNo.Text:= sBusinessNo;
+      edtResMsg2.Text:= sResMsg;
+
+      sBroadMsg:= cBroadMsg;
+      sPosResult:= sPosResult + sPrintFlag + LF + CR;
+      sPosResult:= sPosResult + sResCode + LF + CR;
+      sPosResult:= sPosResult + sAuthNo + LF + CR;
+      sPosResult:= sPosResult + sAuthDate + LF + CR;
+      sPosResult:= sPosResult + sBusinessNo + LF + CR;
+      sPosResult:= sPosResult + sResMsg + LF + CR;
+      sPosResult:= sPosResult + sBroadMsg + LF + CR;
+      ExceptLogging('CashReceipt Result: ' + sPosResult);
+      iSetup.WriteInteger('PARKING', 'SeqNo', nSeqNo);
+
+      if nResult = 0 then
+      begin
+        //정상승인이면 영수증 발급
+        bGoodCashReceipt:= True;
+
+        with qryVan do
+        begin
+          Close;
+          SQL.Clear;
+          SQL.Add('Select * from ParkInfo where ParkNo = :N1');
+          Parameters.ParamByName('N1').Value := nCurrParkNo;
+          Open;
+
+          if RecordCount > 0 then
+          begin
+            sParkName := FieldByName('ParkName').AsString;
+            sParkAddr := FieldByName('ParkAddr').AsString;
+            sRegNo := FieldByName('RegNo').AsString;
+            sAdmin := FieldByName('Admin').AsString;
+            sTelephone := FieldByName('Telephone').AsString;
+          end;
+        end;
+
+        // 영수증인쇄...
+        sCashReceipt := '';
+        sCashReceipt := '========================================' + LF + LF + LF + CR + SO_WTP;
+        sCashReceipt := sCashReceipt + '    영   수   증' + LF + LF + LF + CR + SI_WTP;
+
+        if Length(sParkName) > 29 then
+        begin
+          sCashReceipt := sCashReceipt + '주차장명 : ' + Copy(sParkName, 1, 29) + LF + CR;
+
+          if Length(sParkName) < 58 then
+            sCashReceipt := sCashReceipt + '           ' + Copy
+              (sParkName, 30, Length(sParkName) - 29) + LF + CR
+          else
+          begin
+            if Length(sParkName) < 87 then
+            begin
+              sCashReceipt := sCashReceipt + '           ' + Copy(sParkName, 30, 29)
+                + LF + CR;
+              sCashReceipt := sCashReceipt + '           ' + Copy
+                (sParkName, 60, Length(sParkName) - 58) + LF + CR;
+            end
+            else
+            begin
+              sCashReceipt := sCashReceipt + '           ' + Copy(sParkName, 30, 29)
+                + LF + CR;
+              sCashReceipt := sCashReceipt + '           ' + Copy(sParkName, 59, 29)
+                + LF + CR;
+              sCashReceipt := sCashReceipt + '           ' + Copy
+                (sParkName, 88, Length(sParkName) - 87) + LF + CR;
+            end;
+          end;
+        end
+        else
+          sCashReceipt := sCashReceipt + '주차장명 : ' + sParkName + LF + CR;
+
+        if Length(sParkAddr) > 29 then
+        begin
+          sCashReceipt := sCashReceipt + ' 주   소 : ' + Copy(sParkAddr, 1, 29) + LF + CR;
+
+          if Length(sParkAddr) < 58 then
+            sCashReceipt := sCashReceipt + '           ' + Copy
+              (sParkAddr, 30, Length(sParkAddr) - 29) + LF + CR
+          else
+          begin
+            if Length(sParkAddr) < 87 then
+            begin
+              sCashReceipt := sCashReceipt + '           ' + Copy(sParkAddr, 30, 29)
+                + LF + CR;
+              sCashReceipt := sCashReceipt + '           ' + Copy
+                (sParkAddr, 60, Length(sParkAddr) - 58) + LF + CR;
+            end
+            else
+            begin
+              sCashReceipt := sCashReceipt + '           ' + Copy(sParkAddr, 30, 29)
+                + LF + CR;
+              sCashReceipt := sCashReceipt + '           ' + Copy(sParkAddr, 59, 29)
+                + LF + CR;
+              sCashReceipt := sCashReceipt + '           ' + Copy
+                (sParkAddr, 88, Length(sParkAddr) - 87) + LF + CR;
+            end;
+          end;
+        end
+        else
+          sCashReceipt := sCashReceipt + ' 주   소 : ' + sParkAddr + LF + CR;
+
+        sCashReceipt := sCashReceipt + '등록번호 : ' + sRegNo + LF + CR;
+
+        if Length(sAdmin) > 29 then
+        begin
+          sCashReceipt := sCashReceipt + '대표자명 : ' + Copy(sAdmin, 1, 29) + LF + CR;
+          sCashReceipt := sCashReceipt + '           ' + Copy
+            (sAdmin, 30, Length(sAdmin) - 29) + LF + CR;
+        end
+        else
+          sCashReceipt := sCashReceipt + '대표자명 : ' + sAdmin + LF + CR;
+
+        sCashReceipt := sCashReceipt + '전화번호 : ' + sTelephone + LF + CR;
+        sCashReceipt := sCashReceipt + '========================================' + LF + CR;
+        sCashReceipt := sCashReceipt + '[식별정보] ';
+
+        if btnCard.Checked then
+          sCashReceipt:= sCashReceipt + Copy(edtCredit.Text, 1, 4) + '-' + Copy(edtCredit.Text, 5, 4) + '-' +
+                       '****-**' + Copy(edtCredit.Text, 15, 4) + LF + CR
+        else
+        begin
+          case Length(sCardData) of
+            13: begin
+                  //주민번호
+                  sCashReceipt:= sCashReceipt + Copy(edtCredit.Text, 1, 6) + '-*******' + LF + CR;
+            end;
+
+            10: begin
+                  //사업자번호 또는 핸폰번호
+                  sCashReceipt:= sCashReceipt + Copy(edtCredit.Text, 1, 3) + '-***-' + Copy(edtCredit.Text, 7, 4) + LF + CR;
+            end;
+
+            11: begin
+                  //핸폰번호
+                  sCashReceipt:= sCashReceipt + Copy(edtCredit.Text, 1, 3) + '-****-' + Copy(edtCredit.Text, 8, 4) + LF + CR;
+            end;
+          end;
+
+        end;
+        sCashReceipt := sCashReceipt + '[승인번호] ' + sAuthNo + LF + CR;
+        sCashReceipt := sCashReceipt + '[사업자No] ' + sBusinessNo + LF + CR;
+        sCashReceipt := sCashReceipt + '[결제금액] ' + FormatFloat('#,##0', nProcYogum) + LF + CR;
+        sCashReceipt := sCashReceipt + '========================================' + LF + CR;
+        sCashReceipt := sCashReceipt + '입차일시 : ' + sNowInDate + ' ' + sNowInTime + LF + CR;
+        sCashReceipt := sCashReceipt + '출차일시 : ' + sNowOutDate + ' ' + sNowOutTime + LF + CR;
+        sCashReceipt := sCashReceipt + '주차시간 : ' + sCreditParkingTime + LF + CR;
+        sCashReceipt := sCashReceipt + '근 무 자 : ' + sCurrMName + LF + CR;
+        sCashReceipt := sCashReceipt + '차량번호 : ' + sNowLprCarNo1 + LF + CR;
+        sCashReceipt := sCashReceipt + '========================================' + LF + CR;
+
+        sLocalPrt := sCashReceipt + '                             [고객용]   ' + LF + CR;
+
+        if Length(sCreditReceipt) > 40 then
+        begin
+          sLocalPrt := sLocalPrt + Copy(sCreditReceipt, 1, 40) + LF + CR;
+
+          if Length(sCreditReceipt) < 80 then
+            sLocalPrt := sLocalPrt + Copy(sCreditReceipt, 41, Length(sCreditReceipt) - 40) + LF + CR
+          else
+          begin
+            sLocalPrt := sLocalPrt + Copy(sCreditReceipt, 41, 40) + LF + CR;
+            sLocalPrt := sLocalPrt + Copy(sCreditReceipt, 81, Length(sCreditReceipt) - 80) + LF + CR;
+          end;
+        end
+        else
+          sLocalPrt := sLocalPrt + sCreditReceipt + LF + CR;
+
+        sLocalPrt := sLocalPrt + LF + LF + LF + LF + LF + LF + LF + LF + FullCut_WTP;
+        sLocalPrt := sLocalPrt + sCashReceipt + '                             [보관용]   ' + LF + CR;
+
+        if Length(sCreditReceipt) > 40 then
+        begin
+          sLocalPrt := sLocalPrt + Copy(sCreditReceipt, 1, 40) + LF + CR;
+
+          if Length(sCreditReceipt) < 80 then
+            sLocalPrt := sLocalPrt + Copy(sCreditReceipt, 41, Length(sCreditReceipt) - 40) + LF + CR
+          else
+          begin
+            sLocalPrt := sLocalPrt + Copy(sCreditReceipt, 41, 40) + LF + CR;
+            sLocalPrt := sLocalPrt + Copy(sCreditReceipt, 81, Length(sCreditReceipt) - 80) + LF + CR;
+          end;
+        end
+        else
+          sLocalPrt := sLocalPrt + sCreditReceipt + LF + CR;
+
+        sCashReceipt:= sLocalPrt + LF + LF + LF + LF + LF + LF + LF + LF + FullCut_WTP;
+
+        edtCredit.Text:= '';
+        edtResCode2.Text:= '';
+        edtResult2.Text:= '';
+        edtAuthNo.Text:= '';
+        edtAuthDate.Text:= '';
+        edtBusinessNo.Text:= '';
+        edtResMsg2.Text:= '';
+        Close;
+      end
+      else
+      begin
+        //정상승인이 아니면...
+        ShowMessage('응답메시지 확인 후 다시 처리하여주세요.');
+        edtCredit.Text:= '';
+        edtCredit.SetFocus;
+        edtCredit.SelectAll;
+      end;
+    end;
+  end
+  else
+  begin
+    if Key = #8 then
+      edtCredit.Text:= Copy(edtCredit.Text, 1, Length(edtCredit.Text)-1)
+    else
+      edtCredit.Text := edtCredit.Text + Key;
+  end;
+end;
+
+end.

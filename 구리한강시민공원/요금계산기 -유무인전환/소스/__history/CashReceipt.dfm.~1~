@@ -1,0 +1,311 @@
+object frmCashReceipt: TfrmCashReceipt
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = #54788#44552#50689#49688#51613' '#48156#54665
+  ClientHeight = 464
+  ClientWidth = 600
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 600
+    Height = 464
+    Align = alClient
+    BevelInner = bvLowered
+    TabOrder = 0
+    object Panel2: TPanel
+      Left = 2
+      Top = 2
+      Width = 596
+      Height = 47
+      Align = alTop
+      BevelInner = bvLowered
+      TabOrder = 0
+      object btnCard: TRadioButton
+        Left = 24
+        Top = 16
+        Width = 201
+        Height = 17
+        Caption = #54788#44552#50689#49688#51613#50857' '#52852#46300' '#49324#50857
+        Checked = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 0
+        TabStop = True
+        OnClick = btnCardClick
+      end
+      object btnNo: TRadioButton
+        Left = 256
+        Top = 16
+        Width = 329
+        Height = 17
+        Caption = #54648#46300#54256#48264#54840', '#51452#48124#48264#54840', '#49324#50629#51088#48264#54840' '#49324#50857
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 1
+        OnClick = btnNoClick
+      end
+    end
+    object Panel3: TPanel
+      Left = 1
+      Top = 49
+      Width = 597
+      Height = 102
+      BevelInner = bvLowered
+      TabOrder = 1
+      object lbVan: TLabel
+        Left = 11
+        Top = 65
+        Width = 575
+        Height = 29
+        AutoSize = False
+        Caption = #48264#54840#51077#47141' '#54980' '#50644#53552#53412#47484' '#45580#47084#51452#49464#50836'!'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -25
+        Font.Name = #44404#47548#52404
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object edtCredit: TEdit
+        Left = 11
+        Top = 24
+        Width = 575
+        Height = 35
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -27
+        Font.Name = #44404#47548#52404
+        Font.Style = []
+        ImeName = 'Microsoft Office IME 2007'
+        ParentFont = False
+        ReadOnly = True
+        TabOrder = 0
+        OnKeyPress = edtCreditKeyPress
+      end
+    end
+    object Panel4: TPanel
+      Left = 1
+      Top = 152
+      Width = 597
+      Height = 233
+      BevelInner = bvLowered
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = #44404#47548#52404
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 2
+      object edtResCode2: TAdvEdit
+        Left = 128
+        Top = 24
+        Width = 150
+        Height = 27
+        LabelCaption = #44208#44284#53076#46300' '
+        LabelPosition = lpLeftCenter
+        LabelTransparent = True
+        LabelAlwaysEnabled = True
+        LabelFont.Charset = ANSI_CHARSET
+        LabelFont.Color = clWindowText
+        LabelFont.Height = -19
+        LabelFont.Name = #44404#47548#52404
+        LabelFont.Style = []
+        Lookup.Separator = ';'
+        Color = clWindow
+        Enabled = True
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -19
+        Font.Name = #44404#47548#52404
+        Font.Style = []
+        ImeName = 'Microsoft Office IME 2007'
+        ParentFont = False
+        ReadOnly = True
+        TabOrder = 0
+        Visible = True
+        Version = '2.8.5.3'
+      end
+      object edtAuthNo: TAdvEdit
+        Left = 128
+        Top = 76
+        Width = 150
+        Height = 27
+        LabelCaption = #49849#51064#48264#54840' '
+        LabelPosition = lpLeftCenter
+        LabelTransparent = True
+        LabelAlwaysEnabled = True
+        LabelFont.Charset = ANSI_CHARSET
+        LabelFont.Color = clWindowText
+        LabelFont.Height = -19
+        LabelFont.Name = #44404#47548#52404
+        LabelFont.Style = []
+        Lookup.Separator = ';'
+        Color = clWindow
+        Enabled = True
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -19
+        Font.Name = #44404#47548#52404
+        Font.Style = []
+        ImeName = 'Microsoft Office IME 2007'
+        ParentFont = False
+        ReadOnly = True
+        TabOrder = 1
+        Visible = True
+        Version = '2.8.5.3'
+      end
+      object edtAuthDate: TAdvEdit
+        Left = 416
+        Top = 76
+        Width = 150
+        Height = 27
+        LabelCaption = #49849#51064#51068#51088' '
+        LabelPosition = lpLeftCenter
+        LabelTransparent = True
+        LabelAlwaysEnabled = True
+        LabelFont.Charset = ANSI_CHARSET
+        LabelFont.Color = clWindowText
+        LabelFont.Height = -19
+        LabelFont.Name = #44404#47548#52404
+        LabelFont.Style = []
+        Lookup.Separator = ';'
+        Color = clWindow
+        Enabled = True
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -19
+        Font.Name = #44404#47548#52404
+        Font.Style = []
+        ImeName = 'Microsoft Office IME 2007'
+        ParentFont = False
+        ReadOnly = True
+        TabOrder = 2
+        Visible = True
+        Version = '2.8.5.3'
+      end
+      object edtBusinessNo: TAdvEdit
+        Left = 128
+        Top = 128
+        Width = 150
+        Height = 27
+        LabelCaption = #49324#50629#51088#48264#54840
+        LabelPosition = lpLeftCenter
+        LabelTransparent = True
+        LabelAlwaysEnabled = True
+        LabelFont.Charset = ANSI_CHARSET
+        LabelFont.Color = clWindowText
+        LabelFont.Height = -19
+        LabelFont.Name = #44404#47548#52404
+        LabelFont.Style = []
+        Lookup.Separator = ';'
+        Color = clWindow
+        Enabled = True
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -19
+        Font.Name = #44404#47548#52404
+        Font.Style = []
+        ImeName = 'Microsoft Office IME 2007'
+        ParentFont = False
+        ReadOnly = True
+        TabOrder = 3
+        Visible = True
+        Version = '2.8.5.3'
+      end
+      object edtResMsg2: TAdvEdit
+        Left = 128
+        Top = 176
+        Width = 438
+        Height = 27
+        LabelCaption = #51025#45813#47700#49884#51648' '
+        LabelPosition = lpLeftCenter
+        LabelTransparent = True
+        LabelAlwaysEnabled = True
+        LabelFont.Charset = ANSI_CHARSET
+        LabelFont.Color = clWindowText
+        LabelFont.Height = -19
+        LabelFont.Name = #44404#47548#52404
+        LabelFont.Style = []
+        Lookup.Separator = ';'
+        Color = clWindow
+        Enabled = True
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -19
+        Font.Name = #44404#47548#52404
+        Font.Style = []
+        ImeName = 'Microsoft Office IME 2007'
+        ParentFont = False
+        ReadOnly = True
+        TabOrder = 4
+        Visible = True
+        Version = '2.8.5.3'
+      end
+      object edtResult2: TAdvEdit
+        Left = 416
+        Top = 24
+        Width = 150
+        Height = 27
+        LabelCaption = #44208#44284#44050' '
+        LabelPosition = lpLeftCenter
+        LabelTransparent = True
+        LabelAlwaysEnabled = True
+        LabelFont.Charset = ANSI_CHARSET
+        LabelFont.Color = clWindowText
+        LabelFont.Height = -19
+        LabelFont.Name = #44404#47548#52404
+        LabelFont.Style = []
+        Lookup.Separator = ';'
+        Color = clWindow
+        Enabled = True
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -19
+        Font.Name = #44404#47548#52404
+        Font.Style = []
+        ImeName = 'Microsoft Office IME 2007'
+        ParentFont = False
+        ReadOnly = True
+        TabOrder = 5
+        Visible = True
+        Version = '2.8.5.3'
+      end
+    end
+    object btnCredit: TsButton
+      Left = 476
+      Top = 403
+      Width = 91
+      Height = 39
+      Caption = #52712'  '#49548
+      TabOrder = 3
+      OnClick = btnCreditClick
+      SkinData.SkinSection = 'BUTTON'
+    end
+  end
+  object qryVan: TADOQuery
+    Connection = dmTables.ADODB
+    Parameters = <>
+    Left = 88
+    Top = 48
+  end
+end

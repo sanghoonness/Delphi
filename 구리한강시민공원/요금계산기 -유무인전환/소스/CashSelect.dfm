@@ -1,0 +1,95 @@
+object frmCashSelect: TfrmCashSelect
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = #54788#44552#50689#49688#51613' '#48156#54665#50668#48512
+  ClientHeight = 185
+  ClientWidth = 387
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object GradientLabel1: TGradientLabel
+    Left = 37
+    Top = 24
+    Width = 320
+    Height = 65
+    AutoSize = False
+    Caption = #54788#44552#50689#49688#51613' '#48156#54665#50668#48512#47484' '#13#10#49440#53469#54616#50668' '#51452#49464#50836'.'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -29
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    WordWrap = True
+    ColorTo = clWhite
+    EllipsType = etNone
+    GradientType = gtFullHorizontal
+    GradientDirection = gdLeftToRight
+    Indent = 0
+    LineWidth = 2
+    Orientation = goHorizontal
+    TransparentText = False
+    VAlignment = vaTop
+    Version = '1.1.1.0'
+  end
+  object btn1: TAdvSmoothToggleButton
+    Left = 216
+    Top = 118
+    Width = 140
+    Height = 41
+    BorderColor = clAqua
+    BevelWidth = 1
+    Caption = #54788#44552#50689#49688#51613' '#48156#54665
+    Version = '1.1.6.0'
+    Status.Caption = '0'
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 0
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    TabOrder = 0
+    OnClick = btn1Click
+  end
+  object btn2: TAdvSmoothToggleButton
+    Left = 36
+    Top = 118
+    Width = 140
+    Height = 41
+    BorderColor = clYellow
+    BevelWidth = 1
+    Caption = #54788#44552#50689#49688#51613' '#48156#54665#50504#54632
+    Version = '1.1.6.0'
+    Status.Caption = '0'
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 0
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    TabOrder = 1
+    OnClick = btn2Click
+  end
+end

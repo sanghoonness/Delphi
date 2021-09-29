@@ -1,0 +1,446 @@
+unit Credit;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, sButton, AdvEdit, sLabel, ExtCtrls, sPanel, DB, ADODB;
+
+type
+  TfrmCredit = class(TForm)
+    pnCredit: TsPanel;
+    sLabel1: TsLabel;
+    Panel3: TPanel;
+    lbVan: TLabel;
+    edtCredit: TEdit;
+    Panel4: TPanel;
+    edtResCode2: TAdvEdit;
+    edtAuthNo: TAdvEdit;
+    edtAuthDate: TAdvEdit;
+    edtMemberNo: TAdvEdit;
+    edtResMsg2: TAdvEdit;
+    edtCardName: TAdvEdit;
+    edtIssuerName: TAdvEdit;
+    edtAcquirerName: TAdvEdit;
+    edtResult2: TAdvEdit;
+    btnCredit: TsButton;
+    qryVan: TADOQuery;
+    procedure FormShow(Sender: TObject);
+    procedure edtCreditKeyPress(Sender: TObject; var Key: Char);
+    procedure btnCreditClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCredit: TfrmCredit;
+
+  {
+function FDIK_CreditAuth_Simple(cTerm_No, cSeq_No, cPot_Init, cTemp_Info, cCredit_Info, cCredit_Input_Type, cInstall_Period,
+                                  cTotal_Amt, cService_Amt, cTax_Amt, cOcb_Info, cOcb_Input_Type, cSign_Mothod, cSign_Mac, cSign_Data,
+                                  cPrint_Flag, cRes_Code, cAuth_No, cAuth_Date, cMember_No, cDDC_Flag, cDDC_No, cRes_Msg, cCardName,
+                                  cIssuer_Code, cIssuer_Name, cAcquirer_Code, cAcquirer_Name, cGift_Cash, cNotice, cOcb_Res_Code,
+                                  cCustomer_Name, cAdd_Point, cSave_Point, cUsable_Point, cBroad_Msg: PAnsiChar): Integer; StdCall; external 'fdikpos43.dll';
+function FDIK_CreditAuth_SimpleEx(cTerm_No, cSeq_No, cPot_Init, cTemp_Info, cCredit_Info, cCredit_Input_Type, cInstall_Period,
+                                  cTotal_Amt, cService_Amt, cTax_Amt, cOcb_Info, cOcb_Input_Type, cSign_Mothod, cSign_Mac, cSign_Data,
+                                  cPrint_Flag, cRes_Code, cAuth_No, cAuth_Date, cMember_No, cDDC_Flag, cDDC_No, cRes_Msg, cCardName,
+                                  cIssuer_Code, cIssuer_Name, cAcquirer_Code, cAcquirer_Name, cGift_Cash, cNotice, cOcb_Res_Code,
+                                  cCustomer_Name, cAdd_Point, cSave_Point, cUsable_Point, cBroad_Msg, cChk_Flag: PAnsiChar): Integer; StdCall; external 'fdikpos43.dll';
+function FDIK_CreditCancel_SimpleEx(cTerm_No, cSeqNo, cPos_Init, cTemp_Info, cCancel_Type, cCredit_Info, cCredit_Input_Type, cInstall_Period,
+                                    cTotal_Amt, cService_Amt, cTax_Amt, cPrvAuth_No, cPrvAuth_Date, cOcb_Info, cOcb_Input_Type, cSign_Method, cSign_Mac, cSign_Data,
+                                    cPrint_Flag, cRes_Code, cAuth_No, cAuth_Date, cMember_No, cDDC_Flag, cDDC_No, cRes_Msg, cCardName,
+                                    cIssuer_Code, cIssuer_Name, cAcquirer_Code, cAcquirer_Name, cGift_Cash, cNotice, cOcb_Res_Code,
+                                    cCustomer_Name, cAdd_Point, cSave_Point, cUsable_Point, cBroad_Msg, cChk_Flag: PAnsiChar): Integer; StdCall; external 'fdikpos43.dll';
+                                    }
+
+implementation
+uses
+  Global, Tables, MainNew;
+
+{$R *.dfm}
+
+procedure TfrmCredit.btnCreditClick(Sender: TObject);
+begin
+  Close;
+end;
+
+procedure TfrmCredit.edtCreditKeyPress(Sender: TObject; var Key: Char);
+var
+  sSeqNo, sInputType, sPeriod, sTotAmt, sServiceAmt, sTaxAmt,
+  sOcbInfo, sOcbInputType, sSignMethod, sSignMac, sSignData : aString;
+  sCardData: aString;
+  cPrintFlag: Array[0..1] of AnsiChar;
+  cResCode: Array[0..4] of AnsiChar;
+  cAuthNo: Array[0..12] of AnsiChar;
+  cAuthDate: Array[0..6] of AnsiChar;
+  cMemberNo: Array[0..15] of AnsiChar;
+  cDDCFlag: Array[0..1] of AnsiChar;
+  cDDCNo: Array[0..10] of AnsiChar;
+  cResMsg: Array[0..32] of AnsiChar;
+  cCardName: Array[0..32] of AnsiChar;
+  cIssuerCode: Array[0..2] of AnsiChar;
+  cIssuerName: Array[0..8] of AnsiChar;
+  cAcquirerCode: Array[0..2] of AnsiChar;
+  cAcquirerName: Array[0..8] of AnsiChar;
+  cGiftCash: Array[0..9] of AnsiChar;
+  cNotice: Array[0..20] of AnsiChar;
+  cOcbCode: Array[0..4] of AnsiChar;
+  cCustomName: Array[0..20] of AnsiChar;
+  cAddPoint: Array[0..9] of AnsiChar;
+  cSavePoint: Array[0..9] of AnsiChar;
+  cUsablePoint: Array[0..9] of AnsiChar;
+  cBroadMsg: Array[0..112] of AnsiChar;
+  cChkFlag: Array[0..1] of AnsiChar;
+  sPrintFlag, sResCode, sAuthNo, sAuthDate, sMemberNo, sDDCFlag, sDDCNo, sResMsg, sCardName, sIssuerCode, sIssuerName,
+  sAcquirerCode, sAcquirerName, sGiftCash, sNotice, sOcbCode, sCustomName, sAddPoint, sSavePoint, sUsablePoint, sBroadMsg,
+  sChkFlag: String;
+  sPosResult: aString;
+  //sParkName, sParkAddr, sRegNo, sAdmin, sTelephone: String;
+  nResult: Integer;
+  sLocalPrt: aString;
+begin
+  if (Key = #13) then
+  begin
+    if (edtCredit.Text = '') or (Length(edtCredit.Text) < 30) then
+    begin
+      ShowMessage('신용카드를 다시 읽혀주세요!');
+      edtCredit.SetFocus;
+      edtCredit.SelectAll;
+      Exit;
+    end
+    else
+    begin
+      // 신용카드 승인...      4119046057987128=18052011068301731059
+
+      sCardData:= aString(edtCredit.Text);
+
+      //sCardData:= '4119046057987128=18052011068301731059';
+      sInputType:= 'S';
+      sPeriod:= '';
+      sTotAmt:= IntToStr(nProcYogum);
+      sServiceAmt:= '';
+      sTaxAmt:= '';
+      sOcbInfo:= '';
+      sOcbInputType:= '';
+      sSignMethod:= '';
+      sSignMac:= '';
+      sSignData:= '';
+      sPrvSeqDate:= iSetup.ReadString('PARKING', 'SeqDate', '');
+
+      if sPrvSeqDate = FormatDateTime('YYYYMMDD', Now) then
+        nSeqNo:= iSetup.ReadInteger('PARKING', 'SeqNo', 0)
+      else
+      begin
+        iSetup.WriteString('PARKING', 'SeqDate', FormatDateTime('YYYYMMDD', Now));
+        nSeqNo:= 0;
+      end;
+      Inc(nSeqNo);
+      sSeqNo:= IntToStr(nSeqNo);
+
+      {
+      nResult:= FDIK_CreditAuth_SimpleEx(PChar(sTermNo), PChar(sSeqNo), PChar(sPosInit), PChar(sTempInfo), PAnsiChar(sCardData),
+                     PChar(sInputType), PChar(sPeriod), PAnsiChar(sTotAmt), PChar(sServiceAmt), PChar(sTaxAmt), PChar(sOcbInfo),
+                     PChar(sOcbInputType), PChar(sSignMethod), PChar(sSignMac), PChar(sSignData),
+                     @cPrintFlag, @cResCode, @cAuthNo, @cAuthDate, @cMemberNo, @cDDCFlag, @cDDCNo, @cResMsg, @cCardName,
+                     @cIssuerCode, @cIssuerName, @cAcquirerCode, @cAcquirerName, @cGiftCash, @cNotice, @cOcbCode, @cCustomName,
+                     @cAddPoint, @cSavePoint, @cUsablePoint, @cBroadmsg, @cChkFlag);
+      }
+
+      nResult:= FDIK_CreditAuth_SimpleEx(PAnsiChar(sTermNo), PAnsiChar(sSeqNo), PAnsiChar(sPosInit), PAnsiChar(sTempInfo), PAnsiChar(sCardData),
+                     PAnsiChar(sInputType), PAnsiChar(sPeriod), PAnsiChar(sTotAmt), PAnsiChar(sServiceAmt), PAnsiChar(sTaxAmt), PAnsiChar(sOcbInfo),
+                     PAnsiChar(sOcbInputType), PAnsiChar(sSignMethod), PAnsiChar(sSignMac), PAnsiChar(sSignData),
+                     @cPrintFlag, @cResCode, @cAuthNo, @cAuthDate, @cMemberNo, @cDDCFlag, @cDDCNo, @cResMsg, @cCardName,
+                     @cIssuerCode, @cIssuerName, @cAcquirerCode, @cAcquirerName, @cGiftCash, @cNotice, @cOcbCode, @cCustomName,
+                     @cAddPoint, @cSavePoint, @cUsablePoint, @cBroadmsg, @cChkFlag);
+
+      {
+      nResult:= FDIK_CreditAuth_Simple(PChar(sTermNo), PChar(sSeqNo), PChar(sPosInit), PChar(sTempInfo), PChar(sCardData),
+                     PChar(sInputType), PChar(sPeriod), PChar(sTotAmt), PChar(sServiceAmt), PChar(sTaxAmt), PChar(sOcbInfo),
+                     PChar(sOcbInputType), PChar(sSignMethod), PChar(sSignMac), PChar(sSignData),
+                     @cPrintFlag, @cResCode, @cAuthNo, @cAuthDate, @cMemberNo, @cDDCFlag, @cDDCNo, @cResMsg, @cCardName,
+                     @cIssuerCode, @cIssuerName, @cAcquirerCode, @cAcquirerName, @cGiftCash, @cNotice, @cOcbCode, @cCustomName,
+                     @cAddPoint, @cSavePoint, @cUsablePoint, @cBroadmsg);
+      }
+      sPosResult:= IntToSTr(nResult) + LF + CR;
+      sPrintFlag:= cPrintFlag;   sResCode:= cResCode;   sAuthNo:= cAuthNo;   sAuthDate:= cAuthDate;
+      sMemberNo:= cMemberNo;   sDDCFlag:= cDDCFlag;   sDDCNo:= cDDCNo;   sResMsg:= cResMsg;
+      sCardName:= cCardName;   sIssuerCode:= cIssuerCode;   sIssuerName:= cIssuerName;   sAcquirerCode:= cAcquirerCode;
+      sAcquirerName:= cAcquirerName;   sGiftCash:= cGiftCash;   sNotice:= cNotice;   sOcbCode:= cOcbCode;
+      sCustomName:= cCustomName;   sAddPoint:= cAddPoint;   sSavePoint:= cSavePoint;   sUsablePoint:= cUsablePoint;
+      edtResCode2.Text:= IntToSTr(nResult);
+      edtResult2.Text:= sResCode;
+      edtAuthNo.Text:= sAuthNo;
+      edtAuthDate.Text:= sAuthDate;
+      edtMemberNo.Text:= sMemberNo;
+      edtCardName.Text:= sCardName;
+      edtIssuerName.Text:= sIssuerName;
+      edtAcquirerName.Text:= sAcquirerName;
+      edtResMsg2.Text:= sResMsg;
+
+      sBroadMsg:= cBroadMsg;   sChkFlag:= cChkFlag;
+      sPosResult:= sPosResult + sPrintFlag + LF + CR;
+      sPosResult:= sPosResult + sResCode + LF + CR;
+      sPosResult:= sPosResult + sAuthNo + LF + CR;
+      sPosResult:= sPosResult + sAuthDate + LF + CR;
+      sPosResult:= sPosResult + sMemberNo + LF + CR;
+      sPosResult:= sPosResult + sDDCFlag + LF + CR;
+      sPosResult:= sPosResult + sDDCNo + LF + CR;
+      sPosResult:= sPosResult + sResMsg + LF + CR;
+      sPosResult:= sPosResult + sCardName + LF + CR;
+      sPosResult:= sPosResult + sIssuerCode + LF + CR;
+      sPosResult:= sPosResult + sIssuerName + LF + CR;
+      sPosResult:= sPosResult + sAcquirerCode + LF + CR;
+      sPosResult:= sPosResult + sAcquirerName + LF + CR;
+      sPosResult:= sPosResult + sGiftCash + LF + CR;
+      sPosResult:= sPosResult + sNotice + LF + CR;
+      sPosResult:= sPosResult + sOcbCode + LF + CR;
+      sPosResult:= sPosResult + sCustomName + LF + CR;
+      sPosResult:= sPosResult + sAddPoint + LF + CR;
+      sPosResult:= sPosResult + sSavePoint + LF + CR;
+      sPosResult:= sPosResult + sUsablePoint + LF + CR;
+      sPosResult:= sPosResult + sBroadMsg + LF + CR;
+      sPosResult:= sPosResult + sChkFlag + LF + CR;
+      ExceptLogging('POS Result: ' + sPosResult);
+
+      //승인결과 DB 저장
+      with qryVan do
+      begin
+        Close;
+        SQL.Clear;
+        SQL.Add('Insert VanList ');
+        SQL.Add('(ParkNo, UnitNo, ProcDate, ProcTime, MNo, VanCheck, CardNo, VanAmt, VanDate, VanTime, ');
+        SQL.Add('VanRegNo, CardType, VanStatus, CarNo, Reserve1, Reserve2) ');
+        SQL.Add('Values (:N1, :N2, :N3, :N4, :N5, :N6, :N7, :N8, :N9, :N10, :N11, :N12, :N13, :N14, :N15, :N16)');
+        Parameters.ParamByName('N1').Value:= nCurrParkNo;
+        Parameters.ParamByName('N2').Value:= nCurrUnitNo;
+        Parameters.ParamByName('N3').Value:= FormatDateTime('YYYY-MM-DD', Now);
+        Parameters.ParamByName('N4').Value:= FormatDateTime('HH:NN:SS', Now);
+        Parameters.ParamByName('N5').Value:= nCurrMNo;
+
+        if nResult = 0 then
+          Parameters.ParamByName('N6').Value:= 1
+        else
+          Parameters.ParamByName('N6').Value:= 2;
+
+        Parameters.ParamByName('N7').Value:= Copy(edtCredit.Text, 1, 4) +
+                                             Copy(edtCredit.Text, 5, 2) + '*****' +
+                                             Copy(edtCredit.Text, 13, 4);
+        Parameters.ParamByName('N8').Value:= StrToInt(sTotAmt);
+
+        if sAuthDate <> '' then
+          Parameters.ParamByName('N9').Value:= MG_StrToStr('20' + sAuthDate, '####-##-##')
+        else
+          Parameters.ParamByName('N9').Value:= '';
+
+        Parameters.ParamByName('N10').Value:= FormatDateTime('HH:NN:SS', Now);
+        Parameters.ParamByName('N11').Value:= sAuthNo;
+        Parameters.ParamByName('N12').Value:= sCardName;
+        Parameters.ParamByName('N13').Value:= sResMsg;
+        Parameters.ParamByName('N14').Value:= sNowLprCarNo1;
+        Parameters.ParamByName('N15').Value:= sNowInTKNo;
+        Parameters.ParamByName('N16').Value:= sCardName;
+        ExecSQL;
+      end;
+      iSetup.WriteInteger('PARKING', 'SeqNo', nSeqNo);
+
+      if nResult = 0 then
+      begin
+        //정상승인이면 영수증 발급
+        bGoodCredit:= True;
+
+        with qryVan do
+        begin
+          Close;
+          SQL.Clear;
+          SQL.Add('Select * from ParkInfo where ParkNo = :N1');
+          Parameters.ParamByName('N1').Value := nCurrParkNo;
+          Open;
+
+          if RecordCount > 0 then
+          begin
+            sParkName := FieldByName('ParkName').AsString;
+            sParkAddr := FieldByName('ParkAddr').AsString;
+            sRegNo := FieldByName('RegNo').AsString;
+            sAdmin := FieldByName('Admin').AsString;
+            sTelephone := FieldByName('Telephone').AsString;
+          end;
+        end;
+
+        // 영수증인쇄...
+        sCreditPrt := '';
+        sCreditPrt := '========================================' + LF + LF + LF + CR + SO_WTP;
+        sCreditPrt := sCreditPrt + '    영   수   증' + LF + LF + LF + CR + SI_WTP;
+
+        if Length(sParkName) > 29 then
+        begin
+          sCreditPrt := sCreditPrt + '주차장명 : ' + Copy(sParkName, 1, 29) + LF + CR;
+
+          if Length(sParkName) < 58 then
+            sCreditPrt := sCreditPrt + '           ' + Copy
+              (sParkName, 30, Length(sParkName) - 29) + LF + CR
+          else
+          begin
+            if Length(sParkName) < 87 then
+            begin
+              sCreditPrt := sCreditPrt + '           ' + Copy(sParkName, 30, 29)
+                + LF + CR;
+              sCreditPrt := sCreditPrt + '           ' + Copy
+                (sParkName, 60, Length(sParkName) - 58) + LF + CR;
+            end
+            else
+            begin
+              sCreditPrt := sCreditPrt + '           ' + Copy(sParkName, 30, 29)
+                + LF + CR;
+              sCreditPrt := sCreditPrt + '           ' + Copy(sParkName, 59, 29)
+                + LF + CR;
+              sCreditPrt := sCreditPrt + '           ' + Copy
+                (sParkName, 88, Length(sParkName) - 87) + LF + CR;
+            end;
+          end;
+        end
+        else
+          sCreditPrt := sCreditPrt + '주차장명 : ' + sParkName + LF + CR;
+
+        if Length(sParkAddr) > 29 then
+        begin
+          sCreditPrt := sCreditPrt + ' 주   소 : ' + Copy(sParkAddr, 1, 29) + LF + CR;
+
+          if Length(sParkAddr) < 58 then
+            sCreditPrt := sCreditPrt + '           ' + Copy
+              (sParkAddr, 30, Length(sParkAddr) - 29) + LF + CR
+          else
+          begin
+            if Length(sParkAddr) < 87 then
+            begin
+              sCreditPrt := sCreditPrt + '           ' + Copy(sParkAddr, 30, 29)
+                + LF + CR;
+              sCreditPrt := sCreditPrt + '           ' + Copy
+                (sParkAddr, 60, Length(sParkAddr) - 58) + LF + CR;
+            end
+            else
+            begin
+              sCreditPrt := sCreditPrt + '           ' + Copy(sParkAddr, 30, 29)
+                + LF + CR;
+              sCreditPrt := sCreditPrt + '           ' + Copy(sParkAddr, 59, 29)
+                + LF + CR;
+              sCreditPrt := sCreditPrt + '           ' + Copy
+                (sParkAddr, 88, Length(sParkAddr) - 87) + LF + CR;
+            end;
+          end;
+        end
+        else
+          sCreditPrt := sCreditPrt + ' 주   소 : ' + sParkAddr + LF + CR;
+
+        sCreditPrt := sCreditPrt + '등록번호 : ' + sRegNo + LF + CR;
+
+        if Length(sAdmin) > 29 then
+        begin
+          sCreditPrt := sCreditPrt + '대표자명 : ' + Copy(sAdmin, 1, 29) + LF + CR;
+          sCreditPrt := sCreditPrt + '           ' + Copy
+            (sAdmin, 30, Length(sAdmin) - 29) + LF + CR;
+        end
+        else
+          sCreditPrt := sCreditPrt + '대표자명 : ' + sAdmin + LF + CR;
+
+        sCreditPrt := sCreditPrt + '전화번호 : ' + sTelephone + LF + CR;
+        sCreditPrt := sCreditPrt + '========================================' + LF + CR;
+        sCreditPrt := sCreditPrt + '[카드번호] ' + 'XXXX' + '-' +
+                      Copy(edtCredit.Text, 5, 2) + '**-****' + Copy(edtCredit.Text, 13, 4) + LF + CR;
+        sCreditPrt := sCreditPrt + '[할부개월] 일시불' + LF + CR;
+        sCreditPrt := sCreditPrt + '[카드종류] ' + sCardName + LF + CR;
+        sCreditPrt := sCreditPrt + '[매입사명] ' + sAcquirerName + LF + CR;
+        sCreditPrt := sCreditPrt + '[승인번호] ' + sAuthNo + LF + CR;
+        sCreditPrt := sCreditPrt + '[가 맹 점] ' + sMemberNo + LF + CR;
+        sCreditPrt := sCreditPrt + '[결제금액] ' + FormatFloat('#,##0', nProcYogum) + LF + CR;
+        sCreditPrt := sCreditPrt + '========================================' + LF + CR;
+        sCreditPrt := sCreditPrt + '입차일시 : ' + sNowInDate + ' ' + sNowInTime + LF + CR;
+        sCreditPrt := sCreditPrt + '출차일시 : ' + sNowOutDate + ' ' + sNowOutTime + LF + CR;
+        sCreditPrt := sCreditPrt + '주차시간 : ' + sCreditParkingTime + LF + CR;
+        sCreditPrt := sCreditPrt + '근 무 자 : ' + sCurrMName + LF + CR;
+        sCreditPrt := sCreditPrt + '차량번호 : ' + sNowLprCarNo1 + LF + CR;
+        sCreditPrt := sCreditPrt + '========================================' + LF + CR;
+
+        sLocalPrt := sCreditPrt + '                             [고객용]   ' + LF + CR;
+
+        if Length(sCreditReceipt) > 40 then
+        begin
+          sLocalPrt := sLocalPrt + Copy(sCreditReceipt, 1, 40) + LF + CR;
+
+          if Length(sCreditReceipt) < 80 then
+            sLocalPrt := sLocalPrt + Copy(sCreditReceipt, 41, Length(sCreditReceipt) - 40) + LF + CR
+          else
+          begin
+            sLocalPrt := sLocalPrt + Copy(sCreditReceipt, 41, 40) + LF + CR;
+            sLocalPrt := sLocalPrt + Copy(sCreditReceipt, 81, Length(sCreditReceipt) - 80) + LF + CR;
+          end;
+        end
+        else
+          sLocalPrt := sLocalPrt + sCreditReceipt + LF + CR;
+
+        sLocalPrt := sLocalPrt + LF + LF + LF + LF + LF + LF + LF + LF + FullCut_WTP;
+        sLocalPrt := sLocalPrt + sCreditPrt + '                             [보관용]   ' + LF + CR;
+
+        if Length(sCreditReceipt) > 40 then
+        begin
+          sLocalPrt := sLocalPrt + Copy(sCreditReceipt, 1, 40) + LF + CR;
+
+          if Length(sCreditReceipt) < 80 then
+            sLocalPrt := sLocalPrt + Copy(sCreditReceipt, 41, Length(sCreditReceipt) - 40) + LF + CR
+          else
+          begin
+            sLocalPrt := sLocalPrt + Copy(sCreditReceipt, 41, 40) + LF + CR;
+            sLocalPrt := sLocalPrt + Copy(sCreditReceipt, 81, Length(sCreditReceipt) - 80) + LF + CR;
+          end;
+        end
+        else
+          sLocalPrt := sLocalPrt + sCreditReceipt + LF + CR;
+
+        sCreditPrt:= sLocalPrt + LF + LF + LF + LF + LF + LF + LF + LF + FullCut_WTP;
+
+        edtCredit.Text:= '';
+        edtResCode2.Text:= '';
+        edtResult2.Text:= '';
+        edtAuthNo.Text:= '';
+        edtAuthDate.Text:= '';
+        edtMemberNo.Text:= '';
+        edtCardName.Text:= '';
+        edtIssuerName.Text:= '';
+        edtAcquirerName.Text:= '';
+        edtResMsg2.Text:= '';
+        Close;
+      end
+      else
+      begin
+        //정상승인이 아니면...
+        ShowMessage('응답메시지 확인 후 다른카드 또는 현금으로 정산하여주세요.');
+        edtCredit.Text:= '';
+        edtCredit.SetFocus;
+        edtCredit.SelectAll;
+      end;
+    end;
+  end
+  else
+  begin
+    edtCredit.Text := edtCredit.Text + Key;
+  end;
+end;
+
+procedure TfrmCredit.FormShow(Sender: TObject);
+begin
+  edtCredit.Text:= '';
+  edtResCode2.Text:= '';
+  edtResult2.Text:= '';
+  edtAuthNo.Text:= '';
+  edtAuthDate.Text:= '';
+  edtMemberNo.Text:= '';
+  edtCardName.Text:= '';
+  edtIssuerName.Text:= '';
+  edtAcquirerName.Text:= '';
+  edtResMsg2.Text:= '';
+  lbVan.Caption:= '신용카드를 읽혀주세요!';
+  edtCredit.SetFocus;
+end;
+
+end.

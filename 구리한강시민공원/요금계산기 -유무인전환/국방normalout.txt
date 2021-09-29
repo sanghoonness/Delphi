@@ -1,0 +1,852 @@
+    if bFreeTime then
+    begin
+      if bFreeTimeChk then
+      begin
+        // 시작시각이 크다.
+        if (sFreeTimeS <= FormatDateTime('HH:NN', Now)) or
+          (sFreeTimeE >= FormatDateTime('HH:NN', Now)) then
+        begin
+          FreeTimeProc(nowLpr);
+          // MichulProc(sInCarNo);
+          bNCOutProcWait := False;
+          Exit;
+        end;
+      end
+      else
+      begin
+        if (sFreeTimeS <= FormatDateTime('HH:NN', Now)) and
+          (sFreeTimeE >= FormatDateTime('HH:NN', Now)) then
+        begin
+          FreeTimeProc(nowLpr);
+          // MichulProc(sInCarNo);
+          bNCOutProcWait := False;
+          Exit;
+        end;
+      end;
+    end;
+
+    //if (FormatDateTime('YYYY-MM-DD HH:NN', StrToDateTime(Copy(lbInTime.Caption, 1, 16)) + StrToTime(GTime.GT1)) > Copy(sNow, 1, 16)) or
+    if GracetimeCheck(Copy(lbInTime.Caption, 1, 16), Copy(sNow, 1, 16)) or
+       (Copy(lbInTime.Caption, 1, 16) = Copy(sNow, 1, 16)) then
+    begin
+      // 회차허용차량...
+      // DB Write...
+      with dmTables.qryNormalOut2 do
+      begin
+        Close;
+        SQL.Clear;
+        SQL.Add(
+          'Select * from IONCount Where ParkNo = :N1 and UnitNo = :N2 and ProcDate = :N3');
+        Parameters.ParamByName('N1').Value := nCurrParkNo;
+        Parameters.ParamByName('N2').Value := nLprNo;
+        Parameters.ParamByName('N3').Value := Copy(sNow, 1, 10);
+        Open;
+
+        if RecordCount > 0 then
+        begin
+          Case StrToInt(FormatDateTime('HH', Now)) of
+            0:
+              nOutCnt := FieldByName('Out00').AsInteger + 1;
+            1:
+              nOutCnt := FieldByName('Out01').AsInteger + 1;
+            2:
+              nOutCnt := FieldByName('Out02').AsInteger + 1;
+            3:
+              nOutCnt := FieldByName('Out03').AsInteger + 1;
+            4:
+              nOutCnt := FieldByName('Out04').AsInteger + 1;
+            5:
+              nOutCnt := FieldByName('Out05').AsInteger + 1;
+            6:
+              nOutCnt := FieldByName('Out06').AsInteger + 1;
+            7:
+              nOutCnt := FieldByName('Out07').AsInteger + 1;
+            8:
+              nOutCnt := FieldByName('Out08').AsInteger + 1;
+            9:
+              nOutCnt := FieldByName('Out09').AsInteger + 1;
+            10:
+              nOutCnt := FieldByName('Out10').AsInteger + 1;
+            11:
+              nOutCnt := FieldByName('Out11').AsInteger + 1;
+            12:
+              nOutCnt := FieldByName('Out12').AsInteger + 1;
+            13:
+              nOutCnt := FieldByName('Out13').AsInteger + 1;
+            14:
+              nOutCnt := FieldByName('Out14').AsInteger + 1;
+            15:
+              nOutCnt := FieldByName('Out15').AsInteger + 1;
+            16:
+              nOutCnt := FieldByName('Out16').AsInteger + 1;
+            17:
+              nOutCnt := FieldByName('Out17').AsInteger + 1;
+            18:
+              nOutCnt := FieldByName('Out18').AsInteger + 1;
+            19:
+              nOutCnt := FieldByName('Out19').AsInteger + 1;
+            20:
+              nOutCnt := FieldByName('Out20').AsInteger + 1;
+            21:
+              nOutCnt := FieldByName('Out21').AsInteger + 1;
+            22:
+              nOutCnt := FieldByName('Out22').AsInteger + 1;
+            23:
+              nOutCnt := FieldByName('Out23').AsInteger + 1;
+          end;
+          Close;
+          SQL.Clear;
+          SQL.Add('Update IONCount ');
+
+          Case StrToInt(FormatDateTime('HH', Now)) of
+            0:
+              SQL.Add('Set Out00 = :N1 ');
+            1:
+              SQL.Add('Set Out01 = :N1 ');
+            2:
+              SQL.Add('Set Out02 = :N1 ');
+            3:
+              SQL.Add('Set Out03 = :N1 ');
+            4:
+              SQL.Add('Set Out04 = :N1 ');
+            5:
+              SQL.Add('Set Out05 = :N1 ');
+            6:
+              SQL.Add('Set Out06 = :N1 ');
+            7:
+              SQL.Add('Set Out07 = :N1 ');
+            8:
+              SQL.Add('Set Out08 = :N1 ');
+            9:
+              SQL.Add('Set Out09 = :N1 ');
+            10:
+              SQL.Add('Set Out10 = :N1 ');
+            11:
+              SQL.Add('Set Out11 = :N1 ');
+            12:
+              SQL.Add('Set Out12 = :N1 ');
+            13:
+              SQL.Add('Set Out13 = :N1 ');
+            14:
+              SQL.Add('Set Out14 = :N1 ');
+            15:
+              SQL.Add('Set Out15 = :N1 ');
+            16:
+              SQL.Add('Set Out16 = :N1 ');
+            17:
+              SQL.Add('Set Out17 = :N1 ');
+            18:
+              SQL.Add('Set Out18 = :N1 ');
+            19:
+              SQL.Add('Set Out19 = :N1 ');
+            20:
+              SQL.Add('Set Out20 = :N1 ');
+            21:
+              SQL.Add('Set Out21 = :N1 ');
+            22:
+              SQL.Add('Set Out22 = :N1 ');
+            23:
+              SQL.Add('Set Out23 = :N1 ');
+          end;
+          SQL.Add('Where ParkNo = :N2 and UnitNo = :N3 and ProcDate = :N4');
+          Parameters.ParamByName('N1').Value := nOutCnt;
+          Parameters.ParamByName('N2').Value := nCurrParkNo;
+          Parameters.ParamByName('N3').Value := nLprNo;
+          Parameters.ParamByName('N4').Value := Copy(sNow, 1, 10);
+          ExecSQL;
+          Close;
+        end
+        else
+        begin
+          Close;
+          SQL.Clear;
+          SQL.Add('Insert Into IONCount ');
+          SQL.Add('(ParkNo, UnitNo, ProcDate, In00, In01, In02, In03, In04, ');
+          SQL.Add
+            ('In05, In06, In07, In08, In09, In10, In11, In12, In13, In14, ');
+          SQL.Add(
+            'In15, In16, In17, In18, In19, In20, In21, In22, In23, Out00, ');
+          SQL.Add(
+            'Out01, Out02, Out03, Out04, Out05, Out06, Out07, Out08, Out09, ');
+          SQL.Add(
+            'Out10, Out11, Out12, Out13, Out14, Out15, Out16, Out17, Out18, ');
+          SQL.Add('Out19, Out20, Out21, Out22, Out23) Values ');
+          SQL.Add('(:N1, :N2, :N3, 0, 0, 0, 0, 0, 0, 0, ');
+          SQL.Add(
+            '0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '
+            );
+          SQL.Add('0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)');
+          Parameters.ParamByName('N1').Value := nCurrParkNo;
+          Parameters.ParamByName('N2').Value := nLprNo;
+          Parameters.ParamByName('N3').Value := Copy(sNow, 1, 10);
+          ExecSQL;
+
+          Close;
+          SQL.Clear;
+          SQL.Add('UpDate IONCount ');
+
+          Case StrToInt(FormatDateTime('HH', Now)) of
+            0:
+              SQL.Add('Set Out00 = :N1 ');
+            1:
+              SQL.Add('Set Out01 = :N1 ');
+            2:
+              SQL.Add('Set Out02 = :N1 ');
+            3:
+              SQL.Add('Set Out03 = :N1 ');
+            4:
+              SQL.Add('Set Out04 = :N1 ');
+            5:
+              SQL.Add('Set Out05 = :N1 ');
+            6:
+              SQL.Add('Set Out06 = :N1 ');
+            7:
+              SQL.Add('Set Out07 = :N1 ');
+            8:
+              SQL.Add('Set Out08 = :N1 ');
+            9:
+              SQL.Add('Set Out09 = :N1 ');
+            10:
+              SQL.Add('Set Out10 = :N1 ');
+            11:
+              SQL.Add('Set Out11 = :N1 ');
+            12:
+              SQL.Add('Set Out12 = :N1 ');
+            13:
+              SQL.Add('Set Out13 = :N1 ');
+            14:
+              SQL.Add('Set Out14 = :N1 ');
+            15:
+              SQL.Add('Set Out15 = :N1 ');
+            16:
+              SQL.Add('Set Out16 = :N1 ');
+            17:
+              SQL.Add('Set Out17 = :N1 ');
+            18:
+              SQL.Add('Set Out18 = :N1 ');
+            19:
+              SQL.Add('Set Out19 = :N1 ');
+            20:
+              SQL.Add('Set Out20 = :N1 ');
+            21:
+              SQL.Add('Set Out21 = :N1 ');
+            22:
+              SQL.Add('Set Out22 = :N1 ');
+            23:
+              SQL.Add('Set Out23 = :N1 ');
+          end;
+          SQL.Add('Where ParkNo = :N2 and UnitNo = :N3 and ProcDate = :N4');
+          Parameters.ParamByName('N1').Value := 1;
+          Parameters.ParamByName('N2').Value := nCurrParkNo;
+          Parameters.ParamByName('N3').Value := nLprNo;
+          Parameters.ParamByName('N4').Value := Copy(sNow, 1, 10);
+          ExecSQL;
+        end;
+
+        if bOperation then
+        begin
+          // 정상운영시 처리...
+          Close;
+          SQL.Clear;
+          SQL.Add(
+            'Select * from TKProc where ParkNo = :N1 and UnitNo = :N2 and ');
+          SQL.Add('ProcDate = :N3 and ProcTime = :N4 and TKNo = :N5');
+          Parameters.ParamByName('N1').Value := nCurrParkNo;
+          Parameters.ParamByName('N2').Value := nCurrUnitNo;
+          Parameters.ParamByName('N3').Value := Copy(sNow, 1, 10);
+          Parameters.ParamByName('N4').Value := Copy(sNow, 12, 8);
+          Parameters.ParamByName('N5').Value := sInTKNo;
+          Open;
+
+          if RecordCount <= 0 then
+          begin
+            Close;
+            SQL.Clear;
+            SQL.Add('Insert Into TKProc ');
+            SQL.Add(
+              '(ParkNo, UnitNo, ProcDate, ProcTime, TKType, CarType, FeeNo, ');
+            SQL.Add(
+              'TKNo, TKParkNo, TKUnitNo, CarNo, InDate, InTime, ParkingMin, ');
+            SQL.Add(
+              'TotFee, TotDC, RealFee, RecvAmt, Change, DCCnt, MNo, UnPaid, ');
+            SQL.Add('ChkClosing, CommercialTariff, SpecialTariff, PayType, Reserve2) ');
+            SQL.Add(
+              'Values (:N1, :N2, :N3, :N4, :N5, :N6, :N7, :N8, :N9, :N10, ');
+            SQL.Add(
+              ':N11, :N12, :N13, :N14, :N15, :N16, :N17, :N18, :N19, :N20, ');
+            SQL.Add(':N21, :N22, :N23, :N24, :N25, :N26, :N27)');
+            Parameters.ParamByName('N1').Value := nCurrParkNo;
+            Parameters.ParamByName('N2').Value := nCurrUnitNo;
+            Parameters.ParamByName('N3').Value := Copy(sNow, 1, 10);
+            Parameters.ParamByName('N4').Value := Copy(sNow, 12, 8);
+            Parameters.ParamByName('N5').Value := nTKType;
+            Parameters.ParamByName('N6').Value := nCarType;
+            Parameters.ParamByName('N7').Value := nFeeNo;
+            Parameters.ParamByName('N8').Value := sInTKNo;
+            Parameters.ParamByName('N9').Value := nCurrParkNo;
+            Parameters.ParamByName('N10').Value := nInUnitNo;
+            Parameters.ParamByName('N11').Value := sInCarNo;
+            Parameters.ParamByName('N12').Value := sInDate;
+            Parameters.ParamByName('N13').Value := sInTime;
+            Parameters.ParamByName('N14').Value := nParkingMin;
+            Parameters.ParamByName('N15').Value := 0;
+            Parameters.ParamByName('N16').Value := 0;
+            Parameters.ParamByName('N17').Value := 0;
+            Parameters.ParamByName('N18').Value := 0;
+            Parameters.ParamByName('N19').Value := 0;
+            Parameters.ParamByName('N20').Value := 0;
+            Parameters.ParamByName('N21').Value := nCurrMNo;
+            Parameters.ParamByName('N22').Value := 0;
+            Parameters.ParamByName('N23').Value := 0;
+            Parameters.ParamByName('N24').Value := 0;
+            Parameters.ParamByName('N25').Value := 0;
+            Parameters.ParamByName('N26').Value := 1;
+            Parameters.ParamByName('N27').Value := '회차';
+            ExecSQL;
+          end;
+
+          Close;
+          SQL.Clear;
+          SQL.Add(
+            'Select * from IONData Where ParkNo = :N1 and UnitNo = :N2 and ProcDate = :N3 and ');
+          SQL.Add('ProcTime = :N4 and TKNo = :N5');
+          Parameters.ParamByName('N1').Value := nCurrParkNo;
+          Parameters.ParamByName('N2').Value := nInUnitNo;
+          Parameters.ParamByName('N3').Value := sInDate;
+          Parameters.ParamByName('N4').Value := sInTime;
+          Parameters.ParamByName('N5').Value := sInTKNo;
+          Open;
+
+          if RecordCount > 0 then
+          begin
+            // InData에 입차자료가 있으면...
+            Close;
+            SQL.Clear;
+            SQL.Add(
+              'Update IONData Set OutUnitNo = :N1, OutDate = :N2, OutTime = :N3, OutChk = :N4, ');
+            SQL.Add(
+              'OutImage1 = :N5, OutCarNo1 = :N6, OutImage2 = :N7, OutCarNo2 = :N8, ');
+            SQL.Add('OutRecog1 = :N9, OutRecog2 = :N10, Reserve1 = :N16 ');
+            SQL.Add(
+              'where ParkNo = :N11 and UnitNo = :N12 and ProcDate = :N13 and ProcTime = :N14 and TKNo = :N15');
+            Parameters.ParamByName('N1').Value := nLprNo;
+            Parameters.ParamByName('N2').Value := Copy(sNow, 1, 10);
+            Parameters.ParamByName('N3').Value := Copy(sNow, 12, 8);
+            Parameters.ParamByName('N4').Value := 4;
+            Parameters.ParamByName('N5').Value := sLprFile1;
+            Parameters.ParamByName('N6').Value := sLprCarNo1;
+            Parameters.ParamByName('N7').Value := sLprFile2;
+            Parameters.ParamByName('N8').Value := sLprCarNo2;
+            Parameters.ParamByName('N9').Value := nLprRecog1;
+            Parameters.ParamByName('N10').Value := nLprRecog2;
+            Parameters.ParamByName('N11').Value := nCurrParkNo;
+            Parameters.ParamByName('N12').Value := nInUnitNo;
+            Parameters.ParamByName('N13').Value := sInDate;
+            Parameters.ParamByName('N14').Value := sInTime;
+            Parameters.ParamByName('N15').Value := sInTKNo;
+
+            if bMiProc then
+              Parameters.ParamByName('N16').Value := '미인식처리'
+            else if bManualOut then
+              Parameters.ParamByName('N16').Value := '수동출차'
+            else
+              Parameters.ParamByName('N16').Value := '';
+            ExecSQL;
+          end
+          else
+          begin
+            // InData에 입차자료가 없으면...
+            ExceptLogging('TfrmMain.NormalOut: 입차자료없음-' + sLprCarNo1 + ', ' +
+                sLprCarNo2);
+          end;
+        end
+        else
+        begin
+          // 개방운영시 처리...
+          Close;
+          SQL.Clear;
+          SQL.Add(
+            'Select * from FreeIOData Where ParkNo = :N1 and UnitNo = :N2 and ProcDate = :N3 and ');
+          SQL.Add('ProcTime = :N4 ');
+          Parameters.ParamByName('N1').Value := nCurrParkNo;
+          Parameters.ParamByName('N2').Value := nInUnitNo;
+          Parameters.ParamByName('N3').Value := sInDate;
+          Parameters.ParamByName('N4').Value := sInTime;
+          Open;
+
+          if RecordCount > 0 then
+          begin
+            // InData에 입차자료가 있으면...
+            Close;
+            SQL.Clear;
+            SQL.Add(
+              'Update FreeIOData Set OutUnitNo = :N1, OutDate = :N2, OutTime = :N3, OutChk = :N4, ');
+            SQL.Add(
+              'OutImage1 = :N5, OutCarNo1 = :N6, OutImage2 = :N7, OutCarNo2 = :N8, ');
+            SQL.Add(
+              'OutRecog1 = :N9, OutRecog2 = :N10, Reserve1 = :N15, ParkingMin = :N16, ParkingAmt = :N17 ');
+            SQL.Add(
+              'where ParkNo = :N11 and UnitNo = :N12 and ProcDate = :N13 and ProcTime = :N14');
+            Parameters.ParamByName('N1').Value := nLprNo;
+            Parameters.ParamByName('N2').Value := Copy(sNow, 1, 10);
+            Parameters.ParamByName('N3').Value := Copy(sNow, 12, 8);
+            Parameters.ParamByName('N4').Value := 4;
+            Parameters.ParamByName('N5').Value := sLprFile1;
+            Parameters.ParamByName('N6').Value := sLprCarNo1;
+            Parameters.ParamByName('N7').Value := sLprFile2;
+            Parameters.ParamByName('N8').Value := sLprCarNo2;
+            Parameters.ParamByName('N9').Value := nLprRecog1;
+            Parameters.ParamByName('N10').Value := nLprRecog2;
+            Parameters.ParamByName('N11').Value := nCurrParkNo;
+            Parameters.ParamByName('N12').Value := nInUnitNo;
+            Parameters.ParamByName('N13').Value := sInDate;
+            Parameters.ParamByName('N14').Value := sInTime;
+
+            if bMiProc then
+              Parameters.ParamByName('N15').Value := '미인식처리'
+            else if bManualOut then
+              Parameters.ParamByName('N15').Value := '수동출차'
+            else
+              Parameters.ParamByName('N15').Value := '';
+
+            Parameters.ParamByName('N16').Value := nParkingMin;
+            Parameters.ParamByName('N17').Value := 0;
+            ExecSQL;
+          end
+          else
+          begin
+            // InData에 입차자료가 없으면...
+            ExceptLogging('TfrmMain.NormalOut: 입차자료없음-' + sLprCarNo1 + ', ' +
+                sLprCarNo2);
+          end;
+        end;
+
+        Close;
+        SQL.Clear;
+        SQL.Add('Select * from IONCount where ProcDate = :N1');
+        Parameters.ParamByName('N1').Value := FormatDateTime('YYYY-MM-DD', Now);
+        Open;
+        nNOutCnt := 0;
+
+        for i := 0 to 23 do
+          nNOutCnt := nNOutCnt + FieldByName('Out' + MG_InsZero(IntToStr(i), 2))
+            .AsInteger;
+      end;
+
+      for i := 1 to 6 do
+      begin
+        TLabel(FindComponent('lbYogum' + IntToStr(i))).Visible := False;
+      end;
+      lbYogum1.Caption := '0';
+      lbYogum1.Visible := True;
+
+      DspProc(2, 1, '회차허용차량' + MG_Left(sInCarNo, 12), sDspIP);
+      OutOpen(csLPR);
+      NGridData('2' + sInCarNo + '^' + Copy(sNow, 1, 10) + ' ' + Copy
+          (sNow, 12, 8) + '^회차차량');
+      sPrtData := '';
+      InspectionLog('회차차량');
+      // MichulProc(sInCarNo);
+      ClearFormData;
+    end
+    else
+    begin
+      sNowLprFile1 := sLprFile1;
+      sNowLprCarNo1 := sLprCarNo1;
+      sNowLprFile2 := sLprFile2;
+      sNowLprCarNo2 := sLprCarNo2;
+      sNowIOTime := sIOTime;
+      nNowLprNo := nLprNo;
+      nNowLprInOut := nLprInOut;
+      nNowLprRecog1 := nLprRecog1;
+      nNowLprRecog2 := nLprRecog2;
+      sNowInTKNo := sInTKNo;
+      nNowInUnitNo := nInUnitNo;
+      sNowInDate := sInDate;
+      sNowInTime := sInTime;
+      sNowInCarNo := sInCarNo;
+      sNowOutDate := Copy(sNow, 1, 10);
+      sNowOutTime := Copy(sNow, 12, 8);
+      sTimeDCOutDate := sNowOutDate;
+      sTimeDCOutTime := sNowOutTime;
+
+      //주차요금 계산전에 기존 할인자료 등 클리어한다.
+      for i := 1 to 50 do
+        RDCCnt[i].nDCNowCnt := 0;
+
+      ClearGTime;
+      ClearDCProc;
+
+      if bFreeTime then
+      begin
+        if sFreeTimeE > Copy(sNowInTime, 1, 5) then
+          nTotYogum := FeeCalc(nCurrParkNo, nFeeNo, PAnsiChar(sNowInDate + ' ' + sFreeTimeE),
+                               PAnsiChar(Copy(sNow, 1, 16)))
+        else
+          nTotYogum := FeeCalc(nCurrParkNo, nFeeNo, PAnsiChar(sNowInDate + ' ' + Copy(sNowInTime, 1, 5)),
+                               PAnsiChar(Copy(sNow, 1, 16)));
+      end
+      else
+        nTotYogum := FeeCalc(nCurrParkNo, nFeeNo, PAnsiChar(sNowInDate + ' ' + Copy(sNowInTime, 1, 5)),
+                             PAnsiChar(Copy(sNow, 1, 16)));
+
+      nProcYogum := nTotYogum;
+      edtTotYogum.Text := IntToStr(nTotYogum);
+      edtTotYogum.AutoThousandSeparator := True;
+      //edtProcYogum.Text := IntToStr(nTotYogum);
+      edtProcYogum.Text := FormatFloat('#,##0', nTotYogum);
+      //edtProcYogum.AutoThousandSeparator := True;
+      sYogum := IntToStr(nTotYogum);
+
+      for i := 1 to 6 do
+        TLabel(FindComponent('lbYogum' + IntToStr(i))).Visible := False;
+
+      for i := 1 to Length(sYogum) do
+      begin
+        TLabel(FindComponent('lbYogum' + IntToStr(i))).Visible := True;
+        TLabel(FindComponent('lbYogum' + IntToStr(i))).Caption := Copy
+          (sYogum, Length(sYogum) - (i - 1), 1);
+      end;
+
+      if bOperation then
+      begin
+        for i := 1 to nUseBtnCnt do
+        begin
+          TAdvShapeButton(FindComponent('btn' + IntToStr(i))).Enabled := True;
+          TMenuItem(FindComponent('mnuDC' + IntToStr(i))).Enabled := True;
+        end;
+      end;
+      lbOutCarType.Caption := '일반차량';
+
+      //if edtProcYogum.Text <> '0' then
+      //  DspProc(2, 3, '주차요금    ' + MG_Right(edtProcYogum.Text + '원', 12), sDspIP)
+      //else
+      if edtProcYogum.Text = '0' then
+        DspProc(2, 4, '회차허용차량' + MG_Left(sInCarNo, 12), sDspIP);
+
+      InspectionLog('주차요금: ' + edtProcYogum.Text);
+
+      if bOperation then
+      begin
+        // 정상운영시 처리...
+        if nTotYogum > 0 then
+        begin
+          btnProc.Enabled := True;
+
+          if bCancel then
+            btnCancel.Enabled := True;
+          DCEnable(True);
+
+          if bBarcodeDC then
+          begin
+            edtBarcode.Text := '';
+            edtBarcode.SetFocus;
+          end;
+          sProcTime := sNow;
+          sDCOutTime := sNow;
+
+          if bTest then
+          begin
+            nPayType := 1;
+            MoneyProc(nowLpr);
+          end;
+        end
+        else
+        begin
+          if bZeroOpen then
+          begin
+            // 주차요금 0원시 자동오픈이면...
+            bZeroOut := True;
+            MoneyProc(nowLpr);
+            bZeroOut := False;
+          end;
+        end;
+      end
+      else
+      begin
+        // 개방운영시 처리...
+        // DB Write...
+        with dmTables.qryNormalOut2 do
+        begin
+          Close;
+          SQL.Clear;
+          SQL.Add(
+            'Select * from IONCount Where ParkNo = :N1 and UnitNo = :N2 and ProcDate = :N3');
+          Parameters.ParamByName('N1').Value := nCurrParkNo;
+          Parameters.ParamByName('N2').Value := nLprNo;
+          Parameters.ParamByName('N3').Value := Copy(sNow, 1, 10);
+          Open;
+
+          if RecordCount > 0 then
+          begin
+            Case StrToInt(FormatDateTime('HH', Now)) of
+              0:
+                nOutCnt := FieldByName('Out00').AsInteger + 1;
+              1:
+                nOutCnt := FieldByName('Out01').AsInteger + 1;
+              2:
+                nOutCnt := FieldByName('Out02').AsInteger + 1;
+              3:
+                nOutCnt := FieldByName('Out03').AsInteger + 1;
+              4:
+                nOutCnt := FieldByName('Out04').AsInteger + 1;
+              5:
+                nOutCnt := FieldByName('Out05').AsInteger + 1;
+              6:
+                nOutCnt := FieldByName('Out06').AsInteger + 1;
+              7:
+                nOutCnt := FieldByName('Out07').AsInteger + 1;
+              8:
+                nOutCnt := FieldByName('Out08').AsInteger + 1;
+              9:
+                nOutCnt := FieldByName('Out09').AsInteger + 1;
+              10:
+                nOutCnt := FieldByName('Out10').AsInteger + 1;
+              11:
+                nOutCnt := FieldByName('Out11').AsInteger + 1;
+              12:
+                nOutCnt := FieldByName('Out12').AsInteger + 1;
+              13:
+                nOutCnt := FieldByName('Out13').AsInteger + 1;
+              14:
+                nOutCnt := FieldByName('Out14').AsInteger + 1;
+              15:
+                nOutCnt := FieldByName('Out15').AsInteger + 1;
+              16:
+                nOutCnt := FieldByName('Out16').AsInteger + 1;
+              17:
+                nOutCnt := FieldByName('Out17').AsInteger + 1;
+              18:
+                nOutCnt := FieldByName('Out18').AsInteger + 1;
+              19:
+                nOutCnt := FieldByName('Out19').AsInteger + 1;
+              20:
+                nOutCnt := FieldByName('Out20').AsInteger + 1;
+              21:
+                nOutCnt := FieldByName('Out21').AsInteger + 1;
+              22:
+                nOutCnt := FieldByName('Out22').AsInteger + 1;
+              23:
+                nOutCnt := FieldByName('Out23').AsInteger + 1;
+            end;
+            Close;
+            SQL.Clear;
+            SQL.Add('Update IONCount ');
+
+            Case StrToInt(FormatDateTime('HH', Now)) of
+              0:
+                SQL.Add('Set Out00 = :N1 ');
+              1:
+                SQL.Add('Set Out01 = :N1 ');
+              2:
+                SQL.Add('Set Out02 = :N1 ');
+              3:
+                SQL.Add('Set Out03 = :N1 ');
+              4:
+                SQL.Add('Set Out04 = :N1 ');
+              5:
+                SQL.Add('Set Out05 = :N1 ');
+              6:
+                SQL.Add('Set Out06 = :N1 ');
+              7:
+                SQL.Add('Set Out07 = :N1 ');
+              8:
+                SQL.Add('Set Out08 = :N1 ');
+              9:
+                SQL.Add('Set Out09 = :N1 ');
+              10:
+                SQL.Add('Set Out10 = :N1 ');
+              11:
+                SQL.Add('Set Out11 = :N1 ');
+              12:
+                SQL.Add('Set Out12 = :N1 ');
+              13:
+                SQL.Add('Set Out13 = :N1 ');
+              14:
+                SQL.Add('Set Out14 = :N1 ');
+              15:
+                SQL.Add('Set Out15 = :N1 ');
+              16:
+                SQL.Add('Set Out16 = :N1 ');
+              17:
+                SQL.Add('Set Out17 = :N1 ');
+              18:
+                SQL.Add('Set Out18 = :N1 ');
+              19:
+                SQL.Add('Set Out19 = :N1 ');
+              20:
+                SQL.Add('Set Out20 = :N1 ');
+              21:
+                SQL.Add('Set Out21 = :N1 ');
+              22:
+                SQL.Add('Set Out22 = :N1 ');
+              23:
+                SQL.Add('Set Out23 = :N1 ');
+            end;
+            SQL.Add('Where ParkNo = :N2 and UnitNo = :N3 and ProcDate = :N4');
+            Parameters.ParamByName('N1').Value := nOutCnt;
+            Parameters.ParamByName('N2').Value := nCurrParkNo;
+            Parameters.ParamByName('N3').Value := nLprNo;
+            Parameters.ParamByName('N4').Value := Copy(sNow, 1, 10);
+            ExecSQL;
+            Close;
+          end
+          else
+          begin
+            Close;
+            SQL.Clear;
+            SQL.Add('Insert Into IONCount ');
+            SQL.Add
+              ('(ParkNo, UnitNo, ProcDate, In00, In01, In02, In03, In04, ');
+            SQL.Add(
+              'In05, In06, In07, In08, In09, In10, In11, In12, In13, In14, ');
+            SQL.Add(
+              'In15, In16, In17, In18, In19, In20, In21, In22, In23, Out00, ');
+            SQL.Add(
+              'Out01, Out02, Out03, Out04, Out05, Out06, Out07, Out08, Out09, '
+              );
+            SQL.Add(
+              'Out10, Out11, Out12, Out13, Out14, Out15, Out16, Out17, Out18, '
+              );
+            SQL.Add('Out19, Out20, Out21, Out22, Out23) Values ');
+            SQL.Add('(:N1, :N2, :N3, 0, 0, 0, 0, 0, 0, 0, ');
+            SQL.Add(
+              '0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ');
+            SQL.Add('0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)');
+            Parameters.ParamByName('N1').Value := nCurrParkNo;
+            Parameters.ParamByName('N2').Value := nLprNo;
+            Parameters.ParamByName('N3').Value := Copy(sNow, 1, 10);
+            ExecSQL;
+
+            Close;
+            SQL.Clear;
+            SQL.Add('UpDate IONCount ');
+
+            Case StrToInt(FormatDateTime('HH', Now)) of
+              0:
+                SQL.Add('Set Out00 = :N1 ');
+              1:
+                SQL.Add('Set Out01 = :N1 ');
+              2:
+                SQL.Add('Set Out02 = :N1 ');
+              3:
+                SQL.Add('Set Out03 = :N1 ');
+              4:
+                SQL.Add('Set Out04 = :N1 ');
+              5:
+                SQL.Add('Set Out05 = :N1 ');
+              6:
+                SQL.Add('Set Out06 = :N1 ');
+              7:
+                SQL.Add('Set Out07 = :N1 ');
+              8:
+                SQL.Add('Set Out08 = :N1 ');
+              9:
+                SQL.Add('Set Out09 = :N1 ');
+              10:
+                SQL.Add('Set Out10 = :N1 ');
+              11:
+                SQL.Add('Set Out11 = :N1 ');
+              12:
+                SQL.Add('Set Out12 = :N1 ');
+              13:
+                SQL.Add('Set Out13 = :N1 ');
+              14:
+                SQL.Add('Set Out14 = :N1 ');
+              15:
+                SQL.Add('Set Out15 = :N1 ');
+              16:
+                SQL.Add('Set Out16 = :N1 ');
+              17:
+                SQL.Add('Set Out17 = :N1 ');
+              18:
+                SQL.Add('Set Out18 = :N1 ');
+              19:
+                SQL.Add('Set Out19 = :N1 ');
+              20:
+                SQL.Add('Set Out20 = :N1 ');
+              21:
+                SQL.Add('Set Out21 = :N1 ');
+              22:
+                SQL.Add('Set Out22 = :N1 ');
+              23:
+                SQL.Add('Set Out23 = :N1 ');
+            end;
+            SQL.Add('Where ParkNo = :N2 and UnitNo = :N3 and ProcDate = :N4');
+            Parameters.ParamByName('N1').Value := 1;
+            Parameters.ParamByName('N2').Value := nCurrParkNo;
+            Parameters.ParamByName('N3').Value := nLprNo;
+            Parameters.ParamByName('N4').Value := Copy(sNow, 1, 10);
+            ExecSQL;
+          end;
+
+          Close;
+          SQL.Clear;
+          SQL.Add(
+            'Select * from FreeIOData Where ParkNo = :N1 and UnitNo = :N2 and ProcDate = :N3 and ');
+          SQL.Add('ProcTime = :N4 ');
+          Parameters.ParamByName('N1').Value := nCurrParkNo;
+          Parameters.ParamByName('N2').Value := nInUnitNo;
+          Parameters.ParamByName('N3').Value := sInDate;
+          Parameters.ParamByName('N4').Value := sInTime;
+          Open;
+
+          if RecordCount > 0 then
+          begin
+            // InData에 입차자료가 있으면...
+            Close;
+            SQL.Clear;
+            SQL.Add(
+              'Update FreeIOData Set OutUnitNo = :N1, OutDate = :N2, OutTime = :N3, OutChk = :N4, ');
+            SQL.Add(
+              'OutImage1 = :N5, OutCarNo1 = :N6, OutImage2 = :N7, OutCarNo2 = :N8, ');
+            SQL.Add(
+              'OutRecog1 = :N9, OutRecog2 = :N10, Reserve3 = :N15, ParkingMin = :N16, ParkingAmt = :N17 ');
+            SQL.Add(
+              'where ParkNo = :N11 and UnitNo = :N12 and ProcDate = :N13 and ProcTime = :N14');
+            Parameters.ParamByName('N1').Value := nLprNo;
+            Parameters.ParamByName('N2').Value := Copy(sNow, 1, 10);
+            Parameters.ParamByName('N3').Value := Copy(sNow, 12, 8);
+            Parameters.ParamByName('N4').Value := 4;
+            Parameters.ParamByName('N5').Value := sLprFile1;
+            Parameters.ParamByName('N6').Value := sLprCarNo1;
+            Parameters.ParamByName('N7').Value := sLprFile2;
+            Parameters.ParamByName('N8').Value := sLprCarNo2;
+            Parameters.ParamByName('N9').Value := nLprRecog1;
+            Parameters.ParamByName('N10').Value := nLprRecog2;
+            Parameters.ParamByName('N11').Value := nCurrParkNo;
+            Parameters.ParamByName('N12').Value := nInUnitNo;
+            Parameters.ParamByName('N13').Value := sInDate;
+            Parameters.ParamByName('N14').Value := sInTime;
+            Parameters.ParamByName('N15').Value := '';
+            Parameters.ParamByName('N16').Value := nParkingMin;
+            Parameters.ParamByName('N17').Value := nTotYogum;
+            ExecSQL;
+          end
+          else
+          begin
+            // InData에 입차자료가 없으면...
+            ExceptLogging('TfrmMain.NormalOut: 입차자료없음-' + sLprCarNo1 + ', ' +
+                sLprCarNo2);
+          end;
+
+          Close;
+          SQL.Clear;
+          SQL.Add('Select * from IONCount where ProcDate = :N1');
+          Parameters.ParamByName('N1').Value := FormatDateTime
+            ('YYYY-MM-DD', Now);
+          Open;
+          nNOutCnt := 0;
+
+          for i := 0 to 23 do
+            nNOutCnt := nNOutCnt + FieldByName
+              ('Out' + MG_InsZero(IntToStr(i), 2)).AsInteger;
+        end;
+        OutOpen(csLPR);
+        NGridData('2' + sInCarNo + '^' + Copy(sNow, 1, 10) + ' ' + Copy
+            (sNow, 12, 8) + '^0원');
+        sPrtData := '';
+        // MichulProc(sInCarNo);
+        bNCOutProcWait := False;
+      end;
+    end;
