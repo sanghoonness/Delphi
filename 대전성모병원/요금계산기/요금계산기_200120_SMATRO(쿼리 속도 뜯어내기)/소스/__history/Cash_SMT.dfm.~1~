@@ -1,0 +1,282 @@
+object frmCash_Kicc: TfrmCash_Kicc
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = #54788#44552#50689#49688#51613' '#48156#54665
+  ClientHeight = 419
+  ClientWidth = 626
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 16
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 626
+    Height = 419
+    Align = alClient
+    BevelInner = bvLowered
+    BevelWidth = 2
+    TabOrder = 0
+    object sLabel1: TsLabel
+      Left = 112
+      Top = 8
+      Width = 399
+      Height = 19
+      Alignment = taCenter
+      AutoSize = False
+      Caption = #54788#44552#50689#49688#51613' '#48156#54665
+      ParentFont = False
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = #44404#47548#52404
+      Font.Style = []
+    end
+    object Panel3: TPanel
+      Left = 15
+      Top = 41
+      Width = 597
+      Height = 120
+      BevelInner = bvLowered
+      TabOrder = 0
+      object lbVan: TLabel
+        Left = 16
+        Top = 17
+        Width = 567
+        Height = 88
+        AutoSize = False
+        Caption = #54648#46300#54256' '#48264#54840#47484' '#45800#47568#44592#50640#49436' '#51077#47141' '#54980' '#13#10#13#10#45800#47568#44592#51032' '#51077#47141#48260#53948#51012' '#45580#47084#51452#49464#50836'!'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -29
+        Font.Name = #44404#47548#52404
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+    end
+    object Panel2: TPanel
+      Left = 15
+      Top = 167
+      Width = 597
+      Height = 176
+      BevelInner = bvLowered
+      TabOrder = 1
+      object edtCardName: TAdvEdit
+        Left = 128
+        Top = 24
+        Width = 150
+        Height = 27
+        EmptyTextStyle = []
+        LabelCaption = #52852#46300#47749' '
+        LabelPosition = lpLeftCenter
+        LabelTransparent = True
+        LabelAlwaysEnabled = True
+        LabelFont.Charset = ANSI_CHARSET
+        LabelFont.Color = clWindowText
+        LabelFont.Height = -19
+        LabelFont.Name = #44404#47548#52404
+        LabelFont.Style = []
+        Lookup.Font.Charset = DEFAULT_CHARSET
+        Lookup.Font.Color = clWindowText
+        Lookup.Font.Height = -11
+        Lookup.Font.Name = 'Arial'
+        Lookup.Font.Style = []
+        Lookup.Separator = ';'
+        Color = clWindow
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -19
+        Font.Name = #44404#47548#52404
+        Font.Style = []
+        ImeName = 'Microsoft Office IME 2007'
+        ParentFont = False
+        ReadOnly = True
+        TabOrder = 0
+        Text = ''
+        Visible = True
+        Version = '3.3.2.0'
+      end
+      object edtJumNo: TAdvEdit
+        Left = 416
+        Top = 24
+        Width = 150
+        Height = 27
+        EmptyTextStyle = []
+        LabelCaption = #44032#47609#51216#48264#54840
+        LabelPosition = lpLeftCenter
+        LabelTransparent = True
+        LabelAlwaysEnabled = True
+        LabelFont.Charset = ANSI_CHARSET
+        LabelFont.Color = clWindowText
+        LabelFont.Height = -19
+        LabelFont.Name = #44404#47548#52404
+        LabelFont.Style = []
+        Lookup.Font.Charset = DEFAULT_CHARSET
+        Lookup.Font.Color = clWindowText
+        Lookup.Font.Height = -11
+        Lookup.Font.Name = 'Arial'
+        Lookup.Font.Style = []
+        Lookup.Separator = ';'
+        Color = clWindow
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -19
+        Font.Name = #44404#47548#52404
+        Font.Style = []
+        ImeName = 'Microsoft Office IME 2007'
+        ParentFont = False
+        ReadOnly = True
+        TabOrder = 1
+        Text = ''
+        Visible = True
+        Version = '3.3.2.0'
+      end
+      object edtAuthNo: TAdvEdit
+        Left = 128
+        Top = 76
+        Width = 150
+        Height = 27
+        EmptyTextStyle = []
+        LabelCaption = #49849#51064#48264#54840' '
+        LabelPosition = lpLeftCenter
+        LabelTransparent = True
+        LabelAlwaysEnabled = True
+        LabelFont.Charset = ANSI_CHARSET
+        LabelFont.Color = clWindowText
+        LabelFont.Height = -19
+        LabelFont.Name = #44404#47548#52404
+        LabelFont.Style = []
+        Lookup.Font.Charset = DEFAULT_CHARSET
+        Lookup.Font.Color = clWindowText
+        Lookup.Font.Height = -11
+        Lookup.Font.Name = 'Arial'
+        Lookup.Font.Style = []
+        Lookup.Separator = ';'
+        Color = clWindow
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -19
+        Font.Name = #44404#47548#52404
+        Font.Style = []
+        ImeName = 'Microsoft Office IME 2007'
+        ParentFont = False
+        ReadOnly = True
+        TabOrder = 2
+        Text = ''
+        Visible = True
+        Version = '3.3.2.0'
+      end
+      object edtAuthDate: TAdvEdit
+        Left = 416
+        Top = 76
+        Width = 150
+        Height = 27
+        EmptyTextStyle = []
+        LabelCaption = #49849#51064#51068#51088' '
+        LabelPosition = lpLeftCenter
+        LabelTransparent = True
+        LabelAlwaysEnabled = True
+        LabelFont.Charset = ANSI_CHARSET
+        LabelFont.Color = clWindowText
+        LabelFont.Height = -19
+        LabelFont.Name = #44404#47548#52404
+        LabelFont.Style = []
+        Lookup.Font.Charset = DEFAULT_CHARSET
+        Lookup.Font.Color = clWindowText
+        Lookup.Font.Height = -11
+        Lookup.Font.Name = 'Arial'
+        Lookup.Font.Style = []
+        Lookup.Separator = ';'
+        Color = clWindow
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -19
+        Font.Name = #44404#47548#52404
+        Font.Style = []
+        ImeName = 'Microsoft Office IME 2007'
+        ParentFont = False
+        ReadOnly = True
+        TabOrder = 3
+        Text = ''
+        Visible = True
+        Version = '3.3.2.0'
+      end
+      object edtMsg: TAdvEdit
+        Left = 128
+        Top = 128
+        Width = 438
+        Height = 27
+        EmptyTextStyle = []
+        LabelCaption = #51025#45813#47700#49884#51648' '
+        LabelPosition = lpLeftCenter
+        LabelTransparent = True
+        LabelAlwaysEnabled = True
+        LabelFont.Charset = ANSI_CHARSET
+        LabelFont.Color = clWindowText
+        LabelFont.Height = -19
+        LabelFont.Name = #44404#47548#52404
+        LabelFont.Style = []
+        Lookup.Font.Charset = DEFAULT_CHARSET
+        Lookup.Font.Color = clWindowText
+        Lookup.Font.Height = -11
+        Lookup.Font.Name = 'Arial'
+        Lookup.Font.Style = []
+        Lookup.Separator = ';'
+        AutoSize = False
+        Color = clWindow
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = #44404#47548#52404
+        Font.Style = []
+        ImeMode = imSHanguel
+        ImeName = 'Microsoft Office IME 2007'
+        ParentFont = False
+        ReadOnly = True
+        TabOrder = 4
+        Text = ''
+        Visible = True
+        Version = '3.3.2.0'
+      end
+    end
+    object btnCancel: TsButton
+      Left = 490
+      Top = 362
+      Width = 91
+      Height = 39
+      Caption = #52712'  '#49548
+      TabOrder = 2
+      OnClick = btnCancelClick
+      SkinData.SkinSection = 'BUTTON'
+    end
+    object m_pPay2: TPay
+      Left = 517
+      Top = 12
+      Width = 40
+      Height = 40
+      TabOrder = 3
+      Visible = False
+      OnRecvMSG = m_pPay2RecvMSG
+      OnCompletedPrint = m_pPay2CompletedPrint
+      OnCompletedJob = m_pPay2CompletedJob
+      OnRecvLastTransData = m_pPay2RecvLastTransData
+      ControlData = {000300002204000022040000}
+    end
+  end
+  object tEvent: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = tEventTimer
+    Left = 574
+    Top = 8
+  end
+end

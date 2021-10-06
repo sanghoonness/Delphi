@@ -1,0 +1,83 @@
+unit CashSelect;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, AdvSmoothToggleButton, StdCtrls, GradientLabel,Menus, AdvEdit;
+
+type
+  TfrmCashSelect = class(TForm)
+    GradientLabel1: TGradientLabel;
+    btn1: TAdvSmoothToggleButton;
+    btn2: TAdvSmoothToggleButton;
+    PopupMenu1: TPopupMenu;
+    g1: TMenuItem;
+    N1: TMenuItem;
+    edtBarcode: TAdvEdit;
+    procedure btn1Click(Sender: TObject);
+    procedure btn2Click(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure g1Click(Sender: TObject);
+    procedure N1Click(Sender: TObject);
+    procedure FormKeyPress(Sender: TObject; var Key: Char);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCashSelect: TfrmCashSelect;
+
+implementation
+uses
+  Global;
+
+{$R *.dfm}
+
+procedure TfrmCashSelect.btn1Click(Sender: TObject);
+begin
+  nCashType:= 1;
+  Close;
+end;
+
+procedure TfrmCashSelect.btn2Click(Sender: TObject);
+begin
+  nCashType:= 0;
+  Close;
+end;
+
+procedure TfrmCashSelect.FormKeyPress(Sender: TObject; var Key: Char);
+begin
+  if (Key = #13) and btn2.Enabled then
+  begin
+    if (edtBarcode.Text = '') then
+      btn2Click(Self)
+
+  end
+  else if (Key = #27) and btn1.Enabled then
+  begin
+    btn1Click(Self);
+  end
+end;
+
+procedure TfrmCashSelect.FormShow(Sender: TObject);
+begin
+//  btn2.SetFocus;
+  edtBarcode.SetFocus;
+  if not bCreditLoad then
+    btn1.Enabled:= False;
+end;
+
+procedure TfrmCashSelect.g1Click(Sender: TObject);
+begin
+  btn2Click(Self);
+end;
+
+procedure TfrmCashSelect.N1Click(Sender: TObject);
+begin
+  btn1Click(Self);
+end;
+
+end.
