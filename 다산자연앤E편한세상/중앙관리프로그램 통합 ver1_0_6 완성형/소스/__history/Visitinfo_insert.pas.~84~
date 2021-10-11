@@ -1,0 +1,431 @@
+unit Visitinfo_insert;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons, Vcl.ComCtrls,
+  AdvDateTimePicker, Vcl.ExtCtrls, Vcl.Grids, Vcl.DBGrids, Data.DB, ComObj,
+  Data.Win.ADODB;
+
+type
+  TfrmVisitinfo_insert = class(TForm)
+    dg1: TDBGrid;
+    Panel2: TPanel;
+    Bevel1: TBevel;
+    Label3: TLabel;
+    Bevel2: TBevel;
+    Label1: TLabel;
+    Bevel3: TBevel;
+    Label2: TLabel;
+    Bevel4: TBevel;
+    Label4: TLabel;
+    edtdong: TEdit;
+    edtho: TEdit;
+    edtStandrard: TEdit;
+    btnSearch: TBitBtn;
+    BtnExcel: TBitBtn;
+    btnClose: TBitBtn;
+    edtVisitCount: TEdit;
+    btnSave: TBitBtn;
+    qryVisit_Insert: TADOQuery;
+    qryVisit_Insertdong: TStringField;
+    qryVisit_Insertho: TStringField;
+    dsVisit_Insert: TDataSource;
+    qryVisit_Insertvisit_insert_standard2: TIntegerField;
+    qryVisit_Insertvisit_insert_count2: TIntegerField;
+    btnAllAdd: TBitBtn;
+    qryVisit_Insertvisit_insert_use: TIntegerField;
+    qryTemp: TADOQuery;
+    btnCancel: TBitBtn;
+    qryVisit_Insertvisit_insert_precount: TIntegerField;
+    Bevel5: TBevel;
+    Label5: TLabel;
+    edtPreVisitCount: TEdit;
+    btnDelete: TBitBtn;
+    procedure btnCloseClick(Sender: TObject);
+    procedure btnSearchClick(Sender: TObject);
+    procedure btnAllAddClick(Sender: TObject);
+    procedure getExcelData(szFileName: String; var vList: Variant; var nRow: Integer; nStartRow: Integer);
+    procedure dg1CellClick(Column: TColumn);
+    procedure btnSaveClick(Sender: TObject);
+    procedure BtnExcelClick(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure btnCancelClick(Sender: TObject);
+    procedure btnDeleteClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmVisitinfo_insert: TfrmVisitinfo_insert;
+
+implementation
+
+uses
+  Global, Tables;
+
+{$R *.dfm}
+
+procedure TfrmVisitinfo_insert.btnAllAddClick(Sender: TObject);
+var
+  OpenDialog1             : TOpenDialog;
+  vList                   : Variant;
+  i,j                     : Integer;
+  SelectCount,ResultCount : Integer;
+  Error                   : String;
+  szMsg                   : String;
+  nCnt, nTotCnt           : Integer;
+begin
+  //## 열기대화상자 동적 생성 ##//
+  try
+    OpenDialog1 := TOpenDialog.Create(Application);
+    with OpenDialog1 do
+    begin
+      btnselect := 1;
+      nTotCnt := 0;
+      Title := '사전방문횟수 엑셀파일 불러오기';
+      Filter :='엑셀 파일(*.xlsx)|*.xlsx;*.xls';
+      Options:= [ofOverwritePrompt, ofFileMustExist, ofHideReadOnly ];
+      if Execute then
+      begin
+        //#### 엑셀데이타 전체를 vList변수에 대입 ####//
+        try
+          VarClear(vList);
+          //# 첫번째 레코드부터 가져온다. #//
+          getExcelData(FileName, vList, gnRow, 1);
+        except
+          szMsg := '';
+          szMsg := szMsg + '▶▷ 엑셀로드중 에러발생 ◁◀';
+          szMsg := szMsg + #13#10#13#10;
+          szMsg := szMsg + '◈ 에러원인';
+          szMsg := szMsg + #13#10#13#10;
+          szMsg := szMsg + '1. 엑셀의 시트명이 ''Sheet1''인지 확인';
+          szMsg := szMsg + #13#10;
+          szMsg := szMsg + '2. 엑셀 프로그램이 설치되었는지 확인';
+          showmessage(szMsg);
+          exit;
+        end;
+
+        //# 변수가 null값이면 종료 #//
+        if VarIsNull(vList) then begin
+          Screen.Cursor := crDefault;
+          Exit;
+        end;
+        //#### 엑셀데이타 전체를 vList변수에 대입 ####//
+        Refresh;
+        StartProgress('일괄처리중...', '일괄처리중입니다.  잠시 기다려주세요!', gnRow - 1);
+        //#### 리얼그리드1에 엑셀 내용 출력하기 시작 ####//
+        if gnRow > 0 then begin
+
+          with dg1 do begin
+//            for i := 0  to gnRow - 1  do begin
+//               Fields[0].Text :=  VartoStr(vList[i, 0]);
+//               Fields[1].Text :=  VartoStr(vList[i, 1]);
+////              Cells[1, i]  :=  VartoStr(vList[i, 0]);          //# 동
+////              Cells[2, i]  :=  VartoStr(vList[i, 1]);         //# 호
+////              Cells[3, i]  :=  VartoStr(vList[i, 2]);         //# 가용포인트
+////              Cells[4, i]  :=  VartoStr(vList[i, 3]);         //# 남은포인트
+//
+//              {if i > 0 then
+//              begin
+//                if StrToInt(VartoStr(vList[i, 2])) <> StrToInt(edtavPoint.Text) then
+//                begin
+//                  ShowMessage(IntToStr(i)+' 번째 사전방문차량 등록횟수가 주차장에 설정된 값과 다릅니다.');
+//                  EndProgress;
+//                  Exit;
+//                end;
+//              end; }
+//            end;
+            //for i := 1  to gnRow - 1 do begin
+            for i := 1  to gnRow do begin
+              if VartoStr(vList[i, 0]) = '' then
+              begin
+                  ShowMessage(IntToStr(i)+' 번째 해당 세대주가 없습니다.');
+                  EndProgress;
+                  Exit;
+              end;
+
+              if StrToInt(VartoStr(vList[i, 2])) <> StrToInt(edtStandrard.Text) then
+              begin
+                ShowMessage(IntToStr(i)+' 번째 사전방문차량 등록횟수가 주차장에 설정된 값과 다릅니다.');
+                EndProgress;
+                Exit;
+              end;
+
+              //데이터 저장
+              with dmTables.qryTemp do
+              begin
+                nTotCnt:= nTotCnt + 1;
+
+                Close;
+                SQL.Clear;
+                SQL.Add('Select * from Visitinfo_insert_icon where dong = :N1 and ho = :N2');
+                Parameters.ParamByName('N1').Value:= VartoStr(vList[i, 0]);
+                Parameters.ParamByName('N2').Value:= VartoStr(vList[i, 1]);
+                Open;
+                if RecordCount <= 0 then
+                begin
+                   Close;
+                   SQL.Clear;
+                   SQL.Add('Insert into Visitinfo_insert_icon (dong, ho, visit_insert_standard, visit_insert_count) ' +
+                            'values(:pDong, :pHo, :pvisit_insert_standard, :pvisit_insert_count)');
+                   Parameters.ParamByName('pDong').Value := VartoStr(vList[i, 0]);
+                   Parameters.ParamByName('pHo').Value := VartoStr(vList[i, 1]);
+                   Parameters.ParamByName('pvisit_insert_standard').Value := StrToInt(VartoStr(vList[i, 2]));
+                   Parameters.ParamByName('pvisit_insert_count').Value := StrToInt(VartoStr(vList[i, 3]));
+                   ExecSQL;
+                   ExceptLogging(' 사전방문 등록 횟수 추가');
+                end
+                else
+                begin
+                  Close;
+                  SQL.Clear;
+                  SQL.Add('Update Visitinfo_insert_icon set visit_insert_standard = :pvisit_insert_standard, visit_insert_count = :pvisit_insert_count ');
+                  SQL.Add('where dong = :pDong and ho = :pHo ');
+                  Parameters.ParamByName('pDong').Value := VartoStr(vList[i, 0]);
+                  Parameters.ParamByName('pHo').Value := VartoStr(vList[i, 1]);
+                  Parameters.ParamByName('pvisit_insert_standard').Value := StrToInt(VartoStr(vList[i, 2]));
+                  Parameters.ParamByName('pvisit_insert_count').Value :=  StrToInt(VartoStr(vList[i, 3]));
+                  ExecSQL;
+                  ExceptLogging(' 사전방문 등록 횟수 수정');
+                end;
+              end;
+              SetProgress(1);
+            end;
+          end;
+          EndProgress;
+          ShowMessage('총' + IntToStr(nTotCnt) + '건의 자료를 일괄저장 완료하였습니다.');
+          btnSearchClick(Self);
+        end
+        else
+        begin
+          //dg1.Clear;
+          ShowMessage('엑셀의 내용이 없습니다.');
+        end;
+      end;//# if Execute then
+    end;//# with OpenDialog1 do
+  except
+    on E : Exception do
+    begin
+        EndProgress;
+        ExceptLogging(' 사전방문 등록 횟수 등록 오류 '+E.Message);
+    end;
+  end;
+end;
+
+procedure TfrmVisitinfo_insert.btnCancelClick(Sender: TObject);
+begin
+   edtdong.Text := '';
+   edtho.Text   := '';
+   edtVisitCount.Text := '';
+end;
+
+procedure TfrmVisitinfo_insert.btnCloseClick(Sender: TObject);
+begin
+   ModalResult := mrCancel;
+end;
+
+procedure TfrmVisitinfo_insert.btnDeleteClick(Sender: TObject);
+begin
+  with dmTables.qryTemp do
+  begin
+    if (edtdong.Text ='') and ( edtho.Text = '') then
+    begin
+       ShowMessage('동 호수를 입력하세요');
+       Exit;
+    end;
+
+    Close;
+    SQL.Clear;
+    SQL.Add('delete from Visitinfo_insert_icon where dong = :N1 and ho = :N2');
+    Parameters.ParamByName('N1').Value:= edtdong.Text;
+    Parameters.ParamByName('N2').Value:= edtho.Text;
+    Open;
+  end;
+end;
+
+procedure TfrmVisitinfo_insert.BtnExcelClick(Sender: TObject);
+begin
+   znSave_DBGridToExcel(dg1);
+end;
+
+procedure TfrmVisitinfo_insert.btnSaveClick(Sender: TObject);
+begin
+  with dmTables.qryTemp do
+  begin
+    if StrToInt(edtStandrard.Text) < StrToInt(edtVisitCount.Text) then
+    begin
+      ShowMessage('주차장에 설정된 차량 등록 횟수 기준 보다 많습니다.');
+      Exit;
+    end;
+
+
+    Close;
+    SQL.Clear;
+    SQL.Add('Select * from Visitinfo_insert_icon where dong = :N1 and ho = :N2');
+    Parameters.ParamByName('N1').Value:= edtdong.Text;
+    Parameters.ParamByName('N2').Value:= edtho.Text;
+    Open;
+    if RecordCount <= 0 then
+    begin
+       Close;
+       SQL.Clear;
+       SQL.Add('Insert into Visitinfo_insert_icon (dong, ho, visit_insert_standard, visit_insert_count) ' +
+                'values(:pDong, :pHo, :pvisit_insert_standard, :pvisit_insert_count)');
+       Parameters.ParamByName('pDong').Value := edtdong.Text;
+       Parameters.ParamByName('pHo').Value   := edtho.Text;
+       Parameters.ParamByName('pvisit_insert_standard').Value := edtStandrard.Text;
+       Parameters.ParamByName('pvisit_insert_count').Value    := edtVisitCount.Text;
+       ExecSQL;
+       ExceptLogging(' 사전방문 등록 횟수 추가 '+edtdong.Text+'/'+edtho.Text+' 등록횟수(기준)'+edtStandrard.Text+' 남은횟수'+edtVisitCount.Text);
+    end
+    else
+    begin
+      Close;
+      SQL.Clear;
+      SQL.Add('Update Visitinfo_insert_icon set visit_insert_standard = :pvisit_insert_standard, visit_insert_count = :pvisit_insert_count, visit_insert_precount = :pvisit_insert_precount ');
+      SQL.Add('where  dong = :pDong and ho = :pHo ');
+      Parameters.ParamByName('pDong').Value := edtdong.Text;
+      Parameters.ParamByName('pHo').Value   := edtho.Text;
+      Parameters.ParamByName('pvisit_insert_standard').Value := edtStandrard.Text;
+      Parameters.ParamByName('pvisit_insert_count').Value    := edtVisitCount.Text;
+      Parameters.ParamByName('pvisit_insert_precount').Value := dg1.Fields[4].AsString;
+      ExecSQL;
+      ExceptLogging(' 사전방문 등록 횟수 수정 '+edtdong.Text+'/'+edtho.Text+' 등록횟수(기준)'+edtStandrard.Text+' 남은횟수'+edtVisitCount.Text);
+    end;
+    btnSearchClick(self);
+  end;
+end;
+
+procedure TfrmVisitinfo_insert.btnSearchClick(Sender: TObject);
+begin
+   with qryVisit_Insert do
+   begin
+     Close;
+     sql.Clear;
+     SQL.Add('select convert(varchar(50), dong) as dong, convert(varchar(50), ho) as ho, ');
+     SQL.Add('visit_insert_standard, visit_insert_use, visit_insert_count, visit_insert_precount from visitinfo_insert_icon ');
+
+     if edtdong.Text <> '' then
+     begin
+        SQL.Add('where dong = :N1');
+        Parameters.ParamByName('N1').Value:= edtdong.Text;
+     end;
+
+     if edtho.Text <> '' then
+     begin
+        SQL.Add('and ho = :N2');
+        Parameters.ParamByName('N2').Value:= edtho.Text;
+     end;
+
+     SQL.Add(' Order by                                                               ');
+     SQL.Add(' CASE WHEN UPPER(substring (dong,1,1)) BETWEEN ''A'' AND ''Z'' THEN 1   ');
+     SQL.Add('  WHEN substring(dong,1,1)         BETWEEN ''0'' AND ''9'' THEN 2       ');
+     SQL.Add('end                                                                     ');
+     SQL.Add(',len(dong), UPPER(dong) asc,                                          ');
+     SQL.Add(' CASE WHEN UPPER(substring (ho,1,1)) BETWEEN ''A'' AND ''Z'' THEN 1   ');
+     SQL.Add('  WHEN substring(ho,1,1)         BETWEEN ''0'' AND ''9'' THEN 2       ');
+     SQL.Add('end                                                                   ');
+     SQL.Add(',len(ho), UPPER(ho) asc                                               ');
+     Open;
+
+     if RecordCount > 0 then
+     begin
+        BtnExcel.Enabled := True;
+     end
+     else
+     begin
+        BtnExcel.Enabled := false;
+     end;
+   end;
+end;
+
+procedure TfrmVisitinfo_insert.dg1CellClick(Column: TColumn);
+begin
+    edtdong.Text := dg1.Fields[0].AsString;
+    edtho.Text   := dg1.Fields[1].AsString;
+    edtVisitCount.Text := dg1.Fields[4].AsString;
+end;
+
+procedure TfrmVisitinfo_insert.FormShow(Sender: TObject);
+var
+  posText: Integer;
+  targetTest: string;
+begin
+  with qryTemp do
+  begin
+    Close;
+    SQL.Clear;
+    SQL.Add('select *  ');
+    SQL.Add('From ParkInfo ');
+    Open;
+
+    if RecordCount > 0 then
+    begin
+       posText    := Pos('/',FieldByName('visitinfoInsert').AsString);
+       targetTest := Copy(FieldByName('visitinfoInsert').AsString, 1, posText-1);
+       edtStandrard.Text := targetTest;
+    end;
+  end;
+end;
+
+procedure TfrmVisitinfo_insert.getExcelData(szFileName: String;
+  var vList: Variant; var nRow: Integer; nStartRow: Integer);
+var
+  i, j, k, nStart          : integer;
+  XLRows, XLCols, StartRow : integer;
+  XLApp, XLBook, XLSheet   : Variant;
+begin
+
+  VarClear(vList);
+
+  try
+    XLApp               := CreateOleObject('Excel.Application');      //# 엑셀프로그램 존재체크
+    XLApp.DisplayAlerts := False;                                     //# 메시지 표시 않기.
+    XLApp.Visible       := False;                                     //# 엑셀프로그램 숨김
+    XLBook              := XLApp.WorkBooks.Open(szFileName);          //# 엑셀파일 오픈
+    XLSheet             := XLBook.Sheets['Sheet1'];                   //# 엑셀시트 오픈
+    XLRows              := XLApp.ActiveSheet.UsedRange.Rows.Count;    //# 총 Rows 수 구함
+    //# 총 Columns 수 구함
+
+    XLCols              := XLApp.ActiveSheet.UsedRange.Columns.Count;
+
+    nStart   := 1;
+    StartRow := nStartRow;
+
+    //# variant 변수크기 설정
+    vList  := VarArrayCreate([0, XLRows -StartRow, 0, XLCols -nStart], varVariant);
+
+    gnRow := XLRows -StartRow + 1; //# 전체건수
+
+    for i := 0 to XLRows - StartRow do begin
+      if (Trim(XLSheet.Cells[i + StartRow, 1].Value) = '') then begin
+        Break;
+      end;
+
+      k := 0; //# StringGrid 의 Column 증가용. 초기값 부여.
+
+      for j := nStart to XLCols do begin
+        vList[i,k] := XLSheet.Cells[i + StartRow, j].Value;
+        Inc(K);
+      end;
+      gnRow := i;
+    end;
+
+  finally
+
+    //# 에러 발생하나 미발생하나 변수해제
+    XLBook.Close;
+    XLApp.Quit;
+    XLApp := UnAssigned;
+    Finalize(XLSheet);
+    Finalize(XLBook);
+    Finalize(XLApp);
+  end;
+
+end;
+
+end.

@@ -1,0 +1,16 @@
+object Day2_IOS_ION_Data: TDay2_IOS_ION_Data
+  Left = 0
+  Top = 0
+  Caption = #51068#48324' '#51077#52264'('#52636#52264','#51221#49328')'#54788#54889
+  ClientHeight = 299
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+end

@@ -1,0 +1,517 @@
+unit Parkinfo_Yo;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Data.Win.ADODB, Vcl.StdCtrls,
+  Vcl.Buttons, Vcl.Mask, AdvEdit, AdvCombo, AdvSpin, Vcl.Grids, AdvObj,
+  BaseGrid, AdvGrid, DBAdvGrid, Vcl.ExtCtrls, AdvPanel;
+
+type
+  TfrmParkInfo_yo = class(TForm)
+    AdvPanel1: TAdvPanel;
+    dbgValetParkInfo: TDBAdvGrid;
+    AdvPanel2: TAdvPanel;
+    lb1: TLabel;
+    edtParkNo: TAdvSpinEdit;
+    edtParkName: TAdvEdit;
+    edtAdmin: TAdvEdit;
+    edtRegNo: TAdvEdit;
+    edtTelephone: TAdvEdit;
+    edtReceipt: TAdvEdit;
+    edtParkAddr: TAdvEdit;
+    cmbCalcType: TAdvComboBox;
+    cmbHolidayProc: TAdvComboBox;
+    cmbAutoClosing: TAdvComboBox;
+    edtClosingTime: TAdvMaskEdit;
+    cmbReceipt: TAdvComboBox;
+    cmbZeroReceipt: TAdvComboBox;
+    cmbTax: TAdvComboBox;
+    cmbJunk: TAdvComboBox;
+    cmbRound: TAdvComboBox;
+    cmbTimeDC: TAdvComboBox;
+    cmbDCReason: TAdvComboBox;
+    cmbLostCalc: TAdvComboBox;
+    cmbSpecialTariff: TAdvComboBox;
+    cmbCommercialCar: TAdvComboBox;
+    cmbParkingDayMax: TAdvComboBox;
+    edtDayMax: TAdvSpinEdit;
+    edtTotMax: TAdvSpinEdit;
+    edtDCCntMax: TAdvSpinEdit;
+    edtLostAmt: TAdvSpinEdit;
+    cmbCurrencyType: TAdvComboBox;
+    cmbSaturdayProc: TAdvComboBox;
+    cmbOperation: TAdvComboBox;
+    cbTest: TCheckBox;
+    cmbFreeTime: TAdvComboBox;
+    edtFreeTimeS: TAdvMaskEdit;
+    edtFreeTimeE: TAdvMaskEdit;
+    edtRemainDsp: TAdvSpinEdit;
+    cmbClosingType: TAdvComboBox;
+    edtSeekDay: TAdvSpinEdit;
+    edtSaturdayMax: TAdvSpinEdit;
+    edtHolidayMax: TAdvSpinEdit;
+    btnSave: TBitBtn;
+    btnCancel: TBitBtn;
+    btnDelete: TBitBtn;
+    btnClose: TBitBtn;
+    qryParkInfo: TADOQuery;
+    qryParkInfoParkNo: TSmallintField;
+    strngfldParkInfoParkName: TStringField;
+    strngfldParkInfoParkAddr: TStringField;
+    strngfldParkInfoRegNo: TStringField;
+    strngfldParkInfoAdmin: TStringField;
+    strngfldParkInfoTelephone: TStringField;
+    strngfldParkInfoReceipt: TStringField;
+    qryParkInfoDayMax: TIntegerField;
+    qryParkInfoTotMax: TIntegerField;
+    wrdfldParkInfoCalcType: TWordField;
+    strngfldParkInfoClosingTime: TStringField;
+    wrdfldParkInfoAutoClosing: TWordField;
+    wrdfldParkInfoHolidayProc: TWordField;
+    wrdfldParkInfoSaturdayProc: TWordField;
+    wrdfldParkInfoReceiptAuto: TWordField;
+    wrdfldParkInfoReceiptZero: TWordField;
+    wrdfldParkInfoTaxType: TWordField;
+    wrdfldParkInfoJunkType: TWordField;
+    wrdfldParkInfoRoundType: TWordField;
+    wrdfldParkInfoTimeDCType: TWordField;
+    wrdfldParkInfoCurrencyType: TWordField;
+    wrdfldParkInfoDCReason: TWordField;
+    wrdfldParkInfoLostCalc: TWordField;
+    qryParkInfoLoatAmount: TIntegerField;
+    wrdfldParkInfoSpecialTariff: TWordField;
+    wrdfldParkInfoCommercialCar: TWordField;
+    wrdfldParkInfoParkingDayMax: TWordField;
+    wrdfldParkInfoDCCntMax: TWordField;
+    strngfldParkInfoVanIP: TStringField;
+    qryParkInfoVanPort: TIntegerField;
+    wrdfldParkInfoRemainDsp: TWordField;
+    strngfldParkInfoReserve1: TStringField;
+    strngfldParkInfoReserve2: TStringField;
+    strngfldParkInfoReserve3: TStringField;
+    strngfldParkInfoReserve4: TStringField;
+    strngfldParkInfoReserve5: TStringField;
+    wrdfldParkInfoClosingType: TWordField;
+    wrdfldParkInfoSeekDay: TWordField;
+    qryParkInfoSaturdayMax: TIntegerField;
+    qryParkInfoHolidayMax: TIntegerField;
+    wrdfldParkInfoTDNo: TWordField;
+    wrdfldParkInfoTDTKDate: TWordField;
+    qryParkInfoMichulKeep: TIntegerField;
+    dsParkInfo: TDataSource;
+    qryTemp: TADOQuery;
+    procedure btnCloseClick(Sender: TObject);
+    procedure btnDeleteClick(Sender: TObject);
+    procedure btnCancelClick(Sender: TObject);
+    procedure btnSaveClick(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure dbgValetParkInfoClick(Sender: TObject);
+  private
+    { Private declarations }
+    procedure frmClear;
+  public
+    { Public declarations }
+  end;
+
+var
+  frmParkInfo_yo: TfrmParkInfo_yo;
+  nSelect: Byte = 0;  //Insert:0, Modify:1;
+
+implementation
+uses
+  Tables, Global;
+
+{$R *.dfm}
+
+procedure TfrmParkInfo_yo.btnCancelClick(Sender: TObject);
+begin
+  frmClear;
+end;
+
+procedure TfrmParkInfo_yo.btnCloseClick(Sender: TObject);
+begin
+  qryParkInfo.Active:= False;
+  Close;
+end;
+
+procedure TfrmParkInfo_yo.btnDeleteClick(Sender: TObject);
+begin
+  try
+    if MessageDlg('선택한 주차장을 삭제할까요?', mtConfirmation, [mbYes, mbNo], 0) = mrNo then Exit;
+
+    with qryParkInfo do
+    begin
+      try
+        dmTables.ADODB.BeginTrans;
+        Close;
+        SQL.Clear;
+        SQL.Add('Delete from ParkInfo where ParkNo = :N1');
+        Parameters.ParamByName('N1').Value:= edtParkNo.Value;
+        ExecSQL;
+        dmTables.ADODB.CommitTrans;
+      except
+        on E: Exception do
+        begin
+          dmTables.ADODB.RollbackTrans;
+          ExceptLogging('TfrmParkInfo.btnDeleteClick: ' + aString(E.Message));
+          ShowMessage('삭제중 오류발생! 관리자에 문의바랍니다.');
+        end;
+      end;
+
+      Close;
+      SQL.Clear;
+      SQL.Add('Select * from ParkInfo');
+      Open;
+    end;
+    frmClear;
+  except
+    on E: Exception do ExceptLogging('TfrmParkInfo.btnDeleteClick: ' + aString(E.Message));
+  end;
+end;
+
+procedure TfrmParkInfo_yo.btnSaveClick(Sender: TObject);
+var
+  tChkTime: TDateTime;
+begin
+  try
+    if edtParkNo.Value = 0 then
+    begin
+      ShowMessage('주차장번호는 1번부터 저장이 가능합니다.');
+      edtParkNo.SetFocus;
+      Exit;
+    end;
+
+    if cmbFreeTime.ItemIndex = 1 then
+    begin
+      try
+        tChkTime:= StrToTime(edtFreeTimeS.Text);
+      except
+        on E: Exception do
+        begin
+          ShowMessage('무료개방시작시각을 정확히 입력하여주세요!');
+          edtFreeTimeS.SetFocus;
+          Exit;
+        end;
+      end;
+
+      try
+        tChkTime:= StrToTime(edtFreeTimeE.Text);
+      except
+        on E: Exception do
+        begin
+          ShowMessage('무료개방종료시각을 정확히 입력하여주세요!');
+          edtFreeTimeE.SetFocus;
+          Exit;
+        end;
+      end;
+    end;
+
+    with qryParkInfo do
+    begin
+      if nSelect = 0 then
+      begin
+        //추가...
+        with qryTemp do
+        begin
+          Close;
+          SQL.Clear;
+          SQL.Add('Select * from ParkInfo where ParkNo = :N1');
+          Parameters.ParamByName('N1').Value:= edtParkNo.Value;
+          Open;
+
+          if RecordCount > 0 then
+          begin
+            ShowMessage('해당 주차장번호가 이미 사용중입니다.'#13#10 +
+                        '주차장번호를 변경하여주세요!');
+            edtParkNo.SetFocus;
+            Exit;
+          end;
+        end;
+
+        try
+          dmTables.ADODB.BeginTrans;
+          Close;
+          SQL.Clear;
+          SQL.Add('Insert ParkInfo ');
+          SQL.Add('(ParkNo, ParkName, ParkAddr, RegNo, Admin, Telephone, Receipt, DayMax, TotMax, CalcType, ');
+          SQL.Add('ClosingTime, AutoClosing, HolidayProc, ReceiptAuto, ReceiptZero, TaxType, JunkType, ');
+          SQL.Add('RoundType, TimeDCType, CurrencyType, DCReason, LostCalc, LostAmount, SpecialTariff, ');
+          SQL.Add('CommercialCar, ParkingDayMax, DCCntMax, VanIP, VanPort, SaturdayProc, Reserve1, Reserve2, ');
+          SQL.Add('Reserve3, Reserve4, Reserve5, RemainDsp, ClosingType, SeekDay, SaturdayMax, HolidayMax) ');
+          SQL.Add('Values (:N1, :N2, :N3, :N4, :N5, :N6, :N7, :N8, :N9, :N10, :N11, :N12, :N13, :N14, :N15, ');
+          SQL.Add(':N16, :N17, :N18, :N19, :N20, :N21, :N22, :N23, :N24, :N25, :N26, :N27, :N28, :N29, :N30, :N31, ');
+          SQL.Add(':N32, :N33, :N34, :N35, :N36, :N37, :N38, :N39, :N40) ');
+          Parameters.ParamByName('N1' ).Value:= edtParkNo.Value;
+          Parameters.ParamByName('N2' ).Value:= edtParkName.Text;
+          Parameters.ParamByName('N3' ).Value:= edtParkAddr.Text;
+          Parameters.ParamByName('N4' ).Value:= edtRegNo.Text;
+          Parameters.ParamByName('N5' ).Value:= edtAdmin.Text;
+          Parameters.ParamByName('N6' ).Value:= edtTelephone.Text;
+          Parameters.ParamByName('N7' ).Value:= edtReceipt.Text;
+          Parameters.ParamByName('N8' ).Value:= edtDayMax.Value;
+          Parameters.ParamByName('N9' ).Value:= edtTotMax.Value;
+          Parameters.ParamByName('N10').Value:= cmbCalcType.ItemIndex;
+          Parameters.ParamByName('N11').Value:= edtClosingTime.Text;
+          Parameters.ParamByName('N12').Value:= cmbAutoClosing.ItemIndex;
+          Parameters.ParamByName('N13').Value:= cmbHolidayProc.ItemIndex;
+          Parameters.ParamByName('N14').Value:= cmbReceipt.ItemIndex;
+          Parameters.ParamByName('N15').Value:= cmbZeroReceipt.ItemIndex;
+          Parameters.ParamByName('N16').Value:= cmbTax.ItemIndex;
+          Parameters.ParamByName('N17').Value:= cmbJunk.ItemIndex;
+          Parameters.ParamByName('N18').Value:= cmbRound.ItemIndex;
+          Parameters.ParamByName('N19').Value:= cmbTimeDC.ItemIndex;
+          Parameters.ParamByName('N20').Value:= cmbCurrencyType.ItemIndex;
+          Parameters.ParamByName('N21').Value:= cmbDCReason.ItemIndex;
+          Parameters.ParamByName('N22').Value:= cmbLostCalc.ItemIndex;
+          Parameters.ParamByName('N23').Value:= edtLostAmt.Value;
+          Parameters.ParamByName('N24').Value:= cmbSpecialTariff.ItemIndex;
+          Parameters.ParamByName('N25').Value:= cmbCommercialCar.ItemIndex;
+          Parameters.ParamByName('N26').Value:= cmbParkingDayMax.ItemIndex;
+          Parameters.ParamByName('N27').Value:= edtDCCntMax.Value;
+          Parameters.ParamByName('N28').Value:= '';
+          Parameters.ParamByName('N29').Value:= 0;
+          Parameters.ParamByName('N30').Value:= cmbSaturdayProc.ItemIndex;
+          Parameters.ParamByName('N31').Value:= cmbOperation.Text;
+
+          if cbTest.Checked then
+            Parameters.ParamByName('N32').Value:= '테스트'
+          else
+            Parameters.ParamByName('N32').Value:= '';
+
+          Parameters.ParamByName('N33').Value:= edtFreeTimeS.Text;
+          Parameters.ParamByName('N34').Value:= edtFreeTimeE.Text;
+          Parameters.ParamByName('N35').Value:= IntToStr(cmbFreeTime.ItemIndex);
+          Parameters.ParamByName('N36').Value:= edtRemainDsp.Value;
+          Parameters.ParamByName('N37').Value:= cmbClosingType.ItemIndex;
+          Parameters.ParamByName('N38').Value:= edtSeekDay.Value;
+          Parameters.ParamByName('N39').Value:= edtSaturdayMax.Value;
+          Parameters.ParamByName('N40').Value:= edtHolidayMax.Value;
+          ExecSQL;
+          dmTables.ADODB.CommitTrans;
+        except
+          on E: Exception do
+          begin
+            dmTables.ADODB.RollbackTrans;
+            ExceptLogging('TfrmParkInfo.btnSaveClick: ' + aString(E.Message));
+            ShowMessage('저장중 오류발생! 관리자에 문의바랍니다.');
+          end;
+        end;
+      end
+      else
+      if nSelect = 1 then
+      begin
+        //수정...
+        try
+          dmTables.ADODB.BeginTrans;
+          Close;
+          SQL.Clear;
+          SQL.Add('Update ParkInfo ');
+          SQL.Add('Set ParkName = :N2, ParkAddr = :N3, RegNo = :N4, Admin = :N5, Telephone = :N6,  ');
+          SQL.Add('Receipt = :N7, DayMax = :N8, TotMax = :N9, CalcType = :N10, ClosingTime = :N11, ');
+          SQL.Add('AutoClosing = :N12, HolidayProc = :N13, ReceiptAuto = :N14, ReceiptZero = :N15, ');
+          SQL.Add('TaxType = :N16, JunkType = :N17, RoundType = :N18, TimeDCType = :N19, CurrencyType = :N20, ');
+          SQL.Add('DCReason = :N21, LostCalc = :N22, LostAmount = :N23, SpecialTariff = :N24, ');
+          SQL.Add('CommercialCar = :N25, ParkingDayMax = :N26, DCCntMax = :N27, VanIP = :N28, VanPort = :N29, ');
+          SQL.Add('SaturdayProc = :N30, Reserve1 = :N31, Reserve2 = :N32, Reserve3 = :N33, Reserve4 = :N34, ');
+          SQL.Add('Reserve5 = :N35, RemainDsp = :N36, ClosingType = :N37, SeekDay = :N38, ');
+          SQL.Add('SaturdayMax = :N39, HolidayMax = :N40 ');
+          SQL.Add('Where ParkNo = :N1');
+          Parameters.ParamByName('N1' ).Value:= edtParkNo.Value;
+          Parameters.ParamByName('N2' ).Value:= edtParkName.Text;
+          Parameters.ParamByName('N3' ).Value:= edtParkAddr.Text;
+          Parameters.ParamByName('N4' ).Value:= edtRegNo.Text;
+          Parameters.ParamByName('N5' ).Value:= edtAdmin.Text;
+          Parameters.ParamByName('N6' ).Value:= edtTelephone.Text;
+          Parameters.ParamByName('N7' ).Value:= edtReceipt.Text;
+          Parameters.ParamByName('N8' ).Value:= edtDayMax.Value;
+          Parameters.ParamByName('N9' ).Value:= edtTotMax.Value;
+          Parameters.ParamByName('N10').Value:= cmbCalcType.ItemIndex;
+          Parameters.ParamByName('N11').Value:= edtClosingTime.Text;
+          Parameters.ParamByName('N12').Value:= cmbAutoClosing.ItemIndex;
+          Parameters.ParamByName('N13').Value:= cmbHolidayProc.ItemIndex;
+          Parameters.ParamByName('N14').Value:= cmbReceipt.ItemIndex;
+          Parameters.ParamByName('N15').Value:= cmbZeroReceipt.ItemIndex;
+          Parameters.ParamByName('N16').Value:= cmbTax.ItemIndex;
+          Parameters.ParamByName('N17').Value:= cmbJunk.ItemIndex;
+          Parameters.ParamByName('N18').Value:= cmbRound.ItemIndex;
+          Parameters.ParamByName('N19').Value:= cmbTimeDC.ItemIndex;
+          Parameters.ParamByName('N20').Value:= cmbCurrencyType.ItemIndex;
+          Parameters.ParamByName('N21').Value:= cmbDCReason.ItemIndex;
+          Parameters.ParamByName('N22').Value:= cmbLostCalc.ItemIndex;
+          Parameters.ParamByName('N23').Value:= edtLostAmt.Value;
+          Parameters.ParamByName('N24').Value:= cmbSpecialTariff.ItemIndex;
+          Parameters.ParamByName('N25').Value:= cmbCommercialCar.ItemIndex;
+          Parameters.ParamByName('N26').Value:= cmbParkingDayMax.ItemIndex;
+          Parameters.ParamByName('N27').Value:= edtDCCntMax.Value;
+          Parameters.ParamByName('N28').Value:= '';
+          Parameters.ParamByName('N29').Value:= 0;
+          Parameters.ParamByName('N30').Value:= cmbSaturdayProc.ItemIndex;
+          Parameters.ParamByName('N31').Value:= cmbOperation.Text;
+
+          if cbTest.Checked then
+            Parameters.ParamByName('N32').Value:= '테스트'
+          else
+            Parameters.ParamByName('N32').Value:= '';
+
+          Parameters.ParamByName('N33').Value:= edtFreeTimeS.Text;
+          Parameters.ParamByName('N34').Value:= edtFreeTimeE.Text;
+          Parameters.ParamByName('N35').Value:= IntToStr(cmbFreeTime.ItemIndex);
+          Parameters.ParamByName('N36').Value:= edtRemainDsp.Value;
+          Parameters.ParamByName('N37').Value:= cmbClosingType.ItemIndex;
+          Parameters.ParamByName('N38').Value:= edtSeekDay.Value;
+          Parameters.ParamByName('N39').Value:= edtSaturdayMax.Value;
+          Parameters.ParamByName('N40').Value:= edtHolidayMax.Value;
+          ExecSQL;
+          dmTables.ADODB.CommitTrans;
+        except
+          on E: Exception do
+          begin
+            dmTables.ADODB.RollbackTrans;
+            ExceptLogging('TfrmParkInfo.btnSaveClick: ' + aString(E.Message));
+            ShowMessage('저장중 오류발생! 관리자에 문의바랍니다.');
+          end;
+        end;
+      end;
+      Close;
+      SQL.Clear;
+      SQL.Add('Select * from ParkInfo');
+      Open;
+
+      frmClear;
+    end;
+  except
+    on E: Exception do ExceptLogging('TfrmParkInfo.btnSaveClick: ' + aString(E.Message));
+  end;
+end;
+
+procedure TfrmParkInfo_yo.dbgValetParkInfoClick(Sender: TObject);
+begin
+ try
+  if qryParkInfo.RecordCount > 0 then
+    with qryParkInfo do
+    begin
+      edtParkNo.Value:= FieldByName('ParkNo').AsInteger;
+      edtParkName.Text:= FieldByName('ParkName').AsString;
+      edtAdmin.Text:= FieldByName('Admin').AsString;
+      edtRegNo.Text:= FieldByName('RegNo').AsString;
+      edtParkAddr.Text:= FieldByName('ParkAddr').AsString;
+      edtTelephone.Text:= FieldByName('Telephone').AsString;
+      edtReceipt.Text:= FieldByName('Receipt').AsString;
+      edtDayMax.Value:= FieldByName('DayMax').AsInteger;
+      edtSaturdayMax.Value:= FieldByName('SaturdayMax').AsInteger;
+      edtHolidayMax.Value:= FieldByName('HolidayMax').AsInteger;
+      edtTotMax.Value:= FieldByName('TotMax').AsInteger;
+      cmbCalcType.ItemIndex:= FieldByName('CalcType').AsInteger;
+      cmbHolidayProc.ItemIndex:= FieldByName('HolidayProc').AsInteger;
+      edtClosingTime.Text:= FieldByName('ClosingTime').AsString;
+      cmbAutoClosing.ItemIndex:= FieldByName('AutoClosing').AsInteger;
+      cmbReceipt.ItemIndex:= FieldByName('ReceiptAuto').AsInteger;
+      cmbZeroReceipt.ItemIndex:= FieldByName('ReceiptZero').AsInteger;
+      cmbTax.ItemIndex:= FieldByName('TaxType').AsInteger;
+      cmbJunk.ItemIndex:= FieldByName('JunkType').AsInteger;
+      cmbRound.ItemIndex:= FieldByName('RoundType').AsInteger;
+      cmbTimeDC.ItemIndex:= FieldByName('TimeDCType').AsInteger;
+      cmbDCReason.ItemIndex:= FieldByName('DCReason').AsInteger;
+      cmbLostCalc.ItemIndex:= FieldByName('LostCalc').AsInteger;
+      edtLostAmt.Value:= FieldByName('LostAmount').AsInteger;
+      cmbSpecialTariff.ItemIndex:= FieldByName('SpecialTariff').AsInteger;
+      cmbCommercialCar.ItemIndex:= FieldByName('CommercialCar').AsInteger;
+      cmbParkingDayMax.ItemIndex:= FieldByName('ParkingDayMax').AsInteger;
+      edtDCCntMax.Value:= FieldByName('DCCntMax').AsInteger;
+      cmbSaturdayProc.ItemIndex:= FieldByName('SaturdayProc').AsInteger;
+      cmbOperation.Text:= FieldByName('Reserve1').AsString;
+      edtRemainDsp.Value:= FieldByName('RemainDsp').AsInteger;
+
+      if FieldByName('Reserve5').AsString <> '' then
+        cmbFreeTime.ItemIndex:= StrToInt(FieldByName('Reserve5').AsString)
+      else
+        cmbFreeTime.ItemIndex:= 0;
+
+      edtFreeTimeS.Text:= FieldByName('Reserve3').AsString;
+      edtFreeTimeE.Text:= FieldByName('Reserve4').AsString;
+
+      if FieldByName('Reserve2').AsString = '테스트' then
+        cbTest.Checked:= True
+      else
+        cbTest.Checked:= False;
+
+      cmbClosingType.ItemIndex:= FieldByName('ClosingType').AsInteger;
+      edtSeekDay.Value:= FieldByName('SeekDay').AsInteger;
+
+      edtParkNo.Enabled:= False;
+      btnCancel.Enabled:= True;
+      btnDelete.Enabled:= True;
+
+      nSelect:= 1;
+    end;
+  except
+    on E: Exception do ExceptLogging('TfrmParkInfo.dgParkInfoClick: ' + aString(E.Message));
+  end;
+end;
+
+procedure TfrmParkInfo_yo.FormShow(Sender: TObject);
+begin
+  try
+    with qryParkInfo do
+    begin
+      Close;
+      SQL.Clear;
+      SQL.Add('Select * from ParkInfo');
+      Open;
+    end;
+    frmClear;
+  except
+    on E: Exception do ExceptLogging('TfrmParkInfo.FormShow: ' + aString(E.Message));
+  end;
+end;
+
+procedure TfrmParkInfo_yo.frmClear;
+begin
+  try
+    edtParkNo.Value:= 0;
+    edtParkName.Text:= '';
+    edtAdmin.Text:= '';
+    edtRegNo.Text:= '';
+    edtParkAddr.Text:= '';
+    edtTelephone.Text:= '';
+    edtReceipt.Text:= '';
+    edtDayMax.Value:= 0;
+    edtSaturdayMax.Value:= 0;
+    edtHolidayMax.Value:= 0;
+    edtTotMax.Value:= 0;
+    cmbCalcType.ItemIndex:= 0;
+    cmbHolidayProc.ItemIndex:= 0;
+    edtClosingTime.Text:= '00:00';
+    cmbAutoClosing.ItemIndex:= 0;
+    cmbReceipt.ItemIndex:= 0;
+    cmbZeroReceipt.ItemIndex:= 0;
+    cmbTax.ItemIndex:= 0;
+    cmbJunk.ItemIndex:= 0;
+    cmbRound.ItemIndex:= 0;
+    cmbTimeDC.ItemIndex:= 1;
+    cmbDCReason.ItemIndex:= 0;
+    cmbLostCalc.ItemIndex:= 1;
+    edtLostAmt.Value:= 0;
+    cmbSpecialTariff.ItemIndex:= 0;
+    cmbCommercialCar.ItemIndex:= 0;
+    cmbParkingDayMax.ItemIndex:= 0;
+    edtDCCntMax.Value:= 0;
+    cmbCurrencyType.ItemIndex:= 0;
+    cmbSaturdayProc.ItemIndex:= 0;
+    cmbOperation.ItemIndex:= 0;
+    edtRemainDsp.Value:= 0;
+    cbTest.Checked:= False;
+
+    edtParkNo.Enabled:= True;
+    btnDelete.Enabled:= False;
+    btnCancel.Enabled:= False;
+    nSelect:= 0;
+    edtParkNo.SetFocus;
+  except
+    on E: Exception do ExceptLogging('TfrmParkInfo.frmClear: ' + aString(E.Message));
+  end;
+end;
+
+end.
