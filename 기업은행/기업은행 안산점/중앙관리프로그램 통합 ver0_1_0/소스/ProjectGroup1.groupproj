@@ -1,0 +1,36 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{28D3006A-234C-48F8-A7EB-ED31FB5F4D79}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Nexpa_Host.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="Nexpa_Host">
+			<MSBuild Projects="Nexpa_Host.dproj"/>
+		</Target>
+		<Target Name="Nexpa_Host:Clean">
+			<MSBuild Targets="Clean" Projects="Nexpa_Host.dproj"/>
+		</Target>
+		<Target Name="Nexpa_Host:Make">
+			<MSBuild Targets="Make" Projects="Nexpa_Host.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="Nexpa_Host"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="Nexpa_Host:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="Nexpa_Host:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

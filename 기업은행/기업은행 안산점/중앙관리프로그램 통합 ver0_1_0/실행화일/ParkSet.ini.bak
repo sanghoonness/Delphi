@@ -1,0 +1,6 @@
+[PARKING]
+DB IP=127.0.0.1
+DB ID=parking_user
+DB PW=dbuser
+DB Name=parking
+Coupon No=40
